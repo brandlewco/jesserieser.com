@@ -1,0 +1,10 @@
+<section class="block block-media-1">
+  <div class="container">
+    <figure>
+      <img class="lazy" data-src="{{ .Site.Params.cloud }}/w_600,c_scale/{{ .Section.image }}" alt="{{ .Section.caption }}">
+      {{ if .Section.caption }}
+      <figcaption>{{ .Section.caption }}</figcaption>
+      {{ end }}
+    </figure>
+  </div>
+</section>

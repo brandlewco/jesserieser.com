@@ -1,0 +1,9 @@
+<script>
+{{ range $.Site.Data.gallery }}
+    var {{ .title | replaceRE "[^a-zA-Z]" "" | lower | safeJS }} = [
+        {{ range sort .figure }}
+            { src: "{{ .image }}", w: 0, h: 0, pid: {{ .image | replaceRE "[a-zA-Z-./:]" "" }}},
+        {{ end }}
+    ];
+{{ end }}
+</script>

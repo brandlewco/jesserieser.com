@@ -1,0 +1,61 @@
+---
+new_page_extension: md
+auto_deploy: true
+admin_path: ''
+webhook_url: 
+sections:
+- type: directory
+  path: content
+  label: Pages
+  create: all
+  match: "*"
+- type: heading
+  label: Photos
+- type: directory
+  path: content/collections
+  label: Collections
+  create: all
+  match: "**/*"
+  templates:
+  - collection-page-builder
+- type: directory
+  path: data/gallery
+  label: Galleries (data)
+  create: all
+  match: "*"
+  templates:
+  - gallery-builder
+- type: directory
+  path: content/gallery
+  label: Galleries
+  create: all
+  match: "**/*"
+  templates:
+  - gallery-builder
+- type: heading
+  label: Blog and News
+- type: directory
+  path: content/post
+  label: Posts
+  create: all
+  match: "**/*"
+upload_dir: static/uploads
+public_path: https://rieser.brandlew.co/uploads
+front_matter_path: ''
+use_front_matter_path: 
+file_template: ":filename:"
+instant_preview: true
+build:
+  preview_command: npm run build:forestry
+  publish_command: hugo -d public
+  preview_env:
+  - HUGO_ENV=staging
+  - HUGO_VERSION=0.55.2
+  - GIT_LFS_SKIP_SMUDGE=1
+  publish_env:
+  - HUGO_ENV=production
+  - HUGO_VERSION=0.55.2
+  preview_output_directory: dist
+  output_directory: public
+  instant_preview_command: npm run build:forestry
+version: 0.55.2

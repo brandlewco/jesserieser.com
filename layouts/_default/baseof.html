@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="{{ .Lang }}" class="overflow-y-scroll">
+  {{ partial "head" .}}
+  {{ partial "style_themer.html" .}}
+  <body class="{{ with.Title }}page-{{ lower . | urlize }}{{ end }}">
+    {{ partial "header" .}}
+    <main id="content" class="transition-page">
+      {{ block "main" .}}{{ end }}
+      {{ block "attached" .}}{{ end }}
+    </main>
+    {{ partial "footer" . }}
+    {{ template "_internal/google_analytics_async.html" . }}
+  </body>
+</html>

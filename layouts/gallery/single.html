@@ -1,0 +1,20 @@
+{{ define "main" }} {{ $section := .Site.GetPage "section" .Section }}
+<article class="content fixed inset-x-0 max-h-screen bg-black">
+
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            {{ range .Params.figure }}
+            <div class="swiper-slide flex justify-center items-center">
+                <img src="{{ .image }}" alt="{{.title}}">
+            </div>
+            {{end}}
+        </div>
+        <!-- Add Pagination -->
+        <div class="pagination z-50"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+</article>
+{{ end }}

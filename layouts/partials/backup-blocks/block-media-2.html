@@ -1,0 +1,20 @@
+<section class="container">
+  <div class="flex flex-col md:flex-row justify-between items-center mx-auto">
+    <div class="md:mr-2">
+      <figure style="background-color:{{.Section.image_1.color }};">
+        <img class="lazy" data-src="{{ .Section.image_1.image | relURL }}" alt="{{ .Section.image_1.caption }}">
+        <!-- {{ if .Section.image_1.caption }}
+        <figcaption>{{ .Section.image_1.caption }}</figcaption>
+        {{ end }} -->
+      </figure>        
+    </div>
+    <div class="md:ml-2">
+      <figure style="background-color:{{.Section.image_1.color }};">
+          <img class="lazy" data-src="{{ .Section.image_2.image | relURL }}" alt="{{ .Section.image_2.caption }}">
+          <!-- {{ if .Section.image_2.caption }}
+          <figcaption>{{ .Section.image_2.caption }}</figcaption>
+          {{ end }} -->
+      </figure>        
+    </div>
+  </div>
+</section>

@@ -1,0 +1,65 @@
+---
+label: collection-builder
+hide_body: true
+fields:
+- type: text
+  label: Title
+  name: title
+- type: datetime
+  name: date
+  label: Date
+- type: file
+  name: cover_image
+  label: Social Media Card
+  description: This image is what appears in OpenGraph previews and image masks
+- type: file
+  name: logo
+  label: Client Logo (not required)
+  description: upload project logo (if applicable)
+- type: text
+  name: layout
+  label: Layout
+  hidden: true
+  default: blocks
+- type: file
+  name: collection_cover
+  label: Cover Image
+- type: color
+  name: theme_color
+  config:
+    color_format: Hex
+  label: Theme Color
+- type: blocks
+  name: page_sections
+  label: Page Sections
+  template_types:
+  - navigation-header
+  - navigation-header-w-button
+  - simple-header
+  - text-only-hero-banner
+  - hero-banner-w-image
+  - content-feature
+  - detail-content
+  - 1-column-text
+  - 2-column-text
+  - 3-column-text
+  - full-width-media-element
+  - 2-column-media-element
+  - signup-bar
+  - simple-footer
+  - 4-column-footer
+- type: select
+  name: attached_gallery
+  config:
+    source:
+      type: pages
+      section: galleries
+  label: Attached Gallery
+- type: textarea
+  name: collection_content
+  label: Project Brief
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+  description: Write the project brief here

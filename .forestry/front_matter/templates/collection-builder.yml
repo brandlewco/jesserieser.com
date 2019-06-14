@@ -1,0 +1,69 @@
+---
+label: collection-builder
+hide_body: true
+fields:
+- type: text
+  label: Title
+  name: title
+- type: datetime
+  name: date
+  label: Date
+- type: select
+  name: attached_gallery
+  config:
+    source:
+      type: pages
+      section: galleries
+  label: Attached Gallery
+- type: file
+  name: logo
+  label: Client Logo (not required)
+  description: upload project logo (if applicable)
+- type: text
+  name: layout
+  label: Layout
+  hidden: true
+  default: blocks
+- type: file
+  name: collection_cover
+  label: Cover Image
+- type: color
+  name: theme_color
+  config:
+    color_format: Hex
+  label: Theme Color
+- type: textarea
+  name: collection_description
+  label: Project Description
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+  description: Used for the top of the collection, and google meta data. (300 characters)
+- type: blocks
+  name: page_sections
+  label: Page Sections
+  template_types:
+  - block-media
+  - block-media-2
+- type: textarea
+  name: collection_content
+  label: Project Brief
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+  description: Write the project brief here
+- type: file
+  name: cover_image
+  label: Social Media Card
+  description: This image is what appears in OpenGraph previews and image masks
+- type: select
+  name: navigation_theme
+  config:
+    source:
+      type: simple
+    options:
+    - white
+    - black
+  label: Navigation Theme

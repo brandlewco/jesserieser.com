@@ -1,0 +1,20 @@
+---
+label: "\U0001F304"
+hide_body: false
+fields:
+- type: text
+  hidden: true
+  label: block
+  name: block
+  default: media-1
+- name: layout_settings
+  type: include
+  config: {}
+  template: row-element
+  label: Layout Settings
+- type: include
+  name: image
+  label: Image
+  template: media-element
+  config:
+    template: media-element

@@ -1,0 +1,142 @@
+.r-mask {
+  mask-image: url(/img/r-mask.svg);
+  mask-mode: alpha;
+  mask-repeat: no-repeat;
+  mask-size: contain;
+  mask-position: left center;
+}
+
+transition active state (same for leave and enter)
+.fade-leave-active
+.fade-enter-active {
+  transition: 0.66s opacity cubic-bezier(0.550, 0.055, 0.675, 0.190);
+  transition-delay: 0.33s;
+}
+
+/* initial state */
+/* .fade-leave {
+  opacity: 1;
+}
+
+.fade-enter {
+  opacity: 0;
+} */
+
+/* ending state */
+/* .fade-leave-to {
+  opacity: 0;
+}
+
+.fade-enter-to {
+  opacity: 1;
+} */
+
+
+/* .fade-appear-active {
+  transition: 0.66s opacity cubic-bezier(0.550, 0.055, 0.675, 0.190);
+  transition-delay: 0.33s;
+}
+
+.fade-appear {
+  opacity: 0;
+}
+
+.fade-appear-to {
+  opacity: 1;
+} */
+
+.transition-page {
+  transition: 0.33s opacity cubic-bezier(0.550, 0.055, 0.675, 0.190);
+  transition-delay: 0.66s;
+  opacity: 1;
+}
+
+html.is-animating .transition-page{
+  opacity: 0;
+}
+
+.transition-nav {
+  transition: 0.33;
+  transition-delay: 0.66s;
+  opacity: 1;
+}
+
+html.is-animating .transition-nav{
+  opacity: 0;
+}
+
+
+#project-header {
+  transition: 0.33s opacity cubic-bezier(0.550, 0.055, 0.675, 0.190);
+  transition-delay: 0.66s;
+  opacity: 0;
+} 
+
+#project-description {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.33s transform ease-in;
+  transition-delay: 2s;
+  transform: translateY(100%);
+}
+
+#project-description.lazyloaded {
+  transform: translateY(0%);
+}
+
+img {
+  transition: 0.33s opacity cubic-bezier(0.550, 0.055, 0.675, 0.190);
+  transition-delay: 0.66s;
+  opacity: 1;
+  max-width: 100%;
+  height: auto;
+}
+img.lazyload {
+  opacity: 0;
+}
+
+img.lazyloaded, #project-header.lazyloaded, img.pswp__img  {
+  opacity: 1;
+}
+
+.block-hover figcaption {
+  opacity: 0;
+  transition: 0.33s opacity cubic-bezier(0.550, 0.055, 0.675, 0.190);
+}
+.block-hover article:hover figcaption {
+  opacity: 1;
+}
+
+@responsive {
+  .border-box {
+    box-sizing: border-box;
+  }
+  .content-box {
+    box-sizing: content-box;
+  }
+  .vh-20 {
+    height: 20vh;
+  }
+  .vh-25 {
+    height: 25vh;
+  }
+  .vh-33 {
+    height: 33vh;
+  }
+  .vh-50 {
+    height: 50vh;
+  }
+  .vh-75 {
+    height: 75vh;
+  }
+  .vh-80 {
+    height: 80vh;
+  }
+  .vh-90 {
+    height: 90vh;
+  }
+  .vh-screen {
+    height: 100vh;
+  }
+}

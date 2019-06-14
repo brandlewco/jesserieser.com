@@ -1,0 +1,44 @@
+---
+label: gallery-builder
+hide_body: true
+display_field: title
+fields:
+- type: text
+  label: Gallery Title
+  name: title
+- type: field_group_list
+  name: figure
+  label: Gallery Images
+  fields:
+  - type: file
+    name: image
+    label: Image
+  - type: text
+    name: title
+    label: Image Title
+  - type: tag_list
+    name: tags
+    label: Image Tags
+- type: file
+  name: cover_image
+  label: Cover Image
+  description: This image is what appears in OpenGraph previews and image masks
+  hidden: false
+- type: tag_list
+  name: gallery_tags
+  label: Gallery Tags
+- name: date
+  type: datetime
+  label: date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: now
+  hidden: true
+pages:
+- content/gallery/amtrak.md
+- content/gallery/xmas.md
+- content/gallery/addidas.md

@@ -1,0 +1,36 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <base href="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}">
+
+    {{- with .Title | default .Site.Title -}}
+    <title>{{ . }}</title>
+    <meta property="og:title" content="{{ . }}" />
+    <meta name="twitter:title" content="{{ . | truncate 70 }}" />
+    {{- end -}}
+    {{- with .Description | default .Params.subtitle | default .Summary -}}
+    <meta name="description" content="{{ . }}">
+    <meta property="og:description" content="{{ . }}">
+    <meta name="twitter:description" content="{{ . | truncate 200 }}">
+    {{- end -}}
+    <meta name="author" content="{{ .Site.Author.name }}"/>
+    <!-- <link href='{{ "" | absLangURL }}/favicon.ico' rel='icon' type='image/x-icon'/> -->
+
+    <meta property="og:url" content="{{ .Permalink | absLangURL }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="{{ .Site.Title }}" />
+    <link rel="canonical" href="{{ .Permalink | absLangURL }}" />
+    {{ partial "head_custom.html" . }}
+
+    {{ $script := .Site.Data.webpack.main }}
+    {{ with $script.js }}
+        <script src="{{ . | relURL }}" defer data-swup-ignore-script></script>
+    {{ end }}
+
+    {{ $stylesheet := .Site.Data.webpack.main }}
+    {{ with $stylesheet.css }}
+        <link href="{{ . | relURL }}" rel="stylesheet">
+    {{ end }}
+
+</head> 

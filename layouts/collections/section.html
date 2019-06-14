@@ -1,0 +1,13 @@
+{{- define "main" -}}
+<article class="content container mx-auto mt-32">
+            {{.Content}}
+            <ul>
+                <!-- Ranges through content/posts/*.md -->
+                {{ range .Pages }}
+                    <li>
+                        <a href="{{.Permalink}}">{{.Title}}</a>
+                    </li>
+                {{ end }}
+            </ul>    
+</article>
+{{- end -}}

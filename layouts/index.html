@@ -1,0 +1,8 @@
+{{- define "main" -}}
+    {{ partial "feature_header" .}}
+    <section data-hue="page" class="pt-8 container mx-auto">
+    {{- range .Params.page_sections -}}
+    {{ partial (printf "blocks/block-%s.html" .block) (dict "Section" . "Page" $) }}
+    {{- end -}}
+    </section>
+{{- end -}}

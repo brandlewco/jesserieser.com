@@ -1,0 +1,57 @@
+---
+label: media-element
+hide_body: false
+fields:
+- type: file
+  name: image
+  label: Image
+- type: text
+  name: caption
+  label: Caption
+- type: color
+  config:
+    color_format: Hex
+  label: Color
+  name: color
+  description: Background color show on image hover
+- type: select
+  name: width
+  config:
+    source:
+      type: simple
+      section: ''
+      path: ''
+    options:
+    - '10'
+    - '20'
+    - '30'
+    - '33'
+    - '40'
+    - '50'
+    - '60'
+    - '66'
+    - '70'
+    - '80'
+    - '90'
+    - '100'
+  label: Media Width
+  default: '50'
+- type: select
+  name: x
+  config:
+    source:
+      type: simple
+    options:
+    - start
+    - center
+    - end
+  label: Media Alignment (X)
+  description: left to right alignment
+  default: start
+- type: number
+  name: margin
+  label: Media Top Margin
+  config:
+    step: '10'
+    required: true
+  default: '0'

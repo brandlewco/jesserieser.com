@@ -1,0 +1,13 @@
+<section class="block block-feature-2 my-8">
+  <div class="container">
+    <div class="flex flex-row">
+      <div class="media pr-4">
+          <img class="lazy" data-src="{{ relURL .Section.media.image }}" alt="{{ .Section.media.alt_text }}">
+      </div>
+      <div class="text">
+          <h2><span class="text-grey-darker"></span>{{ safeHTML .Section.headline }}</span></h2>
+          <p>{{ safeHTML .Section.content }}</p>
+      </div>  
+    </div>
+  </div>
+</section>

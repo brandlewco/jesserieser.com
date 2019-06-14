@@ -1,0 +1,21 @@
+---
+label: block media 2
+hide_body: false
+fields:
+- type: text
+  hidden: true
+  label: block
+  name: block
+  default: media-2
+- type: field_group
+  name: image_1
+  label: " First Image"
+  fields:
+  - type: include
+    template: media-element
+- type: field_group
+  name: image_2
+  label: Second Image
+  fields:
+  - type: include
+    template: media-element

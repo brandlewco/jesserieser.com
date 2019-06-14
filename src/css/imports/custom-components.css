@@ -1,0 +1,33 @@
+.btn {
+  @apply bg-white font-bold py-2 px-4 rounded no-underline;
+}
+
+.hue-btn {
+  @apply font-light py-2 px-4 rounded no-underline text-white;
+  background-color: rgba(255,255,255,0.2);
+  &:hover {
+    background-color: rgba(255,255,255,0.4);
+  }
+}
+
+.hue-header.default .shift, .hue-header.black .shift{
+  @apply text-black;
+}
+
+.hue-header.white .shift{
+  @apply text-white;
+}
+
+a.shift:hover {
+  @apply text-black;
+}
+
+.btn-brief {
+  @apply font-light no-underline text-white w-full py-4;
+  background-color: rgba(255,255,255,0.1);
+  transition: 0.33s background-color ease-in-out;
+  &:hover {
+    background-color: rgba(255,255,255, 0.2);
+  }
+}
+

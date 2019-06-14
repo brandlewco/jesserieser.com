@@ -1,0 +1,10 @@
+---
+label: media-element
+hide_body: false
+fields:
+- type: file
+  name: image
+  label: Image
+- type: text
+  name: caption
+  label: Caption

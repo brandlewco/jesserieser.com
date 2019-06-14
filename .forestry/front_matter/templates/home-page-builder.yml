@@ -1,0 +1,46 @@
+---
+label: Home - Page Builder
+hide_body: true
+fields:
+- type: text
+  label: Title
+  name: title
+- type: datetime
+  name: date
+  label: Date
+- type: file
+  name: feature_logo
+  label: Feature Client Logo (not required)
+  description: upload project logo (if applicable)
+- type: text
+  name: layout
+  label: Layout
+  hidden: true
+  default: blocks
+- type: file
+  name: feature_cover
+  label: Feature Cover Image
+- type: color
+  name: feature_color
+  config:
+    color_format: Hex
+  label: Theme Color
+- type: textarea
+  name: feature_description
+  label: Project Description
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+  description: Used for the top of the collection, and google meta data. (300 characters)
+- type: blocks
+  name: page_sections
+  label: Page Sections
+  template_types:
+  - block-feature-collection
+- type: file
+  name: cover_image
+  label: Social Media Card
+  description: This image is what appears in OpenGraph previews and image masks
+pages:
+- content/_index.md

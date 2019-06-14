@@ -1,0 +1,34 @@
+---
+label: "\U0001F304 + \U0001F305"
+hide_body: true
+fields:
+- type: text
+  hidden: true
+  label: block
+  name: block
+  default: media-2
+- name: layout_settings
+  type: include
+  config: {}
+  template: row-element
+  label: Layout Settings
+- name: image_1
+  type: field_group
+  config: {}
+  fields:
+  - name: image_1
+    type: include
+    config: {}
+    template: media-element
+    label: First Image
+  label: First Image
+- name: image_2
+  type: field_group
+  config: {}
+  fields:
+  - name: second_image
+    type: include
+    config: {}
+    template: media-element
+    label: Second Image
+  label: Second Image
