@@ -39,6 +39,6 @@ fields:
   default: now
   hidden: true
 pages:
-- content/gallery/amtrak.md
-- content/gallery/xmas.md
 - content/gallery/addidas.md
+- content/gallery/xmas.md
+- content/gallery/amtrak.md
