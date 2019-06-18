@@ -2,12 +2,12 @@
 layout: blocks
 title: Amtrak
 date: 2017-11-01T23:00:00.000+00:00
-logo: https://rieser.brandlew.co/uploads/logo-amtrak-8.png
+logo: https://jesserieser.brandlew.co/uploads/logo-amtrak-8.png
 description: 
 page_sections: []
 attached_gallery: gallery/amtrak.md
 cover_image: ''
-collection_cover: https://rieser.brandlew.co/uploads/rieser-amtrak-2.jpg
+collection_cover: https://jesserieser.brandlew.co/uploads/rieser-amtrak-2.jpg
 collection_content: "Suspendisse viverra luctus purus id tempor. Donec id magna vitae
   arcu bibendum rutrum. Sed sollicitudin massa sem, quis posuere dolor vestibulum
   eget. Nullam id nisi a ex mollis ullamcorper. Sed at neque mattis, tempor sem sit

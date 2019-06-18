@@ -34,8 +34,8 @@ theme_color: "#FFCAB7"
 collection_description: ''
 collection_content: ''
 cover_image: ''
-feature_logo: https://rieser.brandlew.co/uploads/logo-amtrak-8.png
-feature_cover: https://rieser.brandlew.co/uploads/rieser-amtrak-2.jpg
+feature_logo: https://jesserieser.brandlew.co/uploads/logo-amtrak-8.png
+feature_cover: https://jesserieser.brandlew.co/uploads/rieser-amtrak-2.jpg
 feautre_color: "#FFCCC2"
 feature_description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
   hendrerit quam dapibus sem porttitor convallis. Integer convallis arcu non lectus
