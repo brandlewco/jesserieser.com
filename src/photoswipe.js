@@ -14,7 +14,8 @@ var initGalleryClick = function() {
     var options = {
       history: true,
       bgOpacity: 0.5,
-      closeOnScroll: false
+      closeOnScroll: false,
+      preload: [3, 3]
     };
     // Pass data to PhotoSwipe and initialize it
     options.index = parseInt(index, 10) - 1;
@@ -74,7 +75,8 @@ var initGalleryDOM = function() {
     var options = {
       history: true,
       bgOpacity: 0.5,
-      closeOnScroll: false
+      closeOnScroll: false,
+      preload: [3, 3]
     };
     // PhotoSwipe opened from URL
     if (fromURL) {
