@@ -2,6 +2,8 @@ import Swup from "swup";
 import SwupGaPlugin from "@swup/ga-plugin";
 import SwupBodyClassPlugin from "@swup/body-class-plugin";
 import SwupScriptsPlugin from "@swup/scripts-plugin";
+import SwupPreloadPlugin from "@swup/preload-plugin";
+import SwupScrollPlugin from "@swup/scroll-plugin";
 import "lazysizes";
 import "lazysizes/plugins/unveilhooks/ls.unveilhooks";
 import Midday from "midday.js";
@@ -12,7 +14,14 @@ const options = {
   animateHistoryBrowsing: true,
   plugins: [
     new SwupGaPlugin(),
+    new SwupPreloadPlugin(),
     new SwupBodyClassPlugin(),
+    new SwupScrollPlugin({
+      doScrollingRightAway: false,
+      animateScroll: true,
+      scrollFriction: 0.3,
+      scrollAcceleration: 0.04,
+    }),
     new SwupScriptsPlugin({
       head: true,
       body: true

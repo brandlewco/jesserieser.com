@@ -1,4 +1,6 @@
-<header id="project-header" class="flex flex-col justify-end w-full h-screen bg-cover bg-fixed overflow-hidden lazyload" data-hue="{{.Params.navigation_theme}}">
+<header id="project-header" class="flex flex-col justify-end w-full h-screen overflow-hidden lazyload" data-hue="{{.Params.navigation_theme}}">
+    <img src="{{.Params.collection_cover }}">
+    {{partial "rmask" .}}
     <section id="project-description" class="w-full py-4 px-8 text-lg leading-normal text-white items-center lazyload" style="background-color: {{.Params.theme_color}};">
         <div class="flex flex-row justify-end container mx-auto">
             <figure class="sm:w-1/5">

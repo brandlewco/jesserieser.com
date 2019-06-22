@@ -1,50 +1,39 @@
 .r-mask {
-  mask-image: url(/img/r-mask.svg);
+  mask-image: url(/r-mask.svg);
   mask-mode: alpha;
   mask-repeat: no-repeat;
-  mask-size: contain;
-  mask-position: left center;
+  mask-size: 300px;
+  mask-position: center;
+}
+header img {
+  position: fixed;
+  will-change: transform;
+  width: 100%;
+  z-index: -1;
+}
+header #mask svg {
+  display: block;
+}
+header #mask rect {
+  opacity: 1;
+}
+header #mask path {
+  transform: translateX(50%) translateX(-150px) translateY(50%) translateY(-170px);
+}
+header rect.cover {
+  opacity: 1;
+  transition: 1s opacity ease-in-out;
+  transition-delay: 2s;
+}
+header.lazyloaded rect.cover {
+  opacity: 0;
 }
 
-transition active state (same for leave and enter)
-.fade-leave-active
+/* .fade-leave-active
 .fade-enter-active {
   transition: 0.66s opacity cubic-bezier(0.550, 0.055, 0.675, 0.190);
   transition-delay: 0.33s;
-}
-
-/* initial state */
-/* .fade-leave {
-  opacity: 1;
-}
-
-.fade-enter {
-  opacity: 0;
 } */
-
-/* ending state */
-/* .fade-leave-to {
-  opacity: 0;
-}
-
-.fade-enter-to {
-  opacity: 1;
-} */
-
-
-/* .fade-appear-active {
-  transition: 0.66s opacity cubic-bezier(0.550, 0.055, 0.675, 0.190);
-  transition-delay: 0.33s;
-}
-
-.fade-appear {
-  opacity: 0;
-}
-
-.fade-appear-to {
-  opacity: 1;
-} */
-
 .transition-page {
   transition: 0.33s opacity cubic-bezier(0.550, 0.055, 0.675, 0.190);
   transition-delay: 0.66s;
@@ -65,25 +54,11 @@ html.is-animating .transition-nav{
   opacity: 0;
 }
 
-
 #project-header {
   transition: 0.33s opacity cubic-bezier(0.550, 0.055, 0.675, 0.190);
   transition-delay: 0.66s;
   opacity: 0;
 } 
-
-#project-description {
-  position: relative;
-  z-index: 1;
-  overflow: hidden;
-  transition: 0.33s transform ease-in;
-  transition-delay: 2s;
-  transform: translateY(100%);
-}
-
-#project-description.lazyloaded {
-  transform: translateY(0%);
-}
 
 img {
   transition: 0.33s opacity cubic-bezier(0.550, 0.055, 0.675, 0.190);
@@ -92,6 +67,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 img.lazyload {
   opacity: 0;
 }
