@@ -19,13 +19,6 @@ sections:
   templates:
   - collection-page-builder
 - type: directory
-  path: data/gallery
-  label: Galleries (data)
-  create: all
-  match: "*"
-  templates:
-  - gallery-builder
-- type: directory
   path: content/gallery
   label: Galleries
   create: all
