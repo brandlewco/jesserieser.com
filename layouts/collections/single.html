@@ -1,6 +1,6 @@
 {{- define "main" -}}
     {{ partial "collection_header" .}}
-    <section data-hue="page" class="py-8 bg-white">
+    <section data-hue="page" class="pt-8 mx-auto bg-white">
         <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
             {{- range .Params.collection_layout_builder -}}
                 {{ partial (printf "blocks/block-%s.html" .block) (dict "Section" . "Page" $) }}

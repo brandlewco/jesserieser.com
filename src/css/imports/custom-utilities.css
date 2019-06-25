@@ -1,10 +1,34 @@
-.r-mask {
-  mask-image: url(/r-mask.svg);
-  mask-mode: alpha;
-  mask-repeat: no-repeat;
-  mask-size: 300px;
-  mask-position: center;
+/* background loader */
+html.is-changing #loader {
+  background-color: #fff;
+  animation-name: loading-pulse;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
 }
+
+@keyframes loading-pulse {
+  0% {
+    background-color: #fff;
+  }
+  50% {
+    background-color: #dddddd;
+  }
+  100% {
+    background-color: #fff;
+  }
+}
+
+figure #mask-bg svg {
+  display: block;
+}
+figure #mask-bg rect {
+  opacity: 1;
+}
+figure #mask-bg path {
+  transform: translateX(50%) translateX(-150px) translateY(50%) translateY(-170px);
+}
+
+/* collections header and loader */
 header img {
   position: fixed;
   will-change: transform;
@@ -29,11 +53,6 @@ header.lazyloaded rect.cover {
   opacity: 0;
 }
 
-/* .fade-leave-active
-.fade-enter-active {
-  transition: 0.66s opacity cubic-bezier(0.550, 0.055, 0.675, 0.190);
-  transition-delay: 0.33s;
-} */
 .transition-page {
   transition: 0.33s opacity cubic-bezier(0.550, 0.055, 0.675, 0.190);
   transition-delay: 0.66s;
