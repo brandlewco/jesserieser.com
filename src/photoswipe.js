@@ -22,7 +22,7 @@ var initGalleryClick = function() {
     options.index = parseInt(index, 10) - 1;
     gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
     // console.log(items, index);
-    gallery.listen("gettingData", function(index, item) {
+    gallery.listen("imageLoadComplete", function(index, item) {
       if (item.w < 1 || item.h < 1) {
         // unknown size
         var img = new Image();
@@ -36,10 +36,10 @@ var initGalleryClick = function() {
         img.src = item.src; // let's download image
       }
     });
-    gallery.listen("unbindEvents", function() {
-      console.log("unbind");
-      gallery.updateSize(false); // clear items
-    });
+    // gallery.listen("unbindEvents", function() {
+    //   console.log("unbind");
+    //   gallery.updateSize(false); // clear items
+    // });
     gallery.init();
   };
 };
@@ -96,7 +96,7 @@ var initGalleryDOM = function() {
 
     // Pass data to PhotoSwipe and initialize it
     gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
-    gallery.listen("gettingData", function(index, item) {
+    gallery.listen("imageLoadComplete", function(index, item) {
       if (item.w < 1 || item.h < 1) {
         // unknown size
         var img = new Image();
@@ -110,10 +110,10 @@ var initGalleryDOM = function() {
         img.src = item.src; // let's download image
       }
     });
-    gallery.listen("unbindEvents", function() {
-      console.log("unbind");
-      gallery.updateSize(false); // clear items
-    });
+    // gallery.listen("unbindEvents", function() {
+    //   console.log("unbind");
+    //   gallery.updateSize(false); // clear items
+    // });
     gallery.init();
   };
   // Parse URL and open gallery if it contains #&pid=3&gid=1
