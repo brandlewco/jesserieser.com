@@ -16,7 +16,8 @@ var initGalleryClick = function() {
       bgOpacity: 0.8,
       closeOnScroll: false,
       closeOnVerticalDrag: false,
-      preload: [3, 3]
+      preload: [2, 3],
+      loadingIndicatorDelay: 0,
     };
     // Pass data to PhotoSwipe and initialize it
     options.index = parseInt(index, 10) - 1;
@@ -36,10 +37,6 @@ var initGalleryClick = function() {
         img.src = item.src; // let's download image
       }
     });
-    // gallery.listen("unbindEvents", function() {
-    //   console.log("unbind");
-    //   gallery.updateSize(false); // clear items
-    // });
     gallery.init();
   };
 };
@@ -82,7 +79,8 @@ var initGalleryDOM = function() {
       bgOpacity: 0.8,
       closeOnScroll: false,
       closeOnVerticalDrag: false,
-      preload: [3, 3],
+      preload: [2, 3],
+      loadingIndicatorDelay: 0,
     };
     // PhotoSwipe opened from URL
     if (fromURL) {
@@ -110,10 +108,6 @@ var initGalleryDOM = function() {
         img.src = item.src; // let's download image
       }
     });
-    // gallery.listen("unbindEvents", function() {
-    //   console.log("unbind");
-    //   gallery.updateSize(false); // clear items
-    // });
     gallery.init();
   };
   // Parse URL and open gallery if it contains #&pid=3&gid=1
