@@ -1,7 +1,6 @@
 import * as PhotoSwipe from "photoswipe";
 import * as PhotoSwipeUI_Default from "photoswipe/dist/photoswipe-ui-default";
 
-const updateScrollOffset = {};
 var initGalleryClick = function() {
   var x = document.querySelectorAll(".opengallery");
   for (let i = 0; i < x.length; i++) {
@@ -36,6 +35,10 @@ var initGalleryClick = function() {
         };
         img.src = item.src; // let's download image
       }
+    });
+    gallery.listen("unbindEvents", function() {
+      console.log("unbind");
+      gallery.updateSize(false); // clear items
     });
     gallery.init();
   };
@@ -106,6 +109,10 @@ var initGalleryDOM = function() {
         };
         img.src = item.src; // let's download image
       }
+    });
+    gallery.listen("unbindEvents", function() {
+      console.log("unbind");
+      gallery.updateSize(false); // clear items
     });
     gallery.init();
   };
