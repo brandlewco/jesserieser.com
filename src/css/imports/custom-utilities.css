@@ -3,7 +3,7 @@ html.is-changing #loader {
   opacity: 1;
 }
 #loader {
-  background: linear-gradient(to right, #eee 8%, #ddd 38%, #eee 54%);
+  background: linear-gradient(to right, #eee 0%, #e4e4e4 40%, #eee 80%);
   background-size: 400px 400px;
   animation-name: loading-pulse;
   animation-duration: 1s;
@@ -11,8 +11,9 @@ html.is-changing #loader {
   animation-timing-function: linear;
   animation-fill-mode: forwards;
   opacity: 0;
-  transition: 0.1s opacity cubic-bezier(0.550, 0.055, 0.675, 0.190);
+  transition: 0.33s opacity cubic-bezier(0.550, 0.055, 0.675, 0.190);
 }
+
 
 @keyframes loading-pulse {
   0%{

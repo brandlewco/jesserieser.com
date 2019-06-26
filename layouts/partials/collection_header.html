@@ -1,6 +1,6 @@
 <header id="project-header" class="w-screen h-screen lazyload bg-scroll bg-cover bg-center" data-hue="{{.Params.navigation_theme}}" style="background-image: url({{.Params.collection_cover }}{{.Site.Params.cover}})">
     {{partial "r-mask" .}}
-    <!-- <section id="project-description" class="w-full py-4 px-8 text-lg leading-normal text-white items-center lazyload" style="background-color: {{.Params.theme_color}};">
+    <section id="project-description" class="w-full py-4 px-8 text-lg leading-normal text-white items-center lazyload" style="background-color: {{.Params.theme_color}};">
         <div class="flex flex-row justify-end container mx-auto">
             <figure class="sm:w-1/5">
                 {{with .Params.logo}}<img data-src="{{. | relURL }}" class="lazyload w-24">{{else}}
@@ -12,6 +12,6 @@
                 <a href="{{.Page.Permalink}}#project-brief" class="px-8 py-2 text-right text-white font-light">more</a>
             </article>
         </div>
-    </section> -->
+    </section>
 </header>
 <!-- <div class="sticky top-0 h-32 w-full bg-white"></div> -->

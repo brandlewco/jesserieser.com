@@ -20,7 +20,7 @@ const options = {
       doScrollingRightAway: false,
       animateScroll: true,
       scrollFriction: 0.3,
-      scrollAcceleration: 0.04,
+      scrollAcceleration: 0.05,
     }),
     new SwupScriptsPlugin({
       head: true,
