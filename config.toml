@@ -15,4 +15,5 @@ relativeURLs = false
 hrefTargetBlank = false
 
 [params]
-img = "?nf_resize=fit&w=1200"
+cover = "?nf_resize=fit&w=2560"
+contain = "?nf_resize=fit&w=1280"

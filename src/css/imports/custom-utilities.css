@@ -11,7 +11,7 @@ html.is-changing #loader {
   animation-timing-function: linear;
   animation-fill-mode: forwards;
   opacity: 0;
-  transition: 0.33s opacity cubic-bezier(0.550, 0.055, 0.675, 0.190);
+  transition: 0.1s opacity cubic-bezier(0.550, 0.055, 0.675, 0.190);
 }
 
 @keyframes loading-pulse {
@@ -59,7 +59,7 @@ header.lazyloaded rect.cover {
 }
 
 .transition-page {
-  transition: 0.12s opacity cubic-bezier(0.550, 0.055, 0.675, 0.190);
+  transition: 0.33s opacity cubic-bezier(0.550, 0.055, 0.675, 0.190);
   transition-delay: 1s;
   opacity: 1;
 }
