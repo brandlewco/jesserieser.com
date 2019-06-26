@@ -1,20 +1,25 @@
 /* background loader */
 html.is-changing #loader {
-  background-color: #fff;
+  opacity: 1;
+}
+#loader {
+  background: linear-gradient(to right, #eee 8%, #ddd 38%, #eee 54%);
+  background-size: 400px 400px;
   animation-name: loading-pulse;
   animation-duration: 1s;
   animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  transition: 0.33s opacity cubic-bezier(0.550, 0.055, 0.675, 0.190);
 }
 
 @keyframes loading-pulse {
-  0% {
-    background-color: #fff;
+  0%{
+    background-position:-400px 0%;
   }
-  50% {
-    background-color: #dddddd;
-  }
-  100% {
-    background-color: #fff;
+  100%{
+    background-position:400px 0%;
   }
 }
 
@@ -47,14 +52,14 @@ header #mask path {
 header rect.cover {
   opacity: 1;
   transition: 1s opacity ease-in-out;
-  transition-delay: 2.66s;
+  transition-delay: 1.66s;
 }
 header.lazyloaded rect.cover {
   opacity: 0;
 }
 
 .transition-page {
-  transition: 0.33s opacity cubic-bezier(0.550, 0.055, 0.675, 0.190);
+  transition: 0.12s opacity cubic-bezier(0.550, 0.055, 0.675, 0.190);
   transition-delay: 1s;
   opacity: 1;
 }

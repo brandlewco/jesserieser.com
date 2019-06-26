@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ .Lang }}" class="overflow-y-scroll">
+<html lang="{{ .Lang }}" class="overflow-y-scroll overflow-x-hidden">
   {{ partial "head" .}}
   {{ partial "style_themer.html" .}}
   <body class="{{ with.Title }}page-{{ lower . | urlize }}{{ end }}">
