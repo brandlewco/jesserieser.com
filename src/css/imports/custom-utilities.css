@@ -47,7 +47,7 @@ header #mask path {
 header rect.cover {
   opacity: 1;
   transition: 1s opacity ease-in-out;
-  transition-delay: 2s;
+  transition-delay: 2.66s;
 }
 header.lazyloaded rect.cover {
   opacity: 0;
@@ -55,7 +55,7 @@ header.lazyloaded rect.cover {
 
 .transition-page {
   transition: 0.33s opacity cubic-bezier(0.550, 0.055, 0.675, 0.190);
-  transition-delay: 0.66s;
+  transition-delay: 1s;
   opacity: 1;
 }
 
