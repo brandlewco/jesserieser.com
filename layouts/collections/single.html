@@ -12,16 +12,16 @@
 
 {{- define "attached" -}}
 {{ $key := .Site.GetPage .Params.attached_gallery }}
+<script async>
+var items = [
+    {{ range sort $key.Params.figure }}
+        { src: "{{ .image }}", w: 0, h: 0, pid: "{{ .image | replaceRE "[a-zA-Z-./:]" "" }}"},
+    {{ end }}
+]
+</script>
 {{ $gallery := .Site.Data.webpack.gallery }}
 {{ with $gallery.js }}
-<script src="{{ . | relURL }}"></script>
+<script src="{{ . | relURL }}" async></script>
 {{ end }}
-<script>
-    var items = [
-        {{ range sort $key.Params.figure }}
-            { src: "{{ .image }}", w: 0, h: 0, pid: "{{ .image | replaceRE "[a-zA-Z-./:]" "" }}"},
-        {{ end }}
-    ]
-</script>
 {{ partial "gallery" . }}
 {{- end -}}

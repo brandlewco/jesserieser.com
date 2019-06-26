@@ -2,7 +2,6 @@ import * as PhotoSwipe from "photoswipe";
 import * as PhotoSwipeUI_Default from "photoswipe/dist/photoswipe-ui-default";
 
 const updateScrollOffset = {};
-
 var initGalleryClick = function() {
   var x = document.querySelectorAll(".opengallery");
   for (let i = 0; i < x.length; i++) {
@@ -18,7 +17,7 @@ var initGalleryClick = function() {
       bgOpacity: 0.8,
       closeOnScroll: false,
       closeOnVerticalDrag: false,
-      preload: [2, 2]
+      preload: [3, 3]
     };
     // Pass data to PhotoSwipe and initialize it
     options.index = parseInt(index, 10) - 1;
@@ -80,7 +79,7 @@ var initGalleryDOM = function() {
       bgOpacity: 0.8,
       closeOnScroll: false,
       closeOnVerticalDrag: false,
-      preload: [2, 2]
+      preload: [3, 3],
     };
     // PhotoSwipe opened from URL
     if (fromURL) {
