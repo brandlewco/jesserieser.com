@@ -50,21 +50,5 @@ function init() {
 }
 init();
 
-// var elms = document.getElementsByClassName("block-hover");
-// var n = elms.length;
-
-// function changeColor() {
-//   for (var i = 0; i < n; i++) {
-//     elms[i].classList.add("opacity-0");
-//   }
-// }
-// for (var i = 0; i < n; i++) {
-//   elms[i].onmouseover = function() {
-//     elms[i].classList.add("opacity-0");
-//   };
-//   elms[i].onmouseout = function() {
-//     changeColor("white");
-//   };
-// }
 
 import "./css/main.css";

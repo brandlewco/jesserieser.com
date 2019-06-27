@@ -178,7 +178,7 @@
 .pswp__share-tooltip {
   z-index: 1620;
   position: absolute;
-  background: #000;
+  background: #fff;
   top: 56px;
   border-radius: 2px;
   display: block;
@@ -236,7 +236,7 @@ a.pswp__share--facebook:before {
   top: -12px;
   right: 15px;
   border: 6px solid transparent;
-  border-bottom-color: #000;
+  border-bottom-color: #fff;
   -webkit-pointer-events: none;
   -moz-pointer-events: none;
   pointer-events: none;

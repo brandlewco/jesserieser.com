@@ -13,7 +13,7 @@ var initGalleryClick = function() {
     var pswpElement = document.querySelectorAll(".pswp")[0];
     var options = {
       history: true,
-      bgOpacity: 0.6,
+      bgOpacity: 0.75,
       // closeOnScroll: false,
       // closeOnVerticalDrag: false,
       preload: [2, 3],
@@ -73,7 +73,7 @@ var initGalleryDOM = function() {
     var pswpElement = document.querySelectorAll(".pswp")[0];
     var options = {
       history: true,
-      bgOpacity: 0.6,
+      bgOpacity: 0.75,
       // closeOnScroll: false,
       // closeOnVerticalDrag: false,
       preload: [2, 3],

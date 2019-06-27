@@ -1,3 +1,24 @@
+.transition-page {
+  transition: 0.33s opacity cubic-bezier(0.550, 0.055, 0.675, 0.190);
+  transition-delay: 0s;
+  opacity: 1;
+}
+
+html.is-animating .transition-page{
+  opacity: 0;
+}
+
+.transition-nav {
+  transition: 0.15s;
+  transition-delay: 0.15s;
+  opacity: 1;
+}
+
+html.is-animating .transition-nav{
+  opacity: 0;
+}
+
+
 /* background loader */
 html.is-changing #loader {
   opacity: 1;
@@ -55,26 +76,6 @@ header rect.cover {
   transition-delay: 1.66s;
 }
 header.lazyloaded rect.cover {
-  opacity: 0;
-}
-
-.transition-page {
-  transition: 0.33s opacity cubic-bezier(0.550, 0.055, 0.675, 0.190);
-  transition-delay: 1s;
-  opacity: 1;
-}
-
-html.is-animating .transition-page{
-  opacity: 0;
-}
-
-.transition-nav {
-  transition: 0.33;
-  transition-delay: 0.66s;
-  opacity: 1;
-}
-
-html.is-animating .transition-nav{
   opacity: 0;
 }
 
