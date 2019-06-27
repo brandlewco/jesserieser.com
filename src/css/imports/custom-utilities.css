@@ -14,7 +14,6 @@ html.is-changing #loader {
   transition: 0.33s opacity cubic-bezier(0.550, 0.055, 0.675, 0.190);
 }
 
-
 @keyframes loading-pulse {
   0%{
     background-position:-400px 0%;
@@ -101,11 +100,25 @@ img.lazyloaded, #project-header.lazyloaded, img.pswp__img  {
   opacity: 1;
 }
 
+
 .block-hover figcaption {
   opacity: 0;
   transition: 0.33s opacity cubic-bezier(0.550, 0.055, 0.675, 0.190);
 }
 .block-hover article:hover figcaption {
+  opacity: 1;
+}
+
+.block-hover img {
+  transition: 0.33s opacity cubic-bezier(0.550, 0.055, 0.675, 0.190);
+  transition-delay: 0s;
+}
+
+.group-hover:hover > .block-hover img {
+  opacity: 0;
+}
+
+.group-hover:hover > .block-hover:hover img {
   opacity: 1;
 }
 

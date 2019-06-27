@@ -13,9 +13,9 @@ var initGalleryClick = function() {
     var pswpElement = document.querySelectorAll(".pswp")[0];
     var options = {
       history: true,
-      bgOpacity: 0.8,
-      closeOnScroll: false,
-      closeOnVerticalDrag: false,
+      bgOpacity: 0.6,
+      // closeOnScroll: false,
+      // closeOnVerticalDrag: false,
       preload: [2, 3],
       loadingIndicatorDelay: 0,
     };
@@ -73,9 +73,9 @@ var initGalleryDOM = function() {
     var pswpElement = document.querySelectorAll(".pswp")[0];
     var options = {
       history: true,
-      bgOpacity: 0.8,
-      closeOnScroll: false,
-      closeOnVerticalDrag: false,
+      bgOpacity: 0.6,
+      // closeOnScroll: false,
+      // closeOnVerticalDrag: false,
       preload: [2, 3],
       loadingIndicatorDelay: 0,
     };

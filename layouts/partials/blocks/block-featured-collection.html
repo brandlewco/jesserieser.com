@@ -1,11 +1,11 @@
-<section class="container mx-auto block-featured-collection">
-  <a href="/{{substr .Section.attached_collection 0 -3 }}" class="block-hover">
-    <article class="flex flex-col">
-        <figure class="{{with .Section.x}}sm:self-{{.}}{{end}} w-100 {{with .Section.width}}sm:w-{{.}}/100{{end}} sm:relative block-hover" style="{{with .Section.margin}}margin-top:{{.}}px;{{end}}">
+<section class="container mx-auto block-featured-collection block-hover">
+  <a href="/{{substr .Section.attached_collection 0 -3 }}">
+    <article class="flex flex-col relative">
+        <figure class="{{with .Section.x}}self-{{.}}{{end}} w-100 {{with .Section.width}}sm:w-{{.}}/100{{end}}" style="{{with .Section.margin}}margin-top:{{.}}px;{{end}} background: {{.Section.color }};">
           <img src="{{ .Section.image | relURL }}?nf_resize=fit&w=1200" alt="{{ .Section.caption }}" />
           {{ if .Section.caption }}
-          <figcaption class="absolute top-0 inset-x-0 mx-auto w-screen h-screen container flex justify-center items-center z-50" style="pointer-events:none;">
-            <h2 class="uppercase text-4xl font-light" style="color:{{.Section.color }};">{{ .Section.caption }}</h2>
+          <figcaption class="absolute top-0 inset-x-0 mx-auto w-screen h-full container flex justify-center items-center z-50" style="pointer-events:none;">
+            <h2 class="uppercase text-6xl font-light" style="color:{{.Section.color }};">{{ .Section.caption }}</h2>
           </figcaption>
           {{ end }}
         </figure>    
