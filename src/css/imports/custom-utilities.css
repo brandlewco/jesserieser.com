@@ -1,6 +1,6 @@
 .transition-page {
   transition: 0.33s opacity cubic-bezier(0.550, 0.055, 0.675, 0.190);
-  transition-delay: 0s;
+  transition-delay: 0.15s;
   opacity: 1;
 }
 
@@ -17,7 +17,6 @@ html.is-animating .transition-page{
 html.is-animating .transition-nav{
   opacity: 0;
 }
-
 
 /* background loader */
 html.is-changing #loader {
