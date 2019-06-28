@@ -38,6 +38,10 @@ fields:
     display_utc: false
   default: now
   hidden: true
+- name: gallery_multi
+  type: image_gallery
+  config: {}
+  label: Gallery
 pages:
 - content/gallery/addidas.md
 - content/gallery/xmas.md
