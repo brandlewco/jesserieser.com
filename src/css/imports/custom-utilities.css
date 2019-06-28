@@ -71,11 +71,11 @@ header #mask path {
 }
 header rect.cover {
   opacity: 1;
-  transition: 1s opacity ease-in-out;
-  transition-delay: 1.66s;
+  transition: 0.33s opacity ease-in-out;
 }
 header.lazyloaded rect.cover {
   opacity: 0;
+  transition-delay: 2s;
 }
 
 #project-header {
@@ -99,7 +99,6 @@ img.lazyload {
 img.lazyloaded, #project-header.lazyloaded, img.pswp__img  {
   opacity: 1;
 }
-
 
 .block-hover figcaption {
   opacity: 0;
