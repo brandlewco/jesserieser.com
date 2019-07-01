@@ -11,9 +11,9 @@ navigation_theme = "white"
 theme_color = "#4A4A4A"
 title = "Addidas"
 [[collection_categories]]
-category = "black and white"
-[[collection_categories]]
 category = "lifestyle"
+[[collection_categories]]
+category = "black and white"
 [[collection_layout_builder]]
 block = "media-2"
 row_alignment = "between"
