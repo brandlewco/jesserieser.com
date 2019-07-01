@@ -96,10 +96,10 @@ fields:
       - motion
       - conceptual
       source:
-        type: pages
+        type: documents
         section: collection-categories
-        file: 
-        path: 
+        file: data/collection_cat.toml
+        path: categories
     label: Category
     description: sorting categories
   config:
