@@ -10,6 +10,10 @@ logo = ""
 navigation_theme = "white"
 theme_color = "#FF0000"
 title = "XMAS in America"
+[[collection_categories]]
+category = "lifestyle"
+[[collection_categories]]
+category = "color"
 [[collection_layout_builder]]
 block = "media-2"
 row_alignment = "between"
