@@ -1,13 +1,55 @@
 {{- define "main" -}}
 <article class="content container mx-auto mt-32">
-            {{.Content}}
+            <!-- {{.Content}}
             <ul>
-                <!-- Ranges through content/posts/*.md -->
                 {{ range .Pages }}
                     <li>
                         <a href="{{.Permalink}}">{{.Title}}</a>
                     </li>
                 {{ end }}
-            </ul>    
+            </ul>     -->
+    <div class="row">
+        <div class="col-4@sm col-3@md">
+        <div class="filters-group">
+            <label for="filters-search-input" class="filter-label">Search</label>
+            <input class="textfield filter__search js-shuffle-search" type="search" id="filters-search-input" />
+        </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12@sm filters-group-wrap">
+        <div class="filters-group">
+            <p class="filter-label">Filter</p>
+            <div class="btn-group filter-options">
+            <button class="btn btn--primary" data-group="black">Space</button>
+            <button class="btn btn--primary" data-group="nature">Nature</button>
+            <button class="btn btn--primary" data-group="animal">Animal</button>
+            <button class="btn btn--primary" data-group="city">City</button>
+            </div>
+        </div>
+        <!-- <fieldset class="filters-group">
+            <legend class="filter-label">Sort</legend>
+            <div class="btn-group sort-options">
+            <label class="btn active">
+                <input type="radio" name="sort-value" value="dom" checked /> Default
+            </label>
+            <label class="btn">
+                <input type="radio" name="sort-value" value="title" /> Title
+            </label>
+            <label class="btn">
+                <input type="radio" name="sort-value" value="date-created" /> Date Created
+            </label>
+            </div>
+        </fieldset> -->
+        </div>
+    </div>
+    </div>
+              
+    <div id="grid" class="flex flex-wrap my-shuffle-container">
+        {{ range .Pages }}
+        {{partial "collection_sorter_item" .}}
+        {{ end }}
+        <div class="sm:w-1/2 md:w-1/3 my-sizer-element"></div>
+    </div>
 </article>
 {{- end -}}
