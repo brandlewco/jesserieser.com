@@ -74,5 +74,10 @@ collection_layout_builder:
     width: 40
     x: end
     margin: 200
+collection_categories:
+- category: color
+- category: travel
+- category: lifestyle
+- category: landscapes
 
 ---
