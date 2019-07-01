@@ -76,7 +76,7 @@ fields:
   fields:
   - name: category
     type: select
-    default: []
+    default: lifestyle
     config:
       required: false
       options:
@@ -101,6 +101,7 @@ fields:
         file: 
         path: 
     label: Category
+    description: sorting categories
   config:
     min: 
     max: 
