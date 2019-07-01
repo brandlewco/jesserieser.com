@@ -26,6 +26,12 @@ sections:
   templates:
   - gallery-builder
 - type: heading
+  label: Configuration
+- type: document
+  path: data/collection_cat.toml
+  label: Collection Categories
+  match: "**/*"
+- type: heading
   label: Blog and News
 - type: directory
   path: content/post
