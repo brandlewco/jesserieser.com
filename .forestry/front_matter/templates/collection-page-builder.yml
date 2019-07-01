@@ -96,8 +96,8 @@ fields:
       - motion
       - conceptual
       source:
-        type: simple
-        section: 
+        type: pages
+        section: collection-categories
         file: 
         path: 
     label: Category
