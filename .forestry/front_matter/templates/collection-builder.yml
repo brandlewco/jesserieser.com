@@ -67,3 +67,7 @@ fields:
     - white
     - black
   label: Navigation Theme
+- name: collection_category
+  type: tag_list
+  default: []
+  label: Category
