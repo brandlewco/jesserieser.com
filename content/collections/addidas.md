@@ -11,9 +11,7 @@ navigation_theme = "white"
 theme_color = "#4A4A4A"
 title = "Addidas"
 [[collection_categories]]
-category = "travel"
-[[collection_categories]]
-category = "color"
+category = "black and white"
 [[collection_categories]]
 category = "lifestyle"
 [[collection_layout_builder]]
