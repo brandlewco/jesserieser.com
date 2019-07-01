@@ -98,7 +98,7 @@ fields:
       source:
         type: documents
         section: collection-categories
-        file: data/collection_cat.toml
+        file: data/categories/categories.toml
         path: categories
     label: Category
     description: sorting categories
