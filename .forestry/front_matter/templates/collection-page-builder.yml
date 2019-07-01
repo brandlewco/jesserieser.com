@@ -105,7 +105,7 @@ fields:
   config:
     min: 
     max: 
-    labelField: 
+    labelField: category
   label: Categories
 pages:
 - content/collections/xmas-in-america.md
