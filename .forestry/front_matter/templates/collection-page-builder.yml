@@ -71,6 +71,41 @@ fields:
   label: Layout
   hidden: true
   default: blocks
+- name: collection_categories
+  type: field_group_list
+  fields:
+  - name: category
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - humor
+      - landscapes
+      - black and white
+      - lifestyle
+      - details
+      - color
+      - motion
+      - portraits
+      - documentary
+      - finance
+      - stories
+      - workplace
+      - travel
+      - motion
+      - conceptual
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Category
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Categories
 pages:
 - content/collections/xmas-in-america.md
 - content/collections/addidas.md
