@@ -10,6 +10,12 @@ logo = "https://jesserieser.brandlew.co/uploads/logo-adidas-8.png"
 navigation_theme = "white"
 theme_color = "#4A4A4A"
 title = "Addidas"
+[[collection_categories]]
+category = "travel"
+[[collection_categories]]
+category = "color"
+[[collection_categories]]
+category = "lifestyle"
 [[collection_layout_builder]]
 block = "media-2"
 row_alignment = "between"
