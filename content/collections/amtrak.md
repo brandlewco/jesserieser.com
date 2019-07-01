@@ -77,7 +77,6 @@ collection_layout_builder:
 collection_categories:
 - category: color
 - category: travel
-- category: lifestyle
-- category: landscapes
+- category: landscape
 
 ---
