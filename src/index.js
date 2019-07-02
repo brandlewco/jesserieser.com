@@ -51,17 +51,16 @@ function init() {
   });
 
   //isotope
-  // filter functions
-  var filterFns = {
-    greaterThan50: function(itemElem) {
-      var number = itemElem.querySelector(".number").textContent;
-      return parseInt(number, 10) > 50;
-    },
-    even: function(itemElem) {
-      var number = itemElem.querySelector(".number").textContent;
-      return parseInt(number, 10) % 2 === 0;
-    }
-  };
+  // var filterFns = {
+  //   greaterThan50: function(itemElem) {
+  //     var number = itemElem.querySelector(".number").textContent;
+  //     return parseInt(number, 10) > 50;
+  //   },
+  //   even: function(itemElem) {
+  //     var number = itemElem.querySelector(".number").textContent;
+  //     return parseInt(number, 10) % 2 === 0;
+  //   }
+  // };
 
   // store filter for each group
   var filters = {};
@@ -69,6 +68,14 @@ function init() {
   // init Isotope
   var iso = new Isotope(".collection-grid", {
     itemSelector: ".collection-item",
+    layoutMode: "fitRows",
+    // only opacity for reveal/hide transition
+    hiddenStyle: {
+      opacity: 0
+    },
+    visibleStyle: {
+      opacity: 1
+    },
     filter: function(itemElem) {
 
       var isMatched = true;
@@ -76,7 +83,7 @@ function init() {
       for (var prop in filters) {
         var filter = filters[ prop ];
         // use function if it matches
-        filter = filterFns[ filter ] || filter;
+        filter = filter;
         // test each filter
         var filterType = typeof filter;
         if (filter && filterType === "function") {
