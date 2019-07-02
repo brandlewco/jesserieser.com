@@ -29,7 +29,7 @@ sections:
   label: Configuration
 - type: document
   path: data/categories/categories.toml
-  label: Collection Categories
+  label: Categories & Filters
 - type: heading
   label: Blog and News
 - type: directory
