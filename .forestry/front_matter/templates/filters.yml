@@ -5,6 +5,3 @@ fields:
 - type: list
   name: categories
   label: categories
-- type: list
-  name: filter
-  label: filter
