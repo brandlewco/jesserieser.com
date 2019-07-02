@@ -5,3 +5,7 @@ fields:
 - type: list
   name: categories
   label: categories
+- name: filter
+  type: tag_list
+  default: []
+  label: filter
