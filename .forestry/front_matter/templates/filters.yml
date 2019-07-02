@@ -9,3 +9,5 @@ fields:
   type: tag_list
   default: []
   label: filter
+pages:
+- data/categories/categories.toml
