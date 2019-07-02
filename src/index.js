@@ -8,6 +8,7 @@ import "lazysizes";
 import "lazysizes/plugins/unveilhooks/ls.unveilhooks";
 import Midday from "midday.js";
 import Isotope from "isotope-layout";
+import matchesSelector from "desandro-matches-selector";
 
 // Page Loader (SWUP)
 const options = {
@@ -49,7 +50,7 @@ function init() {
     sectionSelector: "hue"
   });
 
-  // Sorter
+  //isotope
   // filter functions
   var filterFns = {
     greaterThan50: function(itemElem) {
@@ -66,7 +67,7 @@ function init() {
   var filters = {};
 
   // init Isotope
-  var iso = new Isotope(".collection-sort", {
+  var iso = new Isotope(".collection-grid", {
     itemSelector: ".collection-item",
     filter: function(itemElem) {
 
@@ -78,7 +79,7 @@ function init() {
         filter = filterFns[ filter ] || filter;
         // test each filter
         var filterType = typeof filter;
-        if (filter && filterType == "function") {
+        if (filter && filterType === "function") {
           isMatched = filter(itemElem);
         } else if (filter) {
           isMatched = matchesSelector(itemElem, filter);
@@ -95,9 +96,6 @@ function init() {
 
   document.querySelector("#filters").addEventListener("click", function(event) {
   // only work with buttons
-    if (!matchesSelector(event.target, "button")) {
-      return;
-    }
     // get group key
     var buttonGroup = event.target.parentNode;
     var filterGroup = buttonGroup.getAttribute("data-filter-group");
@@ -117,15 +115,12 @@ function init() {
   function radioButtonGroup(buttonGroup) {
     buttonGroup.addEventListener("click", function(event) {
     // only work with buttons
-      if (!matchesSelector(event.target, "button")) {
-        return;
-      }
       buttonGroup.querySelector(".is-checked").classList.remove("is-checked");
       event.target.classList.add("is-checked");
     });
   }
 
-}
+} // end init.on
 init();
 
 import "./css/main.css";
