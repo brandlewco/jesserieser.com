@@ -1,15 +1,6 @@
-<figure class="sm:w-1/2 md:w-1/3 picture-item" data-groups='["{{range .Params.collection_categories}}{{.category}}, {{end}}"]' data-date-created="{{.Date}}" data-title="{{.Title}}">
-    <div class="picture-item__inner">
-        <div class="aspect aspect--16x9">
-        <div class="aspect__inner">
+<figure class="collection-item sm:w-1/2 md:w-1/3 {{range .Params.collection_categories}}{{.category | urlize}}{{end}}">
             <a href="{{.Permalink}}">
             <img src="{{.Params.collection_cover}}" srcset="{{.Params.collection_cover}}" alt="{{.Title}}" />
             </a>
-        </div>
-        </div>
-        <div class="picture-item__details">
-        <figcaption class="picture-item__title">{{.Title}}</figcaption>
-        <p class="picture-item__tags hidden@xs">nature</p>
-        </div>
-    </div>
+        <figcaption>{{.Title}}</figcaption>
 </figure>
