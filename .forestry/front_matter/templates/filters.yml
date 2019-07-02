@@ -2,8 +2,9 @@
 label: Filters
 hide_body: true
 fields:
-- type: list
-  name: categories
+- name: categories
+  type: tag_list
+  default: []
   label: categories
 - name: filter
   type: tag_list
