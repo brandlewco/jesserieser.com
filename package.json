@@ -74,14 +74,11 @@
     "@swup/scripts-plugin": "^1.0.1",
     "@swup/scroll-plugin": "^1.0.6",
     "browser-sync": "^2.26.7",
-    "desandro-matches-selector": "^2.0.2",
     "filterizr": "^2.1.0",
     "gulp": "^4.0.2",
-    "isotope-layout": "^3.0.6",
     "lazysizes": "^5.1.0",
     "midday.js": "^1.0.1",
     "photoswipe": "^4.1.3",
-    "shufflejs": "^5.2.2",
     "swup": "^2.0.4",
     "tailwindcss-flexbox-order": "^1.1.0"
   }
