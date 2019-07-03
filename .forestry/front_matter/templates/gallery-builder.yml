@@ -43,6 +43,7 @@ fields:
   config: {}
   label: Gallery
 pages:
+- content/gallery/retail.md
 - content/gallery/addidas.md
 - content/gallery/xmas.md
 - content/gallery/amtrak.md
