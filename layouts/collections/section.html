@@ -1,17 +1,13 @@
 {{- define "main" -}}
 <article class="content container mx-auto mt-32">
     {{partial "collection_sorter" .}}
-    <div class="flex flex-wrap filtr-container">
+    <section id="filter" class="filtr-container flex flex-wrap">
         {{ range .Pages }}
         {{partial "collection_sorter_item" .}}
         {{ end }}
-    </div>
+    </section>
 </article>
 {{- end -}}
 
 {{- define "attached" -}}
-{{ $filter := .Site.Data.webpack.filter }}
-{{ with $filter.js }}
-<script src="{{ . | relURL }}" async></script>
-{{ end }}
 {{- end -}}

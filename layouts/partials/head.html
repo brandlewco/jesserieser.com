@@ -25,7 +25,7 @@
 
     {{ $script := .Site.Data.webpack.main }}
     {{ with $script.js }}
-        <script src="{{ . | relURL }}" defer data-swup-ignore-script></script>
+        <script src="{{ . | relURL }}" defer></script>
     {{ end }}
 
     {{ $stylesheet := .Site.Data.webpack.main }}

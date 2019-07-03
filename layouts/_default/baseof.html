@@ -5,11 +5,13 @@
   <body class="{{ with.Title }}page-{{ lower . | urlize }}{{ end }}">
     {{ partial "header" .}}
     <main id="content" class="transition-page">
-      {{ block "main" .}}{{ end }}
-      {{ block "attached" .}}{{ end }}
+      {{ block "main" .}}
+      {{ end }}
+      {{ partial "footer" . }}
+      {{ partial "r-background" . }}
+      {{ template "_internal/google_analytics_async.html" . }}
+      {{ block "attached" .}}
+      {{ end }}
     </main>
-    {{ partial "footer" . }}
-    {{ partial "r-background" . }}
-    {{ template "_internal/google_analytics_async.html" . }}
   </body>
 </html>

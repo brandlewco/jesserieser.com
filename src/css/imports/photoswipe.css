@@ -61,11 +61,11 @@
   cursor: -moz-grabbing;
   cursor: grabbing;
 }
-
+/* 
 .pswp__container {
   will-change: transform;
   transition: transform 333ms cubic-bezier(0.4, 0, 0.22, 1);
-}
+} */
 
 /*
 	Background is added as a separate element.

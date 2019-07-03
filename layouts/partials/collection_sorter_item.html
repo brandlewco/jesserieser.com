@@ -1,6 +1,6 @@
-<figure class="filtr-item sm:w-1/2 md:w-1/3 p-2" data-category="{{range .Params.collection_categories}}{{.category | urlize}}, {{end}}">
-            <a href="{{.Permalink}}">
-            <img src="{{.Params.collection_cover}}" srcset="{{.Params.collection_cover}}" alt="{{.Title}}" />
-            </a>
-        <figcaption>{{.Title}}</figcaption>
+<figure class="filtr-item sm:w-1/2 md:w-1/3 p-2" data-category="{{range .Params.collection_categories}}{{.category | urlize}}, {{end}}" data-type="{{range .Params.collection_categories}}{{.filter | urlize}}, {{end}}">
+        <a href="{{.Permalink}}">
+            <img src="{{.Params.collection_cover}}" srcset="{{.Params.collection_cover}}" alt="{{.Title}}" class="lazyload" />
+        </a>
+        <figcaption class="absolute bottom-0 left-0 text-white">{{.Title}}</figcaption>
 </figure>

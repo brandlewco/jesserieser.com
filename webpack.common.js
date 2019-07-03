@@ -8,8 +8,7 @@ const AssetsPlugin = require("assets-webpack-plugin");
 module.exports = {
   entry: {
     main: path.join(__dirname, "src", "index.js"),
-    gallery: path.join(__dirname, "src", "photoswipe.js"),
-    filter: path.join(__dirname, "src", "filter.js")
+    gallery: path.join(__dirname, "src", "photoswipe.js")
   },
 
   output: {

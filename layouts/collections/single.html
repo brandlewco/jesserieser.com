@@ -11,6 +11,7 @@
 {{- end -}}
 
 {{- define "attached" -}}
+{{ partial "gallery" . }}
 {{ $key := .Site.GetPage .Params.attached_gallery }}
 <script async>
 var items = [
@@ -23,5 +24,4 @@ var items = [
 {{ with $gallery.js }}
 <script src="{{ . | relURL }}" async></script>
 {{ end }}
-{{ partial "gallery" . }}
 {{- end -}}

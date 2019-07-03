@@ -7,6 +7,7 @@ import SwupScrollPlugin from "@swup/scroll-plugin";
 import "lazysizes";
 import "lazysizes/plugins/unveilhooks/ls.unveilhooks";
 import Midday from "midday.js";
+import Filterizr from "filterizr";
 
 
 // Page Loader (SWUP)
@@ -49,6 +50,41 @@ function init() {
     innerClass: "hue-header-inner",
     sectionSelector: "hue"
   });
+  // filter
+  if (document.querySelector("#filter")) {
+    const filterizr = new Filterizr(".filtr-container", filtrOptions);
+    // Configure your options
+    const filtrOptions = {
+      animationDuration: 0.33, // in seconds
+      callbacks: {
+        onFilteringStart: function() { },
+        onFilteringEnd: function() { },
+        onShufflingStart: function() { },
+        onShufflingEnd: function() { },
+        onSortingStart: function() { },
+        onSortingEnd: function() { }
+      },
+      controlsSelector: "", // Selector for custom controls
+      delay: 0, // Transition delay in ms
+      delayMode: "alternate", // 'progressive' or 'alternate'
+      easing: "ease-out",
+      filter: "opacity", // Initial filter
+      filterOutCss: { // Filtering out animation
+        opacity: 0,
+        transform: "scale(1)"
+      },
+      filterInCss: { // Filtering in animation
+        opacity: 1,
+        transform: "scale(1)"
+      },
+      gridItemsSelector: ".filtr-item",
+      gridSelector: ".filtr-container",
+      layout: "sameSize", // See layouts
+      multifilterLogicalOperator: "and",
+      searchTerm: "",
+      setupControls: true // Should be false if controlsSelector is set
+    };
+  }
 } // end init.on
 init();
 
