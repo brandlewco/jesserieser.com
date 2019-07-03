@@ -9,7 +9,7 @@ module.exports = {
   entry: {
     main: path.join(__dirname, "src", "index.js"),
     gallery: path.join(__dirname, "src", "photoswipe.js"),
-    shuffle: path.join(__dirname, "src", "shuffle.js")
+    filter: path.join(__dirname, "src", "filter.js")
   },
 
   output: {

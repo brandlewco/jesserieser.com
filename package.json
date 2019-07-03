@@ -75,6 +75,7 @@
     "@swup/scroll-plugin": "^1.0.6",
     "browser-sync": "^2.26.7",
     "desandro-matches-selector": "^2.0.2",
+    "filterizr": "^2.1.0",
     "gulp": "^4.0.2",
     "isotope-layout": "^3.0.6",
     "lazysizes": "^5.1.0",

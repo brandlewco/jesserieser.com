@@ -7,8 +7,7 @@ import SwupScrollPlugin from "@swup/scroll-plugin";
 import "lazysizes";
 import "lazysizes/plugins/unveilhooks/ls.unveilhooks";
 import Midday from "midday.js";
-import Isotope from "isotope-layout";
-import matchesSelector from "desandro-matches-selector";
+
 
 // Page Loader (SWUP)
 const options = {
@@ -44,90 +43,20 @@ const swup = new Swup(options);
 
 swup.on("contentReplaced", init);
 function init() {
+  // midday
   const middayNav = new Midday(document.getElementById("navigation"), {
     headerClass: "hue-header",
     innerClass: "hue-header-inner",
     sectionSelector: "hue"
   });
-
-  //isotope
-  // var filterFns = {
-  //   greaterThan50: function(itemElem) {
-  //     var number = itemElem.querySelector(".number").textContent;
-  //     return parseInt(number, 10) > 50;
-  //   },
-  //   even: function(itemElem) {
-  //     var number = itemElem.querySelector(".number").textContent;
-  //     return parseInt(number, 10) % 2 === 0;
-  //   }
-  // };
-
-  // store filter for each group
-  var filters = {};
-
-  // init Isotope
-  var iso = new Isotope(".collection-grid", {
-    itemSelector: ".collection-item",
-    layoutMode: "fitRows",
-    // only opacity for reveal/hide transition
-    hiddenStyle: {
-      opacity: 0
-    },
-    visibleStyle: {
-      opacity: 1
-    },
-    filter: function(itemElem) {
-
-      var isMatched = true;
-
-      for (var prop in filters) {
-        var filter = filters[ prop ];
-        // use function if it matches
-        filter = filter;
-        // test each filter
-        var filterType = typeof filter;
-        if (filter && filterType === "function") {
-          isMatched = filter(itemElem);
-        } else if (filter) {
-          isMatched = matchesSelector(itemElem, filter);
-        }
-        // break if not matched
-        if (!isMatched) {
-          break;
-        }
-      }
-      return isMatched;
-    }
-
-  });
-
-  document.querySelector("#filters").addEventListener("click", function(event) {
-  // only work with buttons
-    // get group key
-    var buttonGroup = event.target.parentNode;
-    var filterGroup = buttonGroup.getAttribute("data-filter-group");
-    // set filter for group
-    filters[ filterGroup ] = event.target.getAttribute("data-filter");
-    // arrange, and use filter fn
-    iso.arrange();
-  });
-
-  // change is-checked class on buttons
-  var buttonGroups = document.querySelectorAll(".button-group");
-  for (var i = 0; i < buttonGroups.length; i++) {
-    var buttonGroup = buttonGroups[i];
-    radioButtonGroup(buttonGroup);
-  }
-
-  function radioButtonGroup(buttonGroup) {
-    buttonGroup.addEventListener("click", function(event) {
-    // only work with buttons
-      buttonGroup.querySelector(".is-checked").classList.remove("is-checked");
-      event.target.classList.add("is-checked");
-    });
-  }
-
 } // end init.on
 init();
+
+var buttons = document.getElementsByClassName("toggle");
+Array.prototype.forEach.call(buttons, function(button) {
+  button.addEventListener("click", function(event) {
+    button.classList.toggle("active");
+  });
+});
 
 import "./css/main.css";

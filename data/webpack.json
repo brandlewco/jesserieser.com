@@ -1,13 +1,13 @@
 {
+  "filter": {
+    "js": "filter.js"
+  },
   "gallery": {
     "js": "gallery.js"
   },
   "main": {
     "css": "main.css",
     "js": "main.js"
-  },
-  "shuffle": {
-    "js": "shuffle.js"
   },
   "": {
     "": "fonts/.keep"
