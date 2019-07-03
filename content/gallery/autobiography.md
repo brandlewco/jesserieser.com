@@ -1,5 +1,5 @@
 +++
-cover_image = "https://jesserieser.brandlew.co/uploads/Auto-1.jpg"
+cover_image = "https://jesserieser.brandlew.co/uploads/Auto-8.jpg"
 date = "2019-07-03T12:41:16-07:00"
 gallery_multi = []
 gallery_tags = []
@@ -192,4 +192,5 @@ title = "Image 46"
 image = "https://jesserieser.brandlew.co/uploads/Auto-47.jpg"
 tags = []
 title = "Image 47"
+
 +++
