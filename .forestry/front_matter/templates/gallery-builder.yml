@@ -43,6 +43,7 @@ fields:
   config: {}
   label: Gallery
 pages:
+- content/gallery/southwest-chief.md
 - content/gallery/star-geezers.md
 - content/gallery/time.md
 - content/gallery/wired.md
