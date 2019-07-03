@@ -1,5 +1,5 @@
 +++
-cover_image = ""
+cover_image = "https://jesserieser.brandlew.co/uploads/retail-10.jpg"
 date = "2019-07-03T12:40:37-07:00"
 gallery_multi = []
 gallery_tags = []
@@ -88,4 +88,5 @@ title = "Image 20"
 image = "https://jesserieser.brandlew.co/uploads/retail-21.jpg"
 tags = []
 title = "Image 21"
+
 +++
