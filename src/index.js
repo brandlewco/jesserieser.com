@@ -80,7 +80,7 @@ function init() {
       gridItemsSelector: ".filtr-item",
       gridSelector: ".filtr-container",
       layout: "sameSize", // See layouts
-      multifilterLogicalOperator: "and",
+      multifilterLogicalOperator: "or",
       searchTerm: "",
       setupControls: true // Should be false if controlsSelector is set
     };
