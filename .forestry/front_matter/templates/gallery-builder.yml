@@ -43,6 +43,7 @@ fields:
   config: {}
   label: Gallery
 pages:
+- content/gallery/autobiography.md
 - content/gallery/retail.md
 - content/gallery/addidas.md
 - content/gallery/xmas.md
