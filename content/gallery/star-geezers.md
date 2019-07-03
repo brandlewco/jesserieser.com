@@ -1,5 +1,5 @@
 +++
-cover_image = ""
+cover_image = "https://jesserieser.brandlew.co/uploads/geezers-1.jpg"
 date = "2019-07-03T12:43:00-07:00"
 gallery_multi = []
 gallery_tags = []
@@ -104,4 +104,5 @@ title = "Image 24"
 image = "https://jesserieser.brandlew.co/uploads/geezers-25.jpg"
 tags = []
 title = "Image 25"
+
 +++
