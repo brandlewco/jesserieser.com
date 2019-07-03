@@ -43,6 +43,8 @@ fields:
   config: {}
   label: Gallery
 pages:
+- content/gallery/time.md
+- content/gallery/wired.md
 - content/gallery/phoenix.md
 - content/gallery/autobiography.md
 - content/gallery/retail.md
