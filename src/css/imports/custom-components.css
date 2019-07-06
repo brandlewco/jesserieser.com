@@ -20,10 +20,17 @@
 }
 
 #navigation .menu {
-  transform: translateY(-200%);
+  /* transform: translateY(-200%); */
   transition: 0.33s all ease-in-out;
 }
-@media (min-width: 1280px) {
+
+@responsive {
+  .translate-0 {
+    transform: translateY(0%);
+  }
+  .translate-neg {
+    transform: translateY(-200%);
+  }
 }
 
 .hue-header h1, .hue-header button {
