@@ -1,6 +1,38 @@
+#navigation {
+  transition: 0.33s all ease-in-out;
+}
+
+#navigation.active {
+  @apply bg-white;
+  height: 100vh !important;
+
+  .hue-header.white .shift {
+      color: #000 !important; 
+  }
+
+  /* .hue-header.white button{
+    color: #000 !important;
+  } */
+
+  .menu {
+    transform: translateY(0%);
+  }
+}
+
+#navigation .menu {
+  transform: translateY(-200%);
+  transition: 0.33s all ease-in-out;
+}
+@media (min-width: 1280px) {
+}
+
+.hue-header h1, .hue-header button {
+  transition: 0.33s all ease-in-out;
+}
+
 .btn {
   @apply font-bold py-2 px-4 rounded cursor-pointer;
-  transition: 0.33s width ease-in-out;
+  transition: 0.33s background-color ease-in-out;
 }
 .btn.toggle.active:after {
   content: " x";

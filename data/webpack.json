@@ -1,4 +1,7 @@
 {
+  "filter": {
+    "js": "filter.js"
+  },
   "gallery": {
     "js": "gallery.js"
   },

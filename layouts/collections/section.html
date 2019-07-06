@@ -10,4 +10,8 @@
 {{- end -}}
 
 {{- define "attached" -}}
+{{ $filter := .Site.Data.webpack.filter }}
+{{ with $filter.js }}
+<script src="{{ . | relURL }}" async></script>
+{{ end }}
 {{- end -}}
