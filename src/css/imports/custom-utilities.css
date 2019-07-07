@@ -26,7 +26,7 @@ html.is-changing #loader {
   background: linear-gradient(to right, #eee 0%, #e4e4e4 40%, #eee 80%);
   background-size: 400px 400px;
   animation-name: loading-pulse;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-fill-mode: forwards;

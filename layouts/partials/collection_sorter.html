@@ -3,7 +3,7 @@
     <!-- For filtering controls add -->
     <!-- <button data-multifilter="all" class="btn btn-gray m-1 reset"> All items </button> -->
     {{range $.Site.Data.categories}}
-    {{range .categories}}
+    {{range sort .categories "value" "asc"}}
     <button data-multifilter="{{. | urlize}}" class="btn btn-gray m-1 toggle">{{.}}</button>
     {{end}}
     {{end}}

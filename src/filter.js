@@ -5,7 +5,7 @@ const filterizr = new Filterizr(".filtr-container");
 window.filterizr = filterizr;
 // Configure your options
 window.filterizr.setOptions({
-  animationDuration: 0.33, // in seconds
+  animationDuration: 0.1, // in seconds
   controlsSelector: "", // Selector for custom controls
   delay: 100, // Transition delay in ms
   delayMode: "alternate", // 'progressive' or 'alternate'
@@ -20,7 +20,7 @@ window.filterizr.setOptions({
     transform: "scale(1)"
   },
   gridItemsSelector: ".filtr-item",
-  layout: "sameSize", // See layouts
+  layout: "sameWidth", // See layouts
   multifilterLogicalOperator: "and",
   searchTerm: "",
   setupControls: true // Should be false if controlsSelector is set

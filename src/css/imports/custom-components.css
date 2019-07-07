@@ -20,7 +20,6 @@
 }
 
 #navigation .menu {
-  /* transform: translateY(-200%); */
   transition: 0.33s all ease-in-out;
 }
 
@@ -38,19 +37,18 @@
 }
 
 .btn {
-  @apply font-bold py-2 px-4 rounded cursor-pointer;
+  @apply font-medium py-1 px-2 rounded cursor-pointer text-base;
   transition: 0.33s background-color ease-in-out;
 }
-.btn.toggle.active:after {
-  content: " x";
-  font-weight: 100;
-}
+
 .btn-gray {
   @apply bg-gray-100 text-black;
 }
-.btn-gray:hover, .btn-gray.active {
+.btn-gray:hover {
   @apply bg-gray-200;
-  
+}
+.btn-gray.active {
+  @apply bg-gray-800 text-white;
 }
 
 .hue-btn {

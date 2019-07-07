@@ -13,22 +13,22 @@ const options = {
   containers: ["#content", "#navigation"],
   animateHistoryBrowsing: true,
   plugins: [
-    new SwupGaPlugin(),
-    new SwupPreloadPlugin(),
-    new SwupBodyClassPlugin(),
     new SwupScrollPlugin({
       doScrollingRightAway: false,
       animateScroll: true,
-      scrollFriction: 0.3,
-      scrollAcceleration: 0.05,
+      scrollFriction: 0.1,
+      scrollAcceleration: 0.04,
     }),
+    new SwupGaPlugin(),
+    new SwupPreloadPlugin(),
+    new SwupBodyClassPlugin(),
     new SwupScriptsPlugin({
       head: true,
       body: true
     }),
   ],
   preload: true,
-  cache: true, // DEVELOPMENT
+  cache: true,
   scroll: true,
   linkSelector: 'a[href^="' + window.location.origin + '"]:not([data-no-swup]), a[href^="/"]:not([data-no-swup]), a[href^="#"]:not([data-no-swup])',
   skipPopStateHandling: function(event) {
@@ -65,6 +65,5 @@ Array.prototype.forEach.call(navToggle, function(nav) {
     navigation.classList.toggle("active");
   });
 });
-
 
 import "./css/main.css";
