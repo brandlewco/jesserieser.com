@@ -42,13 +42,13 @@
 }
 
 .btn-gray {
-  @apply bg-gray-100 text-black;
+  @apply bg-gray-100 text-gray-700;
 }
 .btn-gray:hover {
   @apply bg-gray-200;
 }
 .btn-gray.active {
-  @apply bg-gray-800 text-white;
+  @apply bg-gray-700 text-white;
 }
 
 .hue-btn {
