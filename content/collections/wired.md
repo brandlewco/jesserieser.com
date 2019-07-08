@@ -5,15 +5,24 @@ collection_cover = "https://jesserieser.brandlew.co/uploads/wired-10.jpg"
 collection_description = "Suspendisse efficitur, odio a consequat euismod, turpis diam lacinia neque, non condimentum mi ipsum a ex. Phasellus ultricies finibus nisi. Nunc a nulla quis nisl molestie pellentesque ac eget felis. Donec quis neque dui. Mauris aliquam diam sed tellus volutpat nullam."
 cover_image = ""
 date = ""
+filter = "Commissioned + Stock"
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
 theme_color = "#FF0000"
 title = "Wired Backpage.com"
 [[collection_categories]]
-category = "color"
+category = "Editorial"
 [[collection_categories]]
-category = "lifestyle"
+category = "Conceptual"
+[[collection_categories]]
+category = "Environments"
+[[collection_categories]]
+category = "Black and White"
+[[collection_categories]]
+category = "Color"
+[[collection_categories]]
+category = "Portraits"
 [[collection_layout_builder]]
 block = "media-2"
 row_alignment = "between"
@@ -23,94 +32,94 @@ template = "block-media-2"
 caption = "caption"
 color = ""
 image = "/uploads/wired-1.jpg"
-margin = "150"
-width = "40"
+margin = 150
+width = 40
 x = "start"
 [collection_layout_builder.image_2]
 caption = "caption"
 color = ""
 image = "/uploads/wired-2.jpg"
-margin = "250"
-width = "40"
+margin = 250
+width = 40
 x = "start"
 [[collection_layout_builder]]
 block = "media-1"
 caption = ""
 color = ""
 image = "/uploads/wired-36.jpg"
-margin = "200"
+margin = 200
 row_alignment = "between"
-row_height = "25"
+row_height = 25
 template = "block-media"
-width = "80"
+width = 80
 x = "center"
 [[collection_layout_builder]]
 block = "media-2"
 row_alignment = "between"
-row_height = "25"
+row_height = 25
 template = "block-media-2"
 [collection_layout_builder.image_1]
 caption = "caption"
 color = ""
 image = "/uploads/wired-43.jpg"
-margin = "150"
-width = "30"
+margin = 150
+width = 30
 x = "start"
 [collection_layout_builder.image_2]
 caption = "caption"
 color = ""
 image = "/uploads/wired-45.jpg"
-margin = "300"
-width = "60"
+margin = 300
+width = 60
 x = "end"
 [[collection_layout_builder]]
 block = "media-2"
 row_alignment = "between"
-row_height = "25"
+row_height = 25
 template = "block-media-2"
 [collection_layout_builder.image_1]
 caption = ""
 color = ""
 image = "/uploads/wired-6.jpg"
-margin = "300"
-width = "50"
+margin = 300
+width = 50
 x = "start"
 [collection_layout_builder.image_2]
 caption = ""
 color = ""
 image = "/uploads/wired-9.jpg"
-margin = "250"
-width = "40"
+margin = 250
+width = 40
 x = "start"
 [[collection_layout_builder]]
 block = "media-1"
 caption = ""
 color = ""
 image = "/uploads/wired-39.jpg"
-margin = "300"
+margin = 300
 row_alignment = "between"
-row_height = "25"
+row_height = 25
 template = "block-media"
-width = "100"
+width = 100
 x = "start"
 [[collection_layout_builder]]
 block = "media-2"
 row_alignment = "between"
-row_height = "25"
+row_height = 25
 template = "block-media-2"
 [collection_layout_builder.image_1]
 caption = ""
 color = ""
 image = "/uploads/wired-15.jpg"
-margin = "200"
-width = "50"
+margin = 200
+width = 50
 x = "start"
 [collection_layout_builder.image_2]
 caption = "caption"
 color = ""
 image = "/uploads/wired-14.jpg"
-margin = "200"
-width = "50"
+margin = 200
+width = 50
 x = "end"
 
 +++
