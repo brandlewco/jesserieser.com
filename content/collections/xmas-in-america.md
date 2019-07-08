@@ -5,15 +5,28 @@ collection_cover = "https://jesserieser.brandlew.co/uploads/rieser-xmas-55.jpg"
 collection_description = "Suspendisse efficitur, odio a consequat euismod, turpis diam lacinia neque, non condimentum mi ipsum a ex. Phasellus ultricies finibus nisi. Nunc a nulla quis nisl molestie pellentesque ac eget felis. Donec quis neque dui. Mauris aliquam diam sed tellus volutpat nullam."
 cover_image = ""
 date = ""
+filter = "Personal"
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
 theme_color = "#FF0000"
 title = "Christmas In America"
 [[collection_categories]]
-category = "color"
+category = "Uniquely American"
 [[collection_categories]]
-category = "lifestyle"
+category = "Humor"
+[[collection_categories]]
+category = "Travel"
+[[collection_categories]]
+category = "Reportage"
+[[collection_categories]]
+category = "Conceptual"
+[[collection_categories]]
+category = "Portraits"
+[[collection_categories]]
+category = "Environments"
+[[collection_categories]]
+category = "Color"
 [[collection_layout_builder]]
 block = "media-2"
 row_alignment = "between"
