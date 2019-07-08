@@ -75,10 +75,12 @@ collection_layout_builder:
     x: end
     margin: 200
 collection_categories:
+- category: Uniquely American
 - category: Color
 - category: Reportage
 - category: Travel
 - category: Environments
 - category: Portraits
+filter: Commissioned + Stock
 
 ---
