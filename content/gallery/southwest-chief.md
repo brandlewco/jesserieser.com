@@ -1,8 +1,9 @@
 +++
-cover_image = "https://jesserieser.brandlew.co/uploads/rieser-xmas-40.jpg"
-date = "2019-05-20T15:36:34-07:00"
+cover_image = ""
+date = "2019-07-03T12:43:16-07:00"
+gallery_multi = []
 gallery_tags = []
-title = "Christmas In America"
+title = "Southwest Chief"
 [[figure]]
 image = "https://jesserieser.brandlew.co/uploads/rieser-xmas-1.jpg"
 tags = []
@@ -311,5 +312,6 @@ title = "Image 76"
 image = "https://jesserieser.brandlew.co/uploads/rieser-xmas-77.jpg"
 tags = []
 title = "Image 77"
+
 
 +++

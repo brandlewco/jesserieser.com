@@ -2,7 +2,7 @@
 cover_image = ""
 gallery_tags = []
 multi-gallery = []
-title = "Amtrak"
+title = "Southwest Chief"
 [[figure]]
 image = "https://jesserieser.brandlew.co/uploads/rieser-amtrak-1.jpg"
 tags = []

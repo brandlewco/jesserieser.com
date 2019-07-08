@@ -3,7 +3,7 @@ cover_image = ""
 date = "2019-07-03T12:42:41-07:00"
 gallery_multi = []
 gallery_tags = []
-title = "Wired"
+title = "Wired Backpage.com"
 [[figure]]
 image = "https://jesserieser.brandlew.co/uploads/wired-1.jpg"
 tags = []

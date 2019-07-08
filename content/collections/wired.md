@@ -9,7 +9,7 @@ layout = "blocks"
 logo = ""
 navigation_theme = "white"
 theme_color = "#FF0000"
-title = "Wired"
+title = "Wired Backpage.com"
 [[collection_categories]]
 category = "color"
 [[collection_categories]]
