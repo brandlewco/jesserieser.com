@@ -71,6 +71,18 @@ fields:
   label: Layout
   hidden: true
   default: blocks
+- name: filter
+  type: select
+  default: Personal
+  config:
+    required: false
+    options: []
+    source:
+      type: documents
+      section: collection-categories-b99848d2-f046-4ce8-b54c-5ae03cdbdc4b
+      file: data/categories/categories.toml
+      path: filter
+  label: Work Type
 - name: collection_categories
   type: field_group_list
   fields:
