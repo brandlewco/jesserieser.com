@@ -6,71 +6,9 @@ fields:
 - type: text
   label: Title
   name: title
-- type: select
-  name: attached_gallery
-  config:
-    source:
-      type: pages
-      section: galleries
-  label: Attached Gallery
 - type: datetime
   name: date
   label: Publish Date
-- type: file
-  name: logo
-  label: Client Logo (not required)
-  description: upload project logo (if applicable)
-- type: file
-  name: collection_cover
-  label: Cover Image
-- name: collection_layout_builder
-  type: blocks
-  label: Layout Builder
-  template_types:
-  - block-media
-  - block-media-2
-  config:
-    min: 
-    max: 
-- type: textarea
-  name: collection_description
-  label: Project Description
-  config:
-    wysiwyg: true
-    schema:
-      format: markdown
-  description: Used for the top of the collection, and google meta data. (300 characters)
-- type: textarea
-  name: collection_content
-  label: Project Brief
-  config:
-    wysiwyg: true
-    schema:
-      format: markdown
-  description: Write the project brief here
-- type: color
-  name: theme_color
-  config:
-    color_format: Hex
-  label: Theme Color
-- type: select
-  name: navigation_theme
-  config:
-    source:
-      type: simple
-    options:
-    - white
-    - black
-  label: Navigation Theme
-- type: file
-  name: cover_image
-  label: Social Media Card
-  description: This image is what appears in OpenGraph previews and image masks
-- type: text
-  name: layout
-  label: Layout
-  hidden: true
-  default: blocks
 - name: filter
   type: select
   default: Personal
@@ -119,6 +57,68 @@ fields:
     max: 
     labelField: category
   label: Categories
+- type: select
+  name: attached_gallery
+  config:
+    source:
+      type: pages
+      section: galleries
+  label: Attached Gallery
+- type: file
+  name: collection_cover
+  label: Cover Image
+- type: file
+  name: logo
+  label: Client Logo (not required)
+  description: upload project logo (if applicable)
+- type: color
+  name: theme_color
+  config:
+    color_format: Hex
+  label: Theme Color
+- type: select
+  name: navigation_theme
+  config:
+    source:
+      type: simple
+    options:
+    - white
+    - black
+  label: Navigation Theme
+- type: textarea
+  name: collection_description
+  label: Project Description
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+  description: Used for the top of the collection, and google meta data. (300 characters)
+- type: textarea
+  name: collection_content
+  label: Project Brief
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+  description: Write the project brief here
+- name: collection_layout_builder
+  type: blocks
+  label: Layout Builder
+  template_types:
+  - block-media
+  - block-media-2
+  config:
+    min: 
+    max: 
+- type: text
+  name: layout
+  label: Layout
+  hidden: true
+  default: blocks
+- type: file
+  name: cover_image
+  label: Social Media Card
+  description: This image is what appears in OpenGraph previews and image masks
 pages:
 - content/collections/xmas-in-america.md
 - content/collections/addidas.md
