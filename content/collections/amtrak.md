@@ -75,8 +75,10 @@ collection_layout_builder:
     x: end
     margin: 200
 collection_categories:
-- category: color
-- category: travel
-- category: landscape
+- category: Color
+- category: Reportage
+- category: Travel
+- category: Environments
+- category: Portraits
 
 ---
