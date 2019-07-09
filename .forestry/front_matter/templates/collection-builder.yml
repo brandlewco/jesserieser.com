@@ -45,6 +45,7 @@ fields:
   label: Page Sections
   template_types:
   - block-media
+  - block-text
   - block-media-2
   - block-media-mix
 - type: textarea
