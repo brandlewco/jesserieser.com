@@ -46,6 +46,7 @@ fields:
   template_types:
   - block-media
   - block-media-2
+  - block-media-mix
 - type: textarea
   name: collection_content
   label: Project Brief
