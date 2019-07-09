@@ -1,19 +1,15 @@
 ---
-label: media-element
+label: text-element
 hide_body: false
 fields:
-- type: file
-  name: image
-  label: Image
 - type: text
   name: caption
   label: Caption
 - type: color
   config:
     color_format: Hex
-  label: Color
+  label: Text Color
   name: color
-  description: Background color show on image hover
 - type: select
   name: width
   config:
@@ -34,7 +30,7 @@ fields:
     - '80'
     - '90'
     - '100'
-  label: Media Width
+  label: Width
   default: '50'
 - type: select
   name: x
@@ -45,12 +41,12 @@ fields:
     - start
     - center
     - end
-  label: Media Alignment (X)
+  label: Alignment (X)
   description: left to right alignment
   default: start
 - type: number
   name: margin
-  label: Media Top Margin
+  label: Top Margin
   config:
     step: '10'
     required: true
