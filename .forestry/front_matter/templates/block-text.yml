@@ -1,5 +1,5 @@
 ---
-label: "\U0001F304"
+label: "\U0001F524"
 hide_body: false
 fields:
 - type: text
@@ -13,8 +13,8 @@ fields:
   template: row-element
   label: Layout Settings
 - type: include
-  name: image
-  label: Image
+  name: text
+  label: Text
   template: text-element
   config:
     template: text-element
