@@ -38,3 +38,8 @@ fields:
       path: 
   label: Row Alignment
   description: Left to Right alignment
+- name: row_order
+  type: boolean
+  label: Reverse Row Order
+  default: false
+  description: rows are left to right by default, toggle this to reverse row order.
