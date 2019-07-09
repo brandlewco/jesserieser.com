@@ -42,6 +42,7 @@ public_path: https://jesserieser.brandlew.co/uploads
 front_matter_path: ''
 use_front_matter_path: 
 file_template: ":filename:"
+instant_preview: true
 build:
   preview_command: npm run build:forestry
   publish_command: hugo -d public
