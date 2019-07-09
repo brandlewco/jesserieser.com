@@ -1,5 +1,5 @@
 ---
-label: "\U0001F304 + \U0001F305"
+label: "\U0001F304+ \U0001F524"
 hide_body: true
 fields:
 - type: text
@@ -20,15 +20,15 @@ fields:
     type: include
     config: {}
     template: media-element
-    label: First Image
-  label: First Image
-- name: image_2
+    label: Image
+  label: Image
+- name: text
   type: field_group
   config: {}
   fields:
-  - name: second_image
+  - name: text
     type: include
     config: {}
     template: text-element
-    label: Second Image
-  label: Second Image
+    label: Text
+  label: Text
