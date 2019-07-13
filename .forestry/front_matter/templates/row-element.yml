@@ -2,24 +2,6 @@
 label: row-element
 hide_body: true
 fields:
-- name: row_height
-  type: select
-  default: []
-  config:
-    required: false
-    options:
-    - '25'
-    - '50'
-    - '75'
-    - screen
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Row Height
-  description: Height of each row. Screen is full height.
-  hidden: true
 - name: row_alignment
   type: select
   default: between
