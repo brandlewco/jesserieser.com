@@ -63,15 +63,15 @@ row_order = true
 template = "block-media-mix"
 [collection_layout_builder.image_1]
 image = "https://jesserieser.brandlew.co/uploads/Auto-12.jpg"
-margin = 0
-width = 40
+margin = 100
+width = ""
 x = "start"
 [collection_layout_builder.text]
 caption = "TESTING TEXT. WOW, IT LOOKS GREAT!"
 color = "#4A4A4A"
-margin = "150"
+margin = "250"
 width = "40"
-x = "end"
+x = "center"
 [[collection_layout_builder]]
 block = "media-2"
 row_alignment = "between"
