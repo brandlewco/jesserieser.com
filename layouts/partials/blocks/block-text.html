@@ -1,0 +1,5 @@
+<section class="container block-media-1 flex flex-row {{with .Section.row_alignment}}sm:justify-{{.}}{{else}}sm:justify-between{{end}} mx-auto h-auto">
+  <aside class="{{with .Section.x}}sm:self-{{.}}{{end}} w-full {{with .Section.width}}sm:w-{{.}}/100{{end}} text-xl" style="{{with .Section.margin}}margin-top:{{.}}px;{{end}};">
+      {{ .Section.caption }}
+  </aside>   
+</section>
