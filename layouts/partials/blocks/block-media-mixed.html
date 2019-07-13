@@ -4,10 +4,10 @@
       <img class="lazyload" data-src="{{ .Section.image_1.image | absURL }}{{$.Site.Params.contain}}" alt="{{ .Section.image_1.caption }}" itemprop="thumbnail"/>
     </a>
     {{ if .Section.image_1.caption }}
-    <figcaption class="text-2xl" itemprop="caption description">{{ .Section.image_1.caption }}</figcaption>
+    <figcaption class="text-xl" itemprop="caption description">{{ .Section.image_1.caption }}</figcaption>
     {{ end }}
   </figure>
-  <aside class="{{with .Section.text.x}}md:self-{{.}}{{end}} w-full {{with .Section.text.width}}md:w-{{.}}/100{{end}} block-hover" style="{{with .Section.text.margin}}margin-top:{{.}}px;{{end}}">
+  <aside class="{{with .Section.text.x}}md:self-{{.}}{{end}} w-full {{with .Section.text.width}}md:w-{{.}}/100{{end}} text-2xl" style="{{with .Section.text.margin}}margin-top:{{.}}px;{{end}}">
     {{with .Section.text.caption}}{{.}}{{end}}
   </aside>
 </section>
