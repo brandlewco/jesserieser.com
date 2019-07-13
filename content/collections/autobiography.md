@@ -130,9 +130,9 @@ caption = "Testing Text Caption"
 color = "#4A4A4A"
 margin = 0
 row_alignment = "between"
-row_height = 50
+row_height = ""
 template = "block-text"
-width = 50
+width = ""
 x = "start"
 [[collection_layout_builder]]
 block = "media-2"
