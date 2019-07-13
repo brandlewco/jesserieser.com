@@ -6,7 +6,7 @@ fields:
   hidden: true
   label: block
   name: block
-  default: media-2
+  default: media-mixed
 - name: layout_settings
   type: include
   config: {}
