@@ -28,21 +28,22 @@ category = "lifestyle"
 [[collection_layout_builder]]
 block = "media-2"
 row_alignment = "between"
-row_height = ""
+row_height = 75
+row_order = false
 template = "block-media-2"
 [collection_layout_builder.image_1]
 caption = "caption"
 color = ""
 image = "/uploads/Auto-1.jpg"
 margin = 150
-width = 40
+width = ""
 x = "start"
 [collection_layout_builder.image_2]
 caption = "caption"
 color = ""
 image = "/uploads/Auto-2.jpg"
 margin = 250
-width = 40
+width = ""
 x = "start"
 [[collection_layout_builder]]
 block = "media-1"
@@ -123,5 +124,15 @@ image = "/uploads/Auto-14.jpg"
 margin = 200
 width = 50
 x = "end"
+[[collection_layout_builder]]
+block = "media-1"
+caption = "Testing Text Caption"
+color = "#4A4A4A"
+margin = 0
+row_alignment = "between"
+row_height = 50
+template = "block-text"
+width = 50
+x = "start"
 
 +++
