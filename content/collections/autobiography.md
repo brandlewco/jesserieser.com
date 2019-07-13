@@ -35,26 +35,26 @@ template = "block-media-2"
 caption = "caption"
 color = ""
 image = "/uploads/Auto-1.jpg"
-margin = 150
+margin = 100
 width = ""
 x = "start"
 [collection_layout_builder.image_2]
 caption = "caption"
 color = ""
-image = "/uploads/Auto-2.jpg"
-margin = 250
+image = "https://jesserieser.brandlew.co/uploads/Auto-11.jpg"
+margin = 200
 width = ""
 x = "start"
 [[collection_layout_builder]]
 block = "media-1"
-caption = ""
+caption = "Caption"
 color = ""
 image = "/uploads/Auto-36.jpg"
 margin = 200
 row_alignment = "between"
 row_height = 25
 template = "block-media"
-width = 80
+width = ""
 x = "center"
 [[collection_layout_builder]]
 block = "media-mixed"
@@ -63,15 +63,15 @@ row_order = true
 template = "block-media-mix"
 [collection_layout_builder.image_1]
 image = "https://jesserieser.brandlew.co/uploads/Auto-12.jpg"
-margin = 100
-width = ""
+margin = 50
+width = 33
 x = "start"
 [collection_layout_builder.text]
-caption = "TESTING TEXT. WOW, IT LOOKS GREAT!"
+caption = "Mixed Media Block. Caption or descriptive text goes here. "
 color = "#4A4A4A"
-margin = "250"
+margin = "50"
 width = "40"
-x = "center"
+x = "end"
 [[collection_layout_builder]]
 block = "media-2"
 row_alignment = "between"
@@ -81,8 +81,8 @@ template = "block-media-2"
 caption = "caption"
 color = ""
 image = "/uploads/Auto-43.jpg"
-margin = 150
-width = 30
+margin = 200
+width = ""
 x = "start"
 [collection_layout_builder.image_2]
 caption = "caption"
@@ -100,35 +100,35 @@ template = "block-media-2"
 caption = ""
 color = ""
 image = "/uploads/Auto-6.jpg"
-margin = 300
-width = 50
+margin = 50
+width = ""
 x = "start"
 [collection_layout_builder.image_2]
 caption = ""
 color = ""
-image = "/uploads/Auto-9.jpg"
-margin = 250
-width = 40
+image = "https://jesserieser.brandlew.co/uploads/Auto-6.jpg"
+margin = 300
+width = ""
 x = "start"
 [[collection_layout_builder]]
 block = "media-1"
 caption = ""
 color = ""
 image = "/uploads/Auto-39.jpg"
-margin = 300
+margin = 50
 row_alignment = "between"
 row_height = 25
 template = "block-media"
-width = 100
-x = "start"
+width = 40
+x = "center"
 [[collection_layout_builder]]
 block = "text"
 caption = "Text, Centered. Neat. "
 color = "#D0021B"
-margin = 150
+margin = 200
 row_alignment = "center"
 template = "block-text"
-width = 50
+width = 20
 x = "center"
 [[collection_layout_builder]]
 block = "media-2"
@@ -139,15 +139,15 @@ template = "block-media-2"
 caption = ""
 color = ""
 image = "/uploads/Auto-15.jpg"
-margin = 200
-width = 40
+margin = 100
+width = 30
 x = "start"
 [collection_layout_builder.image_2]
 caption = "caption"
 color = ""
 image = "/uploads/Auto-14.jpg"
-margin = 200
-width = 40
+margin = 100
+width = 33
 x = "end"
 
 +++
