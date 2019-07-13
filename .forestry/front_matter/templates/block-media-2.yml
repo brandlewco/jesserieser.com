@@ -7,11 +7,6 @@ fields:
   label: block
   name: block
   default: media-2
-- name: layout_settings
-  type: include
-  config: {}
-  template: row-element
-  label: Layout Settings
 - name: image_1
   type: field_group
   config: {}
@@ -32,3 +27,8 @@ fields:
     template: media-element
     label: Second Image
   label: Second Image
+- name: layout_settings
+  type: include
+  config: {}
+  template: row-element
+  label: Layout Settings

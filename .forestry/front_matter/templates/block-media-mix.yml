@@ -6,12 +6,7 @@ fields:
   hidden: true
   label: block
   name: block
-  default: media-2
-- name: layout_settings
-  type: include
-  config: {}
-  template: row-element
-  label: Layout Settings
+  default: media-mixed
 - name: image_1
   type: field_group
   config: {}
@@ -32,3 +27,8 @@ fields:
     template: text-element
     label: Text
   label: Text
+- name: layout_settings
+  type: include
+  config: {}
+  template: row-element
+  label: Layout Settings

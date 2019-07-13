@@ -7,14 +7,14 @@ fields:
   label: block
   name: block
   default: media-1
-- name: layout_settings
-  type: include
-  config: {}
-  template: row-element
-  label: Layout Settings
 - type: include
   name: image
   label: Image
   template: media-element
   config:
     template: media-element
+- name: layout_settings
+  type: include
+  config: {}
+  template: row-element
+  label: Layout Settings
