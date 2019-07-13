@@ -134,5 +134,22 @@ row_height = 50
 template = "block-text"
 width = 50
 x = "start"
+[[collection_layout_builder]]
+block = "media-2"
+row_alignment = "between"
+row_height = "screen"
+row_order = true
+template = "block-media-mix"
+[collection_layout_builder.image_1]
+image = "https://jesserieser.brandlew.co/uploads/Auto-12.jpg"
+margin = 0
+width = 20
+x = "start"
+[collection_layout_builder.text]
+caption = "Testing Caption"
+color = "#4A4A4A"
+margin = "0"
+width = "20"
+x = "start"
 
 +++
