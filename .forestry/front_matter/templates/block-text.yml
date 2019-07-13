@@ -7,14 +7,14 @@ fields:
   label: block
   name: block
   default: text
-- name: layout_settings
-  type: include
-  config: {}
-  template: row-element
-  label: Layout Settings
 - type: include
   name: text
   label: Text
   template: text-element
   config:
     template: text-element
+- name: layout_settings
+  type: include
+  config: {}
+  template: row-element
+  label: Layout Settings
