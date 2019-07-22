@@ -40,7 +40,7 @@ sections:
 upload_dir: static/uploads
 public_path: https://jesserieser.brandlew.co/uploads
 front_matter_path: ''
-use_front_matter_path: 
+use_front_matter_path: false
 file_template: ":filename:"
 instant_preview: true
 build:
