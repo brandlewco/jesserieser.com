@@ -37,10 +37,10 @@ sections:
   label: Posts
   create: all
   match: "**/*"
-upload_dir: static/uploadsv
+upload_dir: static/uploads
 public_path: https://jesserieser.brandlew.co/uploads
 front_matter_path: ''
-use_front_matter_path: false
+use_front_matter_path: 
 file_template: ":filename:"
 instant_preview: true
 build:
