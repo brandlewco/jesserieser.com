@@ -43,11 +43,11 @@ fields:
   config: {}
   label: Gallery
 pages:
-- content/gallery/xmas.md
-- content/gallery/star-geezers.md
-- content/gallery/time.md
-- content/gallery/wired.md
-- content/gallery/phoenix.md
-- content/gallery/autobiography.md
-- content/gallery/retail.md
 - content/gallery/addidas.md
+- content/gallery/retail.md
+- content/gallery/autobiography.md
+- content/gallery/phoenix.md
+- content/gallery/wired.md
+- content/gallery/time.md
+- content/gallery/star-geezers.md
+- content/gallery/xmas.md
