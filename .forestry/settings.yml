@@ -37,7 +37,7 @@ sections:
   label: Posts
   create: all
   match: "**/*"
-upload_dir: static/uploads
+upload_dir: static/uploadsv
 public_path: https://jesserieser.brandlew.co/uploads
 front_matter_path: ''
 use_front_matter_path: false
