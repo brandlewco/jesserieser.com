@@ -57,10 +57,10 @@ fields:
   type: blocks
   label: Layout Builder
   template_types:
-  - block-text
   - block-media
   - block-media-2
   - block-media-mix
+  - block-text
   config:
     min: 
     max: 
@@ -122,5 +122,5 @@ fields:
   hidden: true
   default: blocks
 pages:
-- content/collections/xmas-in-america.md
 - content/collections/addidas.md
+- content/collections/xmas-in-america.md
