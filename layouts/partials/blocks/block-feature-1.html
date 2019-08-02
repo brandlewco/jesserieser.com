@@ -9,7 +9,7 @@
         <p>{{ safeHTML .Section.content }}</p>
       </div>
       <div class="media">
-        <img class="lazy" data-src="{{ .Section.media.image | relURL }}" alt="{{ .Section.media.alt_text }}">
+        <img class="lazy" data-src="{{$.Site.Params.netlifyLM}}{{ .Section.media.image | relURL }}" alt="{{ .Section.media.alt_text }}">
       </div>
     </div>      
   </div>

@@ -2,7 +2,7 @@
     {{ partial "feature_header" .}}
     <section data-hue="page" class="pt-8 mx-auto bg-white group-hover">
     {{- range .Params.page_sections -}}
-    {{ partial (printf "blocks/block-%s.html" .block) (dict "Section" . "Page" $) }}
+    {{ partial (printf "blocks/block-%s.html" .block) (dict "Section" . "Page" $ "Site" $.Site) }}
     {{- end -}}
     </section>
 {{- end -}}

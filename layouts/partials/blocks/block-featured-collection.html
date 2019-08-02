@@ -2,7 +2,7 @@
   <a href="/{{substr .Section.attached_collection 0 -3 }}">
     <article class="flex flex-col relative">
         <figure class="{{with .Section.x}}self-{{.}}{{end}} w-100 {{with .Section.width}}sm:w-{{.}}/100{{end}}" style="{{with .Section.margin}}margin-top:{{.}}px;{{end}} background: {{.Section.color }};">
-          <img src="{{ .Section.image | relURL }}?nf_resize=fit&w=1200" alt="{{ .Section.caption }}" />
+          <img src="{{$.Site.Params.netlifyLM}}{{ .Section.image | relURL }}?nf_resize=fit&w=1200" alt="{{ .Section.caption }}" />
           {{ if .Section.caption }}
           <figcaption class="fixed top-0 inset-x-0 mx-auto w-screen h-screen container flex justify-left items-center px-4 z-50" style="pointer-events:none;">
             <h2 class="uppercase text-4xl font-light">{{ .Section.caption }}</h2>
