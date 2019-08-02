@@ -81,7 +81,7 @@ template = "block-media-2"
 caption = "caption"
 color = ""
 image = "/uploads/Auto-43.jpg"
-margin = 200
+margin = 50
 width = ""
 x = "start"
 [collection_layout_builder.image_2]
