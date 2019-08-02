@@ -34,15 +34,15 @@ template = "block-media-2"
 [collection_layout_builder.image_1]
 caption = "caption"
 color = ""
-image = "/uploads/Auto-1.jpg"
-margin = 100
+image = "https://jesserieser.brandlew.co/uploads/Auto-1.jpg"
+margin = 50
 width = ""
 x = "start"
 [collection_layout_builder.image_2]
 caption = "caption"
 color = ""
-image = "https://jesserieser.brandlew.co/uploads/Auto-11.jpg"
-margin = 200
+image = "https://jesserieser.brandlew.co/uploads/Auto-14.jpg"
+margin = 50
 width = ""
 x = "start"
 [[collection_layout_builder]]
