@@ -8,7 +8,7 @@ page_sections:
   width: '60'
   x: end
   margin: '100'
-  image: "/uploads/rieser-adidas-10.jpg"
+  image: "https://jesserieser.brandlew.co/uploads/rieser-adidas-10.jpg"
   caption: Adidas
   color: "#4A4A4A"
   attached_collection: collections/addidas.md
@@ -16,7 +16,7 @@ page_sections:
   block: featured-collection
   width: '60'
   x: start
-  image: "/uploads/rieser-amtrak-29.jpg"
+  image: "https://jesserieser.brandlew.co/uploads/rieser-amtrak-29.jpg"
   caption: Amtrak
   color: "#C85311"
   margin: '150'
@@ -26,7 +26,7 @@ page_sections:
   width: '80'
   x: end
   margin: '200'
-  image: "/uploads/rieser-xmas-25.jpg"
+  image: "https://jesserieser.brandlew.co/uploads/rieser-xmas-25.jpg"
   attached_collection: collections/xmas-in-america.md
   caption: XMAS IN AMERICA
   color: "#FF0000"
