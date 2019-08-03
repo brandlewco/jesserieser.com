@@ -51,6 +51,12 @@ import Midday from "midday.js";
 // } // end init.on
 // init();
 
+const middayNav = new Midday(document.getElementById("navigation"), {
+  headerClass: "hue-header",
+  innerClass: "hue-header-inner",
+  sectionSelector: "hue"
+});
+
 var buttons = document.getElementsByClassName("toggle");
 Array.prototype.forEach.call(buttons, function(button) {
   button.addEventListener("click", function(event) {
