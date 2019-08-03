@@ -8,6 +8,12 @@ const common = require("./webpack.common");
 module.exports = merge(common, {
   mode: "development",
 
+  entry: {
+    main: path.join(__dirname, "src", "index.js"),
+    gallery: path.join(__dirname, "src", "photoswipe.js"),
+    filter: path.join(__dirname, "src", "filter.js")
+  },
+
   output: {
     filename: "[name].js",
     chunkFilename: "[id].css",
