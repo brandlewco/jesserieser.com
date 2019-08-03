@@ -25,12 +25,12 @@
 
     {{ $script := .Site.Data.webpack.main }}
     {{ with $script.js }}
-        <script src="{{ . | relURL }}" defer></script>
+        <script src="{{ . }}" defer></script>
     {{ end }}
 
     {{ $stylesheet := .Site.Data.webpack.main }}
     {{ with $stylesheet.css }}
-        <link href="{{ . | relURL }}" rel="stylesheet">
+        <link href="{{ . }}" rel="stylesheet">
     {{ end }}
 
 </head> 

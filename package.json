@@ -20,7 +20,7 @@
     "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.prod.js --hot --inline",
     "build:forestry": "npm run build:forestry:webpack && npm run build:forestry:preview",
     "build:forestry:webpack": "webpack-dev-server --config webpack.dev.js --hot --inline",
-    "build:forestry:preview": "hugo server -D -E -F --port 8080 --bind 0.0.0.0 --renderToDisk -d dist"
+    "build:forestry:preview": "hugo --port 8080 --bind 0.0.0.0 --renderToDisk -d dist"
   },
   "author": "",
   "license": "MIT",
