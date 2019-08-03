@@ -1,42 +1,93 @@
 const merge = require("webpack-merge");
-const path = require("path");
-const CleanWebpackPlugin = require("clean-webpack-plugin");
+const TerserPlugin = require("terser-webpack-plugin");
+const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const webpack = require("webpack");
+const path = require("path");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const AssetsPlugin = require("assets-webpack-plugin");
 
-const common = require("./webpack.common");
 
-module.exports = merge(common, {
-  mode: "development",
-
-  output: {
-    filename: "[name].js",
-    chunkFilename: "[id].css"
+module.exports = {
+  entry: {
+    main: path.join(__dirname, "src", "index.js"),
+    gallery: path.join(__dirname, "src", "photoswipe.js"),
+    filter: path.join(__dirname, "src", "filter.js")
   },
 
-  devServer: {
-    host: "0.0.0.0",
-    port: 8080,
-    contentBase: path.join(process.cwd(), "./dist"),
-    watchContentBase: true,
-    stats: "none",
-    quiet: false,
-    open: false,
-    historyApiFallback: {
-      rewrites: [{from: /./, to: "404.html"}]
-    }
+  output: {
+    path: path.join(__dirname, "dist"),
+  },
+
+  module: {
+    rules: [
+      {
+        test: /\.((png)|(eot)|(woff)|(woff2)|(ttf)|(svg)|(gif))(\?v=\d+\.\d+\.\d+)?$/,
+        loader: "file-loader?name=/[hash].[ext]",
+      },
+
+      {test: /\.json$/, loader: "json-loader"},
+
+      {
+        loader: "babel-loader",
+        test: /\.js?$/,
+        exclude: /node_modules/,
+        query: {cacheDirectory: true}
+      },
+
+      {
+        test: /\.(sa|sc|c)ss$/,
+        exclude: /node_modules/,
+        use: ["style-loader", MiniCssExtractPlugin.loader, "css-loader", "postcss-loader", "sass-loader"]
+      }
+    ]
   },
 
   plugins: [
-    new CleanWebpackPlugin({
-      cleanOnceBeforeBuildPatterns: [
-        "dist/**/*.js",
-        "dist/**/*.css",
-        "site/content/webpack.json"
-      ]}),
+    new webpack.ProvidePlugin({
+      fetch: "imports-loader?this=>global!exports-loader?global.fetch!whatwg-fetch"
+    }),
 
-    new MiniCssExtractPlugin({
-      filename: "[name].css",
-      chunkFilename: "[id].css"
-    })
+    new AssetsPlugin({
+      filename: "webpack.json",
+      path: path.join(process.cwd(), "data"),
+      prettyPrint: true
+    }),
+
+    new CopyWebpackPlugin([
+      {
+        from: "./src/fonts/",
+        to: "fonts/",
+        flatten: true
+      }
+    ])
   ]
+};
+
+
+module.exports = merge(common, {
+  mode: "production",
+
+  output: {
+    filename: "[name].[hash:5].js",
+    chunkFilename: "[id].[hash:5].css"
+  },
+
+  optimization: {
+    minimizer: [
+      new TerserPlugin({
+        cache: true,
+        parallel: true,
+        sourceMap: true
+      }),
+
+      new MiniCssExtractPlugin({
+        filename: "[name].[hash:5].css",
+        chunkFilename: "[id].[hash:5].css"
+      }),
+
+      new OptimizeCSSAssetsPlugin({})
+    ]
+  }
 });
