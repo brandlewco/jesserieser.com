@@ -2,12 +2,12 @@
 layout: blocks
 title: Southwest Chief
 date: 2017-11-01T23:00:00.000+00:00
-logo: https://jesserieser.brandlew.co/uploads/logo-amtrak-8.png
+logo: /logo-amtrak-8.png
 description: 
 page_sections: []
 attached_gallery: gallery/southwest-chief.md
 cover_image: ''
-collection_cover: https://jesserieser.brandlew.co/uploads/rieser-amtrak-2.jpg
+collection_cover: /rieser-amtrak-2.jpg
 collection_content: "Suspendisse viverra luctus purus id tempor. Donec id magna vitae
   arcu bibendum rutrum. Sed sollicitudin massa sem, quis posuere dolor vestibulum
   eget. Nullam id nisi a ex mollis ullamcorper. Sed at neque mattis, tempor sem sit
@@ -35,14 +35,14 @@ collection_layout_builder:
   block: media-2
   media_height: screen
   image_1:
-    image: "/uploads/rieser-amtrak-5.jpg"
+    image: "https://jesserieser.brandlew.co/uploads/rieser-amtrak-5.jpg"
     caption: train car
     color: "#CC9942"
     width: 40
     x: start
     margin: 0
   image_2:
-    image: "/uploads/rieser-amtrak-6.jpg"
+    image: "https://jesserieser.brandlew.co/uploads/rieser-amtrak-6.jpg"
     caption: passenger
     color: "#442F00"
     width: 40
@@ -52,7 +52,7 @@ collection_layout_builder:
   row_alignment: between
 - template: block-media
   block: media-1
-  image: "/uploads/rieser-amtrak-10.jpg"
+  image: "https://jesserieser.brandlew.co/uploads/rieser-amtrak-10.jpg"
   caption: see the great outdoors
   width: 100
   x: center
@@ -65,12 +65,12 @@ collection_layout_builder:
   row_height: screen
   row_alignment: between
   image_1:
-    image: "/uploads/rieser-amtrak-30.jpg"
+    image: "https://jesserieser.brandlew.co/uploads/rieser-amtrak-30.jpg"
     color: "#4A90E2"
     width: 50
     margin: 200
   image_2:
-    image: "/uploads/rieser-amtrak-29.jpg"
+    image: "https://jesserieser.brandlew.co/uploads/rieser-amtrak-29.jpg"
     width: 40
     x: end
     margin: 200

@@ -33,14 +33,14 @@ template = "block-media-2"
 [collection_layout_builder.image_1]
 caption = "caption"
 color = ""
-image = "/uploads/time-1.jpg"
+image = "https://jesserieser.brandlew.co/uploads/time-1.jpg"
 margin = 150
 width = 40
 x = "start"
 [collection_layout_builder.image_2]
 caption = "caption"
 color = ""
-image = "/uploads/time-2.jpg"
+image = "https://jesserieser.brandlew.co/uploads/time-2.jpg"
 margin = 250
 width = 40
 x = "start"
@@ -48,7 +48,7 @@ x = "start"
 block = "media-1"
 caption = ""
 color = ""
-image = "/uploads/time-36.jpg"
+image = "https://jesserieser.brandlew.co/uploads/time-36.jpg"
 margin = 200
 row_alignment = "between"
 row_height = 25
@@ -63,14 +63,14 @@ template = "block-media-2"
 [collection_layout_builder.image_1]
 caption = "caption"
 color = ""
-image = "/uploads/time-43.jpg"
+image = "https://jesserieser.brandlew.co/uploads/time-43.jpg"
 margin = 150
 width = 30
 x = "start"
 [collection_layout_builder.image_2]
 caption = "caption"
 color = ""
-image = "/uploads/time-45.jpg"
+image = "https://jesserieser.brandlew.co/uploads/time-45.jpg"
 margin = 300
 width = 60
 x = "end"
@@ -82,14 +82,14 @@ template = "block-media-2"
 [collection_layout_builder.image_1]
 caption = ""
 color = ""
-image = "/uploads/time-6.jpg"
+image = "https://jesserieser.brandlew.co/uploads/time-6.jpg"
 margin = 300
 width = 50
 x = "start"
 [collection_layout_builder.image_2]
 caption = ""
 color = ""
-image = "/uploads/time-9.jpg"
+image = "https://jesserieser.brandlew.co/uploads/time-9.jpg"
 margin = 250
 width = 40
 x = "start"
@@ -97,7 +97,7 @@ x = "start"
 block = "media-1"
 caption = ""
 color = ""
-image = "/uploads/time-39.jpg"
+image = "https://jesserieser.brandlew.co/uploads/time-39.jpg"
 margin = 300
 row_alignment = "between"
 row_height = 25
@@ -112,14 +112,14 @@ template = "block-media-2"
 [collection_layout_builder.image_1]
 caption = ""
 color = ""
-image = "/uploads/time-15.jpg"
+image = "https://jesserieser.brandlew.co/uploads/time-15.jpg"
 margin = 200
 width = 50
 x = "start"
 [collection_layout_builder.image_2]
 caption = "caption"
 color = ""
-image = "/uploads/time-14.jpg"
+image = "https://jesserieser.brandlew.co/uploads/time-14.jpg"
 margin = 200
 width = 50
 x = "end"
