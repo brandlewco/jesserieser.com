@@ -9,7 +9,7 @@ filter = "Personal"
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-theme_color = "#FF0000"
+theme_color = "#000000"
 title = "Autobiography of A Contact Sport"
 [[collection_categories]]
 category = "Uniquely American"
