@@ -36,14 +36,14 @@ caption = "caption"
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/Auto-1.jpg"
 margin = 50
-width = ""
+width = 40
 x = "start"
 [collection_layout_builder.image_2]
 caption = "caption"
 color = ""
-image = "https://jesserieser.brandlew.co/uploads/Auto-14.jpg"
+image = "https://jesserieser.brandlew.co/uploads/Auto-5.jpg"
 margin = 50
-width = ""
+width = 40
 x = "start"
 [[collection_layout_builder]]
 block = "media-1"
