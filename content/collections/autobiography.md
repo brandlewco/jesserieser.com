@@ -63,15 +63,15 @@ row_order = true
 template = "block-media-mix"
 [collection_layout_builder.image_1]
 image = "https://jesserieser.brandlew.co/uploads/Auto-12.jpg"
-margin = 50
-width = 33
+margin = 200
+width = 50
 x = "start"
 [collection_layout_builder.text]
-caption = "Mixed Media Block. Caption or descriptive text goes here. "
+caption = "Mixed Media Block. Caption or descriptive text goes here."
 color = "#4A4A4A"
-margin = "50"
+margin = "200"
 width = "40"
-x = "end"
+x = "center"
 [[collection_layout_builder]]
 block = "media-2"
 row_alignment = "between"
@@ -80,16 +80,16 @@ template = "block-media-2"
 [collection_layout_builder.image_1]
 caption = "caption"
 color = ""
-image = "https://jesserieser.brandlew.co/uploads/Auto-43.jpg"
+image = "https://jesserieser.brandlew.co/uploads/Auto-20.jpg"
 margin = 50
-width = ""
+width = "33"
 x = "start"
 [collection_layout_builder.image_2]
 caption = "caption"
 color = ""
-image = "https://jesserieser.brandlew.co/uploads/Auto-45.jpg"
+image = "https://jesserieser.brandlew.co/uploads/Auto-21.jpg"
 margin = 300
-width = 60
+width = "50"
 x = "end"
 [[collection_layout_builder]]
 block = "media-2"
@@ -99,16 +99,16 @@ template = "block-media-2"
 [collection_layout_builder.image_1]
 caption = ""
 color = ""
-image = "https://jesserieser.brandlew.co/uploads/Auto-6.jpg"
+image = "https://jesserieser.brandlew.co/uploads/Auto-34.jpg"
 margin = 50
-width = ""
+width = "40"
 x = "start"
 [collection_layout_builder.image_2]
 caption = ""
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/Auto-6.jpg"
 margin = 300
-width = ""
+width = "40"
 x = "start"
 [[collection_layout_builder]]
 block = "media-1"
@@ -123,7 +123,7 @@ width = 40
 x = "center"
 [[collection_layout_builder]]
 block = "text"
-caption = "Text, Centered. Neat. "
+caption = "Text, Centered. Neat."
 color = "#D0021B"
 margin = 200
 row_alignment = "center"
@@ -140,14 +140,53 @@ caption = ""
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/Auto-15.jpg"
 margin = 100
-width = 30
+width = 40
 x = "start"
 [collection_layout_builder.image_2]
 caption = "caption"
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/Auto-14.jpg"
 margin = 100
-width = 33
+width = 40
 x = "end"
+[[collection_layout_builder]]
+block = "text"
+caption = "Annotation."
+color = "#D0021B"
+margin = 100
+row_alignment = "center"
+template = "block-text"
+width = 20
+x = "center"
+[[collection_layout_builder]]
+block = "media-2"
+row_alignment = "between"
+row_height = 25
+template = "block-media-2"
+[collection_layout_builder.image_1]
+caption = ""
+color = ""
+image = "https://jesserieser.brandlew.co/uploads/Auto-24.jpg"
+margin = 100
+width = "40"
+x = "start"
+[collection_layout_builder.image_2]
+caption = ""
+color = ""
+image = "https://jesserieser.brandlew.co/uploads/Auto-25.jpg"
+margin = 300
+width = "40"
+x = "start"
+[[collection_layout_builder]]
+block = "media-1"
+caption = ""
+color = ""
+image = "https://jesserieser.brandlew.co/uploads/Auto-26.jpg"
+margin = 50
+row_alignment = "between"
+row_height = 25
+template = "block-media"
+width = 40
+x = "center"
 
 +++

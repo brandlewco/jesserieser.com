@@ -30,6 +30,33 @@ page_sections:
   attached_collection: collections/xmas-in-america.md
   caption: XMAS IN AMERICA
   color: "#FF0000"
+- template: block-feature-collection
+  block: featured-collection
+  width: '60'
+  x: end
+  margin: '100'
+  image: "https://jesserieser.brandlew.co/uploads/time-5.jpg"
+  caption: Time
+  color: "#fdcfb1"
+  attached_collection: collections/time.md
+- template: block-feature-collection
+  block: featured-collection
+  width: '60'
+  x: start
+  image: "https://jesserieser.brandlew.co/uploads/wired-2.jpg"
+  caption: Wired
+  color: "#b9a49e"
+  margin: '150'
+  attached_collection: collections/wired.md
+- template: block-feature-collection
+  block: featured-collection
+  width: '80'
+  x: end
+  margin: '200'
+  image: "https://jesserieser.brandlew.co/uploads/geezers-1.jpg"
+  attached_collection: collections/star-geezers.md
+  caption: Star Geezers
+  color: "#9bbad5"
 theme_color: "#FFCAB7"
 collection_description: ''
 collection_content: ''

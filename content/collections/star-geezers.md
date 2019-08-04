@@ -9,7 +9,7 @@ filter = "Commissioned + Stock"
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-theme_color = "#FF0000"
+theme_color = "#9bbad5"
 title = "Star Geezers"
 [[collection_categories]]
 category = "Color"
@@ -32,32 +32,49 @@ category = "Portraits"
 [[collection_layout_builder]]
 block = "media-2"
 row_alignment = "between"
-row_height = ""
+row_height = 75
+row_order = false
 template = "block-media-2"
 [collection_layout_builder.image_1]
 caption = "caption"
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/geezers-1.jpg"
-margin = 150
+margin = 50
 width = 40
 x = "start"
 [collection_layout_builder.image_2]
 caption = "caption"
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/geezers-2.jpg"
-margin = 250
+margin = 50
 width = 40
 x = "start"
 [[collection_layout_builder]]
 block = "media-1"
-caption = ""
+caption = "Caption"
 color = ""
-image = "https://jesserieser.brandlew.co/uploads/geezers-36.jpg"
+image = "https://jesserieser.brandlew.co/uploads/geezers-3.jpg"
 margin = 200
 row_alignment = "between"
 row_height = 25
 template = "block-media"
-width = 80
+width = ""
+x = "center"
+[[collection_layout_builder]]
+block = "media-mixed"
+row_alignment = "between"
+row_order = true
+template = "block-media-mix"
+[collection_layout_builder.image_1]
+image = "https://jesserieser.brandlew.co/uploads/geezers-4.jpg"
+margin = 200
+width = 50
+x = "start"
+[collection_layout_builder.text]
+caption = "Mixed Media Block. Caption or descriptive text goes here."
+color = "#4A4A4A"
+margin = "200"
+width = "40"
 x = "center"
 [[collection_layout_builder]]
 block = "media-2"
@@ -67,16 +84,16 @@ template = "block-media-2"
 [collection_layout_builder.image_1]
 caption = "caption"
 color = ""
-image = "https://jesserieser.brandlew.co/uploads/geezers-43.jpg"
-margin = 150
-width = 30
+image = "https://jesserieser.brandlew.co/uploads/geezers-5.jpg"
+margin = 50
+width = "33"
 x = "start"
 [collection_layout_builder.image_2]
 caption = "caption"
 color = ""
-image = "https://jesserieser.brandlew.co/uploads/geezers-45.jpg"
+image = "https://jesserieser.brandlew.co/uploads/geezers-6.jpg"
 margin = 300
-width = 60
+width = "50"
 x = "end"
 [[collection_layout_builder]]
 block = "media-2"
@@ -86,28 +103,37 @@ template = "block-media-2"
 [collection_layout_builder.image_1]
 caption = ""
 color = ""
-image = "https://jesserieser.brandlew.co/uploads/geezers-6.jpg"
-margin = 300
-width = 50
+image = "https://jesserieser.brandlew.co/uploads/geezers-7.jpg"
+margin = 50
+width = "40"
 x = "start"
 [collection_layout_builder.image_2]
 caption = ""
 color = ""
-image = "https://jesserieser.brandlew.co/uploads/geezers-9.jpg"
-margin = 250
-width = 40
+image = "https://jesserieser.brandlew.co/uploads/geezers-8.jpg"
+margin = 300
+width = "40"
 x = "start"
 [[collection_layout_builder]]
 block = "media-1"
 caption = ""
 color = ""
-image = "https://jesserieser.brandlew.co/uploads/geezers-39.jpg"
-margin = 300
+image = "https://jesserieser.brandlew.co/uploads/geezers-9.jpg"
+margin = 50
 row_alignment = "between"
 row_height = 25
 template = "block-media"
-width = 100
-x = "start"
+width = 40
+x = "center"
+[[collection_layout_builder]]
+block = "text"
+caption = "Text, Centered. Neat."
+color = "#D0021B"
+margin = 200
+row_alignment = "center"
+template = "block-text"
+width = 20
+x = "center"
 [[collection_layout_builder]]
 block = "media-2"
 row_alignment = "between"
@@ -116,16 +142,55 @@ template = "block-media-2"
 [collection_layout_builder.image_1]
 caption = ""
 color = ""
-image = "https://jesserieser.brandlew.co/uploads/geezers-15.jpg"
-margin = 200
-width = 50
+image = "https://jesserieser.brandlew.co/uploads/geezers-10.jpg"
+margin = 100
+width = 40
 x = "start"
 [collection_layout_builder.image_2]
 caption = "caption"
 color = ""
-image = "https://jesserieser.brandlew.co/uploads/geezers-14.jpg"
-margin = 200
-width = 50
+image = "https://jesserieser.brandlew.co/uploads/geezers-11.jpg"
+margin = 100
+width = 40
 x = "end"
+[[collection_layout_builder]]
+block = "text"
+caption = "Annotation."
+color = "#D0021B"
+margin = 100
+row_alignment = "center"
+template = "block-text"
+width = 20
+x = "center"
+[[collection_layout_builder]]
+block = "media-2"
+row_alignment = "between"
+row_height = 25
+template = "block-media-2"
+[collection_layout_builder.image_1]
+caption = ""
+color = ""
+image = "https://jesserieser.brandlew.co/uploads/geezers-12.jpg"
+margin = 100
+width = "40"
+x = "start"
+[collection_layout_builder.image_2]
+caption = ""
+color = ""
+image = "https://jesserieser.brandlew.co/uploads/geezers-13.jpg"
+margin = 300
+width = "40"
+x = "start"
+[[collection_layout_builder]]
+block = "media-1"
+caption = ""
+color = ""
+image = "https://jesserieser.brandlew.co/uploads/geezers-14.jpg"
+margin = 50
+row_alignment = "between"
+row_height = 25
+template = "block-media"
+width = 100
+x = "center"
 
 +++
