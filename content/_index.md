@@ -16,16 +16,7 @@ page_sections:
   block: featured-collection
   width: '60'
   x: start
-  image: "https://jesserieser.brandlew.co/uploads/rieser-amtrak-29.jpg"
-  caption: Amtrak
-  color: "#C85311"
-  margin: '150'
-  attached_collection: collections/amtrak.md
-- template: block-feature-collection
-  block: featured-collection
-  width: '80'
-  x: end
-  margin: '200'
+  margin: '100'
   image: "https://jesserieser.brandlew.co/uploads/rieser-xmas-25.jpg"
   attached_collection: collections/xmas-in-america.md
   caption: XMAS IN AMERICA
@@ -50,9 +41,9 @@ page_sections:
   attached_collection: collections/wired.md
 - template: block-feature-collection
   block: featured-collection
-  width: '80'
+  width: '60'
   x: end
-  margin: '200'
+  margin: '100'
   image: "https://jesserieser.brandlew.co/uploads/geezers-1.jpg"
   attached_collection: collections/star-geezers.md
   caption: Star Geezers
