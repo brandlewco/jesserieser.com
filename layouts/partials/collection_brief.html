@@ -1,3 +1,17 @@
+<section id="project-next" class="mt-32">
+    {{ with .NextInSection }}
+    <a href="{{ .Permalink }}">
+    <div class="container mx-auto w-full p-8 leading-normal text-black flex flex-col justify-center items-center">
+            <div class="text-3xl block mb-4">
+            NEXT PROJECT
+            </div>
+            <div class="block">
+                {{ .Title }}
+            </div>
+    </div>
+    </a>
+    {{ end }}
+</section>
 <section id="project-brief" class="mt-32" style="background-color:{{.Params.theme_color}};">
     <div class="container mx-auto w-full p-8 text-lg leading-normal text-white">
         {{ .Params.collection_content | markdownify }}

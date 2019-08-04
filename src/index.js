@@ -11,12 +11,11 @@ import Midday from "midday.js";
 // Page Loader (SWUP)
 const options = {
   containers: ["#content", "#navigation"],
-  animateHistoryBrowsing: true,
   plugins: [
     new SwupScrollPlugin({
       doScrollingRightAway: false,
       animateScroll: true,
-      scrollFriction: 0.1,
+      scrollFriction: 0.3,
       scrollAcceleration: 0.04,
     }),
     new SwupGaPlugin(),
@@ -27,6 +26,7 @@ const options = {
       body: true
     }),
   ],
+  animateHistoryBrowsing: true,
   preload: true,
   cache: true,
   scroll: true,
