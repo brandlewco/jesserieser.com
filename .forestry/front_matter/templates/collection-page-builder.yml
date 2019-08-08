@@ -76,42 +76,18 @@ fields:
       file: data/categories/categories.toml
       path: filter
   label: Work Type
-- name: collection_categories
-  type: field_group_list
-  fields:
-  - name: category
-    type: select
-    default: lifestyle
-    config:
-      required: false
-      options:
-      - humor
-      - landscapes
-      - black and white
-      - lifestyle
-      - details
-      - color
-      - motion
-      - portraits
-      - documentary
-      - finance
-      - stories
-      - workplace
-      - travel
-      - motion
-      - conceptual
-      source:
-        type: documents
-        section: collection-categories
-        file: data/categories/categories.toml
-        path: categories
-    label: Category
-    description: sorting categories
+- name: category
+  type: list
   config:
-    min: 
+    use_select: true
+    min: '1'
     max: 
-    labelField: category
-  label: Categories
+    source:
+      type: documents
+      file: data/categories/categories.toml
+      path: categories
+      section: ''
+  label: Collection Category
 - type: file
   name: cover_image
   label: Social Media Card
