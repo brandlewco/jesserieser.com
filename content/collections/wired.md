@@ -7,24 +7,11 @@ collection_description = "Suspendisse efficitur, odio a consequat euismod, turpi
 collection_filter = "Commissioned + Stock"
 cover_image = ""
 date = ""
-filter = "Commissioned + Stock"
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
 theme_color = "#b9a49e"
 title = "Wired Backpage.com"
-[[collection_categories]]
-category = "Editorial"
-[[collection_categories]]
-category = "Conceptual"
-[[collection_categories]]
-category = "Environments"
-[[collection_categories]]
-category = "Black and White"
-[[collection_categories]]
-category = "Color"
-[[collection_categories]]
-category = "Portraits"
 [[collection_layout_builder]]
 block = "media-2"
 row_alignment = "between"

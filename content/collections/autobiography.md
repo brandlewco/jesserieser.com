@@ -7,26 +7,11 @@ collection_description = "Suspendisse efficitur, odio a consequat euismod, turpi
 collection_filter = "Personal"
 cover_image = ""
 date = ""
-filter = "Personal"
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
 theme_color = "#000000"
 title = "Autobiography of A Contact Sport"
-[[collection_categories]]
-category = "Uniquely American"
-[[collection_categories]]
-category = "Sports + Athletes"
-[[collection_categories]]
-category = "Environments"
-[[collection_categories]]
-category = "Portraits"
-[[collection_categories]]
-category = "Reportage"
-[[collection_categories]]
-category = "color"
-[[collection_categories]]
-category = "lifestyle"
 [[collection_layout_builder]]
 block = "media-2"
 row_alignment = "between"

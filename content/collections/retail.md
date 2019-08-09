@@ -7,20 +7,11 @@ collection_description = "Suspendisse efficitur, odio a consequat euismod, turpi
 collection_filter = "Personal"
 cover_image = ""
 date = ""
-filter = "Personal"
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
 theme_color = "#7e7e9b"
 title = "Changing Landscape of Retail"
-[[collection_categories]]
-category = "Uniquely American"
-[[collection_categories]]
-category = "Reportage"
-[[collection_categories]]
-category = "Environments"
-[[collection_categories]]
-category = "Color"
 [[collection_layout_builder]]
 block = "media-2"
 row_alignment = "between"

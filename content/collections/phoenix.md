@@ -7,20 +7,11 @@ collection_description = "Suspendisse efficitur, odio a consequat euismod, turpi
 collection_filter = "Commissioned + Stock"
 cover_image = ""
 date = ""
-filter = "Commissioned + Stock"
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
 theme_color = "#fb7846"
 title = "Phoenix"
-[[collection_categories]]
-category = "Stock"
-[[collection_categories]]
-category = "Portraits"
-[[collection_categories]]
-category = "Conceptual"
-[[collection_categories]]
-category = "Color"
 [[collection_layout_builder]]
 block = "media-2"
 row_alignment = "between"

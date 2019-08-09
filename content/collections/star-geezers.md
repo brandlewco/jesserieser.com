@@ -7,30 +7,11 @@ collection_description = "Suspendisse efficitur, odio a consequat euismod, turpi
 collection_filter = "Commissioned + Stock"
 cover_image = ""
 date = ""
-filter = "Commissioned + Stock"
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
 theme_color = "#9bbad5"
 title = "Star Geezers"
-[[collection_categories]]
-category = "Color"
-[[collection_categories]]
-category = "Reportage"
-[[collection_categories]]
-category = "Travel"
-[[collection_categories]]
-category = "Uniquely American"
-[[collection_categories]]
-category = "Science"
-[[collection_categories]]
-category = "Humor"
-[[collection_categories]]
-category = "Motion"
-[[collection_categories]]
-category = "Environments"
-[[collection_categories]]
-category = "Portraits"
 [[collection_layout_builder]]
 block = "media-2"
 row_alignment = "between"
