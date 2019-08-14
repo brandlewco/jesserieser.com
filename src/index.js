@@ -85,11 +85,12 @@ window.addEventListener("scroll", checkPosition);
 
 // Fade on Scroll
 window.onscroll = function() {
-  var target = document.getElementById("header-overlay");
+  var headerOverlay = document.getElementById("header-overlay");
   var height = window.innerHeight;
   var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
   // Change this if you want it to fade faster
-  target.style.opacity = scrollTop / height;
+  height = height * 0.85;
+  headerOverlay.style.opacity = scrollTop / height;
 };
 
 
