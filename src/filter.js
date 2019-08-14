@@ -5,19 +5,19 @@ const filterizr = new Filterizr(".filtr-container");
 window.filterizr = filterizr;
 // Configure your options
 window.filterizr.setOptions({
-  animationDuration: 0.1, // in seconds
+  animationDuration: 0.5, // in seconds
   controlsSelector: "", // Selector for custom controls
-  delay: 100, // Transition delay in ms
-  delayMode: "alternate", // 'progressive' or 'alternate'
-  easing: "ease-out",
+  delay: 0, // Transition delay in ms
+  delayMode: "progressive", // 'progressive' or 'alternate'
+  easing: "ease-in-out",
   filter: "all", // Initial filter
   filterOutCss: { // Filtering out animation
-    opacity: 0,
-    transform: "scale(1)"
+    opacity: 1,
+    transform: "translateY(-100%)"
   },
   filterInCss: { // Filtering in animation
     opacity: 1,
-    transform: "scale(1)"
+    transform: ""
   },
   gridItemsSelector: ".filtr-item",
   layout: "sameWidth", // See layouts

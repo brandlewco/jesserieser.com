@@ -1,7 +1,7 @@
 {{- define "main" -}}
 <article class="content container mx-auto mt-16">
     {{partial "collection_sorter" .}}
-    <section id="filter" class="filtr-container flex flex-wrap">
+    <section id="filter" class="filtr-container flex flex-wrap overflow-hidden">
         {{ range .Pages }}
         {{partial "collection_sorter_item" .}}
         {{ end }}

@@ -13,10 +13,10 @@ const options = {
   containers: ["#content", "#navigation"],
   plugins: [
     new SwupScrollPlugin({
-      doScrollingRightAway: false,
-      animateScroll: true,
+      animateScroll: false,
       scrollFriction: 0.3,
       scrollAcceleration: 0.04,
+      doScrollingRightAway: false
     }),
     new SwupGaPlugin(),
     new SwupPreloadPlugin(),
@@ -29,7 +29,7 @@ const options = {
   animateHistoryBrowsing: true,
   preload: true,
   cache: true,
-  scroll: true,
+  // scroll: false,
   linkSelector: 'a[href^="' + window.location.origin + '"]:not([data-no-swup]), a[href^="/"]:not([data-no-swup]), a[href^="#"]:not([data-no-swup])',
   skipPopStateHandling: function(event) {
     if (event.state && event.state.source === "photoswipe") {
