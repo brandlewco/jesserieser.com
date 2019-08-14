@@ -44,20 +44,20 @@ use_front_matter_path: false
 file_template: ":filename:"
 instant_preview: true
 build:
-  preview_command: npm run build:forestry
-  publish_command: hugo -d public
   preview_env:
   - HUGO_ENV=staging
   - HUGO_VERSION=0.55.2
   - GIT_LFS_SKIP_SMUDGE=1
-  publish_env:
-  - HUGO_ENV=production
-  - HUGO_VERSION=0.55.2
   preview_output_directory: dist
-  output_directory: public
   install_dependencies_command: npm install
   preview_docker_image: forestryio/hugo:node10
   mount_path: "/srv"
   working_dir: "/srv"
   instant_preview_command: npm run build:forestry
+  publish_command: hugo -d public
+  publish_env:
+  - HUGO_ENV=production
+  - HUGO_VERSION=0.55.2
+  output_directory: public
+  preview_command: npm run build:forestry
 version: 0.55.2
