@@ -68,6 +68,7 @@
     "natives": "1.1.6"
   },
   "dependencies": {
+    "@dogstudio/highway": "^2.1.3",
     "@swup/body-class-plugin": "^1.0.1",
     "@swup/ga-plugin": "^1.0.1",
     "@swup/preload-plugin": "^1.0.3",
