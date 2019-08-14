@@ -66,6 +66,7 @@ Array.prototype.forEach.call(navToggle, function(nav) {
   });
 });
 
+// Show Hide Header
 let scrollPos = 0;
 function checkPosition() {
   const windowY = window.scrollY;
@@ -80,8 +81,17 @@ function checkPosition() {
   }
   scrollPos = windowY;
 }
-
 window.addEventListener("scroll", checkPosition);
+
+// Fade on Scroll
+window.onscroll = function() {
+  var target = document.getElementById("project-header");
+  var height = window.innerHeight;
+  var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
+  // Change this if you want it to fade faster
+  height = height / 1;
+  target.style.backgroundImage = (height - scrollTop) / height;
+};
 
 
 import "./css/main.css";
