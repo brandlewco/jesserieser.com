@@ -284,6 +284,7 @@ module.exports = {
     }),
     inset: {
       "0": "0",
+      "neg": "-100px",
       auto: "auto",
     },
     letterSpacing: {
@@ -309,6 +310,7 @@ module.exports = {
     },
     margin: (theme, {negative}) => ({
       auto: "auto",
+      "neg": "-100px",
       "50"  : "50px",
       "100" : "100px",
       "200" : "200px",

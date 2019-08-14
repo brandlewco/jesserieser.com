@@ -74,7 +74,6 @@
     "@swup/preload-plugin": "^1.0.3",
     "@swup/scripts-plugin": "^1.0.1",
     "@swup/scroll-plugin": "^1.0.6",
-    "aos": "^2.3.4",
     "browser-sync": "^2.26.7",
     "filterizr": "^2.1.1",
     "gulp": "^4.0.2",

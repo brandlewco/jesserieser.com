@@ -6,9 +6,6 @@
 
     {{- with .Title | default .Site.Title -}}
     <title>{{ . }}</title>
-    {% if page.forestry_instant_preview_id %}
-      <meta name="forestry:prevID" value="{{ page.forestry_instant_preview_id }} ">
-    {% endif %}
     <meta property="og:title" content="{{ . }}" />
     <meta name="twitter:title" content="{{ . | truncate 70 }}" />
     {{- end -}}

@@ -66,4 +66,22 @@ Array.prototype.forEach.call(navToggle, function(nav) {
   });
 });
 
+let scrollPos = 0;
+function checkPosition() {
+  const windowY = window.scrollY;
+  if (windowY < scrollPos) {
+    // Scrolling UP
+    navigation.classList.add("mt-0");
+    navigation.classList.remove("mt-neg");
+  } else {
+    // Scrolling DOWN
+    navigation.classList.add("mt-neg");
+    navigation.classList.remove("mt-0");
+  }
+  scrollPos = windowY;
+}
+
+window.addEventListener("scroll", checkPosition);
+
+
 import "./css/main.css";
