@@ -4,6 +4,7 @@ collection_content = "Suspendisse viverra luctus purus id tempor. Donec id magna
 collection_cover = "https://jesserieser.brandlew.co/uploads/rieser-adidas-10.jpg"
 collection_description = "Suspendisse efficitur, odio a consequat euismod, turpis diam lacinia neque, non condimentum mi ipsum a ex. Phasellus ultricies finibus nisi. Nunc a nulla quis nisl molestie pellentesque ac eget felis. Donec quis neque dui. Mauris aliquam diam sed tellus volutpat nullam."
 cover_image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-10.jpg"
+page="/collections/addidas.html"
 date = "2019-05-01T07:00:00+00:00"
 collection_filter = "Commissioned + Stock"
 collection_category = ["Black and White", "Lifestyle"]
