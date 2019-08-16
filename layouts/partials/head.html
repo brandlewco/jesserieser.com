@@ -9,6 +9,9 @@
     <meta property="og:title" content="{{ . }}" />
     <meta name="twitter:title" content="{{ . | truncate 70 }}" />
     {{- end -}}
+    {{ with .Params.forestry_instant_preview_id }}
+        {{- safeHTML (printf "<meta property='forestry_instant_preview_id' content='%s'>" .) -}}
+    {{ end -}}
     {{- with .Description | default .Params.subtitle | default .Summary -}}
     <meta name="description" content="{{ . }}">
     <meta property="og:description" content="{{ . }}">
