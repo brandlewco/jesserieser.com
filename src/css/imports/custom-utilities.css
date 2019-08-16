@@ -22,6 +22,9 @@ html.is-animating .transition-nav{
 html.is-changing #loader {
   opacity: 1;
 }
+html[class*=" to-"] #loader, html[class*=" to-"] #mask, html[class*=" to-"] .cover {
+  opacity: 0;
+}
 #loader {
   background: linear-gradient(to right, #eee 0%, #e4e4e4 40%, #eee 80%);
   background-size: 400px 400px;
@@ -69,6 +72,7 @@ header #mask rect {
 header #mask path {
   transform: translateX(50%) translateX(-150px) translateY(50%) translateY(-170px);
 }
+
 header rect.cover {
   opacity: 1;
   transition: 0.33s opacity ease-in-out;
@@ -85,11 +89,12 @@ header.lazyloaded rect.cover {
 } 
 
 img {
-  transition: 0.33s opacity cubic-bezier(0.550, 0.055, 0.675, 0.190);
-  transition-delay: 0.66s;
+  transition: 0.66s opacity cubic-bezier(0.550, 0.055, 0.675, 0.190);
+  transition-delay: 1s;
   opacity: 1;
-  max-width: 100%;
+  width: 100%;
   height: auto;
+  display: block;
 }
 
 img.lazyload {
@@ -106,11 +111,6 @@ img.lazyloaded, #project-header.lazyloaded, img.pswp__img  {
 }
 .block-hover article:hover figcaption {
   opacity: 1;
-}
-
-.block-hover img {
-  transition: 0.33s opacity cubic-bezier(0.550, 0.055, 0.675, 0.190);
-  transition-delay: 0s;
 }
 
 .group-hover:hover > .block-hover img {

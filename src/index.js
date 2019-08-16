@@ -8,12 +8,13 @@ import "lazysizes";
 import "lazysizes/plugins/unveilhooks/ls.unveilhooks";
 import Midday from "midday.js";
 
+
 // Page Loader (SWUP)
 const options = {
   containers: ["#content", "#navigation"],
   plugins: [
     new SwupScrollPlugin({
-      animateScroll: false,
+      animateScroll: true,
       scrollFriction: 0.3,
       scrollAcceleration: 0.04,
       doScrollingRightAway: false
@@ -88,8 +89,7 @@ window.onscroll = function() {
   var headerOverlay = document.getElementById("header-overlay");
   var height = window.innerHeight;
   var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
-  height = height * 0.75;
-  headerOverlay.style.opacity = scrollTop / height;
+  headerOverlay.style.opacity = scrollTop / (height * 0.5);
 };
 
 
