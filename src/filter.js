@@ -5,15 +5,15 @@ const filterizr = new Filterizr(".filtr-container");
 window.filterizr = filterizr;
 // Configure your options
 window.filterizr.setOptions({
-  animationDuration: 0.5, // in seconds
+  animationDuration: 0.66, // in seconds
   controlsSelector: "", // Selector for custom controls
-  delay: 0, // Transition delay in ms
+  delay: 66, // Transition delay in ms
   delayMode: "progressive", // 'progressive' or 'alternate'
   easing: "ease-in-out",
   filter: "all", // Initial filter
   filterOutCss: { // Filtering out animation
     opacity: 0,
-    transform: "translateY(-200%)"
+    transform: "translateY(-150%)"
   },
   filterInCss: { // Filtering in animation
     opacity: 1,
