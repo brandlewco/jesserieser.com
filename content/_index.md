@@ -48,7 +48,7 @@ page_sections:
   attached_collection: collections/star-geezers.md
   caption: Star Geezers
   color: "#9bbad5"
-theme_color: "#FFCAB7"
+theme_color: "#C81111"
 collection_description: ''
 collection_content: ''
 cover_image: ''

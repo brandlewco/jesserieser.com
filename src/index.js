@@ -87,9 +87,15 @@ window.addEventListener("scroll", checkPosition);
 // Fade on Scroll
 window.onscroll = function() {
   var headerOverlay = document.getElementById("header-overlay");
+  var pageTitle = document.getElementById("page-title");
   var height = window.innerHeight;
   var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
-  headerOverlay.style.opacity = scrollTop / (height * 0.5);
+  if (pageTitle) {
+    pageTitle.style.transform = "translateY(" + Math.round(scrollTop / 2) + "%)";
+  }
+  if (headerOverlay) {
+    headerOverlay.style.opacity = scrollTop / (height * 0.5);
+  }
 };
 
 

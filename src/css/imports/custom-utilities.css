@@ -37,6 +37,13 @@ html[class*=" to-"] #loader, html[class*=" to-"] #mask, html[class*=" to-"] .cov
   transition: 0.33s opacity cubic-bezier(0.550, 0.055, 0.675, 0.190);
 }
 
+body.page-collections #navigation{
+  background: #fff;
+}
+
+#filter {
+  overflow: visible;
+}
 @keyframes loading-pulse {
   0%{
     background-position:-400px 0%;
@@ -82,17 +89,11 @@ header.lazyloaded rect.cover {
   transition-delay: 2s;
 }
 
-#project-header {
-  transition: 0.33s opacity cubic-bezier(0.550, 0.055, 0.675, 0.190);
-  transition-delay: 0.66s;
-  opacity: 0;
-} 
-
-#project-header h1 {
+#page-title{
   transition: 0.33s opacity cubic-bezier(0.550, 0.055, 0.675, 0.190);
   transition-delay: 2s;
   opacity: 0;
-}
+} 
 
 img {
   transition: 0.33s opacity cubic-bezier(0.550, 0.055, 0.675, 0.190);
@@ -111,8 +112,8 @@ img.lazyload {
   transition-delay: 0s;
 }
 
-.lazyloaded, img.pswp__img  {
-  opacity: 1 !important;
+img.lazyloaded, #page-title.lazyloaded, img.pswp__img {
+  opacity: 1;
 }
 /* 
 .ratio-container {

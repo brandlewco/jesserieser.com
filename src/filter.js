@@ -12,8 +12,8 @@ window.filterizr.setOptions({
   easing: "ease-in-out",
   filter: "all", // Initial filter
   filterOutCss: { // Filtering out animation
-    opacity: 1,
-    transform: "translateY(-100%)"
+    opacity: 0,
+    transform: "translateY(-200%)"
   },
   filterInCss: { // Filtering in animation
     opacity: 1,

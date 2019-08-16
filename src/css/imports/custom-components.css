@@ -47,8 +47,8 @@
 .btn-gray:hover {
   @apply bg-gray-200;
 }
-.btn-gray.active {
-  @apply bg-gray-700 text-white;
+.btn-toggle.active {
+  @apply underline text-gray-800;
 }
 
 .hue-btn {

@@ -13,10 +13,10 @@ var initGalleryClick = function() {
     var pswpElement = document.querySelectorAll(".pswp")[0];
     var options = {
       history: true,
-      bgOpacity: 0.75,
-      // closeOnScroll: false,
-      // closeOnVerticalDrag: false,
-      preload: [2, 3],
+      bgOpacity: 0.5,
+      closeOnScroll: false,
+      closeOnVerticalDrag: false,
+      preload: [3, 3],
       loadingIndicatorDelay: 0,
     };
     // Pass data to PhotoSwipe and initialize it
@@ -73,10 +73,10 @@ var initGalleryDOM = function() {
     var pswpElement = document.querySelectorAll(".pswp")[0];
     var options = {
       history: true,
-      bgOpacity: 0.75,
-      // closeOnScroll: false,
-      // closeOnVerticalDrag: false,
-      preload: [2, 3],
+      bgOpacity: 0.5,
+      closeOnScroll: false,
+      closeOnVerticalDrag: false,
+      preload: [3, 3],
       loadingIndicatorDelay: 0,
     };
     // PhotoSwipe opened from URL

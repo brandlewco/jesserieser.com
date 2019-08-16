@@ -1,13 +1,13 @@
-<header id="project-header" class="w-screen h-screen lazyload bg-scroll bg-cover bg-center flex flex-col justify-center items-center" data-hue="{{.Params.navigation_theme}}" style="background-image: url({{.Params.collection_cover }}{{.Site.Params.cover}})">
+<header id="project-header" class="relative w-screen h-screen lazyload bg-scroll bg-cover bg-center flex flex-col justify-center items-center overflow-hidden" data-hue="{{.Params.navigation_theme}}" style="background-image: url({{.Params.collection_cover }}{{.Site.Params.cover}})">
     {{partial "r-mask" .}}
-    <h1 class="absolute m-auto uppercase text-6xl font-light tracking-widest text-{{.Params.navigation_theme}} lazyload">{{.Title}}</h1>
-    <div class="absolute bottom-0 mx-0 text-6xl font-light text-white">&#8964;</div>
+    <h1 id="page-title" class="absolute top m-auto uppercase text-6xl font-hairline tracking-wide text-{{.Params.navigation_theme}} lazyload">{{.Title}}</h1>
+    <div class="absolute bottom-0 mx-0 text-6xl font-light text-{{.Params.navigation_theme}}">&#8964;</div>
     <section id="header-overlay" class="flex flex-col justify-end absolute w-screen h-screen inset-auto opacity-0" style="background-color: {{.Params.theme_color}};">
-        <article id="project-description" class="w-full py-8 px-8 text-lg leading-normal text-white items-center lazyload">
+        <article id="project-description" class="w-full py-8 px-8 text-xl text-{{.Params.navigation_theme}} items-center text-justify leading-loose">
             <div class="flex flex-row justify-center container mx-auto">
-                <div class="sm:w-3/5">
+                <div class="sm:w-4/5">
                     {{ .Params.collection_description | markdownify }}
-                    <a href="{{.Page.Permalink}}#project-brief" class="block text-white font-normal text-sm underline">more</a>
+                    <a href="{{.Page.Permalink}}#project-brief" class="block text-{{.Params.navigation_theme}} font-normal underline float-right">more...</a>
                 </div>
             </div>
         </article>
