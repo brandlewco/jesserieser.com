@@ -72,4 +72,30 @@ Array.prototype.forEach.call(navToggle, function(nav) {
   });
 });
 
+// Show Hide Header
+let scrollPos = 0;
+function checkPosition() {
+  const windowY = window.scrollY;
+  if (windowY < scrollPos) {
+    // Scrolling UP
+    navigation.classList.add("mt-0");
+    navigation.classList.remove("mt-neg");
+  } else {
+    // Scrolling DOWN
+    navigation.classList.add("mt-neg");
+    navigation.classList.remove("mt-0");
+  }
+  scrollPos = windowY;
+}
+window.addEventListener("scroll", checkPosition);
+
+// Fade on Scroll
+window.onscroll = function() {
+  var headerOverlay = document.getElementById("header-overlay");
+  var height = window.innerHeight;
+  var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
+  headerOverlay.style.opacity = scrollTop / (height * 0.5);
+};
+
+
 import "./css/main.css";
