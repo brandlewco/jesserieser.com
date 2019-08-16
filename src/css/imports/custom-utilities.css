@@ -97,7 +97,7 @@ header.lazyloaded rect.cover {
 
 img {
   transition: 0.33s opacity cubic-bezier(0.550, 0.055, 0.675, 0.190);
-  transition-delay: 0.66s;
+  transition-delay: 0.33s;
   opacity: 1;
   width: 100%;
   height: auto;
@@ -136,12 +136,12 @@ img.lazyloaded, #page-title.lazyloaded, img.pswp__img {
 } */
 
 /* unknown ration variation */
-.unknown-ratio-container > * {
+/* .unknown-ratio-container > * {
   max-width: 100%;
   max-height: 100%;
   width: auto;
   height: auto;
-}
+} */
 
 .block-hover figcaption {
   opacity: 0;
