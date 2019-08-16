@@ -1,6 +1,6 @@
 <header id="project-header" class="w-screen h-screen lazyload bg-scroll bg-cover bg-center flex flex-col justify-center items-center" data-hue="{{.Params.navigation_theme}}" style="background-image: url({{.Params.collection_cover }}{{.Site.Params.cover}})">
     {{partial "r-mask" .}}
-    <h1 class="absolute m-auto uppercase text-6xl font-light tracking-widest text-{{.Params.navigation_theme}}" data-aos>{{.Title}}</h1>
+    <h1 class="absolute m-auto uppercase text-6xl font-light tracking-widest text-{{.Params.navigation_theme}} lazyload">{{.Title}}</h1>
     <div class="absolute bottom-0 mx-0 text-6xl font-light text-white">&#8964;</div>
     <section id="header-overlay" class="flex flex-col justify-end absolute w-screen h-screen inset-auto opacity-0" style="background-color: {{.Params.theme_color}};">
         <article id="project-description" class="w-full py-8 px-8 text-lg leading-normal text-white items-center lazyload">
