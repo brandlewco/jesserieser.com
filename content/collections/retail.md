@@ -9,7 +9,7 @@ cover_image = ""
 date = ""
 layout = "blocks"
 logo = ""
-navigation_theme = "white"
+navigation_theme = "black"
 theme_color = "#7e7e9b"
 title = "Changing Landscape of Retail"
 [[collection_layout_builder]]
