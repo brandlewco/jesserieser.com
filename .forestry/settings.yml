@@ -32,7 +32,7 @@ sections:
   - gallery-builder
 - type: document
   path: data/categories/categories.toml
-  label: "\U0001F3F7 Categories"
+  label: Categories
 upload_dir: static/uploads
 public_path: https://jesserieser.brandlew.co/uploads
 front_matter_path: ''
