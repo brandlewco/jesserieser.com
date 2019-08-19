@@ -9,8 +9,13 @@ sections:
   label: Pages
   create: all
   match: "*"
+- type: directory
+  path: content/post
+  label: News Posts
+  create: all
+  match: "**/*"
 - type: heading
-  label: Photos
+  label: Photo
 - type: directory
   path: content/collections
   label: Collections
@@ -29,14 +34,7 @@ sections:
   label: Configuration
 - type: document
   path: data/categories/categories.toml
-  label: Categories & Filters
-- type: heading
-  label: Blog and News
-- type: directory
-  path: content/post
-  label: Posts
-  create: all
-  match: "**/*"
+  label: Photo Categories
 upload_dir: static/uploads
 public_path: https://jesserieser.brandlew.co/uploads
 front_matter_path: ''
