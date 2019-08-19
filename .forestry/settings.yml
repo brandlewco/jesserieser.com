@@ -15,7 +15,7 @@ sections:
   create: all
   match: "**/*"
 - type: heading
-  label: Photo
+  label: "\U0001F387 Photo"
 - type: directory
   path: content/collections
   label: Collections
@@ -30,11 +30,9 @@ sections:
   match: "**/*"
   templates:
   - gallery-builder
-- type: heading
-  label: Configuration
 - type: document
   path: data/categories/categories.toml
-  label: Photo Categories
+  label: "\U0001F3F7 Categories"
 upload_dir: static/uploads
 public_path: https://jesserieser.brandlew.co/uploads
 front_matter_path: ''
