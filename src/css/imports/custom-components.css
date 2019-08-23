@@ -32,6 +32,12 @@
   }
 }
 
+@media (max-width: 640px) { 
+  .translate-none {
+    transform: none !important;
+  }
+}
+
 .hue-header h1, .hue-header button {
   transition: 0.33s all ease-in-out;
 }

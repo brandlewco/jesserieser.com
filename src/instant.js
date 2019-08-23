@@ -57,6 +57,7 @@ const middayNav = new Midday(document.getElementById("navigation"), {
   sectionSelector: "hue"
 });
 
+// Button Toggle
 var buttons = document.getElementsByClassName("toggle");
 Array.prototype.forEach.call(buttons, function(button) {
   button.addEventListener("click", function(event) {
@@ -64,6 +65,7 @@ Array.prototype.forEach.call(buttons, function(button) {
   });
 });
 
+// Navigation Toggle
 var navigation = document.getElementById("navigation");
 var navToggle = document.getElementsByClassName("navToggle");
 Array.prototype.forEach.call(navToggle, function(nav) {
@@ -89,13 +91,40 @@ function checkPosition() {
 }
 window.addEventListener("scroll", checkPosition);
 
-// Fade on Scroll
+function value_limit(val, min, max) {
+  return val < min ? min : (val > max ? max : val);
+}
+
+// Scroll Animations
 window.onscroll = function() {
   var headerOverlay = document.getElementById("header-overlay");
+  var pageTitle = document.getElementById("page-title");
   var height = window.innerHeight;
   var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
-  headerOverlay.style.opacity = scrollTop / (height * 0.5);
+  if (pageTitle) {
+    pageTitle.style.transform = "translate3d(0, -" + value_limit((((90 - ((scrollTop * 1.2) / height) * 100) / 2)), 0, 45) + "vh, 0)";
+  }
+  if (headerOverlay) {
+    headerOverlay.style.opacity = value_limit((scrollTop / (height * 0.5)), 0, 1);
+  }
 };
+
+// Highlight Class Switcher
+var highlight = document.getElementsByClassName("highlight");
+for (var i = 0; i < highlight.length; i++) {
+  highlight[i].addEventListener("mouseover", highlightThem);
+  highlight[i].addEventListener("mouseout", DontHighlightThem);
+}
+function highlightThem() {
+  for (var i = 0; i < highlight.length; i++) {
+    highlight[i].classList.add("lit");
+  }
+}
+function DontHighlightThem() {
+  for (var i = 0; i < highlight.length; i++) {
+    highlight[i].classList.remove("lit");
+  }
+}
 
 
 import "./css/main.css";

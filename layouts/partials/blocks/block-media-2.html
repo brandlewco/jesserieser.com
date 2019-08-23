@@ -1,22 +1,16 @@
-<section class="container block-media-2 flex flex-col md:flex-row {{with .Section.row_alignment}}md:justify-{{.}}{{else}}md:justify-between{{end}} mx-auto h-auto">
-      <figure class="{{with .Section.image_1.x}}md:self-{{.}}{{end}} w-full {{with .Section.image_1.width}}md:w-{{.}}/100{{end}} mt-0 {{with .Section.image_1.margin}}md:mt-{{.}}{{end}}" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+<section class="container block-hover block-media-2 flex flex-col md:flex-row {{with .Section.row_alignment}}md:justify-{{.}}{{else}}md:justify-between{{end}} mx-auto h-auto">
+      <figure class="{{with .Section.image_1.x}}md:self-{{.}}{{end}} w-full {{with .Section.image_1.width}}md:w-{{.}}/100{{end}} mt-0 {{with .Section.image_1.margin}}md:mt-{{.}}{{end}} highlight" style="background: {{with .Section.image_1.color}}{{.}}{{else}}{{.Page.Params.theme_color}}{{end}};" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
         <a href="{{ .Page.Permalink }}#&gid=1&pid={{ .Section.image_1.image | replaceRE "[a-zA-Z-:./]" "" }}" itemprop="contentUrl" class="opengallery" data-imageset="{{ .Page.Title | replaceRE "[^a-zA-Z]" "" | lower | safeJS }}" data-image="{{ .Section.image_1.image | replaceRE "[a-zA-Z-:./]" "" }}" data-no-swup>
-          <div class="ratio-container unknown-ratio-container">
+          <div class="ratio">
           <img class="lazyload" src="{{ .Section.image_1.image }}{{$.Site.Params.contain}}" alt="{{ .Section.image_1.caption }}" data-src="{{ .Section.image_1.image }}{{$.Site.Params.contain}}" alt="{{ .Section.image_1.caption }}" itemprop="thumbnail"/>
           </div>
         </a>
-        {{ if .Section.image_1.caption }}
-        <figcaption class="text-xl" itemprop="caption description">{{ .Section.image_1.caption }}</figcaption>
-        {{ end }}
       </figure>
-      <figure class="{{with .Section.image_2.x}}md:self-{{.}}{{end}} w-full {{with .Section.image_2.width}}md:w-{{.}}/100{{end}} mt-0 {{with .Section.image_2.margin}}md:mt-{{.}}{{end}}" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <figure class="{{with .Section.image_2.x}}md:self-{{.}}{{end}} w-full {{with .Section.image_2.width}}md:w-{{.}}/100{{end}} mt-0 {{with .Section.image_2.margin}}md:mt-{{.}}{{end}} highlight" itemprop="associatedMedia" style="background: {{with .Section.image_2.color}}{{.}}{{else}}{{.Page.Params.theme_color}}{{end}};" itemscope itemtype="http://schema.org/ImageObject">
         <a href="{{ .Page.Permalink }}#&gid=1&pid={{ .Section.image_2.image | replaceRE "[a-zA-Z-:./]" "" }}" itemprop="contentUrl" class="opengallery" data-imageset="{{ .Page.Title | replaceRE "[^a-zA-Z]" "" | lower | safeJS }}" data-image="{{ .Section.image_2.image | replaceRE "[a-zA-Z-:./]" "" }}" data-no-swup>
-          <div class="ratio-container unknown-ratio-container">
+          <div class="ratio">
           <img class="lazyload" src="{{ .Section.image_2.image }}{{$.Site.Params.contain}}"  alt="{{ .Section.image_2.caption }}" data-src="{{ .Section.image_2.image }}{{$.Site.Params.contain}}"  alt="{{ .Section.image_2.caption }}" itemprop="thumbnail"/>
           </div>
         </a>
-        {{ if .Section.image_2.caption }}
-        <figcaption class="text-xl" itemprop="caption description">{{ .Section.image_2.caption }}</figcaption>
-        {{ end }}
       </figure>
 </section>
