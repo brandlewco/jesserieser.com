@@ -1,0 +1,39 @@
+{{- define "main" -}}
+<article class="content container mx-auto mt-16">
+    {{partial "collection_sorter" .}}
+    <section id="filter" class="grid flex flex-wrap overflow-hidden">
+        {{ range .Pages }}
+        {{partial "collection_sorter_item" .}}
+        {{ end }}
+    </section>
+</article>
+{{- end -}}
+
+{{- define "attached" -}}
+<!-- <script>
+Object.prototype.classHighlight = function (over, out) {
+    var that = this.length ? this : [this];
+    function onOver() {
+        for (var i = 0, len = that.length; i < len; i++) {
+            that[i].style.backgroundColor = over;
+        }
+    }
+    function onOut() {
+        for (var i = 0, len = that.length; i < len; i++) {
+            that[i].style.backgroundColor = out;
+        }
+    }
+    for (var i = 0, len = that.length; i < len; i++) {
+        that[i].onmouseover = onOver;
+        that[i].onmouseout = onOut;
+    }
+};
+{{range $.Site.Data.categories}}{{range sort .categories "value" "asc"}}
+document.getElementsByClassName('{{. | urlize}}').classHighlight('#f90', '#fff');
+{{end}}{{end}}
+</script> -->
+{{ $filter := .Site.Data.webpack.filter }}
+{{ with $filter.js }}
+<script src="{{ . | relURL }}" async></script>
+{{ end }}
+{{- end -}}

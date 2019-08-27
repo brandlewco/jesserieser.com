@@ -16,7 +16,7 @@
 <script async>
 var items = [
     {{ range sort $key.Params.figure }}
-        { src: "{{ .image }}", w: 0, h: 0, pid: "{{ .image | replaceRE "[a-zA-Z-./:]" "" }}"},
+        { src: "{{ .image }}", msrc: "/placeholder.png", w: 0, h: 0, pid: "{{ .image | replaceRE "[a-zA-Z-./:]" "" }}"},
     {{ end }}
 ]
 </script>

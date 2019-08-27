@@ -81,12 +81,28 @@ header #mask path {
 }
 
 header rect.cover {
-  opacity: 1;
   transition: 0.33s opacity ease-in-out;
+  transition-delay: 2s;
+  transform-origin: center;
+  /* animation-delay: 2s; */
+  opacity: 1;
 }
 header.lazyloaded rect.cover {
+  /* animation-name: r-expand;
+  animation-duration: 0.66s;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(1,0,.81,.58);
+  animation-fill-mode: forwards; */
   opacity: 0;
-  transition-delay: 2s;
+}
+
+@keyframes r-expand {
+  0%{
+    transform: scale(1);
+  }
+  100%{
+    transform: scale(50);
+  }
 }
 
 #page-title{
@@ -117,15 +133,12 @@ img.lazyloaded, #page-title.lazyloaded, img.pswp__img {
   transition-delay: 0s;
 }
 
-figure {
+/* figure {
   transform: scale(1);
   transition: 0.33s transform ease-in-out;
 
-}
-
-/* figure.lit {
-  transform: scale(0.99);
 } */
+
 
 figure.lit img{
   opacity: 0;
@@ -192,6 +205,7 @@ figure:hover img {
 .group-hover:hover > .block-hover:hover img {
   opacity: 1;
 }
+
 
 @responsive {
   .border-box {

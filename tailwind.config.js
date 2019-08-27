@@ -283,6 +283,12 @@ module.exports = {
       screen: "100vh",
       feature: "calc(100vh - 75px)",
     }),
+    aspectRatio: { // defaults to {}
+      "square": [1, 1],
+      "16/9": [16, 9],
+      "4/3": [4, 3],
+      "21/9": [21, 9],
+    },
     inset: {
       "0": "0",
       "neg": "-100px",
@@ -447,6 +453,7 @@ module.exports = {
     alignItems: ["responsive"],
     alignSelf: ["responsive"],
     appearance: ["responsive"],
+    aspectRatio: ["responsive"],
     backgroundAttachment: ["responsive"],
     backgroundColor: ["responsive", "hover", "focus"],
     backgroundPosition: ["responsive"],
@@ -509,5 +516,7 @@ module.exports = {
     zIndex: ["responsive"],
   },
   corePlugins: {},
-  plugins: [],
+  plugins: [
+    require("tailwindcss-aspect-ratio")(),
+  ],
 };

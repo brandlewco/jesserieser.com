@@ -11,9 +11,10 @@ var initGalleryClick = function() {
   var openGallery = function(index) {
     var gallery;
     var pswpElement = document.querySelectorAll(".pswp")[0];
+    const scrollValues = {};
     var options = {
       history: true,
-      bgOpacity: 0.5,
+      bgOpacity: 0.2,
       closeOnScroll: false,
       closeOnVerticalDrag: false,
       preload: [3, 3],
@@ -33,6 +34,9 @@ var initGalleryClick = function() {
         };
         img.src = item.src; // let's download image
       }
+    });
+    gallery.listen("afterChange", function() {
+      document.getElementById(gallery.currItem.pid).scrollIntoView({behavior: "smooth"});
     });
     gallery.init();
   };
@@ -73,7 +77,7 @@ var initGalleryDOM = function() {
     var pswpElement = document.querySelectorAll(".pswp")[0];
     var options = {
       history: true,
-      bgOpacity: 0.5,
+      bgOpacity: 0.2,
       closeOnScroll: false,
       closeOnVerticalDrag: false,
       preload: [3, 3],
@@ -101,6 +105,9 @@ var initGalleryDOM = function() {
         };
         img.src = item.src; // let's download image
       }
+    });
+    gallery.listen("afterChange", function() {
+      document.getElementById(gallery.currItem.pid).scrollIntoView({behavior: "smooth"});
     });
     gallery.init();
   };
