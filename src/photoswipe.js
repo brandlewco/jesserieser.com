@@ -19,6 +19,7 @@ var initGalleryClick = function() {
       closeOnVerticalDrag: false,
       preload: [3, 3],
       loadingIndicatorDelay: 0,
+      shareEl: false,
     };
     // Pass data to PhotoSwipe and initialize it
     options.index = parseInt(index, 10) - 1;

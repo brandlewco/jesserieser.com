@@ -1,23 +1,24 @@
 import Swup from "swup";
+import SwupScrollPlugin from "@swup/scroll-plugin";
 import SwupGaPlugin from "@swup/ga-plugin";
 import SwupBodyClassPlugin from "@swup/body-class-plugin";
 import SwupScriptsPlugin from "@swup/scripts-plugin";
 import SwupPreloadPlugin from "@swup/preload-plugin";
-import SwupScrollPlugin from "@swup/scroll-plugin";
+import SwupFadeTheme from "@swup/fade-theme";
 import "lazysizes";
 import "lazysizes/plugins/unveilhooks/ls.unveilhooks";
 import Midday from "midday.js";
-
+import smoothscroll from "smoothscroll-polyfill";
 
 // Page Loader (SWUP)
 const options = {
-  containers: ["#content", "#navigation"],
+  containers: ["#content"],
   plugins: [
     new SwupScrollPlugin({
       animateScroll: true,
       scrollFriction: 0.3,
       scrollAcceleration: 0.04,
-      doScrollingRightAway: false
+      doScrollingRightAway: true
     }),
     new SwupGaPlugin(),
     new SwupPreloadPlugin(),
@@ -26,14 +27,16 @@ const options = {
       head: true,
       body: true
     }),
+    new SwupFadeTheme({
+      mainElement: "#content"
+    }),
   ],
   animateHistoryBrowsing: true,
   preload: true,
   cache: true,
-  // scroll: false,
   linkSelector: 'a[href^="' + window.location.origin + '"]:not([data-no-swup]), a[href^="/"]:not([data-no-swup]), a[href^="#"]:not([data-no-swup])',
   skipPopStateHandling: function(event) {
-    if (event.state && event.state.source === "photoswipe") {
+    if (event.state && event.state.source === "window.gallery") {
       return false;
     }
     return true;
@@ -120,5 +123,8 @@ function DontHighlightThem() {
     highlight[i].classList.remove("lit");
   }
 }
+
+window.__forceSmoothScrollPolyfill__ = true;
+smoothscroll.polyfill();
 
 import "./css/main.css";
