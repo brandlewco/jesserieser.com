@@ -35,8 +35,8 @@ sections:
   label: Categories
 upload_dir: static/uploads
 public_path: https://jesserieser.brandlew.co/uploads
-front_matter_path: ''
-use_front_matter_path: false
+front_matter_path: uploads
+use_front_matter_path: true
 file_template: ":filename:"
 instant_preview: true
 build:
