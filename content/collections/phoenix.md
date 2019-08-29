@@ -176,13 +176,5 @@ row_height = 25
 template = "block-media"
 width = ""
 x = "center"
-[[collection_layout_builder]]
-block = "media-1"
-image = "https://jesserieser.brandlew.co/uploads/phx-15.jpg"
-margin = 50
-row_alignment = "between"
-template = "block-media"
-width = 70
-x = "center"
 
 +++
