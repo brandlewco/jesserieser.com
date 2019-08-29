@@ -49,11 +49,11 @@ row_alignment = "between"
 row_order = true
 template = "block-media-mix"
 [collection_layout_builder.image_1]
+color = "#FF9153"
 image = "https://jesserieser.brandlew.co/uploads/phx-4.jpg"
 margin = 200
 width = 50
 x = "start"
-color = "#FF9153"
 [collection_layout_builder.text]
 caption = "Mixed Media Block. Caption or descriptive text goes here."
 color = "#4A4A4A"
@@ -174,7 +174,15 @@ margin = 50
 row_alignment = "between"
 row_height = 25
 template = "block-media"
-width = 40
+width = ""
+x = "center"
+[[collection_layout_builder]]
+block = "media-1"
+image = "https://jesserieser.brandlew.co/uploads/phx-15.jpg"
+margin = 50
+row_alignment = "between"
+template = "block-media"
+width = 70
 x = "center"
 
 +++
