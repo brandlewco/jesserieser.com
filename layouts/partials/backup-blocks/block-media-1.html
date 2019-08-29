@@ -1,10 +1,9 @@
-<section class="block block-media-1">
-  <div class="container">
-    <figure>
-      <img class="lazy" data-src="{{ .Site.Params.cloud }}/w_600,c_scale/{{ .Section.image }}" alt="{{ .Section.caption }}">
-      {{ if .Section.caption }}
-      <figcaption>{{ .Section.caption }}</figcaption>
-      {{ end }}
-    </figure>
-  </div>
+<section class="container block-media-1 block-hover flex flex-row {{with .Section.row_alignment}}md:justify-{{.}}{{else}}md:justify-between{{end}} mx-auto h-auto">
+  <figure class="figure {{with .Section.x}}md:self-{{.}}{{end}} w-full {{with .Section.width}}md:w-{{.}}/100{{end}} mt-0 {{with .Section.margin}}md:mt-{{.}}{{end}} highlight" style="background: {{with .Section.color}}{{.}}{{else}}{{.Page.Params.theme_color}}{{end}};" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" id="{{ .Section.image | replaceRE "[a-zA-Z-:./]" "" }}">
+    <a href="{{ .Page.Permalink }}#&gid=1&pid={{ .Section.image | replaceRE "[a-zA-Z-:./]" "" }}" itemprop="contentUrl" class="opengallery" data-imageset="{{ .Page.Title | replaceRE "[^a-zA-Z]" "" | lower | safeJS }}" data-image="{{ .Section.image | replaceRE "[a-zA-Z-:./]" "" }}" data-no-swup>
+      <div class="ratio">
+      <img class="lazyload" src="{{ .Section.image }}{{$.Site.Params.contain}}" data-src="{{ .Section.image }}{{$.Site.Params.contain}}" alt="{{ .Section.caption }}"/>
+      </div>
+    </a>
+  </figure>   
 </section>

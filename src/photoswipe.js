@@ -14,19 +14,19 @@ var initGalleryClick = function() {
     const scrollValues = {};
     var options = {
       history: true,
-      bgOpacity: 0.2,
+      bgOpacity: 0.4,
       closeOnScroll: false,
       closeOnVerticalDrag: false,
-      preload: [3, 3],
+      preload: [2, 2],
       loadingIndicatorDelay: 0,
-      shareEl: false,
+      shareEl: false
     };
     // Pass data to PhotoSwipe and initialize it
     options.index = parseInt(index, 10) - 1;
     gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
     // console.log(items, index);
     gallery.listen("gettingData", function(index, item) {
-      if (item.w < 1 || item.h < 1) {
+      if (item.w < 2 || item.h < 2) {
         var img = new Image();
         img.onload = function() {
           item.w = this.width; // set image width
@@ -78,11 +78,11 @@ var initGalleryDOM = function() {
     var pswpElement = document.querySelectorAll(".pswp")[0];
     var options = {
       history: true,
-      bgOpacity: 0.2,
+      bgOpacity: 0.4,
       closeOnScroll: false,
       closeOnVerticalDrag: false,
-      preload: [3, 3],
-      loadingIndicatorDelay: 0,
+      preload: [2, 2],
+      loadingIndicatorDelay: 0
     };
     // PhotoSwipe opened from URL
     if (fromURL) {
@@ -97,7 +97,7 @@ var initGalleryDOM = function() {
     // Pass data to PhotoSwipe and initialize it
     gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
     gallery.listen("gettingData", function(index, item) {
-      if (item.w < 1 || item.h < 1) {
+      if (item.w < 2 || item.h < 2) {
         var img = new Image();
         img.onload = function() {
           item.w = this.width; // set image width

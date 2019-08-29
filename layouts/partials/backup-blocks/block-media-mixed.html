@@ -1,0 +1,15 @@
+<section class="container block-media-2 flex flex-col md:flex-row{{with .Section.row_order }}-reverse{{end}} {{with .Section.row_alignment}}md:justify-{{.}}{{else}}md:justify-between{{end}} mx-auto h-auto">
+  <figure class="{{with .Section.image_1.x}}md:self-{{.}}{{end}} w-full {{with .Section.image_1.width}}md:w-{{.}}/100{{end}} mt-0 {{with .Section.image_1.margin}}md:mt-{{.}}{{end}} highlight" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" style="background: {{with .Section.image_1.color}}{{.}}{{else}}{{.Page.Params.theme_color}}{{end}};" >
+    <a href="{{ .Page.Permalink }}#&gid=1&pid={{ .Section.image_1.image | replaceRE "[a-zA-Z-.:/]" "" }}" itemprop="contentUrl" class="opengallery" data-imageset="{{ .Page.Title | replaceRE "[^a-zA-Z]" "" | lower | safeJS }}" data-image="{{ .Section.image_1.image | replaceRE "[a-zA-Z-.:/]" "" }}" data-no-swup>
+      <div class="ratio">
+      <img class="lazyload" data-src="{{ .Section.image_1.image | absURL }}{{$.Site.Params.contain}}" alt="{{ .Section.image_1.caption }}" itemprop="thumbnail"/>
+      </div>
+    </a>
+    {{ if .Section.image_1.caption }}
+    <figcaption class="text-xl" itemprop="caption description">{{ .Section.image_1.caption }}</figcaption>
+    {{ end }}
+  </figure>
+  <aside class="{{with .Section.text.x}}md:self-{{.}}{{end}} w-full {{with .Section.text.width}}md:w-{{.}}/100{{end}} mt-0 {{with .Section.text.margin}}md:mt-{{.}}{{end}} text-2xl">
+    {{with .Section.text.caption}}{{.}}{{end}}
+  </aside>
+</section>

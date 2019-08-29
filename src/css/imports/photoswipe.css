@@ -146,7 +146,6 @@
 }
 
 .pswp__container {
-  transition: transform 333ms ease-in-out;
 }
 
 .pswp__item {
