@@ -33,7 +33,7 @@ sections:
 - type: document
   path: data/categories/categories.toml
   label: Categories
-upload_dir: static/uploads
+upload_dir: uploads
 public_path: https://jesserieser.brandlew.co/uploads
 front_matter_path: uploads
 use_front_matter_path: true
