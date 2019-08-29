@@ -176,5 +176,13 @@ row_height = 25
 template = "block-media"
 width = ""
 x = "center"
+[[collection_layout_builder]]
+block = "media-1"
+image = "uploads/phx-17.jpg"
+margin = 50
+row_alignment = "center"
+template = "block-media"
+width = 80
+x = "start"
 
 +++
