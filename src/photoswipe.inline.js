@@ -12,6 +12,7 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
       figureEl,
       linkEl,
       size,
+      imgEl,
       item;
 
     for (var i = 0; i < numNodes; i++) {
@@ -24,14 +25,16 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
       }
 
       linkEl = figureEl.children[0]; // <a> element
+      imgEl = linkEl.children[0]; // <img>
 
-      size = linkEl.getAttribute("data-size").split("x");
+      size = linkEl.getAttribute("data-size");
+      size = size && size.split("x");
 
       // create slide object
       item = {
         src: linkEl.getAttribute("href"),
-        w: parseInt(size[0], 10),
-        h: parseInt(size[1], 10)
+        w: size && parseInt(size[0], 10) || imgEl.width,
+        h: size && parseInt(size[1], 10) || imgEl.height
       };
 
 
@@ -188,8 +191,18 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 
     // Pass data to PhotoSwipe and initialize it
     gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
+    gallery.listen("imageLoadComplete", function(index, item) {
+      var linkEl = item.el.children[0];
+      var img = item.container.children[0];
+      if (!linkEl.getAttribute("data-size")) {
+        linkEl.setAttribute("data-size", img.naturalWidth + "x" + img.naturalHeight);
+        item.w = img.naturalWidth;
+        item.h = img.naturalHeight;
+        gallery.invalidateCurrItems();
+        gallery.updateSize(true);
+      }
+    });
     gallery.init();
-
     gallery.listen("afterChange", function() {
       document.getElementById(gallery.currItem.el.id).scrollIntoView({behavior: "smooth"});
     });
@@ -208,9 +221,6 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
   if (hashData.pid && hashData.gid) {
     openPhotoSwipe(hashData.pid,  galleryElements[ hashData.gid - 1 ], true, true);
   }
-  
 };
-
-
 // execute above function
 initPhotoSwipeFromDOM(".my-gallery");
