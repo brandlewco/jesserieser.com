@@ -52,9 +52,8 @@ theme_color: "#C81111"
 collection_description: ''
 collection_content: ''
 cover_image: ''
-feature_logo: https://jesserieser.brandlew.co/uploadslogo-amtrak-8.png
-feature_cover: https://jesserieser.brandlew.co/uploadsrieser-amtrak-2.jpg
-feautre_color: "#FFCCC2"
+feature_logo: "https://jesserieser.brandlew.co/uploads/logo-amtrak-8.png"
+feature_cover: "https://jesserieser.brandlew.co/uploads/rieser-amtrak-2.jpg"
 feature_description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
   hendrerit quam dapibus sem porttitor convallis. Integer convallis arcu non lectus
   facilisis dapibus. Aenean commodo magna at laoreet tempor. Phasellus lorem lorem,
