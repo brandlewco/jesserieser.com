@@ -33,8 +33,8 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
       // create slide object
       item = {
         src: linkEl.getAttribute("href"),
-        w: size && parseInt(size[0], 10) || imgEl.width,
-        h: size && parseInt(size[1], 10) || imgEl.height
+        w: size && parseInt(size[0], 10) || imgEl.naturalWidth,
+        h: size && parseInt(size[1], 10) || imgEl.naturalHeight
       };
 
 
@@ -190,29 +190,29 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 
     // Pass data to PhotoSwipe and initialize it
     gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
-    // gallery.listen("imageLoadComplete", function(index, item) {
-    //   if (item.h < 1 || item.w < 1) {
-    //     const img = new Image();
-    //     img.onload = () => {
-    //       item.w = img.width;
-    //       item.h = img.height;
-    //       gallery.invalidateCurrItems();
-    //       gallery.updateSize(true);
-    //     };
-    //     img.src = item.src;
-    //   }
-    // });
     gallery.listen("imageLoadComplete", function(index, item) {
-      var linkEl = item.el.children[0];
-      var img = item.container.children[0];
-      if (!linkEl.getAttribute("data-size")) {
-        linkEl.setAttribute("data-size", img.naturalWidth + "x" + img.naturalHeight);
-        item.w = img.naturalWidth;
-        item.h = img.naturalHeight;
-        gallery.invalidateCurrItems();
-        gallery.updateSize(true);
+      if (item.h < 1 || item.w < 1) {
+        const img = new Image();
+        img.onload = () => {
+          item.w = img.width;
+          item.h = img.height;
+          gallery.invalidateCurrItems();
+          gallery.updateSize(true);
+        };
+        img.src = item.src;
       }
     });
+    // gallery.listen("imageLoadComplete", function(index, item) {
+    //   var linkEl = item.el.children[0];
+    //   var img = item.container.children[0];
+    //   if (!linkEl.getAttribute("data-size")) {
+    //     linkEl.setAttribute("data-size", img.naturalWidth + "x" + img.naturalHeight);
+    //     item.w = img.naturalWidth;
+    //     item.h = img.naturalHeight;
+    //     gallery.invalidateCurrItems();
+    //     gallery.updateSize(true);
+    //   }
+    // });
     gallery.listen("afterChange", function() {
       document.getElementById(gallery.currItem.el.id).scrollIntoView({behavior: "smooth"});
     });
