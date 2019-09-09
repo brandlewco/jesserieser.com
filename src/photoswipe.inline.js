@@ -141,15 +141,14 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 
     // define options (if needed)
     options = {
-
       // define gallery index (for URL)
       galleryUID: galleryElement.getAttribute("data-pswp-uid"),
       history: true,
       bgOpacity: 0.4,
       closeOnScroll: true,
       closeOnVerticalDrag: true,
-      preload: [2, 2],
-      loadingIndicatorDelay: 0,
+      preload: [3, 3],
+      loadingIndicatorDelay: 300,
       getThumbBoundsFn: function(index) {
         // See Options -> getThumbBoundsFn section of documentation for more info
         var thumbnail = items[index].el.getElementsByTagName("img")[0], // find thumbnail
@@ -191,6 +190,18 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 
     // Pass data to PhotoSwipe and initialize it
     gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
+    // gallery.listen("imageLoadComplete", function(index, item) {
+    //   if (item.h < 1 || item.w < 1) {
+    //     const img = new Image();
+    //     img.onload = () => {
+    //       item.w = img.width;
+    //       item.h = img.height;
+    //       gallery.invalidateCurrItems();
+    //       gallery.updateSize(true);
+    //     };
+    //     img.src = item.src;
+    //   }
+    // });
     gallery.listen("imageLoadComplete", function(index, item) {
       var linkEl = item.el.children[0];
       var img = item.container.children[0];
@@ -202,10 +213,10 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
         gallery.updateSize(true);
       }
     });
-    gallery.init();
     gallery.listen("afterChange", function() {
       document.getElementById(gallery.currItem.el.id).scrollIntoView({behavior: "smooth"});
     });
+    gallery.init();
   };
 
   // loop through all gallery elements and bind events

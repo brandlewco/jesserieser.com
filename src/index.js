@@ -127,4 +127,15 @@ function DontHighlightThem() {
 window.__forceSmoothScrollPolyfill__ = true;
 smoothscroll.polyfill();
 
+// var dimension = document.getElementsByTagName("img");
+// for (var j = 0; j < dimension.length; j++) {
+//   var linkEl = dimension.el.children[0];
+//   var img = dimension.container.children[0];
+//   if (!linkEl.getAttribute("data-size")) {
+//     linkEl.setAttribute("data-size", img.naturalWidth + "x" + img.naturalHeight);
+//     dimension.w = img.naturalWidth;
+//     dimension.h = img.naturalHeight;
+//   }
+// };
+
 import "./css/main.css";

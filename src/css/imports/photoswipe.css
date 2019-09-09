@@ -160,11 +160,19 @@
 .pswp__img {
   position: absolute;
   width: auto;
-  height: auto;
   top: 0;
   left: 0;
 }
+/* added */
+/* .pswp__img {
+  height: auto !important;
+}
 
+.pswp img {
+  max-width: none;
+  object-fit: contain;
+} */
+/* end added */
 /*
 	stretched thumbnail or div placeholder element (see below)
 	style is added to avoid flickering in webkit/blink when layers overlap
