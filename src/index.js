@@ -10,15 +10,18 @@ import Midday from "midday.js";
 import smoothscroll from "smoothscroll-polyfill";
 import sal from "sal.js";
 
+sal({
+  once: true,
+  threshold: 0.2,
+});
 
-sal();
 // Page Loader (SWUP)
 const options = {
   containers: ["#content"],
   plugins: [
     new SwupScrollPlugin({
       animateScroll: true,
-      scrollFriction: 0.3,
+      scrollFriction: 0.4,
       scrollAcceleration: 0.04,
       doScrollingRightAway: false
     }),
@@ -33,12 +36,12 @@ const options = {
   animateHistoryBrowsing: false,
   preload: true,
   cache: true,
-  linkSelector: 'a[href^="' + window.location.origin + '"]:not([data-no-swup]), a[href^="/"]:not([data-no-swup]), a[href^="#"]:not([data-no-swup])',
+  linkSelector:
+    'a[href^="' +
+    window.location.origin +
+    '"]:not([data-no-swup]), a[href^="/"]:not([data-no-swup]), a[href^="#"]:not([data-no-swup])',
   skipPopStateHandling: function(event) {
     if (event.state && event.state.source === "swup") {
-      return false;
-    }
-    if (event.state && event.state.source === "photoSwipe") {
       return false;
     }
     return true;
@@ -48,13 +51,12 @@ const swup = new Swup(options);
 
 swup.on("contentReplaced", init);
 function init() {
-  // midday
   const middayNav = new Midday(document.getElementById("navigation"), {
     headerClass: "hue-header",
     innerClass: "hue-header-inner",
     sectionSelector: "hue"
   });
-} // end init.on
+}
 init();
 
 const scrollPositions = [];
@@ -68,9 +70,10 @@ swup.on("popState", () => {
   scrollToSavedPosition = true;
 });
 
-swup.on("animationInStart", () => {
-  if (scrollToSavedPosition)
-    window.scrollTo(0, scrollPositions[window.location.href]);
+swup.on("contentReplaced", () => {
+  if (scrollToSavedPosition) {
+    window.scrollTo(0, window.scrollPositions);
+  }
   scrollToSavedPosition = false;
 });
 

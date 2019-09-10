@@ -202,20 +202,20 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
         img.src = item.src;
       }
     });
-    // gallery.listen("imageLoadComplete", function(index, item) {
-    //   var linkEl = item.el.children[0];
-    //   var img = item.container.children[0];
-    //   if (!linkEl.getAttribute("data-size")) {
-    //     linkEl.setAttribute("data-size", img.naturalWidth + "x" + img.naturalHeight);
-    //     item.w = img.naturalWidth;
-    //     item.h = img.naturalHeight;
-    //     gallery.invalidateCurrItems();
-    //     gallery.updateSize(true);
-    //   }
-    // });
     gallery.listen("afterChange", function() {
-      document.getElementById(gallery.currItem.el.id).scrollIntoView({behavior: "smooth"});
-      // window.scrollPositions = window.scrollY;
+      Element.prototype.documentOffsetTop = function() {
+        return this.offsetTop + (this.offsetParent ? this.offsetParent.documentOffsetTop() : 0);
+      };
+      var topPos = document.getElementById(gallery.currItem.el.id).documentOffsetTop() - (window.innerHeight / 2);
+      window.scrollTo({
+        top: topPos,
+        left: 0,
+        behavior: "smooth"
+      });
+      // document.getElementById(gallery.currItem.el.id).scrollIntoView({behavior: "smooth", block: "nearest", inline: "start"});
+    });
+    gallery.listen("close", function() {
+      window.scrollPos = window.scrollY;
     });
     gallery.init();
   };

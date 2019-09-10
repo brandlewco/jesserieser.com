@@ -9,9 +9,9 @@
       {{ end }}
       {{ partial "footer" . }}
       {{ partial "r-background" . }}
-      {{ template "_internal/google_analytics_async.html" . }}
       {{ block "attached" .}}
       {{ end }}
     </main>
   </body>
+  {{ template "_internal/google_analytics_async.html" . }}
 </html>

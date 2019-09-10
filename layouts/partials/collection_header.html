@@ -6,7 +6,7 @@
     </section>
 </header>
 <article id="project-description" class="w-full py-8 px-8 text-xl text-{{.Params.navigation_theme}} items-center text-justify leading-loose" data-hue="{{.Params.navigation_theme}}" style="background-color: {{.Params.theme_color}};">
-    <div class="flex flex-row justify-center container mx-auto">
+    <div class="flex flex-row justify-center container mx-auto" data-sal="slide-up">
         <div class="sm:w-4/5">
             {{ .Params.collection_description | markdownify }}
             <a href="{{.Page.Permalink}}#project-brief" class="block text-{{.Params.navigation_theme}} font-normal underline float-right">more...</a>

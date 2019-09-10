@@ -8,10 +8,10 @@
         </div>
     </section>
     {{ partial "collection_brief" .}}
+    {{ partial "gallery" . }}
 {{- end -}}
 
 {{- define "attached" -}}
-{{ partial "gallery" . }}
 <!-- {{ $key := .Site.GetPage .Params.attached_gallery }}
 <script async>
 var items = [
@@ -22,6 +22,6 @@ var items = [
 </script> -->
 {{ $gallery := .Site.Data.webpack.gallery }}
 {{ with $gallery.js }}
-<script src="{{ . | relURL }}" async></script>
+<script src="{{ . | relURL }}"></script>
 {{ end }}
 {{- end -}}

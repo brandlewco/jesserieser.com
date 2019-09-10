@@ -325,18 +325,5 @@ body.sal-disabled [data-sal|="zoom"] {
 body.sal-disabled [data-sal|="flip"] {
   transform: none;
 }
-/* logo */
-[data-sal|="logo"] {
-    opacity: 0;
-    transition-property: opacity, transform;
-}
-[data-sal="logo-down"] {
-    transform: translateX(50%) translateX(-50px) translateY(50%) translateY(-270px)
-  }
-[data-sal|="logo"].sal-animate,
-  body.sal-disabled [data-sal|="logo"] {
-    opacity: 1;
-    transform: translateX(50%) translateX(-150px) translateY(50%) translateY(-170px)
-  }
 
 /*# sourceMappingURL=sal.css.map*/
