@@ -214,9 +214,9 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
       });
       // document.getElementById(gallery.currItem.el.id).scrollIntoView({behavior: "smooth", block: "nearest", inline: "start"});
     });
-    gallery.listen("close", function() {
-      window.scrollPos = window.scrollY;
-    });
+    // gallery.listen("close", function() {
+    //   window.scrollPos = window.scrollY;
+    // });
     gallery.init();
   };
 
