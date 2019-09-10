@@ -77,7 +77,13 @@ header #mask rect {
   opacity: 1;
 }
 header #mask path {
+  transform: translateX(50%) translateX(-150px) translateY(50%) translateY(-270px);
+  opacity: 0;
+  transition: transform 1s ease-in-out, opacity ease-in-out 1s;
+}
+header.lazyloaded #mask path {
   transform: translateX(50%) translateX(-150px) translateY(50%) translateY(-170px);
+  opacity: 1;
 }
 
 header rect.cover {

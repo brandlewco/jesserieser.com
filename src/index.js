@@ -4,12 +4,14 @@ import SwupGaPlugin from "@swup/ga-plugin";
 import SwupBodyClassPlugin from "@swup/body-class-plugin";
 import SwupScriptsPlugin from "@swup/scripts-plugin";
 import SwupPreloadPlugin from "@swup/preload-plugin";
-import SwupFadeTheme from "@swup/fade-theme";
 import "lazysizes";
 import "lazysizes/plugins/unveilhooks/ls.unveilhooks";
 import Midday from "midday.js";
 import smoothscroll from "smoothscroll-polyfill";
+import sal from "sal.js";
 
+
+sal();
 // Page Loader (SWUP)
 const options = {
   containers: ["#content"],
@@ -18,7 +20,7 @@ const options = {
       animateScroll: true,
       scrollFriction: 0.3,
       scrollAcceleration: 0.04,
-      doScrollingRightAway: true
+      doScrollingRightAway: false
     }),
     new SwupGaPlugin(),
     new SwupPreloadPlugin(),
@@ -26,17 +28,14 @@ const options = {
     new SwupScriptsPlugin({
       head: true,
       body: true
-    }),
-    new SwupFadeTheme({
-      mainElement: "#content"
-    }),
+    })
   ],
-  animateHistoryBrowsing: true,
+  animateHistoryBrowsing: false,
   preload: true,
   cache: true,
   linkSelector: 'a[href^="' + window.location.origin + '"]:not([data-no-swup]), a[href^="/"]:not([data-no-swup]), a[href^="#"]:not([data-no-swup])',
   skipPopStateHandling: function(event) {
-    if (event.state && event.state.source === "window.gallery") {
+    if (event.state && event.state.source === "swup") {
       return false;
     }
     return true;
@@ -54,6 +53,23 @@ function init() {
   });
 } // end init.on
 init();
+
+window.scrollPositions;
+let scrollToSavedPosition = null;
+
+// swup.on("clickLink", () => {
+//   scrollPositions[window.location.href] = window.scrollY;
+// });
+
+swup.on("popState", () => {
+  scrollToSavedPosition = true;
+});
+
+swup.on("animationInStart", () => {
+  if (scrollToSavedPosition)
+    window.scrollTo(0, window.scrollPositions[window.location.href]);
+  scrollToSavedPosition = false;
+});
 
 // Button Toggle
 var buttons = document.getElementsByClassName("toggle");
@@ -99,9 +115,9 @@ window.onscroll = function() {
   var pageTitle = document.getElementById("page-title");
   var height = window.innerHeight;
   var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
-  if (pageTitle) {
-    pageTitle.style.transform = "translate3d(0, -" + value_limit((((90 - ((scrollTop * 1.2) / height) * 100) / 2)), 0, 45) + "vh, 0)";
-  }
+  // if (pageTitle) {
+  //   pageTitle.style.transform = "translate3d(0, -" + value_limit((((90 - ((scrollTop * 1.2) / height) * 100) / 2)), 0, 45) + "vh, 0)";
+  // }
   if (headerOverlay) {
     headerOverlay.style.opacity = value_limit((scrollTop / (height * 0.5)), 0, 1);
   }
@@ -126,16 +142,5 @@ function DontHighlightThem() {
 
 window.__forceSmoothScrollPolyfill__ = true;
 smoothscroll.polyfill();
-
-// var dimension = document.getElementsByTagName("img");
-// for (var j = 0; j < dimension.length; j++) {
-//   var linkEl = dimension.el.children[0];
-//   var img = dimension.container.children[0];
-//   if (!linkEl.getAttribute("data-size")) {
-//     linkEl.setAttribute("data-size", img.naturalWidth + "x" + img.naturalHeight);
-//     dimension.w = img.naturalWidth;
-//     dimension.h = img.naturalHeight;
-//   }
-// };
 
 import "./css/main.css";

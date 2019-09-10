@@ -215,6 +215,7 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
     // });
     gallery.listen("afterChange", function() {
       document.getElementById(gallery.currItem.el.id).scrollIntoView({behavior: "smooth"});
+      // window.scrollPositions = window.scrollY;
     });
     gallery.init();
   };
