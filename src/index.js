@@ -38,6 +38,9 @@ const options = {
     if (event.state && event.state.source === "swup") {
       return false;
     }
+    if (event.state && event.state.source === "photoSwipe") {
+      return false;
+    }
     return true;
   }
 };
@@ -54,12 +57,12 @@ function init() {
 } // end init.on
 init();
 
-window.scrollPositions;
+const scrollPositions = [];
 let scrollToSavedPosition = null;
 
-// swup.on("clickLink", () => {
-//   scrollPositions[window.location.href] = window.scrollY;
-// });
+swup.on("clickLink", () => {
+  scrollPositions[window.location.href] = window.scrollY;
+});
 
 swup.on("popState", () => {
   scrollToSavedPosition = true;
@@ -67,7 +70,7 @@ swup.on("popState", () => {
 
 swup.on("animationInStart", () => {
   if (scrollToSavedPosition)
-    window.scrollTo(0, window.scrollPositions[window.location.href]);
+    window.scrollTo(0, scrollPositions[window.location.href]);
   scrollToSavedPosition = false;
 });
 
