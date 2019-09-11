@@ -12,10 +12,12 @@ import Midday from "midday.js";
 import smoothscroll from "smoothscroll-polyfill";
 import sal from "sal.js";
 
-sal({
+const scrollAnimations = sal({
   once: true,
   threshold: 0.2,
 });
+
+scrollAnimations.disable();
 
 // Page Loader (SWUP)
 const options = {
@@ -43,7 +45,7 @@ const options = {
     window.location.origin +
     '"]:not([data-no-swup]), a[href^="/"]:not([data-no-swup]), a[href^="#"]:not([data-no-swup])',
   skipPopStateHandling: function(event) {
-    if (event.state && event.state.source === "swup") {
+    if (event.state && event.state.source == "swup") {
       return false;
     }
     return true;
@@ -269,7 +271,7 @@ function init() {
           // document.getElementById(gallery.currItem.el.id).scrollIntoView({behavior: "smooth", block: "nearest", inline: "start"});
         });
         // gallery.listen("close", function() {
-        //   window.scrollPos = window.scrollY;
+        //   window.scrollPositions = window.scrollY;
         // });
         gallery.init();
       };
@@ -340,14 +342,16 @@ Array.prototype.forEach.call(navToggle, function(nav) {
 let scrollPos = 0;
 function checkPosition() {
   const windowY = window.scrollY;
-  if (windowY < scrollPos) {
-    // Scrolling UP
-    navigation.classList.add("mt-0");
-    navigation.classList.remove("mt-neg");
-  } else {
-    // Scrolling DOWN
-    navigation.classList.add("mt-neg");
-    navigation.classList.remove("mt-0");
+  if (windowY > window.innerHeight) {
+    if (windowY < scrollPos) {
+      // Scrolling UP
+      navigation.classList.add("mt-0");
+      navigation.classList.remove("mt-neg");
+    } else {
+      // Scrolling DOWN
+      navigation.classList.add("mt-neg");
+      navigation.classList.remove("mt-0");
+    };
   }
   scrollPos = windowY;
 }
