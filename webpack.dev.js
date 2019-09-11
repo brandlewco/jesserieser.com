@@ -10,7 +10,7 @@ module.exports = merge(common, {
 
   entry: {
     main: path.join(__dirname, "src", "index.js"),
-    gallery: path.join(__dirname, "src", "photoswipe.inline.js"),
+    // gallery: path.join(__dirname, "src", "photoswipe.inline.js"),
     filter: path.join(__dirname, "src", "filter.js")
   },
 
