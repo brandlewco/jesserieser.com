@@ -1,6 +1,7 @@
 <header id="project-header" class="w-screen h-screen lazyload bg-scroll bg-cover bg-center flex flex-col items-center overflow-hidden" data-hue="{{.Params.navigation_theme}}" data-bg="{{.Params.collection_cover }}{{.Site.Params.cover}}" style="background-color: {{.Params.theme_color}};">
     {{partial "r-mask" .}}
-    <h1 id="page-title" class="absolute bottom-0 z-50 margin-0 uppercase text-6xl font-light tracking-wide text-{{.Params.navigation_theme}} lazyload" style="transform: translate3d(0, -45vh, 0)">{{.Title}}</h1>
+    <h1 id="page-title" class="absolute bottom-0 z-50 margin-0 uppercase text-6xl font-light tracking-wide text-{{.Params.navigation_theme}} lazyload">{{.Title}}</h1>
+    <!-- style="transform: translate3d(0, -45vh, 0)" -->
     <div class="absolute bottom-0 mx-0 text-6xl font-light text-{{.Params.navigation_theme}}">&#8964;</div>
     <section id="header-overlay" class="flex flex-col justify-end absolute w-screen h-screen inset-auto opacity-0" style="background-color: {{.Params.theme_color}};">
     </section>
