@@ -1,4 +1,4 @@
-<figure class="overflow-hidden sm:w-1/3 filtr-item {{range .Params.collection_category}}{{. | urlize}} {{end}}" data-category="{{range .Params.collection_category}}{{. | urlize}}, {{end}}{{with .Params.collection_filter}}{{. | urlize}}{{end}}">
+<figure class="overflow-hidden w-1/3 filtr-item {{range .Params.collection_category}}{{. | urlize}} {{end}}" data-category="{{range .Params.collection_category}}{{. | urlize}}, {{end}}{{with .Params.collection_filter}}{{. | urlize}}{{end}}">
         <a href="{{.Permalink}}">
             <img src="{{.Params.collection_cover}}" srcset="{{.Params.collection_cover}}" alt="{{.Title}}" class="lazyload" />
         </a>

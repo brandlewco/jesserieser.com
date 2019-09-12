@@ -1,4 +1,5 @@
 <header id="project-header" class="w-screen h-screen lazyload bg-scroll bg-cover bg-center flex flex-col items-center overflow-hidden" data-hue="{{.Params.navigation_theme}}" data-bg="{{.Params.collection_cover }}{{.Site.Params.cover}}" style="background-color: {{.Params.theme_color}};">
+    <img src="{{.Params.collection_cover }}{{.Site.Params.cover}}" class="hidden">
     {{partial "r-mask" .}}
     <h1 id="page-title" class="absolute bottom-0 z-50 margin-0 uppercase text-6xl font-light tracking-wide text-{{.Params.navigation_theme}} lazyload">{{.Title}}</h1>
     <!-- style="transform: translate3d(0, -45vh, 0)" -->
