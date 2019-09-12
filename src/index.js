@@ -14,10 +14,10 @@ import sal from "sal.js";
 
 const scrollAnimations = sal({
   once: true,
-  threshold: 0.2,
+  threshold: 0.4,
 });
 
-scrollAnimations.disable();
+// scrollAnimations.disable();
 
 // Page Loader (SWUP)
 const options = {
@@ -34,7 +34,7 @@ const options = {
     new SwupBodyClassPlugin(),
     new SwupScriptsPlugin({
       head: true,
-      body: true
+      body: false
     })
   ],
   animateHistoryBrowsing: false,
@@ -207,7 +207,7 @@ if (document.querySelector("#gallery")) {
       options = {
         // define gallery index (for URL)
         galleryUID: galleryElement.getAttribute("data-pswp-uid"),
-        history: true,
+        history: false,
         bgOpacity: 0.4,
         closeOnScroll: false,
         closeOnVerticalDrag: false,
