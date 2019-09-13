@@ -57,6 +57,16 @@
   @apply underline text-gray-800;
 }
 
+.button {
+  @apply text-black;
+}
+.button:hover {
+  @apply text-gray-600;
+}
+.button.is-checked {
+  @apply underline text-gray-800;
+}
+
 .hue-btn {
   @apply font-light py-2 px-4 rounded no-underline text-white;
   background-color: rgba(255,255,255,0.2);

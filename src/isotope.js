@@ -2,16 +2,32 @@
 import Isotope from "isotope-layout";
 
 // init Isotope
-var grid = document.querySelector(".grid");
+var grid = document.querySelector(".filtr-container");
 var iso = new Isotope(grid, {
   itemSelector: ".filter-item",
+  layoutMode: "fitRows",
+  hiddenStyle: {
+    opacity: 0
+  },
+  visibleStyle: {
+    opacity: 1
+  }
 });
 
 // store filter for each group
 var filters = [];
+function onHashchange() {
+  var hashFilter = getHashFilter();
+  iso.arrange({
+    filter: hashFilter
+  });
+  console.log("onHashChange", hashFilter);
+}
+window.addEventListener("hashchange", onHashchange);
+onHashchange();
+
 
 // change is-checked class on buttons
-
 var filtersElem = document.querySelector(".filters");
 
 filtersElem.addEventListener("click", function(event) {
@@ -30,7 +46,15 @@ filtersElem.addEventListener("click", function(event) {
   }
   // filter isotope
   // group filters together, inclusive
-  iso.arrange({filter: filters.join(",")});
+  iso.arrange({filter: filters.join("")});
+  // LOG CHANGE
+  console.log("onClick", filters);
+
+  // HASH
+  if (!filter) {
+    return;
+  }
+  location.hash = "filter=" + encodeURIComponent(filters.join(""));
 });
 
 
@@ -47,53 +71,9 @@ function removeFilter(filter) {
   }
 }
 
-// Hash Change Filter
-// function onHashchange() {
-//   var hashFilter = getHashFilter();
-//   if (!hashFilter && iso) {
-//     return;
-//   }
-//   if (!iso) {
-//     // init Isotope for first time
-//     iso = new Isotope(grid, {
-//       itemSelector: ".element-item",
-//       layoutMode: "fitRows",
-//       filter: hashFilter || "",
-//     });
-//   } else {
-//     // just filter with hash
-//     iso.arrange({
-//       filter: hashFilter
-//     });
-//   }
-
-//   // set selected class on button
-//   if (hashFilter) {
-//     var checkedButton  = filterButtonGroup.querySelector(".is-checked");
-//     if (checkedButton) {
-//       checkedButton.classList.remove("is-checked");
-//     }
-//     filterButtonGroup.querySelector('[data-filter="' + hashFilter + '"]').classList.add("is-checked");
-//   }
-// }
-
-// window.addEventListener("hashchange", onHashchange);
-// // trigger event handler to init Isotope
-// onHashchange();
-
-
-// // bind filter button click
-// filterButtonGroup.addEventListener("click", function(event) {
-//   var filterAttr = event.target.getAttribute("data-filter");
-//   if (!filterAttr) {
-//     return;
-//   }
-//   location.hash = "filter=" + encodeURIComponent(filterAttr);
-// });
-
-// function getHashFilter() {
-//   // get filter=filterName
-//   var matches = location.hash.match(/filter=([^&]+)/i);
-//   var hashFilter = matches && matches[1];
-//   return hashFilter && decodeURIComponent(hashFilter);
-// }
+function getHashFilter() {
+  // get filter=filterName
+  var matches = location.hash.match(/filter=([^&]+)/i);
+  var hashFilter = matches && matches[1];
+  return hashFilter && decodeURIComponent(hashFilter);
+}

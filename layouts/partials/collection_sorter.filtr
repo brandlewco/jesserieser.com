@@ -1,0 +1,18 @@
+<section class="sticky top-0 mx-auto flex flex-col mb-4 z-40">
+  <div class="filter-links flex flex-row flex-wrap border-t border-l-0 border-r-0 border-b border-solid border-gray-200 py-4">
+    <!-- For filtering controls add -->
+    <!-- <button data-multifilter="all" class="btn btn-gray m-1 reset"> All items </button> -->
+    {{range $.Site.Data.categories}}
+    {{range sort .categories "value" "asc"}}
+    <button data-multifilter="{{. | urlize}}" class="btn btn-toggle m-1 toggle {{. | urlize}}">{{.}}</button>
+    {{end}}
+    {{end}}
+  </div>
+  <div class="flex flex-row align-middle justify-between border-t-0 border-l-0 border-r-0 border-b border-solid border-gray-200 py-4">
+    <div>
+      <button data-multifilter="personal" class="btn m-1 btn-toggle toggle">Personal</button>
+      <button data-multifilter="commissioned-+-stock" class="btn m-1 btn-toggle toggle">Comissioned + Stock</button>
+    </div>
+  </div>
+  <!-- <input type="text" name="filtr-search" value="" placeholder="Your search" data-search=""> -->
+</section>

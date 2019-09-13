@@ -10,8 +10,7 @@ module.exports = merge(common, {
 
   entry: {
     main: path.join(__dirname, "src", "instant.js"),
-    // gallery: path.join(__dirname, "src", "photoswipe.inline.js"),
-    filter: path.join(__dirname, "src", "filter.js")
+    filter: path.join(__dirname, "src", "isotope.js")
   },
 
   output: {

@@ -33,19 +33,19 @@ function GetURLParameter(sParam) {
 // Get the parameter you want & check if it"s defined
 var cat = GetURLParameter("cat");
 if (cat == null) {cat = "all";}
-console.log([cat]);
+console.log(cat);
 
 // Configure your options
 window.filterizr.setOptions({
   animationDuration: 0.33, // in seconds
   controlsSelector: "", // Selector for custom controls
-  delay: 66, // Transition delay in ms
+  delay: 0, // Transition delay in ms
   delayMode: "progressive", // "progressive" or "alternate"
   easing: "ease-in-out",
-  filter: "color", // Initial filter
+  filter: "color, humor", // Initial filter
   filterOutCss: { // Filtering out animation
     opacity: 0,
-    transform: "scale(0)"
+    transform: "scale(1)"
   },
   filterInCss: { // Filtering in animation
     opacity: 1,

@@ -78,6 +78,7 @@
     "browser-sync": "^2.26.7",
     "filterizr": "^2.1.1",
     "gulp": "^4.0.2",
+    "isotope-layout": "^3.0.6",
     "lazysizes": "^5.1.0",
     "midday.js": "^1.0.1",
     "photoswipe": "^4.1.3",

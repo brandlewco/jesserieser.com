@@ -11,26 +11,26 @@
 
 {{- define "attached" -}}
 <script>
-Object.prototype.classHighlight = function (over, out) {
-    var that = this.length ? this : [this];
-    function onOver() {
-        for (var i = 0, len = that.length; i < len; i++) {
-            that[i].style.backgroundColor = over;
-        }
-    }
-    function onOut() {
-        for (var i = 0, len = that.length; i < len; i++) {
-            that[i].style.backgroundColor = out;
-        }
-    }
-    for (var i = 0, len = that.length; i < len; i++) {
-        that[i].onmouseover = onOver;
-        that[i].onmouseout = onOut;
-    }
-};
-{{range $.Site.Data.categories}}{{range sort .categories "value" "asc"}}
-document.getElementsByClassName('{{. | urlize}}').classHighlight('#f90', '#fff');
-{{end}}{{end}}
+// Object.prototype.classHighlight = function (over, out) {
+//     var that = this.length ? this : [this];
+//     function onOver() {
+//         for (var i = 0, len = that.length; i < len; i++) {
+//             that[i].style.backgroundColor = over;
+//         }
+//     }
+//     function onOut() {
+//         for (var i = 0, len = that.length; i < len; i++) {
+//             that[i].style.backgroundColor = out;
+//         }
+//     }
+//     for (var i = 0, len = that.length; i < len; i++) {
+//         that[i].onmouseover = onOver;
+//         that[i].onmouseout = onOut;
+//     }
+// };
+// {{range $.Site.Data.categories}}{{range sort .categories "value" "asc"}}
+// document.getElementsByClassName('{{. | urlize}}').classHighlight('#f90', '#fff');
+// {{end}}{{end}}
 </script>
 <!-- <script>
 const sections = document.querySelectorAll('.filter-item');
