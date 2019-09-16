@@ -305,8 +305,6 @@ function init() {
 }
 init();
 
-// PhotoSwip
-
 const scrollPositions = [];
 let scrollToSavedPosition = null;
 
