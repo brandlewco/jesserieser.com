@@ -21,7 +21,7 @@ function onHashchange() {
   iso.arrange({
     filter: hashFilter
   });
-  console.log("onHashChange", hashFilter);
+  // console.log("onHashChange", hashFilter);
 }
 window.addEventListener("hashchange", onHashchange);
 onHashchange();

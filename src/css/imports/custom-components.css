@@ -54,7 +54,7 @@
   @apply bg-gray-200;
 }
 .btn-toggle.active {
-  @apply underline text-gray-800;
+  @apply font-bold text-gray-800;
 }
 
 .button {
@@ -64,7 +64,7 @@
   @apply text-gray-600;
 }
 .button.is-checked {
-  @apply underline text-gray-800;
+  @apply font-bold text-black;
 }
 
 .hue-btn {

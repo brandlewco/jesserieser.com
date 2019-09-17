@@ -33,12 +33,9 @@ const options = {
   animateHistoryBrowsing: true,
   preload: true,
   cache: true,
-  linkSelector:
-    'a[href^="' +
-    window.location.origin +
-    '"]:not([data-no-swup]), a[href^="/"]:not([data-no-swup]), a[href^="#"]:not([data-no-swup])',
+  linkSelector: 'a[href^="' + window.location.origin + '"]:not([data-no-swup]), a[href^="/"]:not([data-no-swup]), a[href^="#"]:not([data-no-swup])',
   skipPopStateHandling: function(event) {
-    if (event.state && event.state.source == "swup") {
+    if (event.state && event.state.source === "swup") {
       return false;
     }
     return true;
@@ -58,7 +55,7 @@ function init() {
   // Sal Animations
   const scrollAnimations = sal({
     once: true,
-    threshold: 0.2,
+    threshold: 0.33,
   });
 
   // PhotoSwipe
@@ -205,10 +202,10 @@ function init() {
           // define gallery index (for URL)
           galleryUID: galleryElement.getAttribute("data-pswp-uid"),
           history: false,
-          bgOpacity: 0.4,
+          bgOpacity: 0.5,
           closeOnScroll: false,
           closeOnVerticalDrag: false,
-          preload: [3, 4],
+          preload: [4, 4],
           loadingIndicatorDelay: 100,
           getThumbBoundsFn: function(index) {
             // See Options -> getThumbBoundsFn section of documentation for more info
@@ -305,24 +302,23 @@ function init() {
 }
 init();
 
-const scrollPositions = [];
-let scrollToSavedPosition = null;
+// const scrollPositions = [];
+// let scrollToSavedPosition = null;
 
-swup.on("clickLink", () => {
-  scrollPositions[window.location.href] = window.scrollY;
-  // var transColor = body.getAttribute("data-trans");
-});
+// swup.on("clickLink", () => {
+//   scrollPositions[window.location.href] = window.scrollY;
+// });
 
-swup.on("popState", () => {
-  scrollToSavedPosition = true;
-});
+// swup.on("popState", () => {
+//   scrollToSavedPosition = true;
+// });
 
-swup.on("contentReplaced", () => {
-  if (scrollToSavedPosition) {
-    window.scrollTo(0, window.scrollPositions);
-  }
-  scrollToSavedPosition = false;
-});
+// swup.on("contentReplaced", () => {
+//   if (scrollToSavedPosition) {
+//     window.scrollTo(0, window.scrollPositions);
+//   }
+//   scrollToSavedPosition = false;
+// });
 
 // Button Toggle
 var buttons = document.getElementsByClassName("toggle");
@@ -340,6 +336,41 @@ Array.prototype.forEach.call(navToggle, function(nav) {
     navigation.classList.toggle("active");
   });
 });
+
+// Filter Toggle
+var groups = {};
+var hovergrp = document.getElementsByClassName("highlight");
+for (var i = 0; i < hovergrp.length; i++) {
+  var e = hovergrp.item(i);
+  var eClasses = e.classList;
+  for (var j = 0; j < eClasses.length; j++) {
+    var c = eClasses[j];
+    if (c.startsWith("h_")) {
+      if (!groups[c]) {
+        groups[c] = [];
+      }
+      groups[c].push(e);
+      e.onmouseover = (function(c_capture) {
+        return function(_event) {
+          highlightGroup(c_capture, "orange");
+        };
+      })(c);
+      e.onmouseout = (function(c_capture) {
+        return function(_event) {
+          highlightGroup(c_capture, "transparent");
+        };
+      })(c);
+      break;
+    }
+  }
+}
+
+function highlightGroup(groupName, color) {
+  var g = groups[groupName];
+  for (var i = 0; i < g.length; i++) {
+    g[i].style.backgroundColor = color;
+  }
+}
 
 // Show Hide Header
 let scrollPos = 0;

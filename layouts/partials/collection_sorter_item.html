@@ -1,6 +1,6 @@
-<figure class="filter-item sm:w-1/3 w-1/2 {{range .Params.collection_category}}{{. | replaceRE "[\\W]" "" | lower}} {{end}}{{with .Params.collection_filter}}{{. | replaceRE "[\\W]" "" | lower}} {{end}}">
-        <a href="{{.Permalink}}">
-            <img src="{{.Params.collection_cover}}" srcset="{{.Params.collection_cover}}" alt="{{.Title}}" class="lazyload" />
-        </a>
+<figure class="filter-item p-2 sm:w-1/3 w-1/2 {{range .Params.collection_category}}{{. | replaceRE "[\\W]" "" | lower}} {{end}}{{with .Params.collection_filter}}{{. | replaceRE "[\\W]" "" | lower}} {{end}}">
+    <a href="{{.Permalink}}">
+        <img src="{{.Params.collection_cover}}" srcset="{{.Params.collection_cover}}" alt="{{.Title}}" class="lazyload object-cover" style="height: 250px; background-color: {{.Params.theme_color}}" />
+    </a>
         <!-- <figcaption class="text-black text-md font-light uppercase">{{.Title}}</figcaption> -->
 </figure>

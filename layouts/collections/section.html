@@ -10,48 +10,33 @@
 {{- end -}}
 
 {{- define "attached" -}}
-<script>
-// Object.prototype.classHighlight = function (over, out) {
-//     var that = this.length ? this : [this];
-//     function onOver() {
-//         for (var i = 0, len = that.length; i < len; i++) {
-//             that[i].style.backgroundColor = over;
-//         }
-//     }
-//     function onOut() {
-//         for (var i = 0, len = that.length; i < len; i++) {
-//             that[i].style.backgroundColor = out;
-//         }
-//     }
-//     for (var i = 0, len = that.length; i < len; i++) {
-//         that[i].onmouseover = onOver;
-//         that[i].onmouseout = onOut;
-//     }
-// };
-// {{range $.Site.Data.categories}}{{range sort .categories "value" "asc"}}
-// document.getElementsByClassName('{{. | urlize}}').classHighlight('#f90', '#fff');
-// {{end}}{{end}}
-</script>
 <!-- <script>
-const sections = document.querySelectorAll('.filter-item');
-const links = document.querySelectorAll('.filter-links button');
-let triggerVal;
-let linkedVal;
-
-links.forEach(function(link, index){
-  link.addEventListener('mouseenter', (e) => {
-        triggerVal = e.target.dataset.multifilter;
-        console.log(triggerVal)
-        for (const section of sections) {
-            linkedVal = section.dataset.category;
-            if (linkedVal === triggerVal) {
-                section.classList.add('is-active');
-            } else {
-                section.classList.remove('is-active');
-            }   
+Object.prototype.classHighlight = function (over, out) {
+    var that = this.length ? this : [this];
+    function onOver() {
+        for (var i = 0, len = that.length; i < len; i++) {
+            that[i].style.backgroundColor = over;
         }
-    });
-});
+        console.log(that);
+
+    }
+    function onOut() {
+        for (var i = 0, len = that.length; i < len; i++) {
+            that[i].style.backgroundColor = out;
+        }
+    }
+    for (var i = 0, len = that.length; i < len; i++) {
+        that[i].onmouseover = onOver;
+        that[i].onmouseout = onOut;
+    }
+};
+function highlightClassesOnMouseover(classes, color1, color2){
+    for(var i = 0; i < classes.length; i++){
+        document.getElementsByClassName(classes[i]).classHighlight(color1, color2);
+    }
+}
+highlightClassesOnMouseover([{{range $.Site.Data.categories}}
+{{range sort .categories "value" "asc"}}"{{. | replaceRE "[\\W]" "" | lower}}",{{end}}{{end}}], '#f90', '#fff');
 </script> -->
 {{ $filter := .Site.Data.webpack.filter }}
 {{ with $filter.js }}

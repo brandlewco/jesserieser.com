@@ -1,15 +1,16 @@
-<section class="filters sticky top-0 mx-auto flex flex-col mb-4 z-40">
-    <div class="ui-group flex flex-row flex-wrap py-4">
-      <div class="button-group js-radio-button-group">
+<section class="sticky top-0 mx-auto flex flex-col mb-4 z-40">
+    <button class="toggle text-left active font-bold tracking-wide">CATEGORIES (+)</button>
+    <div class="flex flex-col py-4">
+      <div class="filters ui-group collapsible flex flex-wrap" data-filter-group="categories">
         {{range $.Site.Data.categories}}
         {{range sort .categories "value" "asc"}}
-        <button class="pr-4 button" data-filter=".{{. | replaceRE "[\\W]" "" | lower}}">{{.}}</button>
+        <button class="w-1/6 text-left button {{. | replaceRE "[\\W]" "" | lower}}" data-filter=".{{. | replaceRE "[\\W]" "" | lower}}">{{.}}</button>
         {{end}}
         {{end}}
       </div>
-      <div class="button-group js-radio-button-group pt-4">
-        <button class="button pr-4" data-filter=".personal">Personal</button>
-        <button class="button" data-filter=".commissionedstock">Commissioned + Stock</button>
+      <div class="filters ui-group pt-4" data-filter-group="filter">
+        <button class="button pr-4 font-bold tracking-wide" data-filter=".personal">PERSONAL</button>
+        <button class="button font-bold tracking-wide" data-filter=".commissionedstock">COMMISSIONED + STOCK</button>
       </div>
     </div>
 </section>
