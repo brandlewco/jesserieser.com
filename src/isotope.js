@@ -48,7 +48,7 @@ filtersElem.addEventListener("click", function(event) {
   // group filters together, inclusive
   iso.arrange({filter: filters.join("")});
   // LOG CHANGE
-  console.log("onClick", filters);
+  // console.log("onClick", filters);
 
   // HASH
   if (!filter) {
@@ -77,3 +77,18 @@ function getHashFilter() {
   var hashFilter = matches && matches[1];
   return hashFilter && decodeURIComponent(hashFilter);
 }
+
+// var filterItems = document.querySelectorAll(".filter-item");
+// filterItems.forEach((items) => {
+//   items.addEventListener("mouseover", () => {
+//     const filters = items.dataset.filter.split(",");
+//     console.log({filters});
+
+//     const highlight = document.querySelectorAll('[data-filter=""]');
+//     console.log("hightlight", highlight);
+//     // highlight.forEach((lit) => {
+    
+//     // }
+//     // console.log({highlight});
+//   });
+// });

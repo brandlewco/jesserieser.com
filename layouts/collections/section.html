@@ -38,6 +38,31 @@ function highlightClassesOnMouseover(classes, color1, color2){
 highlightClassesOnMouseover([{{range $.Site.Data.categories}}
 {{range sort .categories "value" "asc"}}"{{. | replaceRE "[\\W]" "" | lower}}",{{end}}{{end}}], '#f90', '#fff');
 </script> -->
+
+<!-- <script>
+function hoverByClass(classname,colorover,colorout="transparent"){
+	var elms=document.getElementsByClassName(classname);
+	for(var i=0;i<elms.length;i++){
+		elms[i].onmouseover = function(){
+			for(var k=0;k<elms.length;k++){
+                // elms[k].style.color=colorover;
+                consoloe.log("over");
+			}
+		};
+		elms[i].onmouseout = function(){
+			for(var k=0;k<elms.length;k++){
+                // elms[k].style.color=colorout;
+                consoloe.log();
+			}
+		};
+	}
+}
+{{range $.Site.Data.categories}}
+{{range sort .categories "value" "asc"}}
+hoverByClass("{{. | replaceRE "[\\W]" "" | lower}}","yellow");
+{{end}}
+{{end}}
+</script> -->
 {{ $filter := .Site.Data.webpack.filter }}
 {{ with $filter.js }}
 <script src="{{ . | relURL }}" async></script>
