@@ -154,6 +154,31 @@ filterItems.forEach((items) => {
   });
 });
 
+const catButtons = document.querySelectorAll("#categories .button");
+catButtons.forEach((catFilter) => {
+  catFilter.addEventListener("mouseenter", () => {
+    var catDataFilter = catFilter.getAttribute("data-filter");
+    var splitFilter = catDataFilter.replace(/^\./, "");
+    const filterItems = document.querySelectorAll(".filter-item");
+    filterItems.forEach(function(element) {
+      if (element.classList.contains(splitFilter)) {
+        element.classList.add("active");
+      } else {
+        element.classList.remove("active");
+      }
+    });
+  });
+
+  catFilter.addEventListener("mouseleave", () => {
+    const filterItems = document.querySelectorAll(".filter-item");
+    filterItems.forEach(function(element) {
+      element.classList.add("active");
+    });
+  });
+});
+// console.log(catButtons);
+
+
 const catToggle = document.getElementById("catToggle");
 const categories = document.getElementById("categories");
 catToggle.addEventListener("click", function() {

@@ -204,6 +204,14 @@ figure:hover img {
 #catToggle.active::after {
   content: "(-)";
 }
+.filter-item img {
+  opacity: 0;
+  transition: opacity 0.33s ease-in-out;
+}
+.filter-item.active img {
+  opacity: 1;
+
+}
 
 
 @responsive {
