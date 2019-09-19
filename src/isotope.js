@@ -21,10 +21,19 @@ function onHashchange() {
   iso.arrange({
     filter: hashFilter
   });
-  // console.log("onHashChange", hashFilter);
+
+  // hash style
+  var hashSplit = hashFilter.split(".");
+  var hashClean = hashSplit.slice(1);
+  hashClean.forEach(function(element) {
+    document.getElementById(element).classList.add("is-checked");
+  });
 }
 window.addEventListener("hashchange", onHashchange);
-onHashchange();
+if (window.location.hash) {
+  onHashchange();
+};
+// onHashchange();
 
 
 // change is-checked class on buttons
@@ -43,6 +52,18 @@ filtersElem.addEventListener("click", function(event) {
     addFilter(filter);
   } else {
     removeFilter(filter);
+  }
+  if (filter === ".personal") {
+    removeFilter(".commissionedstock");
+    addFilter(".personal");
+    document.getElementById("personal").classList.add("is-checked");
+    document.getElementById("commissionedstock").classList.remove("is-checked");
+  }
+  if (filter === ".commissionedstock") {
+    removeFilter(".personal");
+    addFilter(".commissionedstock");
+    document.getElementById("commissionedstock").classList.add("is-checked");
+    document.getElementById("personal").classList.remove("is-checked");
   }
   // filter isotope
   // group filters together, inclusive
@@ -78,17 +99,21 @@ function getHashFilter() {
   return hashFilter && decodeURIComponent(hashFilter);
 }
 
-// var filterItems = document.querySelectorAll(".filter-item");
-// filterItems.forEach((items) => {
-//   items.addEventListener("mouseover", () => {
-//     const filters = items.dataset.filter.split(",");
-//     console.log({filters});
+const filterItems = document.querySelectorAll(".filter-item");
+filterItems.forEach((items) => {
+  const filters = items.dataset.filter.split(",");
+  const filtersTheme = items.dataset.theme;
+  items.addEventListener("mouseover", () => {
+    filters.forEach(function(element) {
+      document.getElementById(element).style.color = filtersTheme;
+      document.getElementById(element).classList.add("font-bold");
+    });
+  });
+  items.addEventListener("mouseout", () => {
+    filters.forEach(function(element) {
+      document.getElementById(element).style.color = "#000";
+      document.getElementById(element).classList.remove("font-bold");
+    });
+  });
+});
 
-//     const highlight = document.querySelectorAll('[data-filter=""]');
-//     console.log("hightlight", highlight);
-//     // highlight.forEach((lit) => {
-    
-//     // }
-//     // console.log({highlight});
-//   });
-// });

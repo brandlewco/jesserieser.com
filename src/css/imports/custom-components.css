@@ -63,8 +63,11 @@
 .button:hover {
   @apply text-gray-600;
 }
-.button.is-checked {
+.button.ui-check.is-checked {
   @apply font-bold text-black;
+}
+.button.ui-radio.is-checked {
+  @apply font-bold underline;
 }
 
 .hue-btn {

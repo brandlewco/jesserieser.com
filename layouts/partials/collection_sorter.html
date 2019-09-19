@@ -1,16 +1,16 @@
 <section class="sticky mx-auto flex flex-col mb-4 z-40" style="top: 70px;">
     <button class="toggle text-left active font-bold tracking-wide">CATEGORIES (+)</button>
     <div class="flex flex-col py-4 filters">
-      <div class="ui-group collapsible flex flex-wrap" data-filter-group="categories">
+      <div class="ui-group collapsible flex flex-wrap">
         {{range $.Site.Data.categories}}
         {{range sort .categories "value" "asc"}}
-        <button class="w-1/6 text-left button {{. | replaceRE "[\\W]" "" | lower}}" data-filter=".{{. | replaceRE "[\\W]" "" | lower}}">{{.}}</button>
+        <button id="{{. | replaceRE "[\\W]" "" | lower}}" class="ui-check button w-1/6 text-left" data-filter=".{{. | replaceRE "[\\W]" "" | lower}}">{{.}}</button>
         {{end}}
         {{end}}
       </div>
-      <div class="ui-group pt-4" data-filter-group="filter">
-        <button class="button pr-4 font-bold tracking-wide" data-filter=".personal">PERSONAL</button>
-        <button class="button font-bold tracking-wide" data-filter=".commissionedstock">COMMISSIONED + STOCK</button>
+      <div class="ui-group pt-4">
+        <button id="personal" class="ui-radio button pr-4 font-bold tracking-wide" data-filter=".personal">PERSONAL</button>
+        <button id="commissionedstock" class="ui-radio button font-bold tracking-wide" data-filter=".commissionedstock">COMMISSIONED + STOCK</button>
       </div>
     </div>
 </section>
