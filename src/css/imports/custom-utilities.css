@@ -146,6 +146,8 @@ figure:hover img {
 
 #header-overlay {
   transition: opacity 0.33s ease-in-out;
+  background-color: #fff;
+  opacity: 0;
 }
 
 #page-title{
@@ -155,13 +157,13 @@ figure:hover img {
   transform: translate3d(0, -45vh, 0);
 } 
 
-#project-header.lazyload #header-overlay, #project-header.lazyloading #header-overlay {
-  opacity: 1;
+/* #project-header.lazyload #header-overlay, #project-header.lazyloading #header-overlay {
+  opacity: 0;
 }
 
 #project-header.lazyloaded #header-overlay {
   opacity: 0;
-}
+} */
 
 .block-hover figcaption {
   opacity: 0;
