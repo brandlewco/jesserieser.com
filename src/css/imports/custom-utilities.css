@@ -182,13 +182,29 @@ figure:hover img {
 }
 
 /* Filters */
-.toggle + .collapsible {
-  transition: flex 0.1s linear;
-  flex: 0;
+#categories {
+  max-height: 0;
+  opacity: 0;
+  transition: max-height 0.33s ease-in-out, opacity 0.33s ease-in-out;
+  overflow: hidden;
 }
-.toggle.active + .collapsible {
-  flex: 1;
+#categories.opened {
+  max-height: 300px;
+  opacity: 1;
 }
+#catToggle {
+  @apply font-normal;
+}
+#catToggle.active {
+  @apply font-bold;
+}
+#catToggle::after {
+  content: "(+)";
+}
+#catToggle.active::after {
+  content: "(-)";
+}
+
 
 @responsive {
   .border-box {

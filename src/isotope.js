@@ -29,12 +29,10 @@ function onHashchange() {
     document.getElementById(element).classList.add("is-checked");
   });
 }
-window.addEventListener("hashchange", onHashchange);
-if (window.location.hash) {
+if (window.location.hash.length > 9) {
+  window.addEventListener("hashchange", onHashchange);
   onHashchange();
-};
-// onHashchange();
-
+}
 
 // change is-checked class on buttons
 var filtersElem = document.querySelector(".filters");
@@ -65,11 +63,10 @@ filtersElem.addEventListener("click", function(event) {
     document.getElementById("commissionedstock").classList.add("is-checked");
     document.getElementById("personal").classList.remove("is-checked");
   }
+
   // filter isotope
   // group filters together, inclusive
   iso.arrange({filter: filters.join("")});
-  // LOG CHANGE
-  // console.log("onClick", filters);
 
   // HASH
   if (!filter) {
@@ -99,21 +96,61 @@ function getHashFilter() {
   return hashFilter && decodeURIComponent(hashFilter);
 }
 
+function removeHash() {
+  history.pushState("", document.title, window.location.pathname + window.location.search);
+}
+
+function clearActiveClass() {
+  const filterClearClass = Array.from(document.querySelectorAll(".button.is-checked"));
+  for (const element of filterClearClass) {
+    element.classList.remove("is-checked");
+  }
+}
+
+function resetFilters() {
+  filters = {};
+  iso.arrange({
+    filter: "*"
+  });
+}
+
+// const filtersClear = document.getElementById("all");
+// filtersClear.addEventListener("click", function() {
+//   removeHash();
+//   clearActiveClass();
+//   resetFilters();
+// });
+
 const filterItems = document.querySelectorAll(".filter-item");
 filterItems.forEach((items) => {
   const filters = items.dataset.filter.split(",");
   const filtersTheme = items.dataset.theme;
-  items.addEventListener("mouseover", () => {
+  items.addEventListener("mouseenter", () => {
     filters.forEach(function(element) {
-      document.getElementById(element).style.color = filtersTheme;
-      document.getElementById(element).classList.add("font-bold");
+      var filterActive = document.getElementById(element);
+      if (filterActive) {
+        filterActive.style.color = filtersTheme;
+        filterActive.classList.add("font-bold");
+      };
     });
   });
-  items.addEventListener("mouseout", () => {
+  items.addEventListener("mouseleave", () => {
     filters.forEach(function(element) {
-      document.getElementById(element).style.color = "#000";
-      document.getElementById(element).classList.remove("font-bold");
+      var filterActive = document.getElementById(element);
+      if (filterActive) {
+        filterActive.style.color = "#000";
+        filterActive.classList.remove("font-bold");
+      };
     });
   });
 });
 
+const catToggle = document.getElementById("catToggle");
+const categories = document.getElementById("categories");
+catToggle.addEventListener("click", function() {
+  if (catToggle.classList.contains("active")) {
+    categories.classList.add("opened");
+  } else {
+    categories.classList.remove("opened");
+  }
+});

@@ -1,19 +1,5 @@
 <header id="project-header" class="w-screen h-screen lazyload bg-scroll bg-cover bg-center flex flex-col justify-center items-center" data-hue="white" style="background-image: url({{.Params.feature_cover }}{{.Site.Params.cover}})">
     {{partial "r-mask" .}}
-    <div id="header-overlay" class="absolute w-screen h-screen inset-auto opacity-0 bg-black">
+    <div id="header-overlay" class="absolute w-screen h-screen inset-auto opacity-0" style="background-color: {{.Params.theme_color}}">
     </div>
 </header>
-<!-- <section id="project-description" class="w-full py-8 px-8 text-lg leading-normal text-white items-center lazyload" style="background-color: {{.Params.theme_color}};">
-    <div class="flex flex-row justify-center container mx-auto">
-        <figure class="sm:w-1/5">
-            {{with .Params.logo}}<img data-src="{{. | relURL }}" class="lazyload w-24">{{else}}
-            <figcaption class="text-{{.Params.navigation_theme}}">{{.Title}}</h1>
-            {{end}}
-        </figure>
-        <article class="sm:w-3/5">
-            {{ .Params.collection_description | markdownify }}
-            <a href="{{.Page.Permalink}}#project-brief" class="block text-white font-normal text-sm underline">more</a>
-        </article>
-    </div>
-</section> -->
-<!-- <div class="sticky top-0 h-32 w-full bg-white"></div> -->
