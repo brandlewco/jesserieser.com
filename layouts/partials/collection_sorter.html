@@ -4,8 +4,8 @@
           <button id="personal" class="ui-radio button tracking-wide" data-filter=".personal">PERSONAL</button><span class="px-4 font-bold">/</span>
           <button id="commissionedstock" class="ui-radio button tracking-wide" data-filter=".commissionedstock">COMMISSIONED + STOCK</button>
       </div>
-      <button id="catToggle" class="toggle text-left tracking-wide">CATEGORIES</button>
-      <div id="categories" class="ui-group collapsible flex flex-wrap py-4">
+      <button id="catToggle" class="toggle text-left tracking-wide active">CATEGORIES</button>
+      <div id="categories" class="ui-group collapsible flex flex-wrap py-4 opened">
         <!-- <button id="all" class="ui-check button w-1/6 text-left" alt="clear filters">All</button> -->
         {{range $.Site.Data.categories}}
         {{range sort .categories "value" "asc"}}
