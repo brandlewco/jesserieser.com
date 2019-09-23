@@ -1,13 +1,14 @@
 <section class="container block-media-2 flex flex-col md:flex-row{{with .Section.row_order }}-reverse{{end}} {{with .Section.row_alignment}}md:justify-{{.}}{{else}}md:justify-between{{end}} mx-auto h-auto">
-  <figure class="figure {{with .Section.image_1.x}}md:self-{{.}}{{end}} w-full {{with .Section.image_1.width}}md:w-{{.}}/100{{end}} mt-0 {{with .Section.image_1.margin}}md:mt-{{.}}{{end}} highlight" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" style="background: {{with .Section.image_1.color}}{{.}}{{else}}{{.Page.Params.theme_color}}{{end}};" id="{{ .Section.image_1.image | replaceRE "[a-zA-Z-:./]" "" }}" {{with .Section.row_order }}data-sal="slide-left"{{else}}data-sal="slide-right"{{end}}>
+  <figure class="figure {{with .Section.image_1.x}}md:self-{{.}}{{end}} w-full {{with .Section.image_1.width}}md:w-{{.}}/100{{end}} mt-0 {{with .Section.image_1.margin}}md:mt-{{.}}{{end}} highlight" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" style="background: {{with .Section.image_1.color}}{{.}}{{else}}{{.Page.Params.theme_color}}{{end}};" id="{{ .Section.image_1.image | replaceRE "[a-zA-Z-:./]" "" }}" data-sal="image">
+    <!-- {{with .Section.row_order }}data-sal="slide-left"{{else}}data-sal="slide-right"{{end}} -->
     <a href="{{ .Section.image_1.image }}" itemprop="contentUrl" class="opengallery" data-no-swup>
       <img class="lazyload" src="{{ .Section.image_1.image }}{{$.Site.Params.lowRes}}" data-src="{{ .Section.image_1.image }}" alt="{{ .Section.image_1.caption }}" itemprop="thumbnail"/>
     </a>
-    {{ with .Section.image_1.caption }}
+    <!-- {{ with .Section.image_1.caption }}
     <figcaption class="hidden" itemprop="caption description">{{ . }}</figcaption>
-    {{ end }}
+    {{ end }} -->
   </figure>
-  <aside class="{{with .Section.text.x}}md:self-{{.}}{{end}} w-full {{with .Section.text.width}}md:w-{{.}}/100{{end}} mt-0 {{with .Section.text.margin}}md:mt-{{.}}{{end}} text-2xl" {{with .Section.row_order }}data-sal="slide-right"{{else}}data-sal="slide-left"{{end}}>
+  <aside class="{{with .Section.text.x}}md:self-{{.}}{{end}} w-full {{with .Section.text.width}}md:w-{{.}}/100{{end}} mt-0 {{with .Section.text.margin}}md:mt-{{.}}{{end}} text-2xl">
     {{with .Section.text.caption}}{{.}}{{end}}
   </aside>
 </section>
