@@ -333,7 +333,7 @@ body.sal-disabled [data-sal|="flip"] {
   transition-duration: 0.33s;
 }
 [data-sal|="image"] figcaption { 
-  transition-delay: 0.66s;
+  /* transition-delay: 0.66s; */
 }
 [data-sal|="image"].sal-animate img, [data-sal|="image"].sal-animate figcaption,
 body.sal-disabled [data-sal|="image"] img, body.sal-disabled [data-sal|="image"] figcaption {

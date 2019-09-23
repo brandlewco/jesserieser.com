@@ -62,10 +62,15 @@ function init() {
   const rellax = new Rellax(".rellax", {
     speed: 4,
     center: true,
-    wrapper: null,
+    relativeToWrapper: true,
+    wrapper: ".rellax-wrapper",
     round: true,
     vertical: true,
     horizontal: false
+  });
+
+  window.addEventListener("scroll", function() {
+    rellax.refresh();
   });
 
   // PhotoSwipe
