@@ -37,10 +37,6 @@ html[class*=" to-"] #loader, html[class*=" to-"] #mask, html[class*=" to-"] .cov
   transition: 0.33s opacity cubic-bezier(0.550, 0.055, 0.675, 0.190);
 }
 
-body.page-collections #navigation{
-  background: #fff;
-}
-
 #filter {
   overflow: visible;
 }
@@ -182,6 +178,10 @@ figure:hover img {
 }
 
 /* Filters */
+#filters {
+  margin-top: 70px;
+  top:0px;
+}
 #categories {
   max-height: 0;
   opacity: 0;
@@ -199,10 +199,12 @@ figure:hover img {
   @apply font-bold;
 }
 #catToggle::after {
-  content: "(+)";
+  @apply font-bold;
+  content: "+";
 }
 #catToggle.active::after {
-  content: "(-)";
+  @apply font-bold;
+  content: "-";
 }
 .filter-item img {
   opacity: 0;
@@ -210,7 +212,6 @@ figure:hover img {
 }
 .filter-item.active img {
   opacity: 1;
-
 }
 
 

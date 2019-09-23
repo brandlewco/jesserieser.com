@@ -1,11 +1,11 @@
-<section class="container mx-auto block-featured-collection block-hover">
+<section class="container mx-auto block-featured-collection">
   <a href="/{{substr .Section.attached_collection 0 -3 }}">
     <article class="flex flex-col relative">
-        <figure class="{{with .Section.x}}self-{{.}}{{end}} w-100 {{with .Section.width}}sm:w-{{.}}/100{{end}}" style="{{with .Section.margin}}margin-top:{{.}}px;{{end}} background: {{.Section.color }};" data-sal="slide-up">
+        <figure class="{{with .Section.x}}self-{{.}}{{end}} w-100 {{with .Section.width}}sm:w-{{.}}/100{{end}}" style="{{with .Section.margin}}margin-top:{{.}}px;{{end}} background: {{.Section.color }};" data-sal="image">
           <img src="{{ .Section.image | relURL }}?nf_resize=fit&w=1200" alt="{{ .Section.caption }}" />
           {{ if .Section.caption }}
-          <figcaption class="fixed top-0 inset-x-0 mx-auto w-screen h-screen container flex justify-left items-top py-12 px-4 z-50" style="pointer-events:none;">
-            <h2 class="uppercase text-6xl font-light tracking-widest">{{ .Section.caption }}</h2>
+          <figcaption class="absolute bottom-0 w-100 {{if eq .Section.x "start" }}text-right right-0 mr-2{{else}}text-left left-0 ml-2{{end}} z-50 rellax" style="pointer-events:none;" data-rellax-speed="2" data-rellax-percentage="0.5">
+            <h2 class="uppercase text-6xl font-semibold tracking-widest">{{ .Section.caption }}</h2>
           </figcaption>
           {{ end }}
         </figure>    

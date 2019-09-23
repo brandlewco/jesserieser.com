@@ -1,17 +1,19 @@
-<section class="sticky mx-auto flex flex-col mb-4 z-40" style="top: 70px;">
+<section id="filters" class="sticky mx-auto flex flex-col mb-4 pt-2 z-40" style="background-color:rgba(255,255,255,0.6);">
     <div class="flex flex-col filters">
-      <div class="ui-group pb-4">
-          <button id="personal" class="ui-radio button tracking-wide" data-filter=".personal">PERSONAL</button><span class="px-4 font-bold">/</span>
-          <button id="commissionedstock" class="ui-radio button tracking-wide" data-filter=".commissionedstock">COMMISSIONED + STOCK</button>
-      </div>
-      <button id="catToggle" class="toggle text-left tracking-wide active">CATEGORIES</button>
+      <button id="catToggle" class="toggle text-left tracking-wide active font-bold">CATEGORIES</button>
       <div id="categories" class="ui-group collapsible flex flex-wrap py-4 opened">
         <!-- <button id="all" class="ui-check button w-1/6 text-left" alt="clear filters">All</button> -->
-        {{range $.Site.Data.categories}}
-        {{range sort .categories "value" "asc"}}
-        <button id="{{. | replaceRE "[\\W]" "" | lower}}" class="ui-check button w-1/6 text-left" data-filter=".{{. | replaceRE "[\\W]" "" | lower}}">{{.}}</button>
-        {{end}}
-        {{end}}
+        <div class="ui-group pb-4">
+          {{range $.Site.Data.categories}}
+          {{range sort .categories "value" "asc"}}
+          <button id="{{. | replaceRE "[\\W]" "" | lower}}" class="ui-check button w-1/6 text-left font-italic pl-2" data-filter=".{{. | replaceRE "[\\W]" "" | lower}}">{{.}}</button>
+          {{end}}
+          {{end}}
+        </div>
+        <div class="ui-group pb-4">
+          <button id="personal" class="ui-radio button tracking-wide font-bold" data-filter=".personal">PERSONAL</button>
+          <button id="commissionedstock" class="ui-radio pl-4 button tracking-wide font-bold" data-filter=".commissionedstock">COMMISSIONED + STOCK</button>
+        </div>
       </div>
     </div>
 </section>

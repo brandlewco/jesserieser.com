@@ -11,6 +11,7 @@ import * as PhotoSwipeUI_Default from "photoswipe/dist/photoswipe-ui-default";
 import Midday from "midday.js";
 import smoothscroll from "smoothscroll-polyfill";
 import sal from "sal.js";
+import Rellax from "rellax";
 
 // Page Loader (SWUP)
 const options = {
@@ -54,8 +55,17 @@ function init() {
 
   // Sal Animations
   const scrollAnimations = sal({
-    once: true,
-    threshold: 0.33,
+    once: false,
+    threshold: 0.6,
+  });
+
+  const rellax = new Rellax(".rellax", {
+    speed: 4,
+    center: true,
+    wrapper: null,
+    round: true,
+    vertical: true,
+    horizontal: false
   });
 
   // PhotoSwipe
@@ -337,75 +347,18 @@ Array.prototype.forEach.call(navToggle, function(nav) {
   });
 });
 
-// Filter Toggle
-var groups = {};
-var hovergrp = document.getElementsByClassName("highlight");
-for (var i = 0; i < hovergrp.length; i++) {
-  var e = hovergrp.item(i);
-  var eClasses = e.classList;
-  for (var j = 0; j < eClasses.length; j++) {
-    var c = eClasses[j];
-    if (c.startsWith("h_")) {
-      if (!groups[c]) {
-        groups[c] = [];
-      }
-      groups[c].push(e);
-      e.onmouseover = (function(c_capture) {
-        return function(_event) {
-          highlightGroup(c_capture, "orange");
-        };
-      })(c);
-      e.onmouseout = (function(c_capture) {
-        return function(_event) {
-          highlightGroup(c_capture, "transparent");
-        };
-      })(c);
-      break;
-    }
-  }
-}
-
-function highlightGroup(groupName, color) {
-  var g = groups[groupName];
-  for (var i = 0; i < g.length; i++) {
-    g[i].style.backgroundColor = color;
-  }
-}
-
-// Show Hide Header
-let scrollPos = 0;
-function checkPosition() {
-  const windowY = window.scrollY;
-  if (windowY > window.innerHeight) {
-    if (windowY < scrollPos) {
-      // Scrolling UP
-      navigation.classList.add("mt-0");
-      navigation.classList.remove("mt-neg");
-    } else {
-      // Scrolling DOWN
-      navigation.classList.add("mt-neg");
-      navigation.classList.remove("mt-0");
-    }
-  }
-  // if (windowY > (window.innerHeight * 0.8)) {
-  //   pageTitle.classList.add("relative");
-  //   pageTitle.classList.remove("fixed");
-  // } else {
-  //   pageTitle.classList.add("fixed");
-  //   pageTitle.classList.remove("relative");
-  // }
-  scrollPos = windowY;
-}
-window.addEventListener("scroll", checkPosition);
 
 function value_limit(val, min, max) {
   return val < min ? min : (val > max ? max : val);
 }
 
+
 // Scroll Animations
 window.onscroll = function() {
+  checkPosition();
   var headerOverlay = document.getElementById("header-overlay");
   var pageTitle = document.getElementById("page-title");
+  var collectionTitle = document.querySelectorAll("figure.sal-animate figcaption");
   var height = window.innerHeight;
   var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
   if (pageTitle) {
@@ -414,23 +367,40 @@ window.onscroll = function() {
   if (headerOverlay) {
     headerOverlay.style.opacity = value_limit((scrollTop / (height * 0.5)), 0, 1);
   }
+  // collectionTitle.forEach((title) => {
+  //   title.style.transform = "translate3d(0, -" + ((scrollTop / height) / height) + "vh, 0)";
+  // });
 };
 
-// Highlight Class Switcher
-var highlight = document.getElementsByClassName("highlight");
-for (var i = 0; i < highlight.length; i++) {
-  highlight[i].addEventListener("mouseover", highlightThem);
-  highlight[i].addEventListener("mouseout", DontHighlightThem);
-}
-function highlightThem() {
-  for (var i = 0; i < highlight.length; i++) {
-    highlight[i].classList.add("lit");
+// Show Hide Header
+let scrollPos = 0;
+function checkPosition() {
+  var filters = document.getElementById("filters");
+  const windowY = window.scrollY;
+  if (document.querySelector("#project-header")) {
+    if (windowY > window.innerHeight) {
+      if (windowY < scrollPos) {
+        navigation.classList.add("mt-0");
+        navigation.classList.remove("mt-neg");
+      } else {
+        navigation.classList.add("mt-neg");
+        navigation.classList.remove("mt-0");
+      }
+    }
+  } else {
+    if (windowY < scrollPos) {
+      navigation.classList.add("mt-0");
+      navigation.classList.remove("mt-neg");
+      filters.classList.add("mt-0");
+      filters.classList.remove("mt-neg");
+    } else {
+      navigation.classList.add("mt-neg");
+      navigation.classList.remove("mt-0");
+      filters.classList.add("mt-neg");
+      filters.classList.remove("mt-0");
+    }
   }
-}
-function DontHighlightThem() {
-  for (var i = 0; i < highlight.length; i++) {
-    highlight[i].classList.remove("lit");
-  }
+  scrollPos = windowY;
 }
 
 window.__forceSmoothScrollPolyfill__ = true;

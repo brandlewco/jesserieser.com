@@ -317,7 +317,7 @@ module.exports = {
     },
     margin: (theme, {negative}) => ({
       auto: "auto",
-      "neg": "-80px",
+      "neg": "-70px",
       "50"  : "50px",
       "100" : "100px",
       "200" : "200px",
