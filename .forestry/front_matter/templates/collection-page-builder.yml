@@ -99,6 +99,12 @@ fields:
   label: Layout
   hidden: true
   default: blocks
+- name: collection_meta
+  type: text
+  config:
+    required: false
+  label: Collection Meta
+  description: Project year, or one line description
 pages:
 - content/collections/xmas-in-america.md
 - content/collections/addidas.md
