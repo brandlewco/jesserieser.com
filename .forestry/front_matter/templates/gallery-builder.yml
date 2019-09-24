@@ -42,12 +42,3 @@ fields:
   type: image_gallery
   config: {}
   label: Gallery
-pages:
-- content/gallery/phoenix.md
-- content/gallery/addidas.md
-- content/gallery/xmas.md
-- content/gallery/retail.md
-- content/gallery/autobiography.md
-- content/gallery/wired.md
-- content/gallery/time.md
-- content/gallery/star-geezers.md

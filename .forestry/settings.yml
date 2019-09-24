@@ -23,13 +23,6 @@ sections:
   match: "**/*"
   templates:
   - collection-page-builder
-- type: directory
-  path: content/gallery
-  label: Galleries
-  create: all
-  match: "**/*"
-  templates:
-  - gallery-builder
 - type: document
   path: data/categories/categories.toml
   label: Categories
