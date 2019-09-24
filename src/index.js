@@ -54,12 +54,13 @@ function init() {
   });
 
   // Sal Animations
-  const scrollAnimations = sal({
+  var scrollAnimations = sal({
     once: false,
-    threshold: 0.6,
+    threshold: 0.4,
   });
-
-  const rellax = new Rellax(".rellax", {
+  
+  // Parellax
+  var rellax = new Rellax(".rellax", {
     speed: 4,
     center: true,
     relativeToWrapper: true,
@@ -69,10 +70,13 @@ function init() {
     horizontal: false
   });
 
-  window.addEventListener("scroll", function() {
+  if (document.querySelector(".rellax")) {
     rellax.refresh();
-  });
 
+    window.addEventListener("scroll", function() {
+      rellax.refresh();
+    });
+  };
   // PhotoSwipe
   if (document.querySelector("#gallery")) {
     var initPhotoSwipeFromDOM = function(gallerySelector) {
@@ -383,7 +387,7 @@ function checkPosition() {
   var filters = document.getElementById("filters");
   const windowY = window.scrollY;
   if (document.querySelector("#project-header")) {
-    if (windowY > window.innerHeight) {
+    if (windowY > (window.innerHeight * 0.75)) {
       if (windowY < scrollPos) {
         navigation.classList.add("mt-0");
         navigation.classList.remove("mt-neg");

@@ -133,13 +133,13 @@ function resetFilters() {
 const filterItems = document.querySelectorAll(".filter-item");
 filterItems.forEach((items) => {
   const filters = items.dataset.filter.split(",");
-  const filtersTheme = items.dataset.theme;
+  // const filtersTheme = items.dataset.theme;
   items.addEventListener("mouseenter", () => {
     filters.forEach(function(element) {
       var filterActive = document.getElementById(element);
       if (filterActive) {
-        filterActive.style.color = filtersTheme;
-        filterActive.classList.add("underline");
+        // filterActive.style.color = filtersTheme;
+        filterActive.classList.add("font-bold");
       }
     });
   });
@@ -147,8 +147,8 @@ filterItems.forEach((items) => {
     filters.forEach(function(element) {
       var filterActive = document.getElementById(element);
       if (filterActive) {
-        filterActive.style.color = null;
-        filterActive.classList.remove("underline");
+        // filterActive.style.color = null;
+        filterActive.classList.remove("font-bold");
       }
     });
   });
@@ -182,7 +182,7 @@ catButtons.forEach((catFilter) => {
 const catToggle = document.getElementById("catToggle");
 const categories = document.getElementById("categories");
 catToggle.addEventListener("click", function() {
-  if (catToggle.classList.contains("active")) {
+  if (catToggle.classList.contains("is-checked")) {
     categories.classList.add("opened");
   } else {
     categories.classList.remove("opened");

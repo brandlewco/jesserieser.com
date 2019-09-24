@@ -1,9 +1,11 @@
 <figure class="filter-item p-2 sm:w-1/3 w-1/2 {{range .Params.collection_category}}{{. | replaceRE "[\\W]" "" | lower}} {{end}}{{with .Params.collection_filter}}{{. | replaceRE "[\\W]" "" | lower}}{{end}} active" data-theme="{{.Params.theme_color}}" data-filter="{{range .Params.collection_category}}{{. | replaceRE "[\\W]" "" | lower}},{{end}}">
     <a href="{{.Permalink}}">
-        <div style="background-color: {{.Params.theme_color}}">
-        <img src="{{.Params.collection_cover}}" srcset="{{.Params.collection_cover}}" alt="{{.Title}}" class="lazyload object-cover" style="height: 250px; background-color: {{.Params.theme_color}}" />
+        <div style="background-color: #000;">
+        <img src="{{.Params.collection_cover}}" srcset="{{.Params.collection_cover}}" alt="{{.Title}}" class="lazyload object-cover" style="height: 250px;" />
         </div>
-    <figcaption class="text-black text-md uppercase">{{.Title}}</figcaption>
-    {{with .Params.collection_filter}}<span class="font-light">{{.}}</span>{{end}}
+    <figcaption class="text-black text-md uppercase">
+    <span class="font-semibold block">{{.Title}}</span>
+    {{with .Params.collection_meta}}<span class="font-light block">{{.}}</span>{{end}}
+    </figcaption>
     </a>
 </figure>
