@@ -24,6 +24,7 @@ fields:
   name: logo
   label: Client Logo (not required)
   description: upload project logo (if applicable)
+  hidden: true
 - type: color
   name: theme_color
   config:
@@ -45,7 +46,7 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
-  description: Used for the top of the collection, and google meta data. (300 characters)
+  description: Used for the collection header, and google meta data. (300 characters)
 - type: textarea
   name: collection_content
   label: Project Brief
