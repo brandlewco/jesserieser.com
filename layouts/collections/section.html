@@ -1,12 +1,20 @@
 {{- define "main" -}}
 <article class="content container mx-auto mt-16">
     {{partial "collection_sorter" .}}
-    <section id="filter" class="filtr-container flex flex-wrap overflow-hidden">
-        {{ range .Pages }}
-        {{partial "collection_sorter_item" .}}
+    <section id="filter" class="flex flex-wrap overflow-hidden">
+        {{ range where .Pages ".Params.collection_archive" "!=" true }}
+            {{ partial "collection_sorter_item" .}}
         {{ end }}
     </section>
 </article>
+<article id="archive" class="bg-black mt-16 py-8">
+    <section id="archive" class="flex flex-wrap container mx-auto overflow-hidden text-white">
+    <h2 class="w-full pb-8 font-bold pl-2">ARCHIVE</h2>
+        {{ range where .Pages ".Params.collection_archive" "=" true }}
+            {{ partial "collection_sorter_item" .}}
+        {{ end }}
+    </section>
+</artivle>
 {{- end -}}
 
 {{- define "attached" -}}

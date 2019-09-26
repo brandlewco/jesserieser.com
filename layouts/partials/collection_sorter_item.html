@@ -3,9 +3,13 @@
         <div style="background-color: #000;">
         <img src="{{.Params.collection_cover}}" srcset="{{.Params.collection_cover}}" alt="{{.Title}}" class="lazyload object-cover" style="height: 250px;" />
         </div>
-    <figcaption class="text-black text-md uppercase">
-    <span class="font-semibold block">{{.Title}}</span>
-    {{with .Params.collection_meta}}<span class="font-light block">{{.}}</span>{{end}}
-    </figcaption>
+        {{ if eq .Params.collection_archive true }}
+        <figcaption class="text-white text-md uppercase">
+        {{else}}
+        <figcaption class="text-black text-md uppercase">
+        {{end}}
+        <span class="font-semibold italic block pt-2">{{.Title}}</span>
+        {{with .Params.collection_meta}}<span class="font-light block">{{.}}</span>{{end}}
+        </figcaption>
     </a>
 </figure>
