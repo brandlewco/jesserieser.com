@@ -1,9 +1,9 @@
-import Swup from "swup";
-import SwupScrollPlugin from "@swup/scroll-plugin";
-import SwupGaPlugin from "@swup/ga-plugin";
-import SwupBodyClassPlugin from "@swup/body-class-plugin";
-import SwupScriptsPlugin from "@swup/scripts-plugin";
-import SwupPreloadPlugin from "@swup/preload-plugin";
+// import Swup from "swup";
+// import SwupScrollPlugin from "@swup/scroll-plugin";
+// import SwupGaPlugin from "@swup/ga-plugin";
+// import SwupBodyClassPlugin from "@swup/body-class-plugin";
+// import SwupScriptsPlugin from "@swup/scripts-plugin";
+// import SwupPreloadPlugin from "@swup/preload-plugin";
 import "lazysizes";
 import "lazysizes/plugins/unveilhooks/ls.unveilhooks";
 import * as PhotoSwipe from "photoswipe";
@@ -14,37 +14,37 @@ import sal from "sal.js";
 import Rellax from "rellax";
 
 // Page Loader (SWUP)
-const options = {
-  containers: ["#content"],
-  plugins: [
-    new SwupScrollPlugin({
-      animateScroll: true,
-      scrollFriction: 0.4,
-      scrollAcceleration: 0.04,
-      doScrollingRightAway: false
-    }),
-    new SwupGaPlugin(),
-    new SwupPreloadPlugin(),
-    new SwupBodyClassPlugin(),
-    new SwupScriptsPlugin({
-      head: true,
-      body: true
-    })
-  ],
-  animateHistoryBrowsing: false,
-  preload: true,
-  cache: true,
-  linkSelector: 'a[href^="' + window.location.origin + '"]:not([data-no-swup]), a[href^="/"]:not([data-no-swup]), a[href^="#"]:not([data-no-swup])',
-  skipPopStateHandling: function(event) {
-    if (event.state && event.state.source === "swup") {
-      return false;
-    }
-    return true;
-  }
-};
-const swup = new Swup(options);
+// const options = {
+//   containers: ["#content"],
+//   plugins: [
+//     new SwupScrollPlugin({
+//       animateScroll: true,
+//       scrollFriction: 0.4,
+//       scrollAcceleration: 0.04,
+//       doScrollingRightAway: false
+//     }),
+//     new SwupGaPlugin(),
+//     new SwupPreloadPlugin(),
+//     new SwupBodyClassPlugin(),
+//     new SwupScriptsPlugin({
+//       head: true,
+//       body: true
+//     })
+//   ],
+//   animateHistoryBrowsing: false,
+//   preload: true,
+//   cache: true,
+//   linkSelector: 'a[href^="' + window.location.origin + '"]:not([data-no-swup]), a[href^="/"]:not([data-no-swup]), a[href^="#"]:not([data-no-swup])',
+//   skipPopStateHandling: function(event) {
+//     if (event.state && event.state.source === "swup") {
+//       return false;
+//     }
+//     return true;
+//   }
+// };
+// const swup = new Swup(options);
 
-swup.on("contentReplaced", init);
+// swup.on("contentReplaced", init);
 function init() {
   // MIDDAY
   const middayNav = new Midday(document.getElementById("navigation"), {
