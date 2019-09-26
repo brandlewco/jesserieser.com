@@ -27,11 +27,11 @@ const options = {
     new SwupPreloadPlugin(),
     new SwupBodyClassPlugin(),
     new SwupScriptsPlugin({
-      head: false,
-      body: false
+      head: true,
+      body: true
     })
   ],
-  animateHistoryBrowsing: true,
+  animateHistoryBrowsing: false,
   preload: true,
   cache: true,
   linkSelector: 'a[href^="' + window.location.origin + '"]:not([data-no-swup]), a[href^="/"]:not([data-no-swup]), a[href^="#"]:not([data-no-swup])',
