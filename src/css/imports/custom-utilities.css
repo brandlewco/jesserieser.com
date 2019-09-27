@@ -74,12 +74,12 @@ figure #mask-bg path {
 }
 
 /* collections header and loader */
-header img {
+/* header img {
   position: fixed;
   will-change: transform;
   width: 100%;
   z-index: -1;
-}
+} */
 header #mask svg {
   display: block;
 }
@@ -90,7 +90,7 @@ header #mask path {
   transform: translateX(50%) translateX(-150px) translateY(50%)
     translateY(-270px);
   opacity: 0;
-  transition: transform 1s ease-in-out, opacity ease-in-out 1s;
+  transition: transform 1s ease-in-out 0.2s, opacity 1s ease-in-out 0.2s;
 }
 header.lazyloaded #mask path {
   transform: translateX(50%) translateX(-150px) translateY(50%)
@@ -114,8 +114,17 @@ header.lazyloaded rect.cover {
   animation-timing-function: cubic-bezier(1, 0, 0.81, 0.58);
   animation-fill-mode: forwards;
   transform-origin: center;
-  /* animation-delay: 2s; */
+  /* animation-delay: 1s; */
   opacity: 0;
+}
+header img {
+  transition: opacity 0.33s ease-in-out;
+}
+header img.lazyload, header img.lazyloading {
+  opacity: 0;
+}
+header img.lazyloaded {
+  opacity: 1;
 }
 
 @keyframes r-expand {
@@ -160,7 +169,7 @@ figure:hover img {
 }
 
 #header-overlay {
-  transition: opacity 0.33s ease-in-out;
+  /* transition: opacity 0.33s ease-in-out 0.1s; */
   background-color: #fff;
   opacity: 0;
 }
@@ -171,14 +180,6 @@ figure:hover img {
   opacity: 0;
   transform: translate3d(0, -45vh, 0);
 }
-
-/* #project-header.lazyload #header-overlay, #project-header.lazyloading #header-overlay {
-  opacity: 0;
-}
-
-#project-header.lazyloaded #header-overlay {
-  opacity: 0;
-} */
 
 .block-hover figcaption {
   opacity: 0;
