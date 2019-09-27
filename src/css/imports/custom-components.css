@@ -1,5 +1,6 @@
 #navigation {
   transition: 0.33s all ease-in-out;
+  height: 68px !important;
 }
 
 #navigation.active {

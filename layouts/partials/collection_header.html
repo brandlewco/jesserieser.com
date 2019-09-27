@@ -1,13 +1,13 @@
 <header id="project-header" class="w-screen h-screen lazyload bg-scroll bg-cover bg-center flex flex-col items-center overflow-hidden" data-hue="{{.Params.navigation_theme}}" data-bg="{{.Params.collection_cover }}{{.Site.Params.cover}}" style="background-color: {{.Params.theme_color}};">
     <!-- <img data-src="{{.Params.collection_cover }}{{.Site.Params.cover}}" class="static w-100 h-100 lazyload inset-auto" > -->
     {{partial "r-mask" .}}
-    <h1 id="page-title" class="absolute bottom-0 z-50 margin-0 uppercase text-6xl font-light tracking-wide text-{{.Params.navigation_theme}} lazyload" style="transform: translate3d(0, -45vh, 0)">{{.Title}}</h1>
+    <h1 id="page-title" class="absolute bottom-0 z-50 margin-0 uppercase text-4xl sm:text-6xl px-4 sm:px-0 font-light tracking-wide text-{{.Params.navigation_theme}} text-center lazyload" style="transform: translate3d(0, -45vh, 0)">{{.Title}}</h1>
     <div class="absolute bottom-0 mx-0 text-6xl font-light text-{{.Params.navigation_theme}}">&#8964;</div>
-    <section id="header-overlay" class="flex flex-col justify-end absolute w-screen h-screen inset-auto" style="background-color: {{.Params.theme_color}};">
-    </section>
+    <div id="loading-overlay" class="absolute w-screen h-screen inset-auto z-10" style="background-color: {{.Params.theme_color}};"></div>
+    <div id="header-overlay" class="flex flex-col justify-end absolute w-screen h-screen inset-auto" style="background-color: {{.Params.theme_color}};"></div>
 </header>
-<article id="project-description" class="w-full py-8 px-8 text-xl text-{{.Params.navigation_theme}} items-center text-justify leading-loose" data-hue="{{.Params.navigation_theme}}" style="background-color: {{.Params.theme_color}};">
-    <div class="flex flex-col justify-center container mx-auto" data-sal="slide-up" data-sal-delay="300">
+<article id="project-description" class="w-full py-8 px-4 sm:px-8 text-xl text-{{.Params.navigation_theme}} items-center text-justify leading-loose" data-hue="{{.Params.navigation_theme}}" style="background-color: {{.Params.theme_color}};">
+    <div class="flex container flex-col justify-center mx-auto" data-sal="slide-up" data-sal-delay="300">
             {{ .Params.collection_description | markdownify }}
             <a href="#project-brief" class="block text-{{.Params.navigation_theme}} font-normal" data-no-swup>more...</a>
     </div>

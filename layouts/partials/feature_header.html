@@ -1,6 +1,6 @@
 <header id="project-header" class="w-screen h-screen lazyload bg-scroll bg-cover bg-center flex flex-col items-center overflow-hidden" data-hue="white" style="background-image: url({{.Params.feature_cover }}{{.Site.Params.cover}})">
     <!-- <img data-src="{{.Params.feature_cover }}{{.Site.Params.cover}}" class="static w-100 h-100 lazyload inset-auto"> -->
     {{partial "r-mask" .}}
-    <div id="header-overlay" class="absolute w-screen h-screen inset-auto opacity-0" style="background-color: {{.Params.theme_color}}">
-    </div>
+    <div id="loading-overlay" class="absolute w-screen h-screen inset-auto z-10" style="background-color: {{.Params.theme_color}};"></div>
+    <div id="header-overlay" class="flex flex-col justify-end absolute w-screen h-screen inset-auto" style="background-color: {{.Params.theme_color}};"></div>
 </header>

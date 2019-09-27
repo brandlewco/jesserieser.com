@@ -127,6 +127,25 @@ header img.lazyloaded {
   opacity: 1;
 }
 
+#header-overlay {
+  /* transition: opacity 0.33s ease-in-out 0.1s; */
+  background-color: #fff;
+  opacity: 0;
+}
+
+#loading-overlay {
+  transition: opacity 0.33s ease-in-out 0.1s;
+}
+
+#project-header.lazyload #loading-overlay, 
+#project-header.lazyloading #loading-overlay {
+  opacity: 1;
+}
+
+#project-header.lazyloaded #loading-overlay {
+  opacity: 0;
+}
+
 @keyframes r-expand {
   0% {
     transform: scale(1);
@@ -166,12 +185,6 @@ figure.lit img {
 
 figure:hover img {
   opacity: 1;
-}
-
-#header-overlay {
-  /* transition: opacity 0.33s ease-in-out 0.1s; */
-  background-color: #fff;
-  opacity: 0;
 }
 
 #page-title {

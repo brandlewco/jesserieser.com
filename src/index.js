@@ -111,7 +111,8 @@ function init() {
           item = {
             src: linkEl.getAttribute("href"),
             w: imgEl.naturalWidth,
-            h: imgEl.naturalHeight
+            h: imgEl.naturalHeight,
+            pid: linkEl.getAttribute("pid")
           };
 
 
