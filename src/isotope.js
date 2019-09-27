@@ -2,7 +2,7 @@
 import Isotope from "isotope-layout";
 
 // init Isotope
-var grid = document.querySelector(".filtr-container");
+var grid = document.querySelector(".filter-container");
 var iso = new Isotope(grid, {
   itemSelector: ".filter-item",
   layoutMode: "fitRows",

@@ -1,15 +1,29 @@
 <section id="project-next" class="mt-32">
-    {{ with .NextInSection }}
-    <a href="{{ .Permalink }}" alt="Next Project - {{ .Title }}" data-swup-preload>
-    <div class="container mx-auto w-full p-8 leading-normal text-black flex flex-col justify-center items-center">
-            <div class="text-3xl block mb-4">
-            NEXT PROJECT
-            </div>
-            <div class="block">
-                {{ .Title }}
-            </div>
-    </div>
-    </a>
+    {{ with .PrevInSection }}
+    <nav class="container mx-auto flex flex-row justify-between">
+        <a href="{{ .Permalink }}" alt="Previous Project - {{ .Title }}" data-swup-preload class="self-start">
+        <div class="text-black text-left">
+                <div class="text-1xl block mb-1 font-light">
+                < PREVIOUS
+                </div>
+                <div class="text-2xl block font-semibold leading-relaxed">
+                    {{ .Title }}
+                </div>
+        </div>
+        </a>
+        {{ end }}
+        {{ with .NextInSection }}
+        <a href="{{ .Permalink }}" alt="Next Project - {{ .Title }}" data-swup-preload class="self-end">
+        <div class="text-right" >
+                <div class="text-1xl block mb-1 font-light">
+                NEXT >
+                </div>
+                <div class="text-2xl block font-semibold leading-relaxed">
+                    {{ .Title }}
+                </div>
+        </div>
+        </a>
+    </nav>
     {{ end }}
 </section>
 <section id="project-brief" class="mt-32" style="background-color:{{.Params.theme_color}};">

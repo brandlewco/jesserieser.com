@@ -58,7 +58,7 @@ function init() {
     once: false,
     threshold: 0.4,
   });
-  
+
   // Parellax
   var rellax = new Rellax(".rellax", {
     speed: 4,
@@ -76,7 +76,7 @@ function init() {
     window.addEventListener("scroll", function() {
       rellax.refresh();
     });
-  };
+  }
   // PhotoSwipe
   if (document.querySelector("#gallery")) {
     var initPhotoSwipeFromDOM = function(gallerySelector) {
@@ -410,6 +410,21 @@ function checkPosition() {
     }
   }
   scrollPos = windowY;
+}
+
+const anchorlinks = document.querySelectorAll('a[href^="#"]');
+
+for (const item of anchorlinks) { // relitere
+  item.addEventListener("click", (e) => {
+    const hashval = item.getAttribute("href");
+    const target = document.querySelector(hashval);
+    target.scrollIntoView({
+      behavior: "smooth",
+      block: "start"
+    });
+    history.pushState(null, null, hashval);
+    e.preventDefault();
+  });
 }
 
 window.__forceSmoothScrollPolyfill__ = true;

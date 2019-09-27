@@ -18,7 +18,7 @@ const options = {
   containers: ["#content"],
   plugins: [
     new SwupScrollPlugin({
-      animateScroll: true,
+      animateScroll: false,
       scrollFriction: 0.4,
       scrollAcceleration: 0.04,
       doScrollingRightAway: false
@@ -58,7 +58,7 @@ function init() {
     once: false,
     threshold: 0.4,
   });
-  
+
   // Parellax
   var rellax = new Rellax(".rellax", {
     speed: 4,
@@ -76,7 +76,7 @@ function init() {
     window.addEventListener("scroll", function() {
       rellax.refresh();
     });
-  };
+  }
   // PhotoSwipe
   if (document.querySelector("#gallery")) {
     var initPhotoSwipeFromDOM = function(gallerySelector) {
@@ -318,6 +318,17 @@ function init() {
     // execute above function
     initPhotoSwipeFromDOM(".my-gallery");
   }
+
+  // smooth scroll anchor links
+  document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+    anchor.addEventListener("click", function(e) {
+      e.preventDefault();
+  
+      document.querySelector(this.getAttribute("href")).scrollIntoView({
+        behavior: "smooth"
+      });
+    });
+  });
 }
 init();
 
@@ -383,9 +394,9 @@ window.onscroll = function() {
 
 // Show Hide Header
 let scrollPos = 0;
+const windowY = window.scrollY;
 function checkPosition() {
   var filters = document.getElementById("filters");
-  const windowY = window.scrollY;
   if (document.querySelector("#project-header")) {
     if (windowY > (window.innerHeight * 0.75)) {
       if (windowY < scrollPos) {
@@ -398,15 +409,15 @@ function checkPosition() {
     }
   } else {
     if (windowY < scrollPos) {
-      navigation.classList.add("mt-0");
-      navigation.classList.remove("mt-neg");
-      filters.classList.add("mt-0");
-      filters.classList.remove("mt-neg");
+      // navigation.classList.add("mt-0");
+      // navigation.classList.remove("mt-neg");
+      // filters.classList.add("mt-0");
+      // filters.classList.remove("mt-neg");
     } else {
-      navigation.classList.add("mt-neg");
-      navigation.classList.remove("mt-0");
-      filters.classList.add("mt-neg");
-      filters.classList.remove("mt-0");
+      // navigation.classList.add("mt-neg");
+      // navigation.classList.remove("mt-0");
+      // filters.classList.add("mt-neg");
+      // filters.classList.remove("mt-0");
     }
   }
   scrollPos = windowY;
