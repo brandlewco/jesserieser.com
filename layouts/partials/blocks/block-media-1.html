@@ -1,7 +1,7 @@
 
 <section class="container block-media-1 block-hover flex flex-row {{with .Section.row_alignment}}md:justify-{{.}}{{else}}md:justify-between{{end}} mx-auto h-auto">
   <figure class="figure {{with .Section.x}}md:self-{{.}}{{end}} w-full {{with .Section.width}}md:w-{{.}}/100{{end}} mt-4 {{with .Section.margin}}md:mt-{{.}}{{end}} highlight" style="background: {{with .Section.color}}{{.}}{{else}}{{.Page.Params.theme_color}}{{end}};" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" id="{{ .Section.image | replaceRE "[a-zA-Z-:./]" "" }}" data-sal="image">
-    <a href="{{ .Section.image }}" itemprop="contentUrl" pid="{{ .Section.image | replaceRE "(.doc|.jpeg|.jpg)" "" }}" data-no-swup>
+    <a href="{{ .Section.image }}" itemprop="contentUrl" pid="{{ .Section.image | relURL }}" data-no-swup>
       <img class="lazyload" src="{{ .Section.image }}{{$.Site.Params.lowRes}}" data-src="{{ .Section.image }}" alt="{{ .Section.caption }}"/>
     </a>
     {{ with .Section.caption }}

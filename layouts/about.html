@@ -1,0 +1,27 @@
+{{- define "main" -}}
+    {{ partial "collection_header" .}}
+    <section data-hue="page" class="pt-8 mx-auto bg-white">
+        <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+            {{- range .Params.collection_layout_builder -}}
+                {{ partial (printf "blocks/block-%s.html" .block) (dict "Section" . "Page" $ "Site" $.Site) }}
+            {{- end -}}
+        </div>
+    {{ partial "collection_brief" .}}
+    </section>
+    {{ partial "gallery" . }}
+{{- end -}}
+
+{{- define "attached" -}}
+<!-- {{ $key := .Site.GetPage .Params.attached_gallery }}
+<script async>
+var items = [
+    {{ range sort $key.Params.figure }}
+        { src: "{{ .image }}", w: 1, h: 1, pid: "{{ .image | replaceRE "[a-zA-Z-./:]" "" }}"},
+    {{ end }}
+]
+</script> -->
+<!-- {{ $gallery := .Site.Data.webpack.gallery }}
+{{ with $gallery.js }}
+<script src="{{ . | relURL }}"></script>
+{{ end }} -->
+{{- end -}}
