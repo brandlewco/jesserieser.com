@@ -238,6 +238,9 @@ figure:hover img {
   /* @apply font-bold; */
   content: " -";
 }
+.filter-item img.lazyloading, .filter-item img.lazyload {
+  opacity: 0 !important;
+}
 .filter-item figcaption {
   opacity: 0.3;
   transition: opacity 0.33s ease-in-out;
