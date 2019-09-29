@@ -1,4 +1,7 @@
-<header id="project-header" class="w-screen h-screen lazyload bg-scroll bg-cover bg-center flex flex-col items-center overflow-hidden" data-hue="{{.Params.navigation_theme}}" data-bg="{{.Params.collection_cover }}{{.Site.Params.cover}}" style="background-color: {{.Params.theme_color}};">
+<header id="project-header" class="w-screen h-screen lazyload bg-cover bg-center bg-fixed flex flex-col items-center overflow-hidden" data-hue="{{.Params.navigation_theme}}" data-bgset="{{.Params.collection_cover }}?nf_resize=fit&w=800 800w,
+{{.Params.collection_cover }}?nf_resize=fit&w=1200 1200w,
+{{.Params.collection_cover }}?nf_resize=fit&w=1600 1600w,
+{{.Params.collection_cover }}" data-sizes="auto" style="background-color: {{.Params.theme_color}};">
     <!-- <img data-src="{{.Params.collection_cover }}{{.Site.Params.cover}}" class="static w-100 h-100 lazyload inset-auto" > -->
     {{partial "r-mask" .}}
     <h1 id="page-title" class="absolute bottom-0 z-50 margin-0 uppercase text-4xl sm:text-6xl px-4 sm:px-0 font-light tracking-wide text-{{.Params.navigation_theme}} text-center lazyload" style="transform: translate3d(0, -45vh, 0)">{{.Title}}</h1>

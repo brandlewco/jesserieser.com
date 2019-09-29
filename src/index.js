@@ -6,6 +6,7 @@ import SwupScriptsPlugin from "@swup/scripts-plugin";
 import SwupPreloadPlugin from "@swup/preload-plugin";
 import "lazysizes";
 import "lazysizes/plugins/unveilhooks/ls.unveilhooks";
+import "lazysizes/plugins/bgset/ls.bgset";
 import * as PhotoSwipe from "photoswipe";
 import * as PhotoSwipeUI_Default from "photoswipe/dist/photoswipe-ui-default";
 import Midday from "midday.js";
@@ -56,7 +57,7 @@ function init() {
   // Sal Animations
   var scrollAnimations = sal({
     once: false,
-    threshold: 0.4,
+    threshold: 0.6,
   });
 
   // Parellax
@@ -288,7 +289,7 @@ function init() {
           Element.prototype.documentOffsetTop = function() {
             return this.offsetTop + (this.offsetParent ? this.offsetParent.documentOffsetTop() : 0);
           };
-          var topPos = document.getElementById(gallery.currItem.el.id).documentOffsetTop() - (window.innerHeight / 2);
+          window.topPos = document.getElementById(gallery.currItem.el.id).documentOffsetTop() - (window.innerHeight / 2);
           window.scrollTo({
             top: topPos,
             left: 0,
@@ -296,9 +297,14 @@ function init() {
           });
           // document.getElementById(gallery.currItem.el.id).scrollIntoView({behavior: "smooth", block: "nearest", inline: "start"});
         });
-        // gallery.listen("close", function() {
-        //   window.scrollPositions = window.scrollY;
-        // });
+        gallery.listen("close", function() {
+          window.scrollTo({
+            top: topPos,
+            left: 0,
+            behavior: "smooth"
+          });
+          console.log(topPos);
+        });
         gallery.init();
       };
 
