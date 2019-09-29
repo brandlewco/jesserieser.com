@@ -17,5 +17,5 @@ hrefTargetBlank = false
 [params]
 cover = "?nf_resize=fit&w=2560"
 contain = "?nf_resize=fit&w=1280"
-lorRes = "?nf_resize=fit&w=600"
+lowRes = "?nf_resize=fit&w=600"
 netlifyLM = "https://jesserieser.brandlew.co"

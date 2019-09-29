@@ -137,9 +137,26 @@ header img.lazyloaded {
   transition: opacity 0.33s ease-in-out 0.1s;
 }
 
+@keyframes overlay-pulse{
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 #project-header.lazyload #loading-overlay, 
 #project-header.lazyloading #loading-overlay {
   opacity: 1;
+  animation-name: overlay-pulse;
+  animation-duration: 0.33s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
 }
 
 #project-header.lazyloaded #loading-overlay {
