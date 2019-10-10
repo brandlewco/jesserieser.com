@@ -6,6 +6,7 @@
 // import SwupPreloadPlugin from "@swup/preload-plugin";
 import "lazysizes";
 import "lazysizes/plugins/unveilhooks/ls.unveilhooks";
+import "lazysizes/plugins/bgset/ls.bgset";
 import * as PhotoSwipe from "photoswipe";
 import * as PhotoSwipeUI_Default from "photoswipe/dist/photoswipe-ui-default";
 import Midday from "midday.js";
