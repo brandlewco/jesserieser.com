@@ -23,8 +23,8 @@ template = "block-media-2"
 caption = "caption"
 color = "#FECB95"
 image = "https://jesserieser.brandlew.co/uploads/phx-1.jpg"
-margin = 50
-width = 40
+margin = "300"
+width = "33"
 x = "start"
 [collection_layout_builder.image_2]
 caption = "caption"
