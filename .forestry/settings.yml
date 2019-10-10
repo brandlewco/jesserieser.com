@@ -26,6 +26,13 @@ sections:
 - type: document
   path: data/categories/categories.toml
   label: Categories
+- type: heading
+  label: ℹ️Help
+- type: document
+  path: README-FORESTRY.md
+  label: how-to
+  match: "**/*"
+  read_only: true
 upload_dir: static/uploads
 public_path: https://jesserieser.brandlew.co/uploads
 front_matter_path: uploads
