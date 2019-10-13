@@ -8,10 +8,6 @@ fields:
 - type: datetime
   name: date
   label: Date
-- type: file
-  name: feature_logo
-  label: Feature Client Logo (not required)
-  description: upload project logo (if applicable)
 - type: text
   name: layout
   label: Layout
