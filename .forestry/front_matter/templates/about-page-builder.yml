@@ -42,3 +42,5 @@ fields:
   name: cover_image
   label: Social Media Card
   description: This image is what appears in OpenGraph previews and image masks
+pages:
+- content/about/_index.md
