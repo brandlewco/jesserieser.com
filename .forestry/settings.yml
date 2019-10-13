@@ -4,6 +4,8 @@ auto_deploy: true
 admin_path: static/admin
 webhook_url: 
 sections:
+- type: heading
+  label: "\U0001F4C4Pages"
 - type: document
   path: content/_index.md
   label: Home / Selected Works
@@ -15,11 +17,6 @@ sections:
   label: News Posts
   create: all
   match: "**/*"
-- type: directory
-  path: content
-  label: Pages
-  create: all
-  match: "*"
 - type: heading
   label: "\U0001F387 Photo"
 - type: directory
