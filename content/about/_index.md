@@ -58,7 +58,7 @@ feature_description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. N
   hendrerit quam dapibus sem porttitor convallis. Integer convallis arcu non lectus
   facilisis dapibus. Aenean commodo magna at laoreet tempor. Phasellus lorem lorem,
   fringilla vitae interdum vel, euismod vitae quam. '
-feature_color: "#C81111"
+feature_color: "#D5C7BE"
 
 ---
 ## Click the collections link above to preview collections.
