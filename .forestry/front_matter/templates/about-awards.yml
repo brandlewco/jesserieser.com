@@ -1,4 +1,9 @@
 ---
 label: About - Awards
 hide_body: true
-fields: []
+fields:
+- name: award
+  type: include
+  config: {}
+  template: about-text-element
+  label: Award
