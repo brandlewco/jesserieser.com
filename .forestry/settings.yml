@@ -7,11 +7,9 @@ sections:
 - type: document
   path: content/_index.md
   label: Home / Selected Works
-  match: "**/*"
 - type: document
   path: content/about/_index.md
   label: About
-  match: "**/*"
 - type: directory
   path: content/post
   label: News Posts
