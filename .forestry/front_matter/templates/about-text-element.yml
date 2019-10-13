@@ -1,5 +1,5 @@
 ---
-label: about-text-element
+label: Text Field
 hide_body: true
 display_field: content
 fields:
