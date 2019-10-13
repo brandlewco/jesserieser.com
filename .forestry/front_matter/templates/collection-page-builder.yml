@@ -9,22 +9,9 @@ fields:
 - type: datetime
   name: date
   label: Publish Date
-- type: select
-  name: attached_gallery
-  config:
-    source:
-      type: pages
-      section: galleries
-  label: Attached Gallery
-  hidden: true
 - type: file
   name: collection_cover
   label: Cover Image
-- type: file
-  name: logo
-  label: Client Logo (not required)
-  description: upload project logo (if applicable)
-  hidden: true
 - type: color
   name: theme_color
   config:

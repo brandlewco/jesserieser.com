@@ -1,0 +1,12 @@
+---
+label: About - Awards
+hide_body: true
+fields:
+- name: award
+  type: blocks
+  label: Award
+  template_types:
+  - about-text-element
+  config:
+    min: 
+    max: 
