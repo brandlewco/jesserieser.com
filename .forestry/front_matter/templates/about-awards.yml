@@ -10,10 +10,10 @@ fields:
   hidden: true
   default: about-awards
 - name: image
-  type: file
-  config:
-    maxSize: '250'
-  label: Block Image
+  type: include
+  config: {}
+  template: media-element
+  label: Image
 - name: award
   type: blocks
   label: Award
