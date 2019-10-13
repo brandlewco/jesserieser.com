@@ -81,7 +81,7 @@ page_sections:
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
       Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
     url: ''
-  block: ''
+  block: 'about-awards'
   image: https://jesserieser.brandlew.co/uploads/jesserieser.jpg
   caption: Awards
   color: "#D5C7BE"

@@ -1,13 +1,9 @@
 {{- define "main" -}}
-    {{ partial "collection_header" .}}
+    {{ partial "feature_header" .}}
     <section data-hue="page" class="pt-8 mx-auto bg-white">
-        test section
-        <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-            {{- range .Params.collection_layout_builder -}}
-                {{ partial (printf "blocks/block-%s.html" .block) (dict "Section" . "Page" $ "Site" $.Site) }}
-            {{- end -}}
-        </div>
+        {{- range .Params.page_sections -}}
+        {{ partial (printf "blocks/block-%s.html" .block) (dict "Section" . "Page" $ "Site" $.Site) }}
+        {{- end -}}
     {{ partial "collection_brief" .}}
     </section>
-    {{ partial "gallery" . }}
 {{- end -}}
