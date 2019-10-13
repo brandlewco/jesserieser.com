@@ -1,0 +1,71 @@
+---
+label: About - Page Builder
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: text
+  name: page
+  label: page
+- type: datetime
+  name: date
+  label: date
+- type: field_group_list
+  name: page_sections
+  label: page_sections
+  fields:
+  - type: text
+    name: template
+    label: template
+  - type: text
+    name: block
+    label: block
+  - type: text
+    name: width
+    label: width
+  - type: text
+    name: x
+    label: x
+  - type: text
+    name: margin
+    label: margin
+  - type: file
+    name: image
+    label: image
+  - type: text
+    name: caption
+    label: caption
+  - type: text
+    name: color
+    label: color
+  - type: text
+    name: attached_collection
+    label: attached_collection
+- type: text
+  name: theme_color
+  label: theme_color
+- type: text
+  name: collection_description
+  label: collection_description
+- type: text
+  name: collection_content
+  label: collection_content
+- type: text
+  name: cover_image
+  label: cover_image
+- type: file
+  name: feature_logo
+  label: feature_logo
+- type: file
+  name: feature_cover
+  label: feature_cover
+- type: textarea
+  name: feature_description
+  label: feature_description
+- type: text
+  name: feature_color
+  label: feature_color
