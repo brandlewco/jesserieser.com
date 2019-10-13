@@ -34,7 +34,6 @@ fields:
   label: Page Sections
   template_types:
   - about-awards
-  - block-feature-collection
 - type: file
   name: cover_image
   label: Social Media Card
