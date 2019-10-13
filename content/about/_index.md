@@ -48,6 +48,12 @@ page_sections:
   attached_collection: collections/star-geezers.md
   caption: Star Geezers
   color: "#9bbad5"
+- template: about-awards
+  award:
+  - template: about-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    url: http://google.com
 theme_color: "#C81111"
 collection_description: ''
 collection_content: ''
