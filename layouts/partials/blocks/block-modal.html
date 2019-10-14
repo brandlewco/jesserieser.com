@@ -15,9 +15,11 @@
 
 <div class="popup-modal fixed inset-0 container z-50 bg-white" style="height: 80%; top:10%" data-popup-modal="{{.Section.caption | lower}}">
   <i class="fas fa-2x fa-times text-white bg-primary p-3 popup-modal__close"></i>
-  <article class="flex flex-wrap p-4">
-    {{- range .modal_block -}}
-    {{.content}}
+  <section class="flex flex-wrap p-4">
+    {{- range .Section.modal_block -}}
+      <article class="w-1/4">
+        {{ .content }}
+      </article>
     {{- end -}}
   </article>
 </div>
