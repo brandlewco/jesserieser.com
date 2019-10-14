@@ -13,12 +13,12 @@
   </button>
 </section>
 
-<div class="popup-modal fixed inset-0 container z-50 bg-white" style="height: 80%; top:10%" data-popup-modal="{{.Section.caption | lower}}">
+<div class="popup-modal fixed inset-0 container z-50 bg-white overflow-y-scroll" style="height: 80%; top:10%" data-popup-modal="{{.Section.caption | lower}}">
   <i class="fas fa-2x fa-times text-white bg-primary p-3 popup-modal__close"></i>
   <section class="flex flex-wrap p-4">
     {{- range .Section.modal_block -}}
-      <article class="w-1/4">
-        {{ .content }}
+      <article class="w-1/4 px-4 py-8">
+        {{ .content | markdownify }}
       </article>
     {{- end -}}
   </article>
