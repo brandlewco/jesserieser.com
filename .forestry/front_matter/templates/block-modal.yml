@@ -1,6 +1,7 @@
 ---
-label: Popup
+label: "\U0001F53C Popup"
 hide_body: true
+display_field: caption
 fields:
 - name: block
   type: text
