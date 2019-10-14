@@ -8,17 +8,17 @@ fields:
     required: false
   label: block
   hidden: true
-  default: about-awards
+  default: modal
 - name: image
   type: include
   config: {}
   template: media-element
   label: Image
-- name: award
+- name: modal
   type: blocks
-  label: Award
   template_types:
   - about-text-element
   config:
     min: 
     max: 
+  label: Popup
