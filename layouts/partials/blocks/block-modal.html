@@ -1,5 +1,5 @@
 <section class="container mx-auto block-featured-collection">
-  <button type="button" class="popup-trigger" data-popup-trigger="{{.Section.page_sections.caption}}">
+  <button type="button" class="popup-trigger" data-popup-trigger="{{.Section.caption | lower}}">
     <article class="flex flex-col relative">
         <figure class="{{with .Section.x}}self-{{.}}{{end}} w-100 {{with .Section.width}}sm:w-{{.}}/100{{end}} rellax-wrapper" style="{{with .Section.margin}}margin-top:{{.}}px;{{end}} background: {{.Section.color }};" data-sal="image">
           <img src="{{ .Section.image | relURL }}?nf_resize=fit&w=1200" alt="{{ .Section.caption }}" />
@@ -13,4 +13,10 @@
   </button>
 </section>
 
+<div class="popup-modal fixed inset-0 container z-50 bg-white" style="height: 80%; top:10%" data-popup-modal="{{.Section.caption | lower}}">
+  <i class="fas fa-2x fa-times text-white bg-primary p-3 popup-modal__close"></i>
+  <h1 class="font-weight-bold">
+    Modal One Title
+  </h1>
+</div>
 <!-- https://codepen.io/kimpetersend1/pen/LajgaW -->

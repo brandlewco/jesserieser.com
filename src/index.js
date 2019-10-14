@@ -330,7 +330,7 @@ function init() {
   document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     anchor.addEventListener("click", function(e) {
       e.preventDefault();
-  
+
       document.querySelector(this.getAttribute("href")).scrollIntoView({
         behavior: "smooth"
       });
@@ -398,6 +398,33 @@ window.onscroll = function() {
   //   title.style.transform = "translate3d(0, -" + ((scrollTop / height) / height) + "vh, 0)";
   // });
 };
+
+// Modal
+const modalTriggers = document.querySelectorAll(".popup-trigger");
+const modalCloseTrigger = document.querySelector(".popup-modal__close");
+const bodyPopup = document.querySelector(".body-popup");
+
+modalTriggers.forEach((trigger) => {
+  trigger.addEventListener("click", () => {
+    const {popupTrigger} = trigger.dataset;
+    const popupModal = document.querySelector(`[data-popup-modal="${popupTrigger}"]`);
+
+    popupModal.classList.add("is--visible");
+    bodyPopup.classList.add("is-poped-out");
+
+    popupModal.querySelector(".popup-modal__close").addEventListener("click", () => {
+      popupModal.classList.remove("is--visible");
+      bodyPopup.classList.remove("is-poped-out");
+    });
+
+    bodyPopup.addEventListener("click", () => {
+      // TODO: Turn into a function to close modal
+      popupModal.classList.remove("is--visible");
+      bodyPopup.classList.remove("is-poped-out");
+    });
+  });
+});
+
 
 // Show Hide Header
 let scrollPos = 0;

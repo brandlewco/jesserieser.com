@@ -287,6 +287,32 @@ figure:hover img {
   transition-duration: 0s;
 }
 
+/* Modal Popup */
+.body-popup {
+  z-index: 1010;
+  display: none;
+  
+  &.is-poped-out {
+    display: block;
+  }
+}
+
+.popup-trigger {
+  display: inline-block;
+}
+
+.popup-modal {
+  opacity: 0;
+  pointer-events: none;
+  transition: all 300ms ease-in-out;
+  z-index: 1011;
+  
+  &.is--visible {
+    opacity: 1;
+    pointer-events: auto;
+  }
+}
+
 @responsive {
   .border-box {
     box-sizing: border-box;
