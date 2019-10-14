@@ -1,6 +1,7 @@
 ---
-label: popup-text-element
+label: Popup Item
 hide_body: true
+display_field: content
 fields:
 - name: content
   type: textarea
