@@ -1,5 +1,7 @@
 {{- define "main" -}}
+    <section data-hue="{{.Params.navigation_theme}}">
     {{ partial "collection_header" .}}
+    </section>
     <section data-hue="page" class="pt-8 mx-auto bg-white">
         <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
             {{- range .Params.collection_layout_builder -}}

@@ -137,6 +137,7 @@ header img.lazyloaded {
   transition: opacity 0.33s ease-in-out 0.1s;
 }
 
+
 @keyframes overlay-pulse{
   0% {
     opacity: 1;

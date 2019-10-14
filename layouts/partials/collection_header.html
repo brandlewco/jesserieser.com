@@ -1,4 +1,4 @@
-<header id="project-header" class="w-screen h-screen lazyload bg-cover bg-center bg-fixed flex flex-col items-center overflow-hidden" data-hue="{{.Params.navigation_theme}}" data-bgset="{{.Params.collection_cover }}?nf_resize=fit&w=800 800w,
+<header id="project-header" class="w-screen h-screen lazyload bg-cover bg-center bg-fixed flex flex-col items-center overflow-hidden" data-bgset="{{.Params.collection_cover }}?nf_resize=fit&w=800 800w,
 {{.Params.collection_cover }}?nf_resize=fit&w=1200 1200w,
 {{.Params.collection_cover }}?nf_resize=fit&w=1600 1600w,
 {{.Params.collection_cover }}" data-sizes="auto" style="background-color: {{.Params.theme_color}};">
@@ -9,7 +9,7 @@
     <div id="loading-overlay" class="absolute w-screen h-screen inset-auto z-10" style="background-color: {{.Params.theme_color}};"></div>
     <div id="header-overlay" class="flex flex-col justify-end absolute w-screen h-screen inset-auto" style="background-color: {{.Params.theme_color}};"></div>
 </header>
-<article id="project-description" class="w-full py-8 px-4 sm:px-8 text-xl text-{{.Params.navigation_theme}} items-center text-justify leading-loose" data-hue="{{.Params.navigation_theme}}" style="background-color: {{.Params.theme_color}};">
+<article id="project-description" class="w-full py-8 px-4 sm:px-8 text-xl text-{{.Params.navigation_theme}} items-center text-justify leading-loose"  style="background-color: {{.Params.theme_color}};">
     <div class="flex container flex-col justify-center mx-auto" data-sal="slide-up" data-sal-delay="300">
             {{ .Params.collection_description | markdownify }}
             <a href="#project-brief" class="block text-{{.Params.navigation_theme}} font-normal" data-no-swup>more...</a>

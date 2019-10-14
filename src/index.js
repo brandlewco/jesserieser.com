@@ -57,7 +57,7 @@ function init() {
   // Sal Animations
   var scrollAnimations = sal({
     once: false,
-    threshold: 0.4,
+    threshold: 0.5,
   });
 
   // Parellax
@@ -336,6 +336,12 @@ function init() {
       });
     });
   });
+
+  function removeActive() {
+    const navigation = document.getElementById("navigation");
+    navigation.classList.remove("active");
+  }
+  removeActive();
 }
 init();
 
@@ -366,7 +372,7 @@ Array.prototype.forEach.call(buttons, function(button) {
 });
 
 // Navigation Toggle
-var navigation = document.getElementById("navigation");
+const navigation = document.getElementById("navigation");
 var navToggle = document.getElementsByClassName("navToggle");
 Array.prototype.forEach.call(navToggle, function(nav) {
   nav.addEventListener("click", function(event) {

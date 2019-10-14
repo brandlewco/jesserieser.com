@@ -35,7 +35,6 @@
   opacity: 1;
 }
 
-.pswp__button,
 .pswp__button--arrow--left:before,
 .pswp__button--arrow--right:before {
   background: url(/uploads/default-skin-01.png) 0 0 no-repeat;
@@ -44,11 +43,10 @@
   height: 44px;
 }
 
-@media (-webkit-min-device-pixel-ratio: 1.1),
+/* @media (-webkit-min-device-pixel-ratio: 1.1),
   (-webkit-min-device-pixel-ratio: 1.09375),
   (min-resolution: 105dpi),
   (min-resolution: 1.1dppx) {
-  /* Serve SVG sprite if browser supports SVG and resolution is more than 105dpi */
   .pswp--svg .pswp__button,
   .pswp--svg .pswp__button--arrow--left:before,
   .pswp--svg .pswp__button--arrow--right:before {
@@ -58,7 +56,7 @@
   .pswp--svg .pswp__button--arrow--right {
     background: none;
   }
-}
+} */
 
 .pswp__button--close {
   background-position: 0 -44px;
@@ -492,13 +490,13 @@ a.pswp__share--download:hover {
 
 .pswp__top-bar,
 .pswp__caption {
-  background-color: rgba(255,255,255,0);
+  /* background-color: rgba(255,255,255,0); */
 }
 
 /* pswp__ui--fit class is added when main image "fits" between top bar and bottom bar (caption) */
 .pswp__ui--fit .pswp__top-bar,
 .pswp__ui--fit .pswp__caption {
-  background-color: rgba(255,255,255,0);
+  /* background-color: rgba(255,255,255,0); */
 }
 
 /* pswp__ui--idle class is added when mouse isn't moving for several seconds (JS option timeToIdle) */

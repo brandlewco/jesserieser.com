@@ -330,7 +330,7 @@ body.sal-disabled [data-sal|="flip"] {
   opacity: 0;
   transition-property: opacity;
   transition-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
-  transition-duration: 0.15s;
+  transition-duration: 0.25s;
 }
 [data-sal|="image"] figcaption { 
   /* transition-delay: 0.66s; */
