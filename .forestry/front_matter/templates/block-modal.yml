@@ -14,11 +14,11 @@ fields:
   config: {}
   template: media-element
   label: Image
-- name: modal
+- name: modal_block
   type: blocks
   template_types:
   - about-text-element
   config:
     min: 
     max: 
-  label: Popup
+  label: Blocks
