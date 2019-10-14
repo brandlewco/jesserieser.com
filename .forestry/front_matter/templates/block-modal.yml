@@ -18,7 +18,7 @@ fields:
 - name: modal_block
   type: blocks
   template_types:
-  - about-text-element
+  - popup-text-element
   config:
     min: 
     max: 
