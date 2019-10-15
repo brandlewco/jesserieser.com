@@ -1,10 +1,10 @@
 <section class="container mx-auto block-featured-collection">
   <button type="button" class="popup-trigger" data-popup-trigger="{{.Section.caption | lower}}">
     <article class="flex flex-col relative">
-        <figure class="{{with .Section.x}}self-{{.}}{{end}} w-100 {{with .Section.width}}sm:w-{{.}}/100{{end}} rellax-wrapper" style="{{with .Section.margin}}margin-top:{{.}}px;{{end}} background: {{.Section.color }};" data-sal="image">
+        <figure class="{{with .Section.x}}self-{{.}}{{end}} w-100 {{with .Section.width}}sm:w-{{.}}/100{{end}} rellax-wrapper" style="{{with .Section.margin}}margin-top:{{.}}px;{{end}} background: {{ .Section.color }};" data-sal="image">
           <img src="{{ .Section.image | relURL }}?nf_resize=fit&w=1200" alt="{{ .Section.caption }}" />
           {{ if .Section.caption }}
-          <figcaption class="absolute w-100 {{if eq .Section.x "start" }}text-right right-0 mr-2{{else}}text-left left-0 ml-2{{end}} z-50 rellax" style="pointer-events:none; bottom: 25%;" data-rellax-speed="4" data-rellax-percentage="0">
+          <figcaption class="absolute w-100 sm:w-1/2 {{if eq .Section.x "start" }}text-left right-0 mr-2{{else}}text-right left-0 ml-2{{end}} z-10 rellax" style="pointer-events:none; bottom: 25%;" data-rellax-speed="4" data-rellax-percentage="0">
             <h2 class="midday uppercase text-6xl font-medium tracking-widest">{{ .Section.caption }}</h2>
           </figcaption>
           {{ end }}
@@ -13,14 +13,19 @@
   </button>
 </section>
 
-<div class="popup-modal fixed inset-0 container z-50 bg-white overflow-y-scroll" style="height: 80%; top:10%" data-popup-modal="{{.Section.caption | lower}}">
-  <i class="fas fa-2x fa-times text-white bg-primary p-3 popup-modal__close"></i>
-  <section class="flex flex-wrap p-4">
+<div class="popup-modal fixed container inset-0 z-50 text-white w-screen overflow-hidden" style="background: {{ .Section.color }};" data-popup-modal="{{.Section.caption | lower}}">
+  <header class="flex flex-row justify-between p-4">
+    <div class="text-xl uppercase font-medium">{{ .Section.caption }}</div>
+    <div>
+      <svg class="icon pointer h-8 w-8 m-4 absolute top-0 right-0 text-white popup-modal__close"><use xlink:href="#times-circle"></use></svg>
+    </div>
+  </header>
+  <section class="flex flex-wrap pa-2 w-100 overflow-y-scroll" style="height: calc(100vh - 40%);">
     {{- range .Section.modal_block -}}
-      <article class="w-1/4 px-4 py-8">
+      <article class="w-1/2 sm:w-1/3 px-4 py-8">
         {{ .content | markdownify }}
       </article>
     {{- end -}}
-  </article>
+    </section>
 </div>
 <!-- https://codepen.io/kimpetersend1/pen/LajgaW -->

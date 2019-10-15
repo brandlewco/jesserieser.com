@@ -31,6 +31,8 @@
         <script src="{{ . }}" defer></script>
     {{ end }}
 
+    <script src="https://kit.fontawesome.com/a1dff7fdae.js" crossorigin="anonymous"></script>
+
     {{ $stylesheet := .Site.Data.webpack.main }}
     {{ with $stylesheet.css }}
         <link href="{{ . }}" rel="stylesheet">

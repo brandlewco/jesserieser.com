@@ -1,6 +1,7 @@
 #navigation {
   transition: 0.33s all ease-in-out;
-  height: 68px !important;
+  /* height: 68px !important; */
+  /* z-index: 999; */
 }
 
 #navigation.active {
@@ -17,6 +18,7 @@
 
   .menu {
     transform: translateY(0%);
+    display: flex !important;
   }
 }
 
