@@ -98,7 +98,7 @@ page_sections:
   margin: '100'
   caption: Press
   image: https://jesserieser.brandlew.co/uploads/phx-6.jpg
-  color: ''
+  color: "#5E65AD"
   modal_block:
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
