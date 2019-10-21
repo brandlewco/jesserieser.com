@@ -12,11 +12,6 @@ sections:
 - type: document
   path: content/about/_index.md
   label: About
-- type: directory
-  path: content/post
-  label: News Posts
-  create: all
-  match: "**/*"
 - type: heading
   label: "\U0001F387 Photo"
 - type: directory
