@@ -4,7 +4,7 @@
   <figure class="figure {{with .Section.image_1.x}}md:self-{{.}}{{end}} w-full {{with .Section.image_1.width}}md:w-{{.}}/100{{end}} mt-4 {{with .Section.image_1.margin}}md:mt-{{.}}{{end}} highlight" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" style="background: {{with .Section.image_1.color}}{{.}}{{else}}{{.Page.Params.theme_color}}{{end}};" id="{{ $fileName1 }}" data-sal="image">
     <!-- {{with .Section.row_order }}data-sal="slide-left"{{else}}data-sal="slide-right"{{end}} -->
     <a href="{{ .Section.image_1.image }}" itemprop="contentUrl" class="opengallery" pid="{{ $fileName1 }}" data-no-swup>
-      <img class="lazyload" src="{{ .Section.image_1.image }}{{$.Site.Params.lowRes}}" data-src="{{ .Section.image_1.image }}" alt="{{ .Section.image_1.caption }}" itemprop="thumbnail"/>
+      <img class="lazyload" src="{{ .Section.image_1.image }}" data-src="{{ .Section.image_1.image }}" alt="{{ .Section.image_1.caption }}" itemprop="thumbnail"/>
     </a>
     <!-- {{ with .Section.image_1.caption }}
     <figcaption class="hidden" itemprop="caption description">{{ . }}</figcaption>
