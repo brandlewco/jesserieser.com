@@ -427,6 +427,8 @@ function init() {
           navigation.classList.remove("mt-0");
         }
       }
+    }
+    if (document.querySelector("#page-title")) {
       if (windowY > (window.innerHeight * 0.45)) {
         pageTitle.classList.add("absolute");
         pageTitle.classList.remove("fixed");
