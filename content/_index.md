@@ -40,9 +40,9 @@ page_sections:
   image: https://jesserieser.brandlew.co/uploads/wired-2.jpg
   caption: Wired
   color: "#b9a49e"
-  margin: '150'
+  margin: '50'
   attached_collection: collections/wired.md
-  meta: ''
+  meta: Backpage.com Covery Story
 - template: block-feature-collection
   block: featured-collection
   width: '60'
