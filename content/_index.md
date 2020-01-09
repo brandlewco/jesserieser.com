@@ -32,7 +32,7 @@ page_sections:
   caption: Time
   color: "#fdcfb1"
   attached_collection: collections/time.md
-  meta: ''
+  meta: Grand Canyon 100th Anniversary 
 - template: block-feature-collection
   block: featured-collection
   width: '60'
