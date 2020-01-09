@@ -52,7 +52,7 @@ page_sections:
   attached_collection: collections/star-geezers.md
   caption: Star Geezers
   color: "#9bbad5"
-  meta: ''
+  meta: Condor Airlines (Germany)
 theme_color: "#C81111"
 collection_description: ''
 collection_content: ''
