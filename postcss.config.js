@@ -1,4 +1,4 @@
-const purgecss = require("@fullhuman/postcss-purgecss");
+// const purgecss = require("@fullhuman/postcss-purgecss");
 
 module.exports = {
   plugins: [
@@ -7,10 +7,10 @@ module.exports = {
     require("autoprefixer"),
     require("postcss-nested")(),
     require("tailwindcss"),
-    purgecss({
-      content: ["./**/*.html"],
-      // defaultExtractor: content => content.match(/[A-z0-9-:\/]+/g) || [],
-      fontFace: false
-    }),
+    // purgecss({
+    //   content: ["./**/*.html"],
+    //   defaultExtractor: content => content.match(/[A-z0-9-:\/]+/g) || [],
+    //   fontFace: false
+    // }),
   ]
 };
