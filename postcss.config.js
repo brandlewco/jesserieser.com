@@ -8,7 +8,9 @@ module.exports = {
     require("postcss-nested")(),
     require("tailwindcss"),
     purgecss({
-      content: ["./**/*.html"]
-    })
+      content: ["./**/*.html"],
+      // defaultExtractor: content => content.match(/[A-z0-9-:\/]+/g) || [],
+      fontFace: false
+    }),
   ]
 };
