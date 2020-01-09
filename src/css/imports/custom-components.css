@@ -31,6 +31,18 @@ body.page-collections #navigation {
   background-color: rgba(255,255,255,0.6);
 }
 
+body.page-home #menu #nav-selected {
+  @apply font-medium tracking-widest;
+}
+
+body.page-collections #menu #nav-collections {
+    @apply font-medium tracking-wider;
+}
+
+body.page-jesse-rieser #menu #nav-about {
+  @apply font-medium tracking-wider;
+}
+
 
 @responsive {
   .translate-0 {

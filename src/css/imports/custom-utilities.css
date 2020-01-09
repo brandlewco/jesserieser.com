@@ -196,6 +196,10 @@ figure:hover img {
   opacity: 1;
 }
 
+.block-hover img:hover {
+  cursor: zoom-in;
+}
+
 .group-hover:hover > .block-hover img {
   opacity: 0;
 }

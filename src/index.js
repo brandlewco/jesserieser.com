@@ -45,6 +45,7 @@ const options = {
 };
 const swup = new Swup(options);
 
+
 swup.on("contentReplaced", init);
 function init() {
   // MIDDAY
@@ -57,7 +58,7 @@ function init() {
   // Sal Animations
   var scrollAnimations = sal({
     once: false,
-    threshold: 0.5,
+    threshold: 0.4,
   });
 
   // Parellax
@@ -369,7 +370,80 @@ function init() {
       });
     });
   });
+
+  // Button Toggle
+  var buttons = document.getElementsByClassName("toggle");
+  Array.prototype.forEach.call(buttons, function(button) {
+    button.addEventListener("click", function(event) {
+      button.classList.toggle("active");
+    });
+  });
+
+  // Navigation Toggle
+  const navigation = document.getElementById("navigation");
+  var navToggle = document.getElementsByClassName("navToggle");
+  Array.prototype.forEach.call(navToggle, function(nav) {
+    nav.addEventListener("click", function(event) {
+      navigation.classList.toggle("active");
+    });
+  });
+
+
+  function value_limit(val, min, max) {
+    return val < min ? min : (val > max ? max : val);
+  }
+
+  var pageTitle = document.getElementById("page-title");
+  // Scroll Animations
+  window.onscroll = function() {
+    checkPosition();
+    var headerOverlay = document.getElementById("header-overlay");
+    var collectionTitle = document.querySelectorAll("figure.sal-animate figcaption");
+    var height = window.innerHeight;
+    var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
+    if (pageTitle) {
+      // pageTitle.style.transform = "translate3d(0, -" + value_limit((((90 - ((scrollTop * 1.2) / height) * 100) / 2)), 0, 45) + "vh, 0)";
+      // pageTitle.style.transform = "matrix(1,0,0,1,0,380)";
+    }
+    if (headerOverlay) {
+      headerOverlay.style.opacity = value_limit((scrollTop / (height * 0.5)), 0, 1).toFixed(2);
+    }
+    // collectionTitle.forEach((title) => {
+    //   title.style.transform = "translate3d(0, -" + ((scrollTop / height) / height) + "vh, 0)";
+    // });
+  };
+
+  let scrollPos = 0;
+  // Show Hide Header
+  function checkPosition() {
+    const windowY = window.scrollY;
+    if (document.querySelector("#project-header")) {
+      if (windowY > (window.innerHeight * 0.75)) {
+        if (windowY < scrollPos) {
+          navigation.classList.add("mt-0");
+          navigation.classList.remove("mt-neg");
+        } else {
+          navigation.classList.add("mt-neg");
+          navigation.classList.remove("mt-0");
+        }
+      }
+      if (windowY > (window.innerHeight * 0.45)) {
+        pageTitle.classList.add("absolute");
+        pageTitle.classList.remove("fixed");
+        pageTitle.style.transform = "translate3d(0, 0vh, 0)";
+      } else {
+        pageTitle.classList.add("fixed");
+        pageTitle.classList.remove("absolute");
+        pageTitle.style.transform = "translate3d(0, -45vh, 0)";
+      }
+    };
+    scrollPos = windowY;
+  }
+
+  window.__forceSmoothScrollPolyfill__ = true;
+  smoothscroll.polyfill();
 }
+// intit code on each page load
 init();
 
 // const scrollPositions = [];
@@ -390,80 +464,5 @@ init();
 //   scrollToSavedPosition = false;
 // });
 
-// Button Toggle
-var buttons = document.getElementsByClassName("toggle");
-Array.prototype.forEach.call(buttons, function(button) {
-  button.addEventListener("click", function(event) {
-    button.classList.toggle("active");
-  });
-});
-
-// Navigation Toggle
-const navigation = document.getElementById("navigation");
-var navToggle = document.getElementsByClassName("navToggle");
-Array.prototype.forEach.call(navToggle, function(nav) {
-  nav.addEventListener("click", function(event) {
-    navigation.classList.toggle("active");
-  });
-});
-
-
-function value_limit(val, min, max) {
-  return val < min ? min : (val > max ? max : val);
-}
-
-
-// Scroll Animations
-window.onscroll = function() {
-  checkPosition();
-  var headerOverlay = document.getElementById("header-overlay");
-  var pageTitle = document.getElementById("page-title");
-  var collectionTitle = document.querySelectorAll("figure.sal-animate figcaption");
-  var height = window.innerHeight;
-  var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
-  if (pageTitle) {
-    pageTitle.style.transform = "translate3d(0, -" + value_limit((((90 - ((scrollTop * 1.2) / height) * 100) / 2)), 0, 45) + "vh, 0)";
-  }
-  if (headerOverlay) {
-    headerOverlay.style.opacity = value_limit((scrollTop / (height * 0.5)), 0, 1);
-  }
-  // collectionTitle.forEach((title) => {
-  //   title.style.transform = "translate3d(0, -" + ((scrollTop / height) / height) + "vh, 0)";
-  // });
-};
-
-// Show Hide Header
-let scrollPos = 0;
-const windowY = window.scrollY;
-function checkPosition() {
-  var filters = document.getElementById("filters");
-  if (document.querySelector("#project-header")) {
-    if (windowY > (window.innerHeight * 0.75)) {
-      if (windowY < scrollPos) {
-        navigation.classList.add("mt-0");
-        navigation.classList.remove("mt-neg");
-      } else {
-        navigation.classList.add("mt-neg");
-        navigation.classList.remove("mt-0");
-      }
-    }
-  } else {
-    if (windowY < scrollPos) {
-      // navigation.classList.add("mt-0");
-      // navigation.classList.remove("mt-neg");
-      // filters.classList.add("mt-0");
-      // filters.classList.remove("mt-neg");
-    } else {
-      // navigation.classList.add("mt-neg");
-      // navigation.classList.remove("mt-0");
-      // filters.classList.add("mt-neg");
-      // filters.classList.remove("mt-0");
-    }
-  }
-  scrollPos = windowY;
-}
-
-window.__forceSmoothScrollPolyfill__ = true;
-smoothscroll.polyfill();
 
 import "./css/main.css";

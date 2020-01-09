@@ -1,6 +1,6 @@
 {{- define "main" -}}
 <article class="content container mx-auto">
-    {{partial "collection_sorter" .}}
+        {{partial "collection_sorter" .}}
     <section id="filter" class="flex flex-wrap overflow-hidden filter-container">
         {{ range where .Pages ".Params.collection_archive" "!=" true }}
             {{ partial "collection_sorter_item" .}}
