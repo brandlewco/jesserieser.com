@@ -22,7 +22,7 @@ page_sections:
   attached_collection: collections/xmas-in-america.md
   caption: XMAS IN AMERICA
   color: "#FF0000"
-  meta: ''
+  meta: Personal 2010 -  2019
 - template: block-feature-collection
   block: featured-collection
   width: '60'
