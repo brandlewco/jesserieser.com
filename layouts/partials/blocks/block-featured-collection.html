@@ -8,7 +8,10 @@
             <h2 class="text-black uppercase text-6xl lg:font-medium tracking-widest">{{ .Section.caption }}</h2>
           </figcaption>
           {{ end }}
-        </figure>    
+        </figure>
+        {{ if .Section.meta }}
+        <h6 class="{{if eq .Section.x "start" }}text-left right-0 {{else}}text-right left-0{{end}} text-black uppercase text-md lg:font-medium tracking-widest">{{ .Section.meta }}</h2>
+        {{ end }}
     </article>
   </a>    
 </section>
