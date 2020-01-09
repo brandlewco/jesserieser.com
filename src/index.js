@@ -442,6 +442,11 @@ function init() {
     scrollPos = windowY;
   }
 
+  if (document.querySelector("#project-header")) {
+    navigation.classList.add("mt-0");
+    navigation.classList.remove("mt-neg");
+  }
+
   window.__forceSmoothScrollPolyfill__ = true;
   smoothscroll.polyfill();
 }
