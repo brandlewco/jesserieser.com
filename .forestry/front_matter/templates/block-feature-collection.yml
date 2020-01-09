@@ -12,6 +12,11 @@ fields:
   name: image_1
   label: Image
   template: media-element
+- name: meta
+  type: text
+  config:
+    required: false
+  label: Meta Title
 - type: select
   name: attached_collection
   config:
