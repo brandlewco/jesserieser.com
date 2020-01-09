@@ -42,7 +42,7 @@ page_sections:
   color: "#b9a49e"
   margin: '50'
   attached_collection: collections/wired.md
-  meta: Backpage.com Covery Story
+  meta: Backpage.com Cover Story
 - template: block-feature-collection
   block: featured-collection
   width: '60'
