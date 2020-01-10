@@ -16,6 +16,20 @@ fields:
 - type: file
   name: feature_cover
   label: Feature Cover Image
+- name: navigation_theme
+  type: select
+  default: white
+  config:
+    required: true
+    options:
+    - white
+    - black
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Navigation Theme
 - type: color
   name: feature_color
   config:
