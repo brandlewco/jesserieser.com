@@ -53,7 +53,7 @@ page_sections:
   caption: Star Geezers
   color: "#9bbad5"
   meta: Condor Airlines (Germany)
-theme_color: "#C81111"
+theme_color: "#B99E8E"
 collection_description: ''
 collection_content: ''
 cover_image: ''
