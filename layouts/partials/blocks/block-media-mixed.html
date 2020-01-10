@@ -1,6 +1,6 @@
 {{ $fileName1 := path.Base .Section.image_1.image | replaceRE "(.doc|.jpeg|.jpg)" "" }}
 
-<section class="container block-media-2 flex flex-col md:flex-row{{with .Section.row_order }}-reverse{{end}} {{with .Section.row_alignment}}md:justify-{{.}}{{else}}md:justify-between{{end}} mx-auto h-auto">
+<section class="container block-media-2 flex flex-col md:flex-row{{with .Section.row_order }}-reverse{{end}} {{with .Section.row_alignment}}md:justify-{{.}}{{else}}md:justify-between{{end}} mx-auto h-auto" data-sal="slide-down" data-sal-delay="100">
   <figure class="figure {{with .Section.image_1.x}}md:self-{{.}}{{end}} w-full {{with .Section.image_1.width}}md:w-{{.}}/100{{end}} mt-4 {{with .Section.image_1.margin}}md:mt-{{.}}{{end}} highlight" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" style="background: {{with .Section.image_1.color}}{{.}}{{else}}{{.Page.Params.theme_color}}{{end}};" id="{{ $fileName1 }}" data-sal="image">
     <!-- {{with .Section.row_order }}data-sal="slide-left"{{else}}data-sal="slide-right"{{end}} -->
     <a href="{{ .Section.image_1.image }}" itemprop="contentUrl" class="opengallery" pid="{{ $fileName1 }}" data-no-swup>

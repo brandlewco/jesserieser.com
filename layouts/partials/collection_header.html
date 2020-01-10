@@ -4,7 +4,10 @@
 {{.Params.collection_cover }}" data-sizes="auto" style="background-color: {{.Params.theme_color}};">
     <!-- <img data-src="{{.Params.collection_cover }}{{.Site.Params.cover}}" class="static w-100 h-100 lazyload inset-auto" > -->
     {{partial "r-mask" .}}
-    <h1 id="page-title" class="fixed bottom-0 z-50 margin-0 uppercase text-4xl sm:text-6xl px-4 sm:px-0 font-light tracking-wide text-{{.Params.navigation_theme}} text-center lazyload" style="transform: translate3d(0, -45vh, 0)">{{.Title}}</h1>
+    <div id="page-title" class="fixed bottom-0 z-50 margin-0 uppercase px-4 sm:px-0 font-light tracking-wide text-{{.Params.navigation_theme}} text-center lazyload" style="transform: translate3d(0, -45vh, 0)">
+    <h1 class="uppercase text-4xl sm:text-6xl font-light tracking-wide text-center" data-sal="slide-down" data-sal-delay="600">{{.Title}}</h1>
+    <h2 class="uppercase text-lg sm:2xl font-light italic tracking-wide text-center" data-sal="slide-down" data-sal-delay="900">{{.Params.collection_meta}}</h2>
+    </div>
     <div class="absolute bottom-0 mx-0 text-6xl font-light text-{{.Params.navigation_theme}}">&#8964;</div>
     <div id="loading-overlay" class="absolute w-full h-screen  inset-auto z-10" style="background-color: {{.Params.theme_color}};"></div>
     <div id="header-overlay" class="flex flex-col justify-end absolute w-full h-screen  inset-auto" style="background-color: {{.Params.theme_color}};"></div>
