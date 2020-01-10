@@ -16,6 +16,11 @@ fields:
 - type: file
   name: feature_cover
   label: Feature Cover Image
+- type: color
+  name: theme_color
+  config:
+    color_format: Hex
+  label: Theme Color
 - name: navigation_theme
   type: select
   default: white
@@ -30,11 +35,6 @@ fields:
       file: 
       path: 
   label: Navigation Theme
-- type: color
-  name: feature_color
-  config:
-    color_format: Hex
-  label: Theme Color
 - type: textarea
   name: feature_description
   label: Project Description
