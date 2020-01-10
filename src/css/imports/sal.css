@@ -339,5 +339,5 @@ body.sal-disabled [data-sal|="flip"] {
 }
 [data-sal|="image"].sal-animate img, [data-sal|="image"].sal-animate figcaption,
 body.sal-disabled [data-sal|="image"] img, body.sal-disabled [data-sal|="image"] figcaption {
-  opacity: 1;
+  opacity: 1 !important;
 }

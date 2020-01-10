@@ -64,7 +64,6 @@ feature_description: Jesse Rieser is an award winning photographer and blah blah
   elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
   volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
   lobortis nisl ut aliquip ex ea commodo consequat.
-feature_color: "#B99E8E"
 navigation_theme: white
 
 ---
