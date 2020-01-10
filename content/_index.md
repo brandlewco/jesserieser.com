@@ -58,12 +58,14 @@ collection_description: ''
 collection_content: ''
 cover_image: ''
 feature_logo: https://jesserieser.brandlew.co/uploads/logo-amtrak-8.png
-feature_cover: https://jesserieser.brandlew.co/uploads/rieser-amtrak-2.jpg
-feature_description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-  hendrerit quam dapibus sem porttitor convallis. Integer convallis arcu non lectus
-  facilisis dapibus. Aenean commodo magna at laoreet tempor. Phasellus lorem lorem,
-  fringilla vitae interdum vel, euismod vitae quam. '
-feature_color: "#C81111"
+feature_cover: https://jesserieser.brandlew.co/uploads/time-5.jpg
+feature_description: Jesse Rieser is an award winning photographer and blah blah blah
+  blah. Elevator pitch game strong. Lorem ipsum dolor sit amet, consectetuer adipiscing
+  elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+  volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+  lobortis nisl ut aliquip ex ea commodo consequat.
+feature_color: "#B99E8E"
+navigation_theme: white
 
 ---
 ## Click the collections link above to preview collections.
