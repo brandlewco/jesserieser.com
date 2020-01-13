@@ -1,4 +1,14 @@
 ---
 label: row-one-column
 hide_body: true
-fields: []
+fields:
+- name: left_margin
+  type: number
+  label: Left Margin
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: '0'
+    max: '100'
+    step: '10'
