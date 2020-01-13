@@ -44,8 +44,7 @@ row_alignment = "between"
 row_height = 25
 row_order = false
 template = "block-media"
-width = ""
-x = "center"
+width = "align_x = "center"
 [[collection_layout_builder]]
 block = "media-mixed"
 row_alignment = "between"
@@ -61,9 +60,8 @@ x = "start"
 [collection_layout_builder.text]
 caption = "Mixed Media Block. Caption or descriptive text goes here."
 color = "#4A4A4A"
-margin = "200"
-width = "40"
-x = "center"
+margin_y = "200"
+width = "40align_x = "center"
 [[collection_layout_builder]]
 block = "media-2"
 row_alignment = "between"
@@ -75,15 +73,13 @@ caption = "caption"
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/rieser-xmas-20.jpg"
 margin = 50
-width = "33"
-x = "start"
+width = "33align_x = "start"
 [collection_layout_builder.image_2]
 caption = "caption"
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/rieser-xmas-21.jpg"
 margin = 300
-width = "50"
-x = "end"
+width = "50align_x = "end"
 [[collection_layout_builder]]
 block = "media-2"
 row_alignment = "between"
@@ -95,15 +91,13 @@ caption = ""
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/rieser-xmas-14.jpg"
 margin = 50
-width = "40"
-x = "start"
+width = "40align_x = "start"
 [collection_layout_builder.image_2]
 caption = ""
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/rieser-xmas-6.jpg"
 margin = 300
-width = "40"
-x = "start"
+width = "40align_x = "start"
 [[collection_layout_builder]]
 block = "media-1"
 caption = ""
@@ -167,15 +161,13 @@ caption = ""
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/rieser-xmas-24.jpg"
 margin = 100
-width = "40"
-x = "start"
+width = "40align_x = "start"
 [collection_layout_builder.image_2]
 caption = ""
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/rieser-xmas-25.jpg"
 margin = 300
-width = "40"
-x = "start"
+width = "40align_x = "start"
 [[collection_layout_builder]]
 block = "media-1"
 caption = ""

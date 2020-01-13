@@ -42,8 +42,7 @@ margin = 200
 row_alignment = "between"
 row_height = 25
 template = "block-media"
-width = ""
-x = "center"
+width = "align_x = "center"
 [[collection_layout_builder]]
 block = "media-mixed"
 row_alignment = "between"
@@ -57,9 +56,8 @@ x = "start"
 [collection_layout_builder.text]
 caption = "Mixed Media Block. Caption or descriptive text goes here."
 color = "#4A4A4A"
-margin = "200"
-width = "40"
-x = "center"
+margin_y = "200"
+width = "40align_x = "center"
 [[collection_layout_builder]]
 block = "media-2"
 row_alignment = "between"
