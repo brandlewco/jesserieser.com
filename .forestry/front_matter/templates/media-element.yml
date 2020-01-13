@@ -37,7 +37,7 @@ fields:
   label: Media Width
   default: '50'
 - type: select
-  name: x
+  name: align_x
   config:
     source:
       type: simple
@@ -48,7 +48,7 @@ fields:
   label: Media Alignment (X)
   description: align left (start) / align center (center) / align right (end)
   default: start
-- name: margin-x
+- name: margin_x
   type: select
   default: '0'
   config:
@@ -81,7 +81,7 @@ fields:
       file: 
       path: 
   label: Left Margin (X)
-- name: margin
+- name: margin_y
   type: select
   default: '50'
   config:
