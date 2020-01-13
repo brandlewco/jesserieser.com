@@ -24,7 +24,8 @@ caption = "caption"
 color = "#FECB95"
 image = "https://jesserieser.brandlew.co/uploads/phx-1.jpg"
 margin_y = "300"
-width = "33align_x = "start"
+width = "33"
+align_x = "start"
 [collection_layout_builder.image_2]
 caption = "caption"
 color = "#A0E5E0"
@@ -41,7 +42,8 @@ margin = 200
 row_alignment = "between"
 row_height = 25
 template = "block-media"
-width = "align_x = "center"
+width = ""
+align_x = "center"
 [[collection_layout_builder]]
 block = "media-mixed"
 row_alignment = "between"
@@ -57,7 +59,8 @@ x = "start"
 caption = "Mixed Media Block. Caption or descriptive text goes here."
 color = "#4A4A4A"
 margin_y = "200"
-width = "40align_x = "center"
+width = "40"
+align_x = "center"
 [[collection_layout_builder]]
 block = "media-2"
 row_alignment = "between"
@@ -172,7 +175,8 @@ margin = 50
 row_alignment = "between"
 row_height = 25
 template = "block-media"
-width = "align_x = "center"
+width = ""
+align_x = "center"
 [[collection_layout_builder]]
 block = "media-1"
 image = "https://jesserieser.brandlew.co/uploads/phx-17.jpg"
