@@ -81,6 +81,7 @@ fields:
       file: 
       path: 
   label: Left Margin (X)
+  description: 0%-100% from the left margin
 - name: margin_y
   type: select
   default: '50'
