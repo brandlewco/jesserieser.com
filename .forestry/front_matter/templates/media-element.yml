@@ -46,7 +46,7 @@ fields:
     - center
     - end
   label: Media Alignment (X)
-  description: left to right alignment
+  description: align left (start) / align center (center) / align right (end)
   default: start
 - name: margin-x
   type: select
@@ -80,7 +80,7 @@ fields:
       section: 
       file: 
       path: 
-  label: Left / Right Margin (X)
+  label: Left Margin (X)
 - name: margin
   type: select
   default: '50'
@@ -98,4 +98,4 @@ fields:
       section: 
       file: 
       path: 
-  label: Top / Bottom Margin (Y)
+  label: Top Margin (Y)
