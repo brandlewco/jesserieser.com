@@ -41,11 +41,11 @@ caption = "Caption"
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-3.jpg"
 margin = "50"
-row_alignment = "between"
+row_alignment = "start"
 row_height = 25
 row_order = false
 template = "block-media"
-width = ""
+width = "60"
 x = "center"
 [[collection_layout_builder]]
 block = "media-mixed"
