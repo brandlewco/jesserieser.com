@@ -15,6 +15,8 @@ sections:
   label: Blog Posts
   create: all
   match: "**/*"
+  templates:
+  - blog-post-builder
 - type: heading
   label: "\U0001F387 Photo"
 - type: directory
