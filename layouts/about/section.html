@@ -2,10 +2,10 @@
     <section data-hue="{{.Params.navigation_theme}}">
         {{ partial "collection_header" .}}
     </section>
-    <section data-hue="page" class="pt-8 mx-auto bg-white">
+    <section data-hue="page" class="pt-8 mx-auto bg-white px-8 xl:px-16">
         {{- range .Params.page_sections -}}
         {{ partial (printf "blocks/block-%s.html" .block) (dict "Section" . "Page" $ "Site" $.Site) }}
         {{- end -}}
-    {{ partial "collection_brief" .}}
+    <!-- {{ partial "collection_brief" .}} -->
     </section>
 {{- end -}}

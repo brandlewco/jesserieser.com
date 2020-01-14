@@ -436,6 +436,19 @@ function init() {
 
   window.__forceSmoothScrollPolyfill__ = true;
   smoothscroll.polyfill();
+
+
+  // var modalLoad = document.querySelectorAll("modal_open");
+
+  // for (var i = 0, l = modalLoad.length; i < l; i++) {
+  //   // modalLoad[i].setAttribute("data-pswp-uid", i + 1);
+  //   swup.loadPage({
+  //     url: "/someRoute",
+  //     method: "GET",
+  //     data: "html",
+  //     customTransition: "form-results"
+  // }); 
+  // }
 }
 
 
