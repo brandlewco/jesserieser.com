@@ -1,6 +1,5 @@
 +++
 date = 2020-01-14T07:00:00Z
-draft = true
 theme_color = "#FDCD7E"
 title = "Test Blog Posts"
 
