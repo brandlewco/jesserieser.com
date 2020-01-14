@@ -395,10 +395,14 @@ function init() {
 
   // Scroll Animations
   let scrollPos = 0;
+  // Show Hide Header
+  if (document.querySelector("#project-header")) {
+    navigation.classList.add("mt-0");
+    navigation.classList.remove("mt-neg");
+  }
   window.onscroll = function() {
     var headerOverlay = document.getElementById("header-overlay");
     var pageTitle = document.getElementById("page-title");
-    var collectionTitle = document.querySelectorAll("figure.sal-animate figcaption");
     var height = window.innerHeight;
     var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
     if (headerOverlay) {
@@ -426,13 +430,15 @@ function init() {
         pageTitle.classList.remove("absolute");
         pageTitle.style.transform = "translate3d(0, -45vh, 0)";
       }
-    };
+    }
     scrollPos = windowY;
   };
 
   window.__forceSmoothScrollPolyfill__ = true;
   smoothscroll.polyfill();
 }
+
+
 // intit code on each page load
 init();
 

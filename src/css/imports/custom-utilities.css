@@ -42,7 +42,6 @@ header #mask rect {
 header #mask path {
   transform: translateX(50%) translateX(-150px) translateY(50%)
     translateY(-270px);
-  will-change: transform;
   opacity: 0;
   transition: transform 1s ease-in-out 0.2s, opacity 1s ease-in-out 0.2s;
 }
@@ -82,9 +81,7 @@ header img.lazyload, header img.lazyloading {
 header img.lazyloaded {
   opacity: 1;
 }
-#project-header, #mask {
-  will-change: transform;
-}
+
 
 #header-overlay {
   background-color: #fff;
