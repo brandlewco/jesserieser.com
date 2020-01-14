@@ -22,3 +22,5 @@ fields:
   config:
     required: false
     color_format: Hex
+pages:
+- content/posts/test-blog-posts.md
