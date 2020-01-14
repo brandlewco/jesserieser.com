@@ -7,15 +7,6 @@
 html.is-animating .transition-page {
   opacity: 0;
 }
-/* 
-html body {
-  @apply bg-white;
-  transition: background-color 0.33s ease-in;
-}
-
-html.is-animating body {
-  @apply bg-gray-300;
-} */
 
 .transition-nav {
   transition: 0.15s;
@@ -27,26 +18,6 @@ html.is-animating .transition-nav {
   opacity: 0;
 }
 
-/* background loader */
-html.is-changing #loader {
-  opacity: 1;
-}
-html[class*=" to-"] #loader,
-html[class*=" to-"] #mask,
-html[class*=" to-"] .cover {
-  opacity: 0;
-}
-#loader {
-  background: linear-gradient(to right, #eee 0%, #e4e4e4 40%, #eee 80%);
-  background-size: 400px 400px;
-  animation-name: loading-pulse;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-fill-mode: forwards;
-  opacity: 0;
-  transition: 0.33s opacity cubic-bezier(0.55, 0.055, 0.675, 0.19);
-}
 
 #filter {
   overflow: visible;
@@ -62,24 +33,6 @@ html[class*=" to-"] .cover {
   }
 }
 
-figure #mask-bg svg {
-  display: block;
-}
-figure #mask-bg rect {
-  opacity: 1;
-}
-figure #mask-bg path {
-  transform: translateX(50%) translateX(-150px) translateY(50%)
-    translateY(-170px);
-}
-
-/* collections header and loader */
-/* header img {
-  position: fixed;
-  will-change: transform;
-  width: 100%;
-  z-index: -1;
-} */
 header #mask svg {
   display: block;
 }
@@ -89,6 +42,7 @@ header #mask rect {
 header #mask path {
   transform: translateX(50%) translateX(-150px) translateY(50%)
     translateY(-270px);
+  will-change: transform;
   opacity: 0;
   transition: transform 1s ease-in-out 0.2s, opacity 1s ease-in-out 0.2s;
 }
@@ -99,24 +53,26 @@ header.lazyloaded #mask path {
 }
 
 header rect.cover {
-  /* transition: 0.33s opacity ease-in-out; */
   transition: 1s opacity ease-in-out;
   transition-delay: 3s;
   transform-origin: center;
-  animation-delay: 2s;
   opacity: 1;
+  will-change: opactiy;
 }
+
 header.lazyloaded rect.cover {
-  /* animation-name: r-expand; */
-  /* animation-duration: 0.66s; */
-  /* animation-duration: 1s;
-  animation-iteration-count: 1;
-  animation-timing-function: cubic-bezier(1, 0, 0.81, 0.58);
-  animation-fill-mode: forwards;
-  transform-origin: center; */
-  /* animation-delay: 1s; */
   opacity: 0;
 }
+
+/* animation-name: r-expand;
+animation-duration: 0.66s;
+animation-duration: 1s;
+animation-iteration-count: 1;
+animation-timing-function: cubic-bezier(1, 0, 0.81, 0.58);
+animation-fill-mode: forwards;
+transform-origin: center;
+animation-delay: 1s; */
+
 header img {
   transition: opacity 0.33s ease-in-out;
 }
@@ -125,6 +81,9 @@ header img.lazyload, header img.lazyloading {
 }
 header img.lazyloaded {
   opacity: 1;
+}
+#project-header, #mask {
+  will-change: transform;
 }
 
 #header-overlay {
@@ -162,6 +121,7 @@ img.lazyload {
   opacity: 0;
 }
 
+
 .block-hover img {
   transition-delay: 0s;
 }
@@ -182,7 +142,6 @@ figure:hover img {
 }
 
 #page-title {
-  /* transition: 0.33s opacity cubic-bezier(0.550, 0.055, 0.675, 0.190) 2s, transform 1s linear; */
   transition: 0.33s opacity cubic-bezier(0.55, 0.055, 0.675, 0.19) 2s;
   opacity: 0;
   transform: translate3d(0, -45vh, 0);
@@ -232,18 +191,11 @@ figure:hover img {
   max-height: 300px;
   opacity: 1;
 }
-/* #catToggle {
-  @apply font-normal;
-}
-#catToggle.active {
-  @apply font-bold;
-} */
+
 #catToggle::after {
-  /* @apply font-bold; */
   content: " +";
 }
 #catToggle.active::after {
-  /* @apply font-bold; */
   content: " -";
 }
 .filter-item img.lazyloading, .filter-item img.lazyload {

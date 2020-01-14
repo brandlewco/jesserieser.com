@@ -1,5 +1,7 @@
 {{- define "main" -}}
+    <section data-hue="{{with .Params.navigation_theme}}{{.}}{{else}}white{{end}}">
     {{ partial "feature_header" .}}
+    </section>
     <section data-hue="page" class="pt-8 mb-48 px-8 xl:px-16 mx-auto bg-white group-hover">
     {{- range .Params.page_sections -}}
     {{ partial (printf "blocks/block-%s.html" .block) (dict "Section" . "Page" $ "Site" $.Site) }}

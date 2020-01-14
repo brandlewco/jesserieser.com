@@ -392,8 +392,9 @@ function init() {
   function value_limit(val, min, max) {
     return val < min ? min : (val > max ? max : val);
   }
-  
+
   // Scroll Animations
+  let scrollPos = 0;
   window.onscroll = function() {
     var headerOverlay = document.getElementById("header-overlay");
     var pageTitle = document.getElementById("page-title");
@@ -428,14 +429,6 @@ function init() {
     };
     scrollPos = windowY;
   };
-
-  let scrollPos = 0;
-
-
-  if (document.querySelector("#project-header")) {
-    navigation.classList.add("mt-0");
-    navigation.classList.remove("mt-neg");
-  }
 
   window.__forceSmoothScrollPolyfill__ = true;
   smoothscroll.polyfill();
