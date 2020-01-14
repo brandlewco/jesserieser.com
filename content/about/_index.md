@@ -15,149 +15,149 @@ page_sections:
 - template: block-modal
   block: modal
   width: '70'
-  x: start
-  margin: '50'
+  align_x: start
+  margin_y: '50'
   image: https://jesserieser.brandlew.co/uploads/phx-17.jpg
   caption: Awards
   color: "#50E3C2"
   modal_block:
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
     url: ''
     icon: ''
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
     url: ''
     icon: ''
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
     url: ''
     icon: ''
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
     url: ''
     icon: ''
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
     url: ''
     icon: ''
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
     url: ''
     icon: ''
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
     url: ''
     icon: ''
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
     url: ''
     icon: ''
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
     url: ''
     icon: ''
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
     url: ''
     icon: ''
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
     url: ''
     icon: ''
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
     url: ''
     icon: ''
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
     url: ''
     icon: ''
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
     url: ''
     icon: ''
 - template: block-modal
   block: modal
   width: '66'
-  x: end
-  margin: '100'
+  align_x: end
+  margin_y: '100'
   caption: Press
   image: https://jesserieser.brandlew.co/uploads/phx-6.jpg
   color: "#5E65AD"
   modal_block:
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
     url: ''
     icon: ''
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
     url: ''
     icon: ''
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
     url: ''
     icon: ''
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
     url: ''
     icon: ''
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
     url: ''
     icon: ''
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
     url: ''
     icon: ''
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
     url: ''
     icon: ''
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
     url: ''
     icon: ''
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
     url: ''
     icon: ''
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
     url: ''
     icon: ''
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
     url: ''
     icon: ''
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
     url: ''
     icon: ''
 

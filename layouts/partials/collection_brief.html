@@ -1,6 +1,6 @@
-<section id="project-next" class="mt-32">
+<section id="project-next" class="mt-32 p-8 xl:p-16">
     {{ with .PrevInSection }}
-    <nav class="container mx-auto flex flex-row justify-between">
+    <nav class="mx-auto flex flex-row justify-between">
         <a href="{{ .Permalink }}" alt="Previous Project - {{ .Title }}" data-swup-preload class="self-start">
         <div class="text-black text-left">
                 <div class="text-1xl block mb-1 font-light">
@@ -27,7 +27,7 @@
     {{ end }}
 </section>
 <section id="project-brief" class="mt-32" style="background-color:{{.Params.theme_color}};">
-    <div class="container mx-auto w-full p-8 text-lg leading-loose text-white"  data-sal="slide-down" data-sal-delay="300">
+    <div class="mx-auto w-full p-8 xl:p-16 text-lg leading-loose text-white"  data-sal="slide-down" data-sal-delay="300">
         {{ .Params.collection_content | markdownify }}
     </div>
 </section>

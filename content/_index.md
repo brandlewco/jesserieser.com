@@ -6,8 +6,8 @@ page_sections:
 - template: block-feature-collection
   block: featured-collection
   width: '60'
-  x: end
-  margin: '100'
+  align_x: end
+  margin_y: '100'
   image: https://jesserieser.brandlew.co/uploads/rieser-adidas-10.jpg
   caption: Adidas
   color: "#4A4A4A"
@@ -16,8 +16,8 @@ page_sections:
 - template: block-feature-collection
   block: featured-collection
   width: '60'
-  x: start
-  margin: '100'
+  align_x: start
+  margin_y: '100'
   image: https://jesserieser.brandlew.co/uploads/rieser-xmas-25.jpg
   attached_collection: collections/xmas-in-america.md
   caption: XMAS IN AMERICA
@@ -26,8 +26,8 @@ page_sections:
 - template: block-feature-collection
   block: featured-collection
   width: '60'
-  x: end
-  margin: '100'
+  align_x: end
+  margin_y: '100'
   image: https://jesserieser.brandlew.co/uploads/time-5.jpg
   caption: Time
   color: "#fdcfb1"
@@ -36,18 +36,18 @@ page_sections:
 - template: block-feature-collection
   block: featured-collection
   width: '60'
-  x: start
+  align_x: start
   image: https://jesserieser.brandlew.co/uploads/wired-2.jpg
   caption: Wired
   color: "#b9a49e"
-  margin: '50'
+  margin_y: '50'
   attached_collection: collections/wired.md
   meta: Backpage.com Cover Story
 - template: block-feature-collection
   block: featured-collection
   width: '60'
-  x: end
-  margin: '100'
+  align_x: end
+  margin_y: '100'
   image: https://jesserieser.brandlew.co/uploads/geezers-1.jpg
   attached_collection: collections/star-geezers.md
   caption: Star Geezers

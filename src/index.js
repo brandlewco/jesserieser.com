@@ -58,7 +58,7 @@ function init() {
   // Sal Animations
   var scrollAnimations = sal({
     once: false,
-    threshold: 0.2,
+    threshold: 0.33,
   });
 
   // Parellax
@@ -392,30 +392,17 @@ function init() {
   function value_limit(val, min, max) {
     return val < min ? min : (val > max ? max : val);
   }
-
-  var pageTitle = document.getElementById("page-title");
+  
   // Scroll Animations
   window.onscroll = function() {
-    checkPosition();
     var headerOverlay = document.getElementById("header-overlay");
+    var pageTitle = document.getElementById("page-title");
     var collectionTitle = document.querySelectorAll("figure.sal-animate figcaption");
     var height = window.innerHeight;
     var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
-    if (pageTitle) {
-      // pageTitle.style.transform = "translate3d(0, -" + value_limit((((90 - ((scrollTop * 1.2) / height) * 100) / 2)), 0, 45) + "vh, 0)";
-      // pageTitle.style.transform = "matrix(1,0,0,1,0,380)";
-    }
     if (headerOverlay) {
       headerOverlay.style.opacity = value_limit((scrollTop / (height * 0.5)), 0, 1).toFixed(2);
     }
-    // collectionTitle.forEach((title) => {
-    //   title.style.transform = "translate3d(0, -" + ((scrollTop / height) / height) + "vh, 0)";
-    // });
-  };
-
-  let scrollPos = 0;
-  // Show Hide Header
-  function checkPosition() {
     const windowY = window.scrollY;
     if (document.querySelector("#project-header")) {
       if (windowY > (window.innerHeight * 0.75)) {
@@ -440,7 +427,10 @@ function init() {
       }
     };
     scrollPos = windowY;
-  }
+  };
+
+  let scrollPos = 0;
+
 
   if (document.querySelector("#project-header")) {
     navigation.classList.add("mt-0");
@@ -452,24 +442,6 @@ function init() {
 }
 // intit code on each page load
 init();
-
-// const scrollPositions = [];
-// let scrollToSavedPosition = null;
-
-// swup.on("clickLink", () => {
-//   scrollPositions[window.location.href] = window.scrollY;
-// });
-
-// swup.on("popState", () => {
-//   scrollToSavedPosition = true;
-// });
-
-// swup.on("contentReplaced", () => {
-//   if (scrollToSavedPosition) {
-//     window.scrollTo(0, window.scrollPositions);
-//   }
-//   scrollToSavedPosition = false;
-// });
 
 
 import "./css/main.css";

@@ -3,7 +3,7 @@
     {{ partial "collection_header" .}}
     </section>
     <section data-hue="page" class="pt-8 mx-auto bg-white">
-        <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+        <div class="my-gallery px-8 xl:px-16" itemscope itemtype="http://schema.org/ImageGallery">
             {{- range .Params.collection_layout_builder -}}
             {{ partial (printf "blocks/block-%s.html" .block) (dict "Section" . "Page" $ "Site" $.Site) }}
             {{- end -}}

@@ -1,8 +1,8 @@
 {{ $fileName1 := path.Base .Section.image_1.image | replaceRE "(.doc|.jpeg|.jpg)" ""}}
 {{ $fileName2 := path.Base .Section.image_2.image | replaceRE "(.doc|.jpeg|.jpg)" ""}}
 
-<section class="container block-hover block-media-2 flex flex-col md:flex-row {{with .Section.row_alignment}}md:justify-{{.}}{{else}}md:justify-between{{end}} mx-auto h-auto" data-sal="slide-down" data-sal-delay="100">
-      <figure class="figure {{with .Section.image_1.x}}md:self-{{.}}{{end}} w-full {{with .Section.image_1.width}}md:w-{{.}}/100{{end}} mt-4 {{with .Section.image_1.margin}}md:mt-{{.}}{{end}} highlight" style="background: {{with .Section.image_1.color}}{{.}}{{else}}{{.Page.Params.theme_color}}{{end}};" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" id="{{ $fileName1 }}" data-sal="image">
+<section class="block-hover block-media-2 flex flex-col sm:flex-row {{with .Section.row_alignment}}sm:justify-{{.}}{{else}}sm:justify-between{{end}} mx-auto h-auto">
+      <figure class="figure {{with .Section.image_1.align_x}}sm:self-{{.}}{{end}} w-full {{with .Section.image_1.width}}sm:w-{{.}}/100{{end}} mt-4 {{with .Section.image_1.margin_y}}sm:mt-{{.}}{{end}}  ml-0 {{with .Section.image_1.margin_x}}sm:ml-{{.}}%{{end}} highlight h-full" style="background: {{with .Section.image_1.color}}{{.}}{{else}}{{.Page.Params.theme_color}}{{end}};" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" id="{{ $fileName1 }}" data-sal="image">
         <a href="{{ .Section.image_1.image }}" itemprop="contentUrl" class="opengallery" pid="{{ $fileName1}}" data-no-swup>
           <img class="lazyload" src="{{ .Section.image_1.image }}" data-src="{{ .Section.image_1.image }}" alt="{{ .Section.image_1.caption }}"  itemprop="thumbnail"/>
         </a>
@@ -10,7 +10,7 @@
         <figcaption class="hidden" itemprop="caption description">{{ . }}</figcaption>
         {{ end }}
       </figure>
-      <figure class="figure {{with .Section.image_2.x}}md:self-{{.}}{{end}} w-full {{with .Section.image_2.width}}md:w-{{.}}/100{{end}} mt-4 {{with .Section.image_2.margin}}md:mt-{{.}}{{end}} highlight" itemprop="associatedMedia" style="background: {{with .Section.image_2.color}}{{.}}{{else}}{{.Page.Params.theme_color}}{{end}};" itemscope itemtype="http://schema.org/ImageObject" id="{{ $fileName2 }}" data-sal="image">
+      <figure class="figure {{with .Section.image_2.align_x}}sm:self-{{.}}{{end}} w-full {{with .Section.image_2.width}}sm:w-{{.}}/100{{end}} mt-4 {{with .Section.image_2.margin_y}}sm:mt-{{.}}{{end}} ml-0 {{with .Section.image_2.margin_x}}sm:ml-{{.}}%{{end}} highlight h-full" itemprop="associatedMedia" style="background: {{with .Section.image_2.color}}{{.}}{{else}}{{.Page.Params.theme_color}}{{end}};" itemscope itemtype="http://schema.org/ImageObject" id="{{ $fileName2 }}" data-sal="image">
         <a href="{{ .Section.image_2.image }}" itemprop="contentUrl" class="opengallery" pid="{{ $fileName2 }}"  data-no-swup>
           <img class="lazyload" src="{{ .Section.image_2.image }}" data-src="{{ .Section.image_2.image }}" alt="{{ .Section.image_2.caption }}"   itemprop="thumbnail"/>
         </a>

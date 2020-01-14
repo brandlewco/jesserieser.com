@@ -2,7 +2,6 @@
 {{.Params.collection_cover }}?nf_resize=fit&w=1200 1200w,
 {{.Params.collection_cover }}?nf_resize=fit&w=1600 1600w,
 {{.Params.collection_cover }}" data-sizes="auto" style="background-color: {{.Params.theme_color}};">
-    <!-- <img data-src="{{.Params.collection_cover }}{{.Site.Params.cover}}" class="static w-100 h-100 lazyload inset-auto" > -->
     {{partial "r-mask" .}}
     <div id="page-title" class="fixed bottom-0 z-50 margin-0 uppercase px-4 sm:px-0 font-light tracking-wide text-{{.Params.navigation_theme}} text-center lazyload" style="transform: translate3d(0, -45vh, 0)">
     <h1 class="uppercase text-4xl sm:text-6xl font-light tracking-wide text-center" data-sal="slide-down" data-sal-delay="600">{{.Title}}</h1>
@@ -12,8 +11,8 @@
     <div id="loading-overlay" class="absolute w-full h-screen  inset-auto z-10" style="background-color: {{.Params.theme_color}};"></div>
     <div id="header-overlay" class="flex flex-col justify-end absolute w-full h-screen  inset-auto" style="background-color: {{.Params.theme_color}};"></div>
 </header>
-<article id="project-description" class="w-full py-8 px-4 sm:px-8 text-xl text-{{.Params.navigation_theme}} items-center text-justify leading-loose"  style="background-color: {{.Params.theme_color}};">
-    <div class="flex container flex-col justify-center mx-auto" data-sal="slide-up" data-sal-delay="300">
+<article id="project-description" class="w-full py-8 px-8 xl:px-16 text-xl text-{{.Params.navigation_theme}} items-center text-justify leading-loose"  style="background-color: {{.Params.theme_color}};">
+    <div class="flex flex-col justify-center mx-auto" data-sal="slide-up" data-sal-delay="300">
             {{ .Params.collection_description | markdownify }}
             <a href="#project-brief" class="block text-{{.Params.navigation_theme}} font-normal" data-no-swup>more...</a>
     </div>

@@ -1,4 +1,4 @@
-<section class="container block-media-2 flex flex-col md:flex-row{{with .Section.row_order }}-reverse{{end}} {{with .Section.row_alignment}}md:justify-{{.}}{{else}}md:justify-between{{end}} mx-auto h-auto">
+<section class="block-media-2 flex flex-col md:flex-row{{with .Section.row_order }}-reverse{{end}} {{with .Section.row_alignment}}md:justify-{{.}}{{else}}md:justify-between{{end}} mx-auto h-auto">
   <figure class="{{with .Section.image_1.x}}md:self-{{.}}{{end}} w-full {{with .Section.image_1.width}}md:w-{{.}}/100{{end}} mt-0 {{with .Section.image_1.margin}}md:mt-{{.}}{{end}} highlight" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" style="background: {{with .Section.image_1.color}}{{.}}{{else}}{{.Page.Params.theme_color}}{{end}};" >
     <a href="{{ .Page.Permalink }}#&gid=1&pid={{ .Section.image_1.image | replaceRE "[a-zA-Z-.:/]" "" }}" itemprop="contentUrl" class="opengallery" data-imageset="{{ .Page.Title | replaceRE "[^a-zA-Z]" "" | lower | safeJS }}" data-image="{{ .Section.image_1.image | replaceRE "[a-zA-Z-.:/]" "" }}" data-no-swup>
       <div class="ratio">

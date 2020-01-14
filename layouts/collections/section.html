@@ -1,5 +1,5 @@
 {{- define "main" -}}
-<article class="content container mx-auto">
+<article class="content mx-auto px-8 xl:px-16">
         {{partial "collection_sorter" .}}
     <section id="filter" class="flex flex-wrap overflow-hidden filter-container">
         {{ range where .Pages ".Params.collection_archive" "!=" true }}
@@ -8,7 +8,7 @@
     </section>
 </article>
 <article id="archive" class="bg-black mt-16 py-8">
-    <section class="flex flex-wrap container mx-auto overflow-hidden text-white">
+    <section class="flex flex-wrap mx-auto overflow-hidden text-white">
     <h2 class="w-full pb-8 font-semibold tracking-wide pl-2">ARCHIVE</h2>
         {{ range where .Pages ".Params.collection_archive" "=" true }}
             {{ partial "collection_sorter_item" .}}

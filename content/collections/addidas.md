@@ -26,29 +26,23 @@ align_x = "start"
 caption = "caption 222"
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-1.jpg"
-margin = "50"
-margin_x = ""
-margin_y = ""
+margin_y = "50"
 width = "33"
 [collection_layout_builder.image_2]
-align_x = ""
 caption = "caption"
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-2.jpg"
-margin = 50
-margin_x = ""
-margin_y = ""
+margin_y = 50
 width = 40
-x = "start"
+align_x = "start"
 [[collection_layout_builder]]
 align_x = "center"
 block = "media-1"
 caption = "Caption"
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-3.jpg"
-margin = "50"
-margin_x = "20"
 margin_y = "50"
+margin_x = "20"
 row_alignment = "start"
 row_height = 25
 row_order = false
@@ -60,22 +54,20 @@ row_alignment = "between"
 row_order = true
 template = "block-media-mix"
 [collection_layout_builder.image_1]
-align_x = ""
+
 caption = ""
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-4.jpg"
-margin = 200
-margin_x = ""
-margin_y = ""
+margin_y = 200
 width = 50
-x = "start"
+align_x = "start"
 [collection_layout_builder.text]
 align_x = "center"
 caption = "Mixed Media Block. Caption or descriptive text goes here."
 color = "#4A4A4A"
-margin = "200"
+margin_y = "200"
 width = "40"
-x = ""
+
 [[collection_layout_builder]]
 block = "media-2"
 row_alignment = "between"
@@ -87,18 +79,14 @@ align_x = "start"
 caption = "caption"
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-5.jpg"
-margin = 50
-margin_x = ""
-margin_y = ""
+margin_y = 50
 width = "33"
 [collection_layout_builder.image_2]
 align_x = "end"
 caption = "caption"
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-6.jpg"
-margin = 300
-margin_x = ""
-margin_y = ""
+margin_y = 300
 width = "50"
 [[collection_layout_builder]]
 block = "media-2"
@@ -111,44 +99,38 @@ align_x = "start"
 caption = ""
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-7.jpg"
-margin = 50
-margin_x = ""
-margin_y = ""
+margin_y = 50
 width = "40"
 [collection_layout_builder.image_2]
 align_x = "start"
 caption = ""
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-8.jpg"
-margin = 300
-margin_x = ""
-margin_y = ""
+margin_y = 300
 width = "40"
 [[collection_layout_builder]]
-align_x = ""
+
 block = "media-1"
 caption = ""
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-9.jpg"
-margin = 50
-margin_x = ""
-margin_y = ""
+margin_y = 50
 row_alignment = "between"
 row_height = 25
 row_order = false
 template = "block-media"
 width = 40
-x = "center"
+align_x = "center"
 [[collection_layout_builder]]
 block = "text"
 caption = "Text, Centered. Neat."
 color = "#D0021B"
-margin = 200
+margin_y = 200
 row_alignment = "center"
 row_order = false
 template = "block-text"
 width = 20
-x = "center"
+align_x = "center"
 [[collection_layout_builder]]
 block = "media-2"
 row_alignment = "between"
@@ -156,35 +138,31 @@ row_height = 25
 row_order = false
 template = "block-media-2"
 [collection_layout_builder.image_1]
-align_x = ""
+
 caption = ""
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-10.jpg"
-margin = 100
-margin_x = ""
-margin_y = ""
+margin_y = 100
 width = 40
-x = "start"
+align_x = "start"
 [collection_layout_builder.image_2]
-align_x = ""
+
 caption = "caption"
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-11.jpg"
-margin = 100
-margin_x = ""
-margin_y = ""
+margin_y = 100
 width = 40
-x = "end"
+align_x = "end"
 [[collection_layout_builder]]
 block = "text"
 caption = "Annotation."
 color = "#D0021B"
-margin = 100
+margin_y = 100
 row_alignment = "center"
 row_order = false
 template = "block-text"
 width = 20
-x = "center"
+align_x = "center"
 [[collection_layout_builder]]
 block = "media-2"
 row_alignment = "between"
@@ -196,48 +174,40 @@ align_x = "start"
 caption = ""
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-12.jpg"
-margin = 100
-margin_x = ""
-margin_y = ""
+margin_y = 100
 width = "40"
 [collection_layout_builder.image_2]
 align_x = "start"
 caption = ""
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-13.jpg"
-margin = 300
-margin_x = ""
-margin_y = ""
+margin_y = 300
 width = "40"
 [[collection_layout_builder]]
-align_x = ""
+
 block = "media-1"
 caption = ""
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-14.jpg"
-margin = 50
-margin_x = ""
-margin_y = ""
+margin_y = 50
 row_alignment = "between"
 row_height = 25
 row_order = false
 template = "block-media"
 width = 100
-x = "center"
+align_x = "center"
 [[collection_layout_builder]]
-align_x = ""
+
 block = "media-1"
 caption = ""
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-15.jpg"
-margin = 50
-margin_x = ""
-margin_y = ""
+margin_y = 50
 row_alignment = "between"
 row_height = 25
 row_order = false
 template = "block-media"
 width = 80
-x = "center"
+align_x = "center"
 
 +++

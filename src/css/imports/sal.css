@@ -276,7 +276,7 @@ body.sal-disabled [data-sal|="fade"] {
   transform: translateY(20%);
 }
 [data-sal="slide-down"] {
-  transform: translateY(-20%);
+  transform: translateY(-5%);
 }
 [data-sal="slide-left"] {
   transform: translateX(20%);
