@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: Say Hello
-date: 2017-11-01T23:00:00.000+00:00
+date: 2017-11-02T16:00:00-07:00
 cover_image: ''
 collection_logo: ''
 collection_cover: https://jesserieser.brandlew.co/uploads/jesserieser.jpg
