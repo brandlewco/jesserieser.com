@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: Say Hello
-date: 2017-11-02T16:00:00-07:00
+date: 2017-11-02T23:00:00.000+00:00
 cover_image: ''
 collection_logo: ''
 collection_cover: https://jesserieser.brandlew.co/uploads/jesserieser.jpg
@@ -162,7 +162,7 @@ page_sections:
     url: ''
     icon: ''
   margin_x: ''
-header_col_1: "### ADVERTISING\n\nCOMMISSIONS\n\nAudrie Poole  \nSunday Afternoon
+header_col_1: "### ADVERTISING\n\n### COMMISSIONS\n\nAudrie Poole  \nSunday Afternoon
   \ \n343 Canal Street, 5th Floor  \nNew York, NY  \n[516 263 7335](tel:+15162637335
   \"516 263 7335\")  \n[audrie@sundayafternoon.us](mailto:audrie@sundayafternoon.us
   \"audrie@sundayafternoon.us\")"
