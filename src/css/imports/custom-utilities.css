@@ -227,6 +227,17 @@ figure:hover img {
   transition-duration: 0s;
 }
 
+/* About Page */
+#about-description {
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-white
+  }
+  p {
+    @apply text-black mb-4
+  }
+}
+
+
 /* Modal Popup */
 .body-popup {
   z-index: 1010;
