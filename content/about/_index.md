@@ -162,6 +162,15 @@ page_sections:
     url: ''
     icon: ''
   margin_x: ''
+header_col_1: "## ADVERTISING  \nCOMMISSIONS\n\nAudrie Poole  \nSunday Afternoon  \n343
+  Canal Street, 5th Floor  \nNew York, NY  \n[516 263 7335](tel:+15162637335 \"516
+  263 7335\")  \n[audrie@sundayafternoon.us](audrie@sundayafternoon.us \"audrie@sundayafternoon.us\")"
+header_col_2: "## EXHIBITION, EDITORIAL,  \nSYNDICATION INQUIRIES\n\nJesse Rieser
+  \ \nPhoenix, AZ  \n310 985 9818  \njesse@jesserieser.com\n\nSouthwest Studio  \n124
+  W. McDowell Rd.  \nPhoenix, AZ 85003\n\nWest Coast Studio  \n1610 W 7th St. #401
+  \ \nLos Angeles, CA 90017"
+header_col_3: "## STOCK\n\nGallery Stock  \nNew York  \n212 219 7520  \nnewyork@gallerystock.com\n\nParis
+  \ \nMunich  \nSydney"
 
 ---
 ## Click the collections link above to preview collections.
