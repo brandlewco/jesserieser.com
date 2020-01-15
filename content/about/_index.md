@@ -162,7 +162,7 @@ page_sections:
     url: ''
     icon: ''
   margin_x: ''
-header_col_1: "### ADVERTISING\n\n### COMMISSIONS\n\nAudrie Poole  \nSunday Afternoon
+header_col_1: "### ADVERTISING\n\nCOMMISSIONS\n\nAudrie Poole  \nSunday Afternoon
   \ \n343 Canal Street, 5th Floor  \nNew York, NY  \n[516 263 7335](tel:+15162637335
   \"516 263 7335\")  \n[audrie@sundayafternoon.us](mailto:audrie@sundayafternoon.us
   \"audrie@sundayafternoon.us\")"
@@ -170,11 +170,7 @@ header_col_2: "### EXHIBITION, EDITORIAL,\n\n### SYNDICATION INQUIRIES\n\nJesse 
   \ \nPhoenix, AZ  \n[310 985 9818](tel:+13109859818 \"310 985 9818\")  \n[jesse@jesserieser.com](mailto:jesse@jesserieser.com
   \"jesse@jesserieser.com\")\n\nSouthwest Studio  \n124 W. McDowell Rd.  \nPhoenix,
   AZ 85003\n\nWest Coast Studio  \n1610 W 7th St. #401  \nLos Angeles, CA 90017"
-<<<<<<< HEAD
-header_col_3: "### STOCK\n\n### Gallery Stock  \nNew York  \n[212 219 7520](tel:+12122197520
-=======
 header_col_3: "### STOCK\n\nGallery Stock  \nNew York  \n[212 219 7520](tel:+12122197520
->>>>>>> b155bde1b241a698835878258ecf5047d77ffb0c
   \"212 219 7520\")  \n[newyork@gallerystock.com](mailto:newyork@gallerystock.com
   \"newyork@gallerystock.com\")\n\nParis  \nMunich  \nSydney"
 
