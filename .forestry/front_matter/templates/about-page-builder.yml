@@ -42,6 +42,7 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
+  hidden: true
 - name: header_col_1
   type: textarea
   default: ''
