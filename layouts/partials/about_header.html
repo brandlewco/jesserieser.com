@@ -9,9 +9,9 @@
     <div id="header-overlay" class="flex flex-col justify-end absolute w-full h-screen  inset-auto" style="background-color: {{.Params.theme_color}};"></div>
 </header>
 <article id="about-description" class="w-full py-8 px-8 xl:px-16 text-xl text-{{.Params.navigation_theme}} items-center text-justify"  style="background-color: {{.Params.theme_color}};">
-    <div class="flex flex-row justify-center mx-auto container">
-        <aside class="w-full sm:w-1/3" data-sal="slide-down" data-sal-delay="300">{{ .Params.header_col_1 | markdownify }}</aside>
-        <aside class="w-full sm:w-1/3 px-4" data-sal="slide-down" data-sal-delay="600">{{ .Params.header_col_2 | markdownify }}</aside>
-        <aside class="w-full sm:w-1/3" data-sal="slide-down" data-sal-delay="900">{{ .Params.header_col_3 | markdownify }}</aside> 
+    <div class="flex flex-wrap justify-center mx-auto px-0 sm:px-32">
+        <aside class="w-full sm:w-1/3 pb-4 sm:pb-0" data-sal="slide-down" data-sal-delay="300">{{ .Params.header_col_1 | markdownify }}</aside>
+        <aside class="w-full sm:w-1/3 px-0 sm:px-4 pb-4 sm:pb-0" data-sal="slide-down" data-sal-delay="600">{{ .Params.header_col_2 | markdownify }}</aside>
+        <aside class="w-full sm:w-1/3 pb-4 sm:pb-0" data-sal="slide-down" data-sal-delay="900">{{ .Params.header_col_3 | markdownify }}</aside> 
     </div>
 </article>

@@ -233,7 +233,7 @@ figure:hover img {
     @apply text-white
   }
   p {
-    @apply text-black mb-4
+    @apply text-black mt-4
   }
 }
 
