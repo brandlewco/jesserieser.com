@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: Jesse Rieser
+title: Say Hello
 date: 2017-11-01T23:00:00.000+00:00
 cover_image: ''
 collection_logo: ''
@@ -91,6 +91,7 @@ page_sections:
       Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
     url: ''
     icon: ''
+  margin_x: ''
 - template: block-modal
   block: modal
   width: '66'
@@ -160,6 +161,7 @@ page_sections:
       Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
     url: ''
     icon: ''
+  margin_x: ''
 
 ---
 ## Click the collections link above to preview collections.
