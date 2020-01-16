@@ -28,3 +28,8 @@ fields:
       file: 
       path: 
   label: Attached Blog
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
