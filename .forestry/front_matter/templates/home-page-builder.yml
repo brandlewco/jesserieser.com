@@ -48,6 +48,7 @@ fields:
   label: Page Sections
   template_types:
   - block-feature-collection
+  - block-modal-blog
 - type: file
   name: cover_image
   label: Social Media Card
