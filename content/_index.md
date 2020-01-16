@@ -5,14 +5,15 @@ date: 2017-11-01T23:00:00.000+00:00
 page_sections:
 - template: block-feature-collection
   block: featured-collection
-  width: '60'
+  width: '66'
   align_x: end
   margin_y: '100'
   image: https://jesserieser.brandlew.co/uploads/rieser-adidas-10.jpg
-  caption: Adidas
+  caption: ADIDAS
   color: "#4A4A4A"
   attached_collection: collections/addidas.md
   meta: Crazy Explosive Primeknit
+  margin_x: 5%
 - template: block-feature-collection
   block: featured-collection
   width: '60'
@@ -23,6 +24,7 @@ page_sections:
   caption: XMAS IN AMERICA
   color: "#FF0000"
   meta: Personal 2010 -  2019
+  margin_x: ''
 - template: block-feature-collection
   block: featured-collection
   width: '60'
@@ -33,6 +35,7 @@ page_sections:
   color: "#fdcfb1"
   attached_collection: collections/time.md
   meta: Grand Canyon 100th Anniversary 
+  margin_x: ''
 - template: block-feature-collection
   block: featured-collection
   width: '60'
@@ -43,6 +46,7 @@ page_sections:
   margin_y: '50'
   attached_collection: collections/wired.md
   meta: Backpage.com Cover Story
+  margin_x: ''
 - template: block-feature-collection
   block: featured-collection
   width: '60'
@@ -53,6 +57,18 @@ page_sections:
   caption: Star Geezers
   color: "#9bbad5"
   meta: Condor Airlines (Germany)
+  margin_x: ''
+- template: block-modal-blog
+  block: modal-blog
+  width: '50'
+  align_x: start
+  margin_x: '0'
+  margin_y: '50'
+  title: Blog Title
+  image: ''
+  caption: ''
+  color: ''
+  attached_blog: posts/test-blog-posts.md
 theme_color: "#B99E8E"
 collection_description: ''
 collection_content: ''
