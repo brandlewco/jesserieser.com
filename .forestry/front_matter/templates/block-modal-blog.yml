@@ -15,10 +15,24 @@ fields:
   config: {}
   template: media-element
   label: Image
+  hidden: true
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+  default: Blog Title
+- name: caption
+  type: text
+  config:
+    required: false
+  label: Caption
 - name: modal_block
   type: blocks
   template_types:
-  - popup-text-element
+  - block-text
+  - block-media-2
+  - block-media
   config:
     min: 
     max: 
