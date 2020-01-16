@@ -16,29 +16,15 @@ fields:
   template: media-element
   label: Image
   hidden: true
-- name: title
-  type: text
+- name: attached_blog
+  type: select
+  default: []
   config:
     required: true
-  label: Title
-  default: Blog Title
-- name: caption
-  type: text
-  config:
-    required: false
-  label: Caption
-- name: modal_block
-  type: blocks
-  template_types:
-  - block-text
-  - block-media-2
-  - block-media
-  config:
-    min: 
-    max: 
-  label: Blocks
-- name: blog
-  type: include
-  config: {}
-  template: blog-post-builder
-  label: Blog
+    options: []
+    source:
+      type: pages
+      section: blog-posts
+      file: 
+      path: 
+  label: Attached Blog
