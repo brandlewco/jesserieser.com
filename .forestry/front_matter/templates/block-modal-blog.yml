@@ -37,3 +37,8 @@ fields:
     min: 
     max: 
   label: Blocks
+- name: blog
+  type: include
+  config: {}
+  template: blog-post-builder
+  label: Blog
