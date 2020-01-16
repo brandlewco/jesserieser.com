@@ -25,6 +25,17 @@ page_sections:
   color: "#FF0000"
   meta: Personal 2010 -  2019
   margin_x: ''
+- template: block-modal-blog
+  block: modal-blog
+  width: '50'
+  align_x: start
+  margin_x: '0'
+  margin_y: '50'
+  title: Blog Title
+  image: ''
+  caption: ''
+  color: ''
+  attached_blog: posts/test-blog-posts.md
 - template: block-feature-collection
   block: featured-collection
   width: '60'
@@ -58,17 +69,6 @@ page_sections:
   color: "#9bbad5"
   meta: Condor Airlines (Germany)
   margin_x: ''
-- template: block-modal-blog
-  block: modal-blog
-  width: '50'
-  align_x: start
-  margin_x: '0'
-  margin_y: '50'
-  title: Blog Title
-  image: ''
-  caption: ''
-  color: ''
-  attached_blog: posts/test-blog-posts.md
 theme_color: "#B99E8E"
 collection_description: ''
 collection_content: ''
