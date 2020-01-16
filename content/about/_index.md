@@ -12,8 +12,8 @@ collection_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 theme_color: "#D5C7BE"
 navigation_theme: white
 page_sections:
-- template: block-modal
-  block: modal
+- template: block-modal-list
+  block: modal-list
   width: '70'
   align_x: start
   margin_y: '50'
@@ -92,8 +92,8 @@ page_sections:
     url: ''
     icon: ''
   margin_x: ''
-- template: block-modal
-  block: modal
+- template: block-modal-list
+  block: modal-list
   width: '66'
   align_x: end
   margin_y: '100'

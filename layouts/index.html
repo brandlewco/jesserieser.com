@@ -7,4 +7,5 @@
     {{ partial (printf "blocks/block-%s.html" .block) (dict "Section" . "Page" $ "Site" $.Site) }}
     {{- end -}}
     </section>
+    {{ partial "gallery" . }}
 {{- end -}}
