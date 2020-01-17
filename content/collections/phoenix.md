@@ -30,5 +30,32 @@ image = "https://jesserieser.brandlew.co/uploads/phx-2.jpg"
 margin_y = "-200"
 template = "block-media-element"
 width = "33"
+[[collection_layout_builder]]
+block = "media-row"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_x = "start"
+block = "media-element"
+margin_x = "0"
+margin_y = "50"
+template = "block-media-element"
+width = "50"
+[[collection_layout_builder]]
+block = "media-row"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_x = "start"
+block = "media-element"
+margin_x = "0"
+margin_y = "50"
+template = "block-media-element"
+width = "50"
+[[collection_layout_builder]]
+align_x = "start"
+block = "media-element"
+margin_x = "0"
+margin_y = "50"
+template = "block-media-element"
+width = "50"
 
 +++
