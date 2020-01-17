@@ -14,14 +14,14 @@ fields:
     required: false
   label: Caption
 - name: news_category
-  type: select
-  default: ''
+  type: list
   config:
-    required: false
-    options: []
+    use_select: true
+    min: 
+    max: 
     source:
       type: documents
-      section: 
+      section: ''
       file: data/categories/categories.toml
       path: news
   label: News Category
