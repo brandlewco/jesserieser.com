@@ -12,7 +12,7 @@ sections:
   label: About
 - type: directory
   path: content/posts
-  label: Blog Posts
+  label: News Posts
   create: all
   match: "**/*"
   templates:
