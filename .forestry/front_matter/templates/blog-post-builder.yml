@@ -7,6 +7,11 @@ fields:
   config:
     required: false
   label: Title
+- name: caption
+  type: text
+  config:
+    required: false
+  label: Caption
 - name: date
   type: datetime
   label: Date
@@ -18,9 +23,18 @@ fields:
     display_utc: false
 - name: theme_color
   type: color
-  label: Theme Color
+  label: Button Color
   config:
     required: false
     color_format: Hex
+- name: blog_builder
+  type: blocks
+  template_types:
+  - block-media
+  - block-text
+  config:
+    min: 
+    max: 
+  label: Blog Builder
 pages:
 - content/posts/test-blog-posts.md
