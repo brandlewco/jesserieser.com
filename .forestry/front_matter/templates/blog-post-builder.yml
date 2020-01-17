@@ -49,6 +49,11 @@ fields:
   config:
     required: false
     color_format: Hex
+- name: media_alignment
+  type: include
+  config: {}
+  template: media-alignment
+  label: Media Alignment
 - name: blog_builder
   type: blocks
   template_types:
