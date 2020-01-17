@@ -7,9 +7,6 @@ sections:
 - type: document
   path: content/_index.md
   label: Selected Works (Home)
-- type: document
-  path: content/about/_index.md
-  label: About
 - type: directory
   path: content/posts
   label: News Posts
@@ -17,6 +14,9 @@ sections:
   match: "**/*"
   templates:
   - blog-post-builder
+- type: document
+  path: content/about/_index.md
+  label: About
 - type: heading
   label: "\U0001F387 Photo"
 - type: directory
