@@ -15,6 +15,7 @@ theme_color = "#b9a49e"
 title = "Wired"
 [[collection_layout_builder]]
 block = "media-2"
+image = "https://jesserieser.brandlew.co/uploads/wired-5.jpg"
 row_alignment = "between"
 row_height = 75
 row_order = false
