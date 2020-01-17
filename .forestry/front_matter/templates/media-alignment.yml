@@ -72,7 +72,7 @@ fields:
   description: 0%-100% from the left margin
 - name: margin_y
   type: select
-  default: '50'
+  default: ''
   config:
     required: false
     options:
@@ -82,6 +82,7 @@ fields:
     - '300'
     - '400'
     - '500'
+    - '0'
     source:
       type: simple
       section: 
