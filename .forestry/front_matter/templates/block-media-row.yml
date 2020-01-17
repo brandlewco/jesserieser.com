@@ -1,5 +1,5 @@
 ---
-label: "media row"
+label: media row
 hide_body: false
 fields:
 - type: text
