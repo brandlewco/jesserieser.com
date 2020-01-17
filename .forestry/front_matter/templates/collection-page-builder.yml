@@ -52,6 +52,7 @@ fields:
   type: blocks
   label: Layout Builder
   template_types:
+  - block-media-element
   - block-media
   - block-media-2
   - block-media-mix
