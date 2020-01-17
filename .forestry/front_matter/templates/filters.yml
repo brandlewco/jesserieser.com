@@ -10,5 +10,10 @@ fields:
   type: tag_list
   default: []
   label: filter
+- name: news
+  type: tag_list
+  default: []
+  label: news
+  description: blog / news categories
 pages:
 - data/categories/categories.toml
