@@ -13,4 +13,22 @@ logo = ""
 navigation_theme = "white"
 theme_color = "#fb7846"
 title = "Phoenix"
+[[collection_layout_builder]]
+align_x = "start"
+block = "media-element"
+color = "#EF5959"
+image = "https://jesserieser.brandlew.co/uploads/phx-1.jpg"
+margin_x = "0%"
+margin_y = "50"
+template = "block-media-element"
+width = "33"
+[[collection_layout_builder]]
+align_x = "end"
+block = "media-element"
+color = "#61DDDF"
+image = "https://jesserieser.brandlew.co/uploads/phx-2.jpg"
+margin_y = "-200"
+template = "block-media-element"
+width = "33"
+
 +++
