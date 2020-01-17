@@ -1,0 +1,9 @@
+---
+label: "media row"
+hide_body: false
+fields:
+- type: text
+  hidden: true
+  label: block
+  name: block
+  default: media-row
