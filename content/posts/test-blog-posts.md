@@ -1,10 +1,20 @@
 +++
-blog_builder = []
-caption = ""
+caption = "sub title of blog"
+content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at ante sodales, molestie est id, viverra felis. Donec vehicula lectus at pulvinar commodo. Nam sed nisi congue, iaculis nisl id, rhoncus dolor. Maecenas scelerisque augue in dui cursus, vel tincidunt odio ultricies. Mauris eget ante ex. Curabitur scelerisque quis leo id dapibus. Nullam in mi placerat, tempus sapien id, feugiat arcu.\n\nMorbi eget nibh vel ligula dignissim iaculis. Vestibulum ac venenatis tortor. Aliquam consequat massa dolor, sed egestas est lacinia in. Suspendisse et vestibulum ligula. Sed lobortis, erat sit amet euismod ultrices, tortor nunc imperdiet ipsum, eget consectetur lectus tortor sit amet lacus. Suspendisse gravida risus quam, non blandit augue tristique sit amet. Aenean ut ipsum sodales, fringilla felis sit amet, tincidunt nibh. Suspendisse semper libero sapien, ut venenatis sapien eleifend a."
 date = 2020-01-14T07:00:00Z
 news_category = ["press"]
 theme_color = "#FDCD7E"
 title = "Test Blog Posts"
+[[blog_builder]]
+align_x = "center"
+block = "media-1"
+caption = ""
+color = ""
+image = "https://jesserieser.brandlew.co/uploads/phx-12.jpg"
+margin_x = ""
+margin_y = "50"
+template = "block-media"
+width = "100"
 
 +++
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod ante sit amet porta sodales. Quisque non varius sapien, non malesuada neque. Duis dapibus lobortis augue, non dapibus sapien tempus id. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum in nunc eu tellus bibendum egestas. Donec sed vehicula augue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
