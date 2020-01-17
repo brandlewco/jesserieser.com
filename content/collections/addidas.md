@@ -194,7 +194,7 @@ row_alignment = "between"
 row_height = 25
 row_order = false
 template = "block-media"
-width = 100
+width = 80
 align_x = "center"
 [[collection_layout_builder]]
 

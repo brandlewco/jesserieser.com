@@ -26,14 +26,14 @@ color = ""
 image = "https://jesserieser.brandlew.co/uploads/rieser-xmas-1.jpg"
 margin_y = 50
 width = 40
-x = "start"
+align_x = "start"
 [collection_layout_builder.image_2]
 caption = "caption"
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/rieser-xmas-5.jpg"
 margin_y = 50
 width = 40
-x = "start"
+align_x = "start"
 [[collection_layout_builder]]
 block = "media-1"
 caption = "Caption"
@@ -44,7 +44,7 @@ row_alignment = "between"
 row_height = 25
 row_order = false
 template = "block-media"
-width = ""
+width = 30
 align_x = "center"
 [[collection_layout_builder]]
 block = "media-mixed"
@@ -57,7 +57,7 @@ color = ""
 image = "https://jesserieser.brandlew.co/uploads/rieser-xmas-12.jpg"
 margin_y = 200
 width = 50
-x = "start"
+align_x = "start"
 [collection_layout_builder.text]
 caption = "Mixed Media Block. Caption or descriptive text goes here."
 color = "#4A4A4A"
@@ -115,7 +115,7 @@ row_height = 25
 row_order = false
 template = "block-media"
 width = 40
-x = "center"
+align_x = "center"
 [[collection_layout_builder]]
 block = "text"
 caption = "Text, Centered. Neat."
@@ -125,7 +125,7 @@ row_alignment = "center"
 row_order = false
 template = "block-text"
 width = 20
-x = "center"
+align_x = "center"
 [[collection_layout_builder]]
 block = "media-2"
 row_alignment = "between"
@@ -138,14 +138,14 @@ color = ""
 image = "https://jesserieser.brandlew.co/uploads/rieser-xmas-15.jpg"
 margin_y = 100
 width = 40
-x = "start"
+align_x = "start"
 [collection_layout_builder.image_2]
 caption = "caption"
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/rieser-xmas-14.jpg"
 margin_y = 100
 width = 40
-x = "end"
+align_x = "end"
 [[collection_layout_builder]]
 block = "text"
 caption = "Annotation."
@@ -155,7 +155,7 @@ row_alignment = "center"
 row_order = false
 template = "block-text"
 width = 20
-x = "center"
+align_x = "center"
 [[collection_layout_builder]]
 block = "media-2"
 row_alignment = "between"
@@ -187,6 +187,6 @@ row_height = 25
 row_order = false
 template = "block-media"
 width = 40
-x = "center"
+align_x = "center"
 
 +++

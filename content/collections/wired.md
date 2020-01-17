@@ -25,14 +25,14 @@ color = ""
 image = "https://jesserieser.brandlew.co/uploads/wired-1.jpg"
 margin_y = 50
 width = 40
-x = "start"
+align_x = "start"
 [collection_layout_builder.image_2]
 caption = "caption"
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/wired-2.jpg"
 margin_y = ""
-width = ""
-x = "start"
+width = 30
+align_x = "start"
 [[collection_layout_builder]]
 align_x = "center"
 block = "media-1"
@@ -43,7 +43,7 @@ margin_y = 200
 row_alignment = "between"
 row_height = 25
 template = "block-media"
-width = ""
+width = 30
 [[collection_layout_builder]]
 block = "media-mixed"
 row_alignment = "between"
@@ -53,7 +53,7 @@ template = "block-media-mix"
 image = "https://jesserieser.brandlew.co/uploads/wired-4.jpg"
 margin_y = 200
 width = 50
-x = "start"
+align_x = "start"
 [collection_layout_builder.text]
 align_x = "center"
 caption = "Mixed Media Block. Caption or descriptive text goes here."
@@ -72,14 +72,14 @@ color = ""
 image = "https://jesserieser.brandlew.co/uploads/wired-5.jpg"
 margin_y = 50
 width = 33
-x = "start"
+align_x = "start"
 [collection_layout_builder.image_2]
 caption = "caption"
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/wired-6.jpg"
 margin_y = 300
 width = 50
-x = "end"
+align_x = "end"
 [[collection_layout_builder]]
 block = "media-2"
 row_alignment = "between"
@@ -91,14 +91,14 @@ color = ""
 image = "https://jesserieser.brandlew.co/uploads/wired-7.jpg"
 margin_y = 50
 width = 40
-x = "start"
+align_x = "start"
 [collection_layout_builder.image_2]
 caption = ""
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/wired-8.jpg"
 margin_y = 300
 width = 40
-x = "start"
+align_x = "start"
 [[collection_layout_builder]]
 block = "media-1"
 caption = ""
@@ -109,7 +109,7 @@ row_alignment = "between"
 row_height = 25
 template = "block-media"
 width = 40
-x = "center"
+align_x = "center"
 [[collection_layout_builder]]
 block = "text"
 caption = "Text, Centered. Neat."
@@ -118,8 +118,8 @@ margin = "50"
 margin_y = ""
 row_alignment = "center"
 template = "block-text"
-width = ""
-x = "center"
+width = 30
+align_x = "center"
 [[collection_layout_builder]]
 block = "media-2"
 row_alignment = "between"
@@ -131,14 +131,14 @@ color = ""
 image = "https://jesserieser.brandlew.co/uploads/wired-10.jpg"
 margin_y = 100
 width = 40
-x = "start"
+align_x = "start"
 [collection_layout_builder.image_2]
 caption = "caption"
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/wired-11.jpg"
 margin_y = 100
 width = 40
-x = "end"
+align_x = "end"
 [[collection_layout_builder]]
 block = "text"
 caption = "Annotation."
@@ -147,8 +147,8 @@ margin = "50"
 margin_y = ""
 row_alignment = "center"
 template = "block-text"
-width = ""
-x = "center"
+width = 30
+align_x = "center"
 [[collection_layout_builder]]
 block = "media-2"
 row_alignment = "between"
@@ -160,14 +160,14 @@ color = ""
 image = "https://jesserieser.brandlew.co/uploads/wired-12.jpg"
 margin_y = 100
 width = 40
-x = "start"
+align_x = "start"
 [collection_layout_builder.image_2]
 caption = ""
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/wired-13.jpg"
 margin_y = 300
 width = 40
-x = "start"
+align_x = "start"
 [[collection_layout_builder]]
 block = "media-1"
 caption = ""
@@ -177,7 +177,7 @@ margin_y = 50
 row_alignment = "between"
 row_height = 25
 template = "block-media"
-width = 100
-x = "center"
+width = 80
+align_x = "center"
 
 +++
