@@ -18,3 +18,8 @@ fields:
   config: {}
   template: row-element
   label: Layout Settings
+- name: alignment
+  type: include
+  config: {}
+  template: media-alignment
+  label: Alignment
