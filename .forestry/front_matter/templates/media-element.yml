@@ -100,3 +100,8 @@ fields:
       file: 
       path: 
   label: Top Margin (Y)
+- name: alignment
+  type: include
+  config: {}
+  template: media-alignment
+  label: Alignment
