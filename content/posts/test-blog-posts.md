@@ -1,5 +1,8 @@
 +++
+blog_builder = []
+caption = ""
 date = 2020-01-14T07:00:00Z
+news_category = ["press"]
 theme_color = "#FDCD7E"
 title = "Test Blog Posts"
 
