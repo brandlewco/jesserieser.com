@@ -32,3 +32,8 @@ fields:
   config: {}
   template: row-element
   label: Layout Settings
+- name: image_3
+  type: include
+  config: {}
+  template: media-element
+  label: image plain
