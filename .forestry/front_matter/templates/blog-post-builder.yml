@@ -13,6 +13,18 @@ fields:
   config:
     required: false
   label: Caption
+- name: news_category
+  type: select
+  default: ''
+  config:
+    required: false
+    options: []
+    source:
+      type: documents
+      section: 
+      file: data/categories/categories.toml
+      path: news
+  label: News Category
 - name: date
   type: datetime
   label: Date
