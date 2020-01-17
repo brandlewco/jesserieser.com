@@ -30,10 +30,11 @@ x = "start"
 caption = "caption"
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/wired-2.jpg"
-margin_y = 50
-width = 40
+margin_y = ""
+width = ""
 x = "start"
 [[collection_layout_builder]]
+align_x = "center"
 block = "media-1"
 caption = "Caption"
 color = ""
@@ -43,7 +44,6 @@ row_alignment = "between"
 row_height = 25
 template = "block-media"
 width = ""
-align_x = "center"
 [[collection_layout_builder]]
 block = "media-mixed"
 row_alignment = "between"
@@ -55,11 +55,12 @@ margin_y = 200
 width = 50
 x = "start"
 [collection_layout_builder.text]
+align_x = "center"
 caption = "Mixed Media Block. Caption or descriptive text goes here."
 color = "#4A4A4A"
+margin = "50"
 margin_y = "200"
 width = "40"
-align_x = "center"
 [[collection_layout_builder]]
 block = "media-2"
 row_alignment = "between"
@@ -113,10 +114,11 @@ x = "center"
 block = "text"
 caption = "Text, Centered. Neat."
 color = "#D0021B"
-margin_y = 200
+margin = "50"
+margin_y = ""
 row_alignment = "center"
 template = "block-text"
-width = 20
+width = ""
 x = "center"
 [[collection_layout_builder]]
 block = "media-2"
@@ -141,10 +143,11 @@ x = "end"
 block = "text"
 caption = "Annotation."
 color = "#D0021B"
-margin_y = 100
+margin = "50"
+margin_y = ""
 row_alignment = "center"
 template = "block-text"
-width = 20
+width = ""
 x = "center"
 [[collection_layout_builder]]
 block = "media-2"
