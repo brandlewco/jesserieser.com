@@ -1,7 +1,7 @@
 ---
 label: "⎓ new row"
 hide_body: false
-display_field: row_alignment
+display_field: block
 fields:
 - type: text
   hidden: true
