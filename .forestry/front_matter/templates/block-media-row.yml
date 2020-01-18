@@ -25,5 +25,5 @@ fields:
       file: 
       path: 
   label: Row Justification
-  description: start (left) / center (center) / end (right) / between (even space between media)
-    / around (even space outside media)
+  description: start (left) / center (center) / end (right) / between (even space
+    between media) / around (even space outside media)
