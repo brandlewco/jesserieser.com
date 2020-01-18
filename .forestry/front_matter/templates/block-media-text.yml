@@ -8,12 +8,15 @@ fields:
   label: block
   name: block
   default: media-text
-- type: include
-  name: text
-  label: Text
-  template: text-element
+- name: text
+  type: textarea
+  default: ''
   config:
-    template: text-element
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Text
 - type: select
   name: text_size
   config:
@@ -45,7 +48,7 @@ fields:
     - wide
     - wider
     - widest
-  label: Text Size
+  label: Text Tracking
   default: normal
 - type: select
   name: width
