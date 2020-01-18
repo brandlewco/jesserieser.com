@@ -58,7 +58,7 @@ caption = "Jacket Face"
 color = "#F58623"
 image = "https://jesserieser.brandlew.co/uploads/phx-4.jpg"
 margin_x = "0%"
-margin_y = "200"
+margin_y = "400"
 template = "block-media-element"
 width = "50"
 [[collection_layout_builder]]
