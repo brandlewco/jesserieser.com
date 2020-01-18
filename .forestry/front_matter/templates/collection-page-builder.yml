@@ -48,7 +48,7 @@ fields:
     schema:
       format: markdown
   description: Write the project brief here
-  - name: row_alignment
+- name: row_alignment
   type: select
   default: between
   config:
