@@ -7,3 +7,21 @@ fields:
   label: block
   name: block
   default: media-row
+- name: row_alignment
+  type: select
+  default: between
+  config:
+    required: false
+    options:
+    - start
+    - center
+    - end
+    - between
+    - around
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Row Justification
+  description: align left (start) / align center (center) / align right (end)
