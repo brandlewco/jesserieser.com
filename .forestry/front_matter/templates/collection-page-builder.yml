@@ -65,7 +65,8 @@ fields:
       file: 
       path: 
   label: First Row Justification
-  description: align left (start) / align center (center) / align right (end)
+  description: start (left) / center (center) / end (right) / between (even space     between
+    media) / around (even space outside media)
 - name: collection_layout_builder
   type: blocks
   label: Layout Builder
@@ -75,7 +76,6 @@ fields:
   - block-media
   - block-media-2
   - block-media-mix
-  - block-text
   config:
     min: 
     max: 
