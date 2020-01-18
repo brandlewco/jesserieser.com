@@ -48,6 +48,24 @@ fields:
     schema:
       format: markdown
   description: Write the project brief here
+  - name: row_alignment
+  type: select
+  default: between
+  config:
+    required: false
+    options:
+    - start
+    - center
+    - end
+    - between
+    - around
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Firs Row Justification
+  description: align left (start) / align center (center) / align right (end)
 - name: collection_layout_builder
   type: blocks
   label: Layout Builder
