@@ -22,15 +22,15 @@ fields:
       section: ''
       path: ''
     options:
-    - 'xs'
-    - 'sm'
-    - 'base'
-    - 'lg'
-    - '2xl'
-    - '4xl'
-    - '6xl'
+    - xs
+    - sm
+    - base
+    - lg
+    - 2xl
+    - 4xl
+    - 6xl
   label: Text Size
-  default: '2xl'
+  default: 2xl
 - type: select
   name: text_tracking
   config:
@@ -39,14 +39,14 @@ fields:
       section: ''
       path: ''
     options:
-    - 'tighter'
-    - 'tight'
-    - 'normal'
-    - 'wide'
-    - 'wider'
-    - 'widest'
+    - tighter
+    - tight
+    - normal
+    - wide
+    - wider
+    - widest
   label: Text Size
-  default: 'normal'    
+  default: normal
 - type: select
   name: width
   config:
@@ -71,7 +71,7 @@ fields:
   default: '50'
 - name: margin_left
   type: select
-  default: '0%'
+  default: 0%
   config:
     required: false
     options:
@@ -105,7 +105,7 @@ fields:
   description: 0%-100% from the left margin
 - name: margin_right
   type: select
-  default: '0%'
+  default: 0%
   config:
     required: false
     options:
