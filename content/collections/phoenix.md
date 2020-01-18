@@ -48,7 +48,7 @@ template = "block-media-element"
 width = "70"
 [[collection_layout_builder]]
 block = "media-row"
-row_alignment = "between"
+row_alignment = "around"
 template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
