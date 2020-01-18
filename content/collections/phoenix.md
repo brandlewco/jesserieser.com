@@ -11,7 +11,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-row_alignment = "start"
+row_alignment = "between"
 theme_color = "#fb7846"
 title = "Phoenix"
 [[collection_layout_builder]]
