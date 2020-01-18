@@ -1,7 +1,7 @@
 ---
 label: "\U0001F524"
 hide_body: false
-display_field: caption
+display_field: text
 fields:
 - type: text
   hidden: true
