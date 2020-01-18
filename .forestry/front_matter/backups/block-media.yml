@@ -1,5 +1,5 @@
 ---
-label: block media
+label: "\U0001F304"
 hide_body: false
 fields:
 - type: text
@@ -7,9 +7,9 @@ fields:
   label: block
   name: block
   default: media-1
-- type: file
+- type: include
   name: image
   label: Image
-- type: text
-  name: caption
-  label: Caption
+  template: media-element
+  config:
+    template: media-element

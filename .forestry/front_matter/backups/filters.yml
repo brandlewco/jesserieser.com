@@ -1,0 +1,19 @@
+---
+label: Filters
+hide_body: true
+fields:
+- name: categories
+  type: tag_list
+  default: []
+  label: categories
+- name: filter
+  type: tag_list
+  default: []
+  label: filter
+- name: news
+  type: tag_list
+  default: []
+  label: news
+  description: blog / news categories
+pages:
+- data/categories/categories.toml

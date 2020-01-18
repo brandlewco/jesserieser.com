@@ -1,0 +1,27 @@
+---
+label: row-two-column
+hide_body: true
+fields:
+- name: row_alignment
+  type: select
+  default: between
+  config:
+    required: false
+    options:
+    - start
+    - center
+    - end
+    - between
+    - around
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Row Alignment
+  description: Left to Right alignment
+- name: row_order
+  type: boolean
+  label: Reverse Row Order
+  default: false
+  description: rows are left to right by default, toggle this to reverse row order.

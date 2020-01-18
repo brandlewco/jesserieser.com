@@ -1,0 +1,26 @@
+---
+label: Featured Collection
+hide_body: false
+display_field: caption
+fields:
+- type: text
+  hidden: true
+  label: block
+  name: block
+  default: featured-collection
+- type: include
+  name: image_1
+  label: Image
+  template: media-element
+- name: meta
+  type: text
+  config:
+    required: false
+  label: Meta Title
+- type: select
+  name: attached_collection
+  config:
+    source:
+      type: pages
+      section: collections
+  label: Attached Collection

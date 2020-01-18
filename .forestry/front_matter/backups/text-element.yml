@@ -1,0 +1,64 @@
+---
+label: text-element
+hide_body: false
+fields:
+- type: text
+  name: caption
+  label: Caption
+- type: color
+  config:
+    color_format: Hex
+  label: Text Color
+  name: color
+- type: select
+  name: width
+  config:
+    source:
+      type: simple
+      section: ''
+      path: ''
+    options:
+    - '10'
+    - '20'
+    - '30'
+    - '33'
+    - '40'
+    - '50'
+    - '60'
+    - '66'
+    - '70'
+    - '80'
+    - '90'
+    - '100'
+  label: Width
+  default: '50'
+- type: select
+  name: x
+  config:
+    source:
+      type: simple
+    options:
+    - start
+    - center
+    - end
+  label: Alignment (X)
+  description: left to right alignment
+  default: start
+- name: margin
+  type: select
+  default: '50'
+  config:
+    required: true
+    options:
+    - '50'
+    - '100'
+    - '200'
+    - '300'
+    - '400'
+    - '500'
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Top Margin

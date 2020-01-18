@@ -207,5 +207,16 @@ margin_x = "40%"
 margin_y = "100"
 template = "block-media-element"
 width = "33"
+[[collection_layout_builder]]
+align_x = "center"
+block = "media-text"
+text = "Balloon Hair?"
+color = "#61DDDF"
+text_size = "2xl"
+text_tracking = "widest"
+margin_x = "40%"
+margin_y = "100"
+template = "block-media-text"
+width = "33"
 
 +++

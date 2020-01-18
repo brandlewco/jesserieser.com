@@ -1,0 +1,83 @@
+---
+label: About - Page Builder
+hide_body: true
+fields:
+- type: text
+  label: Title
+  name: title
+- type: datetime
+  name: date
+  label: Date
+- type: text
+  name: layout
+  label: Layout
+  hidden: true
+  default: blocks
+- type: file
+  name: collection_cover
+  label: Cover Image
+- type: color
+  name: theme_color
+  config:
+    color_format: Hex
+  label: Theme Color
+- name: navigation_theme
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - black
+    - white
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Navigation Theme
+- type: textarea
+  name: collection_description
+  label: Description
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+  hidden: true
+- name: header_col_1
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Header Column 1
+- name: header_col_2
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Header Column 2
+- name: header_col_3
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Header Column 3
+- type: blocks
+  name: page_sections
+  label: Page Sections
+  template_types:
+  - block-modal
+- type: file
+  name: cover_image
+  label: Social Media Card
+  description: This image is what appears in OpenGraph previews and image masks
+pages:
+- content/about/_index.md

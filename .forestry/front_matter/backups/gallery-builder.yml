@@ -1,6 +1,7 @@
 ---
 label: gallery-builder
 hide_body: true
+display_field: title
 fields:
 - type: text
   label: Gallery Title
@@ -23,5 +24,21 @@ fields:
   label: Cover Image
   description: This image is what appears in OpenGraph previews and image masks
   hidden: false
-pages:
-- content/gallery/amtrak.md
+- type: tag_list
+  name: gallery_tags
+  label: Gallery Tags
+- name: date
+  type: datetime
+  label: date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: now
+  hidden: true
+- name: gallery_multi
+  type: image_gallery
+  config: {}
+  label: Gallery
