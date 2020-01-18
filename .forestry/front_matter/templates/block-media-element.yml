@@ -54,6 +54,28 @@ fields:
   label: Row Alignment / Top to Bottom (Y)
   description: align top (start) / align center (center) / align bottom (end)
   default: start
+- name: margin_y
+  type: select
+  default: '50'
+  config:
+    required: false
+    options:
+    - "-50"
+    - "-100"
+    - "-200"
+    - '50'
+    - '100'
+    - '200'
+    - '300'
+    - '400'
+    - '500'
+    - '0'
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Top Margin (Y)
 - name: margin_left
   type: select
   default: 0%
@@ -122,25 +144,3 @@ fields:
       path: 
   label: Right Margin (X)
   description: 0%-100% from the right margin
-- name: margin_y
-  type: select
-  default: '50'
-  config:
-    required: false
-    options:
-    - "-50"
-    - "-100"
-    - "-200"
-    - '50'
-    - '100'
-    - '200'
-    - '300'
-    - '400'
-    - '500'
-    - '0'
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Top Margin (Y)
