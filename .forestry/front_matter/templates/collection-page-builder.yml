@@ -114,6 +114,11 @@ fields:
   type: boolean
   label: Archive
   description: Archive Collection to remove it from the flow of featured collections
+- name: collection_hidden
+  type: boolean
+  label: Hide Collection
+  description: Don't show this collection in the all works sorter, accessible only
+    through direct link.
 pages:
 - content/collections/addidas.md
 - content/collections/xmas-in-america.md
