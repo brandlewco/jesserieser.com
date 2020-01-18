@@ -68,7 +68,7 @@ caption = "Bad Posture"
 color = "#4A70E2"
 image = "https://jesserieser.brandlew.co/uploads/phx-5.jpg"
 margin_x = ""
-margin_y = "50"
+margin_y = "200"
 template = "block-media-element"
 width = "30"
 
