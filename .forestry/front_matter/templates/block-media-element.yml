@@ -41,9 +41,9 @@ fields:
     - '90'
     - '100'
   label: Media Width
-  default: '50'
+  default: '33'
 - type: select
-  name: align_x
+  name: align_y
   config:
     source:
       type: simple
@@ -51,15 +51,16 @@ fields:
     - start
     - center
     - end
-  label: Media Alignment (X)
-  description: align left (start) / align center (center) / align right (end)
+  label: Row Alignment / Top to Bottom (Y)
+  description: align top (start) / align center (center) / align bottom (end)
   default: start
-- name: margin_x
+- name: margin_left
   type: select
-  default: '0'
+  default: 0%
   config:
     required: false
     options:
+    - 0%
     - 5%
     - 10%
     - 15%
@@ -80,7 +81,6 @@ fields:
     - 90%
     - 95%
     - 100%
-    - 0%
     source:
       type: simple
       section: 
@@ -88,6 +88,40 @@ fields:
       path: 
   label: Left Margin (X)
   description: 0%-100% from the left margin
+- name: margin_right
+  type: select
+  default: 0%
+  config:
+    required: false
+    options:
+    - 0%
+    - 5%
+    - 10%
+    - 15%
+    - 20%
+    - 25%
+    - 30%
+    - 35%
+    - 40%
+    - 45%
+    - 50%
+    - 55%
+    - 60%
+    - 65%
+    - 70%
+    - 75%
+    - 80%
+    - 85%
+    - 90%
+    - 95%
+    - 100%
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Right Margin (X)
+  description: 0%-100% from the right margin
 - name: margin_y
   type: select
   default: '50'

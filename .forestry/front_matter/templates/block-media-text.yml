@@ -72,6 +72,18 @@ fields:
     - '100'
   label: Media Width
   default: '50'
+- type: select
+  name: align_y
+  config:
+    source:
+      type: simple
+    options:
+    - start
+    - center
+    - end
+  label: Row Alignment / Top to Bottom (Y)
+  description: align top (start) / align center (center) / align bottom (end)
+  default: start
 - name: margin_left
   type: select
   default: 0%
