@@ -64,7 +64,7 @@ fields:
       section: 
       file: 
       path: 
-  label: Firs Row Justification
+  label: First Row Justification
   description: align left (start) / align center (center) / align right (end)
 - name: collection_layout_builder
   type: blocks
