@@ -24,4 +24,5 @@ fields:
       file: 
       path: 
   label: Row Justification
-  description: align left (start) / align center (center) / align right (end)
+  description: start (left) / center (center) / end (right) / between (even inside)
+    / around (even outside)
