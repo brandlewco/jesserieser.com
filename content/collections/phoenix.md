@@ -169,7 +169,7 @@ template = "block-media-text"
 text = "Lego **Land**"
 text_size = "2xl"
 text_tracking = "widest"
-width = "33"
+width = "20"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
