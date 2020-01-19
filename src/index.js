@@ -90,7 +90,7 @@ function init() {
           items = [],
           figureEl,
           linkEl,
-          size,
+          // size,
           imgEl,
           item;
 
@@ -106,8 +106,8 @@ function init() {
           linkEl = figureEl.children[0]; // <a> element
           imgEl = linkEl.children[0]; // <img>
 
-          size = linkEl.getAttribute("data-size");
-          size = size && size.split("x");
+          // size = linkEl.getAttribute("data-size");
+          // size = size && size.split("x");
 
           // create slide object
           item = {
@@ -125,7 +125,7 @@ function init() {
 
           if (linkEl.children.length > 0) {
             // <img> thumbnail element, retrieving thumbnail url
-            item.msrc = linkEl.children[0].getAttribute("src");
+            item.msrc = item.src;
           }
 
           item.el = figureEl; // save link to element for getThumbBoundsFn
@@ -274,18 +274,18 @@ function init() {
 
         // Pass data to PhotoSwipe and initialize it
         gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
-        gallery.listen("imageLoadComplete", function(index, item) {
-          if (item.h < 1 || item.w < 1) {
-            const img = new Image();
-            img.onload = () => {
-              item.w = img.width;
-              item.h = img.height;
-              gallery.invalidateCurrItems();
-              gallery.updateSize(true);
-            };
-            img.src = item.src;
-          }
-        });
+        // gallery.listen("imageLoadComplete", function(index, item) {
+        //   if (item.h < 1 || item.w < 1) {
+        //     const img = new Image();
+        //     img.onload = () => {
+        //       item.w = img.width;
+        //       item.h = img.height;
+        //       gallery.invalidateCurrItems();
+        //       gallery.updateSize(true);
+        //     };
+        //     img.src = item.src;
+        //   }
+        // });
         gallery.listen("afterChange", function() {
           Element.prototype.documentOffsetTop = function() {
             return this.offsetTop + (this.offsetParent ? this.offsetParent.documentOffsetTop() : 0);
@@ -304,7 +304,6 @@ function init() {
             left: 0,
             behavior: "smooth"
           });
-          console.log(topPos);
         });
         gallery.init();
       };

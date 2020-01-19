@@ -1,5 +1,5 @@
 
   <section class="w-full {{with .Section.align_y}}sm:self-{{.}}{{end}} {{with .Section.width}}sm:w-{{.}}/100{{end}} mt-4 {{with .Section.margin_y}}sm:mt-{{.}}{{end}} ml-0 {{with .Section.margin_left}}sm:ml-{{.}}{{end}} mr-0 {{with .Section.margin_right}}sm:mr-{{.}}{{end}} highlight" data-sal="slide-down">
-      <p {{with .Section.color}}style="color:{{.}};"{{end}} class="{{with .Section.text_size }}text-{{.}}{{end}} {{with .Section.text_tracking}}tracking-{{.}}{{end}}">{{ .Section.text | markdownify }}</p>
+      <p {{with .Section.color}}style="color:{{.}};"{{end}} class="break-words {{with .Section.text_size }}text-{{.}}{{end}} {{with .Section.text_tracking}}tracking-{{.}}{{end}}">{{ .Section.text | markdownify }}</p>
   </section>  
 
