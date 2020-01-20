@@ -14,167 +14,229 @@ navigation_theme = "black"
 theme_color = "#7e7e9b"
 title = "Changing Landscape of Retail"
 [[collection_layout_builder]]
-block = "media-2"
-row_alignment = "between"
-row_height = 75
-row_order = false
-template = "block-media-2"
-[collection_layout_builder.image_1]
-caption = "caption"
-color = ""
+align_x = "start"
+block = "media-element"
+caption = "Bubble Girl"
+color = "#7e7e9b"
 image = "https://jesserieser.brandlew.co/uploads/retail-1.jpg"
-margin_y = 50
-width = 40
-align_x = "start"
-[collection_layout_builder.image_2]
-caption = "caption"
-color = ""
-image = "https://jesserieser.brandlew.co/uploads/retail-5.jpg"
-margin_y = 50
-width = 40
-align_x = "start"
+margin_left = "0"
+margin_right = "0"
+margin_y = "50"
+template = "block-media-element"
+width = "33"
 [[collection_layout_builder]]
-block = "media-1"
-caption = "Caption"
-color = ""
-image = "https://jesserieser.brandlew.co/uploads/retail-16.jpg"
-margin_y = 200
-row_alignment = "between"
-row_height = 25
-template = "block-media"
-width = 30
-align_x = "center"
-[[collection_layout_builder]]
-block = "media-mixed"
-row_alignment = "between"
-row_order = true
-template = "block-media-mix"
-[collection_layout_builder.image_1]
-image = "https://jesserieser.brandlew.co/uploads/retail-12.jpg"
-margin_y = 200
-width = 50
-align_x = "start"
-[collection_layout_builder.text]
-caption = "Mixed Media Block. Caption or descriptive text goes here."
-color = "#4A4A4A"
-margin_y = "200"
-width = "40"
-align_x = "center"
-[[collection_layout_builder]]
-block = "media-2"
-row_alignment = "between"
-row_height = 25
-template = "block-media-2"
-[collection_layout_builder.image_1]
-caption = "caption"
-color = ""
-image = "https://jesserieser.brandlew.co/uploads/retail-20.jpg"
-margin_y = 50
-width = 33
-align_x = "start"
-[collection_layout_builder.image_2]
-caption = "caption"
-color = ""
-image = "https://jesserieser.brandlew.co/uploads/retail-21.jpg"
-margin_y = 300
-width = 50
 align_x = "end"
-[[collection_layout_builder]]
-block = "media-2"
-row_alignment = "between"
-row_height = 25
-template = "block-media-2"
-[collection_layout_builder.image_1]
-caption = ""
-color = ""
-image = "https://jesserieser.brandlew.co/uploads/retail-14.jpg"
-margin_y = 50
-width = 40
-align_x = "start"
-[collection_layout_builder.image_2]
-caption = ""
-color = ""
-image = "https://jesserieser.brandlew.co/uploads/retail-6.jpg"
-margin_y = 300
-width = 40
-align_x = "start"
-[[collection_layout_builder]]
-block = "media-1"
-caption = ""
-color = ""
-image = "https://jesserieser.brandlew.co/uploads/retail-19.jpg"
-margin_y = 50
-row_alignment = "between"
-row_height = 25
-template = "block-media"
-width = 40
-align_x = "center"
-[[collection_layout_builder]]
-block = "text"
-caption = "Text, Centered. Neat."
-color = "#D0021B"
-margin_y = 200
-row_alignment = "center"
-template = "block-text"
-width = 20
-align_x = "center"
-[[collection_layout_builder]]
-block = "media-2"
-row_alignment = "between"
-row_height = 25
-template = "block-media-2"
-[collection_layout_builder.image_1]
-caption = ""
-color = ""
-image = "https://jesserieser.brandlew.co/uploads/retail-15.jpg"
-margin_y = 100
-width = 40
-align_x = "start"
-[collection_layout_builder.image_2]
-caption = "caption"
-color = ""
-image = "https://jesserieser.brandlew.co/uploads/retail-14.jpg"
-margin_y = 100
-width = 40
-align_x = "end"
-[[collection_layout_builder]]
-block = "text"
-caption = "Annotation."
-color = "#D0021B"
-margin_y = 100
-row_alignment = "center"
-template = "block-text"
-width = 20
-align_x = "center"
-[[collection_layout_builder]]
-block = "media-2"
-row_alignment = "between"
-row_height = 25
-template = "block-media-2"
-[collection_layout_builder.image_1]
-caption = ""
-color = ""
+block = "media-element"
+caption = "Wall Boy"
+color = "#7e7e9b"
 image = "https://jesserieser.brandlew.co/uploads/retail-2.jpg"
-margin_y = 100
-width = 40
-align_x = "start"
-[collection_layout_builder.image_2]
-caption = ""
-color = ""
-image = "https://jesserieser.brandlew.co/uploads/retail-3.jpg"
-margin_y = 300
-width = 40
-align_x = "start"
+margin_y = "200"
+template = "block-media-element"
+width = "40"
 [[collection_layout_builder]]
-block = "media-1"
-caption = ""
-color = ""
-image = "https://jesserieser.brandlew.co/uploads/retail-4.jpg"
-margin_y = 50
-row_alignment = "between"
-row_height = 25
-template = "block-media"
-width = 40
+block = "media-row"
+row_alignment = "start"
+template = "block-media-row"
+[[collection_layout_builder]]
 align_x = "center"
+block = "media-text"
+color = "#7e7e9b"
+margin_left = "10%"
+margin_right = ""
+margin_y = "0"
+template = "block-media-text"
+text = "**JESSE RIESER**"
+text_size = "6xl"
+text_tracking = "widest"
+width = "40"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "center"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_x = "center"
+block = "media-element"
+caption = "Balloon Hair?"
+color = "#7e7e9b"
+image = "https://jesserieser.brandlew.co/uploads/retail-3.jpg"
+margin_left = "0"
+margin_right = "0"
+margin_y = "50"
+template = "block-media-element"
+width = "70"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "end"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_x = "center"
+block = "media-text"
+color = "#7e7e9b"
+margin_left = ""
+margin_right = "0%"
+margin_y = "100"
+template = "block-media-text"
+text = "_PHOTOGRAPHY_"
+text_size = "6xl"
+text_tracking = "widest"
+width = "50"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_x = "start"
+block = "media-element"
+caption = "Jacket Face"
+color = "#7e7e9b"
+image = "https://jesserieser.brandlew.co/uploads/retail-4.jpg"
+margin_left = "0"
+margin_right = "0"
+margin_y = "200"
+template = "block-media-element"
+width = "40"
+[[collection_layout_builder]]
+align_x = "start"
+block = "media-element"
+caption = "Bad Posture"
+color = "#7e7e9b"
+image = "https://jesserieser.brandlew.co/uploads/retail-5.jpg"
+margin_left = "0"
+margin_right = "0"
+margin_y = "100"
+template = "block-media-element"
+width = "33"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_x = "start"
+block = "media-element"
+caption = "Legg"
+color = "#7e7e9b"
+image = "https://jesserieser.brandlew.co/uploads/retail-6.jpg"
+margin_left = "0"
+margin_right = "0"
+margin_y = "100"
+template = "block-media-element"
+width = "33"
+[[collection_layout_builder]]
+align_x = "start"
+block = "media-element"
+caption = "Anger Management"
+color = "#7e7e9b"
+image = "https://jesserieser.brandlew.co/uploads/retail-7.jpg"
+margin_left = "0"
+margin_right = "0"
+margin_y = "400"
+template = "block-media-element"
+width = "50"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "start"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_x = "center"
+block = "media-element"
+caption = "Not Sure At All"
+color = "#7e7e9b"
+image = "https://jesserieser.brandlew.co/uploads/retail-8.jpg"
+margin_left = "0"
+margin_right = "0"
+margin_y = "200"
+template = "block-media-element"
+width = "60"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_x = "start"
+block = "media-element"
+caption = "WATER FACE"
+color = "#7e7e9b"
+image = "https://jesserieser.brandlew.co/uploads/retail-9.jpg"
+margin_left = "0"
+margin_right = "0"
+margin_y = "300"
+template = "block-media-element"
+width = "33"
+[[collection_layout_builder]]
+align_x = "end"
+block = "media-element"
+caption = "Light Demon"
+color = "#7e7e9b"
+image = "https://jesserieser.brandlew.co/uploads/retail-10.jpg"
+margin_y = "100"
+template = "block-media-element"
+width = "40"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "center"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_x = "center"
+block = "media-element"
+caption = "woaaah"
+color = "#7e7e9b"
+image = "https://jesserieser.brandlew.co/uploads/retail-11.jpg"
+margin_left = "0"
+margin_right = "0"
+margin_y = "300"
+template = "block-media-element"
+width = "70"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_x = "start"
+block = "media-element"
+caption = "Very Casual Reading"
+color = "#7e7e9b"
+image = "https://jesserieser.brandlew.co/uploads/retail-12.jpg"
+margin_left = "0"
+margin_right = "0"
+margin_y = "400"
+template = "block-media-element"
+width = "33"
+[[collection_layout_builder]]
+align_x = "start"
+block = "media-element"
+caption = "Stuck In Ice Block"
+color = "#7e7e9b"
+image = "https://jesserieser.brandlew.co/uploads/retail-13.jpg"
+margin_left = "0"
+margin_right = "0"
+margin_y = "100"
+template = "block-media-element"
+width = "33"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_x = "start"
+block = "media-element"
+caption = "Face Transplant"
+color = "#7e7e9b"
+image = "https://jesserieser.brandlew.co/uploads/retail-14.jpg"
+margin_left = "0"
+margin_right = "0"
+margin_y = "400"
+template = "block-media-element"
+width = "33"
+[[collection_layout_builder]]
+align_x = "start"
+block = "media-element"
+caption = "Blind"
+color = "#7e7e9b"
+image = "https://jesserieser.brandlew.co/uploads/retail-15.jpg"
+margin_left = "0"
+margin_right = "0"
+margin_y = "100"
+template = "block-media-element"
+width = "50"
 
 +++

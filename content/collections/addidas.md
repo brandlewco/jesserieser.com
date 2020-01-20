@@ -16,198 +16,229 @@ page = "/collections/addidas"
 theme_color = "#4A4A4A"
 title = "Addidas"
 [[collection_layout_builder]]
-block = "media-2"
-row_alignment = "between"
-row_height = 75
-row_order = false
-template = "block-media-2"
-[collection_layout_builder.image_1]
 align_x = "start"
-caption = "caption 222"
-color = ""
-image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-1.jpg"
-margin_y = "50"
-width = "33"
-[collection_layout_builder.image_2]
-caption = "caption"
-color = ""
-image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-2.jpg"
-margin_y = 50
-width = 40
-align_x = "start"
-[[collection_layout_builder]]
-align_x = "center"
-block = "media-1"
-caption = "Caption"
-color = ""
-image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-3.jpg"
-margin_y = "50"
-margin_x = "20"
-row_alignment = "start"
-row_height = 25
-row_order = false
-template = "block-media"
-width = "50"
-[[collection_layout_builder]]
-block = "media-mixed"
-row_alignment = "between"
-row_order = true
-template = "block-media-mix"
-[collection_layout_builder.image_1]
-
-caption = ""
-color = ""
-image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-4.jpg"
-margin_y = 200
-width = 50
-align_x = "start"
-[collection_layout_builder.text]
-align_x = "center"
-caption = "Mixed Media Block. Caption or descriptive text goes here."
+block = "media-element"
+caption = "Bubble Girl"
 color = "#4A4A4A"
-margin_y = "200"
-width = "40"
-
-[[collection_layout_builder]]
-block = "media-2"
-row_alignment = "between"
-row_height = 25
-row_order = false
-template = "block-media-2"
-[collection_layout_builder.image_1]
-align_x = "start"
-caption = "caption"
-color = ""
-image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-5.jpg"
-margin_y = 50
+image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-1.jpg"
+margin_left = "0"
+margin_right = "0"
+margin_y = "50"
+template = "block-media-element"
 width = "33"
-[collection_layout_builder.image_2]
+[[collection_layout_builder]]
 align_x = "end"
-caption = "caption"
-color = ""
-image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-6.jpg"
-margin_y = 300
+block = "media-element"
+caption = "Wall Boy"
+color = "#4A4A4A"
+image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-2.jpg"
+margin_y = "200"
+template = "block-media-element"
+width = "40"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "start"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_x = "center"
+block = "media-text"
+color = "#4A4A4A"
+margin_left = "10%"
+margin_right = ""
+margin_y = "0"
+template = "block-media-text"
+text = "**Crazy Explosive Primeknit**"
+text_size = "6xl"
+text_tracking = "widest"
+width = "40"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "center"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_x = "center"
+block = "media-element"
+caption = "Balloon Hair?"
+color = "#4A4A4A"
+image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-3.jpg"
+margin_left = "0"
+margin_right = "0"
+margin_y = "50"
+template = "block-media-element"
+width = "70"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "end"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_x = "center"
+block = "media-text"
+color = "#4A4A4A"
+margin_left = ""
+margin_right = "0%"
+margin_y = "100"
+template = "block-media-text"
+text = "_ADIDAS_"
+text_size = "6xl"
+text_tracking = "widest"
 width = "50"
 [[collection_layout_builder]]
-block = "media-2"
+block = "media-row"
 row_alignment = "between"
-row_height = 25
-row_order = false
-template = "block-media-2"
-[collection_layout_builder.image_1]
+template = "block-media-row"
+[[collection_layout_builder]]
 align_x = "start"
-caption = ""
-color = ""
+block = "media-element"
+caption = "Jacket Face"
+color = "#4A4A4A"
+image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-4.jpg"
+margin_left = "0"
+margin_right = "0"
+margin_y = "200"
+template = "block-media-element"
+width = "40"
+[[collection_layout_builder]]
+align_x = "start"
+block = "media-element"
+caption = "Bad Posture"
+color = "#4A4A4A"
+image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-5.jpg"
+margin_left = "0"
+margin_right = "0"
+margin_y = "100"
+template = "block-media-element"
+width = "33"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_x = "start"
+block = "media-element"
+caption = "Legg"
+color = "#4A4A4A"
+image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-6.jpg"
+margin_left = "0"
+margin_right = "0"
+margin_y = "100"
+template = "block-media-element"
+width = "33"
+[[collection_layout_builder]]
+align_x = "start"
+block = "media-element"
+caption = "Anger Management"
+color = "#4A4A4A"
 image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-7.jpg"
-margin_y = 50
-width = "40"
-[collection_layout_builder.image_2]
-align_x = "start"
-caption = ""
-color = ""
+margin_left = "0"
+margin_right = "0"
+margin_y = "400"
+template = "block-media-element"
+width = "50"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "start"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_x = "center"
+block = "media-element"
+caption = "Not Sure At All"
+color = "#4A4A4A"
 image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-8.jpg"
-margin_y = 300
-width = "40"
+margin_left = "0"
+margin_right = "0"
+margin_y = "200"
+template = "block-media-element"
+width = "60"
 [[collection_layout_builder]]
-
-block = "media-1"
-caption = ""
-color = ""
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_x = "start"
+block = "media-element"
+caption = "WATER FACE"
+color = "#4A4A4A"
 image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-9.jpg"
-margin_y = 50
-row_alignment = "between"
-row_height = 25
-row_order = false
-template = "block-media"
-width = 40
-align_x = "center"
+margin_left = "0"
+margin_right = "0"
+margin_y = "300"
+template = "block-media-element"
+width = "33"
 [[collection_layout_builder]]
-block = "text"
-caption = "Text, Centered. Neat."
-color = "#D0021B"
-margin_y = 200
-row_alignment = "center"
-row_order = false
-template = "block-text"
-width = 20
-align_x = "center"
-[[collection_layout_builder]]
-block = "media-2"
-row_alignment = "between"
-row_height = 25
-row_order = false
-template = "block-media-2"
-[collection_layout_builder.image_1]
-
-caption = ""
-color = ""
-image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-10.jpg"
-margin_y = 100
-width = 40
-align_x = "start"
-[collection_layout_builder.image_2]
-
-caption = "caption"
-color = ""
-image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-11.jpg"
-margin_y = 100
-width = 40
 align_x = "end"
+block = "media-element"
+caption = "Light Demon"
+color = "#4A4A4A"
+image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-10.jpg"
+margin_y = "100"
+template = "block-media-element"
+width = "40"
 [[collection_layout_builder]]
-block = "text"
-caption = "Annotation."
-color = "#D0021B"
-margin_y = 100
+block = "media-row"
 row_alignment = "center"
-row_order = false
-template = "block-text"
-width = 20
-align_x = "center"
+template = "block-media-row"
 [[collection_layout_builder]]
-block = "media-2"
+align_x = "center"
+block = "media-element"
+caption = "woaaah"
+color = "#4A4A4A"
+image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-11.jpg"
+margin_left = "0"
+margin_right = "0"
+margin_y = "300"
+template = "block-media-element"
+width = "70"
+[[collection_layout_builder]]
+block = "media-row"
 row_alignment = "between"
-row_height = 25
-row_order = false
-template = "block-media-2"
-[collection_layout_builder.image_1]
+template = "block-media-row"
+[[collection_layout_builder]]
 align_x = "start"
-caption = ""
-color = ""
+block = "media-element"
+caption = "Very Casual Reading"
+color = "#4A4A4A"
 image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-12.jpg"
-margin_y = 100
-width = "40"
-[collection_layout_builder.image_2]
+margin_left = "0"
+margin_right = "0"
+margin_y = "400"
+template = "block-media-element"
+width = "33"
+[[collection_layout_builder]]
 align_x = "start"
-caption = ""
-color = ""
+block = "media-element"
+caption = "Stuck In Ice Block"
+color = "#4A4A4A"
 image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-13.jpg"
-margin_y = 300
-width = "40"
+margin_left = "0"
+margin_right = "0"
+margin_y = "100"
+template = "block-media-element"
+width = "33"
 [[collection_layout_builder]]
-
-block = "media-1"
-caption = ""
-color = ""
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_x = "start"
+block = "media-element"
+caption = "Face Transplant"
+color = "#4A4A4A"
 image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-14.jpg"
-margin_y = 50
-row_alignment = "between"
-row_height = 25
-row_order = false
-template = "block-media"
-width = 80
-align_x = "center"
+margin_left = "0"
+margin_right = "0"
+margin_y = "400"
+template = "block-media-element"
+width = "33"
 [[collection_layout_builder]]
-
-block = "media-1"
-caption = ""
-color = ""
+align_x = "start"
+block = "media-element"
+caption = "Blind"
+color = "#4A4A4A"
 image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-15.jpg"
-margin_y = 50
-row_alignment = "between"
-row_height = 25
-row_order = false
-template = "block-media"
-width = 80
-align_x = "center"
+margin_left = "0"
+margin_right = "0"
+margin_y = "100"
+template = "block-media-element"
+width = "50"
 
 +++
