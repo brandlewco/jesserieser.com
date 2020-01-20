@@ -108,8 +108,7 @@ function init() {
           linkEl = figureEl.children[0]; // <a> element
           imgEl = linkEl.children[0]; // <img>
 
-          // size = linkEl.getAttribute("data-size");
-          // size = size && size.split("x");
+          // size = linkEl.getAttribute("data-size").split("x");
 
           // create slide object
           item = {
