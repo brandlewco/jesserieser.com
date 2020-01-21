@@ -6,7 +6,7 @@
       <img class="lazyload" src="{{ .Section.image }}?nf_resize=fit&w=1024" data-src="{{ .Section.image }}" alt="{{ .Section.caption }}"/>
     </a>
     {{ if .Section.title }}
-    <figcaption class="absolute w-100 z-10 rellax ml-0 {{with .Section.title_margin_left}}sm:ml-{{.}}{{end}} mr-0 {{with .Section.title_margin_right}}sm:ml-{{.}}{{end}}" style="pointer-events:none;" data-rellax-speed="4" data-rellax-percentage="0">
+    <figcaption class="absolute w-100 z-10 rellax ml-0 {{with .Section.title_margin_left}}sm:ml-{{.}}{{end}} mr-0 {{with .Section.title_margin_right}}sm:ml-{{.}}{{end}}" style="pointer-events:none; bottom: 35%;" data-rellax-speed="4" data-rellax-percentage="0">
       <h2 class="text-black uppercase text-6xl tracking-widest">{{ .Section.title }}</h2>
     </figcaption>
     {{ end }}
