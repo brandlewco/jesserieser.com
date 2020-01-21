@@ -5,7 +5,7 @@ date: 2017-11-01T23:00:00.000+00:00
 page_sections:
 - template: block-feature-collection
   block: featured-collection
-  width: '66'
+  width: '33'
   align_x: end
   margin_y: '100'
   image: https://jesserieser.brandlew.co/uploads/rieser-adidas-10.jpg
@@ -16,9 +16,9 @@ page_sections:
   margin_x: 5%
 - template: block-feature-collection
   block: featured-collection
-  width: '60'
+  width: '40'
   align_x: start
-  margin_y: '100'
+  margin_y: '300'
   image: https://jesserieser.brandlew.co/uploads/rieser-xmas-25.jpg
   attached_collection: collections/xmas-in-america.md
   caption: XMAS IN AMERICA
@@ -30,14 +30,14 @@ page_sections:
   row_alignment: between
 - template: block-modal-blog
   block: modal-blog
-  width: '50'
+  width: '30'
   align_x: start
   margin_x: '0'
   margin_y: '50'
   title: Blog Title
   image: ''
   caption: ''
-  color: ''
+  color: "#FFF59A"
   attached_blog: posts/test-blog-posts.md
   align_y: ''
   margin_left: ''
@@ -53,6 +53,9 @@ page_sections:
   attached_collection: collections/time.md
   meta: Grand Canyon 100th Anniversary 
   margin_x: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: between
 - template: block-feature-collection
   block: featured-collection
   width: '60'
@@ -87,6 +90,7 @@ feature_description: Jesse Rieser is an award winning photographer and blah blah
   volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
   lobortis nisl ut aliquip ex ea commodo consequat.
 navigation_theme: white
+row_alignment: between
 
 ---
 ## Click the collections link above to preview collections.
