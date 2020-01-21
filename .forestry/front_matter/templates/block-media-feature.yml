@@ -12,14 +12,26 @@ fields:
   name: image
   label: Image
 - type: text
-  name: caption
-  label: Caption
+  name: title
+  label: Collection Title
 - type: color
   config:
     color_format: Hex
   label: Color
   name: color
   description: Background color show on image hover
+- name: meta
+  type: text
+  config:
+    required: false
+  label: Meta Title
+- type: select
+  name: attached_collection
+  config:
+    source:
+      type: pages
+      section: collections
+  label: Attached Collection
 - type: select
   name: width
   config:
