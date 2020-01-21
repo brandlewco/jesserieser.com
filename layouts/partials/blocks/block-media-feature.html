@@ -6,12 +6,12 @@
       <img class="lazyload" src="{{ .Section.image }}?nf_resize=fit&w=1024" data-src="{{ .Section.image }}" alt="{{ .Section.caption }}"/>
     </a>
     {{ if .Section.title }}
-    <figcaption class="absolute w-100 z-10 rellax ml-0 {{with .Section.title_margin_left}}sm:ml-{{.}}{{end}} mr-0 {{with .Section.title_margin_right}}sm:ml-{{.}}{{end}}" style="pointer-events:none; bottom: 35%;" data-rellax-speed="4" data-rellax-percentage="0">
-      <h2 class="text-black uppercase text-6xl tracking-widest">{{ .Section.title }}</h2>
+    <figcaption class="absolute w-100 z-10 rellax px-4 sm:px-auto sm:ml-0 mb-0 bg-transparent sm:bg-white" style="pointer-events:none; bottom: 35%; {{with .Section.title_margin_left}}margin-left:{{.}};{{end}} {{with .Section.title_margin_right}}margin-right:{{.}};{{end}}" data-rellax-speed="3" data-rellax-percentage="0">
+      <h2 class="text-white sm:text-black uppercase text-4xl sm:text-6xl tracking-widest">{{ .Section.title }}</h2>
     </figcaption>
     {{ end }}
-  </figure> 
-  {{ if .Section.meta }}
-  <h6 class="{{if eq .Section.align_x "start" }}text-left right-0 {{else}}text-right left-0{{end}} text-black uppercase tracking-widest">{{ .Section.meta }}</h2>
-  {{ end }} 
+  </figure>
+<!-- {{ if .Section.meta }}
+<h6 class="mb-0 ml-0 text-black uppercase tracking-widest">{{ .Section.meta }}</h2>
+{{ end }}  -->
 <!-- </section> -->

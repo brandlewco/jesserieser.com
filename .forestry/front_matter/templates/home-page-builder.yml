@@ -19,7 +19,7 @@ fields:
   name: feature_cover
   label: Feature Cover Image
 - type: color
-  name: theme_color
+  name: home_theme_color
   config:
     color_format: Hex
   label: Theme Color

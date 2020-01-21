@@ -17,13 +17,13 @@ page_sections:
   align_y: ''
   margin_left: ''
   margin_right: ''
-  title_margin_left: 95%
+  title_margin_left: 90%
   title_margin_right: ''
 - template: block-media-feature
   block: media-feature
-  width: '40'
+  width: '30'
   align_x: start
-  margin_y: '200'
+  margin_y: '400'
   image: https://jesserieser.brandlew.co/uploads/rieser-xmas-25.jpg
   attached_collection: collections/xmas-in-america.md
   title: XMAS IN AMERICA
@@ -33,29 +33,16 @@ page_sections:
   align_y: ''
   margin_left: ''
   margin_right: ''
-  title_margin_left: ''
-  title_margin_right: 95%
+  title_margin_left: '-75%'
+  title_margin_right: 
 - template: block-media-row
   block: media-row
   row_alignment: between
-- template: block-modal-blog
-  block: modal-blog
-  width: '30'
-  align_x: start
-  margin_x: '0'
-  margin_y: '50'
-  title: ''
-  image: ''
-  color: "#FFF59A"
-  attached_blog: posts/test-blog-posts.md
-  align_y: ''
-  margin_left: ''
-  margin_right: ''
 - template: block-media-feature
   block: media-feature
-  width: '60'
+  width: '33'
   align_x: end
-  margin_y: '100'
+  margin_y: '0'
   image: https://jesserieser.brandlew.co/uploads/time-5.jpg
   title: Time
   color: "#fdcfb1"
@@ -63,16 +50,29 @@ page_sections:
   meta: Grand Canyon 100th Anniversary 
   margin_x: ''
   align_y: ''
-  margin_left: ''
+  margin_left: '15%'
   margin_right: ''
-  title_margin_left: ''
+  title_margin_left: '-30%'
   title_margin_right: ''
+- template: block-modal-blog
+  block: modal-blog
+  width: '20'
+  align_x: start
+  margin_x: '0'
+  margin_y: '400'
+  title: ''
+  image: ''
+  color: "#FFF59A"
+  attached_blog: posts/test-blog-posts.md
+  align_y: ''
+  margin_left: ''
+  margin_right: '10%'
 - template: block-media-row
   block: media-row
-  row_alignment: between
+  row_alignment: around
 - template: block-media-feature
   block: media-feature
-  width: '60'
+  width: '30'
   align_x: start
   image: https://jesserieser.brandlew.co/uploads/wired-2.jpg
   title: Wired
@@ -84,13 +84,13 @@ page_sections:
   align_y: ''
   margin_left: ''
   margin_right: ''
-  title_margin_left: ''
+  title_margin_left: '90%'
   title_margin_right: ''
 - template: block-media-feature
   block: media-feature
-  width: '60'
+  width: '40'
   align_x: end
-  margin_y: '100'
+  margin_y: '300'
   image: https://jesserieser.brandlew.co/uploads/geezers-1.jpg
   attached_collection: collections/star-geezers.md
   title: Star Geezers
@@ -100,9 +100,9 @@ page_sections:
   align_y: ''
   margin_left: ''
   margin_right: ''
-  title_margin_left: ''
+  title_margin_left: '-45%'
   title_margin_right: ''
-theme_color: "#B99E8E"
+home_theme_color: "#B99E8E"
 collection_description: ''
 collection_content: ''
 cover_image: ''
