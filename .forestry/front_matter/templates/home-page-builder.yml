@@ -8,6 +8,8 @@ fields:
 - type: datetime
   name: date
   label: Date
+  hidden: true
+  default: now
 - type: text
   name: layout
   label: Layout
@@ -37,7 +39,7 @@ fields:
   label: Navigation Theme
 - type: textarea
   name: feature_description
-  label: Project Description
+  label: Introduction
   config:
     wysiwyg: true
     schema:
@@ -47,8 +49,10 @@ fields:
   name: page_sections
   label: Page Sections
   template_types:
-  - block-feature-collection
+  - block-media-feature
   - block-modal-blog
+  - block-media-text
+  - block-media-row
 - type: file
   name: cover_image
   label: Social Media Card
