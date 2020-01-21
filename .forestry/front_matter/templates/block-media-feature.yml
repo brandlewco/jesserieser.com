@@ -87,7 +87,7 @@ fields:
       section: 
       file: 
       path: 
-  label: Top Margin (Y)
+  label: Media Top Margin (Y)
 - name: margin_left
   type: select
   default: 0%
@@ -120,7 +120,7 @@ fields:
       section: 
       file: 
       path: 
-  label: Left Margin (X)
+  label: Media Left Margin (X)
   description: 0%-100% from the left margin
 - name: margin_right
   type: select
@@ -154,5 +154,29 @@ fields:
       section: 
       file: 
       path: 
-  label: Right Margin (X)
+  label: Media Right Margin (X)
   description: 0%-100% from the right margin
+- name: title_margin_left
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: simple
+      section: home-selected-works
+      file: content/_index.md
+      path: 
+  label: Title Left Margin (X)
+- name: title_margin_right
+  type: select
+  default: ''
+  config:
+    required: false
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Title Right Margin (X)
