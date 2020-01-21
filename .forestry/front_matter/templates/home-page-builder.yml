@@ -45,6 +45,25 @@ fields:
     schema:
       format: markdown
   description: Used for the top of the collection, and google meta data. (300 characters)
+- name: row_alignment
+  type: select
+  default: between
+  config:
+    required: false
+    options:
+    - start
+    - center
+    - end
+    - between
+    - around
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: First Row Justification
+  description: start (left) / center (center) / end (right) / between (even space     between
+    media) / around (even space outside media)
 - type: blocks
   name: page_sections
   label: Page Sections

@@ -4,9 +4,11 @@
 </section>
 <section data-hue="page" class="pt-8 mx-auto bg-white">
   <div class="px-8 xl:px-16">
+    <section class="block-media block-hover flex flex-wrap mx-auto h-auto {{with .Params.row_alignment}}sm:justify-{{.}}{{else}}sm:justify-between{{end}}">
     {{- range .Params.page_sections -}}
     {{ partial (printf "blocks/block-%s.html" .block) (dict "Section" . "Page" $ "Site" $.Site) }}
     {{- end -}}
+    </section>
   </div>
   {{ partial "feature_footer" .}}
 </section>
