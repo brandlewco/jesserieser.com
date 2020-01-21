@@ -33,8 +33,8 @@ page_sections:
   align_y: ''
   margin_left: ''
   margin_right: ''
-  title_margin_left: '-75%'
-  title_margin_right: 
+  title_margin_left: "-75%"
+  title_margin_right: ''
 - template: block-media-row
   block: media-row
   row_alignment: between
@@ -50,9 +50,9 @@ page_sections:
   meta: Grand Canyon 100th Anniversary 
   margin_x: ''
   align_y: ''
-  margin_left: '15%'
+  margin_left: 15%
   margin_right: ''
-  title_margin_left: '-30%'
+  title_margin_left: "-30%"
   title_margin_right: ''
 - template: block-modal-blog
   block: modal-blog
@@ -66,7 +66,7 @@ page_sections:
   attached_blog: posts/test-blog-posts.md
   align_y: ''
   margin_left: ''
-  margin_right: '10%'
+  margin_right: 10%
 - template: block-media-row
   block: media-row
   row_alignment: around
@@ -84,7 +84,7 @@ page_sections:
   align_y: ''
   margin_left: ''
   margin_right: ''
-  title_margin_left: '90%'
+  title_margin_left: 90%
   title_margin_right: ''
 - template: block-media-feature
   block: media-feature
@@ -100,7 +100,7 @@ page_sections:
   align_y: ''
   margin_left: ''
   margin_right: ''
-  title_margin_left: '-45%'
+  title_margin_left: "-45%"
   title_margin_right: ''
 home_theme_color: "#B99E8E"
 collection_description: ''
@@ -113,7 +113,7 @@ feature_description: Jesse Rieser is an award winning photographer and blah blah
   elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
   volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
   lobortis nisl ut aliquip ex ea commodo consequat.
-navigation_theme: white
+navigation_theme: black
 row_alignment: between
 
 ---
