@@ -1,7 +1,7 @@
 ---
-label: Feature Block
+label: "⭐️ Feature Block"
 hide_body: false
-display_field: caption
+display_field: title
 fields:
 - type: text
   hidden: true
