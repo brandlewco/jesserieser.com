@@ -5,7 +5,7 @@ date: 2017-11-01T23:00:00.000+00:00
 page_sections:
 - template: block-media-feature
   block: media-feature
-  width: '33'
+  width: '40'
   align_x: end
   margin_y: '100'
   image: https://jesserieser.brandlew.co/uploads/rieser-adidas-10.jpg
@@ -14,17 +14,27 @@ page_sections:
   attached_collection: collections/addidas.md
   meta: Crazy Explosive Primeknit
   margin_x: 5%
+  align_y: ''
+  margin_left: ''
+  margin_right: ''
+  title_margin_left: 95%
+  title_margin_right: ''
 - template: block-media-feature
   block: media-feature
   width: '40'
   align_x: start
-  margin_y: '300'
+  margin_y: '200'
   image: https://jesserieser.brandlew.co/uploads/rieser-xmas-25.jpg
   attached_collection: collections/xmas-in-america.md
   title: XMAS IN AMERICA
   color: "#FF0000"
   meta: Personal 2010 -  2019
   margin_x: ''
+  align_y: ''
+  margin_left: ''
+  margin_right: ''
+  title_margin_left: ''
+  title_margin_right: 95%
 - template: block-media-row
   block: media-row
   row_alignment: between
@@ -34,9 +44,8 @@ page_sections:
   align_x: start
   margin_x: '0'
   margin_y: '50'
-  title: Blog Title
-  image: ''
   title: ''
+  image: ''
   color: "#FFF59A"
   attached_blog: posts/test-blog-posts.md
   align_y: ''
@@ -53,6 +62,11 @@ page_sections:
   attached_collection: collections/time.md
   meta: Grand Canyon 100th Anniversary 
   margin_x: ''
+  align_y: ''
+  margin_left: ''
+  margin_right: ''
+  title_margin_left: ''
+  title_margin_right: ''
 - template: block-media-row
   block: media-row
   row_alignment: between
@@ -67,6 +81,11 @@ page_sections:
   attached_collection: collections/wired.md
   meta: Backpage.com Cover Story
   margin_x: ''
+  align_y: ''
+  margin_left: ''
+  margin_right: ''
+  title_margin_left: ''
+  title_margin_right: ''
 - template: block-media-feature
   block: media-feature
   width: '60'
@@ -78,6 +97,11 @@ page_sections:
   color: "#9bbad5"
   meta: Condor Airlines (Germany)
   margin_x: ''
+  align_y: ''
+  margin_left: ''
+  margin_right: ''
+  title_margin_left: ''
+  title_margin_right: ''
 theme_color: "#B99E8E"
 collection_description: ''
 collection_content: ''
