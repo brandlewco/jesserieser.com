@@ -25,6 +25,9 @@ page_sections:
   color: "#FF0000"
   meta: Personal 2010 -  2019
   margin_x: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: between
 - template: block-modal-blog
   block: modal-blog
   width: '50'
@@ -36,6 +39,9 @@ page_sections:
   caption: ''
   color: ''
   attached_blog: posts/test-blog-posts.md
+  align_y: ''
+  margin_left: ''
+  margin_right: ''
 - template: block-feature-collection
   block: featured-collection
   width: '60'
