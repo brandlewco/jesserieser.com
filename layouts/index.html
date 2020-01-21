@@ -1,11 +1,13 @@
 {{- define "main" -}}
-    <section data-hue="{{with .Params.navigation_theme}}{{.}}{{else}}white{{end}}">
-    {{ partial "feature_header" .}}
-    </section>
-    <section data-hue="page" class="pt-8 mb-48 px-8 xl:px-16 mx-auto bg-white group-hover">
+<section data-hue="{{with .Params.navigation_theme}}{{.}}{{else}}white{{end}}">
+  {{ partial "feature_header" .}}
+</section>
+<section data-hue="page" class="pt-8 mx-auto bg-white">
+  <div class="px-8 xl:px-16">
     {{- range .Params.page_sections -}}
     {{ partial (printf "blocks/block-%s.html" .block) (dict "Section" . "Page" $ "Site" $.Site) }}
     {{- end -}}
-    </section>
-    {{ partial "gallery" . }}
-{{- end -}}
+  </div>
+  {{ partial "feature_footer" .}}
+</section>
+{{ partial "gallery" . }} {{- end -}}

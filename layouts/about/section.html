@@ -6,6 +6,5 @@
         {{- range .Params.page_sections -}}
         {{ partial (printf "blocks/block-%s.html" .block) (dict "Section" . "Page" $ "Site" $.Site) }}
         {{- end -}}
-    <!-- {{ partial "collection_brief" .}} -->
     </section>
 {{- end -}}

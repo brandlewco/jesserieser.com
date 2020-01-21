@@ -1,32 +1,19 @@
 ---
-label: "\U0001F53C Blog Popup"
-hide_body: true
+label: "Feature Block"
+hide_body: false
 display_field: caption
 fields:
-- name: block
-  type: text
-  config:
-    required: false
-  label: block
+- type: text
   hidden: true
-  default: modal-blog
-- name: attached_blog
-  type: select
-  default: []
-  config:
-    required: true
-    options: []
-    source:
-      type: pages
-      section: blog-posts
-      file: 
-      path: 
-  label: Attached Blog
-- name: title
-  type: text
-  config:
-    required: false
-  label: Title
+  label: block
+  name: block
+  default: media-feature
+- type: file
+  name: image
+  label: Image
+- type: text
+  name: caption
+  label: Caption
 - type: color
   config:
     color_format: Hex
