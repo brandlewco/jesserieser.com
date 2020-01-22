@@ -17,6 +17,18 @@ fields:
     schema:
       format: markdown
   label: Text
+- name: background_color
+  type: color
+  label: Background Color
+  config:
+    required: false
+    color_format: Hex
+- name: text_color
+  type: color
+  label: Text Color
+  config:
+    required: false
+    color_format: Hex
 - type: select
   name: text_size
   config:
