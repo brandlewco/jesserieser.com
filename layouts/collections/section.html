@@ -1,7 +1,7 @@
 {{- define "main" -}}
 <article class="content mx-auto px-8 xl:px-16">
         {{partial "collection_sorter" .}}
-    <section id="filter" class="flex flex-wrap overflow-hidden filter-container">
+    <section id="filter" class="flex flex-wrap overflow-hidden filter-container" style="opacity: 0;">
         {{ range where (where .Pages ".Params.collection_archive" "!=" true) ".Params.collection_hidden" "!=" true}}
                 {{ partial "collection_sorter_item" .}}
         {{ end }}

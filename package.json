@@ -78,6 +78,7 @@
     "@swup/scroll-plugin": "^1.0.6",
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
+    "imagesloaded": "^4.1.4",
     "isotope-layout": "^3.0.6",
     "lazysizes": "^5.2.0",
     "midday.js": "^1.0.2",
