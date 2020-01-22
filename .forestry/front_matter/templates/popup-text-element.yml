@@ -1,5 +1,5 @@
 ---
-label: Popup - List Item
+label: "• List Item"
 hide_body: true
 display_field: content
 fields:
@@ -13,13 +13,14 @@ fields:
     schema:
       format: markdown
   label: Content
-- name: url
-  type: text
-  config:
-    required: false
-  label: URL
 - name: icon
   type: file
   config:
     maxSize: 250
   label: Icon
+- name: url
+  type: text
+  config:
+    required: false
+  label: URL
+  description: Link out URL
