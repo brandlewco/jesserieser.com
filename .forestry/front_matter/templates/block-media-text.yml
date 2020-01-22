@@ -62,6 +62,7 @@ fields:
     - widest
   label: Text Tracking
   default: normal
+  description: spacing between letters
 - type: select
   name: width
   config:
@@ -186,3 +187,6 @@ fields:
       path: 
   label: Right Margin (X)
   description: 0%-100% from the right margin
+- name: parallax
+  type: boolean
+  label: Parallax
