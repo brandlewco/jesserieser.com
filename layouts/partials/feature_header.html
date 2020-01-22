@@ -1,8 +1,16 @@
-<header id="project-header" class="w-full h-screen lazyload bg-cover bg-center bg-scroll flex flex-col items-center overflow-hidden" data-bgset="{{.Params.feature_cover }}?nf_resize=fit&w=800 800w, {{.Params.feature_cover }}?nf_resize=fit&w=1200 1200w, {{.Params.feature_cover }}?nf_resize=fit&w=1600 1600w, {{.Params.feature_cover }}" data-sizes="auto" style="background-color: {{.Params.home_theme_color}};">
+<header id="project-header" class="w-full h-screen lazyload flex flex-col items-center overflow-hidden" style="background-color: {{.Params.home_theme_color}};">
+    <img data-srcset="{{.Params.feature_cover }}?nf_resize=fit&w=1024 1024w, {{.Params.feature_cover }}?nf_resize=fit&w=1920 1920w, {{.Params.feature_cover }}?nf_resize=fit&w=2560 2560w, {{.Params.feature_cover }}"
+		 data-sizes="auto"
+		 class="lazyload z-10 bg-center max-w-full max-h-full object-cover"
+		 data-parent-fit="cover"/>
     {{partial "r-mask" .}}
-    <div class="absolute bottom-0 mx-0 text-6xl font-light text-{{.Params.navigation_theme}}">&#8964;</div>
-    <div id="loading-overlay" class="absolute w-full h-screen  inset-auto z-10" style="background-color: {{.Params.home_theme_color}};"></div>
-    <div id="header-overlay" class="flex flex-col justify-end absolute w-full h-screen  inset-auto" style="background-color: {{.Params.home_theme_color}};"></div>
+    <!-- <div id="page-title" class="fixed bottom-0 z-50 margin-0 uppercase px-4 sm:px-0 font-light tracking-wide text-{{.Params.navigation_theme}} text-center lazyload" style="transform: translate3d(0, -45vh, 0)">
+        <h1 class="uppercase text-4xl sm:text-6xl font-light tracking-loose text-center" data-sal="slide-down" data-sal-delay="600">{{.Title}}</h1>
+        <h2 class="uppercase text-lg sm:2xl font-light italic tracking-widest text-center" data-sal="slide-down" data-sal-delay="900">{{.Params.collection_meta}}</h2>
+    </div> -->
+    <div class="absolute bottom-0 mx-0 text-6xl font-light text-{{.Params.navigation_theme}} z-10">&#8964;</div>
+    <!-- <div id="loading-overlay" class="absolute w-full h-screen inset-auto z-10" style="background-color: {{.Params.home_theme_color}};"></div> -->
+    <div id="header-overlay" class="flex flex-col justify-end absolute w-full h-screen inset-auto z-40" style="background-color: {{.Params.home_theme_color}};"></div>
 </header>
 <article id="project-description" class="w-full py-8 px-8 xl:px-16 text-xl text-{{.Params.navigation_theme}} items-center text-justify leading-loose"  style="background-color: {{.Params.home_theme_color}};">
     <div class="flex flex-col justify-center mx-auto" data-sal="slide-up" data-sal-delay="300">

@@ -203,7 +203,9 @@ module.exports = {
       wide: "0.025em",
       wider: "0.05em",
       widest: "0.1em",
-      loose: "0.2em",
+      loose: "0.15em",
+      looser: "0.2em",
+      loosest: "0.25em",
     },
     lineHeight: {
       none: "1",
@@ -370,6 +372,7 @@ module.exports = {
       "30": "30",
       "40": "40",
       "50": "50",
+      "100": "100"
     },
   },
   variants: {

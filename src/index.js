@@ -7,6 +7,7 @@ import SwupPreloadPlugin from "@swup/preload-plugin";
 import lazySizes from "lazysizes";
 import "lazysizes/plugins/unveilhooks/ls.unveilhooks";
 import "lazysizes/plugins/bgset/ls.bgset";
+import "lazysizes/plugins/parent-fit/ls.parent-fit";
 import * as PhotoSwipe from "photoswipe";
 import * as PhotoSwipeUI_Default from "photoswipe/dist/photoswipe-ui-default";
 import Midday from "midday.js";
@@ -15,6 +16,7 @@ import sal from "sal.js";
 import Rellax from "rellax";
 
 lazySizes.cfg.expand = "1000";
+
 
 // Page Loader (SWUP)
 const options = {

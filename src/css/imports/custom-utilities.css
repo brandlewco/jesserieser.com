@@ -33,25 +33,25 @@ html.is-animating .transition-nav {
   }
 }
 
-header #mask svg {
+header svg #mask svg {
   display: block;
 }
-header #mask rect {
+header svg #mask rect {
   opacity: 1;
 }
-header #mask path {
+header svg #mask path {
   transform: translateX(50%) translateX(-150px) translateY(50%)
     translateY(-270px);
   opacity: 0;
   transition: transform 1s ease-in-out 0.2s, opacity 1s ease-in-out 0.2s;
 }
-header.lazyloaded #mask path {
+header img.lazyloaded + svg #mask path {
   transform: translateX(50%) translateX(-150px) translateY(50%)
     translateY(-170px);
   opacity: 1;
 }
 
-header rect.cover {
+header svg rect.cover {
   transition: 1s opacity ease-in-out;
   transition-delay: 3s;
   transform-origin: center;
@@ -59,7 +59,7 @@ header rect.cover {
   will-change: opactiy;
 }
 
-header.lazyloaded rect.cover {
+header img.lazyloaded + svg rect.cover {
   opacity: 0;
 }
 
@@ -92,9 +92,11 @@ header img.lazyloaded {
   transition: opacity 0.33s ease-in-out 0.1s;
 }
 
-#project-header.lazyloaded #loading-overlay {
+#project-header img.lazyloaded #loading-overlay {
   opacity: 0;
 }
+
+img[data-sizes="auto"] { display: block; width: 100%; }
 
 @keyframes r-expand {
   0% {
