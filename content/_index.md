@@ -33,7 +33,7 @@ page_sections:
   align_y: ''
   margin_left: ''
   margin_right: ''
-  title_margin_left: "-75%"
+  title_margin_left: "-85%"
   title_margin_right: ''
 - template: block-media-row
   block: media-row
@@ -52,7 +52,7 @@ page_sections:
   align_y: ''
   margin_left: 15%
   margin_right: ''
-  title_margin_left: "-30%"
+  title_margin_left: "-20%"
   title_margin_right: ''
 - template: block-modal-blog
   block: modal-blog
