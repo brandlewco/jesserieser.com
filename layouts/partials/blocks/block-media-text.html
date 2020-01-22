@@ -1,5 +1,5 @@
 
-  <section class="w-full {{with .Section.align_y}}sm:self-{{.}}{{end}} {{with .Section.width}}sm:w-{{.}}/100{{end}} mt-4 {{with .Section.margin_y}}sm:mt-{{.}}{{end}} ml-0 {{with .Section.margin_left}}sm:ml-{{.}}{{end}} mr-0 {{with .Section.margin_right}}sm:mr-{{.}}{{end}} highlight rellax-wrapper" data-sal="slide-down">
-      <p {{with .Section.color}}style="color:{{.}};"{{end}} class="rellax break-words {{with .Section.text_size }}text-{{.}}{{end}} {{with .Section.text_tracking}}tracking-{{.}}{{end}}" data-rellax-speed="2" data-rellax-percentage="0">{{ .Section.text | markdownify }}</p>
+  <section class="w-full {{with .Section.align_y}}sm:self-{{.}}{{end}} {{with .Section.width}}sm:w-{{.}}/100{{end}} mt-4 {{with .Section.margin_y}}sm:mt-{{.}}{{end}} ml-0 {{with .Section.margin_left}}sm:ml-{{.}}{{end}} mr-0 {{with .Section.margin_right}}sm:mr-{{.}}{{end}} highlight {{with .Section.parallax}}rellax-wrapper{{end}}" data-sal="slide-down">
+      <p class="break-words {{with .Section.text_size }}text-{{.}}{{end}} {{with .Section.text_tracking}}tracking-{{.}}{{end}} {{with .Section.parallax}}rellax{{end}}" {{with .Section.parallax}}data-rellax-speed="2" data-rellax-percentage="0"{{end}} style="{{with .Section.text_color}}color:{{.}}; {{end}}{{with .Section.background_color}}background-color:{{.}};{{end}}">{{ .Section.text | markdownify }}</p>
   </section>  
 
