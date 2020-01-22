@@ -4,6 +4,11 @@ hide_body: true
 display_field: title
 fields:
 - type: text
+  name: layout
+  label: Layout
+  hidden: true
+  default: blocks
+- type: text
   label: Title
   name: title
 - type: datetime
@@ -105,11 +110,6 @@ fields:
   name: cover_image
   label: Social Media Card
   description: This image is what appears in OpenGraph previews and image masks
-- type: text
-  name: layout
-  label: Layout
-  hidden: true
-  default: blocks
 - name: collection_archive
   type: boolean
   label: Archive
@@ -119,6 +119,30 @@ fields:
   label: Hide Collection
   description: Don't show this collection in the all works sorter, accessible only
     through direct link.
+- name: collection_awards
+  type: blocks
+  label: Collection Awards
+  template_types:
+  - popup-text-element
+  config:
+    min: 
+    max: 
+- name: collection_exhibition
+  type: blocks
+  label: Collection Exhibition
+  template_types:
+  - popup-text-element
+  config:
+    min: 
+    max: 
+- name: collection_press
+  type: blocks
+  label: Collection Press
+  template_types:
+  - popup-text-element
+  config:
+    min: 
+    max: 
 pages:
 - content/collections/addidas.md
 - content/collections/xmas-in-america.md
