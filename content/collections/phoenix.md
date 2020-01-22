@@ -46,6 +46,7 @@ color = "#000000"
 margin_left = "10%"
 margin_right = ""
 margin_y = "0"
+parallax = true
 template = "block-media-text"
 text = "**DYSTOPIAN LEGOLAND**"
 text_color = "#FFFFFF"
