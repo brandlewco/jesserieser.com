@@ -1,7 +1,7 @@
 <figure class="filter-item p-2 sm:w-1/4 h-auto w-full overflow-hidden {{range .Params.collection_category}}{{. | replaceRE "[\\W]" "" | lower}} {{end}}{{with .Params.collection_filter}}{{. | replaceRE "[\\W]" "" | lower}}{{end}} active" data-theme="{{.Params.theme_color}}" data-filter="{{range .Params.collection_category}}{{. | replaceRE "[\\W]" "" | lower}},{{end}}">
     <a href="{{.Permalink}}">
         <div style="background-color: #000;">
-        <img src="{{.Params.collection_cover}}" data-src="{{.Params.collection_cover}}?nf_resize=smartcrop&w=640&h=480" alt="{{.Title}}" class="lazyload"/>
+        <img src="{{.Params.collection_cover}}?nf_resize=smartcrop&w=640&h=480" alt="{{.Title}}"/>
         </div>
         {{ if eq .Params.collection_archive true }}
         <figcaption class="text-white text-md uppercase">
