@@ -5,10 +5,10 @@ date: 2017-11-01T23:00:00.000+00:00
 page_sections:
 - template: block-media-feature
   block: media-feature
-  width: '40'
+  width: '20'
   align_x: end
   margin_y: '100'
-  image: https://jesserieser.brandlew.co/uploads/rieser-adidas-10.jpg
+  image: https://jesserieser.brandlew.co/uploads/primeknit-10.jpg
   title: ADIDAS
   color: "#4A4A4A"
   attached_collection: collections/addidas.md
@@ -24,7 +24,7 @@ page_sections:
   width: '30'
   align_x: start
   margin_y: '400'
-  image: https://jesserieser.brandlew.co/uploads/rieser-xmas-25.jpg
+  image: https://jesserieser.brandlew.co/uploads/christmas-25.jpg
   attached_collection: collections/xmas-in-america.md
   title: XMAS IN AMERICA
   color: "#FF0000"
@@ -43,7 +43,7 @@ page_sections:
   width: '33'
   align_x: end
   margin_y: '0'
-  image: https://jesserieser.brandlew.co/uploads/time-5.jpg
+  image: https://jesserieser.brandlew.co/uploads/timeGC-5.jpg
   title: Time
   color: "#fdcfb1"
   attached_collection: collections/time.md
@@ -74,7 +74,7 @@ page_sections:
   block: media-feature
   width: '30'
   align_x: start
-  image: https://jesserieser.brandlew.co/uploads/wired-2.jpg
+  image: https://jesserieser.brandlew.co/uploads/backpage-2.jpg
   title: Wired
   color: "#b9a49e"
   margin_y: '50'
@@ -91,7 +91,7 @@ page_sections:
   width: '40'
   align_x: end
   margin_y: '300'
-  image: https://jesserieser.brandlew.co/uploads/geezers-1.jpg
+  image: https://jesserieser.brandlew.co/uploads/stargeezers-1.jpg
   attached_collection: collections/star-geezers.md
   title: Star Geezers
   color: "#9bbad5"
@@ -107,7 +107,7 @@ collection_description: ''
 collection_content: ''
 cover_image: ''
 feature_logo: https://jesserieser.brandlew.co/uploads/logo-amtrak-8.png
-feature_cover: https://jesserieser.brandlew.co/uploads/time-5.jpg
+feature_cover: https://jesserieser.brandlew.co/uploads/timeGC-5.jpg
 feature_description: Jesse Rieser is an award winning photographer and blah blah blah
   blah. Elevator pitch game strong. Lorem ipsum dolor sit amet, consectetuer adipiscing
   elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
