@@ -54,7 +54,7 @@ header img.lazyloaded + svg #mask path {
 }
 
 header svg rect.cover {
-  will-change: opactiy, transform;
+  will-change: opactiy;
   transition: 1s opacity ease-in-out;
   transition-delay: 3s;
   transform-origin: center;
@@ -63,13 +63,13 @@ header svg rect.cover {
 
 header img.lazyloaded + svg rect.cover {
   opacity: 0;
-  animation-name: r-expand;
+  /* animation-name: r-expand;
   animation-duration: 0.66s;
   animation-iteration-count: 1;
   animation-timing-function: cubic-bezier(1, 0, 0.81, 0.58);
   animation-fill-mode: forwards;
   transform-origin: center;
-  animation-delay: 2s;
+  animation-delay: 2s; */
 }
 
 /* animation-name: r-expand;

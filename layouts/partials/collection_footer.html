@@ -37,7 +37,7 @@
     {{ end }}
 </section>
 <section id="project-brief" class="mt-32" style="background-color:{{.Params.theme_color}};">
-    <div class="mx-auto w-full" data-sal="slide-down" data-sal-delay="300">
+    <div class="mx-auto w-full">
         <article class="mx-16 xl:mx-32 py-16 text-lg leading-loose {{with .Params.navigation_theme}}text-{{.}}{{end}} border-b-2 border-solid" {{with .Params.navigation_theme}}style="border-color: {{.}}"{{end}}>
             <h2 class="font-bold mb-8 text-xl">Artist Statement: {{.Params.title}}</h2>
             {{ .Params.collection_content | markdownify }}
