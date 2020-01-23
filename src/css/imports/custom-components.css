@@ -36,12 +36,12 @@ body.page-home #menu #nav-selected {
 }
 
 body.page-collections #menu #nav-collections {
-    @apply font-medium tracking-wider;
-}
-
-body.page-jesse-rieser #menu #nav-about {
   @apply font-medium tracking-wider;
 }
+
+/* body.page-jesse-rieser #menu #nav-about {
+  @apply font-medium tracking-wider;
+} */
 
 
 @responsive {

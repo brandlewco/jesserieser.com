@@ -41,6 +41,7 @@ header svg #mask rect {
   opacity: 1;
 }
 header svg #mask path {
+  will-change: transform, opacity;
   transform: translateX(50%) translateX(-150px) translateY(50%)
     translateY(-270px);
   opacity: 0;
@@ -53,11 +54,11 @@ header img.lazyloaded + svg #mask path {
 }
 
 header svg rect.cover {
+  will-change: opactiy, transform;
   transition: 1s opacity ease-in-out;
   transition-delay: 3s;
   transform-origin: center;
   opacity: 1;
-  will-change: opactiy, transform;
 }
 
 header img.lazyloaded + svg rect.cover {
@@ -82,6 +83,7 @@ animation-delay: 1s; */
 
 header img {
   transition: opacity 0.33s ease-in-out;
+  will-change: opactiy;
 }
 header img.lazyload, header img.lazyloading {
   opacity: 0;
@@ -97,6 +99,7 @@ header img.lazyloaded {
 }
 
 #loading-overlay {
+  will-change: opactiy;
   transition: opacity 0.33s ease-in-out 0.1s;
 }
 
@@ -191,6 +194,7 @@ figure:hover img {
 #categories {
   max-height: 0;
   opacity: 0;
+  will-change: max-height;
   transition: max-height 0.33s ease-in-out, opacity 0.33s ease-in-out;
   overflow: hidden;
 }
@@ -208,6 +212,7 @@ figure:hover img {
 
 #filter-error {
   transition: 0.1s opacity linear;
+  will-change: opacity;
   opacity: 0;
 }
 
@@ -223,6 +228,7 @@ figure:hover img {
   opacity: 0 !important;
 }
 .filter-item figcaption {
+  will-change: opacity;
   opacity: 0.3;
   transition: opacity 0.33s ease-in-out;
 }
@@ -230,6 +236,7 @@ figure:hover img {
   opacity: 1;
 }
 .filter-item img {
+  will-change: opacity;
   opacity: 0.3;
   transition: opacity 0.33s ease-in-out;
 }
@@ -238,9 +245,11 @@ figure:hover img {
 }
 
 .filter-container{
+  will-change: height;
   transition-duration: 0.8s;
   transition-property: height;
   min-height: 400px;
+  
 }
 
 /**** disabling Isotope CSS3 transitions ****/
@@ -277,6 +286,7 @@ figure:hover img {
 }
 
 .popup-modal {
+  will-change: opacity;
   opacity: 0;
   pointer-events: none;
   transition: all 300ms ease-in-out;
