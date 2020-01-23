@@ -9,9 +9,6 @@ var iso;
 imagesLoaded(grid, function() {
   var filterContainer = document.getElementById("filter");
   filterContainer.style.opacity = 1;
-  console.log("loaded");
-
-
   var iso = new Isotope(grid, {
     itemSelector: ".filter-item",
     layoutMode: "fitRows",
@@ -196,5 +193,17 @@ imagesLoaded(grid, function() {
       categories.classList.remove("opened");
     }
   });
+
+  const filterError = document.getElementById("filter-error");
+
+  iso.on("layoutComplete", function(laidOutItems) {
+    console.log(laidOutItems.length);
+    if (laidOutItems.length === 0) {
+      filterError.classList.add("active")
+    } else {
+      filterError.classList.remove("active");
+    }
+  });
+
 
 });

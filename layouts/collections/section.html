@@ -1,6 +1,7 @@
 {{- define "main" -}}
-<article class="content mx-auto px-8 xl:px-16">
+<article class="content mx-auto px-8 xl:px-16 relative">
         {{partial "collection_sorter" .}}
+    <div id="filter-error" class="text-center text-xl font-semibold fixed inset-x-0 mt-24">NO RESULTS. PLEASE CHANGE FILTER.</div>
     <section id="filter" class="flex flex-wrap overflow-hidden filter-container" style="opacity: 0;">
         {{ range where (where .Pages ".Params.collection_archive" "!=" true) ".Params.collection_hidden" "!=" true}}
                 {{ partial "collection_sorter_item" .}}

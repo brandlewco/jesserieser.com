@@ -22,6 +22,7 @@ html.is-animating .transition-nav {
 #filter {
   overflow: visible;
   margin: 0 -0.5rem 0 -0.5rem;
+  transition: 0.33s opacity cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
 @keyframes loading-pulse {
@@ -194,7 +195,7 @@ figure:hover img {
   overflow: hidden;
 }
 #categories.opened {
-  max-height: 300px;
+  max-height: 600px;
   opacity: 1;
 }
 
@@ -204,6 +205,16 @@ figure:hover img {
 #catToggle.active::after {
   content: " -";
 }
+
+#filter-error {
+  transition: 0.1s opacity linear;
+  opacity: 0;
+}
+
+#filter-error.active {
+  opacity: 1;
+}
+
 .filter-item img.lazyloading, .filter-item img.lazyload {
   opacity: 0 !important;
 }
