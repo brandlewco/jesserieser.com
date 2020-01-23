@@ -91,6 +91,14 @@ body.page-jesse-rieser #menu #nav-about {
 .button.ui-check.is-checked {
   @apply font-bold text-black;
 }
+.button.button.ui-check.is-checked::after {
+  content: "x";
+  position: absolute;
+  left: -0.5rem;
+  bottom: 1px;
+  @apply font-thin;
+}
+
 .button.ui-radio.is-checked {
   @apply font-bold underline;
 }

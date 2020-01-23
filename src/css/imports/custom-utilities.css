@@ -211,6 +211,10 @@ figure:hover img {
   opacity: 0;
 }
 
+/* #filter .ui-check.is-checked {
+  color: #ff0000;
+} */
+
 #filter-error.active {
   opacity: 1;
 }

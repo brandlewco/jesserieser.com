@@ -6,7 +6,7 @@
         <div class="ui-group pb-4">
           {{range $.Site.Data.categories}}
           {{range sort .categories "value" "asc"}}
-          <button id="{{. | replaceRE "[\\W]" "" | lower}}" class="ui-check button w-1/6 text-left tracking-wide pl-2" data-filter=".{{. | replaceRE "[\\W]" "" | lower}}">{{.}}</button>
+          <button id="{{. | replaceRE "[\\W]" "" | lower}}" class="relative ui-check button w-1/6 text-left tracking-wide pl-2" data-filter=".{{. | replaceRE "[\\W]" "" | lower}}">{{.}}</button>
           {{end}}
           {{end}}
         </div>
