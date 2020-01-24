@@ -8,7 +8,9 @@ var iso;
 
 imagesLoaded(grid, function() {
   var filterContainer = document.getElementById("filter");
+  var filterLoading = document.getElementById("filter-loading");
   filterContainer.style.opacity = 1;
+  filterLoading.style.opacity = 0;
   var iso = new Isotope(grid, {
     itemSelector: ".filter-item",
     layoutMode: "fitRows",

@@ -53,6 +53,15 @@ header img.lazyloaded + svg #mask path {
   opacity: 1;
 }
 
+#header-loading {
+  will-change: opacity;
+  transition: opacity 1s linear;
+}
+
+header img.lazyloaded + svg + #header-loading {
+  opacity: 0;
+}
+
 header svg rect.cover {
   will-change: opactiy;
   transition: 1s opacity ease-in-out;
@@ -208,6 +217,12 @@ figure:hover img {
 }
 #catToggle.active::after {
   content: " -";
+}
+
+#filter-loading {
+  transition: 0.1s opacity linear;
+  will-change: opacity;
+  opacity: 1;
 }
 
 #filter-error {
