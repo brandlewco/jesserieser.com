@@ -58,18 +58,39 @@ imagesLoaded(grid, function() {
     } else {
       removeFilter(filter);
     }
+
+    const filterAll = document.getElementById("all");
+    const filterAllDivide = document.getElementById("all-divide");
     const filterPersonal = document.getElementById("personal");
     const filterComissioned = document.getElementById("commissionedstock");
     if (filter === ".personal") {
       removeFilter(".commissionedstock");
+      removeFilter(".all");
       addFilter(".personal");
+      filterAll.style.opacity = 1;
+      filterAllDivide.style.opacity = 1;
       filterPersonal.classList.add("is-checked");
       filterComissioned.classList.remove("is-checked");
+      filterAll.classList.remove("is-checked");
     }
     if (filter === ".commissionedstock") {
       removeFilter(".personal");
+      removeFilter(".all");
       addFilter(".commissionedstock");
+      filterAll.style.opacity = 1;
+      filterAllDivide.style.opacity = 1;
       filterComissioned.classList.add("is-checked");
+      filterPersonal.classList.remove("is-checked");
+      filterAll.classList.remove("is-checked");
+    }
+    if (filter === ".all") {
+      removeFilter(".personal");
+      removeFilter(".commissionedstock");
+      addFilter(".all");
+      filterAll.style.opacity = 0;
+      filterAllDivide.style.opacity = 0;
+      filterAll.classList.add("is-checked");
+      filterComissioned.classList.remove("is-checked");
       filterPersonal.classList.remove("is-checked");
     }
     // filterComissioned.addEventListener("click", function() {

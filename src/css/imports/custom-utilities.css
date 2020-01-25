@@ -225,8 +225,8 @@ figure:hover img {
   opacity: 1;
 }
 
-#filter-error {
-  transition: 0.1s opacity linear;
+#filter-error, #all, #all-divide {
+  transition: 0.3s opacity linear;
   will-change: opacity;
   opacity: 0;
 }

@@ -82,6 +82,7 @@ body.page-collections #menu #nav-collections {
   transition: 0.2s color ease-in-out;
   @apply text-black;
 }
+.button:focus {outline:0;}
 .button:hover {
   @apply text-gray-600;
 }
@@ -100,7 +101,7 @@ body.page-collections #menu #nav-collections {
 }
 
 .button.ui-radio.is-checked {
-  @apply font-bold underline;
+  @apply underline;
 }
 
 .hue-btn {

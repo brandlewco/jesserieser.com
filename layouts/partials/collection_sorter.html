@@ -11,8 +11,11 @@
           {{end}}
         </div>
         <div class="ui-group pb-2">
-          <button id="personal" class="ui-radio button tracking-wide font-semibold" data-filter=".personal">PERSONAL</button>
-          <button id="commissionedstock" class="ui-radio pl-4 button tracking-wide font-semibold" data-filter=".commissionedstock">COMMISSIONED + STOCK</button>
+          <button id="personal" class="ui-radio button tracking-wide pr-4 font-semibold" data-filter=".personal">PERSONAL</button>
+            <span class="font-hairline">/</span>
+          <button id="commissionedstock" class="ui-radio px-4 button tracking-wide font-semibold" data-filter=".commissionedstock">COMMISSIONED + STOCK</button>
+            <span id="all-divide" class="font-hairline opacity-0">|</span>
+          <button id="all" class="ui-radio button tracking-wide pl-4 font-semibold opacity-0" data-filter=".all">BOTH</button>
         </div>
       </div>
     </div>

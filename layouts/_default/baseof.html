@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="{{ .Lang }}" class="text-base md:text-xl lg:text-3xl xl:text-5xl">
+<html lang="{{ .Lang }}">
+  <!-- text-base md:text-xl lg:text-3xl -->
   {{ partial "head" .}}
   {{ partial "style_themer.html" .}}
   <body class="{{ with.Title }}page-{{ lower . | urlize }}{{ end }}">

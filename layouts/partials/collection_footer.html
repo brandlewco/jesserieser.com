@@ -1,4 +1,4 @@
-<section id="project-next" class="mt-32 p-8 xl:p-16">
+<section id="project-next" class="mt-32 p-8 xl:p-16 {{if (eq .Params.collection_archive true) }}text-white{{end}}">
     {{ with .PrevInSection }}
     <nav class="mx-auto flex flex-row justify-between">
         <a href="{{ .Permalink }}" alt="Previous Project - {{ .Title }}" data-swup-preload>
@@ -36,7 +36,11 @@
     </nav>
     {{ end }}
 </section>
+{{if (eq .Params.collection_archive true) }}
+<section id="project-brief" class="bg-black">
+{{else}}
 <section id="project-brief" class="mt-32" style="background-color:{{.Params.theme_color}};">
+{{end}}
     <div class="mx-auto w-full">
         <article class="mx-16 xl:mx-32 py-16 text-lg leading-loose {{with .Params.navigation_theme}}text-{{.}}{{end}} border-b-2 border-solid" {{with .Params.navigation_theme}}style="border-color: {{.}}"{{end}}>
             <h2 class="font-bold mb-8 text-xl">Artist Statement: {{.Params.title}}</h2>
