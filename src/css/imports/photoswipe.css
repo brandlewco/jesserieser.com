@@ -146,6 +146,7 @@
 }
 
 .pswp__container {
+  transition: transform 333ms cubic-bezier(0.4, 0, 0.22, 1);
 }
 
 .pswp__item {

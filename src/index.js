@@ -145,6 +145,7 @@ function init() {
 
       // triggers when user clicks on thumbnail
       var onThumbnailsClick = function(e) {
+        navigation.style.opacity = 0;
         e = e || window.event;
         e.preventDefault ? e.preventDefault() : e.returnValue = false;
 
@@ -227,10 +228,10 @@ function init() {
           // define gallery index (for URL)
           galleryUID: galleryElement.getAttribute("data-pswp-uid"),
           history: false,
-          bgOpacity: 0.5,
+          bgOpacity: 0.9,
           closeOnScroll: false,
-          closeOnVerticalDrag: false,
-          preload: [4, 4],
+          closeOnVerticalDrag: true,
+          preload: [2, 3],
           loadingIndicatorDelay: 100,
           getThumbBoundsFn: function(index) {
             // See Options -> getThumbBoundsFn section of documentation for more info
@@ -243,7 +244,7 @@ function init() {
           fullscreenEl: false,
           zoomEl: false,
           shareEl: false,
-          indexIndicatorSep: " of ",
+          indexIndicatorSep: " / ",
 
         };
 
@@ -307,6 +308,7 @@ function init() {
             left: 0,
             behavior: "smooth"
           });
+          navigation.style.opacity = 1;
         });
         gallery.init();
       };

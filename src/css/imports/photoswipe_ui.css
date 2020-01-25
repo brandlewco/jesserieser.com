@@ -1,6 +1,6 @@
 .pswp__button {
-  width: 44px;
-  height: 44px;
+  /* width: 44px;
+  height: 44px; */
   position: relative;
   background: none;
   cursor: pointer;
@@ -115,10 +115,17 @@
   left: 0;
 }
 
+.pswp__button--arrow--left:hover {
+  cursor: w-resize; 
+ }
+
 .pswp__button--arrow--right {
   right: 0;
 }
 
+.pswp__button--arrow--right:hover {
+ cursor: e-resize; 
+}
 /* .pswp__button--arrow--left:before,
 .pswp__button--arrow--right:before {
   content: "";
@@ -270,13 +277,7 @@ a.pswp__share--download:hover {
 .pswp__counter {
   position: absolute;
   left: 0;
-  top: 0;
-  height: 44px;
-  font-size: 13px;
-  line-height: 44px;
-  color: #000;
-  opacity: 0.75;
-  padding: 0 10px;
+  bottom: 0;
 }
 
 /*
@@ -286,15 +287,25 @@ a.pswp__share--download:hover {
    */
 .pswp__caption {
   position: absolute;
-  left: 0;
+  right: 0;
   bottom: 0;
-  width: 100%;
-  min-height: 44px;
 }
-.pswp__caption small {
+
+.caption {
+  transition: opacity 0.1s linear;
+}
+
+.pswp__caption:hover {
+  cursor: help;
+  .caption {
+    opacity: 1;
+  }
+}
+
+/* .pswp__caption small {
   font-size: 11px;
   color: #bbb;
-}
+} */
 
 .pswp__caption__center {
   text-align: left;

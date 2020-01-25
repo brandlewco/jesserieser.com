@@ -14,7 +14,7 @@ var initGalleryClick = function() {
     const scrollValues = {};
     var options = {
       history: true,
-      bgOpacity: 0.4,
+      bgOpacity: 0.95,
       closeOnScroll: false,
       closeOnVerticalDrag: false,
       preload: [2, 2],
