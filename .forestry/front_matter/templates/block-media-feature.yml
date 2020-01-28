@@ -229,5 +229,5 @@ fields:
     - center
     - right
   label: Meta title Alignment (X)
-  description:
+  description: 
   default: left
