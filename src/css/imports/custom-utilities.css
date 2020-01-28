@@ -176,7 +176,6 @@ figure:hover img {
 
 .block-hover img:hover {
   cursor: zoom-in;
-
 }
 
 .block-hover h6 {
@@ -188,13 +187,21 @@ figure:hover img {
   opacity: 1;
 }
 
-.group-hover:hover > .block-hover img {
+.figure.dimmed img {
+  opacity: 0 !important;
+}
+
+.figure.dimmed:hover img {
+  opacity: 1 !important;
+}
+
+/* .group-hover:hover > .block-hover img {
   opacity: 0;
 }
 
 .group-hover:hover > .block-hover:hover img {
   opacity: 1;
-}
+} */
 
 /* Filters */
 #filters {

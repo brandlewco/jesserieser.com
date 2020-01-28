@@ -392,6 +392,22 @@ function init() {
     });
   });
 
+  const figureAll = document.querySelectorAll(".figure");
+  // USE FOR BLOCK HOVER
+  // const figureHover = document.querySelectorAll(".figure");
+  figureAll.forEach((figureHovered) => {
+    figureHovered.addEventListener("mouseenter", () => {
+      figureAll.forEach(function(element) {
+        element.classList.add("dimmed");
+      });
+    });
+    figureHovered.addEventListener("mouseleave", () => {
+      figureAll.forEach(function(element) {
+        element.classList.remove("dimmed");
+      });
+    });
+  });
+
 
   function value_limit(val, min, max) {
     return val < min ? min : (val > max ? max : val);

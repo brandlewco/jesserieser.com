@@ -14,7 +14,7 @@
     <section data-hue="page" class="pt-8 mx-auto bg-white">
     {{end}}
         <div class="my-gallery px-8 xl:px-16" itemscope itemtype="http://schema.org/ImageGallery">
-            <section class="block-media block-hover flex flex-wrap mx-auto h-auto {{with .Params.row_alignment}}sm:justify-{{.}}{{else}}sm:justify-between{{end}}">
+            <section class="block-media group-hover flex flex-wrap mx-auto h-auto {{with .Params.row_alignment}}sm:justify-{{.}}{{else}}sm:justify-between{{end}}">
             {{- range .Params.collection_layout_builder -}}
             {{ partial (printf "blocks/block-%s.html" .block) (dict "Section" . "Page" $ "Site" $.Site) }}
             {{- end -}}
