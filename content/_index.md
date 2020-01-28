@@ -35,6 +35,7 @@ page_sections:
   margin_right: ''
   title_margin_left: "-85%"
   title_margin_right: ''
+  meta_align: 'right'
 - template: block-media-row
   block: media-row
   row_alignment: between
