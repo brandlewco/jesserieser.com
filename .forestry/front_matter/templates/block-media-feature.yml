@@ -232,5 +232,5 @@ fields:
       file: 
       path: 
   label: Meta title Alignment (X)
-  description:
+  description: 
   default: left
