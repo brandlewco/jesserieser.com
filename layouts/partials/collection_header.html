@@ -1,7 +1,7 @@
 <header id="project-header" class="w-full h-screen lazyload flex flex-col items-center overflow-hidden" style="background-color: {{.Params.theme_color}};">
     <img data-srcset="{{.Params.collection_cover }}?nf_resize=fit&w=1024 1024w, {{.Params.collection_cover }}?nf_resize=fit&w=1920 1920w, {{.Params.collection_cover }}?nf_resize=fit&w=2560 2560w, {{.Params.collection_cover }}"
 		 data-sizes="auto"
-		 class="lazyload z-10 bg-center max-w-full max-h-full object-cover"
+		 class="lazyload z-10 bg-center max-w-full h-full object-cover"
 		 data-parent-fit="cover"/>
     {{partial "r-mask" .}}
     <div id="header-loading" class="text-center font-semibold fixed inset-x-0 bottom-0 z-50 text-4xl">
