@@ -222,12 +222,15 @@ fields:
 - type: select
   name: meta_align
   config:
-    source:
-      type: simple
     options:
     - left
     - center
     - right
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
   label: Meta title Alignment (X)
   description:
   default: left
