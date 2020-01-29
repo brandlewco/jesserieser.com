@@ -20,7 +20,7 @@ lazySizes.cfg.expand = "1000";
 
 // Page Loader (SWUP)
 const options = {
-  containers: ["#content"],
+  containers: ["#content", "#navigation"],
   plugins: [
     new SwupScrollPlugin({
       animateScroll: false,
@@ -52,6 +52,7 @@ const swup = new Swup(options);
 
 swup.on("contentReplaced", init);
 function init() {
+  console.log("contentReplaced");
   // MIDDAY
   const middayNav = new Midday(document.getElementById("navigation"), {
     headerClass: "hue-header",
@@ -59,10 +60,12 @@ function init() {
     sectionSelector: "hue"
   });
 
+  // middayNav.refresh();
+
   // Sal Animations
   var scrollAnimations = sal({
     once: false,
-    threshold: 0.33,
+    threshold: 0.4,
   });
 
   // Parellax
@@ -392,9 +395,8 @@ function init() {
     });
   });
 
-  const figureAll = document.querySelectorAll(".figure");
   // USE FOR BLOCK HOVER
-  // const figureHover = document.querySelectorAll(".figure");
+  const figureAll = document.querySelectorAll(".figure");
   figureAll.forEach((figureHovered) => {
     figureHovered.addEventListener("mouseenter", () => {
       figureAll.forEach(function(element) {
@@ -456,24 +458,9 @@ function init() {
 
   window.__forceSmoothScrollPolyfill__ = true;
   smoothscroll.polyfill();
-
-
-  // var modalLoad = document.querySelectorAll("modal_open");
-
-  // for (var i = 0, l = modalLoad.length; i < l; i++) {
-  //   // modalLoad[i].setAttribute("data-pswp-uid", i + 1);
-  //   swup.loadPage({
-  //     url: "/someRoute",
-  //     method: "GET",
-  //     data: "html",
-  //     customTransition: "form-results"
-  // });
-  // }
 }
-
 
 // intit code on each page load
 init();
-
 
 import "./css/main.css";
