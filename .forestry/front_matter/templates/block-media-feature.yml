@@ -184,7 +184,7 @@ fields:
       type: simple
       section: 
       file: 
-      path:
+      path: 
   label: Title Left Margin (X)
 - name: title_margin_right
   type: select
@@ -217,7 +217,7 @@ fields:
       type: simple
       section: 
       file: 
-      path:
+      path: 
   label: Title Right Margin (X)
 - type: select
   name: meta_align
@@ -233,4 +233,3 @@ fields:
       path: 
   default: left
   label: Meta Title Alignment (X)
-  
