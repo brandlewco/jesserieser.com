@@ -184,7 +184,12 @@ fields:
       type: simple
       section: 
       file: 
+<<<<<<< HEAD
       path:
+=======
+      path: 
+  description: 
+>>>>>>> 2e7ef53033ec1da176e5a78885cdafd2adbf5d6c
   label: Title Left Margin (X)
 - name: title_margin_right
   type: select
@@ -217,7 +222,12 @@ fields:
       type: simple
       section: 
       file: 
+<<<<<<< HEAD
       path:
+=======
+      path: 
+  description: 
+>>>>>>> 2e7ef53033ec1da176e5a78885cdafd2adbf5d6c
   label: Title Right Margin (X)
 - type: select
   name: meta_align
