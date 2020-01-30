@@ -22,17 +22,17 @@ page_sections:
   margin_left: 25%
   margin_right: 0%
   text: "**MY NAME IS JESSE RIESER  \nAND I AM A STUDENT OF SUBTLETIES.**\n\nSince
-    I was 17 I have been looking through a\n\nlens, making images filed with telling
-    details\n\nand compelling character.\n\nBut back to those subtleties. They are\n\ndifferent
-    from details.\n\nSubtleties are the stuff of stories. they are\n\nthe unexplained
-    elements, the unobvious\n\nexpression, the unclear artifacts. They are\n\nthe
-    lingering mysteries in the photograph\n\nthat refuse to reveal themselves to the\n\nviewer
-    immediately. My work inspires\n\nengagement, drawing in the viewer, causing\n\nhim
-    to wonder about the subjects and the\n\nstories they have to tell.\n\nPhotography
-    is all about the moment -\n\nbutton pressed, instant captured. But that\n\nmoment
-    can take an hour, a day, a lifetime to\n\nhappen. I engage with subjects. I understand\n\nand
-    communicate with clients. I can see their\n\nvision through my own eyes.\n\nSome
-    call it empathy. Some call it charm. My\n\nmom just says I’m a nice young man."
+    I was 17 I have been looking through a lens, making images filed with telling
+    details and compelling character.\n\nBut back to those subtleties. They are different
+    from details.\n\nSubtleties are the stuff of stories. they are the unexplained
+    elements, the unobvious expression, the unclear artifacts. They are the lingering
+    mysteries in the photograph that refuse to reveal themselves to the viewer immediately.
+    My work inspires engagement, drawing in the viewer, causing him to wonder about
+    the subjects and the stories they have to tell.\n\nPhotography is all about the
+    moment - button pressed, instant captured. But that moment can take an hour, a
+    day, a lifetime to happen. I engage with subjects. I understand and communicate
+    with clients. I can see their vision through my own eyes.\n\nSome call it empathy.
+    Some call it charm. My mom just says I’m a nice young man."
   parallax: true
   background_color: ''
   text_color: "#000000"
