@@ -1,0 +1,15 @@
+{{ with .Site.GetPage "about" }}
+<div class="popup-modal fixed z-50 text-black overflow-hidden bg-white" data-popup-modal="modal-about">
+  <header class="flex flex-row justify-between p-4">
+    <div class="text-xl uppercase font-medium text-center">{{.Params.title}}</div>
+    <div class="cursor-pointer">
+      <svg class="icon h-8 w-8 m-4 absolute top-0 right-0 text-black popup-modal__close"><use xlink:href="#close"></use></svg>
+    </div>
+  </header>
+  <section class="p-4 w-100 overflow-y-scroll" style="height: calc(100vh - 40%);">
+        {{- range .Params.page_sections -}}
+          {{ partial (printf "blocks/block-%s.html" .block) (dict "Section" . "Page" $ "Site" $.Site) }}
+        {{- end -}}
+  </section>
+</div>
+{{end}}
