@@ -38,6 +38,9 @@ page_sections:
   text_color: "#000000"
   background_image_toggle: true
   image: https://jesserieser.brandlew.co/uploads/bio-4.jpg
+- template: block-media-row
+  block: media-row
+  row_alignment: between
 - template: block-modal-list
   block: modal-list
   width: '33'
