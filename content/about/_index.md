@@ -4,7 +4,7 @@ title: Say Hello
 date: 2017-11-02T23:00:00.000+00:00
 cover_image: ''
 collection_logo: ''
-collection_cover: https://jesserieser.brandlew.co/uploads/jesserieser.jpg
+collection_cover: https://jesserieser.brandlew.co/uploads/bio-2.jpg
 collection_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
   hendrerit quam dapibus sem porttitor convallis. Integer convallis arcu non lectus
   facilisis dapibus. Aenean commodo magna at laoreet tempor. Phasellus lorem lorem,
@@ -17,9 +17,9 @@ page_sections:
   width: '70'
   align_x: start
   margin_y: '50'
-  image: https://jesserieser.brandlew.co/uploads/phx-17.jpg
+  image: https://jesserieser.brandlew.co/uploads/bio-5.jpg
   caption: Awards
-  color: "#50E3C2"
+  color: "#949494"
   modal_block:
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
@@ -98,8 +98,8 @@ page_sections:
   align_x: end
   margin_y: '100'
   caption: Press
-  image: https://jesserieser.brandlew.co/uploads/phx-6.jpg
-  color: "#5E65AD"
+  image: https://jesserieser.brandlew.co/uploads/bio-3.jpg
+  color: "#FE9A8E"
   modal_block:
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
