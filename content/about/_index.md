@@ -12,6 +12,30 @@ collection_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 theme_color: "#D5C7BE"
 navigation_theme: white
 page_sections:
+- template: block-media-text
+  block: media-text
+  text_size: sm
+  text_tracking: wide
+  width: '60'
+  align_y: start
+  margin_y: '50'
+  margin_left: 30%
+  margin_right: 0%
+  text: "**MY NAME IS JESSE RIESER  \nAND I AM A STUDENT OF SUBTLETIES.**\n\nSince
+    I was 17 I have been looking through a\n\nlens, making images filed with telling
+    details\n\nand compelling character.\n\nBut back to those subtleties. They are\n\ndifferent
+    from details.\n\nSubtleties are the stu of stories. they are\n\nthe unexplained
+    elements, the unobvious\n\nexpression, the unclear artifacts. They are\n\nthe
+    lingering mysteries in the photograph\n\nthat refuse to reveal themselves to the\n\nviewer
+    immediately. My work inspires\n\nengagement, drawing in the viewer, causing\n\nhim
+    to wonder about the subjects and the\n\nstories they have to tell.\n\nPhotography
+    is all about the moment -\n\nbutton pressed, instant captured. But that\n\nmoment
+    can take an hour, a day, a lifetime to\n\nhappen. I engage with subjects. I understand\n\nand
+    communicate with clients. I can see their\n\nvision through my own eyes.\n\nSome
+    call it empathy. Some call it charm. My\n\nmom just says I’m a nice young man."
+  parallax: true
+  background_color: ''
+  text_color: ''
 - template: block-modal-list
   block: modal-list
   width: '70'
