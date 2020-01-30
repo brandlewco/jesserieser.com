@@ -19,12 +19,12 @@ page_sections:
   width: '60'
   align_y: start
   margin_y: '50'
-  margin_left: 30%
+  margin_left: 35%
   margin_right: 0%
   text: "**MY NAME IS JESSE RIESER  \nAND I AM A STUDENT OF SUBTLETIES.**\n\nSince
     I was 17 I have been looking through a\n\nlens, making images filed with telling
     details\n\nand compelling character.\n\nBut back to those subtleties. They are\n\ndifferent
-    from details.\n\nSubtleties are the stu of stories. they are\n\nthe unexplained
+    from details.\n\nSubtleties are the stuff of stories. they are\n\nthe unexplained
     elements, the unobvious\n\nexpression, the unclear artifacts. They are\n\nthe
     lingering mysteries in the photograph\n\nthat refuse to reveal themselves to the\n\nviewer
     immediately. My work inspires\n\nengagement, drawing in the viewer, causing\n\nhim
@@ -36,6 +36,8 @@ page_sections:
   parallax: true
   background_color: ''
   text_color: ''
+  background_image_toggle: true
+  image: https://jesserieser.brandlew.co/uploads/bio-4.jpg
 - template: block-modal-list
   block: modal-list
   width: '70'
