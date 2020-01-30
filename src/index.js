@@ -358,20 +358,23 @@ function init() {
   const bodyPopup = document.querySelector(".body-popup");
 
   modalTriggers.forEach((trigger) => {
+    const navigation = document.getElementById("navigation");
     trigger.addEventListener("click", () => {
+      navigation.style.opacity = 0;
       const {popupTrigger} = trigger.dataset;
       const popupModal = document.querySelector(`[data-popup-modal="${popupTrigger}"]`);
 
       popupModal.classList.add("is--visible");
       bodyPopup.classList.add("is-poped-out");
 
-      popupModal.querySelector(".popup-modal__close").addEventListener("click", () => {
+      modalCloseTrigger.addEventListener("click", () => {
+        navigation.style.opacity = 1;
         popupModal.classList.remove("is--visible");
         bodyPopup.classList.remove("is-poped-out");
       });
 
       bodyPopup.addEventListener("click", () => {
-      // TODO: Turn into a function to close modal
+        navigation.style.opacity = 1;
         popupModal.classList.remove("is--visible");
         bodyPopup.classList.remove("is-poped-out");
       });

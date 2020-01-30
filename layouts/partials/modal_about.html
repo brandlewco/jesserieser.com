@@ -1,12 +1,15 @@
 {{ with .Site.GetPage "about" }}
-<div class="popup-modal fixed z-50 text-black overflow-hidden bg-white" data-popup-modal="modal-about">
-  <header class="flex flex-row justify-between p-4">
-    <div class="text-xl uppercase font-medium text-center">{{.Params.title}}</div>
-    <div class="cursor-pointer">
-      <svg class="icon h-8 w-8 m-4 absolute top-0 right-0 text-black popup-modal__close"><use xlink:href="#close"></use></svg>
+<div class="popup-modal fixed z-50 text-black bg-white overflow-y-scroll" data-popup-modal="modal-about" style="height: calc(100vh - 20%);">
+  <header class="flex flex-row justify-between w-full relative" style="height: 66%;">
+    <img data-srcset="{{.Params.collection_cover }}?nf_resize=fit&w=1024 1024w, {{.Params.collection_cover }}?nf_resize=fit&w=1920 1920w, {{.Params.collection_cover }}?nf_resize=fit&w=2560 2560w, {{.Params.collection_cover }}"
+		 data-sizes="auto"
+		 class="lazyload z-10 bg-center max-w-full h-full object-cover"
+		 data-parent-fit="cover"/>
+    <div class="h-8 w-8 m-4 fixed cursor-pointer z-50" style="top: calc(10% + 0.5rem); right: calc(10% + 0.5rem);">
+      <svg class="icon h-8 w-8 text-black popup-modal__close"><use xlink:href="#close"></use></svg>
     </div>
   </header>
-  <section class="p-4 w-100 overflow-y-scroll" style="height: calc(100vh - 40%);">
+  <section class="p-4">
         {{- range .Params.page_sections -}}
           {{ partial (printf "blocks/block-%s.html" .block) (dict "Section" . "Page" $ "Site" $.Site) }}
         {{- end -}}

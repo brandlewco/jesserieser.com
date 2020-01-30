@@ -38,7 +38,7 @@ page_sections:
   text_color: ''
 - template: block-modal-list
   block: modal-list
-  width: '70'
+  width: '33'
   align_x: start
   margin_y: '50'
   image: https://jesserieser.brandlew.co/uploads/bio-5.jpg
