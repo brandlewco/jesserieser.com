@@ -15,11 +15,11 @@ import smoothscroll from "smoothscroll-polyfill";
 import sal from "sal.js";
 import Rellax from "rellax";
 
-lazySizes.cfg.expand = "950";
+lazySizes.cfg.expand = "1000";
 
 // Page Loader (SWUP)
 const options = {
-  containers: ["#content"],
+  containers: ["#content", "#navigation"],
   plugins: [
     new SwupScrollPlugin({
       animateScroll: false,
@@ -228,10 +228,10 @@ function init() {
           // define gallery index (for URL)
           galleryUID: galleryElement.getAttribute("data-pswp-uid"),
           history: false,
-          bgOpacity: 0.75,
+          bgOpacity: 0.85,
           closeOnScroll: false,
           closeOnVerticalDrag: true,
-          preload: [2, 3],
+          preload: [3, 4],
           loadingIndicatorDelay: 100,
           getThumbBoundsFn: function(index) {
             // See Options -> getThumbBoundsFn section of documentation for more info
