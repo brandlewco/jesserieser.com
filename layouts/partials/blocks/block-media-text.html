@@ -1,9 +1,13 @@
 
   <figure class="w-full {{with .Section.align_y}}sm:self-{{.}}{{end}} {{with .Section.width}}sm:w-{{.}}/100{{end}} mt-4 {{with .Section.margin_y}}sm:mt-{{.}}{{end}} ml-0 {{with .Section.margin_left}}sm:ml-{{.}}{{end}} mr-0 {{with .Section.margin_right}}sm:mr-{{.}}{{end}} highlight {{with .Section.parallax}}rellax-wrapper{{end}} relative" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" data-sal="image">
     {{if (eq .Section.background_image_toggle true) }}
-      <img class="lazyload" src="{{ .Section.image }}?nf_resize=fit&w=1024" data-src="{{ .Section.image  }}" alt="{{ .Section.caption }}"/>
-      <figcaption class="absolute mt-16 ml-neg break-words {{with .Section.text_size }}text-{{.}}{{end}} {{with .Section.text_tracking}}tracking-{{.}}{{end}} {{with .Section.parallax}}rellax{{end}}" {{with .Section.parallax}}data-rellax-speed="2" data-rellax-percentage="0"{{end}} style="{{with .Section.text_color}}color:{{.}}; {{end}}{{with .Section.background_color}}background-color:{{.}};{{end}}">{{ .Section.text | markdownify }}</figcaption>
+      <img class="lazyload" src="{{ .Section.image }}?nf_resize=fit&w=1024" data-src="{{ .Section.image  }}" alt="{{ .Section.caption }}" {{with .Section.parallax}}data-rellax-speed="2" data-rellax-percentage=""{{end}}/>
+      <figcaption class="absolute inset-0 mt-32 w-2/3 ml-neg break-words {{with .Section.text_size }}text-{{.}}{{end}} {{with .Section.text_tracking}}tracking-{{.}}{{end}} {{with .Section.parallax}}rellax{{end}}" style="{{with .Section.text_color}}color:{{.}}; {{end}}{{with .Section.background_color}}background-color:{{.}};{{end}}">
+        {{ .Section.text | markdownify }}
+      </figcaption>
       {{else}}
-      <figcaption class="break-words {{with .Section.text_size }}text-{{.}}{{end}} {{with .Section.text_tracking}}tracking-{{.}}{{end}} {{with .Section.parallax}}rellax{{end}}" {{with .Section.parallax}}data-rellax-speed="2" data-rellax-percentage="0"{{end}} style="{{with .Section.text_color}}color:{{.}}; {{end}}{{with .Section.background_color}}background-color:{{.}};{{end}}">{{ .Section.text | markdownify }}</figcaption>
+      <figcaption class="break-words {{with .Section.text_size }}text-{{.}}{{end}} {{with .Section.text_tracking}}tracking-{{.}}{{end}} {{with .Section.parallax}}rellax{{end}}" {{with .Section.parallax}}data-rellax-speed="2" data-rellax-percentage="0"{{end}} style="{{with .Section.text_color}}color:{{.}}; {{end}}{{with .Section.background_color}}background-color:{{.}};{{end}}">
+        {{ .Section.text | markdownify }}
+      </figcaption>
       {{end}}
   </figure>

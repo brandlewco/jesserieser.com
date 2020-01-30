@@ -16,7 +16,7 @@ page_sections:
   block: media-text
   text_size: sm
   text_tracking: wide
-  width: '66'
+  width: '40'
   align_y: start
   margin_y: '50'
   margin_left: 25%
@@ -33,7 +33,7 @@ page_sections:
     day, a lifetime to happen. I engage with subjects. I understand and communicate
     with clients. I can see their vision through my own eyes.\n\nSome call it empathy.
     Some call it charm. My mom just says I’m a nice young man."
-  parallax: true
+  parallax: false
   background_color: ''
   text_color: "#000000"
   background_image_toggle: true
@@ -202,7 +202,7 @@ header_col_2: "### EXHIBITION, EDITORIAL,\n\n### SYNDICATION INQUIRIES\n\nJesse 
 header_col_3: "### STOCK\n\nGallery Stock  \nNew York  \n[212 219 7520](tel:+12122197520
   \"212 219 7520\")  \n[newyork@gallerystock.com](mailto:newyork@gallerystock.com
   \"newyork@gallerystock.com\")\n\nParis  \nMunich  \nSydney"
-row_alignment: center
+row_alignment: left
 
 ---
 ## Click the collections link above to preview collections.
