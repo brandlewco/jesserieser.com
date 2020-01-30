@@ -185,11 +185,15 @@ fields:
       section: 
       file: 
 <<<<<<< HEAD
+<<<<<<< HEAD
       path:
 =======
       path: 
   description: 
 >>>>>>> 2e7ef53033ec1da176e5a78885cdafd2adbf5d6c
+=======
+      path: 
+>>>>>>> 254475743055da9e93982a0e7e16ae56039416fa
   label: Title Left Margin (X)
 - name: title_margin_right
   type: select
@@ -223,11 +227,15 @@ fields:
       section: 
       file: 
 <<<<<<< HEAD
+<<<<<<< HEAD
       path:
 =======
       path: 
   description: 
 >>>>>>> 2e7ef53033ec1da176e5a78885cdafd2adbf5d6c
+=======
+      path: 
+>>>>>>> 254475743055da9e93982a0e7e16ae56039416fa
   label: Title Right Margin (X)
 - type: select
   name: meta_align
@@ -243,4 +251,3 @@ fields:
       path: 
   default: left
   label: Meta Title Alignment (X)
-  
