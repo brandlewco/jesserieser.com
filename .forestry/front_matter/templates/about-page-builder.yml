@@ -76,6 +76,7 @@ fields:
   template_types:
   - block-modal-list
   - block-media-text
+  - block-media-row
 - type: file
   name: cover_image
   label: Social Media Card
