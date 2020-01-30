@@ -16,10 +16,10 @@ page_sections:
   block: media-text
   text_size: sm
   text_tracking: wide
-  width: '60'
+  width: '66'
   align_y: start
   margin_y: '50'
-  margin_left: 35%
+  margin_left: 25%
   margin_right: 0%
   text: "**MY NAME IS JESSE RIESER  \nAND I AM A STUDENT OF SUBTLETIES.**\n\nSince
     I was 17 I have been looking through a\n\nlens, making images filed with telling
@@ -35,7 +35,7 @@ page_sections:
     call it empathy. Some call it charm. My\n\nmom just says I’m a nice young man."
   parallax: true
   background_color: ''
-  text_color: ''
+  text_color: "#000000"
   background_image_toggle: true
   image: https://jesserieser.brandlew.co/uploads/bio-4.jpg
 - template: block-modal-list
