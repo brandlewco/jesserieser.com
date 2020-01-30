@@ -202,6 +202,7 @@ header_col_2: "### EXHIBITION, EDITORIAL,\n\n### SYNDICATION INQUIRIES\n\nJesse 
 header_col_3: "### STOCK\n\nGallery Stock  \nNew York  \n[212 219 7520](tel:+12122197520
   \"212 219 7520\")  \n[newyork@gallerystock.com](mailto:newyork@gallerystock.com
   \"newyork@gallerystock.com\")\n\nParis  \nMunich  \nSydney"
+row_alignment: center
 
 ---
 ## Click the collections link above to preview collections.
