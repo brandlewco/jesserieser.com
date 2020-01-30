@@ -15,12 +15,11 @@ import smoothscroll from "smoothscroll-polyfill";
 import sal from "sal.js";
 import Rellax from "rellax";
 
-lazySizes.cfg.expand = "1000";
-
+lazySizes.cfg.expand = "950";
 
 // Page Loader (SWUP)
 const options = {
-  containers: ["#content", "#navigation"],
+  containers: ["#content"],
   plugins: [
     new SwupScrollPlugin({
       animateScroll: false,
@@ -49,10 +48,8 @@ const options = {
 };
 const swup = new Swup(options);
 
-
 swup.on("contentReplaced", init);
 function init() {
-  console.log("contentReplaced");
   // MIDDAY
   const middayNav = new Midday(document.getElementById("navigation"), {
     headerClass: "hue-header",
@@ -231,7 +228,7 @@ function init() {
           // define gallery index (for URL)
           galleryUID: galleryElement.getAttribute("data-pswp-uid"),
           history: false,
-          bgOpacity: 0.9,
+          bgOpacity: 0.75,
           closeOnScroll: false,
           closeOnVerticalDrag: true,
           preload: [2, 3],
@@ -350,15 +347,35 @@ function init() {
   }
   removeActive();
 
+  // const scrollLock = () => {
+  //   // document.getElementById("dialog").classList.add("show");
+  //   const scrollY = document.documentElement.style.getPropertyValue("--scroll-y");
+  //   const body = document.body;
+  //   body.style.position = "fixed";
+  //   body.style.top = `-${scrollY}`;
+  // };
+  // const scrollUnlock = () => {
+  //   const body = document.body;
+  //   const scrollY = body.style.top;
+  //   body.style.position = "";
+  //   body.style.top = "";
+  //   window.scrollTo(0, parseInt(scrollY || "0") * -1);
+  //   // document.getElementById("dialog").classList.remove("show");
+  // };
+  // window.addEventListener("scroll", () => {
+  //   document.documentElement.style.setProperty("--scroll-y", `${window.scrollY}px`);
+  // });
 
   // Modal
   const modalTriggers = document.querySelectorAll(".popup-trigger");
-  const modalCloseTrigger = document.querySelector(".popup-modal__close");
+  // const modalCloseTrigger = document.querySelectorAll(".popup-modal__close");
   const bodyPopup = document.querySelector(".body-popup");
 
   modalTriggers.forEach((trigger) => {
     const navigation = document.getElementById("navigation");
     trigger.addEventListener("click", () => {
+      // scrollLock();
+      document.body.style.overflowY = "hidden";
       navigation.style.opacity = 0;
       const {popupTrigger} = trigger.dataset;
       const popupModal = document.querySelector(`[data-popup-modal="${popupTrigger}"]`);
@@ -366,14 +383,20 @@ function init() {
       popupModal.classList.add("is--visible");
       bodyPopup.classList.add("is-poped-out");
 
-      modalCloseTrigger.addEventListener("click", () => {
+      popupModal.querySelector(".popup-modal__close").addEventListener("click", () => {
+        // scrollUnlock();
+        console.log("close");
+        document.body.style.overflowY = "auto";
         navigation.style.opacity = 1;
         popupModal.classList.remove("is--visible");
         bodyPopup.classList.remove("is-poped-out");
       });
 
       bodyPopup.addEventListener("click", () => {
+        // scrollUnlock();
+        document.body.style.overflowY = "auto";
         navigation.style.opacity = 1;
+        console.log("bodyPop");
         popupModal.classList.remove("is--visible");
         bodyPopup.classList.remove("is-poped-out");
       });

@@ -1,13 +1,31 @@
 {{ with .Site.GetPage "about" }}
 <div class="popup-modal fixed z-50 text-black bg-white overflow-y-scroll" data-popup-modal="modal-about" style="height: calc(100vh - 20%);">
-  <div class="h-8 w-8 m-4 fixed cursor-pointer z-50" style="top: calc(10% + 0.5rem); right: calc(10% + 0.5rem);">
-      <svg class="icon h-8 w-8 text-black popup-modal__close"><use xlink:href="#close"></use></svg>
+  <div class="h-8 w-8 m-4 fixed cursor-pointer z-50 popup-modal__close" style="top: calc(10% + 0.5rem); right: calc(10% + 0.5rem);">
+      <svg class="icon h-8 w-8 text-black"><use xlink:href="#close"></use></svg>
   </div>
-  {{partial "about_header" .}}
+  <header id="project-header" class="w-full lazyload flex flex-col items-center overflow-hidden relative" style="background-color: {{.Params.theme_color}}; height: calc(100vh - 45%);">
+    <img data-srcset="{{.Params.collection_cover }}?nf_resize=fit&w=1024 1024w, {{.Params.collection_cover }}?nf_resize=fit&w=1920 1920w, {{.Params.collection_cover }}?nf_resize=fit&w=2560 2560w, {{.Params.collection_cover }}"
+		 data-sizes="auto"
+		 class="lazyload z-10 bg-center max-w-full h-full object-cover"
+		 data-parent-fit="cover"/>
+    <div id="header-loading" class="text-center font-semibold fixed inset-x-0 bottom-0 z-50 text-4xl">
+        <i class="fad fa-spinner-third fa-spin text-{{.Params.navigation_theme}}"></i>
+    </div>
+    <div id="about-title" class="absolute inset-auto h-full z-50 margin-0 uppercase px-4 sm:px-0 font-light tracking-wide text-{{.Params.navigation_theme}} text-center lazyload" data-sal="slide-down">
+        <h1 class="uppercase text-4xl sm:text-6xl font-light tracking-loose text-center relative" style="top: 40%">{{.Title}}</h1>
+    </div>
+  </header>
+  <article id="about-description" class="w-full py-8 px-8 xl:px-16 text-xl text-{{.Params.navigation_theme}} items-center text-justify"  style="background-color: {{.Params.theme_color}};">
+      <div class="flex flex-row justify-around mx-auto px-0 sm:px-32">
+          <aside class="w-full pb-4 sm:pb-0">{{ .Params.header_col_1 | markdownify }}</aside>
+          <aside class="w-full px-0 sm:px-4 pb-4 sm:pb-0">{{ .Params.header_col_2 | markdownify }}</aside>
+          <aside class="w-full pb-4 sm:pb-0">{{ .Params.header_col_3 | markdownify }}</aside> 
+      </div>
+  </article>
   <section class="p-4 block-media group-hover flex flex-wrap mx-auto h-auto {{with .Params.row_alignment}}sm:justify-{{.}}{{else}}sm:justify-between{{end}}">
-        {{- range .Params.page_sections -}}
-          {{ partial (printf "blocks/block-%s.html" .block) (dict "Section" . "Page" $ "Site" $.Site) }}
-        {{- end -}}
+          {{- range .Params.page_sections -}}
+            {{ partial (printf "blocks/block-%s.html" .block) (dict "Section" . "Page" $ "Site" $.Site) }}
+          {{- end -}}
   </section>
 </div>
 {{end}}

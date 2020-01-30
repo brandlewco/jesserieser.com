@@ -6,13 +6,9 @@
     <div id="header-loading" class="text-center font-semibold fixed inset-x-0 bottom-0 z-50 text-4xl">
         <i class="fad fa-spinner-third fa-spin text-{{.Params.navigation_theme}}"></i>
     </div>
-    <div id="about-title" class="absolute inset-0 z-50 margin-0 uppercase px-4 sm:px-0 font-light tracking-wide text-{{.Params.navigation_theme}} text-center lazyload">
-        <h1 class="uppercase text-4xl sm:text-6xl font-light tracking-loose text-center" data-sal="slide-down" data-sal-delay="600">{{.Title}}</h1>
-        <!-- <h2 class="uppercase text-lg sm:2xl font-light italic tracking-widest text-center" data-sal="slide-down" data-sal-delay="900">{{.Params.collection_meta}}</h2> -->
+    <div id="about-title" class="absolute inset-auto h-full z-50 margin-0 uppercase px-4 sm:px-0 font-light tracking-wide text-{{.Params.navigation_theme}} text-center lazyload">
+        <h1 class="uppercase text-4xl sm:text-6xl font-light tracking-loose text-center relative" style="top: 40%" data-sal="slide-down" data-sal-delay="600">{{.Title}}</h1>
     </div>
-    <div class="absolute bottom-0 mx-0 text-6xl font-light text-{{.Params.navigation_theme}} z-10">&#8964;</div>
-    <!-- <div id="loading-overlay" class="absolute w-full h-screen inset-auto z-10" style="background-color: {{.Params.theme_color}};"></div> -->
-    <div id="header-overlay" class="flex flex-col justify-end absolute w-full h-screen inset-auto z-40" style="background-color: {{if (eq .Params.collection_archive true) }}#000{{else}}{{.Params.theme_color}}{{end}};"></div>
 </header>
 <article id="about-description" class="w-full py-8 px-8 xl:px-16 text-xl text-{{.Params.navigation_theme}} items-center text-justify"  style="background-color: {{.Params.theme_color}};">
     <div class="flex flex-wrap justify-center mx-auto px-0 sm:px-32">
