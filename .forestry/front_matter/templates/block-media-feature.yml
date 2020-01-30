@@ -184,7 +184,7 @@ fields:
       type: simple
       section: 
       file: 
-      path:
+      path: 
   description: 
   label: Title Left Margin (X)
 - name: title_margin_right
@@ -218,7 +218,7 @@ fields:
       type: simple
       section: 
       file: 
-      path:
+      path: 
   description: 
   label: Title Right Margin (X)
 - type: select
