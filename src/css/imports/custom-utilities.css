@@ -1,14 +1,3 @@
-/* body {
-  opacity: 1;
-  transition: 0.05s opacity linear;
-  will-change: opacity;
-}
-
-html.is-animating body {
-  opacity: 0;
-} */
-
-
 .transition-page {
   transition: 0.33s opacity cubic-bezier(0.55, 0.055, 0.675, 0.19);
   transition-delay: 0.45s;
@@ -55,6 +44,11 @@ html.is-animating.is-leaving .transition-nav {
   }
 }
 
+header {
+  will-change: transform;
+  transform: translate3d(0,0,0);
+}
+
 header svg #mask svg {
   display: block;
 }
@@ -62,15 +56,15 @@ header svg #mask rect {
   opacity: 1;
 }
 header svg #mask path {
-  will-change: transform, opacity;
+  will-change: transform;
   transform: translateX(50%) translateX(-150px) translateY(50%)
     translateY(-270px);
   opacity: 0;
   transition: transform 1s ease-in-out 0.2s, opacity 1s ease-in-out 0.2s;
 }
 header img.lazyloaded + svg #mask path {
-  transform: translateX(50%) translateX(-150px) translateY(50%)
-    translateY(-170px);
+  /* transform: translateX(50%) translateX(-150px) translateY(50%)
+    translateY(-170px); */
   opacity: 1;
 }
 
@@ -101,15 +95,6 @@ header img.lazyloaded + svg rect.cover {
   transform-origin: center;
   animation-delay: 2s; */
 }
-
-/* animation-name: r-expand;
-animation-duration: 0.66s;
-animation-duration: 1s;
-animation-iteration-count: 1;
-animation-timing-function: cubic-bezier(1, 0, 0.81, 0.58);
-animation-fill-mode: forwards;
-transform-origin: center;
-animation-delay: 1s; */
 
 header img {
   transition: opacity 0.33s ease-in-out;
