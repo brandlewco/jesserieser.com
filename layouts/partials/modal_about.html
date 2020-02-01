@@ -3,14 +3,14 @@
   <div class="h-8 w-8 m-4 fixed cursor-pointer z-50 popup-modal__close" style="top: calc(10% + 0.5rem); right: calc(10% + 0.5rem);">
       <svg class="icon h-8 w-8 text-black"><use xlink:href="#close"></use></svg>
   </div>
-  <header id="project-header" class="w-full lazyload flex flex-col items-center overflow-hidden relative" style="background-color: {{.Params.theme_color}}; height: calc(100vh - 45%);">
+  <header id="modal-header" class="w-full lazyload flex flex-col items-center overflow-hidden relative" style="background-color: {{.Params.theme_color}}; height: calc(100vh - 45%);">
     <img data-srcset="{{.Params.collection_cover }}?nf_resize=fit&w=1024 1024w, {{.Params.collection_cover }}?nf_resize=fit&w=1920 1920w, {{.Params.collection_cover }}?nf_resize=fit&w=2560 2560w, {{.Params.collection_cover }}"
 		 data-sizes="auto"
 		 class="lazyload z-10 bg-center max-w-full h-full object-cover"
 		 data-parent-fit="cover"/>
-    <div id="header-loading" class="text-center font-semibold fixed inset-x-0 bottom-0 z-50 text-4xl">
+    <!-- <div id="header-loading" class="text-center font-semibold fixed inset-x-0 bottom-0 z-50 text-4xl">
         <i class="fad fa-spinner-third fa-spin text-{{.Params.navigation_theme}}"></i>
-    </div>
+    </div> -->
     <div id="about-title" class="absolute inset-auto h-full z-50 margin-0 uppercase px-4 sm:px-0 font-light tracking-wide text-{{.Params.navigation_theme}} text-center lazyload" data-sal="slide-down">
         <h1 class="uppercase text-4xl sm:text-6xl font-light tracking-loose text-center relative" style="top: 40%">{{.Title}}</h1>
     </div>

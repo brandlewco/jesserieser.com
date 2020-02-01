@@ -19,7 +19,7 @@ lazySizes.cfg.expand = "1000";
 
 // Page Loader (SWUP)
 const options = {
-  containers: ["#navigation","#content"],
+  containers: ["#navigation", "#content"],
   plugins: [
     new SwupScrollPlugin({
       animateScroll: false,
@@ -39,7 +39,6 @@ const options = {
   preload: true,
   cache: true,
   linkSelector: 'a[href^="' + window.location.origin + '"]:not([data-no-swup]), a[href^="/"]:not([data-no-swup]), a[href^="#"]:not([data-no-swup])',
-  // linkSelector: 'a[href^="' + window.location.origin + '"]:not([data-no-swup]), a[href^="/"]:not([data-no-swup]), a[href^="#"]:not([data-no-swup])',
   skipPopStateHandling: function(event) {
     if (event.state && event.state.source === "swup") {
       return false;
@@ -85,7 +84,7 @@ function init() {
       rellax.refresh();
     });
   }
-  
+
   // PhotoSwipe
   if (document.querySelector("#gallery")) {
     var initPhotoSwipeFromDOM = function(gallerySelector) {
@@ -451,10 +450,11 @@ function init() {
     return val < min ? min : (val > max ? max : val);
   }
 
+  const projectHeader = document.getElementById("project-header");
   // Scroll Animations
   let scrollPos = 0;
   // Show Hide Header
-  if (document.querySelector("#project-header")) {
+  if (document.body.contains(projectHeader)) {
     navigation.classList.add("mt-0");
     navigation.classList.remove("mt-neg");
   }
@@ -467,7 +467,7 @@ function init() {
       headerOverlay.style.opacity = value_limit((scrollTop / (height * 0.5)), 0, 1).toFixed(2);
     }
     const windowY = window.scrollY;
-    if (document.querySelector("#project-header")) {
+    if (document.body.contains(projectHeader)) {
       if (windowY > (window.innerHeight * 0.75)) {
         if (windowY < scrollPos) {
           navigation.classList.add("mt-0");
