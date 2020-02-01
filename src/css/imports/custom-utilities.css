@@ -50,9 +50,13 @@ header {
 }
 
 header svg #mask svg {
+  will-change: transform;
+  transform: translate3d(0,0,0);
   display: block;
 }
 header svg #mask rect {
+  will-change: transform;
+  transform: translate3d(0,0,0);
   opacity: 1;
 }
 header svg #mask path {
@@ -63,8 +67,8 @@ header svg #mask path {
   transition: transform 1s ease-in-out 0.2s, opacity 1s ease-in-out 0.2s;
 }
 header img.lazyloaded + svg #mask path {
-  /* transform: translateX(50%) translateX(-150px) translateY(50%)
-    translateY(-170px); */
+  transform: translateX(50%) translateX(-150px) translateY(50%)
+    translateY(-170px);
   opacity: 1;
 }
 

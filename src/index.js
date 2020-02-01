@@ -362,6 +362,9 @@ function init() {
       // document.body.style.overflowY = "hidden";
       popupModal.classList.add("is--visible");
       bodyPopup.classList.add("is-poped-out");
+      popupModal.addEventListener("scroll", function() {
+        rellax.refresh();
+      });
     });
     popupModal.querySelector(".popup-modal__close").addEventListener("click", () => {
       scrollUnlock();
