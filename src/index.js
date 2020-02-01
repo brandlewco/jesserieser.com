@@ -19,7 +19,7 @@ lazySizes.cfg.expand = "1000";
 
 // Page Loader (SWUP)
 const options = {
-  containers: ["#content", "#navigation"],
+  containers: ["#navigation","#content"],
   plugins: [
     new SwupScrollPlugin({
       animateScroll: false,
@@ -39,6 +39,7 @@ const options = {
   preload: true,
   cache: true,
   linkSelector: 'a[href^="' + window.location.origin + '"]:not([data-no-swup]), a[href^="/"]:not([data-no-swup]), a[href^="#"]:not([data-no-swup])',
+  // linkSelector: 'a[href^="' + window.location.origin + '"]:not([data-no-swup]), a[href^="/"]:not([data-no-swup]), a[href^="#"]:not([data-no-swup])',
   skipPopStateHandling: function(event) {
     if (event.state && event.state.source === "swup") {
       return false;
@@ -49,7 +50,9 @@ const options = {
 const swup = new Swup(options);
 
 swup.on("contentReplaced", init);
+
 function init() {
+  console.log("location", window.location.origin);
   // MIDDAY
   const middayNav = new Midday(document.getElementById("navigation"), {
     headerClass: "hue-header",
@@ -78,11 +81,11 @@ function init() {
 
   if (document.querySelector(".rellax")) {
     rellax.refresh();
-
     window.addEventListener("scroll", function() {
       rellax.refresh();
     });
   }
+  
   // PhotoSwipe
   if (document.querySelector("#gallery")) {
     var initPhotoSwipeFromDOM = function(gallerySelector) {
@@ -145,7 +148,7 @@ function init() {
 
       // triggers when user clicks on thumbnail
       var onThumbnailsClick = function(e) {
-        navigation.style.opacity = 0;
+        navigation.classList.add("opacity-0");
         e = e || window.event;
         e.preventDefault ? e.preventDefault() : e.returnValue = false;
 
@@ -308,7 +311,7 @@ function init() {
             left: 0,
             behavior: "smooth"
           });
-          navigation.style.opacity = 1;
+          navigation.classList.remove("opacity-0");
         });
         gallery.init();
       };
@@ -368,38 +371,46 @@ function init() {
 
   // Modal
   const modalTriggers = document.querySelectorAll(".popup-trigger");
-  // const modalCloseTrigger = document.querySelectorAll(".popup-modal__close");
   const bodyPopup = document.querySelector(".body-popup");
 
   modalTriggers.forEach((trigger) => {
-    const navigation = document.getElementById("navigation");
+    const {popupTrigger} = trigger.dataset;
+    const popupModal = document.querySelector(`[data-popup-modal="${popupTrigger}"]`);
     trigger.addEventListener("click", () => {
+      navigation.classList.add("opacity-0");
       // scrollLock();
       document.body.style.overflowY = "hidden";
-      navigation.style.opacity = 0;
-      const {popupTrigger} = trigger.dataset;
-      const popupModal = document.querySelector(`[data-popup-modal="${popupTrigger}"]`);
-
       popupModal.classList.add("is--visible");
       bodyPopup.classList.add("is-poped-out");
+    });
+    popupModal.querySelector(".popup-modal__close").addEventListener("click", () => {
+      // scrollUnlock();
+      navigation.classList.remove("opacity-0");
+      document.body.style.overflowY = "auto";
+      popupModal.classList.remove("is--visible");
+      bodyPopup.classList.remove("is-poped-out");
+    });
 
-      popupModal.querySelector(".popup-modal__close").addEventListener("click", () => {
-        // scrollUnlock();
-        console.log("close");
-        document.body.style.overflowY = "auto";
-        navigation.style.opacity = 1;
-        popupModal.classList.remove("is--visible");
-        bodyPopup.classList.remove("is-poped-out");
-      });
+    bodyPopup.addEventListener("click", () => {
+      // scrollUnlock();
+      navigation.classList.remove("opacity-0");
+      document.body.style.overflowY = "auto";
+      popupModal.classList.remove("is--visible");
+      bodyPopup.classList.remove("is-poped-out");
+    });
+  });
 
-      bodyPopup.addEventListener("click", () => {
-        // scrollUnlock();
-        document.body.style.overflowY = "auto";
-        navigation.style.opacity = 1;
-        console.log("bodyPop");
-        popupModal.classList.remove("is--visible");
-        bodyPopup.classList.remove("is-poped-out");
-      });
+  // Inner Modal
+  const innerModalTriggers = document.querySelectorAll(".inner-popup-trigger");
+
+  innerModalTriggers.forEach((trigger) => {
+    const {innerPopupTrigger} = trigger.dataset;
+    const innerPopupModal = document.querySelector(`[data-inner-popup-modal="${innerPopupTrigger}"]`);
+    trigger.addEventListener("click", () => {
+      innerPopupModal.classList.add("is--visible");
+    });
+    innerPopupModal.querySelector(".popup-modal__close").addEventListener("click", () => {
+      innerPopupModal.classList.remove("is--visible");
     });
   });
 

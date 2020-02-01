@@ -1,6 +1,17 @@
+/* body {
+  opacity: 1;
+  transition: 0.05s opacity linear;
+  will-change: opacity;
+}
+
+html.is-animating body {
+  opacity: 0;
+} */
+
+
 .transition-page {
   transition: 0.33s opacity cubic-bezier(0.55, 0.055, 0.675, 0.19);
-  transition-delay: 0.15s;
+  transition-delay: 0.45s;
   opacity: 1;
 }
 
@@ -8,14 +19,24 @@ html.is-animating .transition-page {
   opacity: 0;
 }
 
+html.is-animating.is-leaving .transition-page {
+  transition: 0.1s opacity linear;
+  transition-delay: 0;
+}
+
 .transition-nav {
   transition: 0.15s;
-  transition-delay: 0.15s;
+  transition-delay: 0.30s;
   opacity: 1;
 }
 
 html.is-animating .transition-nav {
   opacity: 0;
+}
+
+html.is-animating.is-leaving .transition-nav {
+  transition: 0.1s opacity linear;
+  transition-delay: 0.33s;
 }
 
 
