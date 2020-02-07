@@ -51,7 +51,6 @@ const swup = new Swup(options);
 swup.on("contentReplaced", init);
 
 function init() {
-  console.log("location", window.location.origin);
   // MIDDAY
   const middayNav = new Midday(document.getElementById("navigation"), {
     headerClass: "hue-header",

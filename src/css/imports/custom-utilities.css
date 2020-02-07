@@ -45,8 +45,8 @@ html.is-animating.is-leaving .transition-nav {
 }
 
 header {
-  will-change: transform;
-  transform: translate3d(0,0,0);
+  /* will-change: transform;
+  transform: translate3d(0,0,0); */
 }
 
 header svg #mask svg {
@@ -197,12 +197,14 @@ figure:hover img {
   opacity: 1;
 }
 
+@media (pointer: fine) {
 .figure.dimmed img {
   opacity: 0 !important;
 }
 
 .figure.dimmed:hover img {
   opacity: 1 !important;
+}
 }
 
 /* .group-hover:hover > .block-hover img {
