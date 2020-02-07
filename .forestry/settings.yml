@@ -52,10 +52,5 @@ build:
   mount_path: "/srv"
   working_dir: "/srv"
   instant_preview_command: npm run build:forestry
-  publish_command: hugo -d public
-  publish_env:
-  - HUGO_ENV=production
-  - HUGO_VERSION=0.55.2
-  output_directory: public
   preview_command: npm run build:forestry
 version: 0.55.2
