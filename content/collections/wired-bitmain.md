@@ -417,7 +417,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+caption = "Deflation. Tempe, AZ. 2016 "
 color = "#D9A663"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-31.jpg"
 margin_left = "30%"
