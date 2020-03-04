@@ -4,6 +4,7 @@ collection_category = ["Editorial", "Science", "Reportage", "Travel", "Climate C
 collection_content = "Recently the United States experienced its worst drought in more than 50 years. Roughly half the nation, most of the high plains, Midwest and South were in extreme or exceptional drought, the two worst categories. These photographs bear witness to how that drought devastated the Arkansas River Basin.\n\n“This is a study of how climate change is altering the landscape, the backdrop to my childhood, my beloved Ozark Mountains,” Jesse said.\n\nThe drought caused leaves to turn color and drop in mid-July, shriveled corn never to be harvested, and left cattle unable to find food, shade or relief from hot, dusty winds.\n\nThis collection of seven images is poignant, the images simple and stark in their quiet brutality. The photos are a prescient expression of the fear and anger 400,000 people gave voice to in September 2014 during the People’s Climate March in New York City, days before the United Nations climate summit."
 collection_cover = "https://jesserieser.brandlew.co/uploads/fall-2.jpg"
 collection_description = "This is a study of how climate change is altering the landscape and the backdrop to my childhood, my beloved Ozark Mountains. The most severe drought since the dust bowl caused leaves to turn color and drop in mid-July, shriveled corn never to be harvested, and left cattle unable to find food, shade or relief from hot, dusty winds. Published with _MSNBC_ on the eve of the 2014 People’s Climate March.  \n \n\nWinner of the 2015 _PDN Photography Annual_ and _AP 30_: _American Photography 2015._"
+collection_exhibition = []
 collection_filter = "Personal"
 collection_meta = "The Drought Along the Arkansas River Basin"
 cover_image = ""
@@ -18,12 +19,6 @@ content = "**2015**  \n**_PDN Photo Annual_**  \nBest Editorial Series: _When Fa
 template = "popup-text-element"
 [[collection_awards]]
 content = "**2015**  \n**_AP 31: American Photography Annual 30_**  \nBest Personal Work Series"
-template = "popup-text-element"
-[[collection_exhibition]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-template = "popup-text-element"
-[[collection_exhibition]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
 template = "popup-text-element"
 [[collection_layout_builder]]
 align_x = "start"
@@ -118,7 +113,7 @@ margin_y = "100"
 template = "block-media-element"
 width = "50"
 [[collection_press]]
-content = "Press List Item"
+content = "[**_MSNBC. Feature and Interview._**](http://www.msnbc.com/msnbc/when-fall-came-early)"
 template = "popup-text-element"
 [[collection_press]]
 content = "Press List Item"
