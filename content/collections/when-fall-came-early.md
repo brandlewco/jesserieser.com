@@ -115,8 +115,5 @@ width = "50"
 [[collection_press]]
 content = "[**_MSNBC. Feature and Interview._**](http://www.msnbc.com/msnbc/when-fall-came-early)"
 template = "popup-text-element"
-[[collection_press]]
-content = "Press List Item"
-template = "popup-text-element"
 
 +++
