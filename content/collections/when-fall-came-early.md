@@ -14,7 +14,7 @@ navigation_theme = "white"
 theme_color = "#E1EAED"
 title = "When Fall Came Early:"
 [[collection_awards]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+content = "**2015**  \n**_PDN Photo Annual_**  \nBest Editorial Series: _When Fall Came Early_ published by MSNBC"
 template = "popup-text-element"
 [[collection_awards]]
 content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
