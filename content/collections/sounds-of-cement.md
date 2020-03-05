@@ -16,9 +16,6 @@ title = "Sounds of Cement"
 [[collection_awards]]
 content = "**2016**  \n**_PDN Photo Annual_**   \nBest Stock Photography"
 template = "popup-text-element"
-[[collection_awards]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-template = "popup-text-element"
 [[collection_exhibition]]
 content = "**2017**  \n**_Chaos Theory 17_**  \nLegend City Gallery. Phoenix, AZ (Group Sh_ow)_"
 template = "popup-text-element"
