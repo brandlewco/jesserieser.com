@@ -18,7 +18,7 @@ page_sections:
   margin_left: ''
   margin_right: ''
   title_margin_left: 90%
-  title_margin_right: 20%
+  title_margin_right: 85%
   meta_align: ''
 - template: block-media-feature
   block: media-feature
