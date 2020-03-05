@@ -1,11 +1,11 @@
 +++
 collection_archive = true
-collection_category = ["Color"]
-collection_content = "Suspendisse viverra luctus purus id tempor. Donec id magna vitae arcu bibendum rutrum. Sed sollicitudin massa sem, quis posuere dolor vestibulum eget. Nullam id nisi a ex mollis ullamcorper. Sed at neque mattis, tempor sem sit amet, suscipit eros. Etiam ullamcorper mattis neque, in tincidunt lorem aliquam in. Duis eu semper lacus. Quisque ac nisl et ex bibendum laoreet vitae sit amet nibh. Nulla porttitor id sapien nec eleifend. Fusce semper purus nec gravida efficitur. Duis in ipsum et ante porta pharetra in vitae elit. Proin non fermentum sapien. Nullam ligula est, sagittis interdum consequat id, tincidunt quis ex. Duis iaculis augue nec elit luctus, a mattis velit ultricies.\n\nQuisque vulputate lorem quis varius faucibus. Fusce maximus tortor sed vehicula ultrices. Ut in magna tempor, ultricies quam nec, cursus arcu. Duis et massa auctor, dictum dui eu, feugiat leo. Quisque libero dui, elementum nec magna ut, placerat bibendum dolor. Nunc porta pretium fermentum. Praesent aliquam arcu quis quam maximus, ac ultricies nibh euismod. Vivamus dolor lorem, hendrerit nec enim a, iaculis fermentum metus. Duis dictum vel elit in congue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce sodales tempor sodales. Nunc vitae lacus tellus."
+collection_category = ["Color", "Humor", "Conceptual", "Portraits", "Color"]
+collection_content = "In 2010, my high school classmates and I turned 30. As we entered adulthood we had reason to be optimistic and confident. Our formative years were cocooned in security, a youth spent in a time of economic growth and low unemployment.\n\nThis is what we were promised: “_You are being bequeathed the tools for achieving a material existence that neither my generation or any that preceded it could have even remotely imagined as we began our life’s work._” – Allan Greenspan 1999 commencement speech.\n\nBut when I made these photographs, unemployment hovered at 9.6 percent. Housing foreclosures were at an all-time high and personal bankruptcy filings affected 1.7 million Americans. My generation is the first in 100 years unlikely to be financially better off than its parents. It’s in this moment of transition that I photographed my classmates in settings relevant to the lives they are building.\n\nThe images show a community last assembled at graduation during America’s most prosperous moment, regrouping in 2009-2010 during the toughest economic and social circumstances since the Great Depression. These portraits examine what had been gained or lost in the interim.\n\nSome are recovering from job losses, drug and alcohol addiction and loss of family. Others are building families, achieving in their early careers and volunteering in their communities. They are gay and straight, veteran and adult entertainer, married and divorced. Like all generations, we struggle to define ourselves as parents, citizens, family members and spouses. We work to create meaningful lives; we work to understand what “meaningful” looks like."
 collection_cover = "https://jesserieser.brandlew.co/uploads/co99-6.jpg"
-collection_description = "Suspendisse efficitur, odio a consequat euismod, turpis diam lacinia neque, non condimentum mi ipsum a ex. Phasellus ultricies finibus nisi. Nunc a nulla quis nisl molestie pellentesque ac eget felis. Donec quis neque dui. Mauris aliquam diam sed tellus volutpat nullam."
+collection_description = "Captured while visiting my hometown for my 10-year high school reunion. This series investigates what has been gained or lost while entering adulthood during the great recession. Like all generations, we struggle to define ourselves as parents, citizens, family members and spouses. We work to create meaningful lives; we work to understand what “meaningful” looks like.\n\nWinner of the _American Photography Annual: AP 26._"
 collection_filter = "Personal"
-collection_meta = "meta title"
+collection_meta = "2009"
 cover_image = ""
 date = ""
 layout = "blocks"
@@ -14,7 +14,7 @@ navigation_theme = "white"
 theme_color = "#D4725F"
 title = "The Class of 99 Turns 30"
 [[collection_awards]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+content = "**2011**  \n**_Center's Review Santa Fe 100_**  \nTop 100 International Project"
 template = "popup-text-element"
 [[collection_awards]]
 content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
