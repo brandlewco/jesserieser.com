@@ -5,6 +5,7 @@ collection_cover = "https://jesserieser.brandlew.co/uploads/soc-10.jpg"
 collection_description = "These works celebrate the beautiful dance-like aesthetic between two athletes competing in a racquetball match while confined by 4 concrete walls.\n\nSelected as one of the year’s best in the 2016 **_PDN Photo Annual_**."
 collection_filter = "Commissioned + Stock"
 collection_meta = "meta title"
+collection_press = []
 cover_image = ""
 date = ""
 layout = "blocks"
@@ -19,10 +20,7 @@ template = "popup-text-element"
 content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
 template = "popup-text-element"
 [[collection_exhibition]]
-content = "**2016**  \n**_PDN Photo Annual_**  \nBest Stock Photography:"
-template = "popup-text-element"
-[[collection_exhibition]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+content = "**2017**  \n**_Chaos Theory 17_**  \nLegend City Gallery. Phoenix, AZ (Group Sh_ow)_"
 template = "popup-text-element"
 [[collection_layout_builder]]
 align_x = "start"
@@ -217,11 +215,5 @@ margin_right = "0"
 margin_y = "50"
 template = "block-media-element"
 width = "40"
-[[collection_press]]
-content = "Press List Item"
-template = "popup-text-element"
-[[collection_press]]
-content = "Press List Item"
-template = "popup-text-element"
 
 +++
