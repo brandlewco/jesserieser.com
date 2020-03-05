@@ -22,6 +22,9 @@ template = "popup-text-element"
 [[collection_exhibition]]
 content = "**2017**  \n**_Chaos Theory 17_**  \nLegend City Gallery. Phoenix, AZ (Group Sh_ow)_"
 template = "popup-text-element"
+[[collection_exhibition]]
+content = "**2016**  \n**_Sunday Afternoon Artist Exhibition_**  \nInert Gallery. New York, NY (Group Show)"
+template = "popup-text-element"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
