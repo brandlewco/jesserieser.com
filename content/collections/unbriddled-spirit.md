@@ -14,7 +14,7 @@ layout = "blocks"
 logo = ""
 navigation_theme = "white"
 theme_color = "#C6ACD2"
-title = "Phoenix Home & Gardens"
+title = "Phoenix Home & Garden"
 [[collection_awards]]
 content = "**2016**  \nAP 32: American Photography Annual 32  \nBest Editorial Work:"
 template = "popup-text-element"
