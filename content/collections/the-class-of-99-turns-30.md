@@ -17,7 +17,7 @@ title = "The Class of 99 Turns 30"
 content = "**2011**  \n**_Center's Review Santa Fe 100_**  \nTop 100 International Project"
 template = "popup-text-element"
 [[collection_awards]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+content = "**2010**  \n**_AP 26: American Photography Annual 26_**  \nBest Personal Work Series"
 template = "popup-text-element"
 [[collection_exhibition]]
 content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
