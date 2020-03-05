@@ -1,9 +1,9 @@
 +++
 attached_gallery = "gallery/time.md"
-collection_category = ["Portraits", "Environments", "Travel", "Color", "Reportage", "Uniquely American", "Editorial"]
-collection_content = "Suspendisse viverra luctus purus id tempor. Donec id magna vitae arcu bibendum rutrum. Sed sollicitudin massa sem, quis posuere dolor vestibulum eget. Nullam id nisi a ex mollis ullamcorper. Sed at neque mattis, tempor sem sit amet, suscipit eros. Etiam ullamcorper mattis neque, in tincidunt lorem aliquam in. Duis eu semper lacus. Quisque ac nisl et ex bibendum laoreet vitae sit amet nibh. Nulla porttitor id sapien nec eleifend. Fusce semper purus nec gravida efficitur. Duis in ipsum et ante porta pharetra in vitae elit. Proin non fermentum sapien. Nullam ligula est, sagittis interdum consequat id, tincidunt quis ex. Duis iaculis augue nec elit luctus, a mattis velit ultricies.\n\nQuisque vulputate lorem quis varius faucibus. Fusce maximus tortor sed vehicula ultrices. Ut in magna tempor, ultricies quam nec, cursus arcu. Duis et massa auctor, dictum dui eu, feugiat leo. Quisque libero dui, elementum nec magna ut, placerat bibendum dolor. Nunc porta pretium fermentum. Praesent aliquam arcu quis quam maximus, ac ultricies nibh euismod. Vivamus dolor lorem, hendrerit nec enim a, iaculis fermentum metus. Duis dictum vel elit in congue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce sodales tempor sodales. Nunc vitae lacus tellus."
+collection_category = ["Travel", "Environments", "Portraits", "Environments", "Travel", "Color", "Reportage", "Editorial"]
+collection_content = "“_As Grand Canyon National Park Turns 100, Its’ Chief Ranger Plans for the Next Century_.” These new works pay homage to American Romanticism and celebrate the west as I photograph head ranger Mathew Vandzura at Grandeur Point on the South Rim as a nod to Teddy Roosevelt’s legacy of conservation. ⠀⠀  \n⠀⠀  \nVandzura talks at length about modernizing an ancient natural wonder, the park system’s responsibility to the public, the recent government shutdown, and exploring every possible option before limiting visitation to the 6.4 million annual park-goers. ⠀⠀  \n⠀⠀  \nInterview by Lily Rothman, assigned by Kim Bubello."
 collection_cover = "https://jesserieser.brandlew.co/uploads/timeGC-5.jpg"
-collection_description = "Suspendisse efficitur, odio a consequat euismod, turpis diam lacinia neque, non condimentum mi ipsum a ex. Phasellus ultricies finibus nisi. Nunc a nulla quis nisl molestie pellentesque ac eget felis. Donec quis neque dui. Mauris aliquam diam sed tellus volutpat nullam."
+collection_description = "“_As Grand Canyon National Park Turns 100, Its’ Chief Ranger Plans for the Next Century_.” A nod to Teddy Roosevelt’s legacy of conservation, these works pay homage to American Romanticism as I photograph head ranger Mathew Vandzura in the historic Kolb House and South Rim."
 collection_filter = "Commissioned + Stock"
 collection_meta = "Grand Canyon 100th Anniversary "
 cover_image = ""
@@ -11,7 +11,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-theme_color = "#DDC3C2"
+theme_color = "#EEDDDD"
 title = "Time Magazine"
 [[collection_awards]]
 content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
