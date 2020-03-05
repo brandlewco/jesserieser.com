@@ -22,7 +22,7 @@ template = "popup-text-element"
 content = "**2014**  \n**_How One Thing Leads To Another: Critical Mass Top 50_**  \nCorden Potts Gallery. San Francisco, CA  \nHouston Center For Photography. Houston, TX (Group Show)"
 template = "popup-text-element"
 [[collection_exhibition]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+content = "**2012**  \n**_The Forty Eighth: Contemporary Photography at Arizona's Centennial_**   \nMonorchid Gallery. Phoenix, AZ"
 template = "popup-text-element"
 [[collection_layout_builder]]
 align_x = "start"
