@@ -20,10 +20,10 @@ template = "popup-text-element"
 content = "**2010**  \n**_AP 26: American Photography Annual 26_**  \nBest Personal Work Series"
 template = "popup-text-element"
 [[collection_exhibition]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+content = "**2011**  \n**_Art Director's Club Young Guns 9 Exhibition_**  \nArt Director's Club Gallery. New York, NY. (Group Show)"
 template = "popup-text-element"
 [[collection_exhibition]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+content = "**2010**  \n**_Chaos Theory 11_**  \nLegend City Gallery. Phoenix, AZ. (Group Show)"
 template = "popup-text-element"
 [[collection_layout_builder]]
 align_x = "start"
@@ -401,10 +401,7 @@ margin_y = "50"
 template = "block-media-element"
 width = "40"
 [[collection_press]]
-content = "Press List Item"
-template = "popup-text-element"
-[[collection_press]]
-content = "Press List Item"
+content = "[**_LENSCRATCH_**](http://lenscratch.com/2011/06/jesse-rieser-2/)"
 template = "popup-text-element"
 
 +++
