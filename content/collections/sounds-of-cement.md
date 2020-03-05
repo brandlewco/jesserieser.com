@@ -14,7 +14,7 @@ navigation_theme = "black"
 theme_color = "#CCCCCC"
 title = "Sounds of Cement"
 [[collection_awards]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+content = "**2016**  \n**_PDN Photo Annual_**   \nBest Stock Photography"
 template = "popup-text-element"
 [[collection_awards]]
 content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
