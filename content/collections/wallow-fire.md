@@ -10,7 +10,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-theme_color = "#FCF8D5"
+theme_color = "#E4F0F0"
 title = "The Wallow Fire"
 [[collection_awards]]
 content = "**2013**  \n**_Photolucida's Critical Mass_**  \nWinner\" Top 50 International Project"
