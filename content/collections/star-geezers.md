@@ -1,341 +1,18 @@
 +++
 attached_gallery = "gallery/star-geezers.md"
 collection_category = ["Portraits", "Environments", "Motion", "Humor", "Science", "Uniquely American", "Travel", "Reportage", "Color"]
-collection_content = "Suspendisse viverra luctus purus id tempor. Donec id magna vitae arcu bibendum rutrum. Sed sollicitudin massa sem, quis posuere dolor vestibulum eget. Nullam id nisi a ex mollis ullamcorper. Sed at neque mattis, tempor sem sit amet, suscipit eros. Etiam ullamcorper mattis neque, in tincidunt lorem aliquam in. Duis eu semper lacus. Quisque ac nisl et ex bibendum laoreet vitae sit amet nibh. Nulla porttitor id sapien nec eleifend. Fusce semper purus nec gravida efficitur. Duis in ipsum et ante porta pharetra in vitae elit. Proin non fermentum sapien. Nullam ligula est, sagittis interdum consequat id, tincidunt quis ex. Duis iaculis augue nec elit luctus, a mattis velit ultricies.\n\nQuisque vulputate lorem quis varius faucibus. Fusce maximus tortor sed vehicula ultrices. Ut in magna tempor, ultricies quam nec, cursus arcu. Duis et massa auctor, dictum dui eu, feugiat leo. Quisque libero dui, elementum nec magna ut, placerat bibendum dolor. Nunc porta pretium fermentum. Praesent aliquam arcu quis quam maximus, ac ultricies nibh euismod. Vivamus dolor lorem, hendrerit nec enim a, iaculis fermentum metus. Duis dictum vel elit in congue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce sodales tempor sodales. Nunc vitae lacus tellus."
-collection_cover = "https://jesserieser.brandlew.co/uploads/stargeezers-1.jpg"
-collection_description = "Suspendisse efficitur, odio a consequat euismod, turpis diam lacinia neque, non condimentum mi ipsum a ex. Phasellus ultricies finibus nisi. Nunc a nulla quis nisl molestie pellentesque ac eget felis. Donec quis neque dui. Mauris aliquam diam sed tellus volutpat nullam."
+collection_content = "This is a story about “Sky Village,” an astronomy centric retirement community and their founders, the self appointed “Star Geezers,” Jack and Alice Newton. Located in Arizona near the New Mexico and Mexico border, the remoteness (closest grocery store is 3 hours away) is a gift as this is one of the darkest places on the North American light pollution map. Couple this with the clear air of the desert, this was how the Newtons selected and purchased several hundred acres of land and divided them into 22 distinct lots. ⠀  \n⠀  \n⠀⠀  \nEasily one of the most interesting places I have visited in recent memory. A close-knit community bonded by their love of the celestial, the remoteness, and the darkness….. so dark that on a new moon you can no longer see your feet. So dark you never knew so many stars existed- appearing dizzying, textural, and 3-dimensional. So dark as your eyes adjust, you can see your shadow cast by the stars overhead."
+collection_cover = "https://jesserieser.brandlew.co/uploads/stargeezers-25.jpg"
+collection_description = "This is a story about “Sky Village,” an astronomy centric retirement community and their founders Jack and Alice Newton, known as the “Star Geezers.” Sky Village is one of the most remote and darkest places in North America. So dark you never knew so many stars existed- appearing dizzying, textural, and 3-dimensional.\n\nFeatured on _Vice_ and _Booooooom._"
 collection_filter = "Commissioned + Stock"
-collection_meta = "2016 - 2018"
+collection_meta = "Condor Airlines "
 cover_image = ""
 date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
 theme_color = "#9bbad5"
-title = "Star Geezers"
-[[collection_layout_builder]]
-align_x = "start"
-block = "media-element"
-caption = "caption"
-color = "#efefef"
-image = "https://jesserieser.brandlew.co/uploads/stargeezers-1.jpg"
-margin_left = "0"
-margin_right = "0"
-margin_y = "50"
-template = "block-media-element"
-width = "40"
-[[collection_layout_builder]]
-align_x = "start"
-block = "media-element"
-caption = "caption"
-color = "#efefef"
-image = "https://jesserieser.brandlew.co/uploads/stargeezers-2.jpg"
-margin_left = "0"
-margin_right = "0"
-margin_y = "50"
-template = "block-media-element"
-width = "40"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
-align_x = "start"
-block = "media-element"
-caption = "caption"
-color = "#efefef"
-image = "https://jesserieser.brandlew.co/uploads/stargeezers-3.jpg"
-margin_left = "0"
-margin_right = "0"
-margin_y = "50"
-template = "block-media-element"
-width = "40"
-[[collection_layout_builder]]
-align_x = "start"
-block = "media-element"
-caption = "caption"
-color = "#efefef"
-image = "https://jesserieser.brandlew.co/uploads/stargeezers-4.jpg"
-margin_left = "0"
-margin_right = "0"
-margin_y = "50"
-template = "block-media-element"
-width = "40"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
-align_x = "start"
-block = "media-element"
-caption = "caption"
-color = "#efefef"
-image = "https://jesserieser.brandlew.co/uploads/stargeezers-5.jpg"
-margin_left = "0"
-margin_right = "0"
-margin_y = "50"
-template = "block-media-element"
-width = "40"
-[[collection_layout_builder]]
-align_x = "start"
-block = "media-element"
-caption = "caption"
-color = "#efefef"
-image = "https://jesserieser.brandlew.co/uploads/stargeezers-6.jpg"
-margin_left = "0"
-margin_right = "0"
-margin_y = "50"
-template = "block-media-element"
-width = "40"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
-align_x = "start"
-block = "media-element"
-caption = "caption"
-color = "#efefef"
-image = "https://jesserieser.brandlew.co/uploads/stargeezers-7.jpg"
-margin_left = "0"
-margin_right = "0"
-margin_y = "50"
-template = "block-media-element"
-width = "40"
-[[collection_layout_builder]]
-align_x = "start"
-block = "media-element"
-caption = "caption"
-color = "#efefef"
-image = "https://jesserieser.brandlew.co/uploads/stargeezers-8.jpg"
-margin_left = "0"
-margin_right = "0"
-margin_y = "50"
-template = "block-media-element"
-width = "40"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
-align_x = "start"
-block = "media-element"
-caption = "caption"
-color = "#efefef"
-image = "https://jesserieser.brandlew.co/uploads/stargeezers-9.jpg"
-margin_left = "0"
-margin_right = "0"
-margin_y = "50"
-template = "block-media-element"
-width = "40"
-[[collection_layout_builder]]
-align_x = "start"
-block = "media-element"
-caption = "caption"
-color = "#efefef"
-image = "https://jesserieser.brandlew.co/uploads/stargeezers-10.jpg"
-margin_left = "0"
-margin_right = "0"
-margin_y = "50"
-template = "block-media-element"
-width = "40"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
-align_x = "start"
-block = "media-element"
-caption = "caption"
-color = "#efefef"
-image = "https://jesserieser.brandlew.co/uploads/stargeezers-11.jpg"
-margin_left = "0"
-margin_right = "0"
-margin_y = "50"
-template = "block-media-element"
-width = "40"
-[[collection_layout_builder]]
-align_x = "start"
-block = "media-element"
-caption = "caption"
-color = "#efefef"
-image = "https://jesserieser.brandlew.co/uploads/stargeezers-12.jpg"
-margin_left = "0"
-margin_right = "0"
-margin_y = "50"
-template = "block-media-element"
-width = "40"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
-align_x = "start"
-block = "media-element"
-caption = "caption"
-color = "#efefef"
-image = "https://jesserieser.brandlew.co/uploads/stargeezers-13.jpg"
-margin_left = "0"
-margin_right = "0"
-margin_y = "50"
-template = "block-media-element"
-width = "40"
-[[collection_layout_builder]]
-align_x = "start"
-block = "media-element"
-caption = "caption"
-color = "#efefef"
-image = "https://jesserieser.brandlew.co/uploads/stargeezers-14.jpg"
-margin_left = "0"
-margin_right = "0"
-margin_y = "50"
-template = "block-media-element"
-width = "40"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
-align_x = "start"
-block = "media-element"
-caption = "caption"
-color = "#efefef"
-image = "https://jesserieser.brandlew.co/uploads/stargeezers-15.jpg"
-margin_left = "0"
-margin_right = "0"
-margin_y = "50"
-template = "block-media-element"
-width = "40"
-[[collection_layout_builder]]
-align_x = "start"
-block = "media-element"
-caption = "caption"
-color = "#efefef"
-image = "https://jesserieser.brandlew.co/uploads/stargeezers-16.jpg"
-margin_left = "0"
-margin_right = "0"
-margin_y = "50"
-template = "block-media-element"
-width = "40"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
-align_x = "start"
-block = "media-element"
-caption = "caption"
-color = "#efefef"
-image = "https://jesserieser.brandlew.co/uploads/stargeezers-17.jpg"
-margin_left = "0"
-margin_right = "0"
-margin_y = "50"
-template = "block-media-element"
-width = "40"
-[[collection_layout_builder]]
-align_x = "start"
-block = "media-element"
-caption = "caption"
-color = "#efefef"
-image = "https://jesserieser.brandlew.co/uploads/stargeezers-18.jpg"
-margin_left = "0"
-margin_right = "0"
-margin_y = "50"
-template = "block-media-element"
-width = "40"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
-align_x = "start"
-block = "media-element"
-caption = "caption"
-color = "#efefef"
-image = "https://jesserieser.brandlew.co/uploads/stargeezers-19.jpg"
-margin_left = "0"
-margin_right = "0"
-margin_y = "50"
-template = "block-media-element"
-width = "40"
-[[collection_layout_builder]]
-align_x = "start"
-block = "media-element"
-caption = "caption"
-color = "#efefef"
-image = "https://jesserieser.brandlew.co/uploads/stargeezers-20.jpg"
-margin_left = "0"
-margin_right = "0"
-margin_y = "50"
-template = "block-media-element"
-width = "40"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
-align_x = "start"
-block = "media-element"
-caption = "caption"
-color = "#efefef"
-image = "https://jesserieser.brandlew.co/uploads/stargeezers-21.jpg"
-margin_left = "0"
-margin_right = "0"
-margin_y = "50"
-template = "block-media-element"
-width = "40"
-[[collection_layout_builder]]
-align_x = "start"
-block = "media-element"
-caption = "caption"
-color = "#efefef"
-image = "https://jesserieser.brandlew.co/uploads/stargeezers-22.jpg"
-margin_left = "0"
-margin_right = "0"
-margin_y = "50"
-template = "block-media-element"
-width = "40"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
-align_x = "start"
-block = "media-element"
-caption = "caption"
-color = "#efefef"
-image = "https://jesserieser.brandlew.co/uploads/stargeezers-23.jpg"
-margin_left = "0"
-margin_right = "0"
-margin_y = "50"
-template = "block-media-element"
-width = "40"
-[[collection_layout_builder]]
-align_x = "start"
-block = "media-element"
-caption = "caption"
-color = "#efefef"
-image = "https://jesserieser.brandlew.co/uploads/stargeezers-24.jpg"
-margin_left = "0"
-margin_right = "0"
-margin_y = "50"
-template = "block-media-element"
-width = "40"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
-align_x = "start"
-block = "media-element"
-caption = "caption"
-color = "#efefef"
-image = "https://jesserieser.brandlew.co/uploads/stargeezers-25.jpg"
-margin_left = "0"
-margin_right = "0"
-margin_y = "50"
-template = "block-media-element"
-width = "40"
+title = "The Star Geezers"
 [[collection_awards]]
 content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
 template = "popup-text-element"
@@ -348,10 +25,174 @@ template = "popup-text-element"
 [[collection_exhibition]]
 content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
 template = "popup-text-element"
+[[collection_layout_builder]]
+block = "media-2"
+row_alignment = "between"
+row_height = 75
+row_order = false
+template = "block-media-2"
+[collection_layout_builder.image_1]
+caption = "caption"
+color = ""
+image = "https://jesserieser.brandlew.co/uploads/geezers-1.jpg"
+margin_y = 50
+width = 40
+x = "start"
+[collection_layout_builder.image_2]
+caption = "caption"
+color = ""
+image = "https://jesserieser.brandlew.co/uploads/geezers-2.jpg"
+margin_y = 50
+width = 40
+x = "start"
+[[collection_layout_builder]]
+align_x = "center"
+block = "media-1"
+caption = "Caption"
+color = ""
+image = "https://jesserieser.brandlew.co/uploads/geezers-3.jpg"
+margin_y = 200
+row_alignment = "between"
+row_height = 25
+template = "block-media"
+width = ""
+[[collection_layout_builder]]
+block = "media-mixed"
+row_alignment = "between"
+row_order = true
+template = "block-media-mix"
+[collection_layout_builder.image_1]
+image = "https://jesserieser.brandlew.co/uploads/geezers-4.jpg"
+margin_y = ""
+width = ""
+x = "start"
+[collection_layout_builder.text]
+align_x = "center"
+caption = "Mixed Media Block. Caption or descriptive text goes here."
+color = "#4A4A4A"
+margin_y = "200"
+width = "40"
+[[collection_layout_builder]]
+block = "media-2"
+row_alignment = "between"
+row_height = 25
+template = "block-media-2"
+[collection_layout_builder.image_1]
+caption = "caption"
+color = ""
+image = "https://jesserieser.brandlew.co/uploads/geezers-5.jpg"
+margin_y = 50
+width = 33
+x = "start"
+[collection_layout_builder.image_2]
+caption = "caption"
+color = ""
+image = "https://jesserieser.brandlew.co/uploads/geezers-6.jpg"
+margin_y = 300
+width = 50
+x = "end"
+[[collection_layout_builder]]
+block = "media-2"
+row_alignment = "between"
+row_height = 25
+template = "block-media-2"
+[collection_layout_builder.image_1]
+caption = ""
+color = ""
+image = "https://jesserieser.brandlew.co/uploads/geezers-7.jpg"
+margin_y = 50
+width = 40
+x = "start"
+[collection_layout_builder.image_2]
+caption = ""
+color = ""
+image = "https://jesserieser.brandlew.co/uploads/geezers-8.jpg"
+margin_y = 300
+width = 40
+x = "start"
+[[collection_layout_builder]]
+block = "media-1"
+caption = ""
+color = ""
+image = "https://jesserieser.brandlew.co/uploads/geezers-9.jpg"
+margin_y = 50
+row_alignment = "between"
+row_height = 25
+template = "block-media"
+width = 40
+x = "center"
+[[collection_layout_builder]]
+block = "text"
+caption = "Text, Centered. Neat."
+color = "#D0021B"
+margin_y = 200
+row_alignment = "center"
+template = "block-text"
+width = 20
+x = "center"
+[[collection_layout_builder]]
+block = "media-2"
+row_alignment = "between"
+row_height = 25
+template = "block-media-2"
+[collection_layout_builder.image_1]
+caption = ""
+color = ""
+image = "https://jesserieser.brandlew.co/uploads/geezers-10.jpg"
+margin_y = 100
+width = 40
+x = "start"
+[collection_layout_builder.image_2]
+caption = "caption"
+color = ""
+image = "https://jesserieser.brandlew.co/uploads/geezers-11.jpg"
+margin_y = 100
+width = 40
+x = "end"
+[[collection_layout_builder]]
+block = "text"
+caption = "Annotation."
+color = "#D0021B"
+margin_y = 100
+row_alignment = "center"
+template = "block-text"
+width = 20
+x = "center"
+[[collection_layout_builder]]
+block = "media-2"
+row_alignment = "between"
+row_height = 25
+template = "block-media-2"
+[collection_layout_builder.image_1]
+caption = ""
+color = ""
+image = "https://jesserieser.brandlew.co/uploads/geezers-12.jpg"
+margin_y = 100
+width = 40
+x = "start"
+[collection_layout_builder.image_2]
+caption = ""
+color = ""
+image = "https://jesserieser.brandlew.co/uploads/geezers-13.jpg"
+margin_y = 300
+width = 40
+x = "start"
+[[collection_layout_builder]]
+block = "media-1"
+caption = ""
+color = ""
+image = "https://jesserieser.brandlew.co/uploads/geezers-14.jpg"
+margin_y = 50
+row_alignment = "between"
+row_height = 25
+template = "block-media"
+width = 100
+x = "center"
 [[collection_press]]
-content = "Press List Item"
+content = "[**_VICE_**](https://www.vice.com/en_us/article/wjv3m5/50-stellar-photos-of-outer-space)"
 template = "popup-text-element"
 [[collection_press]]
-content = "Press List Item"
+content = "[**_BOOOOOOOM_**](https://www.booooooom.com/2020/02/11/the-star-geezers-by-photographer-jesse-rieser/)"
 template = "popup-text-element"
+
 +++
