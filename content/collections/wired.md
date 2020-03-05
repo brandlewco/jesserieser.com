@@ -10,7 +10,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-theme_color = "#FFE9D2"
+theme_color = "#F6E3CD"
 title = "Wired Magazine"
 [[collection_layout_builder]]
 align_x = "start"
