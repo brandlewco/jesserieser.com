@@ -18,7 +18,8 @@ page_sections:
   margin_left: ''
   margin_right: ''
   title_margin_left: 90%
-  title_margin_right: ''
+  title_margin_right: 20%
+  meta_align: ''
 - template: block-media-feature
   block: media-feature
   width: '30'
@@ -35,7 +36,7 @@ page_sections:
   margin_right: ''
   title_margin_left: "-85%"
   title_margin_right: ''
-  meta_align: 'right'
+  meta_align: right
 - template: block-media-row
   block: media-row
   row_alignment: between
@@ -55,6 +56,7 @@ page_sections:
   margin_right: ''
   title_margin_left: "-20%"
   title_margin_right: ''
+  meta_align: ''
 - template: block-modal-blog
   block: modal-blog
   width: '20'
@@ -87,6 +89,7 @@ page_sections:
   margin_right: ''
   title_margin_left: 90%
   title_margin_right: ''
+  meta_align: ''
 - template: block-media-feature
   block: media-feature
   width: '40'
@@ -103,6 +106,7 @@ page_sections:
   margin_right: ''
   title_margin_left: "-45%"
   title_margin_right: ''
+  meta_align: ''
 home_theme_color: "#B99E8E"
 collection_description: ''
 collection_content: ''
