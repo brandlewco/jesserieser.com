@@ -13,7 +13,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-theme_color = "#D1FFE3"
+theme_color = "#C2ECD1"
 title = "Fast Company "
 [[collection_layout_builder]]
 align_x = "start"
