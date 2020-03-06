@@ -1,10 +1,13 @@
 +++
-collection_category = ["Color"]
-collection_content = "Suspendisse viverra luctus purus id tempor. Donec id magna vitae arcu bibendum rutrum. Sed sollicitudin massa sem, quis posuere dolor vestibulum eget. Nullam id nisi a ex mollis ullamcorper. Sed at neque mattis, tempor sem sit amet, suscipit eros. Etiam ullamcorper mattis neque, in tincidunt lorem aliquam in. Duis eu semper lacus. Quisque ac nisl et ex bibendum laoreet vitae sit amet nibh. Nulla porttitor id sapien nec eleifend. Fusce semper purus nec gravida efficitur. Duis in ipsum et ante porta pharetra in vitae elit. Proin non fermentum sapien. Nullam ligula est, sagittis interdum consequat id, tincidunt quis ex. Duis iaculis augue nec elit luctus, a mattis velit ultricies.\n\nQuisque vulputate lorem quis varius faucibus. Fusce maximus tortor sed vehicula ultrices. Ut in magna tempor, ultricies quam nec, cursus arcu. Duis et massa auctor, dictum dui eu, feugiat leo. Quisque libero dui, elementum nec magna ut, placerat bibendum dolor. Nunc porta pretium fermentum. Praesent aliquam arcu quis quam maximus, ac ultricies nibh euismod. Vivamus dolor lorem, hendrerit nec enim a, iaculis fermentum metus. Duis dictum vel elit in congue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce sodales tempor sodales. Nunc vitae lacus tellus."
+collection_awards = []
+collection_category = ["Editorial", "Travel", "Reportage", "Conceptual", "Sports + Athletes", "Environments", "Portraits", "Color"]
+collection_content = "“_Rob Krar had to embrace incredible physical pain to win iconic ultramarathons like the Leadville Traill 100 and the Western States Endurance Run. But that’s a form suffering he can control- unlike his decades-long struggle with depression._”⁠⠀  \n⁠⠀  \nThis past fall my brother Shea and I visited their 5th annual camp in Flagstaff, AZ. It was the perfect time of year- the air cool and crisp as fall approached and the aspens golden in color illuminated Locket Meadow. As someone who copes with clinical depression and anxiety disorder, we loved our time with Rob, Christina, campers, and volunteers…. even being pushed beyond our comfort zone climbing SP Crater.   \n⁠⠀  \nArticle by former editor at Runner’s World Christine Fennessy- Krar opens up about his battle with depression, the balance of his personal life and life a professional athlete, what he means to the running community, and how is running camp has “saved lives.” Hit the link in bio to see a newly posted portfolio on my site. ⁠⠀  \n⁠⠀  \nIf you or someone you know is having thoughts of suicide or self-harm, call the National Suicide Prevention Lifeline toll-free from anywhere in the U.S. at 1-800-273-8255."
 collection_cover = "https://jesserieser.brandlew.co/uploads/robkrar-2.jpg"
-collection_description = "Suspendisse efficitur, odio a consequat euismod, turpis diam lacinia neque, non condimentum mi ipsum a ex. Phasellus ultricies finibus nisi. Nunc a nulla quis nisl molestie pellentesque ac eget felis. Donec quis neque dui. Mauris aliquam diam sed tellus volutpat nullam."
+collection_description = "Rob Krar had to embrace incredible physical pain to win iconic ultramarathons like the Leadville Traill 100 and the Western States Endurance Run. But that’s a form suffering he can control- unlike his decades-long struggle with depression.⁠ Krar opens up about his battle with depression, the balance of his personal life and life as a professional athlete, what he means to the running community, and how his running camp has “saved lives.”"
+collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_meta = "Rob Krar Running In The Dark"
+collection_press = []
 cover_image = ""
 date = ""
 layout = "blocks"
@@ -12,18 +15,6 @@ logo = ""
 navigation_theme = "white"
 theme_color = "#F1D7D5"
 title = "Outside Magazine "
-[[collection_awards]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-template = "popup-text-element"
-[[collection_awards]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-template = "popup-text-element"
-[[collection_exhibition]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-template = "popup-text-element"
-[[collection_exhibition]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-template = "popup-text-element"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
@@ -280,11 +271,5 @@ margin_right = "0"
 margin_y = "50"
 template = "block-media-element"
 width = "40"
-[[collection_press]]
-content = "Press List Item"
-template = "popup-text-element"
-[[collection_press]]
-content = "Press List Item"
-template = "popup-text-element"
 
 +++
