@@ -1,11 +1,14 @@
 +++
 collection_archive = true
-collection_category = ["Color"]
-collection_content = "Suspendisse viverra luctus purus id tempor. Donec id magna vitae arcu bibendum rutrum. Sed sollicitudin massa sem, quis posuere dolor vestibulum eget. Nullam id nisi a ex mollis ullamcorper. Sed at neque mattis, tempor sem sit amet, suscipit eros. Etiam ullamcorper mattis neque, in tincidunt lorem aliquam in. Duis eu semper lacus. Quisque ac nisl et ex bibendum laoreet vitae sit amet nibh. Nulla porttitor id sapien nec eleifend. Fusce semper purus nec gravida efficitur. Duis in ipsum et ante porta pharetra in vitae elit. Proin non fermentum sapien. Nullam ligula est, sagittis interdum consequat id, tincidunt quis ex. Duis iaculis augue nec elit luctus, a mattis velit ultricies.\n\nQuisque vulputate lorem quis varius faucibus. Fusce maximus tortor sed vehicula ultrices. Ut in magna tempor, ultricies quam nec, cursus arcu. Duis et massa auctor, dictum dui eu, feugiat leo. Quisque libero dui, elementum nec magna ut, placerat bibendum dolor. Nunc porta pretium fermentum. Praesent aliquam arcu quis quam maximus, ac ultricies nibh euismod. Vivamus dolor lorem, hendrerit nec enim a, iaculis fermentum metus. Duis dictum vel elit in congue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce sodales tempor sodales. Nunc vitae lacus tellus."
+collection_awards = []
+collection_category = ["Stock", "Reportage", "Black and White", "Lifestyle", "Sports + Athletes", "Portraits"]
+collection_content = "Don’t let their apprehension and common teen disposition fool you. Once the whistle blows, their play is as physical as the semi-pro men who initially made the W 4th Cage a street-ball landmark. Captured while documenting the annual “Kenny Graham’s 4th Street” basketball tournament."
 collection_cover = "https://jesserieser.brandlew.co/uploads/kennygraham-7.jpg"
-collection_description = "Suspendisse efficitur, odio a consequat euismod, turpis diam lacinia neque, non condimentum mi ipsum a ex. Phasellus ultricies finibus nisi. Nunc a nulla quis nisl molestie pellentesque ac eget felis. Donec quis neque dui. Mauris aliquam diam sed tellus volutpat nullam."
+collection_description = "Don’t let their apprehension and common teen disposition fool you. Once the whistle blows, their play is as physical as the semi-pro men who initially made the W 4th Cage a street-ball landmark. Captured while documenting the annual “Kenny Graham’s 4th Street” basketball tournament."
+collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_meta = "meta title"
+collection_press = []
 cover_image = ""
 date = ""
 layout = "blocks"
@@ -13,18 +16,6 @@ logo = ""
 navigation_theme = "white"
 theme_color = "#EEFFD1"
 title = "Kenny Grahams"
-[[collection_awards]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-template = "popup-text-element"
-[[collection_awards]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-template = "popup-text-element"
-[[collection_exhibition]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-template = "popup-text-element"
-[[collection_exhibition]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-template = "popup-text-element"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
@@ -270,11 +261,5 @@ margin_right = "0"
 margin_y = "50"
 template = "block-media-element"
 width = "40"
-[[collection_press]]
-content = "Press List Item"
-template = "popup-text-element"
-[[collection_press]]
-content = "Press List Item"
-template = "popup-text-element"
 
 +++
