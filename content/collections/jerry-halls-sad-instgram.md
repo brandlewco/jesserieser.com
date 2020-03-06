@@ -1,10 +1,13 @@
 +++
+collection_awards = []
 collection_category = ["Lifestyle", "Conceptual", "Humor", "Portraits", "Color"]
 collection_content = ""
 collection_cover = "https://jesserieser.brandlew.co/uploads/jerry-1.jpg"
 collection_description = "A new personal project that comments on the perception of power and social media by juxtaposing notable famous people from the past."
+collection_exhibition = []
 collection_filter = "Personal"
 collection_meta = ""
+collection_press = []
 cover_image = ""
 date = ""
 layout = "blocks"
@@ -12,18 +15,6 @@ logo = ""
 navigation_theme = "white"
 theme_color = "#DACBB9"
 title = "Jerry Hall's Sad Instagram"
-[[collection_awards]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-template = "popup-text-element"
-[[collection_awards]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-template = "popup-text-element"
-[[collection_exhibition]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-template = "popup-text-element"
-[[collection_exhibition]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-template = "popup-text-element"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
@@ -106,11 +97,5 @@ margin_right = "15%"
 margin_y = "200"
 template = "block-media-element"
 width = "70"
-[[collection_press]]
-content = "Press List Item"
-template = "popup-text-element"
-[[collection_press]]
-content = "Press List Item"
-template = "popup-text-element"
 
 +++
