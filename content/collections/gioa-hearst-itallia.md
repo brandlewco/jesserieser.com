@@ -2,7 +2,7 @@
 collection_category = ["Color"]
 collection_content = ""
 collection_cover = "https://jesserieser.brandlew.co/uploads/hearst-5.jpg"
-collection_description = "Showcasing the health benefits of sprinting set to the backdrop of 1930’s art deco.\n\n  \n Winner in the _2016 American Photography Annual: AP 32_"
+collection_description = "Showcasing the health benefits of sprinting set to the backdrop of 1930’s art deco.\n\n  \n Winner in the 2016 _American Photography Annual: AP 32_"
 collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_meta = "Gioa "
