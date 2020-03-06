@@ -383,8 +383,5 @@ width = "40"
 [[collection_press]]
 content = "**_LoDown Magazine_** _(Germany)_"
 template = "popup-text-element"
-[[collection_press]]
-content = "Press List Item"
-template = "popup-text-element"
 
 +++
