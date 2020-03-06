@@ -3,8 +3,10 @@ collection_category = ["Color"]
 collection_content = ""
 collection_cover = "https://jesserieser.brandlew.co/uploads/hearst-5.jpg"
 collection_description = "Showcasing the health benefits of sprinting set to the backdrop of 1930’s art deco.\n\n  \n Winner in the _2016 American Photography Annual: AP 32_"
+collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_meta = "Gioa "
+collection_press = []
 cover_image = ""
 date = ""
 layout = "blocks"
@@ -14,15 +16,6 @@ theme_color = "#F4BEFF"
 title = "Hearst Itallia"
 [[collection_awards]]
 content = "**2016**  \n**_AP 32: American Photography Annual 32_**"
-template = "popup-text-element"
-[[collection_awards]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-template = "popup-text-element"
-[[collection_exhibition]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-template = "popup-text-element"
-[[collection_exhibition]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
 template = "popup-text-element"
 [[collection_layout_builder]]
 align_x = "start"
@@ -191,11 +184,5 @@ margin_right = "0"
 margin_y = "50"
 template = "block-media-element"
 width = "40"
-[[collection_press]]
-content = "Press List Item"
-template = "popup-text-element"
-[[collection_press]]
-content = "Press List Item"
-template = "popup-text-element"
 
 +++
