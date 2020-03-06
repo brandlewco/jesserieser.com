@@ -1,6 +1,6 @@
 +++
 collection_awards = []
-collection_category = ["Color"]
+collection_category = ["Portraits", "Stock", "Sports + Athletes", "Color"]
 collection_content = ""
 collection_cover = "https://jesserieser.brandlew.co/uploads/fred-1.jpg"
 collection_description = "As a new face of Nike Running, Kerley is ranked #1 in the world in the 400. With a personal best of 43.70, he is inching closer to being the first ever to break the 43 second mark. Watch for him to take the gold in this year’s Tokyo Olympic Games."
