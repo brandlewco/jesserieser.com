@@ -20,9 +20,6 @@ template = "popup-text-element"
 [[collection_exhibition]]
 content = "**2019**  \n**_Chaos Theory 20_**  \nLegend City Gallery. Phoenix, AZ (Group Show)"
 template = "popup-text-element"
-[[collection_exhibition]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-template = "popup-text-element"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
@@ -384,7 +381,7 @@ margin_y = "50"
 template = "block-media-element"
 width = "40"
 [[collection_press]]
-content = "Press List Item"
+content = "**_LoDown Magazine_** _(Germany)_"
 template = "popup-text-element"
 [[collection_press]]
 content = "Press List Item"
