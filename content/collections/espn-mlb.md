@@ -11,7 +11,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-theme_color = "#000000"
+theme_color = "#B7E1F3"
 title = "ESPN MLB"
 [[collection_awards]]
 content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
