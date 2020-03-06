@@ -1,19 +1,28 @@
 +++
 attached_gallery = "gallery/phoenix.md"
-collection_category = ["Color", "Conceptual", "Portraits", "Stock"]
-collection_content = "Suspendisse viverra luctus purus id tempor. Donec id magna vitae arcu bibendum rutrum. Sed sollicitudin massa sem, quis posuere dolor vestibulum eget. Nullam id nisi a ex mollis ullamcorper. Sed at neque mattis, tempor sem sit amet, suscipit eros. Etiam ullamcorper mattis neque, in tincidunt lorem aliquam in. Duis eu semper lacus. Quisque ac nisl et ex bibendum laoreet vitae sit amet nibh. Nulla porttitor id sapien nec eleifend. Fusce semper purus nec gravida efficitur. Duis in ipsum et ante porta pharetra in vitae elit. Proin non fermentum sapien. Nullam ligula est, sagittis interdum consequat id, tincidunt quis ex. Duis iaculis augue nec elit luctus, a mattis velit ultricies.\n\nQuisque vulputate lorem quis varius faucibus. Fusce maximus tortor sed vehicula ultrices. Ut in magna tempor, ultricies quam nec, cursus arcu. Duis et massa auctor, dictum dui eu, feugiat leo. Quisque libero dui, elementum nec magna ut, placerat bibendum dolor. Nunc porta pretium fermentum. Praesent aliquam arcu quis quam maximus, ac ultricies nibh euismod. Vivamus dolor lorem, hendrerit nec enim a, iaculis fermentum metus. Duis dictum vel elit in congue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce sodales tempor sodales. Nunc vitae lacus tellus."
+collection_category = ["Lifestyle", "Portraits", "Color", "Conceptual", "Portraits", "Stock"]
+collection_content = ""
 collection_cover = "https://jesserieser.brandlew.co/uploads/rieser_phx-HI-4.jpg"
-collection_description = "Suspendisse efficitur, odio a consequat euismod, turpis diam lacinia neque, non condimentum mi ipsum a ex. Phasellus ultricies finibus nisi. Nunc a nulla quis nisl molestie pellentesque ac eget felis. Donec quis neque dui. Mauris aliquam diam sed tellus volutpat nullam."
-collection_filter = "Commissioned + Stock"
-collection_meta = "2016 - 2018"
+collection_description = "A selection of images from my new works consisting of colorful, constructed, fictional, and surreal suburban vignettes.\n\nRecognized as a 2-time winner in the **_AP 35: American Photography Annual 2019_**_._"
+collection_filter = "Personal"
+collection_meta = "2018 - 2019"
 cover_image = ""
 date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
 row_alignment = "between"
-theme_color = "#fb7846"
-title = "Phoenix"
+theme_color = "#FA6901"
+title = "Phoenix: A Dystopian LegoLand That Tastes Like Candy"
+[[collection_awards]]
+content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+template = "popup-text-element"
+[[collection_exhibition]]
+content = "**2019**  \n**_Chaos Theory 20_**  \nLegend City Gallery. Phoenix, AZ (Group Show)"
+template = "popup-text-element"
+[[collection_exhibition]]
+content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+template = "popup-text-element"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
@@ -41,6 +50,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "center"
 background_color = "#FF0000"
+background_image_toggle = false
 block = "media-text"
 color = "#000000"
 margin_left = "10%"
@@ -373,18 +383,6 @@ margin_right = "0"
 margin_y = "50"
 template = "block-media-element"
 width = "40"
-[[collection_awards]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-template = "popup-text-element"
-[[collection_awards]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-template = "popup-text-element"
-[[collection_exhibition]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-template = "popup-text-element"
-[[collection_exhibition]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-template = "popup-text-element"
 [[collection_press]]
 content = "Press List Item"
 template = "popup-text-element"
