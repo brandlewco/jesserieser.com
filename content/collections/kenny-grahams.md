@@ -7,7 +7,7 @@ collection_cover = "https://jesserieser.brandlew.co/uploads/kennygraham-7.jpg"
 collection_description = "Don’t let their apprehension and common teen disposition fool you. Once the whistle blows, their play is as physical as the semi-pro men who initially made the W 4th Cage a street-ball landmark. Captured while documenting the annual “Kenny Graham’s 4th Street” basketball tournament."
 collection_exhibition = []
 collection_filter = "Commissioned + Stock"
-collection_meta = "meta title"
+collection_meta = "The Cage"
 collection_press = []
 cover_image = ""
 date = ""
@@ -15,7 +15,7 @@ layout = "blocks"
 logo = ""
 navigation_theme = "white"
 theme_color = "#EEFFD1"
-title = "Kenny Grahams"
+title = "Nike’s Kenny Graham’s "
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
