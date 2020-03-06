@@ -6,7 +6,7 @@ collection_cover = "https://jesserieser.brandlew.co/uploads/mackenzie-1.jpg"
 collection_description = ""
 collection_exhibition = []
 collection_filter = "Commissioned + Stock"
-collection_meta = ""
+collection_meta = "Movement Study"
 collection_press = []
 cover_image = ""
 date = ""
@@ -14,7 +14,7 @@ layout = "blocks"
 logo = ""
 navigation_theme = "white"
 theme_color = "#35386B"
-title = "Mackenzie Movement Study"
+title = "Mackenzie"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
