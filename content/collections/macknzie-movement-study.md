@@ -14,7 +14,7 @@ layout = "blocks"
 logo = ""
 navigation_theme = "white"
 theme_color = "#35386B"
-title = "Mackenzie"
+title = "Mackenzie Gossage"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
