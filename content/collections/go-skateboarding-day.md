@@ -1,11 +1,14 @@
 +++
 collection_archive = true
-collection_category = ["Color"]
+collection_awards = []
+collection_category = ["Lifestyle", "Stock", "Reportage", "Black and White", "Color", "Sports + Athletes", "Portraits"]
 collection_content = ""
 collection_cover = "https://jesserieser.brandlew.co/uploads/sk8-4.jpg"
 collection_description = "Photographed for NYC skateboarding legend Alex Corporan (Supreme) and sponsors Nike SB and Arizona Iced Tea."
+collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_meta = "#GoSkateBoardingDay"
+collection_press = []
 cover_image = ""
 date = ""
 layout = "blocks"
@@ -13,18 +16,6 @@ logo = ""
 navigation_theme = "white"
 theme_color = "#BBD8FF"
 title = "New York City"
-[[collection_awards]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-template = "popup-text-element"
-[[collection_awards]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-template = "popup-text-element"
-[[collection_exhibition]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-template = "popup-text-element"
-[[collection_exhibition]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-template = "popup-text-element"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
@@ -244,11 +235,5 @@ margin_right = "0"
 margin_y = "50"
 template = "block-media-element"
 width = "40"
-[[collection_press]]
-content = "Press List Item"
-template = "popup-text-element"
-[[collection_press]]
-content = "Press List Item"
-template = "popup-text-element"
 
 +++
