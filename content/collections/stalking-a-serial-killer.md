@@ -1,17 +1,26 @@
 +++
-title = "Stalking A Serial Killer"
-collection_category = ["Color"]
-collection_content = "Suspendisse viverra luctus purus id tempor. Donec id magna vitae arcu bibendum rutrum. Sed sollicitudin massa sem, quis posuere dolor vestibulum eget. Nullam id nisi a ex mollis ullamcorper. Sed at neque mattis, tempor sem sit amet, suscipit eros. Etiam ullamcorper mattis neque, in tincidunt lorem aliquam in. Duis eu semper lacus. Quisque ac nisl et ex bibendum laoreet vitae sit amet nibh. Nulla porttitor id sapien nec eleifend. Fusce semper purus nec gravida efficitur. Duis in ipsum et ante porta pharetra in vitae elit. Proin non fermentum sapien. Nullam ligula est, sagittis interdum consequat id, tincidunt quis ex. Duis iaculis augue nec elit luctus, a mattis velit ultricies.\n\nQuisque vulputate lorem quis varius faucibus. Fusce maximus tortor sed vehicula ultrices. Ut in magna tempor, ultricies quam nec, cursus arcu. Duis et massa auctor, dictum dui eu, feugiat leo. Quisque libero dui, elementum nec magna ut, placerat bibendum dolor. Nunc porta pretium fermentum. Praesent aliquam arcu quis quam maximus, ac ultricies nibh euismod. Vivamus dolor lorem, hendrerit nec enim a, iaculis fermentum metus. Duis dictum vel elit in congue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce sodales tempor sodales. Nunc vitae lacus tellus."
-collection_cover = "https://jesserieser.brandlew.co/uploads/serial-6.jpg"
-collection_description = "Suspendisse efficitur, odio a consequat euismod, turpis diam lacinia neque, non condimentum mi ipsum a ex. Phasellus ultricies finibus nisi. Nunc a nulla quis nisl molestie pellentesque ac eget felis. Donec quis neque dui. Mauris aliquam diam sed tellus volutpat nullam."
+collection_category = ["Editorial", "Reportage", "Conceptual", "Still Life + Details", "Environments", "Color"]
+collection_content = "Stalking A Serial Killer is narrated by quotes taken from detectives, residents, family members, witnesses, and survivors as a singular voice of a Phoenix neighborhood terrorized by a serial killer. The “Serial Street Shooter” has gunned down seven and wounded two. The killings are at random from his car and the victims are often in cars, near cars, or exiting their car.\n\nOriginally published during the week of the US election for the French magazine Society for their ‘America’ issue, this photo essay depicts the black and Hispanic neighborhood of Maryvale roamed by the killer, while serving as a metaphor for issues plaguing American policy and politics; a lack of immigration reform, racial inequity, a shrinking middle class, community policing dysfunction, a lack of mental health care and quotidian gun violence.\n\nOriginal interview and reporting by Emmanuelle Andreani-Facchin and typeset by Juan Carlos Pagan.\n\n“_The innovative layout of this story allows for both the strengths and the weaknesses of visual storytelling to be seen. The subject matter itself is shadowy, ephemeral, fitting the form. The images are beautiful, and start to create their own context and narrative when only surrounded by quotes — and nothing else. It’s a striking way to report on a story — one that tantalizes, leading to more questions than answers, and leaves you wanting more._”  \n– Buzzfeed –"
+collection_cover = "https://jesserieser.brandlew.co/uploads/serial-12.jpg"
+collection_description = "Published during the 2016 election for French magazine _Society’s_ “America” issue. The photo essay depicts the Latino neighborhood plagued by “The Serial Street Shooter” while serving as a metaphor for issues in American policy and politics: a lack of immigration reform, racial inequity, a shrinking middle class, community policing dysfunction, a lack of mental healthcare and quotidian gun violence.\n\nWinner in the _2017 American Photography Annual: AP 33,_ featured by _Buzzfeed, Fast Company, Feature Shoot, The Daily Mail,_ and exhibited at the Houston Center of Photography."
 collection_filter = "Commissioned + Stock"
-collection_meta = "meta title"
+collection_meta = "Stalking A Serial Killer"
 cover_image = ""
 date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-theme_color = "#000000"
+theme_color = "#D1E3E5"
+title = "Society Magazine"
+[[collection_awards]]
+content = "**2017**  \n**_AP 33: American Photography Annual 33_**  \nBest Editorial Series"
+template = "popup-text-element"
+[[collection_exhibition]]
+content = "**2018**  \n**_HCP Print Auction, Houston Center for Photography_**  \nHouston, TX (Group Show)"
+template = "popup-text-element"
+[[collection_exhibition]]
+content = "**2017**  \nSunday Afternoon Artist Show  \nNew York, NY (Group Show)"
+template = "popup-text-element"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
@@ -491,22 +500,12 @@ margin_right = "0"
 margin_y = "50"
 template = "block-media-element"
 width = "40"
-[[collection_awards]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+[[collection_press]]
+content = "[**_Buzzfeed_**]()"
 template = "popup-text-element"
-[[collection_awards]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-template = "popup-text-element"
-[[collection_exhibition]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-template = "popup-text-element"
-[[collection_exhibition]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-template = "popup-text-element"
+url = "https://www.buzzfeed.com/gabrielsanchez/incredible-photo-stories-you-absolutely-cant-miss-mar-3?utm_term=.leYqRXGzBr#.itQ6oNpDeb"
 [[collection_press]]
 content = "Press List Item"
 template = "popup-text-element"
-[[collection_press]]
-content = "Press List Item"
-template = "popup-text-element"
+
 +++
