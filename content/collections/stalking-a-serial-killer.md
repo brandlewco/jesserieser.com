@@ -510,5 +510,8 @@ template = "popup-text-element"
 [[collection_press]]
 content = "[_Feature Shoot_](http://www.featureshoot.com/2017/03/photographer-stalked-serial-killer/)"
 template = "popup-text-element"
+[[collection_press]]
+content = "[_PDN Photo of the Day_](https://potd.pdnonline.com/2017/08/48088/) "
+template = "popup-text-element"
 
 +++
