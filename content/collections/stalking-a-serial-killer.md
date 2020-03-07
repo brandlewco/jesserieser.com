@@ -10,7 +10,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-theme_color = "#D1E3E5"
+theme_color = "#F4EAE2"
 title = "Society Magazine"
 [[collection_awards]]
 content = "**2017**  \n**_AP 33: American Photography Annual 33_**  \nBest Editorial Series"
