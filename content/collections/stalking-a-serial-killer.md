@@ -501,11 +501,14 @@ margin_y = "50"
 template = "block-media-element"
 width = "40"
 [[collection_press]]
-content = "[**_Buzzfeed_**]()"
+content = "[**_Buzzfeed_**](https://www.buzzfeed.com/gabrielsanchez/incredible-photo-stories-you-absolutely-cant-miss-mar-3?utm_term=.leYqRXGzBr#.itQ6oNpDeb)"
 template = "popup-text-element"
-url = "https://www.buzzfeed.com/gabrielsanchez/incredible-photo-stories-you-absolutely-cant-miss-mar-3?utm_term=.leYqRXGzBr#.itQ6oNpDeb"
+url = ""
 [[collection_press]]
-content = "Press List Item"
+content = "[_Fast Company_](https://www.fastcodesign.com/90128233/chilling-photos-of-a-community-in-the-grips-of-a-serial-killer) "
+template = "popup-text-element"
+[[collection_press]]
+content = "[_Feature Shoot_](http://www.featureshoot.com/2017/03/photographer-stalked-serial-killer/)"
 template = "popup-text-element"
 
 +++
