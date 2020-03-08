@@ -2,7 +2,7 @@
 collection_awards = []
 collection_category = ["Lifestyle", "Conceptual", "Humor", "Portraits", "Color"]
 collection_content = ""
-collection_cover = "https://jesserieser.brandlew.co/uploads/jerry-1.jpg"
+collection_cover = "https://jesserieser.brandlew.co/uploads/jerry-2.jpg"
 collection_description = "A new personal project that comments on the perception of power and social media by juxtaposing notable famous people from the past."
 collection_exhibition = []
 collection_filter = "Personal"
