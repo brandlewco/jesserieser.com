@@ -11,7 +11,7 @@ layout = "blocks"
 logo = ""
 navigation_theme = ""
 theme_color = "#FBC8B2"
-title = "Endangered Photo Studios"
+title = "Photo Studios Extinction"
 [[collection_awards]]
 content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
 template = "popup-text-element"
