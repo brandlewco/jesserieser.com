@@ -2,7 +2,7 @@
 collection_awards = []
 collection_category = ["Color"]
 collection_content = "Suspendisse viverra luctus purus id tempor. Donec id magna vitae arcu bibendum rutrum. Sed sollicitudin massa sem, quis posuere dolor vestibulum eget. Nullam id nisi a ex mollis ullamcorper. Sed at neque mattis, tempor sem sit amet, suscipit eros. Etiam ullamcorper mattis neque, in tincidunt lorem aliquam in. Duis eu semper lacus. Quisque ac nisl et ex bibendum laoreet vitae sit amet nibh. Nulla porttitor id sapien nec eleifend. Fusce semper purus nec gravida efficitur. Duis in ipsum et ante porta pharetra in vitae elit. Proin non fermentum sapien. Nullam ligula est, sagittis interdum consequat id, tincidunt quis ex. Duis iaculis augue nec elit luctus, a mattis velit ultricies.\n\nQuisque vulputate lorem quis varius faucibus. Fusce maximus tortor sed vehicula ultrices. Ut in magna tempor, ultricies quam nec, cursus arcu. Duis et massa auctor, dictum dui eu, feugiat leo. Quisque libero dui, elementum nec magna ut, placerat bibendum dolor. Nunc porta pretium fermentum. Praesent aliquam arcu quis quam maximus, ac ultricies nibh euismod. Vivamus dolor lorem, hendrerit nec enim a, iaculis fermentum metus. Duis dictum vel elit in congue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce sodales tempor sodales. Nunc vitae lacus tellus."
-collection_cover = "https://jesserieser.brandlew.co/uploads/cactus-1.jpg"
+collection_cover = "https://jesserieser.brandlew.co/uploads/cactus-16.jpg"
 collection_description = "Cactus League examines the intersection of fan culture and professional athletes during spring workouts. Baseball’s spring training brings the fans and players together while the hope for a new season breeds a jovial and loose atmosphere between the two."
 collection_exhibition = []
 collection_filter = "Commissioned + Stock"
@@ -12,7 +12,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-theme_color = "#000000"
+theme_color = "#FDE583"
 title = "ESPN Cactus League"
 [[collection_layout_builder]]
 align_x = "start"
