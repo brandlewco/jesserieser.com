@@ -13,13 +13,13 @@ navigation_theme = "white"
 theme_color = "#9CB8D7"
 title = "Society Magazine"
 [[collection_awards]]
-content = "**2017**  \n**_AP 33: American Photography Annual 33_**  \nBest Editorial Series"
+content = "**2017**  \n_AP 33: American Photography Annual 33_  \nBest Editorial Series"
 template = "popup-text-element"
 [[collection_exhibition]]
-content = "**2018**  \n**_HCP Print Auction, Houston Center for Photography_**  \nHouston, TX (Group Show)"
+content = "**2018**  \n_HCP Print Auction, Houston Center for Photography_  \nHouston, TX (Group Show)"
 template = "popup-text-element"
 [[collection_exhibition]]
-content = "**2017**  \nSunday Afternoon Artist Show  \nNew York, NY (Group Show)"
+content = "**2017**  \n_Sunday Afternoon Artist Show_  \nNew York, NY (Group Show)"
 template = "popup-text-element"
 [[collection_layout_builder]]
 align_x = "start"
@@ -501,7 +501,7 @@ margin_y = "50"
 template = "block-media-element"
 width = "40"
 [[collection_press]]
-content = "[**_Buzzfeed_**](https://www.buzzfeed.com/gabrielsanchez/incredible-photo-stories-you-absolutely-cant-miss-mar-3?utm_term=.leYqRXGzBr#.itQ6oNpDeb)"
+content = "[_Buzzfeed_](https://www.buzzfeed.com/gabrielsanchez/incredible-photo-stories-you-absolutely-cant-miss-mar-3?utm_term=.leYqRXGzBr#.itQ6oNpDeb)"
 template = "popup-text-element"
 url = ""
 [[collection_press]]
