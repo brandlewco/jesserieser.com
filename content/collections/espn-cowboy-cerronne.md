@@ -1,17 +1,20 @@
 +++
-title = "ESPN Cowboy Cerronne"
-collection_category = ["Color"]
-collection_content = "Suspendisse viverra luctus purus id tempor. Donec id magna vitae arcu bibendum rutrum. Sed sollicitudin massa sem, quis posuere dolor vestibulum eget. Nullam id nisi a ex mollis ullamcorper. Sed at neque mattis, tempor sem sit amet, suscipit eros. Etiam ullamcorper mattis neque, in tincidunt lorem aliquam in. Duis eu semper lacus. Quisque ac nisl et ex bibendum laoreet vitae sit amet nibh. Nulla porttitor id sapien nec eleifend. Fusce semper purus nec gravida efficitur. Duis in ipsum et ante porta pharetra in vitae elit. Proin non fermentum sapien. Nullam ligula est, sagittis interdum consequat id, tincidunt quis ex. Duis iaculis augue nec elit luctus, a mattis velit ultricies.\n\nQuisque vulputate lorem quis varius faucibus. Fusce maximus tortor sed vehicula ultrices. Ut in magna tempor, ultricies quam nec, cursus arcu. Duis et massa auctor, dictum dui eu, feugiat leo. Quisque libero dui, elementum nec magna ut, placerat bibendum dolor. Nunc porta pretium fermentum. Praesent aliquam arcu quis quam maximus, ac ultricies nibh euismod. Vivamus dolor lorem, hendrerit nec enim a, iaculis fermentum metus. Duis dictum vel elit in congue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce sodales tempor sodales. Nunc vitae lacus tellus."
-collection_cover = "https://jesserieser.brandlew.co/uploads/cowboy-1.jpg"
-collection_description = "Suspendisse efficitur, odio a consequat euismod, turpis diam lacinia neque, non condimentum mi ipsum a ex. Phasellus ultricies finibus nisi. Nunc a nulla quis nisl molestie pellentesque ac eget felis. Donec quis neque dui. Mauris aliquam diam sed tellus volutpat nullam."
+collection_awards = []
+collection_category = ["Sports + Athletes", "Studio ", "Editorial", "Color", "Conceptual", "Still Life + Details", "Color"]
+collection_content = "“Disemboweled by an ATV, head butted by a horse: The painful stories behind Donald Cerrone’s injuries.” ⁠⠀  \n⁠⠀  \nAhead of UFC 246 welterweight bout at the T Mobile Arena in Las Vegas, I headed out to Edgewood, NM to visit with Donald “Cowboy” Ceronne at his BMF (Bad Mother Fucker) ranch + gym.  \n⁠⠀  \nAs he faced off against the sport’s most popular and recognizable personality in Conor McGregor, Ceronne is a fighter’s fighter, holding the sports all time record of wins, bouts, and fights finished. He appeared calm, gracious, funny, and at peace with this stage of his career and the “biggest fight of his life.” ⁠⠀  \n⁠⠀  \nConceptually my goal was to create a portfolio of intimate portraits paired with studies of Cowboy’s injuries- tightly framed and appearing larger than life as abstractions of an anatomical landscape. It was an unexpected bonus that his 18 month old son “Danger” wanted to be a part of the project. His involvement and embrace with his father nicely bridges the gap between the landscape-like injury studies and portraits, leaving the viewer with a sense of intimate masculinity.⠀"
+collection_cover = "https://jesserieser.brandlew.co/uploads/cowboy-6.jpg"
+collection_description = "“Disemboweled by an ATV, head butted by a horse: The painful stories behind Donald Cerrone’s injuries.” ⁠⠀\n\nA portfolio of intimate portraits paired with studies of Cowboy’s injuries appearing larger than life as abstractions of an anatomical landscape. Cowboy’s 18-month-old son Danger’s embrace with his father nicely bridges the gap between the landscape-like injuries and portraits, leaving the viewer with a sense of intimate masculinity."
+collection_exhibition = []
 collection_filter = "Commissioned + Stock"
-collection_meta = "meta title"
+collection_meta = "UFC 246: The Painful Stories Behind Donald “Cowbody” Cerrone’s Injuries"
+collection_press = []
 cover_image = ""
 date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-theme_color = "#000000"
+theme_color = "#161518"
+title = "ESPN"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
@@ -231,22 +234,5 @@ margin_right = "0"
 margin_y = "50"
 template = "block-media-element"
 width = "40"
-[[collection_awards]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-template = "popup-text-element"
-[[collection_awards]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-template = "popup-text-element"
-[[collection_exhibition]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-template = "popup-text-element"
-[[collection_exhibition]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-template = "popup-text-element"
-[[collection_press]]
-content = "Press List Item"
-template = "popup-text-element"
-[[collection_press]]
-content = "Press List Item"
-template = "popup-text-element"
+
 +++
