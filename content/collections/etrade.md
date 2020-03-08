@@ -2,7 +2,7 @@
 collection_awards = []
 collection_category = ["Advertising", "Tech", "Workplace", "Lifestyle", "Still Life + Details", "Portraits", "Color"]
 collection_content = ""
-collection_cover = "https://jesserieser.brandlew.co/uploads/etrade-1.jpg"
+collection_cover = "https://jesserieser.brandlew.co/uploads/etrade-12.jpg"
 collection_description = ""
 collection_exhibition = []
 collection_filter = "Commissioned + Stock"
@@ -13,7 +13,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-theme_color = "#C88D92"
+theme_color = "#6391AA"
 title = "E*Trade"
 [[collection_layout_builder]]
 align_x = "start"
