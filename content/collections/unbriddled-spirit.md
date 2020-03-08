@@ -1,6 +1,6 @@
 +++
 collection_archive = true
-collection_category = ["Color"]
+collection_category = ["Sports + Athletes", "Travel", "Editorial", "Reportage", "Lifestyle", "Portraits", "Color"]
 collection_content = ""
 collection_cover = "https://jesserieser.brandlew.co/uploads/spirit-1.jpg"
 collection_description = "Portraits of celebrated cowboy artist Curt Mattson.\n\nWinner in AP 32: American Photography Annual 2016 for best editorial photography."
