@@ -1,6 +1,6 @@
 +++
 collection_awards = []
-collection_category = ["Stock", "Color", "Sports + Athletes", "Portraits"]
+collection_category = ["Lifestyle", "Stock", "Color", "Sports + Athletes", "Portraits"]
 collection_content = ""
 collection_cover = "https://jesserieser.brandlew.co/uploads/mackenzie-1.jpg"
 collection_description = ""
