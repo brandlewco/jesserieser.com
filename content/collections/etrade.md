@@ -13,7 +13,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-theme_color = "#6391AA"
+theme_color = "#D7C6AD"
 title = "E*Trade"
 [[collection_layout_builder]]
 align_x = "start"
