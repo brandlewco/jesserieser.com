@@ -14,7 +14,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-theme_color = "#EEFFD1"
+theme_color = "#DBEDB4"
 title = "Nike’s Kenny Graham’s "
 [[collection_layout_builder]]
 align_x = "start"
