@@ -12,13 +12,13 @@ layout = "blocks"
 logo = ""
 navigation_theme = "white"
 row_alignment = "between"
-theme_color = "#FA6901"
+theme_color = "#FF9758"
 title = "Phoenix: A Dystopian LegoLand That Tastes Like Candy"
 [[collection_awards]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+content = "**2019**  \n_AP 35: American Photography Annual 35_  \nBest Personal Work Series:"
 template = "popup-text-element"
 [[collection_exhibition]]
-content = "**2019**  \n**_Chaos Theory 20_**  \nLegend City Gallery. Phoenix, AZ (Group Show)"
+content = "**2019**  \n_Chaos Theory 20_  \nLegend City Gallery. Phoenix, AZ (Group Show)"
 template = "popup-text-element"
 [[collection_layout_builder]]
 align_x = "start"
@@ -381,7 +381,7 @@ margin_y = "50"
 template = "block-media-element"
 width = "40"
 [[collection_press]]
-content = "**_LoDown Magazine_** _(Germany)_"
+content = "_LoDown Magazine_ _(Germany)_"
 template = "popup-text-element"
 
 +++
