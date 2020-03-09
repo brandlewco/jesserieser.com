@@ -1338,6 +1338,76 @@ icon = ""
 template = "popup-text-element"
 url = ""
 [[collection_press]]
+content = "[_Feature Shoot_](http://www.featureshoot.com/2015/12/happy-birthday-jesus-bittersweet-photos-take-a-raw-honest-look-at-christmastime/)"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_press]]
+content = "_PDN Photo of the Day_"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_press]]
+content = "_Working Not Working Magazine_"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_press]]
+content = "[_Mache_](https://www.mache.digital/series/2017/12/15/christmas-in-america)"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_press]]
+content = "[_Don't Take Pictures_](http://www.donttakepictures.com/photo-of-the-day/2018/12/25/jesse-rieser)"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_press]]
+content = "[_Konbini_](http://www.konbini.com/fr/inspiration-2/en-images-les-bizarreries-de-noel-au-coeur-de-lamerique/)"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_press]]
+content = "[_Duncan Miller Gallery \"Your Daily Photograph\"_](http://us5.campaign-archive2.com/?u=5a6e385eed959142044dc8096&id=d5d52114de)"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_press]]
+content = "[_Curbed_](http://curbed.com/tags/jesse-rieser)"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_press]]
+content = "[**_Tycho's ISO 50_**](http://blog.iso50.com/33088/christmas-in-america-by-jesse-rieser/)"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_press]]
+content = "_Resource Magazine_"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_press]]
+content = "[_Lenscratch_](http://lenscratch.com/2011/12/jesse-rieser-3/)"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_press]]
+content = "_Finite Foto_"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_press]]
+content = "[_Inspiration Lab_](https://inspirationlab.wordpress.com/2012/10/18/jesse-rieser/)"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_press]]
+content = "_The Oregonian (Exhibition Review)_"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_press]]
 content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
 icon = ""
 template = "popup-text-element"
