@@ -303,10 +303,46 @@ margin_y = "50"
 template = "block-media-element"
 width = "40"
 [[collection_press]]
-content = "Press List Item"
+content = "[_The Washington Post_](https://www.washingtonpost.com/photography/2019/11/22/photographing-retail-apocalypse/?utm_campaign=later-linkinbio-jesserieser&utm_content=later-4242812&utm_medium=social&utm_source=instagram)"
 template = "popup-text-element"
 [[collection_press]]
-content = "Press List Item"
+content = "[_NPR_](https://kjzz.org/content/708344/changing-face-retail-through-camera-lens)"
+template = "popup-text-element"
+[[collection_press]]
+content = "[_Wired_](https://www.wired.com/story/photo-gallery-retail-apocalypse/)"
+template = "popup-text-element"
+[[collection_press]]
+content = "[_Architectural Digest_](https://www.architecturaldigest.com/story/jesse-rieser-retail-apocalypse)"
+template = "popup-text-element"
+[[collection_press]]
+content = "[_Fast Company_](https://www.fastcompany.com/90230234/the-retail-apocalypse-in-pictures)"
+template = "popup-text-element"
+[[collection_press]]
+content = "[_Business Insider_](https://www.businessinsider.com/retail-apocalypse-american-landscape-jesse-rieser-photos-2018-12)"
+template = "popup-text-element"
+[[collection_press]]
+content = "[_Fraction Magazine #131_](http://www.fractionmagazine.com/jesse-rieser)"
+template = "popup-text-element"
+[[collection_press]]
+content = "_Blkswn (Japan)_ "
+template = "popup-text-element"
+[[collection_press]]
+content = "[_BOOOOOOOM 64 x 64: Best of 2018_](https://www.booooooom.com/2018/12/31/fav-photos-found-in-2018-64-photos-by-64-photographers/)"
+template = "popup-text-element"
+[[collection_press]]
+content = "[_BOOOOOOOM_](https://www.booooooom.com/2018/09/20/photographer-spotlight-jesse-rieser/)"
+template = "popup-text-element"
+[[collection_press]]
+content = "[_Ignant_](https://www.ignant.com/2018/08/28/the-retail-apocalypse-by-jesse-rieser/)"
+template = "popup-text-element"
+[[collection_press]]
+content = "[_Plain Magazine_](https://plainmagazine.com/jesse-rieser-changing-american-retail/)"
+template = "popup-text-element"
+[[collection_press]]
+content = "[_Archinect_](https://archinect.com/features/article/150117527/in-focus-jesse-rieser-and-his-2d-facsimile-to-architecture)"
+template = "popup-text-element"
+[[collection_press]]
+content = "[_Muuuz Architecture & Design Magazine_](https://www.muuuz.com/magazine/rubriques/arts/49392-jesse-rieser-the-changing-landscape-of-american-retail.html)"
 template = "popup-text-element"
 
 +++
