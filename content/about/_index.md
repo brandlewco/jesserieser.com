@@ -116,7 +116,8 @@ page_sections:
     url: ''
     icon: ''
   - template: popup-text-element
-    content: "**2015**  \nPhotolucida Critical Mass Finalist  \n_When Fall Came Early_"
+    content: "**2015**  \nPhotolucida Critical Mass   \nFinalist: Top 200 International
+      Project  \n_When Fall Came Early_"
     url: ''
     icon: ''
   - template: popup-text-element
