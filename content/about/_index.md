@@ -303,13 +303,11 @@ page_sections:
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    content: "[_n by Norwegian_](http://edition.pagesuite.com/html5/reader/production/default.aspx?pubname=&edid=9f5ceea1-4a78-4d7d-b232-d84af31e0cc8&pnum=94)"
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    content: _Dallas Morning News_
     icon: ''
     url: ''
   - template: popup-text-element
