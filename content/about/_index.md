@@ -311,6 +311,10 @@ page_sections:
     icon: ''
     url: ''
   - template: popup-text-element
+    content: _PDN Photo of the Day II_
+    icon: ''
+    url: ''
+  - template: popup-text-element
     content: _LA Confidential_
     icon: ''
     url: ''
@@ -331,7 +335,7 @@ page_sections:
     icon: ''
     url: ''
   - template: popup-text-element
-    content: _PDN Photo of the Day II_
+    content: "[_The Oregonian_](http://www.oregonlive.com/art/index.ssf/2011/12/review_christmas_in_america_by.html)"
     icon: ''
     url: ''
   - template: popup-text-element
@@ -392,6 +396,49 @@ page_sections:
     url: ''
   - template: popup-text-element
     content: "[_Don't Take Pictures II_](http://www.donttakepictures.com/photo-of-the-day/2018/12/25/jesse-rieser)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: _Nacione_
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_Muuuz Architecture & Design Magazine_](https://www.muuuz.com/magazine/rubriques/arts/49392-jesse-rieser-the-changing-landscape-of-american-retail.html)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_Archinect_](https://archinect.com/features/article/150117527/in-focus-jesse-rieser-and-his-2d-facsimile-to-architecture)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_Mache_](https://www.mache.digital/series/2017/12/15/christmas-in-america)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_Mache II_](https://www.mache.digital/features/2017/12/15/jesse-rieser)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_Plain Magazine_](https://plainmagazine.com/jesse-rieser-changing-american-retail/)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: _Finite Photo_
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
     icon: ''
     url: ''
   margin_x: ''
