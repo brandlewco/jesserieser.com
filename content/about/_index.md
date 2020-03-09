@@ -76,8 +76,8 @@ page_sections:
     url: ''
     icon: ''
   - template: popup-text-element
-    content: "**2018 + 2017**  \n_Luezer's Archive: 200 Best Best Ad Photographers
-      Worldwide_  \nBest Sport, Animals, Architecture, and Landscape photography"
+    content: "**2018 + 2017**  \n_Luezer's Archive_  \n200 Best Best Ad Photographers
+      Worldwide"
     url: ''
     icon: ''
   - template: popup-text-element
