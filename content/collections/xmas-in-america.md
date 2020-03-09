@@ -1,8 +1,8 @@
 +++
 attached_gallery = "gallery/xmas.md"
 collection_archive = false
-collection_category = ["Color", "Environments", "Portraits", "Conceptual", "Reportage", "Travel", "Humor", "Uniquely American"]
-collection_content = "Suspendisse viverra luctus purus id tempor. Donec id magna vitae arcu bibendum rutrum. Sed sollicitudin massa sem, quis posuere dolor vestibulum eget. Nullam id nisi a ex mollis ullamcorper. Sed at neque mattis, tempor sem sit amet, suscipit eros. Etiam ullamcorper mattis neque, in tincidunt lorem aliquam in. Duis eu semper lacus. Quisque ac nisl et ex bibendum laoreet vitae sit amet nibh. Nulla porttitor id sapien nec eleifend. Fusce semper purus nec gravida efficitur. Duis in ipsum et ante porta pharetra in vitae elit. Proin non fermentum sapien. Nullam ligula est, sagittis interdum consequat id, tincidunt quis ex. Duis iaculis augue nec elit luctus, a mattis velit ultricies.\n\nQuisque vulputate lorem quis varius faucibus. Fusce maximus tortor sed vehicula ultrices. Ut in magna tempor, ultricies quam nec, cursus arcu. Duis et massa auctor, dictum dui eu, feugiat leo. Quisque libero dui, elementum nec magna ut, placerat bibendum dolor. Nunc porta pretium fermentum. Praesent aliquam arcu quis quam maximus, ac ultricies nibh euismod. Vivamus dolor lorem, hendrerit nec enim a, iaculis fermentum metus. Duis dictum vel elit in congue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce sodales tempor sodales. Nunc vitae lacus tellus."
+collection_category = ["Color", "Environments", "Portraits", "Conceptual", "Reportage", "Travel", "Humor"]
+collection_content = "Beyond the glowing green and red lights, past the shimmering silvery tinsel, around the fragrant pine boughs, another Christmas lingers, a Christmas of contradictions.\n\nThis is a Christmas where carved foam soldiers guard Santa in the parking lot of a church just before a holiday parade. This is a Christmas where thousands of Santas run in an annual fundraising race, a sea of red hats and performance apparel. This is a Christmas where garages and homes are transformed into elaborate, festive wonderlands. This is a Christmas where Christian families reenact the birth of Christ, where Santa plays pool in a bar and where more is more is more.\n\nThis Christmas is complex and at times, uncomfortable. It’s awkward and sometimes bleak. But it is also sincere and celebratory, colorful and creative.\n\nThis is the Christmas I have grown to love during my 7 year photographic exploration of the biggest event on the American calendar. I grew up in a secular home and at times felt like a Christmas outsider, never connected to the holiday’s religious importance, or its more extreme cultural trappings. But in these photos, I become a Christmas insider, working to discover and reveal what holiday magic, or mania, compels so many to devote thousands of hours to hanging lights, to carving and painting figurines, to building miniature villages, to converting their homes, yards, garages and cars into monuments to merriness.\n\nInitially inspired by the absurdity of a four story inflatable Santa who appeared to be guarding a tree lot, I have launched this survey of uniquely American Christmas traditions. “Christmas in America” is an unvarnished examination of the ways people mark the holiday’s meaning."
 collection_cover = "https://jesserieser.brandlew.co/uploads/christmas-6.jpg"
 collection_description = "A decade in the making, _Christmas In America_ is an unvarnished examination of the ways people mark the holiday’s meaning. This Christmas is complex and at times, uncomfortable. It’s awkward and sometimes bleak. But it is also sincere and celebratory, colorful and creative.\n\nSelected by the _Communication Arts Photo Annual (2x)_, _American Photography Annual (2x)_, and _PDN Photo Annual_ as one the year’s best. Featured by the _New York Times, Time Magazine, Wired, NPR, Buzzfeed, Fast Company, Esquire, The Guardian, Artsy,_ and _Refinery 29._"
 collection_filter = "Personal"
@@ -17,12 +17,47 @@ row_alignment = ""
 theme_color = "#DA1C1C"
 title = "Christmas In America: Happy Birthday, Jesus"
 [[collection_awards]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+content = "**2017**  \n_Communication Arts Photography Annual  \nWinner: Best Unpublished Series_"
 icon = ""
 template = "popup-text-element"
 url = ""
 [[collection_awards]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+content = "**2017**  \n_AP 33 American Photography Annual 33_  \nWinner: Best Personal Work Series"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_awards]]
+content = "**2012**  \n_Communication Arts Photography Annual_   \nWinner: Best Self-Promotion Campaign"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_awards]]
+content = "**2012**  \n_Magenta Foundation Flash Forward Winner_  \nTop Emerging Fine Art Photographer in North America and U.K."
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_awards]]
+content = "**2011**  \n_Art Director's Club Young Guns 9_  \nTop International Emerging Creative 30 and Under"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_awards]]
+content = "**2011**  \n_PDN Photo Annual_  \nWinner: Best Personal Work Series"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_awards]]
+content = "**2011**  \n_AP 27: American Photography Annual 27_  \nWinner: Best Personal Work Series"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_awards]]
+content = "**2011**  \n_Photolucida Critical Mass_  \nWinner: Top 50 International Projects"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_awards]]
+content = "**2011**  \n_The 10 Most Exciting Photographers This Year_  \nPhoenix Art Museum  \nICP Curator Rebecca Senf Ph.D. & Mary Virginia Swanson"
 icon = ""
 template = "popup-text-element"
 url = ""
