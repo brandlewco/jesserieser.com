@@ -96,7 +96,7 @@ page_sections:
     url: ''
     icon: ''
   - template: popup-text-element
-    content: "**2016**  \n_PDN Photography Annual_  \nBest For-Sale Photography:  \n_Sounds
+    content: "**2016**  \n_PDN Photography Annual_  \nBest For Sale Photography:  \n_Sounds
       of Cement_"
     url: ''
     icon: ''
@@ -130,7 +130,7 @@ page_sections:
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2013**  \n_Photolucida Critical Mass Winner  \n_Top 50 International
+    content: "**2013**  \nPhotolucida Critical Mass Winner  \nTop 50 International
       Project  \n_The Wallow Fire_"
     icon: ''
     url: ''
