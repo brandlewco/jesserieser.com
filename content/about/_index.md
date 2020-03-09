@@ -358,6 +358,42 @@ page_sections:
     content: "[_A Photo Editor_](https://aphotoeditor.com/2019/09/13/the-best-work-i-saw-at-photolucida-part-5/?fbclid=IwAR31utip0SP2c9bmRTVjtasF-qMTtffi_P0Sg1wrYRJRC3aFvuC84PkHy6U&utm_campaign=later-linkinbio-jesserieser&utm_content=later-3853091&utm_medium=social&utm_source=instagram)"
     icon: ''
     url: ''
+  - template: popup-text-element
+    content: "[_No Plastic Sleeves_](http://blog.noplasticsleeves.com/its-spring-time-to-renew-your-portfolio-design/)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_Duncan Miller Gallery I_](http://us5.campaign-archive2.com/?u=5a6e385eed959142044dc8096&id=8b4ec157ee)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_Duncan Miller Gallery II_](http://us5.campaign-archive2.com/?u=5a6e385eed959142044dc8096&id=d5d52114de)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_Lenscratch I_](http://lenscratch.com/2011/12/jesse-rieser-3/)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_Lenscratch II_](http://lenscratch.com/2011/06/jesse-rieser-2/)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_Lenscratch III_](http://lenscratch.com/2012/08/jesse-rieser/)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_Lenscratch IV_](http://lenscratch.com/2018/06/jesse-reiser/)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_Don't Take Pictures I_](http://www.donttakepictures.com/photo-of-the-day/2018/6/20/jesse-rieser)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_Don't Take Pictures II_](http://www.donttakepictures.com/photo-of-the-day/2018/12/25/jesse-rieser)"
+    icon: ''
+    url: ''
   margin_x: ''
 header_col_1: "### ADVERTISING\n\n### COMMISSIONS\n\nAudrie Poole  \nSunday Afternoon
   \ \n343 Canal Street, 5th Floor  \nNew York, NY  \n[516 263 7335](tel:+15162637335
