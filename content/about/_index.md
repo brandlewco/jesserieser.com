@@ -311,6 +311,94 @@ page_sections:
     content: "[_Refinery29_](http://www.refinery29.com/2015/12/100005/photos-suburbia-christmas-decorations#slide)"
     icon: ''
     url: ''
+  - template: popup-text-element
+    content: "[_It's Nice That_](http://www.itsnicethat.com/articles/jesse-rieser-christmas-in-america)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_Cool Hunting_](https://coolhunting.com/culture/photographer-jesse-rieser-christmas/)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
   margin_x: ''
 header_col_1: "### ADVERTISING\n\n### COMMISSIONS\n\nAudrie Poole  \nSunday Afternoon
   \ \n343 Canal Street, 5th Floor  \nNew York, NY  \n[516 263 7335](tel:+15162637335
