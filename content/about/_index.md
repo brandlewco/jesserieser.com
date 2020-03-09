@@ -56,12 +56,12 @@ page_sections:
     url: ''
     icon: ''
   - template: popup-text-element
-    content: "**2019**  \nPhotolucida Critical Mass   \nFinalist  \n_A Vanishing American
-      Folklore_"
+    content: "**2019**  \nPhotolucida Critical Mass  \nFinalist: Top 200 International
+      Project  \n_A Vanishing American Folklore_"
     url: ''
     icon: ''
   - template: popup-text-element
-    content: "**2019**  \nPhotolucida Critical Mass  \nWinner: Top 50 International
+    content: "**2018**  \nPhotolucida Critical Mass  \nWinner: Top 50 International
       Project  \n_The Changing Landscape of American Retail_"
     url: ''
     icon: ''
