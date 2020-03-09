@@ -1,6 +1,6 @@
 +++
 attached_gallery = "gallery/phoenix.md"
-collection_category = ["Lifestyle", "Portraits", "Color", "Conceptual", "Portraits"]
+collection_category = ["Studio ", "Lifestyle", "Color", "Conceptual", "Portraits"]
 collection_content = ""
 collection_cover = "https://jesserieser.brandlew.co/uploads/rieser_phx-HI-4.jpg"
 collection_description = "A selection of images from my new works consisting of colorful, constructed, fictional, and surreal suburban vignettes.\n\nRecognized as a 2-time winner in the **_AP 35: American Photography Annual 2019_**_._"
