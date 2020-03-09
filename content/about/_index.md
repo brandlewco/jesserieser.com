@@ -208,18 +208,15 @@ page_sections:
   color: "#FE9A8E"
   modal_block:
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
+    content: "[_The New York Times Lens Blog_](https://lens.blogs.nytimes.com/2015/12/24/christmas-in-america-over-the-top-close-to-the-heart/?_r=1)"
     url: ''
     icon: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
+    content: "[_National Geographic_](https://www.nationalgeographic.com/culture/2018/12/christmas-holidays-decorations-photos/)"
     url: ''
     icon: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
+    content: "[_The Washington Post_](https://www.washingtonpost.com/photography/2019/11/22/photographing-retail-apocalypse/?utm_campaign=later-linkinbio-jesserieser&utm_content=later-4242812&utm_medium=social&utm_source=instagram)"
     url: ''
     icon: ''
   - template: popup-text-element
