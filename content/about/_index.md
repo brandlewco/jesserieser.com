@@ -66,7 +66,7 @@ page_sections:
     url: ''
     icon: ''
   - template: popup-text-element
-    content: "**2018**  \n_PDN Photo Annual_  \nBest Personal Work Series:  \n_The
+    content: "**2018**  \n_PDN Photography Annual_  \nBest Personal Work Series:  \n_The
       Changing Landscape Of American Retail_"
     url: ''
     icon: ''
