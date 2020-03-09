@@ -71,28 +71,28 @@ page_sections:
     url: ''
     icon: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
+    content: "**2018**  \n_AP 34: American Photography Annual 34_  \nBest Personal
+      Work Series:  \n_Autobiography Of A Contact Sport_"
     url: ''
     icon: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
+    content: "**2018 + 2017**  \n_Luezer's Archive: 200 Best Best Ad Photographers
+      Worldwide_  \nBest Sport, Animals, Architecture, and Landscape photography"
     url: ''
     icon: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
+    content: "**2017**  \n_Communication Arts Photography Annual_  \nBest Unpublished
+      Series:  \n_Christmas In America: Happy Birthday, Jesus_"
     url: ''
     icon: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
+    content: "**2017**  \n_AP 33: American Photography Annual 33_  \nBest Editorial
+      Series:  \n_Stalking A Serial Killer_"
     url: ''
     icon: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
+    content: "**2017**  \n_AP 33: American Photography Annual 33_  \nBest Personal
+      Work Series:  \n_Christmas In America: Happy Birthday, Jesus_"
     url: ''
     icon: ''
   - template: popup-text-element
