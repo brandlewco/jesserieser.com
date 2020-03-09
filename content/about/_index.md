@@ -96,13 +96,13 @@ page_sections:
     url: ''
     icon: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
+    content: "**2016**  \n_PDN Photography Annual_  \nBest For-Sale Photography:  \n_Sounds
+      of Cement_"
     url: ''
     icon: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
+    content: "**2016**  \n_AP 32: American Photography Annual 32_  \nBest Editorial
+      Photography:  \n_Gioia_ for _Hearst Italia_ "
     url: ''
     icon: ''
   - template: popup-text-element
