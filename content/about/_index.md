@@ -33,7 +33,7 @@ page_sections:
     day, a lifetime to happen. I engage with subjects. I understand and communicate
     with clients. I can see their vision through my own eyes.\n\nSome call it empathy.
     Some call it charm. My mom just says I’m a nice young man."
-  parallax: false
+  parallax: true
   background_color: "#FFF499"
   text_color: "#000000"
   background_image_toggle: true
