@@ -248,15 +248,78 @@ page_sections:
     url: ''
     icon: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
+    content: "[_Architectural Digest_](https://www.architecturaldigest.com/story/jesse-rieser-retail-apocalypse)"
     url: ''
     icon: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
+    content: "[_Fast Company Design Co. I_](https://www.fastcodesign.com/3054874/exposure/a-heartwarming-look-at-how-americans-celebrate-christmas)"
     url: ''
     icon: ''
+  - template: popup-text-element
+    content: "[_Fast Company Design Co. II_](https://www.fastcodesign.com/90128233/chilling-photos-of-a-community-in-the-grips-of-a-serial-killer)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_Fast Company Design Co. III_](https://www.fastcompany.com/90230234/the-retail-apocalypse-in-pictures)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_Wired I_](https://www.wired.com/tag/jesse-rieser/)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_Wired II_](https://www.wired.com/story/photo-gallery-retail-apocalypse/)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_MSNBC_](http://www.msnbc.com/msnbc/when-fall-came-early)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
   margin_x: ''
 header_col_1: "### ADVERTISING\n\n### COMMISSIONS\n\nAudrie Poole  \nSunday Afternoon
   \ \n343 Canal Street, 5th Floor  \nNew York, NY  \n[516 263 7335](tel:+15162637335
