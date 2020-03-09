@@ -158,18 +158,42 @@ page_sections:
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    content: "**2011**  \n_PDN Photography Annual_  \nBest Personal Work Series:  \n_Christmas
+      In America: Happy Birthday, Jesus_"
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    content: "**2011**  \n_AP 27: American Photography Annual 27_  \nBest Personal
+      Work Series:  \n_Christmas In America: Happy Birthday, Jesus_"
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    content: "**2011**  \n_AP 27: American Photography Annual 27_  \nBest Editorial
+      Series:  \n_Sex Church_"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2011**  \nCenter's Review Santa Fe 100  \n_The Class of 99 Turns 30_"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2011**  \n_The 10 Most Exciting Photographers This Year_  \nPhoenix
+      Art Museum  \n_ICP Curator Rebecca Senf Ph.D. & Mary Virginia Swanso_n"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2010**  \n_AP 26: American Photography Annual 26_  \nBest Personal
+      Work Series:  \n_The Class of 99 Turns 30_"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2008**  \n_PDN Photo Annual_  \nBest Advertising Work:  \nPhoenix
+      Children's Hospital for Santy"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2008**  \n_PDN Photo Annual_  \nBest Personal Work:  \n_Spaceman &
+      Baby_"
     icon: ''
     url: ''
   margin_x: ''
