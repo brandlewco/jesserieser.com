@@ -339,28 +339,23 @@ page_sections:
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    content: "[_Feature Shoot I_](http://www.featureshoot.com/2015/12/happy-birthday-jesus-bittersweet-photos-take-a-raw-honest-look-at-christmastime/)"
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    content: _Feature Shoot II_
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    content: _Rangefinder Magazine_
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    content: _Resource Magazine_
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    content: "[_A Photo Editor_](https://aphotoeditor.com/2019/09/13/the-best-work-i-saw-at-photolucida-part-5/?fbclid=IwAR31utip0SP2c9bmRTVjtasF-qMTtffi_P0Sg1wrYRJRC3aFvuC84PkHy6U&utm_campaign=later-linkinbio-jesserieser&utm_content=later-3853091&utm_medium=social&utm_source=instagram)"
     icon: ''
     url: ''
   margin_x: ''
