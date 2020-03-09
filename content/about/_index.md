@@ -154,8 +154,8 @@ page_sections:
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2011**  \n_Art Director’s Club Young Guns 9  \n_Top International
-      Creative 30 & Under"
+    content: "**2011**  \nArt Director’s Club Young Guns 9  \nTop International Creative
+      30 & Under"
     icon: ''
     url: ''
   - template: popup-text-element
@@ -179,7 +179,7 @@ page_sections:
     url: ''
   - template: popup-text-element
     content: "**2011**  \n_The 10 Most Exciting Photographers This Year_  \nPhoenix
-      Art Museum  \n_ICP Curator Rebecca Senf Ph.D. & Mary Virginia Swanso_n"
+      Art Museum  \nCCP Curator Rebecca Senf Ph.D. & Mary Virginia Swanso_n"
     icon: ''
     url: ''
   - template: popup-text-element
