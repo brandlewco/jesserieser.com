@@ -179,7 +179,7 @@ page_sections:
     url: ''
   - template: popup-text-element
     content: "**2011**  \n_The 10 Most Exciting Photographers This Year_  \nPhoenix
-      Art Museum  \nCCP Curator Rebecca Senf Ph.D. & Mary Virginia Swanso_n"
+      Art Museum  \nCCP Curator Rebecca Senf Ph.D. & Mary Virginia Swanson"
     icon: ''
     url: ''
   - template: popup-text-element
