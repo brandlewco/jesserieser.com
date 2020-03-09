@@ -20,10 +20,10 @@ template = "popup-text-element"
 content = "**2018**  \n_PDN Photo Annual_   \nBest Personal Work Series"
 template = "popup-text-element"
 [[collection_exhibition]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+content = "**2019 - 2020**  \nPhotoville The Fence: \n\nBrooklyn Bridge Park. Brooklyn, NY.  \nSanta Fe Railyard Park. Santa Fe, NM.  \nLoDo District. Denver, CO.  \nAtlanta Beltline. Atlanta, GA."
 template = "popup-text-element"
 [[collection_exhibition]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+content = "**2019**  \nStandard Vision LA at LA Live   \nLos Angeles, CA (Solo Show) "
 template = "popup-text-element"
 [[collection_layout_builder]]
 align_x = "start"
