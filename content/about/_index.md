@@ -266,6 +266,57 @@ page_sections:
     content: "[_BOOOOOOOM 64 x 64: Best of 2018_](https://www.booooooom.com/2018/12/31/fav-photos-found-in-2018-64-photos-by-64-photographers/)"
     icon: ''
     url: ''
+  - template: popup-text-element
+    content: "[_Ignant_](https://www.ignant.com/2018/08/28/the-retail-apocalypse-by-jesse-rieser/)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_Hyperallergic_](http://hyperallergic.com/263876/merry-kitschmas-a-photographer-documents-christmas-in-suburban-america/)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_Musee Magazine_](http://museemagazine.com/features/2017/12/15/christmas-in-america-happy-birthday-jesus-by-jesse-rieser)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: _Society Magazine (France)_
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: _Wings Magazine (Germany)_
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: _Geo Magazine (Germany)_
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: _Chaeg (South Korea)_
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: _Blkswn (Japan)_
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: _Amtrak the National_
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
   margin_x: ''
 header_col_1: "### ADVERTISING\n\n### COMMISSIONS\n\nAudrie Poole  \nSunday Afternoon
   \ \n343 Canal Street, 5th Floor  \nNew York, NY  \n[516 263 7335](tel:+15162637335
