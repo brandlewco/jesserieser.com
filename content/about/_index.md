@@ -447,6 +447,70 @@ page_sections:
     content: "[_Duncan Miller Gallery II_](http://us5.campaign-archive2.com/?u=5a6e385eed959142044dc8096&id=d5d52114de)"
     icon: ''
     url: ''
+  - template: popup-text-element
+    content: "[_Lenscratch I_](http://lenscratch.com/2011/12/jesse-rieser-3/)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_Lenscratch II_](http://lenscratch.com/2011/06/jesse-rieser-2/)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_Lenscratch III_](http://lenscratch.com/2012/08/jesse-rieser/)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_Lenscratch IV_](http://lenscratch.com/2018/06/jesse-reiser/)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_Don't Take Pictures I_](http://www.donttakepictures.com/photo-of-the-day/2018/6/20/jesse-rieser)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_Don't Take Pictures II_](http://www.donttakepictures.com/photo-of-the-day/2018/12/25/jesse-rieser)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: _Nacione_
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_Muuuz Architecture & Design Magazine_](https://www.muuuz.com/magazine/rubriques/arts/49392-jesse-rieser-the-changing-landscape-of-american-retail.html)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_Archinect_](https://archinect.com/features/article/150117527/in-focus-jesse-rieser-and-his-2d-facsimile-to-architecture)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_Mache_](https://www.mache.digital/series/2017/12/15/christmas-in-america)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_Mache II_](https://www.mache.digital/features/2017/12/15/jesse-rieser)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_Plain Magazine_](https://plainmagazine.com/jesse-rieser-changing-american-retail/)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: _Finite Photo_
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_The Oregonian_](http://www.oregonlive.com/art/index.ssf/2011/12/review_christmas_in_america_by.html)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: _University North Carolina at Charlotte Photography Journal_
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: _JAVA Magazine_
+    icon: ''
+    url: ''
   margin_x: ''
 header_col_1: "### ADVERTISING\n\n### COMMISSIONS\n\nAudrie Poole  \nSunday Afternoon
   \ \n343 Canal Street, 5th Floor  \nNew York, NY  \n[516 263 7335](tel:+15162637335
