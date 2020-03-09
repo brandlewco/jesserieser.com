@@ -1328,6 +1328,26 @@ icon = ""
 template = "popup-text-element"
 url = ""
 [[collection_press]]
+content = "[_Los Angeles Confidential_](http://la-confidential-magazine.com/the-latest/pursuits/postings/la-photographer-jesse-rieser-christmas-in-america-happy-birthday-jesus)"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_press]]
+content = "[_The Magazine Santa Fe_](https://themagsantafe.com/jesse-rieser-portfolio/)"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_press]]
+content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_press]]
+content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_press]]
 content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
 icon = ""
 template = "popup-text-element"
