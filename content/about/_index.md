@@ -139,13 +139,13 @@ page_sections:
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    content: "**2012**  \nMagenta Foundation Flash Forward Winner  \nTop Emerging
+      Fine Art Photographer In North America and U.K. Under 34"
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    content: "**2012**  \nPhotolucida Critical Mass Finalist  \n_Starting Over: Will
+      Move For Work_"
     icon: ''
     url: ''
   margin_x: ''
