@@ -25,6 +25,12 @@ template = "popup-text-element"
 [[collection_exhibition]]
 content = "**2019**  \nStandard Vision LA at LA Live   \nLos Angeles, CA (Solo Show) "
 template = "popup-text-element"
+[[collection_exhibition]]
+content = "**2019**  \nCamera Work Gallery  \nPortland, OR (Solo Show)"
+template = "popup-text-element"
+[[collection_exhibition]]
+content = "**2018**  \n_Chaos Theory 18_  \nLegend City Gallery. Phoenix, AZ (Group Show) "
+template = "popup-text-element"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
