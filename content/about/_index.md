@@ -131,8 +131,47 @@ page_sections:
   color: "#FE9A8E"
   modal_block:
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
+    content: "[_The New York Times Lens Blog_](https://lens.blogs.nytimes.com/2015/12/24/christmas-in-america-over-the-top-close-to-the-heart/?_r=1)"
+    url: ''
+    icon: ''
+  - template: popup-text-element
+    content: "[_National Geographic_](https://www.nationalgeographic.com/culture/2018/12/christmas-holidays-decorations-photos/)"
+    url: ''
+    icon: ''
+  - template: popup-text-element
+    content: "[_The Washington Post_](https://www.washingtonpost.com/photography/2019/11/22/photographing-retail-apocalypse/?utm_campaign=later-linkinbio-jesserieser&utm_content=later-4242812&utm_medium=social&utm_source=instagram)"
+    url: ''
+    icon: ''
+  - template: popup-text-element
+    content: "[_Time Magazine_](https://www.instagram.com/p/BdJnG0phEYV/?taken-by=time)"
+    url: ''
+    icon: ''
+  - template: popup-text-element
+    content: "[_Buzzfeed I_](https://www.buzzfeed.com/gabrielsanchez/incredible-photo-stories-you-absolutely-cant-miss-mar-3?utm_term=.leYqRXGzBr#.itQ6oNpDeb)"
+    url: ''
+    icon: ''
+  - template: popup-text-element
+    content: "[_Buzzfeed II_](https://www.buzzfeed.com/gabrielsanchez/this-is-how-americans-celebrate-christmas?utm_term=.yrA6rOyYD#.gjMJvBdkz)"
+    url: ''
+    icon: ''
+  - template: popup-text-element
+    content: "[_BuzzFeed III_](https://www.buzzfeednews.com/article/gabrielsanchez/football-highschool-nfl-season-america-sports-players-team)"
+    url: ''
+    icon: ''
+  - template: popup-text-element
+    content: "[_NPR Radio Interview I_](https://kjzz.org/content/708344/changing-face-retail-through-camera-lens)"
+    url: ''
+    icon: ''
+  - template: popup-text-element
+    content: "[_NPR Radio Interview II_](https://theshow.kjzz.org/content/740710/photographer-jesse-rieser-documenting-christmas-america)"
+    url: ''
+    icon: ''
+  - template: popup-text-element
+    content: "[_NPR Picture Show_](http://www.npr.org/blogs/pictureshow/2011/12/23/144069529/magic-or-mania-christmas-in-america)"
+    url: ''
+    icon: ''
+  - template: popup-text-element
+    content: "[_Architectural Digest_](https://www.architecturaldigest.com/story/jesse-rieser-retail-apocalypse)"
     url: ''
     icon: ''
   - template: popup-text-element
@@ -142,54 +181,59 @@ page_sections:
     icon: ''
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
-    url: ''
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
     icon: ''
+    url: ''
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
-    url: ''
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
     icon: ''
+    url: ''
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
-    url: ''
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
     icon: ''
+    url: ''
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
-    url: ''
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
     icon: ''
+    url: ''
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
-    url: ''
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
     icon: ''
+    url: ''
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
-    url: ''
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
     icon: ''
+    url: ''
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
-    url: ''
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
     icon: ''
+    url: ''
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
-    url: ''
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
     icon: ''
+    url: ''
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
-    url: ''
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
     icon: ''
+    url: ''
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
-    url: ''
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
     icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
   margin_x: ''
 header_col_1: "### ADVERTISING\n\n### COMMISSIONS\n\nAudrie Poole  \nSunday Afternoon
   \ \n343 Canal Street, 5th Floor  \nNew York, NY  \n[516 263 7335](tel:+15162637335
@@ -202,7 +246,7 @@ header_col_2: "### EXHIBITION, EDITORIAL,\n\n### SYNDICATION INQUIRIES\n\nJesse 
 header_col_3: "### STOCK\n\nGallery Stock  \nNew York  \n[212 219 7520](tel:+12122197520
   \"212 219 7520\")  \n[newyork@gallerystock.com](mailto:newyork@gallerystock.com
   \"newyork@gallerystock.com\")\n\nParis  \nMunich  \nSydney"
-row_alignment: left
+row_alignment: ''
 
 ---
 ## Click the collections link above to preview collections.
