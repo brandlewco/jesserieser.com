@@ -187,13 +187,13 @@ page_sections:
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2008**  \n_PDN Photo Annual_  \nBest Advertising Work:  \nPhoenix
+    content: "**2008**  \n_PDN Photography Annual_  \nBest Advertising Work:  \nPhoenix
       Children's Hospital for Santy"
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2008**  \n_PDN Photo Annual_  \nBest Personal Work:  \n_Spaceman &
-      Baby_"
+    content: "**2008**  \n_PDN Photography Annual_  \nBest Personal Work:  \n_Spaceman
+      & Baby_"
     icon: ''
     url: ''
   margin_x: ''
