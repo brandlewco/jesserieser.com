@@ -17,7 +17,7 @@ title = "The Changing Landscape of American Retail"
 content = "**2018**  \nPhotolucida Critical Mass  \nTop 50 International Project "
 template = "popup-text-element"
 [[collection_awards]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+content = "**2018**  \n_PDN Photo Annual_   \nBest Personal Work Series"
 template = "popup-text-element"
 [[collection_exhibition]]
 content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
