@@ -51,13 +51,13 @@ page_sections:
   color: "#949494"
   modal_block:
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"A Dystopian Legoland That Tastes Like Candy\""
+    content: "**2019**  \n_AP 35: American Photography Annual 35_  \nBest Personal
+      Work Series:  \n_A Dystopian Legoland That Tastes Like Candy_"
     url: ''
     icon: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
+    content: "**2019**  \n_Photolucida Critical Mass Finalist_  \n_A Vanishing American
+      Folklore_"
     url: ''
     icon: ''
   - template: popup-text-element
