@@ -148,6 +148,30 @@ page_sections:
       Move For Work_"
     icon: ''
     url: ''
+  - template: popup-text-element
+    content: "**2012**  \n_PDN 30_ Finalist"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2011**  \n_Art Director’s Club Young Guns 9  \n_Top International
+      Creative 30 & Under"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
   margin_x: ''
 - template: block-modal-list
   block: modal-list
