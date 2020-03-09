@@ -56,7 +56,7 @@ page_sections:
     url: ''
     icon: ''
   - template: popup-text-element
-    content: "**2019**  \nPhotolucida Critical Mass Finalist  \n_A Vanishing American
+    content: "**2019**  \nPhotolucida Critical Mass   \nFinalist  \n_A Vanishing American
       Folklore_"
     url: ''
     icon: ''
