@@ -120,23 +120,22 @@ page_sections:
     url: ''
     icon: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    content: "**2014**  \n_AP 30: American Photography Annual 30_  \nBest Personal
+      Work Series:  \n_When Fall Came Early_"
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    content: "**2014 + 2013**  \n_Luezer’s Archive_  \n200 Best Ad Photographers Worldwide"
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    content: "**2013**  \n_Photolucida Critical Mass Winner  \n_Top 50 International
+      Project  \n_The Wallow Fire_"
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    content: "**2012**  \n_Communications Arts Photography Annual_  \nBest Self Promotional
+      Series:  \n_Christmas In America: Happy Birthday, Jesus_"
     icon: ''
     url: ''
   - template: popup-text-element
