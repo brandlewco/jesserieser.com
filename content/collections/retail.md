@@ -20,13 +20,13 @@ template = "popup-text-element"
 content = "**2018**  \n_PDN Photo Annual_   \nBest Personal Work Series"
 template = "popup-text-element"
 [[collection_exhibition]]
-content = "**2019 - 2020**  \nPhotoville The Fence:\n\nBrooklyn Bridge Park. Brooklyn, NY.  \nSanta Fe Railyard Park. Santa Fe, NM.  \nLoDo District. Denver, CO.  \nAtlanta Beltline. Atlanta, GA."
+content = "**2019 - 2020**  \n_Photoville The Fence:_\n\nBrooklyn Bridge Park. Brooklyn, NY.  \nSanta Fe Railyard Park. Santa Fe, NM.  \nLoDo District. Denver, CO.  \nAtlanta Beltline. Atlanta, GA."
 template = "popup-text-element"
 [[collection_exhibition]]
-content = "**2019**  \nStandard Vision LA at LA Live   \nLos Angeles, CA (Solo Show) "
+content = "**2019**  \n_Standard Vision LA at LA Live_  \nLos Angeles, CA (Solo Show)"
 template = "popup-text-element"
 [[collection_exhibition]]
-content = "**2019**  \nCamera Work Gallery  \nPortland, OR (Solo Show)"
+content = "**2019**  \n_Camera Work Gallery_  \nPortland, OR (Solo Show)"
 template = "popup-text-element"
 [[collection_exhibition]]
 content = "**2018**  \n_Chaos Theory 18_  \nLegend City Gallery. Phoenix, AZ (Group Show) "
