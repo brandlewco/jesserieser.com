@@ -193,7 +193,7 @@ page_sections:
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2008**  \n_PDN Photography Annual_  \nBest Personal Work:  \n_Spaceman
+    content: "**2008**  \n_PDN Photography Annual_  \nBest Personal Work Series:  \n_Spaceman
       & Baby_"
     icon: ''
     url: ''
