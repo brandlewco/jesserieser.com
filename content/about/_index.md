@@ -319,6 +319,10 @@ page_sections:
     icon: ''
     url: ''
   - template: popup-text-element
+    content: "[_Fraction Magazine Issue #131_](http://www.fractionmagazine.com/jesse-rieser)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
     content: "[_The Magazine Santa Fe_](https://themagsantafe.com/jesse-rieser-portfolio/)"
     icon: ''
     url: ''
@@ -432,10 +436,6 @@ page_sections:
     url: ''
   - template: popup-text-element
     content: _JAVA Magazine_
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "[_Fraction Magazine Issue #131_](http://www.fractionmagazine.com/jesse-rieser)"
     icon: ''
     url: ''
   margin_x: ''
