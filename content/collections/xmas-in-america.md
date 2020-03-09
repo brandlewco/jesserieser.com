@@ -62,7 +62,27 @@ icon = ""
 template = "popup-text-element"
 url = ""
 [[collection_exhibition]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+content = "**2019**  \n_Phest Photo Festival & National Geographic: See Beyond the Sea_  \nMonopoli, Italy (Solo Show)"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_exhibition]]
+content = "**2018 - 2019**  \n_Mabee-Gerrer Museum of Art_  \nShawnee, OK (Solo Show)"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_exhibition]]
+content = "**2018**  \n_Industry City_  \nBrooklyn, NY (Solo Show)"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_exhibition]]
+content = "**2017 - 2018**  \n_Irving Arts Center a Smithsonian Affiliate_  \nIrving, TX (Solo Show)"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_exhibition]]
+content = "**2017 - 2018**  \n_The Fence_  \nBrooklyn Bridge Park  \nBrooklyn, NY  \n  \nSanta Fe Re Railyard Park  \nSanta Fe, NM  \n  \nLoDo District  \nDenver, CO  \n  \nAtlanta Beltline  \nAtlanta, GA  \n  \nDurham City Hall Plaza  \nDurham, NC  \n  \nSoWa Southie Plaza  \nBoston, MA  \n  \nFourth Ward  \nHouston, TX (Group Show)"
 icon = ""
 template = "popup-text-element"
 url = ""
