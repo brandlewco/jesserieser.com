@@ -175,10 +175,53 @@ page_sections:
     url: ''
     icon: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
+    content: "[_Fast Company Design Co. I_](https://www.fastcodesign.com/3054874/exposure/a-heartwarming-look-at-how-americans-celebrate-christmas)"
     url: ''
     icon: ''
+  - template: popup-text-element
+    content: "[_Fast Company Design Co. II_](https://www.fastcodesign.com/90128233/chilling-photos-of-a-community-in-the-grips-of-a-serial-killer)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_Fast Company Design Co. III_](https://www.fastcompany.com/90230234/the-retail-apocalypse-in-pictures)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_Wired I_](https://www.wired.com/tag/jesse-rieser/)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_Wired II_](https://www.wired.com/story/photo-gallery-retail-apocalypse/)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_MSNBC_](http://www.msnbc.com/msnbc/when-fall-came-early)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_Vice_](https://www.vice.com/en_us/article/wjv3m5/50-stellar-photos-of-outer-space?utm_campaign=later-linkinbio-jesserieser&utm_content=later-2819936&utm_medium=social&utm_source=instagram)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: _ESPN Sportscenter_
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_Yahoo!_](https://homes.yahoo.com/news/photog-turns-holiday-decor-glut-thing-beauty-211500813.html)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_The Gaurdian I_](https://www.theguardian.com/artanddesign/2017/dec/26/my-best-winter-photograph)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_The Gaurdian II_](https://www.theguardian.com/artanddesign/2018/sep/19/jesse-rieser-best-photograph-school-football-farewell-phoenix-arizona)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_The Daily Mail UK_](https://www.dailymail.co.uk/news/article-4391718/Stalking-serial-killer.html)"
+    icon: ''
+    url: ''
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
       Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
