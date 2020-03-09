@@ -145,8 +145,8 @@ page_sections:
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2012**  \nPhotolucida Critical Mass Finalist  \n_Starting Over: Will
-      Move For Work_"
+    content: "**2012**  \nPhotolucida Critical Mass   \nFinalist: Top 200 International
+      Project  \n_Starting Over: Will Move For Work_"
     icon: ''
     url: ''
   - template: popup-text-element
