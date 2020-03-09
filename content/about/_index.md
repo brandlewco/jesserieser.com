@@ -9,7 +9,7 @@ collection_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   hendrerit quam dapibus sem porttitor convallis. Integer convallis arcu non lectus
   facilisis dapibus. Aenean commodo magna at laoreet tempor. Phasellus lorem lorem,
   fringilla vitae interdum vel, euismod vitae quam.
-theme_color: "#D5C7BE"
+theme_color: "#BDD0E1"
 navigation_theme: white
 page_sections:
 - template: block-media-text
