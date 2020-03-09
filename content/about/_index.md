@@ -519,8 +519,8 @@ header_col_1: "### Advertising & Editorial\n\n### Commissions\n\nEcho Hopkins  \
 header_col_2: "### Exhibition, Editorial Syndication,\n\n### and Press Inquiries \n\nJesse
   Rieser  \nInstagram [@jesserieser.com](https://www.instagram.com/jesserieser/)  \n[jesse@jesserieser.com](mailto:jesse@jesserieser.com
   \"jesse@jesserieser.com\")  \n[310 985 9818](tel:+13109859818 \"310 985 9818\")
-  \ \n  \nSouthwest Studio  \n124 W. McDowell Rd.  \nPhoenix, AZ 85003\n\nWest Coast
-  Studio  \n1610 W 7th St. #401  \nLos Angeles, CA 90017"
+  \ \n  \n124 W. McDowell Rd.  \nPhoenix, AZ 85003  \n  \n1610 W 7th St. #401  \nLos
+  Angeles, CA 90017"
 header_col_3: "### Stock \n\n### Licensing\n\nGallery Stock  \nNew York  \n[212 219
   7520](tel:+12122197520 \"212 219 7520\")  \n[newyork@gallerystock.com](mailto:newyork@gallerystock.com
   \"newyork@gallerystock.com\")\n\nParis  \nMunich  \nSydney"
