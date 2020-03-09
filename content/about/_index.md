@@ -383,6 +383,51 @@ page_sections:
     content: "[_n by Norwegian_](http://edition.pagesuite.com/html5/reader/production/default.aspx?pubname=&edid=9f5ceea1-4a78-4d7d-b232-d84af31e0cc8&pnum=94)"
     icon: ''
     url: ''
+  - template: popup-text-element
+    content: "[_Dallas Morning News_](https://www.dallasnews.com/arts/visual-arts/2016/12/19/photographer-adds-dallas-weird-wondrous-christmas-america-series)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: _LA Confidential_
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_The Magazine Santa Fe_](https://themagsantafe.com/jesse-rieser-portfolio/)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: _Working Not Working Magazine_
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_PDN Magazine_](https://pdnonline.com/photography-business/photo-clients/advertising/creating-motion-content-short-attention-spans/)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: _PDN Photo of the Day I_
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: _PDN Photo of the Day II_
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: _PDN Photo of the Day III_
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_Feature Shoot I_](http://www.featureshoot.com/2015/12/happy-birthday-jesus-bittersweet-photos-take-a-raw-honest-look-at-christmastime/)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_Feature Shoot II_](http://www.featureshoot.com/2017/03/photographer-stalked-serial-killer/)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
   margin_x: ''
 header_col_1: "### ADVERTISING\n\n### COMMISSIONS\n\nAudrie Poole  \nSunday Afternoon
   \ \n343 Canal Street, 5th Floor  \nNew York, NY  \n[516 263 7335](tel:+15162637335
