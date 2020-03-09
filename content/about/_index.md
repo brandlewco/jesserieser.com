@@ -523,8 +523,8 @@ header_col_2: "### Exhibition, Editorial Syndication,\n\n### and Press Inquiries
   Angeles, CA 90017"
 header_col_3: "### Stock \n\n### Licensing\n\n[Gallery Stock](https://www.gallerystock.com)
   \ \n190 Bowery   \nNew York, NY 10012  \n[212 219 7520](tel:+12122197520 \"212 219
-  7520\")  \n[newyork@gallerystock.com](mailto:newyork@gallerystock.com \"newyork@gallerystock.com\")\n\n[Paris](PARIS@GALLERYSTOCK.COM)
-  \ \n[Munich](MUNICH@GALLERYSTOCK.COM)  \n[Sydney](HELLO@SNAPPERIMAGES.COM)"
+  7520\")  \n[newyork@gallerystock.com](mailto:newyork@gallerystock.com \"newyork@gallerystock.com\")\n\n
+  \ \n[Paris](PARIS@GALLERYSTOCK.COM)  \n[Munich](MUNICH@GALLERYSTOCK.COM)  \n[Sydney](HELLO@SNAPPERIMAGES.COM)"
 row_alignment: ''
 
 ---
