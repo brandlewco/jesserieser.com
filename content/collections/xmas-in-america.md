@@ -1238,7 +1238,92 @@ icon = ""
 template = "popup-text-element"
 url = ""
 [[collection_press]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+content = "[_Esquire Russia_](http://esquire.ru/photo/xmas)"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_press]]
+content = "[_The Gaurdian_](https://www.theguardian.com/artanddesign/2017/dec/26/my-best-winter-photograph)"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_press]]
+content = "[_Refinery29_](http://www.refinery29.com/2015/12/100005/photos-suburbia-christmas-decorations#slide)"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_press]]
+content = "[_Artsy_](https://www.artsy.net/article/artsy-editorial-photographer-jesse-rieser-captures-american-christmas-kitschy-splendor)"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_press]]
+content = "[_It's Nice That_](http://www.itsnicethat.com/articles/jesse-rieser-christmas-in-america)"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_press]]
+content = "[_Cool Hunting_](https://jesserieser.com/projects/christmas-in-america/)"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_press]]
+content = "[_Musee Magazine_](http://museemagazine.com/features/2017/12/15/christmas-in-america-happy-birthday-jesus-by-jesse-rieser)"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_press]]
+content = "[**_BOOOOOOOM_**](https://www.booooooom.com/2017/12/19/christmas-in-america-by-photographer-jesse-rieser/)"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_press]]
+content = "[_BOOOOOOOM 64 x 64: Best of 2017_](https://www.booooooom.com/2017/12/28/a-selection-of-my-favourite-images-found-in-2017-64-photos-by-64-photographers/)"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_press]]
+content = "[_Hyperallergic_](http://hyperallergic.com/263876/merry-kitschmas-a-photographer-documents-christmas-in-suburban-america/)"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_press]]
+content = "[_Yahoo!_](https://homes.yahoo.com/news/photog-turns-holiday-decor-glut-thing-beauty-211500813.html)"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_press]]
+content = "_Society Magazine (France)_"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_press]]
+content = "_Wings Magazine (Germany)_"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_press]]
+content = "_n by Norwegian_"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_press]]
+content = "_Geo Magazine (Germany)_"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_press]]
+content = "_Chaeg (South Korea)_"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_press]]
+content = "_Amtrak the National_"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_press]]
+content = "_Dallas Morning News_"
 icon = ""
 template = "popup-text-element"
 url = ""
