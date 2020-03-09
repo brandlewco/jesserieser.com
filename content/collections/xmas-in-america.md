@@ -87,7 +87,37 @@ icon = ""
 template = "popup-text-element"
 url = ""
 [[collection_exhibition]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+content = "**2017**  \n_Standard Vision L.A. Live_   \nLos Angeles, CA (Solo Show)"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_exhibition]]
+content = "**202**  \nCritical Mass: Love, Anxiety, and Happiness  \nNorthwest Center For Photography.   \nSeattle, WA\n\nNewspace Center For Photography.   \nPortland, OR\n\nRaykko Gallery.   \nSan Franciso, CA (Group Show)"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_exhibition]]
+content = "**2011**  \n_Newspace Center For Photography_  \nPortland, OR. (Solo Show)"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_exhibition]]
+content = "**2011**  \n_Camera Club of New York Gallery_  \nNew York, NY (Group Show)"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_exhibition]]
+content = "**2011**  \n_Saguaro Hotel Gallery_  \nScottsdale, AZ. (Solo Show)"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_exhibition]]
+content = "**2011**  \n_Art Director’s Club Young Guns 9 Exhibition  \n_Art Director’s Club Gallery   \nNew York, NY. (Group Show)"
+icon = ""
+template = "popup-text-element"
+url = ""
+[[collection_exhibition]]
+content = "**2011**  \n_Art of Photography Juried Exhibition  \n_Juried by Ann Lyden, Assoc. Curator of J. Paul Getty Museum, Los Angeles  \nLyceum Theatre Gallery  \nSan Diego, CA (Group Show)"
 icon = ""
 template = "popup-text-element"
 url = ""
