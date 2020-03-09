@@ -150,7 +150,7 @@ page_sections:
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2012**  \n_PDN 30_ Finalist"
+    content: "**2012**  \n_PDN 30_   \nFinalist"
     icon: ''
     url: ''
   - template: popup-text-element
