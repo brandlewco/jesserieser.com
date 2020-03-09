@@ -48,7 +48,7 @@ page_sections:
   margin_y: '50'
   image: https://jesserieser.brandlew.co/uploads/bio-5.jpg
   caption: Awards
-  color: "#949494"
+  color: "#9DC2BE"
   modal_block:
   - template: popup-text-element
     content: "**2019**  \n_AP 35: American Photography Annual 35_  \nBest Personal
