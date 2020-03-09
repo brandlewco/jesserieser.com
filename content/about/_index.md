@@ -515,7 +515,7 @@ page_sections:
 header_col_1: "### Advertising & Editorial\n\n### Commissions\n\nEcho Hopkins  \n[echo@andersonhopkins.com](mailto:echo@andersonhopkins.com)
   \ \n  \nHannah Marchetto   \n[hannah@andersonhopkins.com](mailto:hannah@andersonhopkins.com)\n\n
   \ \n[Anderson Hopkins ](https://www.andersonhopkins.com)  \n70 Lafayette Street,
-  7th Floor  \nNew York, NY 10013  \n212\\.431.5117"
+  7th Floor  \nNew York, NY 10013  \n212 431 5117"
 header_col_2: "### Exhibition, Editorial Syndication,\n\n### and Press Inquiries \n\nJesse
   Rieser  \nInstagram [@jesserieser.com](https://www.instagram.com/jesserieser/)  \n[jesse@jesserieser.com](mailto:jesse@jesserieser.com
   \"jesse@jesserieser.com\")  \n[310 985 9818](tel:+13109859818 \"310 985 9818\")
