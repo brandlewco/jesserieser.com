@@ -154,8 +154,8 @@ page_sections:
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2011**  \nArt Director’s Club Young Guns 9  \nTop International Creative
-      30 & Under"
+    content: "**2011**  \n_Art Director’s Club Young Guns 9_  \nTop International
+      Creative 30 & Under"
     icon: ''
     url: ''
   - template: popup-text-element
