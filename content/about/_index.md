@@ -276,48 +276,39 @@ page_sections:
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    content: "[_Vice_](https://www.vice.com/en_us/article/wjv3m5/50-stellar-photos-of-outer-space?utm_campaign=later-linkinbio-jesserieser&utm_content=later-2819936&utm_medium=social&utm_source=instagram)"
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    content: _ESPN Sportscenter_
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    content: "[_Yahoo!_](https://homes.yahoo.com/news/photog-turns-holiday-decor-glut-thing-beauty-211500813.html)"
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    content: "[_The Gaurdian I_](https://www.theguardian.com/artanddesign/2017/dec/26/my-best-winter-photograph)"
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    content: "[_The Gaurdian II_](https://www.theguardian.com/artanddesign/2018/sep/19/jesse-rieser-best-photograph-school-football-farewell-phoenix-arizona)"
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    content: "[_The Daily Mail UK_](https://www.dailymail.co.uk/news/article-4391718/Stalking-serial-killer.html)"
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    content: "[_New York Magazine: Vulture_](http://www.vulture.com/2008/12/photographer_jesse_rieser.html)"
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    content: "[_Esquire Russia_](http://esquire.ru/photo/xmas)"
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    content: "[_Refinery29_](http://www.refinery29.com/2015/12/100005/photos-suburbia-christmas-decorations#slide)"
     icon: ''
     url: ''
   margin_x: ''
