@@ -1407,25 +1407,5 @@ content = "_The Oregonian (Exhibition Review)_"
 icon = ""
 template = "popup-text-element"
 url = ""
-[[collection_press]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-icon = ""
-template = "popup-text-element"
-url = ""
-[[collection_press]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-icon = ""
-template = "popup-text-element"
-url = ""
-[[collection_press]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-icon = ""
-template = "popup-text-element"
-url = ""
-[[collection_press]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-icon = ""
-template = "popup-text-element"
-url = ""
 
 +++
