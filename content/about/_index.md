@@ -52,7 +52,7 @@ page_sections:
   modal_block:
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
+      Series:  \n\"A Dystopian Legoland That Tastes Like Candy\""
     url: ''
     icon: ''
   - template: popup-text-element
@@ -131,313 +131,65 @@ page_sections:
   color: "#FE9A8E"
   modal_block:
   - template: popup-text-element
-    content: "[_The New York Times Lens Blog_](https://lens.blogs.nytimes.com/2015/12/24/christmas-in-america-over-the-top-close-to-the-heart/?_r=1)"
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
     url: ''
     icon: ''
   - template: popup-text-element
-    content: "[_National Geographic_](https://www.nationalgeographic.com/culture/2018/12/christmas-holidays-decorations-photos/)"
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
     url: ''
     icon: ''
   - template: popup-text-element
-    content: "[_The Washington Post_](https://www.washingtonpost.com/photography/2019/11/22/photographing-retail-apocalypse/?utm_campaign=later-linkinbio-jesserieser&utm_content=later-4242812&utm_medium=social&utm_source=instagram)"
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
     url: ''
     icon: ''
   - template: popup-text-element
-    content: "[_Time Magazine_](https://www.instagram.com/p/BdJnG0phEYV/?taken-by=time)"
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
     url: ''
     icon: ''
   - template: popup-text-element
-    content: "[_Buzzfeed I_](https://www.buzzfeed.com/gabrielsanchez/incredible-photo-stories-you-absolutely-cant-miss-mar-3?utm_term=.leYqRXGzBr#.itQ6oNpDeb)"
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
     url: ''
     icon: ''
   - template: popup-text-element
-    content: "[_Buzzfeed II_](https://www.buzzfeed.com/gabrielsanchez/this-is-how-americans-celebrate-christmas?utm_term=.yrA6rOyYD#.gjMJvBdkz)"
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
     url: ''
     icon: ''
   - template: popup-text-element
-    content: "[_BuzzFeed III_](https://www.buzzfeednews.com/article/gabrielsanchez/football-highschool-nfl-season-america-sports-players-team)"
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
     url: ''
     icon: ''
   - template: popup-text-element
-    content: "[_NPR Radio Interview I_](https://kjzz.org/content/708344/changing-face-retail-through-camera-lens)"
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
     url: ''
     icon: ''
   - template: popup-text-element
-    content: "[_NPR Radio Interview II_](https://theshow.kjzz.org/content/740710/photographer-jesse-rieser-documenting-christmas-america)"
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
     url: ''
     icon: ''
   - template: popup-text-element
-    content: "[_NPR Picture Show_](http://www.npr.org/blogs/pictureshow/2011/12/23/144069529/magic-or-mania-christmas-in-america)"
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
     url: ''
     icon: ''
   - template: popup-text-element
-    content: "[_Architectural Digest_](https://www.architecturaldigest.com/story/jesse-rieser-retail-apocalypse)"
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
     url: ''
     icon: ''
   - template: popup-text-element
-    content: "[_Fast Company Design Co. I_](https://www.fastcodesign.com/3054874/exposure/a-heartwarming-look-at-how-americans-celebrate-christmas)"
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenialign_x: A Dystopian Legoland That Tastes Like Candy\""
     url: ''
     icon: ''
-  - template: popup-text-element
-    content: "[_Fast Company Design Co. II_](https://www.fastcodesign.com/90128233/chilling-photos-of-a-community-in-the-grips-of-a-serial-killer)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "[_Fast Company Design Co. III_](https://www.fastcompany.com/90230234/the-retail-apocalypse-in-pictures)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "[_Wired I_](https://www.wired.com/tag/jesse-rieser/)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "[_Wired II_](https://www.wired.com/story/photo-gallery-retail-apocalypse/)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "[_MSNBC_](http://www.msnbc.com/msnbc/when-fall-came-early)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "[_Vice_](https://www.vice.com/en_us/article/wjv3m5/50-stellar-photos-of-outer-space?utm_campaign=later-linkinbio-jesserieser&utm_content=later-2819936&utm_medium=social&utm_source=instagram)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: _ESPN Sportscenter_
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "[_Yahoo!_](https://homes.yahoo.com/news/photog-turns-holiday-decor-glut-thing-beauty-211500813.html)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "[_The Gaurdian I_](https://www.theguardian.com/artanddesign/2017/dec/26/my-best-winter-photograph)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "[_The Gaurdian II_](https://www.theguardian.com/artanddesign/2018/sep/19/jesse-rieser-best-photograph-school-football-farewell-phoenix-arizona)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "[_The Daily Mail UK_](https://www.dailymail.co.uk/news/article-4391718/Stalking-serial-killer.html)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: _Esquire Russia_
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "[_Refinery29_](http://www.refinery29.com/2015/12/100005/photos-suburbia-christmas-decorations#slide)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "[_It's Nice That_](http://www.itsnicethat.com/articles/jesse-rieser-christmas-in-america)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "[_Cool Hunting_](https://coolhunting.com/culture/photographer-jesse-rieser-christmas/)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "[_Business Insider_](https://www.businessinsider.com/retail-apocalypse-american-landscape-jesse-rieser-photos-2018-12)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "[_Artsy_](https://www.artsy.net/article/artsy-editorial-photographer-jesse-rieser-captures-american-christmas-kitschy-splendor)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "[_BOOOOOOOM I_](https://www.booooooom.com/2017/12/19/christmas-in-america-by-photographer-jesse-rieser/)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "[_BOOOOOOOM II_](https://www.booooooom.com/2018/09/20/photographer-spotlight-jesse-rieser/)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "[**_BOOOOOOOM III_**](https://www.booooooom.com/2020/02/11/the-star-geezers-by-photographer-jesse-rieser/)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "[_BOOOOOOOM 64 x 64: Best of 2017_](https://www.booooooom.com/2017/12/28/a-selection-of-my-favourite-images-found-in-2017-64-photos-by-64-photographers/)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "[_BOOOOOOOM 64 x 64: Best of 2018_](https://www.booooooom.com/2018/12/31/fav-photos-found-in-2018-64-photos-by-64-photographers/)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "[_Ignant_](https://www.ignant.com/2018/08/28/the-retail-apocalypse-by-jesse-rieser/)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "[_Hyperallergic_](http://hyperallergic.com/263876/merry-kitschmas-a-photographer-documents-christmas-in-suburban-america/)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "[_Musee Magazine_](http://museemagazine.com/features/2017/12/15/christmas-in-america-happy-birthday-jesus-by-jesse-rieser)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: _Society Magazine (France)_
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: _Wings Magazine (Germany)_
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: _Geo Magazine (Germany)_
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: _Chaeg (South Korea)_
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: _Blkswn (Japan)_
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: _Amtrak the National_
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "[_n by Norwegian_](http://edition.pagesuite.com/html5/reader/production/default.aspx?pubname=&edid=9f5ceea1-4a78-4d7d-b232-d84af31e0cc8&pnum=94)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: _Dallas Morning News_
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: _PDN Photo of the Day II_
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: _LA Confidential_
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "[_Fraction Magazine Issue #131_](http://www.fractionmagazine.com/jesse-rieser)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "[_The Magazine Santa Fe_](https://themagsantafe.com/jesse-rieser-portfolio/)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: _Working Not Working Magazine_
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "[_PDN Magazine_](https://pdnonline.com/photography-business/photo-clients/advertising/creating-motion-content-short-attention-spans/)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: _PDN Photo of the Day I_
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "[_The Oregonian_](http://www.oregonlive.com/art/index.ssf/2011/12/review_christmas_in_america_by.html)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: _PDN Photo of the Day III_
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "[_Feature Shoot I_](http://www.featureshoot.com/2015/12/happy-birthday-jesus-bittersweet-photos-take-a-raw-honest-look-at-christmastime/)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: _Feature Shoot II_
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: _Rangefinder Magazine_
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: _Resource Magazine_
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "[_A Photo Editor_](https://aphotoeditor.com/2019/09/13/the-best-work-i-saw-at-photolucida-part-5/?fbclid=IwAR31utip0SP2c9bmRTVjtasF-qMTtffi_P0Sg1wrYRJRC3aFvuC84PkHy6U&utm_campaign=later-linkinbio-jesserieser&utm_content=later-3853091&utm_medium=social&utm_source=instagram)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "[_No Plastic Sleeves_](http://blog.noplasticsleeves.com/its-spring-time-to-renew-your-portfolio-design/)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "[_Duncan Miller Gallery I_](http://us5.campaign-archive2.com/?u=5a6e385eed959142044dc8096&id=8b4ec157ee)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "[_Duncan Miller Gallery II_](http://us5.campaign-archive2.com/?u=5a6e385eed959142044dc8096&id=d5d52114de)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "[_Lenscratch I_](http://lenscratch.com/2011/12/jesse-rieser-3/)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "[_Lenscratch II_](http://lenscratch.com/2011/06/jesse-rieser-2/)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "[_Lenscratch III_](http://lenscratch.com/2012/08/jesse-rieser/)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "[_Lenscratch IV_](http://lenscratch.com/2018/06/jesse-reiser/)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "[_Don't Take Pictures I_](http://www.donttakepictures.com/photo-of-the-day/2018/6/20/jesse-rieser)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "[_Don't Take Pictures II_](http://www.donttakepictures.com/photo-of-the-day/2018/12/25/jesse-rieser)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: _Nacione_
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "[_Muuuz Architecture & Design Magazine_](https://www.muuuz.com/magazine/rubriques/arts/49392-jesse-rieser-the-changing-landscape-of-american-retail.html)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "[_Archinect_](https://archinect.com/features/article/150117527/in-focus-jesse-rieser-and-his-2d-facsimile-to-architecture)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "[_Mache_](https://www.mache.digital/series/2017/12/15/christmas-in-america)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "[_Mache II_](https://www.mache.digital/features/2017/12/15/jesse-rieser)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "[_Plain Magazine_](https://plainmagazine.com/jesse-rieser-changing-american-retail/)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: _Finite Photo_
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: _University North Carolina at Charlotte Photography Journal_
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: _JAVA Magazine_
-    icon: ''
-    url: ''
   margin_x: ''
 header_col_1: "### ADVERTISING\n\n### COMMISSIONS\n\nAudrie Poole  \nSunday Afternoon
   \ \n343 Canal Street, 5th Floor  \nNew York, NY  \n[516 263 7335](tel:+15162637335
