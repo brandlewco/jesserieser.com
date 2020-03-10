@@ -512,6 +512,26 @@ page_sections:
     icon: ''
     url: ''
   margin_x: ''
+- template: block-media-text
+  block: media-text
+  text_tracking: widest
+  width: '40'
+  align_y: center
+  margin_y: '50'
+  margin_left: 20%
+  margin_right: 0%
+  background_color: "#50E3C2"
+  text: "“I’ve worked with tons of photographers that can’t make something great out
+    of nothing. You made gold from a blank canvas. Thank you.”\n\n\\- Devin Gillespie
+    Creative Director, Wieden+Kennedy Portland\n\n“This shoot would have honestly
+    never gotten off the ground if it wasn’t for everything you have done.” Kate Moore
+    Senior Art Producer, Anomaly New York\n\n  \n  \n“You are incapable of taking
+    a normal picture.” - Jen Lamping\n\nLead Print Producer RPA Los Angeles"
+  parallax: true
+  text_size: base
+  background_image_toggle: false
+  image: ''
+  text_color: ''
 header_col_1: "### Advertising & Editorial\n\n### Commissions\n\nEcho Hopkins  \n[echo@andersonhopkins.com](mailto:echo@andersonhopkins.com)
   \ \n  \nHannah Marchetto   \n[hannah@andersonhopkins.com](mailto:hannah@andersonhopkins.com)\n\n
   \ \n[Anderson Hopkins ](https://www.andersonhopkins.com)  \n70 Lafayette Street,
