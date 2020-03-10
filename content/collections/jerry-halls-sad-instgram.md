@@ -6,7 +6,7 @@ collection_cover = "https://jesserieser.brandlew.co/uploads/jerry-2.jpg"
 collection_description = "A new personal project that comments on the perception of power and social media by juxtaposing notable famous people from the past."
 collection_exhibition = []
 collection_filter = "Personal"
-collection_meta = "Sad Instagram"
+collection_meta = "A Preview of a Works in Progress"
 collection_press = []
 cover_image = ""
 date = ""
@@ -14,7 +14,7 @@ layout = "blocks"
 logo = ""
 navigation_theme = "white"
 theme_color = "#DACBB9"
-title = "Jerry Hall's"
+title = "Jerry Hall's Sad Instagram"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
