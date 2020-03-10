@@ -34,7 +34,7 @@ page_sections:
     with clients. I can see their vision through my own eyes.\n\nSome call it empathy.
     Some call it charm. My mom just says I’m a nice young man."
   parallax: true
-  background_color: "#FFFFFF"
+  background_color: "#FFF6AD"
   text_color: "#000000"
   background_image_toggle: true
   image: https://jesserieser.brandlew.co/uploads/bio-4.jpg
