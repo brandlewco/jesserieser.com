@@ -52,19 +52,19 @@ html.is-animating.is-leaving .transition-nav {
 header img {
   mask-image: url("/r-mask.svg");
   mask-repeat: no-repeat;
-  mask-position: center 50%;
+  mask-position: center 40%;
   mask-size: 25% auto;
 }
  
 header img.lazyloaded {
-  animation-name: r-simple;
-  animation-duration: 1s;
-  animation-iteration-count: 1;
-  animation-timing-function: cubic-bezier(1, 0, 0.81, 0.58);
-  animation-fill-mode: forwards;
-  transform-origin: center;
-  opacity: 1;
-  animation-delay: 2s;
+  animation-name: r-drop, r-expand;
+  animation-duration: 1s, 1s;
+  animation-iteration-count: 1, 1;
+  animation-timing-function: cubic-bezier(1, 0, 0.81, 0.58), cubic-bezier(1, 0, 0.81, 0.58);
+  animation-fill-mode: forwards, forwards;
+  transform-origin: center, center;
+  opacity: 1, 1;
+  animation-delay: 0ms, 2s;
 } 
 
 header img.lazyload + #header-overlay, header img.lazyloading + #header-overlay {
@@ -79,8 +79,17 @@ header img.lazyloaded + #header-overlay + #header-loading {
   opacity: 0;
 }
 
+@keyframes r-drop {
+  0% {
+    mask-position: center 40%;
+  }
+  100% {
+    mask-position: center 50%;
+  }
+}
 
-@keyframes r-simple {
+
+@keyframes r-expand {
   0% {
   }
   99% {
@@ -156,14 +165,6 @@ header img.lazyloaded {
 
 img[data-sizes="auto"] { display: block; width: 100%; }
 
-@keyframes r-expand {
-  0% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(50);
-  }
-}
 
 img {
   transition: 0.33s opacity cubic-bezier(0.55, 0.055, 0.675, 0.19);
