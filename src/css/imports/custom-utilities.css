@@ -44,44 +44,77 @@ html.is-animating.is-leaving .transition-nav {
   }
 }
 
-header {
-  /* will-change: transform;
-  transform: translate3d(0,0,0); */
-}
+/* header {
+   will-change: transform;
+  transform: translate3d(0,0,0);
+} */
 
-header svg #mask svg {
-  will-change: transform;
-  transform: translate3d(0,0,0);
-  display: block;
+header img {
+  mask-image: url("/r-mask.svg");
+  mask-repeat: no-repeat;
+  mask-position: center 50%;
+  mask-size: 25% auto;
 }
-header svg #mask rect {
-  will-change: transform;
-  transform: translate3d(0,0,0);
+ 
+header img.lazyloaded {
+  animation-name: r-simple;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(1, 0, 0.81, 0.58);
+  animation-fill-mode: forwards;
+  transform-origin: center;
+  opacity: 1;
+  animation-delay: 2s;
+} 
+
+header img.lazyload + #header-overlay, header img.lazyloading + #header-overlay {
   opacity: 1;
 }
-header svg #mask path {
-  will-change: transform;
-  transform: translateX(50%) translateX(-150px) translateY(50%)
-    translateY(-270px);
+
+header img.lazyloaded + #header-overlay {
   opacity: 0;
-  transition: transform 1s ease-in-out 0.2s, opacity 1s ease-in-out 0.2s;
+}
+
+header img.lazyloaded + #header-overlay + #header-loading {
+  opacity: 0;
+}
+
+
+@keyframes r-simple {
+  0% {
+  }
+  99% {
+    mask-size: 1000% auto;
+  }
+  100% {
+    mask-size: 5000% auto;
+  }
+}
+
+/* header img + svg #mask svg {
+  will-change: transform;
+  display: block;
+}
+header img + svg #mask rect {
+  will-change: transform;
+  opacity: 1;
+}
+header img + svg #mask path {
+  will-change: opacity;
+  transform-box:fill-box;
+  transform: translateX(50%) translateX(-150px) translateY(50%)
+    translateY(-170px);
+  opacity: 0;
+  transition: opacity 1s ease-in-out 0.2s;
 }
 header img.lazyloaded + svg #mask path {
   transform: translateX(50%) translateX(-150px) translateY(50%)
-    translateY(-170px);
+  translateY(-170px);
   opacity: 1;
 }
 
-#header-loading {
-  will-change: opacity;
-  transition: opacity 1s linear;
-}
 
-header img.lazyloaded + svg + #header-loading {
-  opacity: 0;
-}
-
-header svg rect.cover {
+header img + svg rect.cover {
   will-change: opactiy;
   transition: 1s opacity ease-in-out;
   transition-delay: 3s;
@@ -91,14 +124,14 @@ header svg rect.cover {
 
 header img.lazyloaded + svg rect.cover {
   opacity: 0;
-  /* animation-name: r-expand;
+  animation-name: r-expand;
   animation-duration: 0.66s;
   animation-iteration-count: 1;
   animation-timing-function: cubic-bezier(1, 0, 0.81, 0.58);
   animation-fill-mode: forwards;
   transform-origin: center;
-  animation-delay: 2s; */
-}
+  animation-delay: 2s;
+} */
 
 header img {
   transition: opacity 0.33s ease-in-out;
@@ -111,11 +144,6 @@ header img.lazyloaded {
   opacity: 1;
 }
 
-
-#header-overlay {
-  background-color: #fff;
-  opacity: 0;
-}
 
 #loading-overlay {
   will-change: opactiy;

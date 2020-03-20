@@ -1,0 +1,17 @@
+<header id="project-header" class="w-full h-screen lazyload flex flex-col items-center overflow-hidden relative" style="background-color: {{.Params.home_theme_color}};">
+    <img data-srcset="{{.Params.feature_cover }}?nf_resize=fit&w=1024 1024w, {{.Params.feature_cover }}?nf_resize=fit&w=1920 1920w, {{.Params.feature_cover }}?nf_resize=fit&w=2560 2560w, {{.Params.feature_cover }}"
+		 data-sizes="auto"
+		 class="lazyload z-10 bg-center max-w-full h-full object-cover"
+		 data-parent-fit="cover"/>
+    <div id="header-overlay" class="flex flex-col justify-end absolute w-full h-screen inset-auto z-40" style="background-color: {{.Params.home_theme_color}};"></div>
+    <div id="header-loading" class="text-center font-semibold absolute inset-x-0 bottom-0 z-50 text-4xl">
+    <i class="fas fa-spinner-third fa-spin text-{{.Params.navigation_theme}}"></i>
+    </div>
+    <div class="absolute bottom-0 mx-0 text-6xl font-light text-{{.Params.navigation_theme}} z-10">&#8964;</div>
+    <!-- <div id="loading-overlay" class="absolute w-full h-screen inset-auto z-10" style="background-color: {{.Params.home_theme_color}};"></div> -->
+</header>
+<article id="project-description" class="w-full py-8 px-8 xl:px-16 text-xl text-{{.Params.navigation_theme}} items-center text-justify leading-loose"  style="background-color: {{.Params.home_theme_color}};">
+    <div class="flex flex-col justify-center mx-auto" data-sal="slide-up" data-sal-delay="300">
+            {{ .Params.feature_description | markdownify }}
+    </div>
+</article>

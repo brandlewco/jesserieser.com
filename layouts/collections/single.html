@@ -5,7 +5,7 @@
     {{else}}
     <section data-hue="{{with .Params.navigation_theme}}{{.}}{{end}}">
     {{end}}
-    {{ partial "collection_header" .}}
+    {{ partial "collection_header-clip" .}}
     </section>
     <!-- archive check -->
     {{if (eq .Params.collection_archive true) }}
