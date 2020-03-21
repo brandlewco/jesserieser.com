@@ -292,15 +292,18 @@ function init() {
         //   }
         // });
         gallery.listen("afterChange", function() {
+          console.log("afterscroll");
           Element.prototype.documentOffsetTop = function() {
             return this.offsetTop + (this.offsetParent ? this.offsetParent.documentOffsetTop() : 0);
           };
           window.topPos = document.getElementById(gallery.currItem.el.id).documentOffsetTop() - (window.innerHeight / 2);
-          window.scrollTo({
-            top: topPos,
-            left: 0,
-            behavior: "smooth"
-          });
+          setTimeout(() => {
+            window.scrollTo({
+              top: topPos,
+              left: 0,
+              behavior: "smooth"
+            });
+          }, 1000);
           // document.getElementById(gallery.currItem.el.id).scrollIntoView({behavior: "smooth", block: "nearest", inline: "start"});
         });
         gallery.listen("close", function() {
@@ -452,28 +455,29 @@ function init() {
   // Scroll Animations
   let scrollPos = 0;
   // Show Hide Header
-  if (document.body.contains(projectHeader)) {
-    navigation.classList.add("mt-0");
-    navigation.classList.remove("mt-neg");
-  }
+  // if (document.body.contains(projectHeader)) {
+  //   navigation.style.transform = "translate3d(0, 0, 0)";
+  // }
   window.onscroll = function() {
     document.documentElement.style.setProperty("--scroll-y", `${window.scrollY}px`);
     var headerOverlay = document.getElementById("header-overlay");
+    var featureOverlay = document.getElementById("feature-overlay");
     var pageTitle = document.getElementById("page-title");
     var height = window.innerHeight;
     var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
     if (headerOverlay) {
       headerOverlay.style.opacity = value_limit((scrollTop / (height * 0.5)), 0, 1).toFixed(2);
     }
+    if (featureOverlay) {
+      featureOverlay.style.opacity = value_limit((scrollTop / (height * 0.9)), 0, 1).toFixed(2);
+    }
     const windowY = window.scrollY;
     if (document.body.contains(projectHeader)) {
       if (windowY > (window.innerHeight * 0.75)) {
         if (windowY < scrollPos) {
-          navigation.classList.add("mt-0");
-          navigation.classList.remove("mt-neg");
+          navigation.style.transform = "translate3d(0, 0, 0)";
         } else {
-          navigation.classList.add("mt-neg");
-          navigation.classList.remove("mt-0");
+          navigation.style.transform = "translate3d(0, -200%, 0)";
         }
       }
     }

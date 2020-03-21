@@ -12,7 +12,7 @@
   transition-duration: 0.3s;
 }
 [data-sal][data-sal-duration="350"] {
-  transition-duration: 0.35s;
+  transition-duration: 0
 }
 [data-sal][data-sal-duration="400"] {
   transition-duration: 0.4s;

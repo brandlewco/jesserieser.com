@@ -67,15 +67,19 @@ header img.lazyloaded {
   animation-delay: 0ms, 2s;
 } 
 
-header img.lazyload + #header-overlay, header img.lazyloading + #header-overlay {
+#header-overlay, #feature-overlay {
+  will-change: opacity;
+}
+
+header img.lazyload + #header-overlay, header img.lazyloading + #header-overlay, header img.lazyload + #feature-overlay, header img.lazyloading + #feature-overlay  {
   opacity: 1;
 }
 
-header img.lazyloaded + #header-overlay {
+header img.lazyloaded + #header-overlay,  header img.lazyloaded + #feature-overlay{
   opacity: 0;
 }
 
-header img.lazyloaded + #header-overlay + #header-loading {
+header img.lazyloaded + #header-overlay + #header-loading, header img.lazyloaded + #feature-overlay + #header-loading  {
   opacity: 0;
 }
 
@@ -157,6 +161,10 @@ header img.lazyloaded {
 #loading-overlay {
   will-change: opactiy;
   transition: opacity 0.33s ease-in-out 0.1s;
+}
+
+#project-header {
+  will-change: margin;
 }
 
 #project-header img.lazyloaded #loading-overlay {
@@ -396,6 +404,10 @@ figure:hover img {
   .vh-screen {
     height: 100vh;
   }
+}
+
+.rellax {
+  will-change: transform;
 }
 
 @media only screen and (max-width: 760px) {

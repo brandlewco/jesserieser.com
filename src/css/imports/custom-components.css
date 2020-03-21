@@ -59,6 +59,10 @@ body.page-collections #menu #nav-collections {
   }
 }
 
+.hue-header {
+  will-change: transform;
+}
+
 .hue-header h1, .hue-header button {
   transition: 0.33s all ease-in-out;
 }
