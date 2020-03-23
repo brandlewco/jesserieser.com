@@ -143,6 +143,11 @@ fields:
   config:
     min: 
     max: 
+- name: collection_preview
+  type: image_gallery
+  config: {}
+  label: Collection Preview
+  description: Preview images used on all work page
 pages:
 - content/collections/addidas.md
 - content/collections/xmas-in-america.md
