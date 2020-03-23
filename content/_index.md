@@ -107,7 +107,7 @@ page_sections:
   title_margin_left: "-45%"
   title_margin_right: ''
   meta_align: ''
-home_theme_color: "#B99E8E"
+home_theme_color: "#EDDDDE"
 collection_description: ''
 collection_content: ''
 cover_image: ''
