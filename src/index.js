@@ -86,6 +86,7 @@ function init() {
 
   // PhotoSwipe
   if (document.querySelector("#gallery")) {
+    const figureIMG = document.querySelectorAll(".figure img");
     var initPhotoSwipeFromDOM = function(gallerySelector) {
       // parse slide data (url, title, size ...) from DOM elements
       // (children of gallerySelector)
@@ -147,6 +148,7 @@ function init() {
       // triggers when user clicks on thumbnail
       var onThumbnailsClick = function(e) {
         navigation.classList.add("opacity-0");
+        // scrollAnimations.disable();
         e = e || window.event;
         e.preventDefault ? e.preventDefault() : e.returnValue = false;
 
@@ -292,7 +294,8 @@ function init() {
         //   }
         // });
         gallery.listen("afterChange", function() {
-          console.log("afterscroll");
+        });
+        gallery.listen("afterChange", function() {
           Element.prototype.documentOffsetTop = function() {
             return this.offsetTop + (this.offsetParent ? this.offsetParent.documentOffsetTop() : 0);
           };
@@ -303,7 +306,7 @@ function init() {
               left: 0,
               behavior: "smooth"
             });
-          }, 1000);
+          }, 100);
           // document.getElementById(gallery.currItem.el.id).scrollIntoView({behavior: "smooth", block: "nearest", inline: "start"});
         });
         gallery.listen("close", function() {
@@ -313,6 +316,7 @@ function init() {
             behavior: "smooth"
           });
           navigation.classList.remove("opacity-0");
+          // scrollAnimations.enable();
         });
         gallery.init();
       };

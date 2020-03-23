@@ -11,14 +11,14 @@
   </button>
 </section>
 
-<div class="popup-modal fixed z-50 text-white overflow-hidden" style="background: {{ .Section.color }};" data-inner-popup-modal="{{.Section.caption | lower}}">
+<div class="popup-modal fixed z-50 text-white overflow-hidden h-full w-full inset-0" style="background: {{ .Section.color }};" data-inner-popup-modal="{{.Section.caption | lower}}">
   <header class="flex flex-row justify-between p-4">
     <div class="text-xl uppercase font-medium">{{ .Section.caption }}</div>
     <div>
       <svg class="icon pointer h-8 w-8 m-4 absolute top-0 right-0 text-white popup-modal__close"><use xlink:href="#close"></use></svg>
     </div>
   </header>
-  <section class="flex flex-wrap pa-2 w-100 overflow-y-scroll" style="height: calc(100vh - 40%);">
+  <section class="flex flex-wrap pa-2 w-100 overflow-y-scroll">
     {{- range .Section.modal_block -}}
       <article class="w-1/2 sm:w-1/3 px-4 py-8">
         {{ .content | markdownify }}

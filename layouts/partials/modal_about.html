@@ -1,6 +1,6 @@
 {{ with .Site.GetPage "about" }}
-<div class="popup-modal fixed z-100 text-black bg-white overflow-y-scroll" data-popup-modal="modal-about" style="height: calc(100vh - 20%);">
-  <div class="popup-modal__close h-8 w-8 m-4 fixed cursor-pointer z-50" style="top: calc(10% + 0.5rem); right: calc(10% + 0.5rem);">
+<div class="popup-modal fixed z-100 text-black bg-white overflow-y-scroll h-full w-full inset-0" data-popup-modal="modal-about">
+  <div class="popup-modal__close h-8 w-8 m-4 fixed cursor-pointer z-50 top-0 right-0">
       <svg class="icon h-8 w-8 text-black"><use xlink:href="#close"></use></svg>
   </div>
   <header id="modal-header" class="w-full lazyload flex flex-col items-center overflow-hidden relative" style="background-color: {{.Params.theme_color}}; height: calc(100vh - 45%);">
@@ -8,9 +8,6 @@
 		 data-sizes="auto"
 		 class="lazyload z-10 bg-center max-w-full h-full object-cover"
 		 data-parent-fit="cover"/>
-    <!-- <div id="header-loading" class="text-center font-semibold fixed inset-x-0 bottom-0 z-50 text-4xl">
-        <i class="fad fa-spinner-third fa-spin text-{{.Params.navigation_theme}}"></i>
-    </div> -->
     <div id="about-title" class="absolute inset-auto h-full z-50 margin-0 uppercase px-4 sm:px-0 font-light tracking-wide text-{{.Params.navigation_theme}} text-center lazyload" data-sal="slide-down">
         <h1 class="uppercase text-4xl sm:text-6xl font-light tracking-loose text-center relative" style="top: 40%">{{.Title}}</h1>
     </div>
