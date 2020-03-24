@@ -5,6 +5,7 @@ collection_cover = "https://jesserieser.brandlew.co/uploads/serial-6.jpg"
 collection_description = "Published during the 2016 election for French magazine _Society’s_ “America” issue. The photo essay depicts the Latino neighborhood plagued by “The Serial Street Shooter” while serving as a metaphor for issues in American policy and politics: a lack of immigration reform, racial inequity, a shrinking middle class, community policing dysfunction, a lack of mental healthcare and quotidian gun violence.\n\nWinner in the _2017 American Photography Annual: AP 33,_ featured by _Buzzfeed, Fast Company, Feature Shoot, The Daily Mail,_ and exhibited at the Houston Center of Photography."
 collection_filter = "Commissioned + Stock"
 collection_meta = "Stalking A Serial Killer"
+collection_preview = ["https://jesserieser.brandlew.co/uploads/serial-6.jpg", "https://jesserieser.brandlew.co/uploads/serial-12.jpg", "https://jesserieser.brandlew.co/uploads/serial-3.jpg", "https://jesserieser.brandlew.co/uploads/serial-33.jpg"]
 cover_image = ""
 date = ""
 layout = "blocks"
