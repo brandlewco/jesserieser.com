@@ -480,6 +480,10 @@ figure:hover img {
    margin-right: 0 !important;
  }
 
+ header img {
+  mask-size: 50% auto;
+}
+
  .rellax-off {
   transform: translate3d(0px, 0px, 0px) !important;
  }
