@@ -8,6 +8,7 @@ collection_description = "A decade in the making, _Christmas In America_ is an u
 collection_filter = "Personal"
 collection_hidden = false
 collection_meta = "2010 -  2019"
+collection_preview = ["https://jesserieser.brandlew.co/uploads/christmas-40.jpg", "https://jesserieser.brandlew.co/uploads/christmas-51.jpg", "https://jesserieser.brandlew.co/uploads/christmas-39.jpg", "https://jesserieser.brandlew.co/uploads/christmas-19.jpg"]
 cover_image = ""
 date = ""
 layout = "blocks"
