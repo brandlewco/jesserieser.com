@@ -7,6 +7,7 @@ collection_description = "Like many of my works, I am interested in the artifact
 collection_filter = "Personal"
 collection_meta = "Preview of a Work in Progress"
 collection_press = []
+collection_preview = ["https://jesserieser.brandlew.co/uploads/studios-3.jpg", "https://jesserieser.brandlew.co/uploads/studios-4.jpg", "https://jesserieser.brandlew.co/uploads/studios-7.jpg", "https://jesserieser.brandlew.co/uploads/studios-1.jpg"]
 cover_image = ""
 date = ""
 layout = "blocks"
