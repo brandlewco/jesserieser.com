@@ -7,6 +7,7 @@ collection_description = "This personal project explores my nostalgia and love f
 collection_exhibition = []
 collection_filter = "Personal"
 collection_meta = "2016"
+collection_preview = ["https://jesserieser.brandlew.co/uploads/autobiography-19.jpg", "https://jesserieser.brandlew.co/uploads/autobiography-25.jpg", "https://jesserieser.brandlew.co/uploads/autobiography-43.jpg", "https://jesserieser.brandlew.co/uploads/autobiography-29.jpg"]
 cover_image = ""
 date = ""
 layout = "blocks"
