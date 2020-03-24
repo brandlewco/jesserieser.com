@@ -8,6 +8,7 @@ collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_meta = "Curt Mattson Unbridled Spirit"
 collection_press = []
+collection_preview = ["https://jesserieser.brandlew.co/uploads/spirit-1.jpg", "https://jesserieser.brandlew.co/uploads/spirit-5.jpg", "https://jesserieser.brandlew.co/uploads/spirit-2.jpg", "https://jesserieser.brandlew.co/uploads/spirit-8.jpg"]
 cover_image = ""
 date = ""
 layout = "blocks"
