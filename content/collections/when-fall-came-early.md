@@ -7,6 +7,7 @@ collection_description = "This is a study of how climate change is altering the 
 collection_exhibition = []
 collection_filter = "Personal"
 collection_meta = "The Drought Along the Arkansas River Basin"
+collection_preview = ["https://jesserieser.brandlew.co/uploads/fall-5.jpg", "https://jesserieser.brandlew.co/uploads/fall-7.jpg", "https://jesserieser.brandlew.co/uploads/fall-3.jpg", "https://jesserieser.brandlew.co/uploads/fall-4.jpg"]
 cover_image = ""
 date = ""
 layout = "blocks"
