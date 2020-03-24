@@ -9,6 +9,7 @@ collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_meta = "The Cage"
 collection_press = []
+collection_preview = ["https://jesserieser.brandlew.co/uploads/kennygraham-17.jpg", "https://jesserieser.brandlew.co/uploads/kennygraham-4.jpg", "https://jesserieser.brandlew.co/uploads/kennygraham-14.jpg", "https://jesserieser.brandlew.co/uploads/kennygraham-18.jpg"]
 cover_image = ""
 date = ""
 layout = "blocks"
