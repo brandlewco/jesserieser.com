@@ -6,6 +6,7 @@ collection_cover = "https://jesserieser.brandlew.co/uploads/rieser_phx-HI-4.jpg"
 collection_description = "A selection of images from my new works consisting of colorful, constructed, fictional, and surreal suburban vignettes.\n\nRecognized as a 2-time winner in the **_AP 35: American Photography Annual 2019_**_._"
 collection_filter = "Personal"
 collection_meta = "2018 - 2019"
+collection_preview = ["https://jesserieser.brandlew.co/uploads/rieser_phx-HI-3.jpg", "https://jesserieser.brandlew.co/uploads/rieser_phx-HI-15.jpg", "https://jesserieser.brandlew.co/uploads/rieser_phx-HI-17.jpg", "https://jesserieser.brandlew.co/uploads/rieser_phx-HI-1.jpg"]
 cover_image = ""
 date = ""
 layout = "blocks"
