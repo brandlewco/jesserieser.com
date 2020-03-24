@@ -8,6 +8,7 @@ collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_meta = "The Vaccine Battlegrounds"
 collection_press = []
+collection_preview = ["https://jesserieser.brandlew.co/uploads/antivaxx-12.jpg", "https://jesserieser.brandlew.co/uploads/antivaxx-14.jpg", "https://jesserieser.brandlew.co/uploads/antivaxx-5.jpg", "https://jesserieser.brandlew.co/uploads/antivaxx-8.jpg"]
 cover_image = ""
 date = ""
 layout = "blocks"
