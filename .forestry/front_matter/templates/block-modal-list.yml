@@ -3,7 +3,7 @@ label: "\U0001F53C List Popup"
 hide_body: true
 display_field: caption
 fields:
-- name: block-list
+- name: block
   type: text
   config:
     required: false
