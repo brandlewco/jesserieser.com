@@ -8,6 +8,7 @@ collection_description = "This is a story about “Sky Village,” an astronomy 
 collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_meta = "The Star Geezers"
+collection_preview = ["https://jesserieser.brandlew.co/uploads/stargeezers-14.jpg", "https://jesserieser.brandlew.co/uploads/stargeezers-7.jpg", "https://jesserieser.brandlew.co/uploads/stargeezers-4.jpg", "https://jesserieser.brandlew.co/uploads/stargeezers-18.jpg"]
 cover_image = ""
 date = ""
 layout = "blocks"
