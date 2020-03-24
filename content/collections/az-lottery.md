@@ -8,6 +8,7 @@ collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_meta = "Welcome Back Willie / OH Partners"
 collection_press = []
+collection_preview = ["https://jesserieser.brandlew.co/uploads/azlottery-6.jpg", "https://jesserieser.brandlew.co/uploads/azlottery-1.jpg", "https://jesserieser.brandlew.co/uploads/azlottery-3.jpg", "https://jesserieser.brandlew.co/uploads/azlottery-4.jpg"]
 cover_image = ""
 date = ""
 layout = "blocks"
