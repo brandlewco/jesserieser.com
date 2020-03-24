@@ -11,6 +11,7 @@ collection_filter = "Commissioned + Stock"
 collection_hidden = false
 collection_meta = "Crazy Explosive Primeknit"
 collection_press = []
+collection_preview = ["https://jesserieser.brandlew.co/uploads/primeknit-3.jpg", "https://jesserieser.brandlew.co/uploads/primeknit-5.jpg", "https://jesserieser.brandlew.co/uploads/primeknit-7.jpg", "https://jesserieser.brandlew.co/uploads/primeknit-6.jpg"]
 cover_image = "https://jesserieser.brandlew.co/uploads/primeknit-10.jpg"
 date = 2019-05-01T07:00:00Z
 layout = "blocks"
