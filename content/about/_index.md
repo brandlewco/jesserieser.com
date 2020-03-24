@@ -197,7 +197,7 @@ page_sections:
       & Baby_"
     icon: ''
     url: ''
-  margin_x: ''
+  margin_x: 5%
   block-list: ''
 - template: block-modal-list
   block: modal-list
@@ -512,7 +512,7 @@ page_sections:
     content: _JAVA Magazine_
     icon: ''
     url: ''
-  margin_x: ''
+  margin_x: 5%
   block-list: ''
 - template: block-media-text
   block: media-text
@@ -597,8 +597,8 @@ page_sections:
       Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
     icon: ''
     url: ''
-  margin_x: ''
-  margin_y: ''
+  margin_x: 5%
+  margin_y: '50'
 header_col_1: "### Advertising & Editorial\n\n### Commissions\n\nEcho Hopkins  \n[echo@andersonhopkins.com](mailto:echo@andersonhopkins.com)
   \ \n  \nHannah Marchetto   \n[hannah@andersonhopkins.com](mailto:hannah@andersonhopkins.com)\n\n
   \ \n[Anderson Hopkins ](https://www.andersonhopkins.com)  \n70 Lafayette Street,
