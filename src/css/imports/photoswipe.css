@@ -61,17 +61,17 @@
   cursor: -moz-grabbing;
   cursor: grabbing;
 }
-/* 
-.pswp__container {
+
+.pswp__container, .pswp__item {
   will-change: transform;
-  transition: transform 333ms cubic-bezier(0.4, 0, 0.22, 1);
-} */
+}
 
 /*
 	Background is added as a separate element.
 	As animating opacity is much faster than animating rgba() background-color.
 */
 .pswp__bg {
+  will-change: transform;
   position: absolute;
   left: 0;
   top: 0;
@@ -161,10 +161,12 @@
 }
 
 .pswp__img {
+  will-change: opacity;
   position: absolute;
   width: auto;
   top: 0;
   left: 0;
+  transition: opacity 0.2s linear;
 }
 /* added */
 /* .pswp__img {

@@ -233,8 +233,8 @@ function init() {
           history: false,
           bgOpacity: 0.85,
           closeOnScroll: false,
-          closeOnVerticalDrag: true,
-          preload: [3, 4],
+          closeOnVerticalDrag: false,
+          preload: [2, 3],
           loadingIndicatorDelay: 100,
           getThumbBoundsFn: function(index) {
             // See Options -> getThumbBoundsFn section of documentation for more info
@@ -294,22 +294,19 @@ function init() {
         //   }
         // });
         gallery.listen("afterChange", function() {
-        });
-        gallery.listen("afterChange", function() {
           Element.prototype.documentOffsetTop = function() {
             return this.offsetTop + (this.offsetParent ? this.offsetParent.documentOffsetTop() : 0);
           };
-          window.topPos = document.getElementById(gallery.currItem.el.id).documentOffsetTop() - (window.innerHeight / 2);
-          setTimeout(() => {
-            window.scrollTo({
-              top: topPos,
-              left: 0,
-              behavior: "smooth"
-            });
-          }, 100);
+          var topPos = document.getElementById(gallery.currItem.el.id).documentOffsetTop() - (window.innerHeight / 2);
+          window.scrollTo({
+            top: topPos,
+            left: 0,
+            behavior: "smooth"
+          });
           // document.getElementById(gallery.currItem.el.id).scrollIntoView({behavior: "smooth", block: "nearest", inline: "start"});
         });
         gallery.listen("close", function() {
+          var topPos = document.getElementById(gallery.currItem.el.id).documentOffsetTop() - (window.innerHeight / 2);
           window.scrollTo({
             top: topPos,
             left: 0,
@@ -364,7 +361,7 @@ function init() {
     const popupModal = document.querySelector(`[data-popup-modal="${popupTrigger}"]`);
     trigger.addEventListener("click", () => {
       navigation.classList.add("opacity-0");
-      scrollLock();
+      // scrollLock();
       // document.body.style.overflowY = "hidden";
       popupModal.classList.add("is--visible");
       bodyPopup.classList.add("is-poped-out");
@@ -373,7 +370,7 @@ function init() {
       });
     });
     popupModal.querySelector(".popup-modal__close").addEventListener("click", () => {
-      scrollUnlock();
+      // scrollUnlock();
       navigation.classList.remove("opacity-0");
       // document.body.style.overflowY = "auto";
       popupModal.classList.remove("is--visible");
@@ -381,7 +378,7 @@ function init() {
     });
 
     bodyPopup.addEventListener("click", () => {
-      scrollUnlock();
+      // scrollUnlock();
       navigation.classList.remove("opacity-0");
       // document.body.style.overflowY = "auto";
       popupModal.classList.remove("is--visible");
@@ -436,21 +433,21 @@ function init() {
   });
 
   // SCROLL FUNCTION
-  const scrollLock = () => {
-    // document.getElementById("dialog").classList.add("show");
-    const scrollY = document.documentElement.style.getPropertyValue("--scroll-y");
-    const body = document.body;
-    body.style.position = "fixed";
-    body.style.top = `-${scrollY}`;
-  };
-  const scrollUnlock = () => {
-    const body = document.body;
-    const scrollY = body.style.top;
-    body.style.position = "";
-    body.style.top = "";
-    window.scrollTo(0, parseInt(scrollY || "0") * -1);
-    // document.getElementById("dialog").classList.remove("show");
-  };
+  // const scrollLock = () => {
+  //   // document.getElementById("dialog").classList.add("show");
+  //   const scrollY = document.documentElement.style.getPropertyValue("--scroll-y");
+  //   const body = document.body;
+  //   body.style.position = "fixed";
+  //   body.style.top = `-${scrollY}`;
+  // };
+  // const scrollUnlock = () => {
+  //   const body = document.body;
+  //   const scrollY = body.style.top;
+  //   body.style.position = "";
+  //   body.style.top = "";
+  //   window.scrollTo(0, parseInt(scrollY || "0") * -1);
+  //   // document.getElementById("dialog").classList.remove("show");
+  // };
   function value_limit(val, min, max) {
     return val < min ? min : (val > max ? max : val);
   }
@@ -463,7 +460,7 @@ function init() {
   //   navigation.style.transform = "translate3d(0, 0, 0)";
   // }
   window.onscroll = function() {
-    document.documentElement.style.setProperty("--scroll-y", `${window.scrollY}px`);
+    // document.documentElement.style.setProperty("--scroll-y", `${window.scrollY}px`);
     var headerOverlay = document.getElementById("header-overlay");
     var featureOverlay = document.getElementById("feature-overlay");
     var pageTitle = document.getElementById("page-title");

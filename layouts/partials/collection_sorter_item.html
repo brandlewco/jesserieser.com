@@ -1,8 +1,24 @@
 <figure class="filter-item p-2 h-auto sm:w-1/4 w-full overflow-hidden {{range .Params.collection_category}}{{. | replaceRE "[\\W]" "" | lower}} {{end}}{{with .Params.collection_filter}}{{. | replaceRE "[\\W]" "" | lower}}{{end}} all active" data-theme="{{.Params.theme_color}}" data-filter="{{range .Params.collection_category}}{{. | replaceRE "[\\W]" "" | lower}},{{end}}">
     <a href="{{.Permalink}}">
-        <div style="background-color:{{.Params.theme_color}};">
-        <img src="{{.Params.collection_cover}}?nf_resize=smartcrop&w=400&h=300" alt="{{.Title}}"/>
+        <!-- <div class="collection-preview" style="background-color:{{.Params.theme_color}};">
+            {{range .Params.collection_preview}}
+                <img src="{{.}}?nf_resize=smartcrop&w=400&h=300"/>
+            {{else}}
+            <img src="{{.Params.collection_cover}}?nf_resize=smartcrop&w=400&h=300" alt="{{.Title}}"/>
+            {{end}}
+        </div> -->
+        {{if .Params.collection_preview }}
+        <div class="collection-preview relative" style="height: 300px; width: 400px; background-color:{{.Params.theme_color}};">
+        {{else}}
+        <div style="height: 300px; width: 400px; background-color:{{.Params.theme_color}};">
+        {{end}}
+            {{range first 4 .Params.collection_preview}}
+            <img src="{{.}}?nf_resize=smartcrop&w=400&h=300"/>
+            {{else}}
+            <img src="{{.Params.collection_cover}}?nf_resize=smartcrop&w=400&h=300" height="300" alt="{{.Title}}"/>
+            {{end}}
         </div>
+        
         {{ if eq .Params.collection_archive true }}
         <figcaption class="text-white text-md uppercase">
         {{else}}
