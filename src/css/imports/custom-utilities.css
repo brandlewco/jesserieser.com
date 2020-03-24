@@ -60,7 +60,7 @@ header img.lazyloaded {
   animation-name: r-drop, r-expand;
   animation-duration: 1s, 1s;
   animation-iteration-count: 1, 1;
-  animation-timing-function: cubic-bezier(1, 0, 0.81, 0.58), cubic-bezier(1, 0, 0.81, 0.58);
+  animation-timing-function: ease-out, ease-in;
   animation-fill-mode: forwards, forwards;
   transform-origin: center, center;
   opacity: 1, 1;
