@@ -6,6 +6,7 @@ collection_cover = "https://jesserieser.brandlew.co/uploads/timeGC-5.jpg"
 collection_description = "“_As Grand Canyon National Park Turns 100, Its’ Chief Ranger Plans for the Next Century_.” A nod to Teddy Roosevelt’s legacy of conservation, these works pay homage to American Romanticism as I photograph head ranger Mathew Vandzura in the historic Kolb House and South Rim."
 collection_filter = "Commissioned + Stock"
 collection_meta = "Grand Canyon 100th Anniversary "
+collection_preview = ["https://jesserieser.brandlew.co/uploads/timeGC-9.jpg", "https://jesserieser.brandlew.co/uploads/timeGC-5.jpg", "https://jesserieser.brandlew.co/uploads/timeGC-15.jpg", "https://jesserieser.brandlew.co/uploads/timeGC-4.jpg", "https://jesserieser.brandlew.co/uploads/timeGC-8.jpg"]
 cover_image = ""
 date = ""
 layout = "blocks"
