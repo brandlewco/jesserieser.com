@@ -6,6 +6,7 @@ collection_cover = "https://jesserieser.brandlew.co/uploads/bitmain-27.jpg"
 collection_description = "These works are a portrait of Rockdale, Texas a community on life support, the closed Alcoa plant (their one-time financial lifeline), and the players working to bring the world’s largest bitcoin mining facility to a community desperately needing good news. Bitmain promised to create between 400 and 600 jobs. New industry would replace the old. \n\nInstead, Milam County and other communities have learned a real-life lesson about the elusive promise of virtual currency with only 30 new jobs created."
 collection_filter = "Commissioned + Stock"
 collection_meta = "The Hard-Luck Texas Town That Bet on Bitcoin and Lost"
+collection_preview = ["https://jesserieser.brandlew.co/uploads/bitmain-29.jpg", "https://jesserieser.brandlew.co/uploads/bitmain-7.jpg", "https://jesserieser.brandlew.co/uploads/bitmain-3.jpg", "https://jesserieser.brandlew.co/uploads/bitmain-11.jpg", "https://jesserieser.brandlew.co/uploads/bitmain-24.jpg"]
 cover_image = ""
 date = 2019-06-18T07:00:00Z
 layout = "blocks"
