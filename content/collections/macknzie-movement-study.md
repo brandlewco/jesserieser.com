@@ -8,6 +8,7 @@ collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_meta = "Movement Study"
 collection_press = []
+collection_preview = ["https://jesserieser.brandlew.co/uploads/mackenzie-5.jpg", "https://jesserieser.brandlew.co/uploads/mackenzie-4.jpg", "https://jesserieser.brandlew.co/uploads/mackenzie-1.jpg", "https://jesserieser.brandlew.co/uploads/mackenzie-3.jpg"]
 cover_image = ""
 date = ""
 layout = "blocks"
