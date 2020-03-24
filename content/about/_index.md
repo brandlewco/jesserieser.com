@@ -198,6 +198,7 @@ page_sections:
     icon: ''
     url: ''
   margin_x: ''
+  block-list: ''
 - template: block-modal-list
   block: modal-list
   width: '66'
@@ -512,6 +513,7 @@ page_sections:
     icon: ''
     url: ''
   margin_x: ''
+  block-list: ''
 - template: block-media-text
   block: media-text
   text_tracking: widest
@@ -532,36 +534,6 @@ page_sections:
   background_image_toggle: false
   image: ''
   text_color: ''
-- template: block-modal-list
-  block: modal-list
-  width: '50'
-  align_x: start
-  image: https://jesserieser.brandlew.co/uploads/antivaxx-11.jpg
-  caption: exhibitions
-  modal_block:
-  - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-    icon: ''
-    url: ''
-  color: ''
-  margin_x: ''
-  margin_y: ''
 header_col_1: "### Advertising & Editorial\n\n### Commissions\n\nEcho Hopkins  \n[echo@andersonhopkins.com](mailto:echo@andersonhopkins.com)
   \ \n  \nHannah Marchetto   \n[hannah@andersonhopkins.com](mailto:hannah@andersonhopkins.com)\n\n
   \ \n[Anderson Hopkins ](https://www.andersonhopkins.com)  \n70 Lafayette Street,
