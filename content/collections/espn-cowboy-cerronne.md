@@ -8,6 +8,7 @@ collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_meta = "UFC 246: The Painful Stories Behind Donald “Cowbody” Cerrone’s Injuries"
 collection_press = []
+collection_preview = ["https://jesserieser.brandlew.co/uploads/cowboy-16.jpg", "https://jesserieser.brandlew.co/uploads/cowboy-11.jpg", "https://jesserieser.brandlew.co/uploads/cowboy-10.jpg", "https://jesserieser.brandlew.co/uploads/cowboy-6.jpg"]
 cover_image = ""
 date = ""
 layout = "blocks"
