@@ -8,6 +8,7 @@ collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_meta = "Ted Turner Is On A Mission To Save Everything"
 collection_press = []
+collection_preview = ["https://jesserieser.brandlew.co/uploads/ttx-22.jpg", "https://jesserieser.brandlew.co/uploads/ttx-4.jpg", "https://jesserieser.brandlew.co/uploads/ttx-12.jpg", "https://jesserieser.brandlew.co/uploads/ttx-6.jpg"]
 cover_image = ""
 date = 2019-08-01T07:00:00Z
 layout = "blocks"
