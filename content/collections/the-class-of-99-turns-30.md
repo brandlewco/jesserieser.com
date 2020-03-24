@@ -6,6 +6,7 @@ collection_cover = "https://jesserieser.brandlew.co/uploads/co99-6.jpg"
 collection_description = "Captured while visiting my hometown for my 10-year high school reunion. This series investigates what has been gained or lost while entering adulthood during the great recession. Like all generations, we struggle to define ourselves as parents, citizens, family members and spouses. We work to create meaningful lives; we work to understand what “meaningful” looks like.\n\nWinner of the _American Photography Annual: AP 26._"
 collection_filter = "Personal"
 collection_meta = "2009"
+collection_preview = ["https://jesserieser.brandlew.co/uploads/co99-17.jpg", "https://jesserieser.brandlew.co/uploads/co99-5.jpg", "https://jesserieser.brandlew.co/uploads/co99-10.jpg", "https://jesserieser.brandlew.co/uploads/co99-1.jpg"]
 cover_image = ""
 date = ""
 layout = "blocks"
