@@ -562,6 +562,41 @@ page_sections:
   color: ''
   margin_x: ''
   margin_y: ''
+- template: block-modal-list
+  block: modal
+  width: '50'
+  align_x: start
+  caption: TESTING
+  image: https://jesserieser.brandlew.co/uploads/cowboy-14.jpg
+  color: "#000000"
+  modal_block:
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
+  margin_x: ''
+  margin_y: ''
 header_col_1: "### Advertising & Editorial\n\n### Commissions\n\nEcho Hopkins  \n[echo@andersonhopkins.com](mailto:echo@andersonhopkins.com)
   \ \n  \nHannah Marchetto   \n[hannah@andersonhopkins.com](mailto:hannah@andersonhopkins.com)\n\n
   \ \n[Anderson Hopkins ](https://www.andersonhopkins.com)  \n70 Lafayette Street,
