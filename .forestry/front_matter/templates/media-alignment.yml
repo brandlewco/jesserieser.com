@@ -22,6 +22,7 @@ fields:
     - '80'
     - '90'
     - '100'
+    required: true
   label: Media Width
   default: '50'
 - type: select
@@ -33,14 +34,15 @@ fields:
     - start
     - center
     - end
+    required: true
   label: Media Alignment (X)
   description: align left (start) / align center (center) / align right (end)
   default: start
 - name: margin_x
   type: select
-  default: '0'
+  default: 5%
   config:
-    required: false
+    required: true
     options:
     - 5%
     - 10%
@@ -72,9 +74,9 @@ fields:
   description: 0%-100% from the left margin
 - name: margin_y
   type: select
-  default: ''
+  default: '50'
   config:
-    required: false
+    required: true
     options:
     - '50'
     - '100'
