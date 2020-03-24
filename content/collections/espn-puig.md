@@ -8,6 +8,7 @@ collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_meta = "Partying With Puig"
 collection_press = []
+collection_preview = ["https://jesserieser.brandlew.co/uploads/puig-2.jpg", "https://jesserieser.brandlew.co/uploads/puig-6.jpg", "https://jesserieser.brandlew.co/uploads/puig-8.jpg", "https://jesserieser.brandlew.co/uploads/puig-4.jpg"]
 cover_image = ""
 date = ""
 layout = "blocks"
