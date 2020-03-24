@@ -148,7 +148,6 @@ function init() {
       // triggers when user clicks on thumbnail
       var onThumbnailsClick = function(e) {
         navigation.classList.add("opacity-0");
-        // scrollAnimations.disable();
         e = e || window.event;
         e.preventDefault ? e.preventDefault() : e.returnValue = false;
 
@@ -313,7 +312,6 @@ function init() {
             behavior: "smooth"
           });
           navigation.classList.remove("opacity-0");
-          // scrollAnimations.enable();
         });
         gallery.init();
       };
