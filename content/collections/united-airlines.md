@@ -9,6 +9,7 @@ collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_meta = "Sedona "
 collection_press = []
+collection_preview = ["https://jesserieser.brandlew.co/uploads/sedona-2.jpg", "https://jesserieser.brandlew.co/uploads/sedona-3.jpg", "https://jesserieser.brandlew.co/uploads/sedona-4.jpg", "https://jesserieser.brandlew.co/uploads/sedona-8.jpg"]
 cover_image = ""
 date = ""
 layout = "blocks"
