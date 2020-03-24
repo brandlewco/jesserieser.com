@@ -5,6 +5,7 @@ collection_cover = "https://jesserieser.brandlew.co/uploads/backpage-3.jpg"
 collection_description = "I photographed Michael Lacey and Jim Larkin as they await trial for owning and operating the online classified giant Backpage.com. Backpage was the red-light district of the internet or the Google of commercial sex ads. Described as “a platform that dominated its market as thoroughly as Facebook dominated social networking or Amazon did online retail.”\n\nBoth men face life in prison and if found guilty, this sets a scary legal precedent for Silicon Valley. Lawmakers would have finally torn a hole in Section 230 of the Communications Act, holding tech giants such as Twitter and Facebook accountable, no longer immunized from user generated content."
 collection_filter = "Commissioned + Stock"
 collection_meta = "Backpage.com Cover Story"
+collection_preview = ["https://jesserieser.brandlew.co/uploads/stargeezers-7.jpg", "https://jesserieser.brandlew.co/uploads/stargeezers-4.jpg", "https://jesserieser.brandlew.co/uploads/stargeezers-1.jpg", "https://jesserieser.brandlew.co/uploads/stargeezers-25.jpg", "https://jesserieser.brandlew.co/uploads/stargeezers-2.jpg"]
 cover_image = ""
 date = ""
 layout = "blocks"
