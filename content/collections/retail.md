@@ -6,6 +6,7 @@ collection_cover = "https://jesserieser.brandlew.co/uploads/retail-2.jpg"
 collection_description = "Like memories, familiar retail entities are fading away as they stand as modern-day ruins from the not-so-distant past. This work documents the shift from traditional brick-and-mortar locations to the stark and generic structures that house shipping, fulfillment, and server centers essential for e-commerce.\n\nWinner in the 2018 _PDN Photo Annual_ and a _Photolucida_ _Critical Mass_ top 50 international fine art photographic project. Featured on _NPR, The Washington Post, Architectural Digest, Wired, Fast Company,_ and _Business Insider._"
 collection_filter = "Personal"
 collection_meta = "2015 - 2018"
+collection_preview = ["https://jesserieser.brandlew.co/uploads/retail-20.jpg", "https://jesserieser.brandlew.co/uploads/retail-14.jpg", "https://jesserieser.brandlew.co/uploads/retail-1.jpg", "https://jesserieser.brandlew.co/uploads/retail-10.jpg"]
 cover_image = ""
 date = ""
 layout = "blocks"
