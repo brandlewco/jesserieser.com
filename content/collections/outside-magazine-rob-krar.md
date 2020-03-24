@@ -8,6 +8,7 @@ collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_meta = "Rob Krar Running In The Dark"
 collection_press = []
+collection_preview = ["https://jesserieser.brandlew.co/uploads/robkrar-5.jpg", "https://jesserieser.brandlew.co/uploads/robkrar-7.jpg", "https://jesserieser.brandlew.co/uploads/robkrar-11.jpg", "https://jesserieser.brandlew.co/uploads/robkrar-8.jpg"]
 cover_image = ""
 date = ""
 layout = "blocks"
