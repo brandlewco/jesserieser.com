@@ -6,6 +6,7 @@ collection_description = "These works celebrate the beautiful dance-like aesthet
 collection_filter = "Commissioned + Stock"
 collection_meta = "meta title"
 collection_press = []
+collection_preview = ["https://jesserieser.brandlew.co/uploads/soc-8.jpg", "https://jesserieser.brandlew.co/uploads/soc-10.jpg", "https://jesserieser.brandlew.co/uploads/soc-9.jpg", "https://jesserieser.brandlew.co/uploads/soc-2.jpg"]
 cover_image = ""
 date = ""
 layout = "blocks"
