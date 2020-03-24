@@ -9,6 +9,7 @@ collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_meta = "MLB Preview"
 collection_press = []
+collection_preview = ["https://jesserieser.brandlew.co/uploads/mlbespn-12.jpg", "https://jesserieser.brandlew.co/uploads/mlbespn-4.jpg", "https://jesserieser.brandlew.co/uploads/mlbespn-35.jpg", "https://jesserieser.brandlew.co/uploads/mlbespn-1.jpg"]
 cover_image = ""
 date = ""
 layout = "blocks"
