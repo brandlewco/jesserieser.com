@@ -8,6 +8,7 @@ collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_meta = "Google's Waymo"
 collection_press = []
+collection_preview = ["https://jesserieser.brandlew.co/uploads/waymo-4.jpg", "https://jesserieser.brandlew.co/uploads/waymo-10.jpg", "https://jesserieser.brandlew.co/uploads/waymo-3.jpg", "https://jesserieser.brandlew.co/uploads/waymo-1.jpg"]
 cover_image = ""
 date = ""
 layout = "blocks"
