@@ -7,6 +7,7 @@ collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_meta = "Gioa "
 collection_press = []
+collection_preview = ["https://jesserieser.brandlew.co/uploads/hearst-3.jpg", "https://jesserieser.brandlew.co/uploads/hearst-12.jpg", "https://jesserieser.brandlew.co/uploads/hearst-10.jpg", "https://jesserieser.brandlew.co/uploads/hearst-2.jpg"]
 cover_image = ""
 date = ""
 layout = "blocks"
