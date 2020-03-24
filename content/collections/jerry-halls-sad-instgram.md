@@ -8,6 +8,7 @@ collection_exhibition = []
 collection_filter = "Personal"
 collection_meta = "Preview of a Work in Progress"
 collection_press = []
+collection_preview = ["https://jesserieser.brandlew.co/uploads/jerry-3.jpg", "https://jesserieser.brandlew.co/uploads/jerry-1.jpg", "https://jesserieser.brandlew.co/uploads/jerry-4.jpg", "https://jesserieser.brandlew.co/uploads/jerry-6.jpg"]
 cover_image = ""
 date = ""
 layout = "blocks"
