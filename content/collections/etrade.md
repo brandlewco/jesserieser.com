@@ -8,6 +8,7 @@ collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_meta = "Mullen Lowe Agency"
 collection_press = []
+collection_preview = ["https://jesserieser.brandlew.co/uploads/etrade-2.jpg", "https://jesserieser.brandlew.co/uploads/etrade-3.jpg", "https://jesserieser.brandlew.co/uploads/etrade-1.jpg", "https://jesserieser.brandlew.co/uploads/etrade-8.jpg"]
 cover_image = ""
 date = ""
 layout = "blocks"
