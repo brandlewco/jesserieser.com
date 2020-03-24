@@ -8,6 +8,7 @@ collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_meta = "IEC Labs Earth Engine"
 collection_press = []
+collection_preview = ["https://jesserieser.brandlew.co/uploads/ieg-3.jpg", "https://jesserieser.brandlew.co/uploads/ieg-11.jpg", "https://jesserieser.brandlew.co/uploads/ieg-6.jpg", "https://jesserieser.brandlew.co/uploads/ieg-9.jpg"]
 cover_image = ""
 date = ""
 layout = "blocks"
