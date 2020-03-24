@@ -5,6 +5,7 @@ collection_cover = "https://jesserieser.brandlew.co/uploads/wallow-1.jpg"
 collection_description = "A personal project based on Arizona’s largest wildfire in history. This body of work explores the paradox of otherworldly beauty caused by a destructive man-made disaster. _The Wallow Fire_ is dedicated to the families of the 19 fallen firefighters of the Granite Mountain Hotshot Crew of Arizona who lost their lives in the Yarnell Hill Fire on June 30, 2013- the deadliest day for United States firefighters since September 11, 2001.\n\nNamed as one of the top 50 international fine art photographic projects by _Photolucida’s Critical Mass._ Exhibited at Corden Potts Gallery San Francisco, Houston Center for Photography, and The Forty Eighth: Contemporary Photography at Arizona’s Centennial."
 collection_filter = "Personal"
 collection_meta = "2012"
+collection_preview = ["https://jesserieser.brandlew.co/uploads/wallow-14.jpg", "https://jesserieser.brandlew.co/uploads/wallow-1.jpg", "https://jesserieser.brandlew.co/uploads/wallow-11.jpg", "https://jesserieser.brandlew.co/uploads/wallow-5.jpg"]
 cover_image = ""
 date = ""
 layout = "blocks"
