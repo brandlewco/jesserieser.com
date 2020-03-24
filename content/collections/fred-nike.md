@@ -8,6 +8,7 @@ collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_meta = "Fred Kerley "
 collection_press = []
+collection_preview = ["https://jesserieser.brandlew.co/uploads/fred-1.jpg", "https://jesserieser.brandlew.co/uploads/fred-5.jpg", "https://jesserieser.brandlew.co/uploads/fred-2.jpg", "https://jesserieser.brandlew.co/uploads/fred-3.jpg"]
 cover_image = ""
 date = ""
 layout = "blocks"
