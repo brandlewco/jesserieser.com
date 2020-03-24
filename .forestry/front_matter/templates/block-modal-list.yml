@@ -9,7 +9,7 @@ fields:
     required: false
   label: block
   hidden: true
-  default: modal
+  default: modal-list
 - name: image
   type: include
   config: {}

@@ -58,7 +58,7 @@ header img {
  
 header img.lazyloaded {
   animation-name: r-drop, r-expand;
-  animation-duration: 1s, 1s;
+  animation-duration: 1s, 0.5s;
   animation-iteration-count: 1, 1;
   animation-timing-function: ease-out, ease-in;
   animation-fill-mode: forwards, forwards;
@@ -337,65 +337,50 @@ figure:hover img {
   top: 0;
   left: 0;
   position: absolute;
-  -webkit-animation: showMe 2s linear infinite 0s forwards;
-          animation: showMe 2s linear infinite 0s forwards;
-  -webkit-animation-play-state: paused;
-          animation-play-state: paused;
+  animation: showMe 2s linear infinite 0s forwards;
+  animation-play-state: paused;
 }
 .collection-preview img:nth-child(1) {
   z-index: 4;
 }
 .collection-preview img:nth-child(2) {
-  -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
+  animation-delay: 0.5s;
   z-index: 3;
 }
 .collection-preview img:nth-child(3) {
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
+  animation-delay: 1s;
   z-index: 2;
 }
 .collection-preview img:nth-child(4) {
-  -webkit-animation-delay: 1.5s;
-          animation-delay: 1.5s;
+  animation-delay: 1.5s;
   z-index: 1;
+}
+
+.collection-preview:hover {
+  background-color: #ff;
 }
 .collection-preview:hover img {
   -webkit-animation-play-state: running;
           animation-play-state: running;
 }
-@-webkit-keyframes showMe {
-  0% {
-    visibility: visible;
-    z-index: 100;
-  }
-  12.5% {
-    visibility: visible;
-    z-index: 100;
-  }
-  25% {
-    visibility: hidden;
-    z-index: 0;
-  }
-  100% {
-    visibility: hidden;
-    z-index: 0;
-  }
-}
 @keyframes showMe {
   0% {
+    /* opacity: 1; */
     visibility: visible;
-    z-index: 100;
+    z-index: 40;
   }
   12.5% {
+    /* opacity: 1; */
     visibility: visible;
-    z-index: 100;
+    z-index: 40;
   }
   25% {
+    /* opacity: 0; */
     visibility: hidden;
     z-index: 0;
   }
   100% {
+    /* opacity: 0; */
     visibility: hidden;
     z-index: 0;
   }

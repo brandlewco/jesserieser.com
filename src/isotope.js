@@ -167,7 +167,7 @@ imagesLoaded(grid, function() {
         var filterActive = document.getElementById(element);
         if (filterActive) {
         // filterActive.style.color = filtersTheme;
-          filterActive.classList.add("font-bold");
+          // filterActive.classList.add("font-bold");
         }
       });
     });
@@ -176,7 +176,7 @@ imagesLoaded(grid, function() {
         var filterActive = document.getElementById(element);
         if (filterActive) {
         // filterActive.style.color = null;
-          filterActive.classList.remove("font-bold");
+          // filterActive.classList.remove("font-bold");
         }
       });
     });

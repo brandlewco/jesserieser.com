@@ -26,6 +26,20 @@
   transition: 0.33s all ease-in-out;
 }
 
+button:hover {
+  text-shadow: 0 0 .01px black;
+
+}
+/* button::before {
+    display: block;
+    content: attr(title);
+    font-weight: bold;
+    height: 0;
+    left:-1px;
+    overflow: hidden;
+    visibility: hidden;
+} */
+
 body.page-collections #navigation {
   position: relative !important;
   background-color: rgba(255,255,255,0.6);
