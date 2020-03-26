@@ -30,7 +30,7 @@ html.is-animating.is-leaving .transition-nav {
 
 
 #filter {
-  overflow: visible;
+  overflow: hidden;
   margin: 0 -0.5rem 0 -0.5rem;
   transition: 0.33s opacity cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }

@@ -17,9 +17,9 @@
         </div>
         
         {{ if eq .Params.collection_archive true }}
-        <figcaption class="text-black text-md uppercase">
+        <figcaption class="text-white bg-black px-3 py-1 text-md uppercase">
         {{else}}
-        <figcaption class="text-black text-md uppercase">
+        <figcaption class="text-black text-md uppercase"> 
         {{end}}
         <span class="font-semibold italic block pt-2">{{.Title}}</span>
         {{with .Params.collection_meta}}<span class="font-medium block text-sm">{{.}}</span>{{end}}

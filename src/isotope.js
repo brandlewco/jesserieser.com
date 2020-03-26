@@ -13,8 +13,8 @@ imagesLoaded(grid, function() {
   filterLoading.style.opacity = 0;
   var iso = new Isotope(grid, {
     itemSelector: ".filter-item",
-    layoutMode: "fitRows",
     // stamp: ".stamp",
+    layoutMode: "fitRows",
     hiddenStyle: {
       opacity: 0
     },
@@ -168,7 +168,7 @@ imagesLoaded(grid, function() {
         var filterActive = document.getElementById(element);
         if (filterActive) {
         // filterActive.style.color = filtersTheme;
-          // filterActive.classList.add("font-bold");
+          filterActive.classList.add("font-bold");
         }
       });
     });
@@ -177,7 +177,7 @@ imagesLoaded(grid, function() {
         var filterActive = document.getElementById(element);
         if (filterActive) {
         // filterActive.style.color = null;
-          // filterActive.classList.remove("font-bold");
+          filterActive.classList.remove("font-bold");
         }
       });
     });
@@ -222,12 +222,10 @@ imagesLoaded(grid, function() {
 
   iso.on("layoutComplete", function(laidOutItems) {
     // console.log(laidOutItems.length);
-    if (laidOutItems.length === 0) {
+    if (laidOutItems.length === 1) {
       filterError.classList.add("active");
     } else {
       filterError.classList.remove("active");
     }
   });
-
-
 });
