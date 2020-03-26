@@ -10,14 +10,14 @@
   <h6 class="mb-0 ml-0 text-black uppercase tracking-widest">{{range $key.Params.news_category}}{{. | replaceRE "[\\W]" "" | lower}} {{end}}</h6>
 </section>
 
-<div class="popup-modal fixed z-50 text-black overflow-hidden bg-white" data-popup-modal="{{$key.Params.title | lower | urlize}}">
+<div class="popup-modal fixed z-50 text-white overflow-hidden h-full w-full inset-0 bg-white" data-popup-modal="{{$key.Params.title | lower | urlize}}">
   <header class="flex flex-row justify-between p-4">
-    <div class="text-xl uppercase font-medium text-center">{{$key.Params.title}}</div>
+    <div class="text-xl uppercase font-medium text-center text-black">{{$key.Params.title}}</div>
     <div class="cursor-pointer">
       <svg class="icon h-8 w-8 m-4 absolute top-0 right-0 text-black popup-modal__close"><use xlink:href="#close"></use></svg>
     </div>
   </header>
-  <section class="p-4 w-100 overflow-y-scroll" style="height: calc(100vh - 40%);">
+  <section class="p-4 w-100 h-100 overflow-y-scroll text-black">
         {{ $key.Params.content | markdownify }}
   </section>
 </div>

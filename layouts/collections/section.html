@@ -12,16 +12,21 @@
         {{ range where (where .Pages.ByDate ".Params.collection_archive" "!=" true) ".Params.collection_hidden" "!=" true}}
                 {{ partial "collection_sorter_item" .}}
         {{ end }}
-    </section>
-</article>
-<article id="archive" class="bg-black mt-16 py-8">
-    <section class="flex flex-wrap mx-auto overflow-hidden text-white px-8 xl:px-16">
-    <h2 class="w-full pb-8 font-semibold tracking-wide pl-2">ARCHIVE</h2>
+        <div class="filter-item w-screen filter-archive"></div>
+        <div class="filter-item w-screen filter-archive"><h1>ARCHIVE</h1></div>
         {{ range where (where .Pages.ByDate ".Params.collection_archive" "=" true) ".Params.collection_hidden" "!=" true}}
-                {{ partial "collection_sorter_item" .}}
+            {{ partial "collection_sorter_item" .}}
         {{ end }}
     </section>
 </article>
+<!-- <article id="archive" class="bg-black mt-16 py-8">
+    <section class="flex flex-wrap mx-auto overflow-hidden text-white px-8 xl:px-16">
+    <h2 class="w-full pb-8 font-semibold tracking-wide pl-2">ARCHIVE</h2>
+         {{ range where (where .Pages.ByDate ".Params.collection_archive" "=" true) ".Params.collection_hidden" "!=" true}}
+                {{ partial "collection_sorter_item" .}}
+        {{ end }}
+    </section>
+</article> -->
 {{- end -}}
 
 {{- define "attached" -}}

@@ -14,6 +14,7 @@ imagesLoaded(grid, function() {
   var iso = new Isotope(grid, {
     itemSelector: ".filter-item",
     layoutMode: "fitRows",
+    // stamp: ".stamp",
     hiddenStyle: {
       opacity: 0
     },
@@ -220,9 +221,9 @@ imagesLoaded(grid, function() {
   const filterError = document.getElementById("filter-error");
 
   iso.on("layoutComplete", function(laidOutItems) {
-    console.log(laidOutItems.length);
+    // console.log(laidOutItems.length);
     if (laidOutItems.length === 0) {
-      filterError.classList.add("active")
+      filterError.classList.add("active");
     } else {
       filterError.classList.remove("active");
     }

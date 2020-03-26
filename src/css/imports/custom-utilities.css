@@ -395,6 +395,15 @@ figure:hover img {
   }
 }
 
+/* .filter-archive::after {
+  content: '';
+    height: 4000px;
+    background: #000;
+    position: absolute;
+    width: 4000px;
+    left: -400px;
+    top: 0;
+} */
 
 /* Modal Popup */
 .body-popup {

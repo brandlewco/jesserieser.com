@@ -535,7 +535,7 @@ page_sections:
   image: ''
   text_color: ''
 - template: block-modal-list
-  block-list: modal-list
+  block: modal-list
   width: '50'
   align_x: start
   image: https://jesserieser.brandlew.co/uploads/antivaxx-11.jpg
