@@ -23,7 +23,7 @@ template = "popup-text-element"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+caption = "<img src=\"https://jesserieser.brandlew.co/uploads/bitmain-1.jpg\"/>"
 color = "#A3C8AD"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-1.jpg"
 margin_left = "15%"
