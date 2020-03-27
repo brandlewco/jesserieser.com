@@ -1,7 +1,7 @@
 ---
 label: "\U0001F3D9 Image"
 hide_body: false
-display_field: test_field
+display_field: caption
 fields:
 - type: text
   hidden: true
@@ -144,8 +144,3 @@ fields:
       path: 
   label: Right Margin (X)
   description: 0%-100% from the right margin
-- name: test_field
-  type: text
-  config:
-    required: false
-  label: test field
