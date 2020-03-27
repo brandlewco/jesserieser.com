@@ -79,6 +79,7 @@ fields:
   - block-media-element
   - block-media-text
   - block-media-row
+  - just-an-image
   config:
     min: 
     max: 
