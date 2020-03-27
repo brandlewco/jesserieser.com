@@ -1,7 +1,7 @@
 +++
 collection_archive = true
 collection_awards = []
-collection_category = ["Editorial", "Studio ", "Humor", "Portraits", "Color"]
+collection_category = ["Sports + Athletes", "Editorial", "Studio ", "Humor", "Portraits", "Color"]
 collection_content = ""
 collection_cover = "https://jesserieser.brandlew.co/uploads/mlbespn-24.jpg"
 collection_description = "Suspendisse efficitur, odio a consequat euismod, turpis diam lacinia neque, non condimentum mi ipsum a ex. Phasellus ultricies finibus nisi. Nunc a nulla quis nisl molestie pellentesque ac eget felis. Donec quis neque dui. Mauris aliquam diam sed tellus volutpat nullam."
