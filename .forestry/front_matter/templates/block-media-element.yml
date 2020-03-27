@@ -144,3 +144,8 @@ fields:
       path: 
   label: Right Margin (X)
   description: 0%-100% from the right margin
+- name: test_field
+  type: text
+  config:
+    required: false
+  label: test field
