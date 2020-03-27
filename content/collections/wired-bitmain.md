@@ -30,6 +30,7 @@ margin_left = "15%"
 margin_right = ""
 margin_y = "50"
 template = "block-media-element"
+test_field = "<img role=\"presentation\" src=\"https://jesserieser.brandlew.co/uploads/bitmain-1.jpg\">"
 width = "40"
 [[collection_layout_builder]]
 block = "media-row"
