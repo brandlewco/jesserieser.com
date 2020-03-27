@@ -1,9 +1,0 @@
----
-label: just an image
-hide_body: true
-fields:
-- name: just_an_image
-  type: file
-  config:
-    maxSize: 250
-  label: just an image
