@@ -1,7 +1,7 @@
 ---
 label: "\U0001F3D9 Image"
 hide_body: false
-display_field: caption
+display_field: test_field
 fields:
 - type: text
   hidden: true
