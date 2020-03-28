@@ -21,7 +21,7 @@ page_sections:
   margin_y: '50'
   margin_left: 20%
   margin_right: 0%
-  text: "**MY NAME IS JESSE RIESER  \nAND I AM A STUDENT OF SUBTLETIES.**\n\n  \nSince
+  text: "**MY NAME IS JESSE RIESER  \nAND I AM A STUDENT OF SUBTLETIES.**\n\nSince
     I was 17 I have been looking through a lens, making images filed with telling
     details and compelling character.\n\nBut back to those subtleties. They are different
     from details.\n\nSubtleties are the stuff of stories. they are the unexplained
@@ -523,14 +523,18 @@ page_sections:
   margin_left: 20%
   margin_right: 0%
   background_color: "#50E3C2"
-  text: "“I’ve worked with tons of photographers that can’t make something great out
-    of nothing. You made gold from a blank canvas. Thank you.”\n\n\\- Devin Gillespie
-    Creative Director, Wieden+Kennedy Portland\n\n“This shoot would have honestly
-    never gotten off the ground if it wasn’t for everything you have done.” Kate Moore
-    Senior Art Producer, Anomaly New York\n\n  \n  \n“You are incapable of taking
-    a normal picture.” - Jen Lamping\n\nLead Print Producer RPA Los Angeles"
+  text: |-
+    “I’ve worked with tons of photographers that can’t make something great out of nothing. You made gold from a blank canvas. Thank you.”
+
+    \- Devin Gillespie Creative Director, Wieden+Kennedy Portland
+
+    “This shoot would have honestly never gotten off the ground if it wasn’t for everything you have done.” Kate Moore Senior Art Producer, Anomaly New York
+
+    “You are incapable of taking a normal picture.” - Jen Lamping
+
+    Lead Print Producer RPA Los Angeles
   parallax: true
-  text_size: base
+  text_size: lg
   background_image_toggle: false
   image: ''
   text_color: ''
