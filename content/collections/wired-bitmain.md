@@ -12,6 +12,7 @@ date = 2019-06-18T07:00:00Z
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
+test_repeater = []
 theme_color = "#D2DEE7"
 title = "Wired Magazine"
 [[collection_exhibition]]
@@ -427,9 +428,5 @@ template = "popup-text-element"
 [[collection_press]]
 content = "Press List Item"
 template = "popup-text-element"
-[[test_repeater]]
-test_image = "https://jesserieser.brandlew.co/uploads/cowboy-14.jpg"
-[[test_repeater]]
-test_image = "https://jesserieser.brandlew.co/uploads/cowboy-5.jpg"
 
 +++
