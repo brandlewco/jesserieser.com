@@ -359,7 +359,7 @@ function init() {
     const popupModal = document.querySelector(`[data-popup-modal="${popupTrigger}"]`);
     trigger.addEventListener("click", () => {
       navigation.classList.add("opacity-0");
-      // scrollLock();
+      scrollLock();
       // document.body.style.overflowY = "hidden";
       popupModal.classList.add("is--visible");
       bodyPopup.classList.add("is-poped-out");
@@ -368,9 +368,9 @@ function init() {
       });
     });
     popupModal.querySelector(".popup-modal__close").addEventListener("click", () => {
-      // scrollUnlock();
-      navigation.classList.remove("opacity-0");
+      scrollUnlock();
       // document.body.style.overflowY = "auto";
+      navigation.classList.remove("opacity-0");
       popupModal.classList.remove("is--visible");
       bodyPopup.classList.remove("is-poped-out");
     });
@@ -431,21 +431,23 @@ function init() {
   });
 
   // SCROLL FUNCTION
-  // const scrollLock = () => {
-  //   // document.getElementById("dialog").classList.add("show");
-  //   const scrollY = document.documentElement.style.getPropertyValue("--scroll-y");
-  //   const body = document.body;
-  //   body.style.position = "fixed";
-  //   body.style.top = `-${scrollY}`;
-  // };
-  // const scrollUnlock = () => {
-  //   const body = document.body;
-  //   const scrollY = body.style.top;
-  //   body.style.position = "";
-  //   body.style.top = "";
-  //   window.scrollTo(0, parseInt(scrollY || "0") * -1);
-  //   // document.getElementById("dialog").classList.remove("show");
-  // };
+  const scrollLock = () => {
+    // document.getElementById("dialog").classList.add("show");
+    const body = document.body;
+    body.style.overflowY = "hidden";
+    // body.style.position = "fixed";
+    // console.log(scrollY);
+    // body.style.top = window.scrollY;
+  };
+  const scrollUnlock = () => {
+    const body = document.body;
+    body.style.overflowY = "scroll";
+    // body.style.position = "";
+    // const body = document.body;
+    // body.style.top = window.scrollY;
+    // window.scrollTo(0, parseInt(scrollY || "0") * -1);
+    // document.getElementById("dialog").classList.remove("show");
+  };
   function value_limit(val, min, max) {
     return val < min ? min : (val > max ? max : val);
   }
@@ -458,7 +460,7 @@ function init() {
   //   navigation.style.transform = "translate3d(0, 0, 0)";
   // }
   window.onscroll = function() {
-    // document.documentElement.style.setProperty("--scroll-y", `${window.scrollY}px`);
+    document.documentElement.style.setProperty("--scroll-y", `${window.scrollY}px`);
     var headerOverlay = document.getElementById("header-overlay");
     var featureOverlay = document.getElementById("feature-overlay");
     var pageTitle = document.getElementById("page-title");
