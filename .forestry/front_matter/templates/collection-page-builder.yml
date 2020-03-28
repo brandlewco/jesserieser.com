@@ -148,19 +148,6 @@ fields:
   config: {}
   label: Collection Preview
   description: Preview images used on all work page
-- name: test_repeater
-  type: field_group_list
-  fields:
-  - name: test_image
-    type: file
-    config:
-      maxSize: 250
-    label: test_image
-  config:
-    min: 
-    max: 
-    labelField: 
-  label: test repeater
 pages:
 - content/collections/addidas.md
 - content/collections/xmas-in-america.md
