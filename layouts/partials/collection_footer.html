@@ -36,6 +36,8 @@
     </nav>
     {{ end }}
 </section>
+{{if (eq .Params.hide_footer true) }}
+{{else}}
 {{if (eq .Params.collection_archive true) }}
 <section id="project-brief" class="bg-black">
 {{else}}
@@ -80,3 +82,4 @@
         </article>
       </section>
 </section>
+{{ end }}

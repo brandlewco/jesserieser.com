@@ -234,6 +234,10 @@ figure:hover img {
   opacity: 1;
 }
 
+figcaption p {
+  @apply mb-4;
+}
+
 @media (pointer: fine) {
 .figure.dimmed img {
   opacity: 0 !important;

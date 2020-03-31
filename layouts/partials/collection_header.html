@@ -18,6 +18,10 @@
 <article id="project-description" class="w-full py-8 px-8 xl:px-16 text-xl text-{{.Params.navigation_theme}} items-center text-justify leading-loose"  style="background-color: {{if (eq .Params.collection_archive true) }}#000{{else}}{{.Params.theme_color}}{{end}};">
     <div class="flex flex-col justify-center mx-auto" data-sal="slide-up" data-sal-delay="300">
             {{ .Params.collection_description | markdownify }}
+            {{if (eq .Params.hide_footer true) }}
+            test
+            {{else}}
             <a href="#project-brief" class="block text-{{.Params.navigation_theme}} font-normal" data-no-swup>more...</a>
+            {{end}}
     </div>
 </article>
