@@ -1,6 +1,6 @@
 ---
 label: Collections - Page Builder
-hide_body: false
+hide_body: true
 display_field: title
 fields:
 - type: text
