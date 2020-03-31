@@ -106,19 +106,15 @@ fields:
       path: categories
       section: ''
   label: Collection Category
+- name: collection_preview
+  type: image_gallery
+  config: {}
+  label: Collection Preview
+  description: Preview images used on all work page
 - type: file
   name: cover_image
   label: Social Media Card
   description: This image is what appears in OpenGraph previews and image masks
-- name: collection_archive
-  type: boolean
-  label: Archive
-  description: Archive Collection to remove it from the flow of featured collections
-- name: collection_hidden
-  type: boolean
-  label: Hide Collection
-  description: Don't show this collection in the all works sorter, accessible only
-    through direct link.
 - name: collection_awards
   type: blocks
   label: Collection Awards
@@ -143,11 +139,19 @@ fields:
   config:
     min: 
     max: 
-- name: collection_preview
-  type: image_gallery
-  config: {}
-  label: Collection Preview
-  description: Preview images used on all work page
+- name: hide_footer
+  type: boolean
+  label: Hide Footer
+  description: hide footer / more button
+- name: collection_archive
+  type: boolean
+  label: Archive
+  description: Archive Collection to remove it from the flow of featured collections
+- name: collection_hidden
+  type: boolean
+  label: Hide Collection
+  description: Don't show this collection in the all works sorter, accessible only
+    through direct link.
 pages:
 - content/collections/addidas.md
 - content/collections/xmas-in-america.md
