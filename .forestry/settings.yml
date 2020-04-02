@@ -18,7 +18,7 @@ sections:
   path: content/about/_index.md
   label: About
 - type: heading
-  label: "\U0001F387 Photo"
+  label: "\U0001F387 Gallaries"
 - type: directory
   path: content/collections
   label: Collections
