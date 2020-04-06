@@ -1,4 +1,4 @@
 categories = ["Portraits", "Environments", "Still Life + Details", "Sports + Athletes", "Humor", "Conceptual", "Lifestyle", "Workplace", "Color", "Black and White", "Climate Change", "Travel", "Reportage", "Motion", "Tech", "Science", "Editorial", "Advertising", "Stock", "Studio "]
-collection_sorter = ["collections/espn-puig.md", "collections/unbriddled-spirit.md", "collections/time.md"]
+collection_sorter = ["collections/amtrak.md", "collections/espn-puig.md", "collections/unbriddled-spirit.md", "collections/time.md"]
 filter = ["Personal", "Commissioned + Stock"]
 news = ["press", "exhibition", "awards"]
