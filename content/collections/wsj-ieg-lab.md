@@ -24,7 +24,7 @@ color = "#FFDB4F"
 image = "https://jesserieser.brandlew.co/uploads/ieg-1.jpg"
 margin_left = "35%"
 margin_right = "0%"
-margin_y = "50"
+margin_y = "100"
 template = "block-media-element"
 width = "50"
 [[collection_layout_builder]]
