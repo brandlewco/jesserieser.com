@@ -42,17 +42,19 @@ template = "block-media-element"
 width = "40"
 [[collection_layout_builder]]
 block = "media-row"
-row_alignment = "between"
+row_alignment = "center"
 template = "block-media-row"
 [[collection_layout_builder]]
-align_y = "start"
+align_y = "center"
 block = "media-motion"
+caption = "Lottery Promo"
+color = "#436593"
 margin_left = "0%"
 margin_right = "0%"
 margin_y = "50"
 template = "block-media-motion"
 vimeo_id = 216270338
-width = "33"
+width = "66"
 [[collection_layout_builder]]
 block = "media-row"
 row_alignment = "between"
