@@ -1,9 +1,11 @@
 +++
+collection_archive = false
 collection_category = ["Editorial", "Tech", "Reportage", "Editorial", "Portraits", "Color", "Black and White", "Environments", "Conceptual"]
 collection_content = "For the July / August issue of the **_Wired_** cover story “_The Internet Giant Who Went Too Far_” I photographed Michael Lacey and Jim Larkin as they await trial for owning and operating the online classified giant Backpage.com. Backpage was the red-light district of the internet or the Google of commercial sex ads and described as “a platform that dominated its market as thoroughly as Facebook dominated social networking or Amazon did online retail” and for this both men face life in prison. ⁠⠀  \n⁠⠀  \nLarkin and Lacey founded “The Phoenix New Times” (my first ever assignment) bought “The Village Voice” and went on to build the country’s largest chain of alt weeklies. They were known for their crusade-like journalism as they went after the McCains, Walmart, Sheriff Joe Arpaio, The Church of Scientology, and The NFL. And for this they made many enemies, enemies who are seeking retribution for the 30+ years of Larkin and Lacey relentlessly investigated those in power. “As a journalist, if you don’t get up in the morning and say ‘Fuck you’ to someone, why even do it?” - Lacey⁠⠀  \n⁠⠀  \nIf found guilty, this sets a scary legal precedent for silicon valley and any online platform. Lawmakers would have finally torn a hole in Section 230 of the Communications Act and could hold tech giants such as Twitter and Facebook accountable as they would no longer be immunized from user generated content. ⁠⠀  \n⁠⠀  \nAs Both men await trial, they are under country arrest and cannot travel. Photographically I wanted to portray Lacey and Larkin in a way that spoke to their decades of defiance, possible incarceration, the shadowy space in which back page operated, and their physical and psychological imprisonment as they are confined to their homes and Maricopa County. ⁠⠀  \n⁠⠀  \nArticle by Christine Biederman and assigned by Beth Holden and Anna Alexander."
 collection_cover = "https://jesserieser.brandlew.co/uploads/backpage-3.jpg"
 collection_description = "I photographed Michael Lacey and Jim Larkin as they await trial for owning and operating the online classified giant Backpage.com. Backpage was the red-light district of the internet or the Google of commercial sex ads. Described as “a platform that dominated its market as thoroughly as Facebook dominated social networking or Amazon did online retail.”\n\nBoth men face life in prison and if found guilty, this sets a scary legal precedent for Silicon Valley. Lawmakers would have finally torn a hole in Section 230 of the Communications Act, holding tech giants such as Twitter and Facebook accountable, no longer immunized from user generated content."
 collection_filter = "Commissioned + Stock"
+collection_hidden = false
 collection_meta = "Backpage.com Cover Story"
 collection_preview = ["https://jesserieser.brandlew.co/uploads/stargeezers-7.jpg", "https://jesserieser.brandlew.co/uploads/stargeezers-4.jpg", "https://jesserieser.brandlew.co/uploads/stargeezers-1.jpg", "https://jesserieser.brandlew.co/uploads/stargeezers-25.jpg", "https://jesserieser.brandlew.co/uploads/stargeezers-2.jpg"]
 cover_image = ""
@@ -13,8 +15,6 @@ logo = ""
 navigation_theme = "white"
 theme_color = "#F6E3CD"
 title = "Wired Magazine"
-collection_archive = false
-collection_hidden = false
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
@@ -148,6 +148,21 @@ template = "block-media-element"
 width = "40"
 [[collection_layout_builder]]
 block = "media-row"
+row_alignment = ""
+template = "block-media-row"
+[[collection_layout_builder]]
+align_x = "start"
+block = "media-element"
+caption = "Anger Management"
+color = "#b9a49e"
+image = "https://jesserieser.brandlew.co/uploads/backpage-7.jpg"
+margin_left = ""
+margin_right = ""
+margin_y = "100"
+template = "block-media-element"
+width = "50"
+[[collection_layout_builder]]
+block = "media-row"
 row_alignment = "start"
 template = "block-media-row"
 [[collection_layout_builder]]
@@ -177,7 +192,7 @@ template = "block-media-element"
 width = "70"
 [[collection_layout_builder]]
 block = "media-row"
-row_alignment = "center"
+row_alignment = "between"
 template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
@@ -186,6 +201,7 @@ block = "media-element"
 caption = "Stuck In Ice Block"
 color = "#b9a49e"
 image = "https://jesserieser.brandlew.co/uploads/backpage-13.jpg"
+margin_left = "10%"
 margin_y = "300"
 template = "block-media-element"
 width = "40"
@@ -195,8 +211,8 @@ block = "media-element"
 caption = "Very Casual Reading"
 color = "#b9a49e"
 image = "https://jesserieser.brandlew.co/uploads/backpage-12.jpg"
-margin_left = "10%"
-margin_right = ""
+margin_left = ""
+margin_right = "10%"
 margin_y = "100"
 template = "block-media-element"
 width = "30"
@@ -229,20 +245,5 @@ margin_left = "20%"
 margin_y = "100"
 template = "block-media-element"
 width = "60"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
-align_x = "start"
-block = "media-element"
-caption = "Anger Management"
-color = "#b9a49e"
-image = "https://jesserieser.brandlew.co/uploads/backpage-7.jpg"
-margin_left = ""
-margin_right = ""
-margin_y = "100"
-template = "block-media-element"
-width = "50"
 
 +++
