@@ -1,5 +1,6 @@
 +++
 collection_archive = true
+collection_hidden = false
 collection_category = ["Editorial", "Science", "Reportage", "Travel", "Climate Change", "Color", "Environments", "Color"]
 collection_content = "Recently the United States experienced its worst drought in more than 50 years. Roughly half the nation, most of the high plains, Midwest and South were in extreme or exceptional drought, the two worst categories. These photographs bear witness to how that drought devastated the Arkansas River Basin.\n\n“This is a study of how climate change is altering the landscape, the backdrop to my childhood, my beloved Ozark Mountains,” Jesse said.\n\nThe drought caused leaves to turn color and drop in mid-July, shriveled corn never to be harvested, and left cattle unable to find food, shade or relief from hot, dusty winds.\n\nThis collection of seven images is poignant, the images simple and stark in their quiet brutality. The photos are a prescient expression of the fear and anger 400,000 people gave voice to in September 2014 during the People’s Climate March in New York City, days before the United Nations climate summit."
 collection_cover = "https://jesserieser.brandlew.co/uploads/fall-2.jpg"

@@ -1,5 +1,6 @@
 +++
 collection_archive = true
+collection_hidden = false
 collection_awards = []
 collection_category = ["Lifestyle", "Stock", "Reportage", "Black and White", "Color", "Sports + Athletes", "Portraits"]
 collection_content = ""

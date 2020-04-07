@@ -15,6 +15,8 @@ navigation_theme = "white"
 test_repeater = []
 theme_color = "#D2DEE7"
 title = "Wired Magazine"
+collection_archive = false
+collection_hidden = false
 [[collection_exhibition]]
 content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
 template = "popup-text-element"

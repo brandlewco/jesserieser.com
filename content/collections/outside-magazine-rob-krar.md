@@ -16,6 +16,8 @@ logo = ""
 navigation_theme = "white"
 theme_color = "#F1D7D5"
 title = "Outside Magazine "
+collection_archive = false
+collection_hidden = false
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"

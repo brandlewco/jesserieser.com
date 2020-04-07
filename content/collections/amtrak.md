@@ -16,7 +16,9 @@ logo = ""
 navigation_theme = "white"
 page = "/collections/amtrak"
 theme_color = "#E0C5B7"
-title = "Amtrak The National "
+title = "Amtrak The National"
+collection_archive = false
+collection_hidden = false
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"

@@ -14,6 +14,8 @@ logo = ""
 navigation_theme = "black"
 theme_color = "#CCCCCC"
 title = "Sounds of Cement"
+collection_archive = false
+collection_hidden = false
 [[collection_awards]]
 content = "**2016**  \n**_PDN Photo Annual_**   \nBest Stock Photography"
 template = "popup-text-element"

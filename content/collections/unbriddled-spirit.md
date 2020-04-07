@@ -1,5 +1,6 @@
 +++
 collection_archive = true
+collection_hidden = false
 collection_category = ["Sports + Athletes", "Travel", "Editorial", "Reportage", "Lifestyle", "Portraits", "Color"]
 collection_content = ""
 collection_cover = "https://jesserieser.brandlew.co/uploads/spirit-1.jpg"

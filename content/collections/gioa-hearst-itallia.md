@@ -15,6 +15,8 @@ logo = ""
 navigation_theme = "white"
 theme_color = "#F4BEFF"
 title = "Hearst Itallia"
+collection_archive = false
+collection_hidden = false
 [[collection_awards]]
 content = "**2016**  \n_AP 32: American Photography Annual 32_"
 template = "popup-text-element"

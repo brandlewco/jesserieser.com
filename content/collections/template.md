@@ -4,6 +4,7 @@ collection_content = "Suspendisse viverra luctus purus id tempor. Donec id magna
 collection_cover = "https://jesserieser.brandlew.co/uploads/temp-1.jpg"
 collection_description = "Suspendisse efficitur, odio a consequat euismod, turpis diam lacinia neque, non condimentum mi ipsum a ex. Phasellus ultricies finibus nisi. Nunc a nulla quis nisl molestie pellentesque ac eget felis. Donec quis neque dui. Mauris aliquam diam sed tellus volutpat nullam."
 collection_filter = "Personal"
+collection_archive = false
 collection_hidden = true
 collection_meta = "meta title"
 cover_image = ""

@@ -16,6 +16,8 @@ logo = ""
 navigation_theme = "white"
 theme_color = "#9bbad5"
 title = "Condor Airlines "
+collection_archive = false
+collection_hidden = false
 [[collection_layout_builder]]
 block = "media-2"
 row_alignment = "between"

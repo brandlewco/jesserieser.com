@@ -16,6 +16,8 @@ logo = ""
 navigation_theme = "white"
 theme_color = "#436593"
 title = "AZ Lottery"
+collection_archive = false
+collection_hidden = false
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"

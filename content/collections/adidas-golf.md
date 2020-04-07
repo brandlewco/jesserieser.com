@@ -13,6 +13,8 @@ logo = ""
 navigation_theme = "white"
 theme_color = "#B8EEBC"
 title = "Adidas Golf: Adicross"
+collection_archive = false
+collection_hidden = false
 [[collection_awards]]
 content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
 template = "popup-text-element"
