@@ -21,6 +21,7 @@ fields:
 - type: file
   name: image
   label: Image
+  hidden: true
 - type: text
   name: caption
   label: Caption
@@ -29,7 +30,8 @@ fields:
     color_format: Hex
   label: Color
   name: color
-  description: Background color show on image hover
+  description: Player Control / Titles Color (defaults to page theme color if not
+    set)
 - type: select
   name: width
   config:
