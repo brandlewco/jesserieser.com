@@ -1,4 +1,5 @@
 +++
+collection_archive = false
 collection_awards = []
 collection_category = ["Advertising", "Color", "Workplace", "Conceptual", "Humor", "Sports + Athletes", "Portraits", "Color"]
 collection_content = ""
@@ -6,6 +7,7 @@ collection_cover = "https://jesserieser.brandlew.co/uploads/azlottery-1.jpg"
 collection_description = "Arizona first got to know Willie in 1981 as a simple hand-drawn character seen in the company’s logo and advertising efforts. Through the years his look and appearance evolved leading to a live action mascot iteration seen in the company’s broadcast commercials in the mid 90s and early 2000s.  \n  \nAfter some time away, Willie’s character is re-introduced and reinvented in human form as a wise and comedic character played by “Mr. Show’s” writer and actor, John Ennis."
 collection_exhibition = []
 collection_filter = "Commissioned + Stock"
+collection_hidden = false
 collection_meta = "Welcome Back Willie / OH Partners"
 collection_press = []
 collection_preview = ["https://jesserieser.brandlew.co/uploads/azlottery-6.jpg", "https://jesserieser.brandlew.co/uploads/azlottery-1.jpg", "https://jesserieser.brandlew.co/uploads/azlottery-3.jpg", "https://jesserieser.brandlew.co/uploads/azlottery-4.jpg"]
@@ -16,8 +18,6 @@ logo = ""
 navigation_theme = "white"
 theme_color = "#436593"
 title = "AZ Lottery"
-collection_archive = false
-collection_hidden = false
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
@@ -45,6 +45,19 @@ block = "media-row"
 row_alignment = "between"
 template = "block-media-row"
 [[collection_layout_builder]]
+align_y = "start"
+block = "media-motion"
+margin_left = "0%"
+margin_right = "0%"
+margin_y = "50"
+template = "block-media-motion"
+vimeo_id = 216270338
+width = "33"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
 caption = "caption"
@@ -67,10 +80,6 @@ margin_y = "50"
 template = "block-media-element"
 width = "40"
 [[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
 caption = "caption"
@@ -81,6 +90,10 @@ margin_right = "0"
 margin_y = "50"
 template = "block-media-element"
 width = "40"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
