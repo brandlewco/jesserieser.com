@@ -1,5 +1,6 @@
 +++
 collection_archive = true
+collection_hidden = false
 collection_awards = []
 collection_category = ["Stock", "Reportage", "Black and White", "Lifestyle", "Sports + Athletes", "Portraits"]
 collection_content = "Don’t let their apprehension and common teen disposition fool you. Once the whistle blows, their play is as physical as the semi-pro men who initially made the W 4th Cage a street-ball landmark. Captured while documenting the annual “Kenny Graham’s 4th Street” basketball tournament."
