@@ -28,7 +28,7 @@ sections:
   - collection-page-builder
 - type: document
   path: data/categories/categories.toml
-  label: All Works (Sorting & Categories)
+  label: All Works (Sorting)
 - type: heading
   label: ℹ️Help
 - type: document
