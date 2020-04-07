@@ -78,6 +78,7 @@ fields:
   template_types:
   - block-media-element
   - block-media-text
+  - block-media-motion
   - block-media-row
   config:
     min: 
