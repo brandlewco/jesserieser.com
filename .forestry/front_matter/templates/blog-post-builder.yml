@@ -57,8 +57,10 @@ fields:
 - name: blog_builder
   type: blocks
   template_types:
-  - block-media
-  - block-text
+  - block-media-element
+  - block-media-text
+  - block-media-motion
+  - block-media-row
   config:
     min: 
     max: 
