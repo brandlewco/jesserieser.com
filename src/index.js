@@ -498,6 +498,13 @@ function init() {
 
   window.__forceSmoothScrollPolyfill__ = true;
   smoothscroll.polyfill();
+
+  var currentPage = document.getElementById("current");
+  currentPage.previousElementSibling.classList.remove("hidden");
+  currentPage.previousElementSibling.classList.add("visible");
+  currentPage.nextElementSibling.classList.remove("hidden");
+  currentPage.nextElementSibling.classList.add("visible");
+
 }
 
 // intit code on each page load

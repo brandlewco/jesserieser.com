@@ -211,6 +211,7 @@ figure:hover img {
   transition: 0.33s opacity cubic-bezier(0.55, 0.055, 0.675, 0.19) 2s;
   opacity: 0;
   transform: translate3d(0, -45vh, 0);
+  will-change: transform, position;
 }
 
 /* .block-hover figcaption {
