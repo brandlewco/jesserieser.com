@@ -246,7 +246,7 @@ color = "#efefef"
 image = "https://jesserieser.brandlew.co/uploads/robkrar-19.jpg"
 margin_left = ""
 margin_right = "5%"
-margin_y = "300"
+margin_y = "400"
 template = "block-media-element"
 width = "33"
 [[collection_layout_builder]]
