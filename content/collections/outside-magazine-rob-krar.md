@@ -1,4 +1,5 @@
 +++
+collection_archive = false
 collection_awards = []
 collection_category = ["Editorial", "Travel", "Reportage", "Conceptual", "Sports + Athletes", "Environments", "Portraits", "Color"]
 collection_content = "“_Rob Krar had to embrace incredible physical pain to win iconic ultramarathons like the Leadville Traill 100 and the Western States Endurance Run. But that’s a form suffering he can control- unlike his decades-long struggle with depression._”⁠⠀  \n⁠⠀  \nThis past fall my brother Shea and I visited their 5th annual camp in Flagstaff, AZ. It was the perfect time of year- the air cool and crisp as fall approached and the aspens golden in color illuminated Locket Meadow. As someone who copes with clinical depression and anxiety disorder, we loved our time with Rob, Christina, campers, and volunteers…. even being pushed beyond our comfort zone climbing SP Crater.   \n⁠⠀  \nArticle by former editor at Runner’s World Christine Fennessy- Krar opens up about his battle with depression, the balance of his personal life and life a professional athlete, what he means to the running community, and how is running camp has “saved lives.” Hit the link in bio to see a newly posted portfolio on my site. ⁠⠀  \n⁠⠀  \nIf you or someone you know is having thoughts of suicide or self-harm, call the National Suicide Prevention Lifeline toll-free from anywhere in the U.S. at 1-800-273-8255."
@@ -6,6 +7,7 @@ collection_cover = "https://jesserieser.brandlew.co/uploads/robkrar-2.jpg"
 collection_description = "Rob Krar had to embrace incredible physical pain to win iconic ultramarathons like the Leadville Traill 100 and the Western States Endurance Run. But that’s a form suffering he can control- unlike his decades-long struggle with depression.⁠ Krar opens up about his battle with depression, the balance of his personal life and life as a professional athlete, what he means to the running community, and how his running camp has “saved lives.”"
 collection_exhibition = []
 collection_filter = "Commissioned + Stock"
+collection_hidden = false
 collection_meta = "Rob Krar Running In The Dark"
 collection_press = []
 collection_preview = ["https://jesserieser.brandlew.co/uploads/robkrar-5.jpg", "https://jesserieser.brandlew.co/uploads/robkrar-7.jpg", "https://jesserieser.brandlew.co/uploads/robkrar-11.jpg", "https://jesserieser.brandlew.co/uploads/robkrar-8.jpg"]
@@ -16,30 +18,31 @@ logo = ""
 navigation_theme = "white"
 theme_color = "#F1D7D5"
 title = "Outside Magazine "
-collection_archive = false
-collection_hidden = false
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
 caption = "caption"
 color = "#efefef"
 image = "https://jesserieser.brandlew.co/uploads/robkrar-1.jpg"
-margin_left = "0"
-margin_right = "0"
-margin_y = "50"
+margin_left = ""
+margin_right = ""
+margin_y = "100"
 template = "block-media-element"
-width = "40"
+width = "60"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
 caption = "caption"
 color = "#efefef"
 image = "https://jesserieser.brandlew.co/uploads/robkrar-2.jpg"
-margin_left = "0"
-margin_right = "0"
-margin_y = "50"
+margin_left = "40%"
+margin_y = "100"
 template = "block-media-element"
-width = "40"
+width = "50"
 [[collection_layout_builder]]
 block = "media-row"
 row_alignment = "between"
@@ -66,10 +69,6 @@ margin_right = "0"
 margin_y = "50"
 template = "block-media-element"
 width = "40"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
