@@ -60,20 +60,11 @@ function init() {
 
   // middayNav.refresh();
 
-
-  const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
-
-  if (!isMobile) {
-    var scrollAnimations = sal({
-      once: false,
-      threshold: 0.4,
-    });
-  }
-  // // Sal Animations
-  // var scrollAnimations = sal({
-  //   once: false,
-  //   threshold: 0.4,
-  // });
+  // Sal Animations
+  var scrollAnimations = sal({
+    once: false,
+    threshold: 0.4,
+  });
 
   // Parellax
   var rellax = new Rellax(".rellax", {
