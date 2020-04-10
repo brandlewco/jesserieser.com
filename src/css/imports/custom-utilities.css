@@ -1,3 +1,10 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 .transition-page {
   transition: 0.33s opacity cubic-bezier(0.55, 0.055, 0.675, 0.19);
   transition-delay: 0.45s;
@@ -30,8 +37,8 @@ html.is-animating.is-leaving .transition-nav {
 
 
 #filter {
-  overflow: hidden;
-  margin: 0 -0.5rem 0 -0.5rem;
+  /* overflow: hidden; */
+  /* margin: 0 -0.5rem 0 -0.5rem; */
   transition: 0.33s opacity cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
@@ -346,6 +353,20 @@ a.collection-next .arrow {
   transition-property: height;
   min-height: 400px;
   
+}
+
+.filter-archive::after {
+  position: absolute;
+  background: #000;
+  content: "";
+  width: 200vw;
+  height: 1000vh;
+  top:0;
+  bottom:0;
+  left:-2rem;
+  right:0;
+  overflow: visible;
+  z-index: -1;
 }
 
 /**** disabling Isotope CSS3 transitions ****/

@@ -15,6 +15,9 @@ imagesLoaded(grid, function() {
     itemSelector: ".filter-item",
     // stamp: ".stamp",
     layoutMode: "fitRows",
+    fitRows: {
+      gutter: 0
+    },
     hiddenStyle: {
       opacity: 0
     },
