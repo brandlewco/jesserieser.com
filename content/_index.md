@@ -6,14 +6,14 @@ page_sections:
 - template: block-media-text
   block: media-text
   text_size: 6xl
-  text_tracking: normal
+  text_tracking: wider
   width: '50'
   align_y: end
   margin_y: '200'
   margin_left: 50%
   margin_right: 0%
   text: SELECTED WORKS
-  text_color: "#000000"
+  text_color: "#EDDDDE"
   parallax: true
   background_color: ''
   background_image_toggle: false
