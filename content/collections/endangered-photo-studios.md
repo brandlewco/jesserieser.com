@@ -7,7 +7,7 @@ collection_description = "Like many of my works, I am interested in the artifact
 collection_filter = "Personal"
 collection_meta = "Preview of a Work in Progress"
 collection_press = []
-collection_preview = ["https://jesserieser.brandlew.co/uploads/studios-3.jpg", "https://jesserieser.brandlew.co/uploads/studios-4.jpg", "https://jesserieser.brandlew.co/uploads/studios-7.jpg", "https://jesserieser.brandlew.co/uploads/studios-1.jpg"]
+collection_preview = ["https://jesserieser.brandlew.co/uploads/studios-cover-1.jpg", "https://jesserieser.brandlew.co/uploads/studios-cover-2.jpg", "https://jesserieser.brandlew.co/uploads/studios-cover-3.jpg", "https://jesserieser.brandlew.co/uploads/studios-cover-4.jpg"]
 cover_image = ""
 date = ""
 layout = "blocks"
@@ -16,10 +16,10 @@ navigation_theme = ""
 theme_color = "#FBC8B2"
 title = "Photo Studios Extinction"
 [[collection_exhibition]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-template = "popup-text-element"
 collection_archive = false
 collection_hidden = false
+content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+template = "popup-text-element"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
