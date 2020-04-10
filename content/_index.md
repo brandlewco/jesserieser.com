@@ -3,6 +3,21 @@ layout: blocks
 title: Jesse Rieser
 date: 2017-11-01T23:00:00.000+00:00
 page_sections:
+- template: block-media-text
+  block: media-text
+  text_size: 2xl
+  text_tracking: normal
+  width: '30'
+  align_y: end
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  text: SELECTED WORKS
+  text_color: "#000000"
+  parallax: true
+  background_color: ''
+  background_image_toggle: false
+  image: ''
 - template: block-media-feature
   block: media-feature
   width: '20'
