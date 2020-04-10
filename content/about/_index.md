@@ -18,7 +18,7 @@ page_sections:
   text_tracking: ''
   width: '50'
   align_y: start
-  margin_y: '50'
+  margin_y: '100'
   margin_left: 40%
   margin_right: 0%
   text: "**MY NAME IS JESSE RIESER  \nAND I AM A STUDENT OF SUBTLETIES.**\n\nSince
@@ -49,6 +49,7 @@ page_sections:
   width: '33'
   align_x: start
   margin_y: '50'
+  title_margin_left: "-95%"
   image: https://jesserieser.brandlew.co/uploads/bio-5.jpg
   caption: Awards
   color: "#9DC2BE"
@@ -204,7 +205,7 @@ page_sections:
   block-list: ''
 - template: block-modal-list
   block: modal-list
-  width: '66'
+  width: '40'
   align_x: end
   margin_y: '100'
   caption: Press
