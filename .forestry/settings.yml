@@ -4,12 +4,24 @@ auto_deploy: true
 admin_path: static/admin
 webhook_url: 
 sections:
+- type: heading
+  label: COLLECTIONS
 - type: document
   path: content/_index.md
-  label: Selected Works (Home)
+  label: Selected Works
+- type: document
+  path: data/categories/categories.toml
+  label: All Works
+- type: directory
+  path: content/collections
+  label: Collections
+  create: all
+  match: "**/*"
+  templates:
+  - collection-page-builder
 - type: directory
   path: content/posts
-  label: News Posts
+  label: Posts
   create: all
   match: "**/*"
   templates:
@@ -18,19 +30,9 @@ sections:
   path: content/about/_index.md
   label: About
 - type: heading
-  label: "\U0001F387 Gallaries"
-- type: directory
-  path: content/collections
-  label: Collections
-  create: all
-  match: "**/*"
-  templates:
-  - collection-page-builder
-- type: document
-  path: data/categories/categories.toml
-  label: All Works (Sorting)
+  label: CONTENT
 - type: heading
-  label: ℹ️Help
+  label: Help
 - type: document
   path: README-FORESTRY.md
   label: How To
