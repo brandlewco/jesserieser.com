@@ -4,15 +4,16 @@
     {{ range .Site.Data.categories}}
     {{ range .collection_sorter}}
     {{ with $.Site.GetPage . }} 
+    {{ if eq .Params.collection_archive false }}
     {{ if eq $currentPage .Permalink }}
     <a href="{{ .Permalink }}" id="current" class="hidden">CURRENT PAGE</a>
     {{else}}
-    <a href="{{ .Permalink }}" class="hidden" alt="Previous Project - {{ .Title }}" data-swup-preload>
+    <a href="{{ .Permalink }}" class="hidden" alt="{{ .Title }}">
         <div class="flex flex-row text-left items-center">
-            <div class="text-6xl font-thin pr-4">
+            <div class="arrow text-6xl font-thin pr-4">
                 &#8249;
             </div>
-            <div class="">
+            <div class="pager-title">
                 <div class="text-2xl block font-bold font-light">
                     {{ .Title }}
                 </div>
@@ -22,8 +23,36 @@
             </div>
         </div>
     </a>
-    <!-- <a href="{{ .Permalink }}" class="hidden">{{.Title}}</a> -->
-    {{end}}
+    {{ end }}
+    {{ end }}
+    {{ end }}
+    {{ end }}
+    {{ end }}
+
+    {{ range .Site.Data.categories}}
+    {{ range .collection_sorter}}
+    {{ with $.Site.GetPage . }} 
+    {{ if eq .Params.collection_archive true}}
+    {{ if eq $currentPage .Permalink }}
+    <a href="{{ .Permalink }}" id="current" class="hidden">CURRENT PAGE</a>
+    {{else}}
+    <a href="{{ .Permalink }}" class="hidden archive" alt="{{ .Title }}">
+        <div class="flex flex-row text-left items-center">
+            <div class="arrow text-6xl font-thin pr-4">
+                &#8249;
+            </div>
+            <div class="pager-title">
+                <div class="text-2xl block font-bold font-light">
+                    ARCHIVE: {{ .Title }}
+                </div>
+                <div class="text-xl block font-normal font-base leading-relaxed text-left ">
+                    {{.Params.collection_meta}}
+                </div>
+            </div>
+        </div>
+    </a>
+    {{ end }}
+    {{ end }}
     {{ end }}
     {{ end }}
     {{ end }}
@@ -65,13 +94,26 @@
         </a>
     </nav>
     {{ end }} -->
+
 </section>
 {{if (eq .Params.hide_footer true) }}
 {{else}}
 {{if (eq .Params.collection_archive true) }}
-<section id="project-brief" class="bg-black">
+<a href="#project-header" alt="back to top" data-no-swup>
+    <div class="mx-auto w-full mt-32 text-center font-light text-white" data-sal="slide-down" data-sal-delay="300">
+        <p class="text-6xl font-hairline" style="line-height: 0.4;">&#8963;</p>
+        <p class="text-xl font-light">Back To Top</p>
+    </div>
+</a>
+<section id="project-brief" class="bg-black mt-4">
 {{else}}
-<section id="project-brief" class="mt-32" style="background-color:{{.Params.theme_color}};">
+<a href="#project-header" alt="back to top" data-no-swup>
+    <div class="mx-auto w-full mt-32 text-center font-light" style="color: {{.Params.theme_color}};"  data-sal="slide-down" data-sal-delay="300">
+        <p class="text-6xl font-hairline" style="line-height: 0.4;">&#8963;</p>
+        <p class="text-xl font-light">Back To Top</p>
+    </div>
+</a>
+<section id="project-brief" class="mt-4" style="background-color:{{.Params.theme_color}};">
 {{end}}
     <div class="mx-auto w-full">
         <article class="mx-16 xl:mx-32 py-16 text-lg leading-loose {{with .Params.navigation_theme}}text-{{.}}{{end}} border-b-2 border-solid" {{with .Params.navigation_theme}}style="border-color: {{.}}"{{end}}>

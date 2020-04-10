@@ -501,9 +501,9 @@ function init() {
 
   var currentPage = document.getElementById("current");
   currentPage.previousElementSibling.classList.remove("hidden");
-  currentPage.previousElementSibling.classList.add("visible");
+  currentPage.previousElementSibling.classList.add("visible","collection-prev");
   currentPage.nextElementSibling.classList.remove("hidden");
-  currentPage.nextElementSibling.classList.add("visible");
+  currentPage.nextElementSibling.classList.add("visible","collection-next");
 
 }
 

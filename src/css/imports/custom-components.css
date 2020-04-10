@@ -106,7 +106,7 @@ body.page-collections #menu #nav-collections {
   @apply text-gray-600;
 }
 .button.ui-check {
-  transition: 0.1s font-weight ease-in-out;
+  transition: 0.15s font-weight ease-in-out;
 }
 .button.ui-check.is-checked {
   @apply font-bold text-black;
@@ -117,6 +117,10 @@ body.page-collections #menu #nav-collections {
   left: -0.5rem;
   bottom: 1px;
   @apply font-thin;
+}
+
+.button.ui-radio {
+  transition: 0.15s font-weight ease-in-out;
 }
 
 .button.ui-radio.is-checked {
