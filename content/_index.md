@@ -18,6 +18,7 @@ page_sections:
   background_color: ''
   background_image_toggle: false
   image: ''
+  font_weight: semibold
 - template: block-media-row
   block: media-row
   row_alignment: between
@@ -35,7 +36,7 @@ page_sections:
   align_y: ''
   margin_left: 10%
   margin_right: ''
-  title_margin_left: '50%'
+  title_margin_left: 50%
   title_margin_right: ''
   meta_align: ''
 - template: block-media-feature
@@ -51,7 +52,7 @@ page_sections:
   margin_x: ''
   align_y: ''
   margin_left: ''
-  margin_right: '5%'
+  margin_right: 5%
   title_margin_left: "-95%"
   title_margin_right: ''
   meta_align: right
