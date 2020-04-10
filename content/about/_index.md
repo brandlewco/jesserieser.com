@@ -14,8 +14,8 @@ navigation_theme: white
 page_sections:
 - template: block-media-text
   block: media-text
-  text_size: normal
-  text_tracking: loose
+  text_size: ''
+  text_tracking: ''
   width: '50'
   align_y: start
   margin_y: '50'
@@ -38,6 +38,9 @@ page_sections:
   text_color: "#000000"
   background_image_toggle: true
   image: https://jesserieser.brandlew.co/uploads/bio-4.jpg
+  font_weight: ''
+  image_css: 'transform: rotate(-10deg);'
+  caption_css: 'margin-left: -30%;'
 - template: block-media-row
   block: media-row
   row_alignment: between
@@ -538,6 +541,9 @@ page_sections:
   background_image_toggle: false
   image: ''
   text_color: ''
+  font_weight: ''
+  image_css: ''
+  caption_css: ''
 - template: block-modal-list
   block: modal-list
   width: '50'
