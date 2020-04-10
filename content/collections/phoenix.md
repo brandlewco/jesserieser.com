@@ -1,12 +1,14 @@
 +++
 attached_gallery = "gallery/phoenix.md"
+collection_archive = false
 collection_category = ["Studio ", "Lifestyle", "Color", "Conceptual", "Portraits"]
 collection_content = ""
 collection_cover = "https://jesserieser.brandlew.co/uploads/rieser_phx-HI-4.jpg"
 collection_description = "A selection of images from my new works consisting of colorful, constructed, fictional, and surreal suburban vignettes.\n\nRecognized as a 2-time winner in the **_AP 35: American Photography Annual 2019_**_._"
 collection_filter = "Personal"
+collection_hidden = false
 collection_meta = "2018 - 2019"
-collection_preview = ["https://jesserieser.brandlew.co/uploads/rieser_phx-HI-3.jpg", "https://jesserieser.brandlew.co/uploads/rieser_phx-HI-15.jpg", "https://jesserieser.brandlew.co/uploads/rieser_phx-HI-17.jpg", "https://jesserieser.brandlew.co/uploads/rieser_phx-HI-1.jpg"]
+collection_preview = ["https://jesserieser.brandlew.co/uploads/phoenix-cover-1.jpg", "https://jesserieser.brandlew.co/uploads/phoenix-cover-2.jpg", "https://jesserieser.brandlew.co/uploads/phoenix-cover-3.jpg", "https://jesserieser.brandlew.co/uploads/phoenix-cover-4.jpg"]
 cover_image = ""
 date = ""
 layout = "blocks"
@@ -15,8 +17,6 @@ navigation_theme = "white"
 row_alignment = "between"
 theme_color = "#FF9758"
 title = "Phoenix: A Dystopian LegoLand That Tastes Like Candy"
-collection_archive = false
-collection_hidden = false
 [[collection_awards]]
 content = "**2019**  \n_AP 35: American Photography Annual 35_  \nBest Personal Work Series:"
 template = "popup-text-element"
