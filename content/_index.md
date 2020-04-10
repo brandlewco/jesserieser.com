@@ -19,6 +19,8 @@ page_sections:
   background_image_toggle: false
   image: ''
   font_weight: light
+  image_css: ''
+  caption_css: ''
 - template: block-media-row
   block: media-row
   row_alignment: between
@@ -53,7 +55,7 @@ page_sections:
   align_y: ''
   margin_left: ''
   margin_right: 5%
-  title_margin_left: "-95%"
+  title_margin_left: "-90%"
   title_margin_right: ''
   meta_align: right
 - template: block-media-row
