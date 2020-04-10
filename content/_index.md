@@ -6,19 +6,19 @@ page_sections:
 - template: block-media-text
   block: media-text
   text_size: 6xl
-  text_tracking: wider
+  text_tracking: widest
   width: '50'
   align_y: end
   margin_y: '200'
   margin_left: 50%
   margin_right: 0%
-  text: SELECTED WORKS
+  text: _SELECTED WORKS_
   text_color: "#EDDDDE"
   parallax: true
   background_color: ''
   background_image_toggle: false
   image: ''
-  font_weight: semibold
+  font_weight: light
 - template: block-media-row
   block: media-row
   row_alignment: between
