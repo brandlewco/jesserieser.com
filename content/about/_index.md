@@ -49,7 +49,7 @@ page_sections:
   width: '33'
   align_x: start
   margin_y: '50'
-  title_margin_left: "-95%"
+  title_margin_left: 30%
   image: https://jesserieser.brandlew.co/uploads/bio-5.jpg
   title: Awards
   color: "#9DC2BE"
@@ -203,9 +203,13 @@ page_sections:
     url: ''
   margin_x: 5%
   block-list: ''
+  align_y: ''
+  margin_left: ''
+  margin_right: ''
+  title_margin_right: ''
 - template: block-modal-list
   block: modal-list
-  width: '40'
+  width: '33'
   align_x: end
   margin_y: '100'
   title: Press
@@ -518,6 +522,14 @@ page_sections:
     url: ''
   margin_x: 5%
   block-list: ''
+  align_y: ''
+  margin_left: ''
+  margin_right: ''
+  title_margin_left: ''
+  title_margin_right: 45%
+- template: block-media-row
+  block: media-row
+  row_alignment: between
 - template: block-media-text
   block: media-text
   text_tracking: widest
@@ -610,6 +622,11 @@ page_sections:
     url: ''
   margin_x: 5%
   margin_y: '50'
+  align_y: ''
+  margin_left: ''
+  margin_right: ''
+  title_margin_left: ''
+  title_margin_right: ''
 header_col_1: "### Advertising & Editorial\n\n### Commissions\n\nEcho Hopkins  \n[echo@andersonhopkins.com](mailto:echo@andersonhopkins.com)
   \ \n  \nHannah Marchetto   \n[hannah@andersonhopkins.com](mailto:hannah@andersonhopkins.com)\n\n
   \ \n[Anderson Hopkins ](https://www.andersonhopkins.com)  \n70 Lafayette Street,
@@ -623,7 +640,7 @@ header_col_3: "### Stock \n\n### Licensing\n\n[Gallery Stock](https://www.galler
   \ \n190 Bowery   \nNew York, NY 10012  \n[212 219 7520](tel:+12122197520 \"212 219
   7520\")  \n[newyork@gallerystock.com](mailto:newyork@gallerystock.com \"newyork@gallerystock.com\")\n\n
   \ \n[Paris](PARIS@GALLERYSTOCK.COM)  \n[Munich](MUNICH@GALLERYSTOCK.COM)  \n[Sydney](HELLO@SNAPPERIMAGES.COM)"
-row_alignment: ''
+row_alignment: between
 
 ---
 ## Click the collections link above to preview collections.
