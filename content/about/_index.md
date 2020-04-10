@@ -535,8 +535,8 @@ page_sections:
   text_tracking: widest
   width: '40'
   align_y: center
-  margin_y: '100'
-  margin_left: 20%
+  margin_y: '0'
+  margin_left: 10%
   margin_right: 0%
   background_color: "#50E3C2"
   text: |-
@@ -621,7 +621,7 @@ page_sections:
     icon: ''
     url: ''
   margin_x: 5%
-  margin_y: '50'
+  margin_y: '200'
   align_y: ''
   margin_left: ''
   margin_right: 5%

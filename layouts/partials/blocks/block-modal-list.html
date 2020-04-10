@@ -1,7 +1,7 @@
 <section class="block-hover relative self-start {{with .Section.align_y}}sm:self-{{.}}{{end}} w-full {{with .Section.width}}sm:w-{{.}}/100{{end}} mt-4 {{with .Section.margin_y}}sm:mt-{{.}}{{end}} ml-0 {{with .Section.margin_left}}sm:ml-{{.}}{{end}} mr-0 {{with .Section.margin_right}}sm:mr-{{.}}{{end}} highlight rellax-wrapper">
-    <button type="button" class="inner-popup-trigger flex flex-col relative w-full" data-inner-popup-trigger="{{.Section.caption | lower}}">
+    <button type="button" class="inner-popup-trigger flex flex-col relative w-full" data-inner-popup-trigger="{{.Section.title | lower}}">
     <figure class="figure relative" style="background: {{with .Section.color}}{{.}}{{else}}{{.Page.Params.theme_color}}{{end}};" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" data-sal="image">
-        <img class="lazyload" src="{{ .Section.image }}?nf_resize=fit&w=1024" data-src="{{ .Section.image }}?nf_resize=fit&w=1024" alt="{{ .Section.caption }}"/>
+        <img class="lazyload" src="{{ .Section.image }}?nf_resize=fit&w=1024" data-src="{{ .Section.image }}?nf_resize=fit&w=1024" alt="{{ .Section.title }}"/>
       {{ if .Section.title }}
       <figcaption class="absolute w-100 z-10 rellax px-4 sm:px-auto sm:ml-0 mb-0" style="pointer-events:none; bottom: 35%; {{with .Section.title_margin_left}}margin-left:{{.}};{{end}} {{with .Section.title_margin_right}}margin-right:{{.}};{{end}}" data-rellax-speed="3" data-rellax-percentage="0">
         <h2 class="text-white sm:text-black uppercase text-4xl sm:text-6xl tracking-widest font-semibold">{{ .Section.title }}</h2>
@@ -11,9 +11,9 @@
   </button>
 </section>
 
-<div class="popup-modal fixed z-50 text-white overflow-y-scroll h-full w-full inset-0" style="background: {{ .Section.color }};" data-inner-popup-modal="{{.Section.caption | lower}}">
+<div class="popup-modal fixed z-50 text-white overflow-y-scroll h-full w-full inset-0" style="background: {{ .Section.color }};" data-inner-popup-modal="{{.Section.title | lower}}">
   <header class="flex flex-row justify-between p-4">
-    <div class="text-xl uppercase font-medium">{{ .Section.caption }}</div>
+    <div class="text-xl uppercase font-medium">{{ .Section.title }}</div>
     <div>
       <svg class="icon pointer h-8 w-8 m-4 absolute top-0 right-0 text-white popup-modal__close"><use xlink:href="#close"></use></svg>
     </div>
