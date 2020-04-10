@@ -51,7 +51,7 @@ page_sections:
   margin_y: '50'
   title_margin_left: "-95%"
   image: https://jesserieser.brandlew.co/uploads/bio-5.jpg
-  caption: Awards
+  title: Awards
   color: "#9DC2BE"
   modal_block:
   - template: popup-text-element
@@ -208,7 +208,7 @@ page_sections:
   width: '40'
   align_x: end
   margin_y: '100'
-  caption: Press
+  title: Press
   image: https://jesserieser.brandlew.co/uploads/bio-3.jpg
   color: "#FE9A8E"
   modal_block:
@@ -550,7 +550,7 @@ page_sections:
   width: '50'
   align_x: start
   image: https://jesserieser.brandlew.co/uploads/antivaxx-11.jpg
-  caption: Exhibitions
+  title: Exhibitions
   color: "#F7BD1E"
   modal_block:
   - template: popup-text-element
