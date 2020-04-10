@@ -219,8 +219,24 @@ fields:
 - name: parallax
   type: boolean
   label: Parallax
-- name: css
-  type: text
+- name: image_css
+  type: textarea
+  default: ''
   config:
     required: false
-  label: CSS
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Image CSS
+  showOnly:
+    field: background_image_toggle
+    value: true
+- name: caption_css
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Caption CSS
