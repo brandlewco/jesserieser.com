@@ -39,8 +39,8 @@ page_sections:
   background_image_toggle: true
   image: https://jesserieser.brandlew.co/uploads/bio-4.jpg
   font_weight: ''
-  image_css: 'transform: rotate(-10deg);'
-  caption_css: 'margin-left: -30%;'
+  image_css: 'transform: rotate(-2deg);'
+  caption_css: 'margin-left: -40%;'
 - template: block-media-row
   block: media-row
   row_alignment: between
