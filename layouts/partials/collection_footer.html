@@ -1,5 +1,36 @@
 <section id="project-next" class="mt-32 p-8 xl:p-16 {{if (eq .Params.collection_archive true) }}text-white{{end}}">
     <nav class="mx-auto flex flex-row justify-between">
+    <!-- RUN RANGE JUST FOR LAST ITEM IN COLLECTION TO COMPLETE PAGER LOOP -->
+    <!-- {{ $currentPage := .Permalink }}
+    {{ range .Site.Data.categories}}
+    {{ range last 1 .collection_sorter}}
+    {{ with $.Site.GetPage . }} 
+    {{ if eq .Params.collection_archive false }}
+    {{ if eq $currentPage .Permalink }}
+    <a href="{{ .Permalink }}" id="current" class="hidden">CURRENT PAGE</a>
+    {{else}}
+    <a href="{{ .Permalink }}" class="hidden" alt="{{ .Title }}">
+        <div class="flex flex-row text-left items-center">
+            <div class="arrow text-6xl font-thin pr-4">
+                &#8249;
+            </div>
+            <div class="pager-title">
+                <div class="text-2xl block font-bold font-light">
+                    {{ .Title }}
+                </div>
+                <div class="text-xl block font-normal font-base leading-relaxed text-left ">
+                    {{.Params.collection_meta}}
+                </div>
+            </div>
+        </div>
+    </a>
+    {{ end }}
+    {{ end }}
+    {{ end }}
+    {{ end }}
+    {{ end }} -->
+
+    <!-- RUN RANGE OF EVERY COLLECTION - NO ARCHIVES -->
     {{ $currentPage := .Permalink }}
     {{ range .Site.Data.categories}}
     {{ range .collection_sorter}}
@@ -29,6 +60,7 @@
     {{ end }}
     {{ end }}
 
+    <!-- RUN RANGE OF ARCHIVE -->
     {{ range .Site.Data.categories}}
     {{ range .collection_sorter}}
     {{ with $.Site.GetPage . }} 
@@ -56,6 +88,36 @@
     {{ end }}
     {{ end }}
     {{ end }}
+
+    <!-- RUN RANGE JUST FOR FIRST ITEM IN COLLECTION TO COMPLETE PAGER LOOP -->
+    <!-- {{ $currentPage := .Permalink }}
+    {{ range .Site.Data.categories}}
+    {{ range first 1 .collection_sorter}}
+    {{ with $.Site.GetPage . }} 
+    {{ if eq .Params.collection_archive false }}
+    {{ if eq $currentPage .Permalink }}
+    <a href="{{ .Permalink }}" id="current" class="hidden">CURRENT PAGE</a>
+    {{else}}
+    <a href="{{ .Permalink }}" class="hidden" alt="{{ .Title }}">
+        <div class="flex flex-row text-left items-center">
+            <div class="arrow text-6xl font-thin pr-4">
+                &#8249;
+            </div>
+            <div class="pager-title">
+                <div class="text-2xl block font-bold font-light">
+                    {{ .Title }}
+                </div>
+                <div class="text-xl block font-normal font-base leading-relaxed text-left ">
+                    {{.Params.collection_meta}}
+                </div>
+            </div>
+        </div>
+    </a>
+    {{ end }}
+    {{ end }}
+    {{ end }}
+    {{ end }}
+    {{ end }} -->
     </nav>
 
     <!-- {{ with .PrevInSection }}

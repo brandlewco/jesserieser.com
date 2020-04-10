@@ -499,11 +499,15 @@ function init() {
   window.__forceSmoothScrollPolyfill__ = true;
   smoothscroll.polyfill();
 
-  var currentPage = document.getElementById("current");
-  currentPage.previousElementSibling.classList.remove("hidden");
-  currentPage.previousElementSibling.classList.add("visible","collection-prev");
-  currentPage.nextElementSibling.classList.remove("hidden");
-  currentPage.nextElementSibling.classList.add("visible","collection-next");
+  if (document.querySelector("#current")) {
+    var currentPage = document.getElementById("current");
+
+    currentPage.previousElementSibling.classList.remove("hidden");
+    currentPage.previousElementSibling.classList.add("visible", "collection-prev");
+
+    currentPage.nextElementSibling.classList.remove("hidden");
+    currentPage.nextElementSibling.classList.add("visible", "collection-next");
+  }
 
 }
 
