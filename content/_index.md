@@ -18,6 +18,9 @@ page_sections:
   background_color: ''
   background_image_toggle: false
   image: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: between
 - template: block-media-feature
   block: media-feature
   width: '20'
