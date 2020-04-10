@@ -14,12 +14,12 @@ navigation_theme: white
 page_sections:
 - template: block-media-text
   block: media-text
-  text_size: sm
-  text_tracking: tighter
-  width: '40'
+  text_size: normal
+  text_tracking: loose
+  width: '50'
   align_y: start
   margin_y: '50'
-  margin_left: 20%
+  margin_left: 40%
   margin_right: 0%
   text: "**MY NAME IS JESSE RIESER  \nAND I AM A STUDENT OF SUBTLETIES.**\n\nSince
     I was 17 I have been looking through a lens, making images filed with telling
