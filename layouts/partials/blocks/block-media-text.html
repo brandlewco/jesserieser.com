@@ -6,7 +6,7 @@
         {{ .Section.text | markdownify }}
       </figcaption>
       {{else}}
-      <figcaption class="break-words {{with .Section.text_size }}text-{{.}}{{end}} {{with .Section.text_tracking}}tracking-{{.}}{{end}} {{with .Section.parallax}}rellax{{end}} {{with .Section.background_color}} p-4{{end}}" {{with .Section.parallax}}data-rellax-speed="2" data-rellax-percentage="0"{{end}} style="{{with .Section.text_color}}color:{{.}}; {{end}}{{with .Section.background_color}}background-color:{{.}};{{end}}">
+      <figcaption class="break-words {{with .Section.font_weight }}font-{{.}}{{end}} {{with .Section.text_size }}text-{{.}}{{end}} {{with .Section.text_tracking}}tracking-{{.}}{{end}} {{with .Section.parallax}}rellax{{end}} {{with .Section.background_color}} p-4{{end}}" {{with .Section.parallax}}data-rellax-speed="2" data-rellax-percentage="0"{{end}} style="{{with .Section.text_color}}color:{{.}}; {{end}}{{with .Section.background_color}}background-color:{{.}};{{end}}">
         {{ .Section.text | markdownify }}
       </figcaption>
       {{end}}
