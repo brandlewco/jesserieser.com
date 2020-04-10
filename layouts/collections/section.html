@@ -26,7 +26,7 @@
             {{ end }}
             {{ end }}
             <!-- <div class="filter-item w-screen filter-archive {{range $.Site.Data.categories.categories.categories}}{{. | replaceRE "[\\W]" "" | lower}} {{end}} personal commissionedstock all active" data-filter="{{range $.Site.Data.categories.categories.categories}}{{. | replaceRE "[\\W]" "" | lower}},{{end}},all,personal,commissionedstock"></div> -->
-            <div class="filter-item w-screen filter-archive {{range $.Site.Data.categories.categories.categories}}{{. | replaceRE "[\\W]" "" | lower}} {{end}} personal commissionedstock all active"  data-filter="{{range $.Site.Data.categories.categories.categories}}{{. | replaceRE "[\\W]" ""| lower}},{{end}},all,personal,commissionedstock">
+            <div id="filter-archive" class="filter-item w-screen filter-archive {{range $.Site.Data.categories.categories.categories}}{{. | replaceRE "[\\W]" "" | lower}} {{end}} personal commissionedstock all active"  data-filter="{{range $.Site.Data.categories.categories.categories}}{{. | replaceRE "[\\W]" ""| lower}},{{end}},all,personal,commissionedstock">
                 <h1 class="p-4 text-lg text-white font-bold">ARCHIVE</h1>
             </div>
             <!-- {{ range where (where .Pages.ByDate ".Params.collection_archive" "=" true) ".Params.collection_hidden" "!=" true}}

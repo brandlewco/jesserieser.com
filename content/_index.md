@@ -13,11 +13,11 @@ page_sections:
   color: "#4A4A4A"
   attached_collection: collections/addidas.md
   meta: Crazy Explosive Primeknit
-  margin_x: 5%
+  margin_x: 15%
   align_y: ''
-  margin_left: ''
+  margin_left: 10%
   margin_right: ''
-  title_margin_left: ''
+  title_margin_left: '50%'
   title_margin_right: ''
   meta_align: ''
 - template: block-media-feature
@@ -33,8 +33,8 @@ page_sections:
   margin_x: ''
   align_y: ''
   margin_left: ''
-  margin_right: ''
-  title_margin_left: "-85%"
+  margin_right: '5%'
+  title_margin_left: "-95%"
   title_margin_right: ''
   meta_align: right
 - template: block-media-row
@@ -65,7 +65,7 @@ page_sections:
   margin_y: '400'
   title: ''
   image: ''
-  color: "#FFF59A"
+  color: "#fde25e"
   attached_blog: posts/test-blog-posts.md
   align_y: ''
   margin_left: ''

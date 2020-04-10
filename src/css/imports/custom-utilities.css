@@ -284,6 +284,10 @@ a.collection-next .arrow {
   transform: scaleX(-1);
 }
 
+#project-brief a, #about-description a {
+  text-decoration: underline;
+}
+
 /* Filters */
 #filters {
   top: 0px;
@@ -313,7 +317,7 @@ a.collection-next .arrow {
   opacity: 1;
 }
 
-#filter-error, #all, #all-divide {
+#filter-error, #filter-archive, #all, #all-divide {
   transition: 0.3s opacity linear;
   will-change: opacity;
   opacity: 0;
