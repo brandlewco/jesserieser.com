@@ -57,6 +57,24 @@ fields:
     - 6xl
   label: Text Size
   default: 2xl
+- name: font_weight
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - hairline
+    - light
+    - normal
+    - semibold
+    - bold
+    - extrabold
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Font Weight
 - type: select
   name: text_tracking
   config:
