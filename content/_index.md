@@ -5,12 +5,12 @@ date: 2017-11-01T23:00:00.000+00:00
 page_sections:
 - template: block-media-text
   block: media-text
-  text_size: 2xl
+  text_size: 6xl
   text_tracking: normal
-  width: '30'
+  width: '50'
   align_y: end
-  margin_y: '50'
-  margin_left: 0%
+  margin_y: '200'
+  margin_left: 50%
   margin_right: 0%
   text: SELECTED WORKS
   text_color: "#000000"
@@ -25,7 +25,7 @@ page_sections:
   block: media-feature
   width: '20'
   align_x: end
-  margin_y: '100'
+  margin_y: '0'
   image: https://jesserieser.brandlew.co/uploads/primeknit-10.jpg
   title: ADIDAS
   color: "#4A4A4A"
