@@ -53,6 +53,7 @@ width = "40"
 [[collection_layout_builder]]
 align_y = "start"
 block = "media-element"
+color = "#CDB882"
 image = "https://jesserieser.brandlew.co/uploads/timeGC-17-1.jpg"
 margin_left = "0%"
 margin_right = "10%"
