@@ -219,3 +219,8 @@ fields:
 - name: parallax
   type: boolean
   label: Parallax
+- name: css
+  type: text
+  config:
+    required: false
+  label: CSS
