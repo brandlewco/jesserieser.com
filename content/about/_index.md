@@ -16,7 +16,7 @@ page_sections:
   block: media-text
   text_size: ''
   text_tracking: ''
-  width: '50'
+  width: '33'
   align_y: start
   margin_y: '100'
   margin_left: 40%
@@ -46,9 +46,11 @@ page_sections:
   row_alignment: between
 - template: block-modal-list
   block: modal-list
-  width: '33'
+  width: '20'
   align_x: start
   margin_y: '50'
+  margin_left: 15%
+  margin_right: 0%
   title_margin_left: 30%
   image: https://jesserieser.brandlew.co/uploads/bio-5.jpg
   title: Awards
@@ -204,7 +206,7 @@ page_sections:
   margin_x: 5%
   block-list: ''
   align_y: ''
-  margin_left: ''
+  margin_left: '15%'
   margin_right: ''
   title_margin_right: ''
 - template: block-modal-list
@@ -524,9 +526,9 @@ page_sections:
   block-list: ''
   align_y: ''
   margin_left: ''
-  margin_right: ''
-  title_margin_left: ''
-  title_margin_right: 45%
+  margin_right: 10%
+  title_margin_left: '-30%'
+  title_margin_right: ''
 - template: block-media-row
   block: media-row
   row_alignment: between
@@ -535,7 +537,7 @@ page_sections:
   text_tracking: widest
   width: '40'
   align_y: center
-  margin_y: '50'
+  margin_y: '100'
   margin_left: 20%
   margin_right: 0%
   background_color: "#50E3C2"
@@ -550,7 +552,7 @@ page_sections:
 
     Lead Print Producer RPA Los Angeles
   parallax: true
-  text_size: lg
+  text_size: xl
   background_image_toggle: false
   image: ''
   text_color: ''
@@ -559,7 +561,7 @@ page_sections:
   caption_css: ''
 - template: block-modal-list
   block: modal-list
-  width: '50'
+  width: '33'
   align_x: start
   image: https://jesserieser.brandlew.co/uploads/antivaxx-11.jpg
   title: Exhibitions
