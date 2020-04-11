@@ -70,6 +70,11 @@
 	Background is added as a separate element.
 	As animating opacity is much faster than animating rgba() background-color.
 */
+body.archive .pswp__bg {
+  background: rgba(0,0,0,1);
+}
+
+
 .pswp__bg {
   will-change: transform;
   position: absolute;

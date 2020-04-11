@@ -200,6 +200,10 @@ img.lazyload {
   opacity: 0;
 }
 
+body.archive #project-header {
+  background-color: #000 !important;
+}
+
 
 .block-hover img {
   transition-delay: 0s;
