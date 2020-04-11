@@ -48,7 +48,7 @@ page_sections:
   block: modal-list
   width: '20'
   align_x: start
-  margin_y: '50'
+  margin_y: '200'
   margin_left: 15%
   margin_right: ''
   title_margin_left: 30%
@@ -211,7 +211,7 @@ page_sections:
   block: modal-list
   width: '33'
   align_x: end
-  margin_y: '100'
+  margin_y: '300'
   title: Press
   image: https://jesserieser.brandlew.co/uploads/bio-3.jpg
   color: "#FE9A8E"
@@ -533,10 +533,10 @@ page_sections:
 - template: block-media-text
   block: media-text
   text_tracking: widest
-  width: '40'
+  width: '33'
   align_y: center
   margin_y: '0'
-  margin_left: 10%
+  margin_left: 5%
   margin_right: 0%
   background_color: "#50E3C2"
   text: |-
@@ -625,8 +625,8 @@ page_sections:
   align_y: ''
   margin_left: ''
   margin_right: 5%
-  title_margin_left: ''
-  title_margin_right: 80%
+  title_margin_left: '-55%'
+  title_margin_right: ''
 header_col_1: "### Advertising & Editorial\n\n### Commissions\n\nEcho Hopkins  \n[echo@andersonhopkins.com](mailto:echo@andersonhopkins.com)
   \ \n  \nHannah Marchetto   \n[hannah@andersonhopkins.com](mailto:hannah@andersonhopkins.com)\n\n
   \ \n[Anderson Hopkins ](https://www.andersonhopkins.com)  \n70 Lafayette Street,

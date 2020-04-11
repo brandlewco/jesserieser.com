@@ -14,39 +14,9 @@ import smoothscroll from "smoothscroll-polyfill";
 import sal from "sal.js";
 import Rellax from "rellax";
 
-// Page Loader (SWUP)
-// const options = {
-//   containers: ["#content"],
-//   plugins: [
-//     new SwupScrollPlugin({
-//       animateScroll: false,
-//       scrollFriction: 0.4,
-//       scrollAcceleration: 0.04,
-//       doScrollingRightAway: false
-//     }),
-//     new SwupGaPlugin(),
-//     new SwupPreloadPlugin(),
-//     new SwupBodyClassPlugin(),
-//     new SwupScriptsPlugin({
-//       head: false,
-//       body: false
-//     })
-//   ],
-//   animateHistoryBrowsing: true,
-//   preload: true,
-//   cache: true,
-//   linkSelector: 'a[href^="' + window.location.origin + '"]:not([data-no-swup]), a[href^="/"]:not([data-no-swup]), a[href^="#"]:not([data-no-swup])',
-//   skipPopStateHandling: function(event) {
-//     if (event.state && event.state.source === "swup") {
-//       return false;
-//     }
-//     return true;
-//   }
-// };
-// const swup = new Swup(options);
+lazySizes.cfg.expand = "1000";
 
 
-// swup.on("contentReplaced", init);
 function init() {
   // MIDDAY
   const middayNav = new Midday(document.getElementById("navigation"), {
@@ -55,10 +25,12 @@ function init() {
     sectionSelector: "hue"
   });
 
+  // middayNav.refresh();
+
   // Sal Animations
   var scrollAnimations = sal({
     once: false,
-    threshold: 0.33,
+    threshold: 0.4,
   });
 
   // Parellax
@@ -74,13 +46,14 @@ function init() {
 
   if (document.querySelector(".rellax")) {
     rellax.refresh();
-
     window.addEventListener("scroll", function() {
       rellax.refresh();
     });
   }
+
   // PhotoSwipe
   if (document.querySelector("#gallery")) {
+    const figureIMG = document.querySelectorAll(".figure img");
     var initPhotoSwipeFromDOM = function(gallerySelector) {
       // parse slide data (url, title, size ...) from DOM elements
       // (children of gallerySelector)
@@ -90,7 +63,7 @@ function init() {
           items = [],
           figureEl,
           linkEl,
-          size,
+          // size,
           imgEl,
           item;
 
@@ -106,8 +79,7 @@ function init() {
           linkEl = figureEl.children[0]; // <a> element
           imgEl = linkEl.children[0]; // <img>
 
-          size = linkEl.getAttribute("data-size");
-          size = size && size.split("x");
+          // size = linkEl.getAttribute("data-size").split("x");
 
           // create slide object
           item = {
@@ -125,7 +97,7 @@ function init() {
 
           if (linkEl.children.length > 0) {
             // <img> thumbnail element, retrieving thumbnail url
-            item.msrc = linkEl.children[0].getAttribute("src");
+            item.msrc = item.src;
           }
 
           item.el = figureEl; // save link to element for getThumbBoundsFn
@@ -142,6 +114,7 @@ function init() {
 
       // triggers when user clicks on thumbnail
       var onThumbnailsClick = function(e) {
+        navigation.classList.add("opacity-0");
         e = e || window.event;
         e.preventDefault ? e.preventDefault() : e.returnValue = false;
 
@@ -224,10 +197,10 @@ function init() {
           // define gallery index (for URL)
           galleryUID: galleryElement.getAttribute("data-pswp-uid"),
           history: false,
-          bgOpacity: 0.5,
+          bgOpacity: 0.85,
           closeOnScroll: false,
           closeOnVerticalDrag: false,
-          preload: [4, 4],
+          preload: [2, 3],
           loadingIndicatorDelay: 100,
           getThumbBoundsFn: function(index) {
             // See Options -> getThumbBoundsFn section of documentation for more info
@@ -240,7 +213,7 @@ function init() {
           fullscreenEl: false,
           zoomEl: false,
           shareEl: false,
-          indexIndicatorSep: " of ",
+          indexIndicatorSep: " / ",
 
         };
 
@@ -274,23 +247,23 @@ function init() {
 
         // Pass data to PhotoSwipe and initialize it
         gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
-        gallery.listen("imageLoadComplete", function(index, item) {
-          if (item.h < 1 || item.w < 1) {
-            const img = new Image();
-            img.onload = () => {
-              item.w = img.width;
-              item.h = img.height;
-              gallery.invalidateCurrItems();
-              gallery.updateSize(true);
-            };
-            img.src = item.src;
-          }
-        });
+        // gallery.listen("imageLoadComplete", function(index, item) {
+        //   if (item.h < 1 || item.w < 1) {
+        //     const img = new Image();
+        //     img.onload = () => {
+        //       item.w = img.width;
+        //       item.h = img.height;
+        //       gallery.invalidateCurrItems();
+        //       gallery.updateSize(true);
+        //     };
+        //     img.src = item.src;
+        //   }
+        // });
         gallery.listen("afterChange", function() {
           Element.prototype.documentOffsetTop = function() {
             return this.offsetTop + (this.offsetParent ? this.offsetParent.documentOffsetTop() : 0);
           };
-          window.topPos = document.getElementById(gallery.currItem.el.id).documentOffsetTop() - (window.innerHeight / 2);
+          var topPos = document.getElementById(gallery.currItem.el.id).documentOffsetTop() - (window.innerHeight / 2);
           window.scrollTo({
             top: topPos,
             left: 0,
@@ -299,12 +272,13 @@ function init() {
           // document.getElementById(gallery.currItem.el.id).scrollIntoView({behavior: "smooth", block: "nearest", inline: "start"});
         });
         gallery.listen("close", function() {
+          var topPos = document.getElementById(gallery.currItem.el.id).documentOffsetTop() - (window.innerHeight / 2);
           window.scrollTo({
             top: topPos,
             left: 0,
             behavior: "smooth"
           });
-          console.log(topPos);
+          navigation.classList.remove("opacity-0");
         });
         gallery.init();
       };
@@ -331,7 +305,6 @@ function init() {
   document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     anchor.addEventListener("click", function(e) {
       e.preventDefault();
-
       document.querySelector(this.getAttribute("href")).scrollIntoView({
         behavior: "smooth"
       });
@@ -344,30 +317,51 @@ function init() {
   }
   removeActive();
 
-
   // Modal
   const modalTriggers = document.querySelectorAll(".popup-trigger");
-  const modalCloseTrigger = document.querySelector(".popup-modal__close");
   const bodyPopup = document.querySelector(".body-popup");
 
   modalTriggers.forEach((trigger) => {
+    const {popupTrigger} = trigger.dataset;
+    const popupModal = document.querySelector(`[data-popup-modal="${popupTrigger}"]`);
     trigger.addEventListener("click", () => {
-      const {popupTrigger} = trigger.dataset;
-      const popupModal = document.querySelector(`[data-popup-modal="${popupTrigger}"]`);
-
+      navigation.classList.add("opacity-0");
+      scrollLock();
+      // document.body.style.overflowY = "hidden";
       popupModal.classList.add("is--visible");
       bodyPopup.classList.add("is-poped-out");
-
-      popupModal.querySelector(".popup-modal__close").addEventListener("click", () => {
-        popupModal.classList.remove("is--visible");
-        bodyPopup.classList.remove("is-poped-out");
+      popupModal.addEventListener("scroll", function() {
+        rellax.refresh();
       });
+    });
+    popupModal.querySelector(".popup-modal__close").addEventListener("click", () => {
+      scrollUnlock();
+      // document.body.style.overflowY = "auto";
+      navigation.classList.remove("opacity-0");
+      popupModal.classList.remove("is--visible");
+      bodyPopup.classList.remove("is-poped-out");
+    });
 
-      bodyPopup.addEventListener("click", () => {
-      // TODO: Turn into a function to close modal
-        popupModal.classList.remove("is--visible");
-        bodyPopup.classList.remove("is-poped-out");
-      });
+    bodyPopup.addEventListener("click", () => {
+      // scrollUnlock();
+      navigation.classList.remove("opacity-0");
+      // document.body.style.overflowY = "auto";
+      popupModal.classList.remove("is--visible");
+      bodyPopup.classList.remove("is-poped-out");
+    });
+  });
+
+  // Inner Modal
+  const innerModalTriggers = document.querySelectorAll(".inner-popup-trigger");
+
+  innerModalTriggers.forEach((trigger) => {
+    const {innerPopupTrigger} = trigger.dataset;
+    const innerPopupModal = document.querySelector(`[data-inner-popup-modal="${innerPopupTrigger}"]`);
+    trigger.addEventListener("click", () => {
+      innerPopupModal.classList.add("is--visible");
+    });
+    innerPopupModal.querySelector(".popup-modal__close").addEventListener("click", () => {
+      innerPopupModal.classList.remove("is--visible");
     });
   });
 
@@ -388,35 +382,70 @@ function init() {
     });
   });
 
+  // USE FOR BLOCK HOVER
+  const figureAll = document.querySelectorAll(".figure");
+  figureAll.forEach((figureHovered) => {
+    figureHovered.addEventListener("mouseenter", () => {
+      figureAll.forEach(function(element) {
+        element.classList.add("dimmed");
+      });
+    });
+    figureHovered.addEventListener("mouseleave", () => {
+      figureAll.forEach(function(element) {
+        element.classList.remove("dimmed");
+      });
+    });
+  });
 
+  // SCROLL FUNCTION
+  const scrollLock = () => {
+    // document.getElementById("dialog").classList.add("show");
+    const body = document.body;
+    body.style.overflowY = "hidden";
+    // body.style.position = "fixed";
+    // console.log(scrollY);
+    // body.style.top = window.scrollY;
+  };
+  const scrollUnlock = () => {
+    const body = document.body;
+    body.style.overflowY = "scroll";
+    // body.style.position = "";
+    // const body = document.body;
+    // body.style.top = window.scrollY;
+    // window.scrollTo(0, parseInt(scrollY || "0") * -1);
+    // document.getElementById("dialog").classList.remove("show");
+  };
   function value_limit(val, min, max) {
     return val < min ? min : (val > max ? max : val);
   }
 
+  const projectHeader = document.getElementById("project-header");
   // Scroll Animations
   let scrollPos = 0;
   // Show Hide Header
-  if (document.querySelector("#project-header")) {
-    navigation.classList.add("mt-0");
-    navigation.classList.remove("mt-neg");
-  }
+  // if (document.body.contains(projectHeader)) {
+  //   navigation.style.transform = "translate3d(0, 0, 0)";
+  // }
   window.onscroll = function() {
+    document.documentElement.style.setProperty("--scroll-y", `${window.scrollY}px`);
     var headerOverlay = document.getElementById("header-overlay");
+    var featureOverlay = document.getElementById("feature-overlay");
     var pageTitle = document.getElementById("page-title");
     var height = window.innerHeight;
     var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
     if (headerOverlay) {
       headerOverlay.style.opacity = value_limit((scrollTop / (height * 0.5)), 0, 1).toFixed(2);
     }
+    if (featureOverlay) {
+      featureOverlay.style.opacity = value_limit((scrollTop / (height * 0.9)), 0, 1).toFixed(2);
+    }
     const windowY = window.scrollY;
-    if (document.querySelector("#project-header")) {
+    if (document.body.contains(projectHeader)) {
       if (windowY > (window.innerHeight * 0.75)) {
         if (windowY < scrollPos) {
-          navigation.classList.add("mt-0");
-          navigation.classList.remove("mt-neg");
+          navigation.style.transform = "translate3d(0, 0, 0)";
         } else {
-          navigation.classList.add("mt-neg");
-          navigation.classList.remove("mt-0");
+          navigation.style.transform = "translate3d(0, -200%, 0)";
         }
       }
     }
@@ -437,23 +466,19 @@ function init() {
   window.__forceSmoothScrollPolyfill__ = true;
   smoothscroll.polyfill();
 
+  if (document.querySelector("#current")) {
+    var currentPage = document.getElementById("current");
 
-  // var modalLoad = document.querySelectorAll("modal_open");
+    currentPage.previousElementSibling.classList.remove("hidden");
+    currentPage.previousElementSibling.classList.add("visible", "collection-prev");
 
-  // for (var i = 0, l = modalLoad.length; i < l; i++) {
-  //   // modalLoad[i].setAttribute("data-pswp-uid", i + 1);
-  //   swup.loadPage({
-  //     url: "/someRoute",
-  //     method: "GET",
-  //     data: "html",
-  //     customTransition: "form-results"
-  // }); 
-  // }
+    currentPage.nextElementSibling.classList.remove("hidden");
+    currentPage.nextElementSibling.classList.add("visible", "collection-next");
+  }
+
 }
-
 
 // intit code on each page load
 init();
-
 
 import "./css/main.css";
