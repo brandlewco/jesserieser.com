@@ -317,10 +317,16 @@ a.collection-next .arrow {
   opacity: 1;
 }
 
-#filter-error, #filter-archive, #all, #all-divide {
+#filter-error, #all, #all-divide {
   transition: 0.3s opacity linear;
   will-change: opacity;
   opacity: 0;
+}
+
+#filter-archive {
+  transition: 0.15s opacity linear;
+  will-change: opacity;
+  opacity: 1;
 }
 
 /* #filter .ui-check.is-checked {
@@ -359,7 +365,7 @@ a.collection-next .arrow {
   
 }
 
-.filter-archive::after {
+#filter-archive::after {
   position: absolute;
   background: #000;
   content: "";
@@ -445,15 +451,6 @@ a.collection-next .arrow {
   }
 }
 
-/* .filter-archive::after {
-  content: '';
-    height: 4000px;
-    background: #000;
-    position: absolute;
-    width: 4000px;
-    left: -400px;
-    top: 0;
-} */
 
 /* Modal Popup */
 .body-popup {
