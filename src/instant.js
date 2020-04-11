@@ -4,9 +4,10 @@
 // import SwupBodyClassPlugin from "@swup/body-class-plugin";
 // import SwupScriptsPlugin from "@swup/scripts-plugin";
 // import SwupPreloadPlugin from "@swup/preload-plugin";
-import "lazysizes";
+import lazySizes from "lazysizes";
 import "lazysizes/plugins/unveilhooks/ls.unveilhooks";
 import "lazysizes/plugins/bgset/ls.bgset";
+import "lazysizes/plugins/parent-fit/ls.parent-fit";
 import * as PhotoSwipe from "photoswipe";
 import * as PhotoSwipeUI_Default from "photoswipe/dist/photoswipe-ui-default";
 import Midday from "midday.js";
