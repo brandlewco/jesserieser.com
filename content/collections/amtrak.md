@@ -303,5 +303,23 @@ margin_left = "20%"
 margin_y = "100"
 template = "block-media-element"
 width = "60"
+[[collection_layout_builder]]
+align_y = "start"
+block = "media-element"
+image = "https://jesserieser.brandlew.co/uploads/ttx-6b-single.jpg"
+margin_left = "0%"
+margin_right = "0%"
+margin_y = "50"
+template = "block-media-element"
+width = "33"
+[[collection_layout_builder]]
+align_y = "start"
+block = "media-element"
+image = "https://jesserieser.brandlew.co/uploads/ttx-6c-single.jpg"
+margin_left = "0%"
+margin_right = "0%"
+margin_y = "50"
+template = "block-media-element"
+width = "33"
 
 +++
