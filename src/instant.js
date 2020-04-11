@@ -1,9 +1,9 @@
-// import Swup from "swup";
-// import SwupScrollPlugin from "@swup/scroll-plugin";
-// import SwupGaPlugin from "@swup/ga-plugin";
-// import SwupBodyClassPlugin from "@swup/body-class-plugin";
-// import SwupScriptsPlugin from "@swup/scripts-plugin";
-// import SwupPreloadPlugin from "@swup/preload-plugin";
+import Swup from "swup";
+import SwupScrollPlugin from "@swup/scroll-plugin";
+import SwupGaPlugin from "@swup/ga-plugin";
+import SwupBodyClassPlugin from "@swup/body-class-plugin";
+import SwupScriptsPlugin from "@swup/scripts-plugin";
+import SwupPreloadPlugin from "@swup/preload-plugin";
 import lazySizes from "lazysizes";
 import "lazysizes/plugins/unveilhooks/ls.unveilhooks";
 import "lazysizes/plugins/bgset/ls.bgset";
@@ -17,6 +17,38 @@ import Rellax from "rellax";
 
 lazySizes.cfg.expand = "1000";
 
+// Page Loader (SWUP)
+const options = {
+  containers: ["#navigation", "#content"],
+  plugins: [
+    new SwupScrollPlugin({
+      animateScroll: false,
+      scrollFriction: 0.4,
+      scrollAcceleration: 0.04,
+      doScrollingRightAway: false
+    }),
+    new SwupGaPlugin(),
+    new SwupPreloadPlugin(),
+    new SwupBodyClassPlugin(),
+    new SwupScriptsPlugin({
+      head: false,
+      body: false
+    })
+  ],
+  animateHistoryBrowsing: true,
+  preload: true,
+  cache: true,
+  linkSelector: 'a[href^="' + window.location.origin + '"]:not([data-no-swup]), a[href^="/"]:not([data-no-swup]), a[href^="#"]:not([data-no-swup])',
+  skipPopStateHandling: function(event) {
+    if (event.state && event.state.source === "swup") {
+      return false;
+    }
+    return true;
+  }
+};
+const swup = new Swup(options);
+
+swup.on("contentReplaced", init);
 
 function init() {
   // MIDDAY
