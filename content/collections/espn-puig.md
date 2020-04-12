@@ -167,6 +167,7 @@ width = "33"
 [[collection_layout_builder]]
 align_y = "start"
 block = "media-element"
+image = "https://jesserieser.brandlew.co/uploads/puig-2c-single.jpg"
 margin_left = "0%"
 margin_right = "0%"
 margin_y = "50"
