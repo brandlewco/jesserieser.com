@@ -1,6 +1,5 @@
 +++
 collection_archive = true
-collection_hidden = false
 collection_awards = []
 collection_category = ["Editorial", "Reportage", "Travel", "Color", "Sports + Athletes", "Environments", "Color"]
 collection_content = ""
@@ -8,6 +7,7 @@ collection_cover = "https://jesserieser.brandlew.co/uploads/sedona-12.jpg"
 collection_description = "Novelist and **_Interview Magazine’s_** Editor At Large, Christopher Bollen soars over Arizona’s red-rock canyons, recreating his earliest memory and confronting his greatest fear (heights) by way of a hot air balloon."
 collection_exhibition = []
 collection_filter = "Commissioned + Stock"
+collection_hidden = false
 collection_meta = "Sedona "
 collection_press = []
 collection_preview = ["https://jesserieser.brandlew.co/uploads/sedona-2.jpg", "https://jesserieser.brandlew.co/uploads/sedona-3.jpg", "https://jesserieser.brandlew.co/uploads/sedona-4.jpg", "https://jesserieser.brandlew.co/uploads/sedona-8.jpg"]
@@ -22,7 +22,7 @@ title = "United Airlines Rhapsody"
 align_x = "start"
 block = "media-element"
 caption = "caption"
-color = "#efefef"
+color = "#D28D67"
 image = "https://jesserieser.brandlew.co/uploads/sedona-3.jpg"
 margin_left = ""
 margin_right = ""
