@@ -51,7 +51,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "center"
 align_y = "center"
-background_color = "#FF0000"
+background_color = "#FFABAB"
 background_image_toggle = false
 block = "media-text"
 color = "#000000"
