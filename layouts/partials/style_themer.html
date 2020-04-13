@@ -22,7 +22,7 @@
         background-size: cover;
         background-attachment: fixed;
     }
-    body.page-{{lower .Title | urlize}} #project-header.lazyloaded {
+    body.page-{{lower .Title | urlize}} #project-header.lazyloaded { 
         background-image: url({{.Params.collection_cover }});
     } */
     body.page-{{lower .Title | urlize}} .hue-header.page .shift{
@@ -31,5 +31,16 @@
     body.page-{{lower .Title | urlize}} .pswp__ui--fit .pswp__top-bar, .pswp__ui--fit .pswp__caption  {
         background: {{.Params.theme_color}} !important;
     }
+    {{ if eq .Params.collection_archive true }}
+    {{$URL := .Permalink | safeCSS | replaceRE "/" "-"}}
+    html.to{{substr $URL 0 -1}} body {
+        background-color: #000;
+    }
+    {{ else }}
+    {{$URL := .Permalink | safeCSS | replaceRE "/" "-"}}
+    html.to{{substr $URL 0 -1}} body {
+        background-color: {{.Params.theme_color}};
+    }
+    {{ end }}
 {{end}}
 </style>

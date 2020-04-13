@@ -10,7 +10,7 @@
   <h6 class="mb-0 ml-0 text-black uppercase tracking-widest">{{range $key.Params.news_category}}{{. | replaceRE "[\\W]" "" | lower}} {{end}}</h6>
 </section>
 
-<div class="popup-modal fixed z-100 text-white overflow-hidden h-full w-full inset-0 bg-white" data-popup-modal="{{$key.Params.title | lower | urlize}}">
+<div class="popup-modal fixed z-100 text-white overflow-hidden h-full w-full inset-0 bg-white overflow-y-scroll" data-popup-modal="{{$key.Params.title | lower | urlize}}">
   <header class="flex flex-row justify-between p-4">
     <div class="text-xl uppercase font-medium text-center text-black">{{$key.Params.title}}</div>
     <div class="cursor-pointer">

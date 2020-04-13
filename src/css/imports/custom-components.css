@@ -57,6 +57,11 @@ body.page-collections #menu #nav-collections {
   @apply font-medium tracking-wider;
 } */
 
+body {
+  background-color: #fff;
+  transition: 0.1s backround-color ease-in-out;
+}
+
 
 
 @responsive {

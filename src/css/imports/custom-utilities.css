@@ -525,8 +525,8 @@ a.collection-next .arrow {
    margin-right: 0 !important;
  }
 
- header img {
-  mask-size: 50% auto;
+ header#project-header img {
+  mask-size: 75% auto;
 }
 
  .rellax-off {
