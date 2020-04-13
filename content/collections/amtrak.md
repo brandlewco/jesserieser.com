@@ -87,6 +87,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_y = "start"
 block = "media-element"
+color = "#DDD0C4"
 image = "https://jesserieser.brandlew.co/uploads/ttx-6b-single.jpg"
 margin_left = "20%"
 margin_right = "0%"
