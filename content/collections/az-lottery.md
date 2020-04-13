@@ -3,7 +3,7 @@ collection_archive = false
 collection_awards = []
 collection_category = ["Advertising", "Color", "Workplace", "Conceptual", "Humor", "Sports + Athletes", "Portraits", "Color"]
 collection_content = ""
-collection_cover = "https://jesserieser.brandlew.co/uploads/azlottery-1.jpg"
+collection_cover = "https://jesserieser.brandlew.co/uploads/azlottery-5.jpg"
 collection_description = "Arizona first got to know Willie in 1981 as a simple hand-drawn character seen in the company’s logo and advertising efforts. Through the years his look and appearance evolved leading to a live action mascot iteration seen in the company’s broadcast commercials in the mid 90s and early 2000s.  \n  \nAfter some time away, Willie’s character is re-introduced and reinvented in human form as a wise and comedic character played by “Mr. Show’s” writer and actor, John Ennis."
 collection_exhibition = []
 collection_filter = "Commissioned + Stock"
@@ -16,7 +16,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-theme_color = "#436593"
+theme_color = "#CFE7DF"
 title = "Arizona Lottery"
 [[collection_layout_builder]]
 align_x = "start"
