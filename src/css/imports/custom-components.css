@@ -62,8 +62,6 @@ body {
   transition: 0.1s backround-color ease-in-out;
 }
 
-
-
 @responsive {
   .translate-0 {
     transform: translateY(0%);
