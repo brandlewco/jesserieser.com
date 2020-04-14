@@ -57,6 +57,39 @@ fields:
     - 6xl
   label: Text Size
   default: 2xl
+- name: text_alignment
+  type: select
+  default: left
+  config:
+    required: false
+    options:
+    - left
+    - center
+    - right
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Text Alignment
+  description: left / center / right
+- type: select
+  name: text_tracking
+  config:
+    source:
+      type: simple
+      section: ''
+      path: ''
+    options:
+    - tighter
+    - tight
+    - normal
+    - wide
+    - wider
+    - widest
+  label: Text Tracking
+  default: normal
+  description: spacing between letters
 - name: font_weight
   type: select
   default: []
@@ -75,23 +108,6 @@ fields:
       file: 
       path: 
   label: Font Weight
-- type: select
-  name: text_tracking
-  config:
-    source:
-      type: simple
-      section: ''
-      path: ''
-    options:
-    - tighter
-    - tight
-    - normal
-    - wide
-    - wider
-    - widest
-  label: Text Tracking
-  default: normal
-  description: spacing between letters
 - type: select
   name: width
   config:
