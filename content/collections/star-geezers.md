@@ -19,168 +19,337 @@ title = "Condor Airlines "
 collection_archive = false
 collection_hidden = false
 [[collection_layout_builder]]
-block = "media-2"
-row_alignment = "between"
-row_height = 75
-row_order = false
-template = "block-media-2"
-[collection_layout_builder.image_1]
+align_x = "start"
+block = "media-element"
 caption = "caption"
-color = ""
+color = "#efefef"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-1.jpg"
-margin_y = 50
-width = 40
-x = "start"
-[collection_layout_builder.image_2]
+margin_left = "30%"
+margin_right = ""
+margin_y = "100"
+template = "block-media-element"
+width = "60"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_x = "start"
+block = "media-element"
 caption = "caption"
-color = ""
-image = "https://jesserieser.brandlew.co/uploads/stargeezers-2.jpg"
-margin_y = 50
-width = 40
-x = "start"
-[[collection_layout_builder]]
-align_x = "center"
-block = "media-1"
-caption = "Caption"
-color = ""
+color = "#efefef"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-3.jpg"
-margin_y = 200
-row_alignment = "between"
-row_height = 25
-template = "block-media"
-width = ""
+margin_left = "10%"
+margin_right = ""
+margin_y = "300"
+template = "block-media-element"
+width = "33"
 [[collection_layout_builder]]
-block = "media-mixed"
-row_alignment = "between"
-row_order = true
-template = "block-media-mix"
-[collection_layout_builder.image_1]
-image = "https://jesserieser.brandlew.co/uploads/stargeezers-4.jpg"
-margin_y = ""
-width = ""
-x = "start"
-[collection_layout_builder.text]
-align_x = "center"
-caption = "Mixed Media Block. Caption or descriptive text goes here."
-color = "#4A4A4A"
-margin_y = "200"
+align_x = "start"
+block = "media-element"
+caption = "caption"
+color = "#efefef"
+image = "https://jesserieser.brandlew.co/uploads/stargeezers-2.jpg"
+margin_left = ""
+margin_right = "5%"
+margin_y = "100"
+template = "block-media-element"
 width = "40"
 [[collection_layout_builder]]
-block = "media-2"
+block = "media-row"
 row_alignment = "between"
-row_height = 25
-template = "block-media-2"
-[collection_layout_builder.image_1]
+template = "block-media-row"
+[[collection_layout_builder]]
+align_x = "start"
+block = "media-element"
 caption = "caption"
-color = ""
+color = "#efefef"
+image = "https://jesserieser.brandlew.co/uploads/stargeezers-4.jpg"
+margin_left = "20%"
+margin_y = "100"
+template = "block-media-element"
+width = "50"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_x = "start"
+block = "media-element"
+caption = "caption"
+color = "#efefef"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-5.jpg"
-margin_y = 50
-width = 33
-x = "start"
-[collection_layout_builder.image_2]
+margin_left = ""
+margin_right = ""
+margin_y = "100"
+template = "block-media-element"
+width = "40"
+[[collection_layout_builder]]
+align_x = "start"
+block = "media-element"
 caption = "caption"
-color = ""
+color = "#efefef"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-6.jpg"
-margin_y = 300
-width = 50
-x = "end"
+margin_right = "15%"
+margin_y = "300"
+template = "block-media-element"
+width = "33"
 [[collection_layout_builder]]
-block = "media-2"
+block = "media-row"
 row_alignment = "between"
-row_height = 25
-template = "block-media-2"
-[collection_layout_builder.image_1]
-caption = ""
-color = ""
-image = "https://jesserieser.brandlew.co/uploads/stargeezers-7.jpg"
-margin_y = 50
-width = 40
-x = "start"
-[collection_layout_builder.image_2]
-caption = ""
-color = ""
-image = "https://jesserieser.brandlew.co/uploads/stargeezers-8.jpg"
-margin_y = 300
-width = 40
-x = "start"
+template = "block-media-row"
 [[collection_layout_builder]]
-block = "media-1"
-caption = ""
-color = ""
-image = "https://jesserieser.brandlew.co/uploads/stargeezers-9.jpg"
-margin_y = 50
-row_alignment = "between"
-row_height = 25
-template = "block-media"
-width = 40
-x = "center"
-[[collection_layout_builder]]
-block = "text"
-caption = "Text, Centered. Neat."
-color = "#D0021B"
-margin_y = 200
-row_alignment = "center"
-template = "block-text"
-width = 20
-x = "center"
-[[collection_layout_builder]]
-block = "media-2"
-row_alignment = "between"
-row_height = 25
-template = "block-media-2"
-[collection_layout_builder.image_1]
-caption = ""
-color = ""
-image = "https://jesserieser.brandlew.co/uploads/stargeezers-10.jpg"
-margin_y = 100
-width = 40
-x = "start"
-[collection_layout_builder.image_2]
+align_x = "start"
+block = "media-element"
 caption = "caption"
-color = ""
+color = "#efefef"
+image = "https://jesserieser.brandlew.co/uploads/stargeezers-7.jpg"
+margin_left = "40%"
+margin_right = ""
+margin_y = "100"
+template = "block-media-element"
+width = "40"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_x = "start"
+block = "media-element"
+caption = "caption"
+color = "#efefef"
+image = "https://jesserieser.brandlew.co/uploads/stargeezers-8.jpg"
+margin_left = "5%"
+margin_right = ""
+margin_y = "100"
+template = "block-media-element"
+width = "60"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_x = "start"
+block = "media-element"
+caption = "caption"
+color = "#efefef"
+image = "https://jesserieser.brandlew.co/uploads/stargeezers-9.jpg"
+margin_left = "10%"
+margin_y = "100"
+template = "block-media-element"
+width = "33"
+[[collection_layout_builder]]
+align_x = "start"
+block = "media-element"
+caption = "caption"
+color = "#efefef"
+image = "https://jesserieser.brandlew.co/uploads/stargeezers-10.jpg"
+margin_left = ""
+margin_right = "5%"
+margin_y = "300"
+template = "block-media-element"
+width = "40"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_x = "start"
+block = "media-element"
+caption = "caption"
+color = "#efefef"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-11.jpg"
-margin_y = 100
-width = 40
-x = "end"
+margin_left = "40%"
+margin_y = "100"
+template = "block-media-element"
+width = "40"
 [[collection_layout_builder]]
-block = "text"
-caption = "Annotation."
-color = "#D0021B"
-margin_y = 100
-row_alignment = "center"
-template = "block-text"
-width = 20
-x = "center"
-[[collection_layout_builder]]
-block = "media-2"
+block = "media-row"
 row_alignment = "between"
-row_height = 25
-template = "block-media-2"
-[collection_layout_builder.image_1]
-caption = ""
-color = ""
+template = "block-media-row"
+[[collection_layout_builder]]
+align_x = "start"
+block = "media-element"
+caption = "caption"
+color = "#efefef"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-12.jpg"
-margin_y = 100
-width = 40
-x = "start"
-[collection_layout_builder.image_2]
-caption = ""
-color = ""
-image = "https://jesserieser.brandlew.co/uploads/stargeezers-13.jpg"
-margin_y = 300
-width = 40
-x = "start"
+margin_left = ""
+margin_right = ""
+margin_y = "100"
+template = "block-media-element"
+width = "60"
 [[collection_layout_builder]]
-block = "media-1"
-caption = ""
-color = ""
-image = "https://jesserieser.brandlew.co/uploads/stargeezers-14.jpg"
-margin_y = 50
+block = "media-row"
 row_alignment = "between"
-row_height = 25
-template = "block-media"
-width = 100
-x = "center"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_x = "start"
+block = "media-element"
+caption = "caption"
+color = "#efefef"
+image = "https://jesserieser.brandlew.co/uploads/stargeezers-13.jpg"
+margin_left = "10%"
+margin_right = ""
+margin_y = "100"
+template = "block-media-element"
+width = "40"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_x = "start"
+block = "media-element"
+caption = "caption"
+color = "#efefef"
+image = "https://jesserieser.brandlew.co/uploads/stargeezers-14.jpg"
+margin_left = "25%"
+margin_y = "100"
+template = "block-media-element"
+width = "60"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_x = "start"
+block = "media-element"
+caption = "caption"
+color = "#efefef"
+image = "https://jesserieser.brandlew.co/uploads/stargeezers-15.jpg"
+margin_left = "5%"
+margin_right = ""
+margin_y = "100"
+template = "block-media-element"
+width = "50"
+[[collection_layout_builder]]
+align_x = "start"
+block = "media-element"
+caption = "caption"
+color = "#efefef"
+image = "https://jesserieser.brandlew.co/uploads/stargeezers-16.jpg"
+margin_y = "400"
+template = "block-media-element"
+width = "33"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_x = "start"
+block = "media-element"
+caption = "caption"
+color = "#efefef"
+image = "https://jesserieser.brandlew.co/uploads/stargeezers-17.jpg"
+margin_left = "20%"
+margin_right = ""
+margin_y = "100"
+template = "block-media-element"
+width = "50"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_x = "start"
+block = "media-element"
+caption = "caption"
+color = "#efefef"
+image = "https://jesserieser.brandlew.co/uploads/stargeezers-19.jpg"
+margin_left = "5%"
+margin_right = ""
+margin_y = "100"
+template = "block-media-element"
+width = "33"
+[[collection_layout_builder]]
+align_x = "start"
+block = "media-element"
+caption = "caption"
+color = "#efefef"
+image = "https://jesserieser.brandlew.co/uploads/stargeezers-18.jpg"
+margin_left = ""
+margin_right = "10%"
+margin_y = "300"
+template = "block-media-element"
+width = "40"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_x = "start"
+block = "media-element"
+caption = "caption"
+color = "#efefef"
+image = "https://jesserieser.brandlew.co/uploads/stargeezers-20.jpg"
+margin_left = "15%"
+margin_right = ""
+margin_y = "100"
+template = "block-media-element"
+width = "60"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_x = "start"
+block = "media-element"
+caption = "caption"
+color = "#efefef"
+image = "https://jesserieser.brandlew.co/uploads/stargeezers-21.jpg"
+margin_y = "100"
+template = "block-media-element"
+width = "40"
+[[collection_layout_builder]]
+align_x = "start"
+block = "media-element"
+caption = "caption"
+color = "#efefef"
+image = "https://jesserieser.brandlew.co/uploads/stargeezers-22.jpg"
+margin_left = ""
+margin_right = "15%"
+margin_y = "300"
+template = "block-media-element"
+width = "33"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_x = "start"
+block = "media-element"
+caption = "caption"
+color = "#efefef"
+image = "https://jesserieser.brandlew.co/uploads/stargeezers-23.jpg"
+margin_left = "25%"
+margin_y = "100"
+template = "block-media-element"
+width = "50"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_x = "start"
+block = "media-element"
+caption = "caption"
+color = "#efefef"
+image = "https://jesserieser.brandlew.co/uploads/stargeezers-24.jpg"
+margin_left = "15%"
+margin_right = ""
+margin_y = "100"
+template = "block-media-element"
+width = "33"
+[[collection_layout_builder]]
+align_x = "start"
+block = "media-element"
+caption = "caption"
+color = "#efefef"
+image = "https://jesserieser.brandlew.co/uploads/stargeezers-25.jpg"
+margin_left = ""
+margin_y = "300"
+template = "block-media-element"
+width = "40"
 [[collection_press]]
 content = "[**_VICE_**](https://www.vice.com/en_us/article/wjv3m5/50-stellar-photos-of-outer-space)"
 template = "popup-text-element"
