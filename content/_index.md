@@ -13,7 +13,7 @@ page_sections:
   margin_left: 50%
   margin_right: 0%
   text: _SELECTED WORKS_
-  text_color: "#EDDDDE"
+  text_color: "#EDEDED"
   parallax: true
   background_color: ''
   background_image_toggle: false
@@ -21,6 +21,7 @@ page_sections:
   font_weight: light
   image_css: ''
   caption_css: ''
+  text_alignment: ''
 - template: block-media-row
   block: media-row
   row_alignment: between
