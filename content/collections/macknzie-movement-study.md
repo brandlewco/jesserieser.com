@@ -16,12 +16,12 @@ logo = ""
 navigation_theme = "white"
 theme_color = "#35386B"
 title = "Mackenzie Gossage"
+collection_archive = false
+collection_hidden = false
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
 caption = "caption"
-collection_archive = false
-collection_hidden = false
 color = "#FBC7BA"
 image = "https://jesserieser.brandlew.co/uploads/mackenzie-1.jpg"
 margin_left = "15%"
