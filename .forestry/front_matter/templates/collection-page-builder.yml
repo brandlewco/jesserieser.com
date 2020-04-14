@@ -30,7 +30,9 @@ fields:
     options:
     - white
     - black
+    required: true
   label: Navigation Theme
+  default: white
 - name: collection_meta
   type: text
   config:
