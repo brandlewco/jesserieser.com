@@ -1,66 +1,9 @@
-#navigation {
-  transition: 0.33s all ease-in-out;
-  /* height: 68px !important; */
-  /* z-index: 999; */
-}
 
-#navigation.active {
-  @apply bg-white;
-  height: 100vh !important;
-
-  .hue-header.white .shift {
-      color: #000 !important; 
-  }
-
-  /* .hue-header.white button{
-    color: #000 !important;
-  } */
-
-  .menu {
-    transform: translateY(0%);
-    display: flex !important;
-  }
-}
-
-#navigation .menu {
-  transition: 0.33s all ease-in-out;
-}
-
-button:hover {
-  text-shadow: 0 0 .01px black;
-
-}
-/* button::before {
-    display: block;
-    content: attr(title);
-    font-weight: bold;
-    height: 0;
-    left:-1px;
-    overflow: hidden;
-    visibility: hidden;
+/* 
+html.is-changing #content {
+  transform: scale(0.7);
+  transition: transform 0.1s ease-in-out;
 } */
-
-body.page-collections #navigation {
-  position: relative !important;
-  background-color: rgba(255,255,255,0.6);
-}
-
-body.page-home #menu #nav-selected {
-  @apply font-medium tracking-widest;
-}
-
-body.page-collections #menu #nav-collections {
-  @apply font-medium tracking-wider;
-}
-
-/* body.page-jesse-rieser #menu #nav-about {
-  @apply font-medium tracking-wider;
-} */
-
-body {
-  background-color: #fff;
-  transition: 0.1s backround-color ease-in-out;
-}
 
 @responsive {
   .translate-0 {

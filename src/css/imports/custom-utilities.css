@@ -5,24 +5,60 @@ html {
   box-sizing: inherit;
 }
 
+body.page-collections #navigation {
+  position: relative !important;
+  background-color: rgba(255,255,255,0.6);
+}
+
+body.page-home #menu #nav-selected {
+  @apply font-medium tracking-widest;
+}
+
+body.page-collections #menu #nav-collections {
+  @apply font-medium tracking-wider;
+}
+
+/* body.page-jesse-rieser #menu #nav-about {
+  @apply font-medium tracking-wider;
+} */
+
+body {
+  background-color: #fff;
+  transition: 0.33s background-color cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition-delay: 0.15s;
+}
+
+html.is-animating img {
+  opacity: 0;
+}
+
 .transition-page {
   transition: 0.33s opacity cubic-bezier(0.55, 0.055, 0.675, 0.19);
-  transition-delay: 0.45s;
+  transition-delay: 0.33s;
   opacity: 1;
+}
+
+body.page-collections .transition-page {
+  transition-delay: 0s !important;
 }
 
 html.is-animating .transition-page {
   opacity: 0;
 }
 
-html.is-animating.is-leaving .transition-page {
+html.is-animating #filters, html.is-animating #navigation, html.is-animating #filter {
+  background-color: transparent !important;
+  opacity: 0 !important;
+}
+
+/* html.is-animating.is-leaving .transition-page {
   transition: 0.1s opacity linear;
   transition-delay: 0;
-}
+} */
 
 .transition-nav {
   transition: 0.15s;
-  transition-delay: 0.30s;
+  transition-delay: 0.15s;
   opacity: 1;
 }
 
@@ -30,11 +66,43 @@ html.is-animating .transition-nav {
   opacity: 0;
 }
 
-html.is-animating.is-leaving .transition-nav {
+/* html.is-animating.is-leaving .transition-nav {
   transition: 0.1s opacity linear;
   transition-delay: 0.33s;
+} */
+
+#navigation {
+  transition: 0.33s all ease-in-out;
+  /* height: 68px !important; */
+  /* z-index: 999; */
 }
 
+#navigation.active {
+  @apply bg-white;
+  height: 100vh !important;
+
+  .hue-header.white .shift {
+      color: #000 !important; 
+  }
+
+  /* .hue-header.white button{
+    color: #000 !important;
+  } */
+
+  .menu {
+    transform: translateY(0%);
+    display: flex !important;
+  }
+}
+
+#navigation .menu {
+  transition: 0.33s all ease-in-out;
+}
+
+button:hover {
+  text-shadow: 0 0 .01px black;
+
+}
 
 #filter {
   /* overflow: hidden; */
@@ -51,10 +119,6 @@ html.is-animating.is-leaving .transition-nav {
   }
 }
 
-/* header {
-   will-change: transform;
-  transform: translate3d(0,0,0);
-} */
 
 header#project-header img {
   mask-image: url("/r-mask.svg");
@@ -305,6 +369,8 @@ a.collection-next .arrow {
 
 /* Filters */
 #filters {
+  transition: 0.33s opacity cubic-bezier(0.55, 0.055, 0.675, 0.19);
+
   top: 0px;
 }
 #categories {
