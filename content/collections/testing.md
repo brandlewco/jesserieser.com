@@ -10,7 +10,6 @@ collection_meta = ""
 collection_preview = []
 cover_image = ""
 date = ""
-draft = true
 hide_footer = false
 layout = "blocks"
 navigation_theme = ""
