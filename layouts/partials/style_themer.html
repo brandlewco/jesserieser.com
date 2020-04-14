@@ -1,30 +1,13 @@
 <!-- static theme importer -->
-<style>
+<style type="text/css">
 /* home style preloader */
-{{ with .Site.Home }}
-    /* body.page-{{lower .Title | urlize}} #project-header {
-        background: {{.Params.feature_color}};
-        background-size: cover;
-        background-attachment: fixed;
-    }
-    body.page-{{lower .Title | urlize}} #project-header.lazyloaded {
-        background-image: url({{.Params.feature_cover }});
-        opacity: 1;
-    } */
-    body.page-{{lower .Title | urlize}} .hue-header.page .shift{
-        color: {{.Params.feature_color}} !important;
-    };
-{{end}}
+    {{ with .Site.Home }}
+        body.page-{{lower .Title | urlize}} .hue-header.page .shift{
+            color: {{.Params.feature_color}} !important;
+        };
+    {{end}}
 /* collection style preloaders */
 {{ range (where .Site.RegularPages "Section" "collections") }}
-    /* body.page-{{lower .Title | urlize}} #project-header {
-        background: {{.Params.theme_color}};
-        background-size: cover;
-        background-attachment: fixed;
-    }
-    body.page-{{lower .Title | urlize}} #project-header.lazyloaded { 
-        background-image: url({{.Params.collection_cover }});
-    } */
     body.page-{{lower .Title | urlize}} .hue-header.page .shift{
         color: {{.Params.theme_color}} !important;
     };
