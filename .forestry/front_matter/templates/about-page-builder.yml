@@ -8,6 +8,7 @@ fields:
 - type: datetime
   name: date
   label: Date
+  hidden: true
 - type: text
   name: layout
   label: Layout
