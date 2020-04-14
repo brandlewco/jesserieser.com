@@ -170,7 +170,7 @@ color = "#efefef"
 image = "https://jesserieser.brandlew.co/uploads/antivaxx-1.jpg"
 margin_left = ""
 margin_right = "5%"
-margin_y = "300"
+margin_y = "200"
 template = "block-media-element"
 width = "50"
 [[collection_layout_builder]]
