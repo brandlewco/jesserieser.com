@@ -1,10 +1,12 @@
 +++
+collection_archive = false
 collection_awards = []
 collection_category = ["Environments", "Still Life + Details", "Workplace", "Color"]
 collection_content = ""
 collection_cover = "https://jesserieser.brandlew.co/uploads/studios-7.jpg"
 collection_description = "Like many of my works, I am interested in the artifacts left behind by our evolving relationship with technology. Will iPhones and influencers cover all of our senior photos, glamour shots, and high school homecomings?"
 collection_filter = "Personal"
+collection_hidden = false
 collection_meta = "Preview of a Work in Progress"
 collection_press = []
 collection_preview = ["https://jesserieser.brandlew.co/uploads/studios-cover-1.jpg", "https://jesserieser.brandlew.co/uploads/studios-cover-2.jpg", "https://jesserieser.brandlew.co/uploads/studios-cover-3.jpg", "https://jesserieser.brandlew.co/uploads/studios-cover-4.jpg"]
@@ -12,11 +14,9 @@ cover_image = ""
 date = ""
 layout = "blocks"
 logo = ""
-navigation_theme = ""
+navigation_theme = "white"
 theme_color = "#FBC8B2"
 title = "Photo Studios Extinction"
-collection_archive = false
-collection_hidden = false
 [[collection_exhibition]]
 content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
 template = "popup-text-element"
