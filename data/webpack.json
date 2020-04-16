@@ -7,6 +7,6 @@
     "js": "main.js"
   },
   "": {
-    "": "fonts/.keep"
+    "keep": "fonts/.keep"
   }
 }
