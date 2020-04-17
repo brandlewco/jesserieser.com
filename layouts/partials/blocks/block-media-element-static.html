@@ -1,0 +1,7 @@
+
+{{ $fileName := path.Base .Section.image | replaceRE "(.doc|.jpeg|.jpg)" ""}}
+<!-- <section class="block-media-1 block-hover flex flex-row {{with .Section.row_alignment}}sm:justify-{{.}}{{else}}sm:justify-between{{end}} mx-auto h-auto"> -->
+  <figure class="w-full" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" id="{{ $fileName }}" data-sal="image">
+      <img class="lazyload" src="{{ .Section.image }}?nf_resize=fit&w=1024" data-src="{{ .Section.image }}?nf_resize=fit&w=1024" alt="{{ .Section.caption }}"/>
+  </figure>  
+<!-- </section> -->
