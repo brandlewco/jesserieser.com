@@ -1,0 +1,9 @@
+---
+label: "⎓ Blog Gallery Row ⎓"
+hide_body: false
+fields:
+- type: text
+  hidden: true
+  label: block
+  name: block
+  default: media-row-static
