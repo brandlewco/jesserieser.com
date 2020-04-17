@@ -34,6 +34,11 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
+- name: blog_header
+  type: file
+  config:
+    maxSize: 250
+  label: Blog Header
 - name: content
   type: textarea
   default: ''
