@@ -184,6 +184,7 @@ module.exports = {
       full: "100%",
       screen: "100vh",
       feature: "calc(100vh - 75px)",
+      "3/4": "75%",
     }),
     aspectRatio: { // defaults to {}
       "square": [1, 1],
@@ -232,6 +233,7 @@ module.exports = {
       "0%" : "0%",
       "5%" : "5%",
       "10%" : "10%",
+      "12%" : "12.5%",
       "15%" : "15%",
       "20%" : "20%",
       "25%" : "25%",
