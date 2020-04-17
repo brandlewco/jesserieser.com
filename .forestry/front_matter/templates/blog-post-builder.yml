@@ -34,6 +34,18 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
+- name: attached_collection
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: collections
+      file: 
+      path: 
+  label: Attached Collection
 - name: blog_header
   type: file
   config:
