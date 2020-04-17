@@ -14,3 +14,25 @@ fields:
 - type: text
   name: caption
   label: Caption
+- type: select
+  name: width
+  config:
+    source:
+      type: simple
+      section: ''
+      path: ''
+    options:
+    - '10'
+    - '20'
+    - '30'
+    - '33'
+    - '40'
+    - '50'
+    - '60'
+    - '66'
+    - '70'
+    - '80'
+    - '90'
+    - '100'
+  label: Media Width
+  default: '50'
