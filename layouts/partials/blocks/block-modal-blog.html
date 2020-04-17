@@ -35,7 +35,8 @@
     {{ partial (printf "blocks/block-%s.html" .block) (dict "Section" . "Page" $ "Site" $.Site) }}
     {{- end -}}
   </section>
-  <a href="/{{$key.Params.attached_collection }}" class="w-full h-16 flex justify-center items-center" style="background-color: {{$key.Params.theme_color}}">VIEW FULL COLLECTION</a>
+  {{$attached := $key.Params.attached_collection}}
+  <a href="/{{ substr $attached 0 -3}}" data-no-swup><div class="w-full h-16 flex justify-center items-center" style="background-color: {{$key.Params.theme_color}}">VIEW FULL COLLECTION</div></a>
   </article>
 </div>
 <!-- https://codepen.io/kimpetersend1/pen/LajgaW -->
