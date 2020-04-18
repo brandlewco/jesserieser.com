@@ -47,7 +47,7 @@ page_sections:
   width: '30'
   align_x: start
   margin_y: '400'
-  image: https://jesserieser.brandlew.co/uploads/christmas-25.jpg
+  image: https://jesserieser.brandlew.co/uploads/xmas-25.jpg
   attached_collection: collections/xmas-in-america.md
   title: XMAS IN AMERICA
   color: "#FF0000"
