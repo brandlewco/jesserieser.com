@@ -10,8 +10,8 @@
   <h6 class="mb-0 ml-0 text-black uppercase tracking-widest">{{range $key.Params.news_category}}{{. | replaceRE "[\\W]" "" | lower}} {{end}}</h6>
 </section>
 
-<div class="popup-modal fixed z-100 text-white overflow-hidden fixed w-full h-full top-0 left-0 flex items-center justify-center" data-popup-modal="{{$key.Params.title | lower | urlize}}" style="pointer-events: none !important;">
-  <article class="modal-container w-ful h-full sm:w-4/5 sm:h-3/4 bg-white mx-auto rounded shadow-lg z-50 overflow-y-auto">
+<div class="popup-modal fixed z-100 text-white overflow-hidden fixed w-full h-full top-0 left-0 flex items-center justify-center overflow-y-scroll" data-popup-modal="{{$key.Params.title | lower | urlize}}">
+  <article class="modal-container w-ful h-full sm:w-4/5 sm:h-3/4 bg-white mx-auto rounded shadow-md z-50 overflow-y-auto">
     <div class="w-full h-3/4 lazyload flex flex-col items-center overflow-hidden relative" style="background-color: {{$key.Params.theme_color}};">
       <img data-srcset="{{$key.Params.blog_header}}?nf_resize=fit&w=1024 1024w, {{$key.Params.blog_header}}?nf_resize=fit&w=1920 1920w, {{$key.Params.blog_header}}?nf_resize=fit&w=2560 2560w, {{$key.Params.blog_header}}"
        data-sizes="auto"
