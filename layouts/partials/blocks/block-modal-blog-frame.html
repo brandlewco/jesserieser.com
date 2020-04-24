@@ -10,33 +10,33 @@
   <h6 class="mb-0 ml-0 text-black uppercase tracking-widest">{{range $key.Params.news_category}}{{. | replaceRE "[\\W]" "" | lower}} {{end}}</h6>
 </section>
 
-<article class="popup-modal fixed z-100 text-black bg-white overflow-y-scroll h-full w-full inset-0" data-popup-modal="{{$key.Params.title | lower | urlize}}">
-  <div class="popup-modal__close h-8 w-8 m-4 fixed cursor-pointer z-50 top-0 right-0">
-      <svg class="icon h-8 w-8 text-black"><use xlink:href="#close"></use></svg>
-  </div>
-  <figure class="w-full h-3/4 lazyload flex flex-col items-center overflow-hidden relative" style="background-color: {{$key.Params.theme_color}}; height: calc(100vh - 15%);">
+<div class="popup-modal fixed z-100 text-white overflow-hidden fixed w-full h-full top-0 left-0 flex flex-col items-center justify-center overflow-y-scroll" data-popup-modal="{{$key.Params.title | lower | urlize}}">
+  <div class="w-full h-3/4 lazyload flex flex-col items-center overflow-hidden relative" style="background-color: {{$key.Params.theme_color}};">
     <img data-srcset="{{$key.Params.blog_header}}?nf_resize=fit&w=1024 1024w, {{$key.Params.blog_header}}?nf_resize=fit&w=1920 1920w, {{$key.Params.blog_header}}?nf_resize=fit&w=2560 2560w, {{$key.Params.blog_header}}"
-      data-sizes="auto"
-      class="lazyload z-10 bg-center max-w-full h-full object-cover"
-      data-parent-fit="cover"/>
-    <!-- <div id="header-loading" class="text-center font-semibold fixed inset-x-0 bottom-0 z-50 text-4xl">
+     data-sizes="auto"
+     class="lazyload z-10 bg-center max-w-full h-full object-cover"
+     data-parent-fit="cover"/>
+    <div id="header-loading" class="text-center font-semibold fixed inset-x-0 bottom-0 z-50 text-4xl">
         <i class="fad fa-spinner-third fa-spin text-{{$key.Params.navigation_theme}}"></i>
-    </div> -->
-  </figure>
-  <section class="px-0 sm:px-64 py-16 mx-auto">
-    <header class="flex flex-row justify-between pb-16">
-      <div class="text-2xl uppercase font-medium text-center text-black">{{$key.Params.title}}</div>
-    </header>
-    <div class="text-lg w-100 h-100 text-black leading-loose pb-16">
-          {{ $key.Params.content | markdownify }}
+  </div>
+</div>
+  <article class="modal-container w-ful h-full sm:w-4/5 sm:h-3/4 bg-white mx-auto rounded shadow-md z-50 overflow-y-auto">
+  <header class="flex flex-row justify-between p-4">
+    <div class="text-xl uppercase font-medium text-center text-black">{{$key.Params.title}}</div>
+    <div class="cursor-pointer">
+      <svg class="icon h-8 w-8 m-4 absolute top-0 right-0 text-black popup-modal__close"><use xlink:href="#close"></use></svg>
     </div>
-    <section class="block-media group-hover flex flex-wrap mx-auto h-auto {{with .Params.row_alignment}}sm:justify-{{.}}{{else}}sm:justify-between{{end}}">
-      {{- range $key.Params.blog_builder -}}
-      {{ partial (printf "blocks/block-%s.html" .block) (dict "Section" . "Page" $ "Site" $.Site) }}
-      {{- end -}}
-    </section>
+  </header>
+  <section class="p-4 w-100 h-100 overflow-y-scroll text-black">
+        {{ $key.Params.content | markdownify }}
+  </section>
+  <section class="block-media group-hover flex flex-wrap mx-auto h-auto mt-8 {{with .Params.row_alignment}}sm:justify-{{.}}{{else}}sm:justify-between{{end}}">
+    {{- range $key.Params.blog_builder -}}
+    {{ partial (printf "blocks/block-%s.html" .block) (dict "Section" . "Page" $ "Site" $.Site) }}
+    {{- end -}}
   </section>
   {{$attached := $key.Params.attached_collection}}
   <a href="/{{ substr $attached 0 -3}}" data-no-swup><div class="w-full h-16 flex justify-center items-center" style="background-color: {{$key.Params.theme_color}}">VIEW FULL COLLECTION</div></a>
-</article>
+  </article>
+</div>
 <!-- https://codepen.io/kimpetersend1/pen/LajgaW -->
