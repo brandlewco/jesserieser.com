@@ -42,7 +42,6 @@ public_path: https://jesserieser.brandlew.co/uploads
 front_matter_path: uploads
 use_front_matter_path: false
 file_template: ":filename:"
-instant_preview: true
 build:
   preview_env:
   - HUGO_ENV=staging
@@ -54,5 +53,4 @@ build:
   mount_path: "/srv"
   working_dir: "/srv"
   instant_preview_command: npm run build:forestry
-  preview_command: npm run build:forestry
 version: 0.55.2
