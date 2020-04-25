@@ -7,10 +7,10 @@ module.exports = {
     require("autoprefixer"),
     require("postcss-nested")(),
     require("tailwindcss"),
-    purgecss({
-      content: ["./dist/**/index.html"],
-      defaultExtractor: content => content.match(/[A-z0-9-:\/%]+/g) || [],
-      fontFace: false
-    }),
+    // purgecss({
+    //   content: ["./dist/**/index.html"],
+    //   defaultExtractor: content => content.match(/[A-z0-9-:\/%]+/g) || [],
+    //   fontFace: false
+    // }),
   ]
 };
