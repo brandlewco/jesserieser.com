@@ -62,7 +62,7 @@
   cursor: grabbing;
 }
 
-.pswp__container, .pswp__item {
+.pswp__container, .pswp__item, .pswp__zoom-wrap {
   will-change: transform;
 }
 
@@ -172,6 +172,7 @@ body.archive .pswp__bg {
   top: 0;
   left: 0;
   transition: opacity 0.2s linear;
+  display: block !important;
 }
 /* added */
 /* .pswp__img {
