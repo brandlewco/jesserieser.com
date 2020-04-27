@@ -10,11 +10,11 @@
   <h6 class="mb-0 ml-0 text-black uppercase tracking-widest">{{range $key.Params.news_category}}{{. | replaceRE "[\\W]" "" | lower}} {{end}}</h6>
 </section>
 
-<article class="popup-modal fixed z-100 text-black bg-white overflow-y-scroll h-full w-full inset-0" data-popup-modal="{{$key.Params.title | lower | urlize}}">
+<article class="popup-modal flex flex-col fixed z-999 text-black bg-white overflow-y-scroll h-full w-full inset-0" data-popup-modal="{{$key.Params.title | lower | urlize}}">
   <div class="popup-modal__close h-8 w-8 m-4 fixed cursor-pointer z-50 top-0 right-0">
       <svg class="icon h-8 w-8 text-black"><use xlink:href="#close"></use></svg>
   </div>
-  <figure class="w-full h-3/4 lazyload flex flex-col items-center overflow-hidden relative" style="background-color: {{$key.Params.theme_color}}; height: calc(100vh - 15%);">
+  <div class="w-full h-3/4 lazyload flex flex-col items-center relative" style="background-color: {{$key.Params.theme_color}}; height: calc(100vh - 15%);">
     <img data-srcset="{{$key.Params.blog_header}}?nf_resize=fit&w=1024 1024w, {{$key.Params.blog_header}}?nf_resize=fit&w=1920 1920w, {{$key.Params.blog_header}}?nf_resize=fit&w=2560 2560w, {{$key.Params.blog_header}}"
       data-sizes="auto"
       class="lazyload z-10 bg-center max-w-full h-full object-cover"
@@ -22,8 +22,8 @@
     <!-- <div id="header-loading" class="text-center font-semibold fixed inset-x-0 bottom-0 z-50 text-4xl">
         <i class="fad fa-spinner-third fa-spin text-{{$key.Params.navigation_theme}}"></i>
     </div> -->
-  </figure>
-  <section class="px-0 sm:px-64 py-16 mx-auto">
+  </div>
+  <section class="px-8 sm:px-64 py-16 mx-auto">
     <header class="flex flex-row justify-between pb-16">
       <div class="text-2xl uppercase font-medium text-center text-black">{{$key.Params.title}}</div>
     </header>

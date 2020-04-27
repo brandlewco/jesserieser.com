@@ -376,7 +376,8 @@ module.exports = {
       "30": "30",
       "40": "40",
       "50": "50",
-      "100": "100"
+      "100": "100",
+      "999" : "999"
     },
   },
   variants: {
@@ -405,7 +406,7 @@ module.exports = {
     flexShrink: ["responsive"],
     flexWrap: ["responsive"],
     float: ["responsive"],
-    fontFamily: ["responsive"],
+    // fontFamily: ["responsive"],
     fontSize: ["responsive"],
     fontSmoothing: ["responsive"],
     fontStyle: ["responsive"],
