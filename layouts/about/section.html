@@ -1,4 +1,5 @@
 {{- define "main" -}}
+<section id="about-modal">
     <section data-hue="{{.Params.navigation_theme}}">
         {{ partial "about_header" .}}
     </section>
@@ -7,4 +8,5 @@
         {{ partial (printf "blocks/block-%s.html" .block) (dict "Section" . "Page" $ "Site" $.Site) }}
         {{- end -}}
     </section>
+</section>
 {{- end -}}

@@ -1,10 +1,10 @@
 {
   "filter": {
-    "js": "filter.c3a8b.js"
+    "js": "filter.js"
   },
   "main": {
-    "css": "main.c3a8b.css",
-    "js": "main.c3a8b.js"
+    "css": "main.css",
+    "js": "main.js"
   },
   "": {
     "keep": "fonts/.keep"

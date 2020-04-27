@@ -2,7 +2,7 @@
 <section data-hue="{{with .Params.navigation_theme}}{{.}}{{else}}white{{end}}" class="relative z-0">
   {{ partial "feature_header-clip" .}}
 </section>
-<section data-hue="page" class="pt-8 mx-auto bg-white relative z-100">
+<section data-hue="page" class="pt-8 mx-auto bg-white relative z-100" style="backface-visibility: hidden;">
   <div class="px-8 xl:px-16">
     <section class="flex flex-wrap mx-auto h-auto {{with .Params.row_alignment}}sm:justify-{{.}}{{else}}sm:justify-between{{end}}">
     {{- range .Params.page_sections -}}
