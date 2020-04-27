@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="{{ .Lang }}">
-  <!-- text-base md:text-xl lg:text-3xl -->
   {{ partial "head" .}}
   <body class="{{ with.Title }}page-{{ lower . | urlize }}{{ end }} {{ if eq .Params.collection_archive true }}archive{{end}}">
     {{ partial "header" .}}

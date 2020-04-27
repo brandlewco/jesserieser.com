@@ -10,17 +10,17 @@
   <h6 class="mb-0 ml-0 text-black uppercase tracking-widest">{{range $key.Params.news_category}}{{. | replaceRE "[\\W]" "" | lower}} {{end}}</h6>
 </section>
 
-<div class="popup-modal fixed z-100 text-white overflow-hidden fixed w-full h-full top-0 left-0 flex flex-col items-center justify-center overflow-y-scroll" data-popup-modal="{{$key.Params.title | lower | urlize}}">
-  <div class="w-full h-3/4 lazyload flex flex-col items-center overflow-hidden relative" style="background-color: {{$key.Params.theme_color}};">
-    <img data-srcset="{{$key.Params.blog_header}}?nf_resize=fit&w=1024 1024w, {{$key.Params.blog_header}}?nf_resize=fit&w=1920 1920w, {{$key.Params.blog_header}}?nf_resize=fit&w=2560 2560w, {{$key.Params.blog_header}}"
-     data-sizes="auto"
-     class="lazyload z-10 bg-center max-w-full h-full object-cover"
-     data-parent-fit="cover"/>
-    <div id="header-loading" class="text-center font-semibold fixed inset-x-0 bottom-0 z-50 text-4xl">
-        <i class="fad fa-spinner-third fa-spin text-{{$key.Params.navigation_theme}}"></i>
-  </div>
-</div>
-  <article class="modal-container w-ful h-full sm:w-4/5 sm:h-3/4 bg-white mx-auto rounded shadow-md z-50 overflow-y-auto">
+<div class="popup-modal fixed z-100 text-white overflow-hidden fixed w-full h-full top-0 left-0 flex items-center justify-center overflow-y-scroll" data-popup-modal="{{$key.Params.title | lower | urlize}}">
+  <article class="modal-container w-ful h-full sm:w-4/5 sm:h-3/4 bg-white mx-auto rounded z-50 overflow-y-auto">
+    <div class="w-full h-3/4 lazyload flex flex-col items-center overflow-hidden relative" style="background-color: {{$key.Params.theme_color}};">
+      <img data-srcset="{{$key.Params.blog_header}}?nf_resize=fit&w=1024 1024w, {{$key.Params.blog_header}}?nf_resize=fit&w=1920 1920w, {{$key.Params.blog_header}}?nf_resize=fit&w=2560 2560w, {{$key.Params.blog_header}}"
+       data-sizes="auto"
+       class="lazyload z-10 bg-center max-w-full h-full object-cover"
+       data-parent-fit="cover"/>
+      <div id="header-loading" class="text-center font-semibold fixed inset-x-0 bottom-0 z-50 text-4xl">
+          <i class="fad fa-spinner-third fa-spin text-{{$key.Params.navigation_theme}}"></i>
+      </div>
+    </div>
   <header class="flex flex-row justify-between p-4">
     <div class="text-xl uppercase font-medium text-center text-black">{{$key.Params.title}}</div>
     <div class="cursor-pointer">

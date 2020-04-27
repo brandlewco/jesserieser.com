@@ -1,17 +1,17 @@
 {{- define "main" -}}
     <!-- archive check -->
     {{if (eq .Params.collection_archive true) }}
-    <section data-hue="white">
+    <section data-hue="white" class="relative z-0">
     {{else}}
-    <section data-hue="{{with .Params.navigation_theme}}{{.}}{{end}}">
+    <section data-hue="{{with .Params.navigation_theme}}{{.}}{{end}}" class="relative z-0">
     {{end}}
     {{ partial "collection_header-clip" .}}
     </section>
     <!-- archive check -->
     {{if (eq .Params.collection_archive true) }}
-    <section data-hue="white" class="pt-8 mx-auto bg-black">
+    <section data-hue="white" class="pt-8 mx-auto bg-black relative z-100">
     {{else}}
-    <section data-hue="page" class="pt-8 mx-auto bg-white">
+    <section data-hue="page" class="pt-8 mx-auto bg-white  relative z-100">
     {{end}}
         <div class="my-gallery px-8 xl:px-16" itemscope itemtype="http://schema.org/ImageGallery">
             <section class="block-media group-hover flex flex-wrap mx-auto h-auto {{with .Params.row_alignment}}sm:justify-{{.}}{{else}}sm:justify-between{{end}}">

@@ -28,7 +28,7 @@ html.is-changing #content {
   transition: 0.33s all ease-in-out;
 }
 
-.btn {
+/* .btn {
   @apply font-medium py-1 px-2 rounded cursor-pointer text-base;
   transition: 0.33s background-color ease-in-out;
 }
@@ -41,7 +41,7 @@ html.is-changing #content {
 }
 .btn-toggle.active {
   @apply font-bold text-gray-800;
-}
+} */
 
 .button {
   transition: 0.2s color ease-in-out;
