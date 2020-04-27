@@ -252,7 +252,7 @@ header img.lazyloaded {
 }
 
 #project-header {
-  will-change: margin;
+  min-height: -webkit-fill-available;
 }
 
 #project-header img.lazyloaded #loading-overlay {
