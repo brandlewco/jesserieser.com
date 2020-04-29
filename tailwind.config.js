@@ -126,6 +126,7 @@ module.exports = {
     },
     fontFamily: {
       sans: [
+        '"ars-maquette-web"',
         "-apple-system",
         "BlinkMacSystemFont",
         '"Segoe UI"',
@@ -425,7 +426,7 @@ module.exports = {
     minWidth: ["responsive"],
     objectFit: ["responsive"],
     objectPosition: ["responsive"],
-    opacity: ["responsive"],
+    // opacity: ["responsive"],
     order: ["responsive"],
     outline: ["responsive", "focus"],
     overflow: ["responsive"],
@@ -445,7 +446,7 @@ module.exports = {
     whitespace: ["responsive"],
     width: ["responsive"],
     wordBreak: ["responsive"],
-    zIndex: ["responsive"],
+    // zIndex: ["responsive"],
   },
   corePlugins: {},
   plugins: [

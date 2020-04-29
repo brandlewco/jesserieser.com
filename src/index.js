@@ -376,7 +376,7 @@ function init() {
     });
 
     bodyPopup.addEventListener("click", () => {
-      // scrollUnlock();
+      scrollUnlock();
       navigation.classList.remove("opacity-0");
       // document.body.style.overflowY = "auto";
       popupModal.classList.remove("is--visible");
@@ -464,13 +464,17 @@ function init() {
     var headerOverlay = document.getElementById("header-overlay");
     var featureOverlay = document.getElementById("feature-overlay");
     var pageTitle = document.getElementById("page-title");
+    // var headerImage = document.querySelector("#project-header > img");
     var height = window.innerHeight;
     var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
+    // if (headerImage) {
+    //   headerImage.style.opacity = value_limit(1 - (scrollTop / (height * 0.5)), 0, 1).toFixed(3);
+    // }
     if (headerOverlay) {
-      headerOverlay.style.opacity = value_limit((scrollTop / (height * 0.5)), 0, 1).toFixed(2);
+      headerOverlay.style.opacity = value_limit((scrollTop / (height * 0.3)), 0, 1).toFixed(3);
     }
     if (featureOverlay) {
-      featureOverlay.style.opacity = value_limit((scrollTop / (height * 0.9)), 0, 1).toFixed(2);
+      featureOverlay.style.opacity = value_limit((scrollTop / (height * 0.9)), 0, 1).toFixed(3);
     }
     const windowY = window.scrollY;
     if (document.body.contains(projectHeader)) {

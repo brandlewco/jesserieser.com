@@ -150,7 +150,7 @@ html.is-rendering header#project-header img.lazyloaded {
 }
 
 #header-overlay, #feature-overlay {
-  will-change: opacity;
+  will-change: opacity, transform;
 }
 
 header img.lazyload + #header-overlay, header img.lazyloading + #header-overlay, header img.lazyload + #feature-overlay, header img.lazyloading + #feature-overlay  {
