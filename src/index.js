@@ -5,8 +5,8 @@ import SwupBodyClassPlugin from "@swup/body-class-plugin";
 import SwupScriptsPlugin from "@swup/scripts-plugin";
 import SwupPreloadPlugin from "@swup/preload-plugin";
 import lazySizes from "lazysizes";
-import "lazysizes/plugins/unveilhooks/ls.unveilhooks";
-import "lazysizes/plugins/bgset/ls.bgset";
+// import "lazysizes/plugins/unveilhooks/ls.unveilhooks";
+// import "lazysizes/plugins/bgset/ls.bgset";
 import "lazysizes/plugins/parent-fit/ls.parent-fit";
 import * as PhotoSwipe from "photoswipe";
 import * as PhotoSwipeUI_Default from "photoswipe/dist/photoswipe-ui-default";
@@ -47,6 +47,10 @@ const options = {
   }
 };
 const swup = new Swup(options);
+
+swup.on("animationInDone", function() {
+
+});
 
 swup.on("contentReplaced", init);
 
@@ -471,10 +475,10 @@ function init() {
     //   headerImage.style.opacity = value_limit(1 - (scrollTop / (height * 0.5)), 0, 1).toFixed(3);
     // }
     if (headerOverlay) {
-      headerOverlay.style.opacity = value_limit((scrollTop / (height * 0.3)), 0, 1).toFixed(3);
+      headerOverlay.style.opacity = value_limit((scrollTop / (height * 0.4)), 0, 1).toFixed(2);
     }
     if (featureOverlay) {
-      featureOverlay.style.opacity = value_limit((scrollTop / (height * 0.9)), 0, 1).toFixed(3);
+      featureOverlay.style.opacity = value_limit((scrollTop / (height * 0.9)), 0, 1).toFixed(2);
     }
     const windowY = window.scrollY;
     if (document.body.contains(projectHeader)) {
@@ -513,6 +517,9 @@ function init() {
     currentPage.nextElementSibling.classList.add("visible", "collection-next");
   }
 
+  var aboutModal = document.getElementById("modal-about");
+  aboutModal.style.display = "block";
+  navigation.style.opacity = "1";
 }
 
 // intit code on each page load

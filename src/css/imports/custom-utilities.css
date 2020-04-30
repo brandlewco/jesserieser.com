@@ -72,7 +72,7 @@ html.is-animating .transition-nav {
 } */
 
 #navigation {
-  transition: 0.33s all ease-in-out;
+  transition: 0.33s transition ease-in-out, 0.33s opacity ease-in-out 0.33s;
   /* height: 68px !important; */
   /* z-index: 999; */
 }
@@ -154,14 +154,22 @@ html.is-rendering header#project-header img.lazyloaded {
 }
 
 header img.lazyload + #header-overlay, header img.lazyloading + #header-overlay, header img.lazyload + #feature-overlay, header img.lazyloading + #feature-overlay  {
-  transform: opacity 0.33s ease-in-out 0.1s;
+  transition: opacity 0.33s ease-in-out 0.1s;
   opacity: 1;
 }
 
-header img.lazyload + #header-overlay + #header-loading + #header-pointer, header img.lazyloading + #header-overlay + #header-loading + #header-pointer {
-  transform: opacity 0.33s ease-in-out 0.1s;
+#header-pointer {
+  transition: opacity 0.33s ease-in-out 0.33s;
+  opacity: 1;
+}
+
+header img.lazyload + #header-overlay + #header-loading + #header-pointer, 
+header img.lazyload + #feature-overlay + #header-loading + #header-pointer,
+header img.lazyloading + #header-overlay + #header-loading + #header-pointer, 
+header img.lazyloading + #feature-overlay + #header-loading + #header-pointer {
   opacity: 0;
 }
+
 
 header img.lazyloaded + #header-overlay,  header img.lazyloaded + #feature-overlay{
   opacity: 0;
