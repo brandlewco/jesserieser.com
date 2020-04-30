@@ -80,6 +80,7 @@ html.is-animating .transition-nav {
 #navigation.active {
   @apply bg-white;
   height: 100vh !important;
+  transform: translate3d(0px, 0px, 0px) !important;
 
   .hue-header.white .shift {
       color: #000 !important; 
@@ -153,7 +154,8 @@ html.is-rendering header#project-header img.lazyloaded {
   will-change: opacity, transform;
 }
 
-header img.lazyload + #header-overlay, header img.lazyloading + #header-overlay, header img.lazyload + #feature-overlay, header img.lazyloading + #feature-overlay  {
+header img.lazyload + #header-overlay, header img.lazyloading + #header-overlay,
+header img.lazyload + #feature-overlay, header img.lazyloading + #feature-overlay  {
   transition: opacity 0.33s ease-in-out 0.1s;
   opacity: 1;
 }
@@ -171,7 +173,7 @@ header img.lazyloading + #feature-overlay + #header-loading + #header-pointer {
 }
 
 
-header img.lazyloaded + #header-overlay,  header img.lazyloaded + #feature-overlay{
+header img.lazyloaded + #header-overlay,  header img.lazyloaded + #feature-overlay {
   opacity: 0;
 }
 

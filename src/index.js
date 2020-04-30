@@ -151,7 +151,7 @@ function init() {
 
       // triggers when user clicks on thumbnail
       var onThumbnailsClick = function(e) {
-        navigation.classList.add("opacity-0");
+        navigation.style.opacity = 0;
         e = e || window.event;
         e.preventDefault ? e.preventDefault() : e.returnValue = false;
 
@@ -315,7 +315,7 @@ function init() {
             left: 0,
             behavior: "smooth"
           });
-          navigation.classList.remove("opacity-0");
+          navigation.style.opacity = 1;
         });
         gallery.init();
       };
@@ -362,7 +362,8 @@ function init() {
     const {popupTrigger} = trigger.dataset;
     const popupModal = document.querySelector(`[data-popup-modal="${popupTrigger}"]`);
     trigger.addEventListener("click", () => {
-      navigation.classList.add("opacity-0");
+      navigation.classList.remove("active");
+      navigation.style.opacity = 0;
       scrollLock();
       // document.body.style.overflowY = "hidden";
       popupModal.classList.add("is--visible");
@@ -373,15 +374,15 @@ function init() {
     });
     popupModal.querySelector(".popup-modal__close").addEventListener("click", () => {
       scrollUnlock();
+      navigation.style.opacity = 1;
       // document.body.style.overflowY = "auto";
-      navigation.classList.remove("opacity-0");
       popupModal.classList.remove("is--visible");
       bodyPopup.classList.remove("is-poped-out");
     });
 
     bodyPopup.addEventListener("click", () => {
       scrollUnlock();
-      navigation.classList.remove("opacity-0");
+      navigation.style.opacity = 1;
       // document.body.style.overflowY = "auto";
       popupModal.classList.remove("is--visible");
       bodyPopup.classList.remove("is-poped-out");
@@ -415,9 +416,20 @@ function init() {
   var navToggle = document.getElementsByClassName("navToggle");
   Array.prototype.forEach.call(navToggle, function(nav) {
     nav.addEventListener("click", function(event) {
+      nav.classList.toggle("toggle-active");
       navigation.classList.toggle("active");
+      // // create locking event
+      // scrollLock();
+      // // create unlocking event
+      // const navToggleActive = document.getElementsByClassName("toggle-active");
+      // Array.prototype.forEach.call(navToggleActive, function(toggledActive) {
+      //   toggledActive.addEventListener("click", function(event) {
+      //     scrollUnlock();
+      //   });
+      // });
     });
   });
+
 
   // USE FOR BLOCK HOVER
   const figureAll = document.querySelectorAll(".figure");
