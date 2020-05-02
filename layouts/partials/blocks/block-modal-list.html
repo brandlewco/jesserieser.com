@@ -1,4 +1,4 @@
-<section class="block-hover relative self-start {{with .Section.align_y}}sm:self-{{.}}{{end}} w-full {{with .Section.width}}sm:w-{{.}}/100{{end}} mt-4 {{with .Section.margin_y}}sm:mt-{{.}}{{end}} ml-0 {{with .Section.margin_left}}sm:ml-{{.}}{{end}} mr-0 {{with .Section.margin_right}}sm:mr-{{.}}{{end}} highlight rellax-wrapper">
+<section class="block-hover relative self-start {{with .Section.align_y}}md:self-{{.}}{{end}} w-full {{with .Section.width}}md:w-{{.}}/100{{end}} mt-4 {{with .Section.margin_y}}md:mt-{{.}}{{end}} ml-0 {{with .Section.margin_left}}md:ml-{{.}}{{end}} mr-0 {{with .Section.margin_right}}md:mr-{{.}}{{end}} highlight rellax-wrapper">
     <button type="button" class="inner-popup-trigger flex flex-col relative w-full" data-inner-popup-trigger="{{.Section.title | lower}}">
     <figure class="relative" style="background: {{with .Section.color}}{{.}}{{else}}{{.Page.Params.theme_color}}{{end}};" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" data-sal="image">
         <img class="lazyload" src="{{ .Section.image }}?nf_resize=fit&w=1024" data-src="{{ .Section.image }}?nf_resize=fit&w=1024" alt="{{ .Section.title }}"/>
