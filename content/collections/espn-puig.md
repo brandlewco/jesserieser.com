@@ -36,7 +36,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_y = "start"
 block = "media-element"
-color = "#CBD7EE"
+color = "#D7E0ED"
 image = "https://jesserieser.brandlew.co/uploads/puig-2b-single.jpg"
 margin_left = "10%"
 margin_right = "0%"
