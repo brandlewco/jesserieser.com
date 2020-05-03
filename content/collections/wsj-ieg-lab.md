@@ -16,7 +16,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-theme_color = "#DBE9D5"
+theme_color = "#E2EADE"
 title = "The Wall Street Journal"
 [[collection_layout_builder]]
 align_x = "start"
