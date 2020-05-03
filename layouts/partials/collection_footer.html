@@ -5,8 +5,8 @@
     {{ range .Site.Data.categories}}
     {{ range last 1 .collection_sorter}}
     {{ with $.Site.GetPage . }} 
-    {{ if eq .Params.collection_archive false }}
-    <a href="{{ .Permalink }}" class="hidden" alt="{{ .Title }}">
+    {{ if eq .Params.collection_archive true }}
+    <a href="{{ .Permalink }}" class="hidden first" alt="{{ .Title }}">
         <div class="flex flex-row text-left items-center">
             <div class="arrow text-6xl font-thin pr-4">
                 &#8249;
