@@ -18,6 +18,7 @@ title = "Wired Magazine"
 [[collection_layout_builder]]
 align_y = "start"
 block = "media-element"
+color = "#090909"
 image = "https://jesserieser.brandlew.co/uploads/backpage-1c-single.jpg"
 margin_left = "10%"
 margin_right = "0%"
