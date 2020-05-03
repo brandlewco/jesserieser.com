@@ -28,6 +28,7 @@ width = "40"
 [[collection_layout_builder]]
 align_y = "start"
 block = "media-element"
+color = "#0A0A0B"
 image = "https://jesserieser.brandlew.co/uploads/backpage-1b-single.jpg"
 margin_left = "0%"
 margin_right = "5%"
