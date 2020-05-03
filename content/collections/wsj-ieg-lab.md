@@ -166,7 +166,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_y = "start"
 block = "media-element"
-color = "#00B4E7"
+color = "#DFF6FF"
 image = "https://jesserieser.brandlew.co/uploads/ieg-11b-single.jpg"
 margin_left = "25%"
 margin_right = "0%"
