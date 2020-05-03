@@ -3,7 +3,7 @@ collection_archive = false
 collection_awards = []
 collection_category = ["Portraits", "Environments", "Travel", "Reportage", "Color", "Uniquely American"]
 collection_content = ""
-collection_cover = "https://jesserieser.brandlew.co/uploads/wsj-apollo-4.jpg"
+collection_cover = "https://jesserieser.brandlew.co/uploads/wsj-apollo-9.jpg"
 collection_description = "collection description"
 collection_exhibition = []
 collection_filter = "Commissioned + Stock"
@@ -17,7 +17,7 @@ layout = "blocks"
 logo = ""
 navigation_theme = "white"
 page = "/collections/wsj-apollo"
-theme_color = "#efefef"
+theme_color = "#FFD4A8"
 title = "WSJ Apollo"
 [[collection_layout_builder]]
 align_x = "start"
