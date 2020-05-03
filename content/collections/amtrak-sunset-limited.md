@@ -3,7 +3,7 @@ collection_archive = false
 collection_awards = []
 collection_category = ["Portraits", "Environments", "Travel", "Reportage", "Color", "Uniquely American"]
 collection_content = ""
-collection_cover = "https://jesserieser.brandlew.co/uploads/sunset-limited-4.jpg"
+collection_cover = "https://jesserieser.brandlew.co/uploads/sunset-limited-28.jpg"
 collection_description = "collection description"
 collection_exhibition = []
 collection_filter = "Commissioned + Stock"
@@ -17,7 +17,7 @@ layout = "blocks"
 logo = ""
 navigation_theme = "white"
 page = "/collections/amtrak-sunset-limited"
-theme_color = "#efefef"
+theme_color = "#E3E7EB"
 title = "Amtrak Sunset Limited"
 [[collection_layout_builder]]
 align_x = "start"
