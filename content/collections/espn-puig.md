@@ -85,7 +85,7 @@ width = "30"
 [[collection_layout_builder]]
 align_y = "start"
 block = "media-element"
-color = "#D8E7F6"
+color = "#E4EEF9"
 image = "https://jesserieser.brandlew.co/uploads/puig-4c-single.jpg"
 margin_left = "0%"
 margin_right = "25%"
