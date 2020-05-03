@@ -144,7 +144,7 @@ template = "block-media-element"
 width = "30"
 [[collection_layout_builder]]
 block = "media-element"
-color = "#FF3036"
+color = "#FACFD1"
 image = "https://jesserieser.brandlew.co/uploads/puig-8c-single.jpg"
 margin_right = "40%"
 margin_y = "100"
