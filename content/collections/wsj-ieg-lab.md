@@ -46,7 +46,7 @@ width = "30"
 [[collection_layout_builder]]
 align_y = "start"
 block = "media-element"
-color = "#EBF1DF"
+color = "#EDF3E7"
 image = "https://jesserieser.brandlew.co/uploads/ieg-2c-single.jpg"
 margin_left = "0%"
 margin_right = "25%"
