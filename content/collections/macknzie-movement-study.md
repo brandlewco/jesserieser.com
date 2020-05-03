@@ -16,7 +16,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-theme_color = "#35386B"
+theme_color = "#9394AD"
 title = "Mackenzie Gossage"
 [[collection_layout_builder]]
 align_x = "start"
