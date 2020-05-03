@@ -190,6 +190,7 @@ row_alignment = "between"
 template = "block-media-row"
 [[collection_layout_builder]]
 block = "media-element"
+color = "#1E1E1E"
 image = "https://jesserieser.brandlew.co/uploads/backpage-11b-single.jpg"
 margin_left = "5%"
 margin_right = "0%"
