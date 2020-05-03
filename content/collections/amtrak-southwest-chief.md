@@ -3,12 +3,12 @@ collection_archive = false
 collection_awards = []
 collection_category = ["Portraits", "Environments", "Travel", "Reportage", "Color", "Uniquely American"]
 collection_content = ""
-collection_cover = "https://jesserieser.brandlew.co/uploads/swchief-4.jpg"
+collection_cover = "https://jesserieser.brandlew.co/uploads/swchief-16.jpg"
 collection_description = "collection description"
 collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_hidden = false
-collection_meta = "Meta Title"
+collection_meta = "On The Southwest Chief"
 collection_press = []
 collection_preview = ["https://jesserieser.brandlew.co/uploads/swchief-22.jpg", "https://jesserieser.brandlew.co/uploads/swchief-4.jpg", "https://jesserieser.brandlew.co/uploads/swchief-12.jpg", "https://jesserieser.brandlew.co/uploads/swchief-6.jpg"]
 cover_image = ""
@@ -17,13 +17,13 @@ layout = "blocks"
 logo = ""
 navigation_theme = "white"
 page = "/collections/amtrak-chief"
-theme_color = "#efefef"
-title = "Amtrak Southwest Chief"
+theme_color = "#E3D2E7"
+title = "Amtrak The National "
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
 caption = "caption"
-color = "#efefef"
+color = "#E9E4EB"
 image = "https://jesserieser.brandlew.co/uploads/swchief-1.jpg"
 margin_left = "30%"
 margin_right = ""
@@ -405,4 +405,5 @@ margin_left = "15%"
 margin_y = "100"
 template = "block-media-element"
 width = "40"
+
 +++
