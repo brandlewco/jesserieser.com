@@ -8,7 +8,7 @@ collection_description = "collection description"
 collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_hidden = false
-collection_meta = "Meta Title"
+collection_meta = "On The Sunset Limited"
 collection_press = []
 collection_preview = ["https://jesserieser.brandlew.co/uploads/sunset-limited-22.jpg", "https://jesserieser.brandlew.co/uploads/sunset-limited-4.jpg", "https://jesserieser.brandlew.co/uploads/sunset-limited-12.jpg", "https://jesserieser.brandlew.co/uploads/sunset-limited-6.jpg"]
 cover_image = ""
@@ -18,7 +18,7 @@ logo = ""
 navigation_theme = "white"
 page = "/collections/amtrak-sunset-limited"
 theme_color = "#E3E7EB"
-title = "Amtrak Sunset Limited"
+title = "Amtrak The National"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
