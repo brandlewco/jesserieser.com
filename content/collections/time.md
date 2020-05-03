@@ -188,7 +188,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_y = "start"
 block = "media-element"
-color = "#A2E9CC"
+color = "#E8F3F3"
 image = "https://jesserieser.brandlew.co/uploads/timeGC-13b-single.jpg"
 margin_left = "20%"
 margin_right = "0%"
