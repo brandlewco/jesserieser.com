@@ -72,20 +72,6 @@ margin_y = "100"
 template = "block-media-element"
 width = "40"
 [[collection_layout_builder]]
-block = "media-row"
-row_alignment = "around"
-template = "block-media-row"
-[[collection_layout_builder]]
-align_y = "end"
-block = "media-motion"
-color = "#CFE7DF"
-margin_left = "35%"
-margin_right = "0%"
-margin_y = "50"
-template = "block-media-motion"
-vimeo_id = 216269536
-width = "33"
-[[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
 caption = "caption"
@@ -151,5 +137,15 @@ margin_left = "15%"
 margin_y = "100"
 template = "block-media-element"
 width = "70"
+[[collection_layout_builder]]
+align_y = "center"
+block = "media-motion"
+color = "#CFE7DF"
+margin_left = "0%"
+margin_right = "0%"
+margin_y = "100"
+template = "block-media-motion"
+vimeo_id = 216269536
+width = "66"
 
 +++
