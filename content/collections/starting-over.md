@@ -15,7 +15,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-theme_color = "#498BA8"
+theme_color = "#E0CBC6"
 title = "Starting Over: Will Move For Work"
 [[collection_awards]]
 content = "**2018**  \n_AP 34: American Photography Annual 34_  \nBest Personal Work Series"
