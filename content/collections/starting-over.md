@@ -1,6 +1,6 @@
 +++
 attached_gallery = "gallery/autobiography.md"
-collection_archive = false
+collection_archive = true
 collection_category = ["Still Life + Details", "Black and White", "Lifestyle", "Color", "Reportage", "Portraits", "Environments", "Sports + Athletes"]
 collection_content = "collection content"
 collection_cover = "https://jesserieser.brandlew.co/uploads/startingover-11.jpg"
@@ -24,7 +24,7 @@ template = "popup-text-element"
 align_x = "start"
 block = "media-element"
 caption = "caption"
-color = "#EDF7EA"
+color = "#BAD3B4"
 image = "https://jesserieser.brandlew.co/uploads/startingover-1.jpg"
 margin_left = "5%"
 margin_right = ""
