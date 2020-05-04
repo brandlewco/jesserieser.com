@@ -78,7 +78,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_y = "end"
 block = "media-motion"
-color = "#50E3C2"
+color = "#CFE7DF"
 margin_left = "35%"
 margin_right = "0%"
 margin_y = "50"
