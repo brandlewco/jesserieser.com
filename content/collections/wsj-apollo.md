@@ -8,7 +8,7 @@ collection_description = "collection description"
 collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_hidden = false
-collection_meta = "Meta Title"
+collection_meta = "Apollo 11 50th Anniversary: Guidance Computer Refurbish"
 collection_press = []
 collection_preview = ["https://jesserieser.brandlew.co/uploads/wsj-apollo-1.jpg", "https://jesserieser.brandlew.co/uploads/wsj-apollo-2.jpg", "https://jesserieser.brandlew.co/uploads/wsj-apollo-3.jpg", "https://jesserieser.brandlew.co/uploads/wsj-apollo-4.jpg"]
 cover_image = ""
@@ -18,7 +18,7 @@ logo = ""
 navigation_theme = "black"
 page = "/collections/wsj-apollo"
 theme_color = "#FFD765"
-title = "WSJ Apollo"
+title = "The Wall Street Journal"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
