@@ -137,5 +137,15 @@ margin_left = "15%"
 margin_y = "100"
 template = "block-media-element"
 width = "70"
+[[collection_layout_builder]]
+align_y = "start"
+block = "media-motion"
+color = "#50E3C2"
+margin_left = "0%"
+margin_right = "0%"
+margin_y = "50"
+template = "block-media-motion"
+vimeo_id = 216269536
+width = "33"
 
 +++
