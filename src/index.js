@@ -359,11 +359,14 @@ function init() {
   const bodyPopup = document.querySelector(".body-popup");
 
   modalTriggers.forEach((trigger) => {
+    // const navigation = document.getElementById("navigation");
     const {popupTrigger} = trigger.dataset;
     const popupModal = document.querySelector(`[data-popup-modal="${popupTrigger}"]`);
     trigger.addEventListener("click", () => {
       navigation.classList.remove("active");
       navigation.style.opacity = 0;
+      navigation.style.display = "none";
+      console.log("modal open");
       scrollLock();
       // document.body.style.overflowY = "hidden";
       popupModal.classList.add("is--visible");
@@ -375,6 +378,8 @@ function init() {
     popupModal.querySelector(".popup-modal__close").addEventListener("click", () => {
       scrollUnlock();
       navigation.style.opacity = 1;
+      navigation.style.display = "block";
+      console.log("modal close");
       // document.body.style.overflowY = "auto";
       popupModal.classList.remove("is--visible");
       bodyPopup.classList.remove("is-poped-out");
@@ -383,6 +388,9 @@ function init() {
     bodyPopup.addEventListener("click", () => {
       scrollUnlock();
       navigation.style.opacity = 1;
+      navigation.style.display = "block";
+      console.log("modal close");
+
       // document.body.style.overflowY = "auto";
       popupModal.classList.remove("is--visible");
       bodyPopup.classList.remove("is-poped-out");

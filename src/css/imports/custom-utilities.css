@@ -72,7 +72,7 @@ html.is-animating .transition-nav {
 } */
 
 #navigation {
-  transition: 0.33s transition ease-in-out, 0.33s opacity ease-in-out 0.33s;
+  transition: 0.33s transform ease-in-out, 0.33s opacity ease-in-out 0.33s;
   /* height: 68px !important; */
   /* z-index: 999; */
 }
