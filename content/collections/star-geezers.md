@@ -229,6 +229,14 @@ margin_y = "100"
 template = "block-media-element"
 width = "33"
 [[collection_layout_builder]]
+block = "media-motion"
+color = "#FCE4D0"
+margin_left = "65%"
+margin_y = "-200"
+template = "block-media-motion"
+vimeo_id = 414908662
+width = "50"
+[[collection_layout_builder]]
 block = "media-row"
 row_alignment = "between"
 template = "block-media-row"
@@ -361,16 +369,6 @@ margin_left = "30%"
 margin_y = "100"
 template = "block-media-element"
 width = "60"
-[[collection_layout_builder]]
-align_y = "start"
-block = "media-motion"
-color = "#FCE4D0"
-margin_left = "0%"
-margin_right = "0%"
-margin_y = "50"
-template = "block-media-motion"
-vimeo_id = 414908662
-width = "33"
 [[collection_press]]
 content = "[**_VICE_**](https://www.vice.com/en_us/article/wjv3m5/50-stellar-photos-of-outer-space)"
 template = "popup-text-element"
