@@ -9,12 +9,12 @@
     </div>
     <div id="header-pointer" class="absolute bottom-0 mx-0 text-6xl font-light text-{{.Params.navigation_theme}} z-10">&#8964;</div>
     <div id="page-title" class="fixed bottom-0 z-50 margin-0 px-4 sm:px-64 font-light text-{{.Params.navigation_theme}} text-center lazyload" style="transform: translate3d(0, -45vh, 0)">
-        <h1 class="text-4xl sm:text-6xl font-bold tracking-loosest leading-relaxed text-center" data-sal="slide-down" data-sal-delay="400">{{.Title}}</h1>
+        <h1 class="text-xl sm:text-6xl font-bold tracking-loosest leading-normal text-center" data-sal="slide-down" data-sal-delay="400">{{.Title}}</h1>
         <h2 class="uppercase text-lg sm:2xl font-light italic tracking-widest text-center" data-sal="slide-down" data-sal-delay="900">{{.Params.collection_meta}}</h2>
     </div>
     <!-- <div id="loading-overlay" class="absolute w-full h-screen inset-auto z-10" style="background-color: {{.Params.theme_color}};"></div> -->
 </header>
-<article id="project-description" class="w-full py-8 px-4 sm:px-64 text-xl text-{{.Params.navigation_theme}} items-center text-justify leading-loose relative z-100"  style="background-color: {{if (eq .Params.collection_archive true) }}#000{{else}}{{.Params.theme_color}}{{end}}; backface-visibility: hidden;">
+<article id="project-description" class="w-full py-8 px-5 sm:px-64 text-lg sm:text-xl text-{{.Params.navigation_theme}} items-center text-justify leading-loose relative z-100"  style="background-color: {{if (eq .Params.collection_archive true) }}#000{{else}}{{.Params.theme_color}}{{end}}; backface-visibility: hidden;">
     <div class="flex flex-col justify-center mx-auto" data-sal="slide-up" data-sal-delay="300">
             {{ .Params.collection_description | markdownify }}
             {{if (eq .Params.hide_footer true) }}

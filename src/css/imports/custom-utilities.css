@@ -571,6 +571,9 @@ a.collection-next .arrow {
 }
 
 @responsive {
+  .title-alignment {
+    transform: translate3d(0, -45vh, 0) 
+  }
   .border-box {
     box-sizing: border-box;
   }
