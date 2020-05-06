@@ -98,7 +98,7 @@ color = "#FFEACA"
 image = "https://jesserieser.brandlew.co/uploads/sunset-limited-7.jpg"
 margin_left = "10%"
 margin_right = ""
-margin_y = "400"
+margin_y = "500"
 template = "block-media-element"
 width = "30"
 [[collection_layout_builder]]
