@@ -16,12 +16,12 @@
     }
     {{ if eq .Params.collection_archive true }}
     {{$URL := .Permalink | safeCSS | replaceRE "/" "-"}}
-    html.to-{{substr $URL 0 -1 | urlize}} body {
+    html.to{{substr $URL 0 -1 | safeCSS }} body {
         background-color: #000;
     }
     {{ else }}
     {{$URL := .Permalink | safeCSS | replaceRE "/" "-"}}
-    html.to-{{substr $URL 0 -1 | urlize}} body {
+    html.to{{substr $URL 0 -1 | safeCSS }} body {
         background-color: {{.Params.theme_color}};
     }
     {{ end }}
