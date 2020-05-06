@@ -313,7 +313,7 @@ color = "#efefef"
 image = "https://jesserieser.brandlew.co/uploads/adicross-22.jpg"
 margin_left = ""
 margin_right = "15%"
-margin_y = "300"
+margin_y = "400"
 template = "block-media-element"
 width = "33"
 [[collection_layout_builder]]
