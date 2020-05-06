@@ -273,10 +273,10 @@ block = "media-element"
 caption = "Face Transplant"
 color = "#242424"
 image = "https://jesserieser.brandlew.co/uploads/primeknit-14.jpg"
-margin_left = "10%"
+margin_left = "0%"
 margin_right = ""
 margin_y = "200"
 template = "block-media-element"
-width = "80"
+width = "90"
 
 +++
