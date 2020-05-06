@@ -243,7 +243,7 @@ color = "#101010"
 image = "https://jesserieser.brandlew.co/uploads/primeknit-13.jpg"
 margin_left = "30%"
 margin_right = ""
-margin_y = "100"
+margin_y = "200"
 template = "block-media-element"
 width = "50"
 [[collection_layout_builder]]
