@@ -16,7 +16,7 @@ layout = "blocks"
 logo = ""
 navigation_theme = "white"
 row_alignment = ""
-theme_color = "#94ECDA"
+theme_color = "#CCE5DF"
 title = "Christmas In America: Happy Birthday, Jesus"
 [[collection_awards]]
 content = "**2017**  \n_Communication Arts Photography Annual  \nWinner: Best Unpublished Series_"
