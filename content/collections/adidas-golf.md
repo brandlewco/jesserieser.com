@@ -354,7 +354,7 @@ image = "https://jesserieser.brandlew.co/uploads/adicross-25.jpg"
 margin_left = ""
 margin_y = "300"
 template = "block-media-element"
-width = "40"
+width = "30"
 [[collection_layout_builder]]
 block = "media-row"
 row_alignment = "between"
