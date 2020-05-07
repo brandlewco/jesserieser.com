@@ -218,6 +218,7 @@ width = "40"
 [[collection_layout_builder]]
 align_y = "start"
 block = "media-motion"
+color = "#CCCCCC"
 margin_left = "0%"
 margin_right = "0%"
 margin_y = "50"
