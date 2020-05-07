@@ -17,14 +17,5 @@
     html.to-collection-{{lower .Title | urlize}} body {
         background-color: {{.Params.theme_color}};
     }
-    /* {{ if eq .Params.collection_archive true }}
-    html.to-collection-{{lower .Title | urlize}} body {
-        background-color: #000;
-    }
-    {{ else }}
-    html.to-collection-{{lower .Title | urlize}} body {
-        background-color: {{.Params.theme_color}};
-    }
-    {{ end }} */
 {{end}}
 </style>

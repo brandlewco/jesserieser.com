@@ -285,9 +285,9 @@ img.lazyload {
   opacity: 0;
 }
 
-body.archive #project-header {
+/* body.archive #project-header {
   background-color: #000 !important;
-}
+} */
 
 
 .block-hover img {
