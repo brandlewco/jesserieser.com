@@ -1,10 +1,12 @@
 +++
+collection_archive = false
 collection_awards = []
 collection_category = ["Environments", "Portraits", "Travel", "Editorial", "Uniquely American", "Science", "Tech", "Reportage", "Color"]
 collection_content = "This commission touches on something I think a lot about- how will “Main Street” and the idyllic small towns of America’s yesterday survive tomorrow? As the economy and workforce move to urban communities in record numbers, I’m afraid in the not-so-distant future the US landscape will be littered with ghost towns and abandoned communities, bringing a fabled American way of life to near extinction.\n\nThese works are a portrait of a community on life support, the closed Alcoa plant (the one-time financial lifeline), and the players working to bring the world’s largest bitcoin mining facility to a community desperately needing good news: Milam County Judge Steve Young, The Director of Rockdale Municipal Development Kara Chlore, and Joan and Dan Ratliff, owners of the historic Rainbow Courts Motel.\n\nIn 1952, **_The Saturday Evening Post_** christened Rockdale, Texas, “_The Town Where It Rains Money_.” More recently, though, prosperity has eluded Rockdale. The Alcoa smelter was shuttered in 2008, and an adjoining coal-fired power plant closed last year. More than 1,000 jobs vanished, sending Rockdale and surrounding Milam County, population 25,000, into a nosedive.\n\nThen, last summer, a ray of hope pierced the gloom. Bitmain, a Chinese company that makes specialized computers for “mining” crypto currency, said it would invest $500 million in the closed Alcoa smelter, which, crucially, was still connected to massive electrical lines. Most important for Milam County, Bitmain promised to create between 400 and 600 jobs. New industry would replace the old.\n\nInstead, Milam County and other communities have learned a real-life lesson about the elusive promise of virtual currency as the promised 400-600 jobs are currently at 20-40.\n\n[**_Article_**](https://www.wired.com/story/hard-luck-texas-town-bet-bitcoin-lost/) written by Mark Dent and assigned by Samantha Cooper."
 collection_cover = "https://jesserieser.brandlew.co/uploads/bitmain-27.jpg"
 collection_description = "These works are a portrait of Rockdale, Texas a community on life support, the closed Alcoa plant (their one-time financial lifeline), and the players working to bring the world’s largest bitcoin mining facility to a community desperately needing good news. Bitmain promised to create between 400 and 600 jobs. New industry would replace the old. \n\nInstead, Milam County and other communities have learned a real-life lesson about the elusive promise of virtual currency with only 30 new jobs created."
 collection_filter = "Commissioned + Stock"
+collection_hidden = false
 collection_meta = "The Hard-Luck Texas Town That Bet on Bitcoin and Lost"
 collection_preview = ["https://jesserieser.brandlew.co/uploads/bitmain-29.jpg", "https://jesserieser.brandlew.co/uploads/bitmain-7.jpg", "https://jesserieser.brandlew.co/uploads/bitmain-3.jpg", "https://jesserieser.brandlew.co/uploads/bitmain-11.jpg", "https://jesserieser.brandlew.co/uploads/bitmain-24.jpg"]
 cover_image = ""
@@ -15,8 +17,6 @@ navigation_theme = "white"
 test_repeater = []
 theme_color = "#D2DEE7"
 title = "Wired Magazine"
-collection_archive = false
-collection_hidden = false
 [[collection_exhibition]]
 content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
 template = "popup-text-element"
@@ -48,7 +48,7 @@ image = "https://jesserieser.brandlew.co/uploads/bitmain-2.jpg"
 margin_left = "5%"
 margin_y = "100"
 template = "block-media-element"
-width = "33"
+width = "50"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
@@ -56,10 +56,10 @@ caption = "caption"
 color = "#FFD467"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-3.jpg"
 margin_left = ""
-margin_right = "15%"
-margin_y = "300"
+margin_right = "10%"
+margin_y = "500"
 template = "block-media-element"
-width = "33"
+width = "30"
 [[collection_layout_builder]]
 block = "media-row"
 row_alignment = "between"
