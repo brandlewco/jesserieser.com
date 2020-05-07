@@ -34,24 +34,24 @@ page_sections:
     with clients. I can see their vision through my own eyes.\n\nSome call it empathy.
     Some call it charm. My mom just says I’m a nice young man."
   parallax: true
-  background_color: "#FFF6AD"
+  background_color: ""
   text_color: "#000000"
   background_image_toggle: true
   image: https://jesserieser.brandlew.co/uploads/bio-4.jpg
   font_weight: ''
-  image_css: 'transform: rotate(-2deg);'
-  caption_css: 'margin-left: -40%;'
+  image_css: 'opacity: 0.6;'
+  caption_css: ''
 - template: block-media-row
   block: media-row
   row_alignment: between
 - template: block-modal-list
   block: modal-list
-  width: '20'
+  width: '33'
   align_x: start
   margin_y: '200'
-  margin_left: 15%
+  margin_left: 50%
   margin_right: ''
-  title_margin_left: 30%
+  title_margin_left: -40%
   image: https://jesserieser.brandlew.co/uploads/bio-5.jpg
   title: Awards
   color: "#9DC2BE"
@@ -207,11 +207,21 @@ page_sections:
   block-list: ''
   align_y: ''
   title_margin_right: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: between
 - template: block-modal-list
   block: modal-list
   width: '33'
-  align_x: end
-  margin_y: '300'
+  align_x: start
+  margin_y: '100'
+  margin_left: 15%
+  margin_right: ''
+  title_margin_left: 75%
+  margin_x: 5%
+  block-list: ''
+  align_y: ''
+  title_margin_right: ''
   title: Press
   image: https://jesserieser.brandlew.co/uploads/bio-3.jpg
   color: "#FE9A8E"
@@ -520,25 +530,18 @@ page_sections:
     content: _JAVA Magazine_
     icon: ''
     url: ''
-  margin_x: 5%
-  block-list: ''
-  align_y: ''
-  margin_left: ''
-  margin_right: 10%
-  title_margin_left: "-30%"
-  title_margin_right: ''
 - template: block-media-row
   block: media-row
-  row_alignment: between
+  row_alignment: center
 - template: block-media-text
   block: media-text
   text_tracking: widest
   width: '33'
   align_y: center
-  margin_y: '0'
-  margin_left: 5%
+  margin_y: '100'
+  margin_left: 0%
   margin_right: 0%
-  background_color: "#50E3C2"
+  background_color: "#FF6A5A"
   text: |-
     “I’ve worked with tons of photographers that can’t make something great out of nothing. You made gold from a blank canvas. Thank you.”
 
@@ -553,14 +556,25 @@ page_sections:
   text_size: xl
   background_image_toggle: false
   image: ''
-  text_color: ''
+  text_color: '#ffffff'
   font_weight: ''
   image_css: ''
   caption_css: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: between
 - template: block-modal-list
   block: modal-list
   width: '33'
   align_x: start
+  margin_y: '100'
+  margin_left: 60%
+  margin_right: ''
+  title_margin_left: -33%
+  margin_x: 5%
+  block-list: ''
+  align_y: ''
+  title_margin_right: ''
   image: https://jesserieser.brandlew.co/uploads/antivaxx-11.jpg
   title: Exhibitions
   color: "#F7BD1E"
@@ -620,13 +634,6 @@ page_sections:
       Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
     icon: ''
     url: ''
-  margin_x: 5%
-  margin_y: '200'
-  align_y: ''
-  margin_left: ''
-  margin_right: 5%
-  title_margin_left: '-55%'
-  title_margin_right: ''
 header_col_1: "### Advertising & Editorial\n\n### Commissions\n\nEcho Hopkins  \n[echo@andersonhopkins.com](mailto:echo@andersonhopkins.com)
   \ \n  \nHannah Marchetto   \n[hannah@andersonhopkins.com](mailto:hannah@andersonhopkins.com)\n\n
   \ \n[Anderson Hopkins ](https://www.andersonhopkins.com)  \n70 Lafayette Street,
