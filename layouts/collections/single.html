@@ -1,18 +1,18 @@
 {{- define "main" -}}
     <!-- archive check -->
-    {{if (eq .Params.collection_archive true) }}
+    <!-- {{if (eq .Params.collection_archive true) }}
     <section data-hue="white" class="relative z-0">
-    {{else}}
+    {{else}} -->
     <section data-hue="{{with .Params.navigation_theme}}{{.}}{{end}}" class="relative z-0">
-    {{end}}
+    <!-- {{end}} -->
     {{ partial "collection_header-clip" .}}
     </section>
     <!-- archive check -->
-    {{if (eq .Params.collection_archive true) }}
+    <!-- {{if (eq .Params.collection_archive true) }}
     <section data-hue="white" class="pt-8 mx-auto bg-black relative z-100" style="backface-visibility: hidden;">
-    {{else}}
+    {{else}} -->
     <section data-hue="page" class="pt-8 mx-auto bg-white relative z-100" style="backface-visibility: hidden;">
-    {{end}}
+    <!-- {{end}} -->
         <div class="my-gallery px-8 xl:px-16" itemscope itemtype="http://schema.org/ImageGallery">
             <section class="block-media group-hover flex flex-wrap mx-auto h-auto {{with .Params.row_alignment}}sm:justify-{{.}}{{else}}sm:justify-between{{end}}">
             {{- range .Params.collection_layout_builder -}}

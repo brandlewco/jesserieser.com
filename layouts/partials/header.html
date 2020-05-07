@@ -5,13 +5,14 @@
         <h1 class="text-3xl shift font-bold">R</h1>
     </div>
     <div class="w-3/5 sm:w-1/2 text-center sm:text-left">
-      <a href="/" alt="{{.Site.Title}}">
         <h1 class="flex flex-col sm:flex-row items-center text-2xl font-medium tracking-widest shift">
-          <div>JESSE RIESER</div>
+          <a href="/" alt="{{.Site.Title}}">
+            <div>JESSE RIESER</div>
+          </a>
             {{if (eq .Params.collection_archive true) }}
             <div class="text-sm font-normal pl-4 tracking-looser">archive</div>
             {{end}}
-        </h1></a>
+        </h1>
     </div>
     <!-- mobile menu button -->
     <div class="navToggle sm:hidden w-1/5 sm:w-1/4 flex justify-end">
