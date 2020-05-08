@@ -1,11 +1,9 @@
-<!-- static theme importer -->
-<style type="text/css">
-/* home style preloader */
-    {{ with .Site.Home }}
+{{ with .Site.Home }}
         body.page-{{lower .Title | urlize}} .hue-header.page .shift{
             color: {{.Params.feature_color}} !important;
         };
-    {{end}}
+{{end}}
+
 /* collection style preloaders */
 {{ range (where .Site.RegularPages "Section" "collections") }}
     body.page-{{lower .Title | urlize}} .hue-header.page .shift{
@@ -18,4 +16,3 @@
         background-color: {{.Params.theme_color}};
     }
 {{end}}
-</style>

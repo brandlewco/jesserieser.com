@@ -13,7 +13,9 @@
       <div class="body-popup h-full w-full fixed inset-0 z-40" style="background: rgba(235,235,235,0.85);"></div>
     </main>
     {{ partial "fa-icon.html" .}}
-    {{ partial "style_themer.html" .}}
+    <style type="text/css">
+    {{ partial "style_themer.html" . | safeCSS }}
+    </style>
   </body>
   {{ template "_internal/google_analytics_async.html" . }}
 </html>
