@@ -12,7 +12,11 @@
     body.page-{{lower .Title | urlize}} .pswp__ui--fit .pswp__top-bar, .pswp__ui--fit .pswp__caption  {
         background: {{.Params.theme_color}} !important;
     }
-    html.to-collection-{{lower .Title | urlize}} body {
+    <!-- html.to-collection-{{lower .Title | urlize}} body {
         background-color: {{.Params.theme_color}};
+    } -->
+    {{$URL := .RelPermalink | safeCSS | replaceRE "/" "-"}}
+    html.to{{substr $URL 0 -1 }} body {
+        background-color: #000;
     }
 {{end}}
