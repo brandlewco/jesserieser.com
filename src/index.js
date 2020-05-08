@@ -479,29 +479,26 @@ function init() {
   const projectHeader = document.getElementById("project-header");
   const content = document.getElementById("content");
   const filterContainer = document.getElementById("filter-container");
+  const headerPointer = document.getElementById("header-pointer");
   // Scroll Animations
   let scrollPos = 0;
-  // Show Hide Header
-  // if (document.body.contains(projectHeader)) {
-  //   navigation.style.transform = "translate3d(0, 0, 0)";
-  // }
   window.onscroll = function() {
     document.documentElement.style.setProperty("--scroll-y", `${window.scrollY}px`);
-    var headerOverlay = document.getElementById("header-overlay");
-    var featureOverlay = document.getElementById("feature-overlay");
+    // var headerOverlay = document.getElementById("header-overlay");
+    // var featureOverlay = document.getElementById("feature-overlay");
     var pageTitle = document.getElementById("page-title");
-    // var headerImage = document.querySelector("#project-header > img");
+    var headerImage = document.querySelector("#project-header > img");
     var height = window.innerHeight;
     var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
-    // if (headerImage) {
-    //   headerImage.style.opacity = value_limit(1 - (scrollTop / (height * 0.5)), 0, 1).toFixed(3);
+    if (headerImage) {
+      headerImage.style.opacity = value_limit(1 - (scrollTop / (height * 0.5)), 0, 1).toFixed(3);
+    }
+    // if (headerOverlay) {
+    //   headerOverlay.style.opacity = value_limit((scrollTop / (height * 0.4)), 0, 1).toFixed(2);
     // }
-    if (headerOverlay) {
-      headerOverlay.style.opacity = value_limit((scrollTop / (height * 0.4)), 0, 1).toFixed(2);
-    }
-    if (featureOverlay) {
-      featureOverlay.style.opacity = value_limit((scrollTop / (height * 0.9)), 0, 1).toFixed(2);
-    }
+    // if (featureOverlay) {
+    //   featureOverlay.style.opacity = value_limit((scrollTop / (height * 0.9)), 0, 1).toFixed(2);
+    // }
     const windowY = window.scrollY;
     if (document.body.contains(projectHeader)) {
       if (windowY > (window.innerHeight * 0.75)) {
@@ -522,6 +519,11 @@ function init() {
       }
     }
     if (document.querySelector("#page-title")) {
+      if (windowY > (window.innerHeight * 0.15)) {
+        headerPointer.style.opacity = 0;
+      } else {
+        headerPointer.style.opacity = 1;
+      }
       if (windowY > (window.innerHeight * 0.45)) {
         pageTitle.classList.add("absolute");
         pageTitle.classList.remove("fixed");

@@ -149,26 +149,17 @@
     </nav>
     {{ end }} -->
 
+
 </section>
-{{if (eq .Params.hide_footer true) }}
-{{else}}
-{{if (eq .Params.collection_archive true) }}
-<a href="#project-header" alt="back to top" data-no-swup>
-    <div class="mx-auto w-full mt-32 text-center font-light text-white" data-sal="slide-down" data-sal-delay="300">
-        <p class="text-5xl font-hairline" style="line-height: 0.4;">&#8963;</p>
-        <p class="text-md sm:text-xl font-light">BACK TO TOP</p>
-    </div>
-</a>
-<section id="project-brief" class="bg-black mt-4">
-{{else}}
 <a href="#project-header" alt="back to top" data-no-swup>
     <div class="mx-auto w-full mt-32 text-center font-light" style="color: {{.Params.theme_color}};"  data-sal="slide-down" data-sal-delay="300">
         <p class="text-5xl font-hairline" style="line-height: 0.4;">&#8963;</p>
         <p class="text-md sm:text-xl font-light">BACK TO TOP</p>
     </div>
 </a>
+{{if (eq .Params.hide_footer true) }}
+{{else}}
 <section id="project-brief" class="mt-4" style="background-color:{{.Params.theme_color}};">
-{{end}}
     <div class="mx-auto w-full">
         <aside class="mx-16 xl:mx-32 py-16 text-lg leading-loose {{with .Params.navigation_theme}}text-{{.}}{{end}} border-b-2 border-solid" {{with .Params.navigation_theme}}style="border-color: {{.}}"{{end}}>
             <h2 class="font-bold mb-8 text-md sm:text-xl tracking-relaxed">{{.Params.title}}</h2>

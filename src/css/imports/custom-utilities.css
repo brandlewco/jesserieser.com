@@ -169,19 +169,19 @@ header img.lazyload + #feature-overlay, header img.lazyloading + #feature-overla
   opacity: 1;
 }
 
-header img.lazyload + #header-overlay + #header-loading + #header-pointer, 
-header img.lazyload + #feature-overlay + #header-loading + #header-pointer,
-header img.lazyloading + #header-overlay + #header-loading + #header-pointer, 
-header img.lazyloading + #feature-overlay + #header-loading + #header-pointer {
+header img.lazyload + #header-loading + #header-pointer, 
+header img.lazyload +  #header-loading + #header-pointer,
+header img.lazyloading + #header-loading + #header-pointer, 
+header img.lazyloading + #header-loading + #header-pointer {
   opacity: 0;
 }
 
 
-header img.lazyloaded + #header-overlay,  header img.lazyloaded + #feature-overlay {
+/* header img.lazyloaded + #header-overlay,  header img.lazyloaded + #feature-overlay {
   opacity: 0;
-}
+} */
 
-header img.lazyloaded + #header-overlay + #header-loading, header img.lazyloaded + #feature-overlay + #header-loading  {
+header img.lazyloaded + #header-loading, header img.lazyloaded + #header-loading  {
   opacity: 0;
 }
 
@@ -257,6 +257,8 @@ header img.lazyload, header img.lazyloading {
 }
 header img.lazyloaded {
   opacity: 1;
+
+  transition: opacity 0s ease-in-out;
 }
 
 
