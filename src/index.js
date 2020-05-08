@@ -524,14 +524,14 @@ function init() {
       } else {
         headerPointer.style.opacity = 1;
       }
-      if (windowY > (window.innerHeight * 0.45)) {
+      if (windowY > (window.innerHeight * 0.35)) {
         pageTitle.classList.add("absolute");
         pageTitle.classList.remove("fixed");
         pageTitle.style.transform = "translate3d(0, 0vh, 0)";
       } else {
         pageTitle.classList.add("fixed");
         pageTitle.classList.remove("absolute");
-        pageTitle.style.transform = "translate3d(0, -45vh, 0)";
+        pageTitle.style.transform = "translate3d(0, -35vh, 0)";
       }
     }
     scrollPos = windowY;
