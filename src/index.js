@@ -557,6 +557,15 @@ function init() {
 
   navigation.style.opacity = "1";
 
+
+  (function() {
+    var links = document.getElementsByTagName("a");
+    for (var i = 0; i < links.length; i++) {
+      if (/^(https?:)?\/\//.test(links[i].getAttribute("href"))) {
+        links[i].target = "_blank";
+      }
+    }
+  })();
 }
 
 // intit code on each page load
