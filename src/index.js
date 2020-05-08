@@ -548,9 +548,13 @@ function init() {
     currentPage.nextElementSibling.classList.add("visible", "collection-next");
   }
 
-  var aboutModal = document.getElementById("modal-about");
-  aboutModal.style.display = "block";
+  const aboutModal = document.getElementById("modal-about");
+  setTimeout(function() {
+    aboutModal.style.display = "block";
+  }, 1000);
+
   navigation.style.opacity = "1";
+
 }
 
 // intit code on each page load

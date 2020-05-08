@@ -17,6 +17,6 @@
     } -->
     {{$URL := .RelPermalink | safeCSS | replaceRE "/" "-"}}
     html.to{{substr $URL 0 -1 }} body {
-        background-color: #000;
+        background-color: {{.Params.theme_color}};
     }
 {{end}}
