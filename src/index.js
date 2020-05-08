@@ -477,6 +477,8 @@ function init() {
   }
 
   const projectHeader = document.getElementById("project-header");
+  const content = document.getElementById("content");
+  const filterContainer = document.getElementById("filter-container");
   // Scroll Animations
   let scrollPos = 0;
   // Show Hide Header
@@ -508,6 +510,15 @@ function init() {
         } else {
           navigation.style.transform = "translate3d(0, -200%, 0)";
         }
+      }
+    }
+    if (document.body.contains(filterContainer)) {
+      if (windowY < scrollPos) {
+        navigation.style.transform = "translate3d(0, 0, 0)";
+        filterContainer.style.transform = "translate3d(0, 68px, 0)";
+      } else {
+        navigation.style.transform = "translate3d(0, -68px, 0)";
+        filterContainer.style.transform = "translate3d(0, 0px, 0)";
       }
     }
     if (document.querySelector("#page-title")) {

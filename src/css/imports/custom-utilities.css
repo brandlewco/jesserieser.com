@@ -6,7 +6,7 @@ html {
 }
 
 body.page-collections #navigation {
-  position: relative !important;
+  /* position: relative !important; */
   background-color: rgba(255,255,255,0.6);
 }
 
@@ -103,6 +103,10 @@ html.is-animating .transition-nav {
 button:hover {
   text-shadow: 0 0 .01px black;
 
+}
+
+#filter-container {
+  transition: 0.33s transform ease-in-out;
 }
 
 #filter {
