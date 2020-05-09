@@ -90,7 +90,7 @@ function init() {
 
   // PhotoSwipe
   if (document.querySelector("#gallery")) {
-    const figureIMG = document.querySelectorAll(".figure img");
+    // const figureIMG = document.querySelectorAll(".figure img");
     var initPhotoSwipeFromDOM = function(gallerySelector) {
       // parse slide data (url, title, size ...) from DOM elements
       // (children of gallerySelector)
@@ -151,7 +151,16 @@ function init() {
 
       // triggers when user clicks on thumbnail
       var onThumbnailsClick = function(e) {
+        // UI pre-gallery launch
         navigation.style.opacity = 0;
+        navigation.style.display = "none";
+        const figureIMG = document.querySelectorAll(".figure img");
+        figureIMG.forEach(function(element) {
+          // console.log(element);
+          element.style.opacity = 0;
+        });
+
+        // launch gallery
         e = e || window.event;
         e.preventDefault ? e.preventDefault() : e.returnValue = false;
 
@@ -234,7 +243,7 @@ function init() {
           // define gallery index (for URL)
           galleryUID: galleryElement.getAttribute("data-pswp-uid"),
           history: false,
-          bgOpacity: 0.40,
+          bgOpacity: 0.05,
           closeOnScroll: false,
           closeOnVerticalDrag: false,
           preload: [2, 2],
@@ -316,6 +325,12 @@ function init() {
             behavior: "smooth"
           });
           navigation.style.opacity = 1;
+          navigation.style.display = "block";
+          const figureIMG = document.querySelectorAll(".figure img");
+          figureIMG.forEach(function(element) {
+            // console.log(element);
+            element.style.opacity = 1;
+          });
         });
         gallery.init();
       };
@@ -366,7 +381,6 @@ function init() {
       navigation.classList.remove("active");
       navigation.style.opacity = 0;
       navigation.style.display = "none";
-      console.log("modal open");
       scrollLock();
       // document.body.style.overflowY = "hidden";
       popupModal.classList.add("is--visible");
@@ -379,7 +393,6 @@ function init() {
       scrollUnlock();
       navigation.style.opacity = 1;
       navigation.style.display = "block";
-      console.log("modal close");
       // document.body.style.overflowY = "auto";
       popupModal.classList.remove("is--visible");
       bodyPopup.classList.remove("is-poped-out");
@@ -389,8 +402,6 @@ function init() {
       scrollUnlock();
       navigation.style.opacity = 1;
       navigation.style.display = "block";
-      console.log("modal close");
-
       // document.body.style.overflowY = "auto";
       popupModal.classList.remove("is--visible");
       bodyPopup.classList.remove("is-poped-out");
@@ -491,7 +502,7 @@ function init() {
     var height = window.innerHeight;
     var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
     if (headerImage) {
-      headerImage.style.opacity = value_limit(1 - (scrollTop / (height * 0.4)), 0, 1).toFixed(3);
+      headerImage.style.opacity = value_limit(1 - (scrollTop / (height * 0.35)), 0, 1).toFixed(2);
     }
     // if (headerOverlay) {
     //   headerOverlay.style.opacity = value_limit((scrollTop / (height * 0.4)), 0, 1).toFixed(2);
