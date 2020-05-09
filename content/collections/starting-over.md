@@ -26,7 +26,7 @@ template = "popup-text-element"
 content = "**2012**  \n_Guate Photo Festival: \\[DOT\\]COM_  \nLa Fototeca Gallery. Guatemala City (Group Show)"
 template = "popup-text-element"
 [[collection_exhibition]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+content = "**2011**  \n_Filter Photo Jurried Exhibition_  \nBlack Cloud Gallery. Chicago, IL (Group Show)"
 template = "popup-text-element"
 [[collection_exhibition]]
 content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
