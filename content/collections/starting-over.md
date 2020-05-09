@@ -301,10 +301,10 @@ margin_y = "100"
 template = "block-media-element"
 width = "60"
 [[collection_press]]
-content = "[_Buzzfeed_](https://www.buzzfeednews.com/article/gabrielsanchez/football-highschool-nfl-season-america-sports-players-team)"
+content = "[**_Landscape Stories_**](http://landscape-stories.tumblr.com/post/112393878318/ls-18-family-submission-jesse-rieser)"
 template = "popup-text-element"
 [[collection_press]]
-content = "[_The Gaurdian_](https://www.theguardian.com/artanddesign/2018/sep/19/jesse-rieser-best-photograph-school-football-farewell-phoenix-arizona)"
+content = "[**_OITZARISME: Romanian Online Magazine on Photography_**](http://www.oitzarisme.ro/2011/07/04/jesse-rieser-starting-over/)"
 template = "popup-text-element"
 [[collection_press]]
 content = "_Nacione_"
