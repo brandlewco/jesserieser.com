@@ -183,19 +183,5 @@ margin_right = "35%"
 margin_y = "100"
 template = "block-media-element"
 width = "20"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
-align_x = "start"
-block = "media-element"
-caption = "caption"
-color = "#FFF5F0"
-image = "https://jesserieser.brandlew.co/uploads/ieg-12.jpg"
-margin_left = "30%"
-margin_y = "100"
-template = "block-media-element"
-width = "50"
 
 +++
