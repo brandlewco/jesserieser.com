@@ -2,9 +2,9 @@
 attached_gallery = "gallery/autobiography.md"
 collection_archive = true
 collection_category = ["Still Life + Details", "Black and White", "Lifestyle", "Color", "Reportage", "Portraits", "Environments", "Sports + Athletes"]
-collection_content = "collection content"
+collection_content = "This is a story about transition. About the things we lose, and the memories we keep.\n\nIn 2009, my parents, Rob and Stephanie Rieser, left Springfield, Missouri, for suburban Phoenix, forced to find work in a new city when the economy in our hometown faltered.\n\nThe photographs in this new series document their last days in the home in which, for 23 years, they raised three sons, hosted countless family holidays, planted gardens, decorated rooms, and built a life. I capture my Mom and Dad packing to leave Missouri, striving to personalize their new home in Arizona, and marking a family milestone under a new roof. Watching them fix up their new house reminds me that they are a team, one with remarkable energy and affection after 35 years of marriage. They are my relationship role models.\n\nI loved our Springfield house not for its bricks and gardens, doors and stairs, but for the home my parents made it. I saw it as a refuge, a familiar constant for my brothers and myself. When my parents left that home to start over in Arizona, I felt the final chapter in my childhood had come to an end.\n\nWhile the photos in this series are intimate, they are universal in their illustration of vulnerability and apprehension, optimism and love. They represent the fragility of housing and employment, and the strength of family and commitment."
 collection_cover = "https://jesserieser.brandlew.co/uploads/startingover-5.jpg"
-collection_description = "collection description"
+collection_description = "This is a story about transition. About the things we lose, and the memories we keep. In 2009, my parents Rob and Stephanie\n\nRieser left Springfield, Missouri for suburban Phoenix, forced to find work in a new city when the economy in our hometown faltered."
 collection_exhibition = []
 collection_filter = "Personal"
 collection_hidden = false
@@ -18,7 +18,7 @@ navigation_theme = "white"
 theme_color = "#E0CBC6"
 title = "Starting Over: Will Move For Work"
 [[collection_awards]]
-content = "**2018**  \n_AP 34: American Photography Annual 34_  \nBest Personal Work Series"
+content = "**2012**  \n_Photolucida's Critical Mass_  \nFinalist: Top International Project"
 template = "popup-text-element"
 [[collection_layout_builder]]
 align_x = "start"
