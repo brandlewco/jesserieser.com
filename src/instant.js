@@ -5,8 +5,8 @@
 // import SwupScriptsPlugin from "@swup/scripts-plugin";
 // import SwupPreloadPlugin from "@swup/preload-plugin";
 import lazySizes from "lazysizes";
-import "lazysizes/plugins/unveilhooks/ls.unveilhooks";
-import "lazysizes/plugins/bgset/ls.bgset";
+// import "lazysizes/plugins/unveilhooks/ls.unveilhooks";
+// import "lazysizes/plugins/bgset/ls.bgset";
 import "lazysizes/plugins/parent-fit/ls.parent-fit";
 import * as PhotoSwipe from "photoswipe";
 import * as PhotoSwipeUI_Default from "photoswipe/dist/photoswipe-ui-default";
@@ -17,7 +17,7 @@ import Rellax from "rellax";
 
 lazySizes.cfg.expand = "1000";
 
-// Page Loader (SWUP)
+// // Page Loader (SWUP)
 // const options = {
 //   containers: ["#navigation", "#content"],
 //   plugins: [
@@ -48,9 +48,13 @@ lazySizes.cfg.expand = "1000";
 // };
 // const swup = new Swup(options);
 
+// swup.on("animationInDone", function() {
+
+// });
+
 // swup.on("contentReplaced", init);
 
-// function init() {
+function init() {
 // MIDDAY
 const middayNav = new Midday(document.getElementById("navigation"), {
   headerClass: "hue-header",
@@ -147,7 +151,7 @@ if (document.querySelector("#gallery")) {
 
     // triggers when user clicks on thumbnail
     var onThumbnailsClick = function(e) {
-      navigation.classList.add("opacity-0");
+      navigation.style.opacity = 0;
       e = e || window.event;
       e.preventDefault ? e.preventDefault() : e.returnValue = false;
 
@@ -230,10 +234,10 @@ if (document.querySelector("#gallery")) {
         // define gallery index (for URL)
         galleryUID: galleryElement.getAttribute("data-pswp-uid"),
         history: false,
-        bgOpacity: 0.85,
+        bgOpacity: 0.40,
         closeOnScroll: false,
         closeOnVerticalDrag: false,
-        preload: [2, 3],
+        preload: [2, 2],
         loadingIndicatorDelay: 100,
         getThumbBoundsFn: function(index) {
           // See Options -> getThumbBoundsFn section of documentation for more info
@@ -311,7 +315,7 @@ if (document.querySelector("#gallery")) {
           left: 0,
           behavior: "smooth"
         });
-        navigation.classList.remove("opacity-0");
+        navigation.style.opacity = 1;
       });
       gallery.init();
     };
@@ -355,10 +359,14 @@ const modalTriggers = document.querySelectorAll(".popup-trigger");
 const bodyPopup = document.querySelector(".body-popup");
 
 modalTriggers.forEach((trigger) => {
+  // const navigation = document.getElementById("navigation");
   const {popupTrigger} = trigger.dataset;
   const popupModal = document.querySelector(`[data-popup-modal="${popupTrigger}"]`);
   trigger.addEventListener("click", () => {
-    navigation.classList.add("opacity-0");
+    navigation.classList.remove("active");
+    navigation.style.opacity = 0;
+    navigation.style.display = "none";
+    console.log("modal open");
     scrollLock();
     // document.body.style.overflowY = "hidden";
     popupModal.classList.add("is--visible");
@@ -369,15 +377,20 @@ modalTriggers.forEach((trigger) => {
   });
   popupModal.querySelector(".popup-modal__close").addEventListener("click", () => {
     scrollUnlock();
+    navigation.style.opacity = 1;
+    navigation.style.display = "block";
+    console.log("modal close");
     // document.body.style.overflowY = "auto";
-    navigation.classList.remove("opacity-0");
     popupModal.classList.remove("is--visible");
     bodyPopup.classList.remove("is-poped-out");
   });
 
   bodyPopup.addEventListener("click", () => {
-    // scrollUnlock();
-    navigation.classList.remove("opacity-0");
+    scrollUnlock();
+    navigation.style.opacity = 1;
+    navigation.style.display = "block";
+    console.log("modal close");
+
     // document.body.style.overflowY = "auto";
     popupModal.classList.remove("is--visible");
     bodyPopup.classList.remove("is-poped-out");
@@ -411,9 +424,20 @@ const navigation = document.getElementById("navigation");
 var navToggle = document.getElementsByClassName("navToggle");
 Array.prototype.forEach.call(navToggle, function(nav) {
   nav.addEventListener("click", function(event) {
+    nav.classList.toggle("toggle-active");
     navigation.classList.toggle("active");
+    // // create locking event
+    // scrollLock();
+    // // create unlocking event
+    // const navToggleActive = document.getElementsByClassName("toggle-active");
+    // Array.prototype.forEach.call(navToggleActive, function(toggledActive) {
+    //   toggledActive.addEventListener("click", function(event) {
+    //     scrollUnlock();
+    //   });
+    // });
   });
 });
+
 
 // USE FOR BLOCK HOVER
 const figureAll = document.querySelectorAll(".figure");
@@ -453,25 +477,28 @@ function value_limit(val, min, max) {
 }
 
 const projectHeader = document.getElementById("project-header");
+const content = document.getElementById("content");
+const filterContainer = document.getElementById("filter-container");
+const headerPointer = document.getElementById("header-pointer");
 // Scroll Animations
 let scrollPos = 0;
-// Show Hide Header
-// if (document.body.contains(projectHeader)) {
-//   navigation.style.transform = "translate3d(0, 0, 0)";
-// }
 window.onscroll = function() {
   document.documentElement.style.setProperty("--scroll-y", `${window.scrollY}px`);
-  var headerOverlay = document.getElementById("header-overlay");
-  var featureOverlay = document.getElementById("feature-overlay");
+  // var headerOverlay = document.getElementById("header-overlay");
+  // var featureOverlay = document.getElementById("feature-overlay");
   var pageTitle = document.getElementById("page-title");
+  var headerImage = document.querySelector("#project-header > img");
   var height = window.innerHeight;
   var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
-  if (headerOverlay) {
-    headerOverlay.style.opacity = value_limit((scrollTop / (height * 0.5)), 0, 1).toFixed(2);
+  if (headerImage) {
+    headerImage.style.opacity = value_limit(1 - (scrollTop / (height * 0.4)), 0, 1).toFixed(3);
   }
-  if (featureOverlay) {
-    featureOverlay.style.opacity = value_limit((scrollTop / (height * 0.9)), 0, 1).toFixed(2);
-  }
+  // if (headerOverlay) {
+  //   headerOverlay.style.opacity = value_limit((scrollTop / (height * 0.4)), 0, 1).toFixed(2);
+  // }
+  // if (featureOverlay) {
+  //   featureOverlay.style.opacity = value_limit((scrollTop / (height * 0.9)), 0, 1).toFixed(2);
+  // }
   const windowY = window.scrollY;
   if (document.body.contains(projectHeader)) {
     if (windowY > (window.innerHeight * 0.75)) {
@@ -482,15 +509,29 @@ window.onscroll = function() {
       }
     }
   }
+  if (document.body.contains(filterContainer)) {
+    if (windowY < scrollPos) {
+      navigation.style.transform = "translate3d(0, 0, 0)";
+      filterContainer.style.transform = "translate3d(0, 68px, 0)";
+    } else {
+      navigation.style.transform = "translate3d(0, -68px, 0)";
+      filterContainer.style.transform = "translate3d(0, 0px, 0)";
+    }
+  }
   if (document.querySelector("#page-title")) {
-    if (windowY > (window.innerHeight * 0.45)) {
+    if (windowY > (window.innerHeight * 0.15)) {
+      headerPointer.style.opacity = 0;
+    } else {
+      headerPointer.style.opacity = 1;
+    }
+    if (windowY > (window.innerHeight * 0.40)) {
       pageTitle.classList.add("absolute");
       pageTitle.classList.remove("fixed");
       pageTitle.style.transform = "translate3d(0, 0vh, 0)";
     } else {
       pageTitle.classList.add("fixed");
       pageTitle.classList.remove("absolute");
-      pageTitle.style.transform = "translate3d(0, -45vh, 0)";
+      pageTitle.style.transform = "translate3d(0, -40vh, 0)";
     }
   }
   scrollPos = windowY;
@@ -509,9 +550,25 @@ if (document.querySelector("#current")) {
   currentPage.nextElementSibling.classList.add("visible", "collection-next");
 }
 
-// }
+const aboutModal = document.getElementById("modal-about");
+setTimeout(function() {
+  aboutModal.style.display = "block";
+}, 1000);
 
-// // intit code on each page load
-// init();
+navigation.style.opacity = "1";
+
+
+(function() {
+  var links = document.getElementsByTagName("a");
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute("href"))) {
+      links[i].target = "_blank";
+    }
+  }
+})();
+}
+
+// intit code on each page load
+init();
 
 import "./css/main.css";

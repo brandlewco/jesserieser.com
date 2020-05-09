@@ -234,10 +234,10 @@ function init() {
           // define gallery index (for URL)
           galleryUID: galleryElement.getAttribute("data-pswp-uid"),
           history: false,
-          bgOpacity: 0.85,
+          bgOpacity: 0.40,
           closeOnScroll: false,
           closeOnVerticalDrag: false,
-          preload: [2, 3],
+          preload: [2, 2],
           loadingIndicatorDelay: 100,
           getThumbBoundsFn: function(index) {
             // See Options -> getThumbBoundsFn section of documentation for more info
@@ -491,7 +491,7 @@ function init() {
     var height = window.innerHeight;
     var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
     if (headerImage) {
-      headerImage.style.opacity = value_limit(1 - (scrollTop / (height * 0.5)), 0, 1).toFixed(3);
+      headerImage.style.opacity = value_limit(1 - (scrollTop / (height * 0.4)), 0, 1).toFixed(3);
     }
     // if (headerOverlay) {
     //   headerOverlay.style.opacity = value_limit((scrollTop / (height * 0.4)), 0, 1).toFixed(2);

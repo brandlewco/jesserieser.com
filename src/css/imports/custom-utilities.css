@@ -466,7 +466,7 @@ a.collection-next .arrow {
   
 }
 
-#filter-archive::after {
+/* #filter-archive::after {
   position: absolute;
   background: #000;
   content: "";
@@ -478,7 +478,7 @@ a.collection-next .arrow {
   right:0;
   overflow: visible;
   z-index: -1;
-}
+} */
 
 /**** disabling Isotope CSS3 transitions ****/
 
