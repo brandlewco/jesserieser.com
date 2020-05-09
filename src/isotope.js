@@ -167,6 +167,8 @@ imagesLoaded(grid, function() {
     const filters = items.dataset.filter.split(",");
     // const filtersTheme = items.dataset.theme;
     items.addEventListener("mouseenter", () => {
+      items.classList.remove("hover-off");
+      items.classList.add("hover-animate");
       filters.forEach(function(element) {
         var filterActive = document.getElementById(element);
         if (filterActive) {
@@ -176,6 +178,8 @@ imagesLoaded(grid, function() {
       });
     });
     items.addEventListener("mouseleave", () => {
+      items.classList.remove("hover-animate");
+      items.classList.add("hover-off");
       filters.forEach(function(element) {
         var filterActive = document.getElementById(element);
         if (filterActive) {
