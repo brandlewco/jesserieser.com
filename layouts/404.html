@@ -1,5 +1,9 @@
 {{ define "main" }} {{ $section := .Site.GetPage "section" .Section }}
-<article class="content">
-  <h1>ERROR OPERATOR</h1>
+<article class="content flex justify-center items-center h-screen">
+    <div id="404" class="text-center text-3xl font-semibold">
+        <h1 class="text-4xl mb-2"><span class="hidden">404 Error</span>😔</h1>
+        <h2>Sorry, I can't find anything here.</h2>
+        <div class="flex flex-row justify-center items-center"><a href="/?ref=404" alt="home" class="underline text-lg">Selected Works</a><div class="px-2 font-light">|</div><a href="/collections?ref=404" alt="all collections" class="underline text-lg">All Works</a></div>
+    </div>
 </article>
 {{ end }}
