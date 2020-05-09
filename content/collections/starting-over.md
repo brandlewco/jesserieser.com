@@ -29,7 +29,7 @@ template = "popup-text-element"
 content = "**2011**  \n_Filter Photo Jurried Exhibition_  \nBlack Cloud Gallery. Chicago, IL (Group Show)"
 template = "popup-text-element"
 [[collection_exhibition]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+content = "**2011**  \n_Art Director’s Club Young Guns 9 Exhibition_\n\nArt Director’s Club Gallery.   \nNew York, NY. (Group Show)"
 template = "popup-text-element"
 [[collection_layout_builder]]
 align_x = "start"
