@@ -20,6 +20,9 @@ title = "Starting Over: Will Move For Work"
 [[collection_awards]]
 content = "**2012**  \n_Photolucida's Critical Mass_  \nFinalist: Top International Project"
 template = "popup-text-element"
+[[collection_awards]]
+content = "**2011**  \n_Filter Photo Festival Official Selection_"
+template = "popup-text-element"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
