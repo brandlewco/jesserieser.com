@@ -490,6 +490,7 @@ a.collection-next .arrow {
 
 /* Collection slideshow */
 .collection-preview img {
+  height: 100%;
   top: 0;
   left: 0;
   position: absolute;
@@ -523,9 +524,9 @@ a.collection-next .arrow {
           animation-play-state: running;
 }
 
-.filter-item.hover-off img {
+/* .filter-item.hover-off img {
   animation: showMe 1s reverse;
-}
+} */
 /* .filter-item.hover-off {
    img:nth-child(1){
     opacity: 1 !important;
