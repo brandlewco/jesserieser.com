@@ -3,25 +3,6 @@ layout: blocks
 title: Jesse Rieser
 date: 2017-11-01T23:00:00.000+00:00
 page_sections:
-# - template: block-media-text
-#   block: media-text
-#   text_size: 6xl
-#   text_tracking: widest
-#   width: '50'
-#   align_y: end
-#   margin_y: '200'
-#   margin_left: 50%
-#   margin_right: 0%
-#   text: _SELECTED WORKS_
-#   text_color: "#EDEDED"
-#   parallax: true
-#   background_color: ''
-#   background_image_toggle: false
-#   image: ''
-#   font_weight: light
-#   image_css: ''
-#   caption_css: ''
-#   text_alignment: ''
 - template: block-media-row
   block: media-row
   row_alignment: between
@@ -44,19 +25,19 @@ page_sections:
   meta_align: ''
 - template: block-media-feature
   block: media-feature
-  width: '30'
+  width: '45'
   align_x: start
-  margin_y: '400'
-  image: https://jesserieser.brandlew.co/uploads/xmas-25.jpg
+  margin_y: '500'
+  image: https://jesserieser.brandlew.co/uploads/xmas-1.jpg
   attached_collection: collections/xmas-in-america.md
-  title: XMAS IN AMERICA
+  title: Christmas In America
   color: "#FF0000"
   meta: Personal 2010 -  2019
   margin_x: ''
   align_y: ''
   margin_left: ''
   margin_right: 5%
-  title_margin_left: "-90%"
+  title_margin_left: "-95%"
   title_margin_right: ''
   meta_align: right
 - template: block-media-row
