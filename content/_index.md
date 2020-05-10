@@ -20,7 +20,7 @@ page_sections:
   align_y: ''
   margin_left: ''
   margin_right: 5%
-  title_margin_left: "-95%"
+  title_margin_left: 0%
   title_margin_right: ''
   meta_align: right
 - template: block-media-row
