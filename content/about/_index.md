@@ -34,13 +34,14 @@ page_sections:
     with clients. I can see their vision through my own eyes.\n\nSome call it empathy.
     Some call it charm. My mom just says I’m a nice young man."
   parallax: true
-  background_color: ""
+  background_color: ''
   text_color: "#000000"
   background_image_toggle: true
   image: https://jesserieser.brandlew.co/uploads/bio-4.jpg
   font_weight: ''
   image_css: 'opacity: 0.6;'
   caption_css: ''
+  text_alignment: ''
 - template: block-media-row
   block: media-row
   row_alignment: between
@@ -51,7 +52,7 @@ page_sections:
   margin_y: '200'
   margin_left: 50%
   margin_right: ''
-  title_margin_left: -40%
+  title_margin_left: "-40%"
   image: https://jesserieser.brandlew.co/uploads/bio-5.jpg
   title: Awards
   color: "#9DC2BE"
@@ -556,10 +557,11 @@ page_sections:
   text_size: xl
   background_image_toggle: false
   image: ''
-  text_color: '#ffffff'
+  text_color: "#ffffff"
   font_weight: ''
   image_css: ''
   caption_css: ''
+  text_alignment: ''
 - template: block-media-row
   block: media-row
   row_alignment: between
@@ -570,7 +572,7 @@ page_sections:
   margin_y: '100'
   margin_left: 60%
   margin_right: ''
-  title_margin_left: -33%
+  title_margin_left: ''
   margin_x: 5%
   block-list: ''
   align_y: ''
@@ -634,6 +636,22 @@ page_sections:
       Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
     icon: ''
     url: ''
+- template: block-modal-list
+  block: modal-list
+  width: '33'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  title_margin_left: 0%
+  title_margin_right: 0%
+  title: Clients
+  modal_block:
+  - template: popup-text-element
+    icon: https://jesserieser.brandlew.co/uploads/1280px-Wired_logo.svg.png
+    content: "**Test** "
+    url: ''
+  image: https://jesserieser.brandlew.co/uploads/autobiography-38.jpg
 header_col_1: "### Advertising & Editorial\n\n### Commissions\n\nEcho Hopkins  \n[echo@andersonhopkins.com](mailto:echo@andersonhopkins.com)
   \ \n  \nHannah Marchetto   \n[hannah@andersonhopkins.com](mailto:hannah@andersonhopkins.com)\n\n
   \ \n[Anderson Hopkins ](https://www.andersonhopkins.com)  \n70 Lafayette Street,
