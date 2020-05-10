@@ -5,32 +5,32 @@ date: 2017-11-01T23:00:00.000+00:00
 page_sections:
 - template: block-media-row
   block: media-row
-  row_alignment: between
+  row_alignment: ''
 - template: block-media-feature
   block: media-feature
-  width: '45'
+  width: '55'
   align_x: start
   margin_y: '200'
   image: https://jesserieser.brandlew.co/uploads/xmas-1.jpg
   attached_collection: collections/xmas-in-america.md
-  title: ''
+  title: Xmas in America
   color: "#FF0000"
   meta: Personal 2010 -  2019
   margin_x: ''
   align_y: ''
-  margin_left: ''
-  margin_right: 5%
-  title_margin_left: 0%
+  margin_left: 10%
+  margin_right: 0%
+  title_margin_left: 80%
   title_margin_right: ''
   meta_align: center
 - template: block-media-row
   block: media-row
-  row_alignment: between
+  row_alignment: ''
 - template: block-media-feature
   block: media-feature
-  width: '30'
+  width: '40'
   align_x: end
-  margin_y: '0'
+  margin_y: '200'
   image: https://jesserieser.brandlew.co/uploads/timeGC-5.jpg
   title: Time Magazine
   color: "#fdcfb1"
@@ -38,9 +38,9 @@ page_sections:
   meta: Grand Canyon 100th Anniversary 
   margin_x: ''
   align_y: ''
-  margin_left: 30%
+  margin_left: 20%
   margin_right: ''
-  title_margin_left: "-20%"
+  title_margin_left: ''
   title_margin_right: ''
   meta_align: ''
 - template: block-modal-blog
@@ -58,7 +58,7 @@ page_sections:
   margin_right: 10%
 - template: block-media-row
   block: media-row
-  row_alignment: around
+  row_alignment: ''
 - template: block-media-feature
   block: media-feature
   width: '45'
@@ -66,14 +66,14 @@ page_sections:
   image: https://jesserieser.brandlew.co/uploads/backpage-3.jpg
   title: Wired Magazine
   color: "#b9a49e"
-  margin_y: '50'
+  margin_y: '100'
   attached_collection: collections/wired.md
   meta: Backpage.com Cover Story
   margin_x: ''
   align_y: ''
   margin_left: ''
   margin_right: ''
-  title_margin_left: 90%
+  title_margin_left: 70%
   title_margin_right: ''
   meta_align: ''
 - template: block-media-feature
