@@ -61,7 +61,7 @@ page_sections:
   row_alignment: around
 - template: block-media-feature
   block: media-feature
-  width: '30'
+  width: '45'
   align_x: start
   image: https://jesserieser.brandlew.co/uploads/backpage-3.jpg
   title: Wired Magazine
