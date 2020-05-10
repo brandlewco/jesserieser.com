@@ -8,23 +8,6 @@ page_sections:
   row_alignment: between
 - template: block-media-feature
   block: media-feature
-  width: '20'
-  align_x: end
-  margin_y: '0'
-  image: https://jesserieser.brandlew.co/uploads/primeknit-10.jpg
-  title: ADIDAS
-  color: "#4A4A4A"
-  attached_collection: collections/addidas.md
-  meta: Crazy Explosive Primeknit
-  margin_x: 15%
-  align_y: ''
-  margin_left: 10%
-  margin_right: ''
-  title_margin_left: 50%
-  title_margin_right: ''
-  meta_align: ''
-- template: block-media-feature
-  block: media-feature
   width: '45'
   align_x: start
   margin_y: '500'
@@ -45,17 +28,17 @@ page_sections:
   row_alignment: between
 - template: block-media-feature
   block: media-feature
-  width: '33'
+  width: '30'
   align_x: end
   margin_y: '0'
   image: https://jesserieser.brandlew.co/uploads/timeGC-5.jpg
-  title: Time
+  title: Time Magazine
   color: "#fdcfb1"
   attached_collection: collections/time.md
   meta: Grand Canyon 100th Anniversary 
   margin_x: ''
   align_y: ''
-  margin_left: 15%
+  margin_left: 30%
   margin_right: ''
   title_margin_left: "-20%"
   title_margin_right: ''
@@ -80,8 +63,8 @@ page_sections:
   block: media-feature
   width: '30'
   align_x: start
-  image: https://jesserieser.brandlew.co/uploads/backpage-2.jpg
-  title: Wired
+  image: https://jesserieser.brandlew.co/uploads/backpage-3.jpg
+  title: Wired Magazine
   color: "#b9a49e"
   margin_y: '50'
   attached_collection: collections/wired.md
