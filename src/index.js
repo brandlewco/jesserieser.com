@@ -398,6 +398,21 @@ function init() {
       bodyPopup.classList.remove("is-poped-out");
     });
 
+    document.addEventListener("keyup", function(event) {
+      if (event.defaultPrevented) {
+        return;
+      }
+      var key = event.key || event.keyCode;
+      if (key === "Escape" || key === "Esc" || key === 27) {
+        scrollUnlock();
+        navigation.style.opacity = 1;
+        navigation.style.display = "block";
+        // document.body.style.overflowY = "auto";
+        popupModal.classList.remove("is--visible");
+        bodyPopup.classList.remove("is-poped-out");
+      }
+    });
+
     bodyPopup.addEventListener("click", () => {
       scrollUnlock();
       navigation.style.opacity = 1;
@@ -417,6 +432,15 @@ function init() {
     trigger.addEventListener("click", () => {
       innerPopupModal.classList.add("is--visible");
     });
+    // document.addEventListener("keyup", function(event) {
+    //   if (event.defaultPrevented) {
+    //     return;
+    //   }
+    //   var key = event.key || event.keyCode;
+    //   if (key === "Escape" || key === "Esc" || key === 27) {
+    //     innerPopupModal.classList.remove("is--visible");
+    //   }
+    // });
     innerPopupModal.querySelector(".popup-modal__close").addEventListener("click", () => {
       innerPopupModal.classList.remove("is--visible");
     });
@@ -494,15 +518,19 @@ function init() {
   // Scroll Animations
   let scrollPos = 0;
   window.onscroll = function() {
-    document.documentElement.style.setProperty("--scroll-y", `${window.scrollY}px`);
+    // document.documentElement.style.setProperty("--scroll-y", `${window.scrollY}px`);
     // var headerOverlay = document.getElementById("header-overlay");
     // var featureOverlay = document.getElementById("feature-overlay");
     var pageTitle = document.getElementById("page-title");
-    var headerImage = document.querySelector("#project-header > img");
+    var headerImage = document.querySelector("#header-image");
+    var featureImage = document.querySelector("#feature-image");
     var height = window.innerHeight;
     var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
     if (headerImage) {
       headerImage.style.opacity = value_limit(1 - (scrollTop / (height * 0.35)), 0, 1).toFixed(2);
+    }
+    if (featureImage) {
+      featureImage.style.opacity = value_limit(1 - (scrollTop / (height * 0.9)), 0, 1).toFixed(2);
     }
     // if (headerOverlay) {
     //   headerOverlay.style.opacity = value_limit((scrollTop / (height * 0.4)), 0, 1).toFixed(2);
