@@ -10,10 +10,10 @@ page_sections:
   block: media-feature
   width: '45'
   align_x: start
-  margin_y: '500'
+  margin_y: '200'
   image: https://jesserieser.brandlew.co/uploads/xmas-1.jpg
   attached_collection: collections/xmas-in-america.md
-  title: Christmas In America
+  title: ''
   color: "#FF0000"
   meta: Personal 2010 -  2019
   margin_x: ''
@@ -22,7 +22,7 @@ page_sections:
   margin_right: 5%
   title_margin_left: 0%
   title_margin_right: ''
-  meta_align: right
+  meta_align: center
 - template: block-media-row
   block: media-row
   row_alignment: between
