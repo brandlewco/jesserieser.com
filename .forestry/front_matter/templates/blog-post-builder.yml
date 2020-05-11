@@ -76,4 +76,5 @@ fields:
     max: 
   label: Blog Builder
 pages:
+- content/posts/star-geezers-on-boooooom.md
 - content/posts/test-blog-posts.md
