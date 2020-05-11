@@ -144,6 +144,16 @@ page_sections:
   meta: The Southwest Chief
   title: SW AMtrak
   color: ''
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/wired-the-internet-giant-that-went-too-far.md
+  width: '33'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  title: AP 35
+  color: "#D8EBEE"
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -219,9 +229,6 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: ''
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
 - template: block-media-feature
   block: media-feature
   width: '33'
@@ -237,10 +244,13 @@ page_sections:
   attached_collection: collections/adidas-golf.md
   title: 'Adidas GOlf '
   meta: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/star-geezers-on-boooooom.md
-  width: '33'
+  width: '40'
   align_y: start
   margin_y: '50'
   margin_left: 0%
