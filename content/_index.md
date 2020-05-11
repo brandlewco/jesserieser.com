@@ -142,7 +142,7 @@ page_sections:
   attached_collection: collections/amtrak-southwest-chief.md
   image: https://jesserieser.brandlew.co/uploads/swchief-8.jpg
   meta: The Southwest Chief
-  title: ''
+  title: SW AMtrak
   color: ''
 - template: block-media-row
   block: media-row
