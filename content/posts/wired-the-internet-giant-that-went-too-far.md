@@ -1,7 +1,7 @@
 +++
 attached_collection = "collections/wired-bitmain.md"
 blog_header = "https://jesserieser.brandlew.co/uploads/backpage-3.jpg"
-caption = "Selected for AP 36: American Photography Annual for best editorial"
+caption = "AP 36: American Photography Annual, Winner for best editorial"
 content = ""
 date = ""
 draft = true
