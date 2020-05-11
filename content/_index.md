@@ -147,6 +147,21 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: ''
+- template: block-media-feature
+  block: media-feature
+  width: '50'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  title_margin_left: 0%
+  title_margin_right: 0%
+  meta_align: left
+  title: Sunset
+  image: https://jesserieser.brandlew.co/uploads/sunset-limited-6.jpg
+  color: "#D7F3E6"
+  meta: ''
+  attached_collection: collections/amtrak-southwest-chief.md
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -164,7 +179,22 @@ page_sections:
   row_alignment: ''
 - template: block-media-feature
   block: media-feature
-  width: '50'
+  width: '40'
+  align_y: start
+  margin_y: '100'
+  margin_left: 0%
+  margin_right: 0%
+  title_margin_left: 0%
+  title_margin_right: 0%
+  meta_align: left
+  image: https://jesserieser.brandlew.co/uploads/retail-20.jpg
+  color: "#F2ECDF"
+  attached_collection: collections/retail.md
+  meta: 2015 - 2018
+  title: 'Retail '
+- template: block-media-feature
+  block: media-feature
+  width: '33'
   align_y: start
   margin_y: '50'
   margin_left: 0%
@@ -172,11 +202,26 @@ page_sections:
   title_margin_left: 0%
   title_margin_right: 0%
   meta_align: left
-  title: Sunset
-  image: https://jesserieser.brandlew.co/uploads/sunset-limited-6.jpg
-  color: "#D7F3E6"
+  image: ''
+  title: ''
+  color: ''
   meta: ''
-  attached_collection: collections/amtrak-southwest-chief.md
+  attached_collection: ''
+- template: block-media-feature
+  block: media-feature
+  width: '33'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  title_margin_left: 0%
+  title_margin_right: 0%
+  meta_align: left
+  image: ''
+  title: ''
+  color: ''
+  meta: ''
+  attached_collection: ''
 home_theme_color: "#EDDDDE"
 collection_description: ''
 collection_content: ''
