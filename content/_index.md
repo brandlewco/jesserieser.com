@@ -205,7 +205,7 @@ page_sections:
   image: https://jesserieser.brandlew.co/uploads/bitmain-7.jpg
   title: ''
   color: "#FFE087"
-  meta: ''
+  meta: 'The Hard Luck Texas Town That Bet on Bitcoin and Lost '
   attached_collection: collections/wired-bitmain.md
 - template: block-media-feature
   block: media-feature
