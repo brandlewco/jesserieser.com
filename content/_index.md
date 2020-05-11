@@ -8,19 +8,19 @@ page_sections:
   row_alignment: ''
 - template: block-media-feature
   block: media-feature
-  width: '55'
+  width: '70'
   align_x: start
   margin_y: '200'
   image: https://jesserieser.brandlew.co/uploads/xmas-1.jpg
   attached_collection: collections/xmas-in-america.md
-  title: Xmas in America
+  title: Christmas in America
   color: "#FF0000"
   meta: Personal 2010 -  2019
   margin_x: ''
   align_y: ''
-  margin_left: 10%
+  margin_left: ''
   margin_right: 0%
-  title_margin_left: 80%
+  title_margin_left: 70%
   title_margin_right: ''
   meta_align: center
 - template: block-media-row
@@ -38,9 +38,9 @@ page_sections:
   meta: Grand Canyon 100th Anniversary 
   margin_x: ''
   align_y: ''
-  margin_left: 20%
+  margin_left: 15%
   margin_right: ''
-  title_margin_left: ''
+  title_margin_left: "-20%"
   title_margin_right: ''
   meta_align: ''
 - template: block-modal-blog
@@ -64,7 +64,7 @@ page_sections:
   width: '45'
   align_x: start
   image: https://jesserieser.brandlew.co/uploads/backpage-3.jpg
-  title: Wired Magazine
+  title: 'Wired '
   color: "#b9a49e"
   margin_y: '100'
   attached_collection: collections/wired.md
