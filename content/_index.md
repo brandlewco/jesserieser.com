@@ -129,6 +129,21 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: ''
+- template: block-media-feature
+  block: media-feature
+  width: '45'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  title_margin_left: 0%
+  title_margin_right: 0%
+  meta_align: left
+  attached_collection: collections/amtrak-southwest-chief.md
+  image: https://jesserieser.brandlew.co/uploads/swchief-8.jpg
+  meta: The Southwest Chief
+  title: ''
+  color: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
