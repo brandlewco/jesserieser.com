@@ -203,9 +203,9 @@ page_sections:
   row_alignment: ''
 - template: block-media-feature
   block: media-feature
-  width: '33'
+  width: '45'
   align_y: start
-  margin_y: '50'
+  margin_y: '100'
   margin_left: 0%
   margin_right: 0%
   title_margin_left: 0%
@@ -213,9 +213,9 @@ page_sections:
   meta_align: left
   image: https://jesserieser.brandlew.co/uploads/autobiography-23.jpg
   color: "#FAE1D7"
-  title: ''
+  title: Auto
   meta: ''
-  attached_collection: ''
+  attached_collection: collections/autobiography.md
 - template: block-media-row
   block: media-row
   row_alignment: ''
