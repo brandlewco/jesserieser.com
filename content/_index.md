@@ -222,6 +222,31 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: ''
+- template: block-media-feature
+  block: media-feature
+  width: '33'
+  align_y: start
+  margin_y: '100'
+  margin_left: 0%
+  margin_right: 0%
+  title_margin_left: 0%
+  title_margin_right: 0%
+  meta_align: left
+  image: https://jesserieser.brandlew.co/uploads/adicross-10.jpg
+  color: "#D1D1D1"
+  attached_collection: collections/adidas-golf.md
+  title: 'Adidas GOlf '
+  meta: ''
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: []
+  width: '33'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  title: Star Geezers on BOOOOOOM!
+  color: "#FFE7C3"
 home_theme_color: "#EDDDDE"
 collection_description: ''
 collection_content: ''
