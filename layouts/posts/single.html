@@ -1,0 +1,7 @@
+{{ define "main" }} {{ $section := .Site.GetPage "section" .Section }}
+<article class="content px-8">
+    {{- range .Params.page_sections -}}
+    {{ partial (printf "blocks/block-%s.html" .block) (dict "Section" . "Page" $) }}
+    {{- end -}}
+</article>
+{{ end }}

@@ -515,16 +515,15 @@ function init() {
   const content = document.getElementById("content");
   const filterContainer = document.getElementById("filter-container");
   const headerPointer = document.getElementById("header-pointer");
+  const pageTitle = document.getElementById("page-title");
+  const headerImage = document.querySelector("#header-image");
+  const featureImage = document.querySelector("#feature-image");
+  const height = window.innerHeight;
+
   // Scroll Animations
   let scrollPos = 0;
   window.onscroll = function() {
     // document.documentElement.style.setProperty("--scroll-y", `${window.scrollY}px`);
-    // var headerOverlay = document.getElementById("header-overlay");
-    // var featureOverlay = document.getElementById("feature-overlay");
-    var pageTitle = document.getElementById("page-title");
-    var headerImage = document.querySelector("#header-image");
-    var featureImage = document.querySelector("#feature-image");
-    var height = window.innerHeight;
     var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
     if (headerImage) {
       headerImage.style.opacity = value_limit(1 - (scrollTop / (height * 0.35)), 0, 1).toFixed(2);
@@ -539,7 +538,7 @@ function init() {
     //   featureOverlay.style.opacity = value_limit((scrollTop / (height * 0.9)), 0, 1).toFixed(2);
     // }
     const windowY = window.scrollY;
-    if (document.body.contains(projectHeader)) {
+    if (projectHeader) {
       if (windowY > (window.innerHeight * 0.75)) {
         if (windowY < scrollPos) {
           navigation.style.transform = "translate3d(0, 0, 0)";
@@ -548,7 +547,7 @@ function init() {
         }
       }
     }
-    if (document.body.contains(filterContainer)) {
+    if (filterContainer) {
       if (windowY < scrollPos) {
         navigation.style.transform = "translate3d(0, 0, 0)";
         filterContainer.style.transform = "translate3d(0, 68px, 0)";
@@ -557,20 +556,27 @@ function init() {
         filterContainer.style.transform = "translate3d(0, 0px, 0)";
       }
     }
-    if (document.querySelector("#page-title")) {
-      if (windowY > (window.innerHeight * 0.15)) {
+    if (pageTitle) {
+      const pageTitleHeight = pageTitle.offsetHeight;
+      const pageTitleBottom = (height - pageTitleHeight) / 2;
+      if (windowY > (pageTitleBottom - 150)) {
         headerPointer.style.opacity = 0;
       } else {
         headerPointer.style.opacity = 1;
       }
-      if (windowY > (window.innerHeight * 0.40)) {
+      // console.log("windowY", windowY, "pageTitleBottom", pageTitleBottom);
+      if (windowY > pageTitleBottom) {
         pageTitle.classList.add("absolute");
         pageTitle.classList.remove("fixed");
+        pageTitle.style.top = "auto";
+        pageTitle.style.bottom = "0";
         pageTitle.style.transform = "translate3d(0, 0vh, 0)";
       } else {
         pageTitle.classList.add("fixed");
         pageTitle.classList.remove("absolute");
-        pageTitle.style.transform = "translate3d(0, -40vh, 0)";
+        pageTitle.style.top = "50%";
+        pageTitle.style.bottom = "auto";
+        pageTitle.style.transform = "translate3d(0, -50%, 0)";
       }
     }
     scrollPos = windowY;
