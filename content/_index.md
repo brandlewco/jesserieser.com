@@ -201,12 +201,6 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: ''
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
 - template: block-media-feature
   block: media-feature
   width: '33'
@@ -222,6 +216,12 @@ page_sections:
   color: ''
   meta: ''
   attached_collection: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
 home_theme_color: "#EDDDDE"
 collection_description: ''
 collection_content: ''
