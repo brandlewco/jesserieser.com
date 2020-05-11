@@ -164,7 +164,7 @@ page_sections:
   row_alignment: ''
 - template: block-media-feature
   block: media-feature
-  width: '33'
+  width: '50'
   align_y: start
   margin_y: '50'
   margin_left: 0%
@@ -176,7 +176,7 @@ page_sections:
   image: https://jesserieser.brandlew.co/uploads/sunset-limited-6.jpg
   color: "#D7F3E6"
   meta: ''
-  attached_collection: ''
+  attached_collection: collections/amtrak-southwest-chief.md
 home_theme_color: "#EDDDDE"
 collection_description: ''
 collection_content: ''
