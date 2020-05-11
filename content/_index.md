@@ -106,7 +106,7 @@ page_sections:
   meta: 'Society Magazine (France) '
   attached_collection: collections/stalking-a-serial-killer.md
   image: https://jesserieser.brandlew.co/uploads/serial-6.jpg
-  title: ''
+  title: Serial
   color: "#C0D0E0"
 - template: block-media-row
   block: media-row
