@@ -201,21 +201,6 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: ''
-- template: block-media-feature
-  block: media-feature
-  width: '33'
-  align_y: start
-  margin_y: '50'
-  margin_left: 0%
-  margin_right: 0%
-  title_margin_left: 0%
-  title_margin_right: 0%
-  meta_align: left
-  image: ''
-  title: ''
-  color: ''
-  meta: ''
-  attached_collection: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
