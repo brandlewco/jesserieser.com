@@ -194,19 +194,19 @@ page_sections:
   title: 'Retail '
 - template: block-media-feature
   block: media-feature
-  width: '33'
+  width: '60'
   align_y: start
-  margin_y: '50'
+  margin_y: '100'
   margin_left: 0%
   margin_right: 0%
   title_margin_left: 0%
   title_margin_right: 0%
   meta_align: left
-  image: ''
+  image: https://jesserieser.brandlew.co/uploads/bitmain-7.jpg
   title: ''
-  color: ''
+  color: "#FFE087"
   meta: ''
-  attached_collection: ''
+  attached_collection: collections/wired-bitmain.md
 - template: block-media-feature
   block: media-feature
   width: '33'
