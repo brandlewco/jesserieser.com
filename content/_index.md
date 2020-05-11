@@ -239,7 +239,7 @@ page_sections:
   meta: ''
 - template: block-modal-blog
   block: modal-blog
-  attached_blog: []
+  attached_blog: posts/star-geezers-on-boooooom.md
   width: '33'
   align_y: start
   margin_y: '50'
