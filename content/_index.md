@@ -107,7 +107,46 @@ page_sections:
   attached_collection: collections/stalking-a-serial-killer.md
   image: https://jesserieser.brandlew.co/uploads/serial-6.jpg
   title: ''
-  color: ''
+  color: "#C0D0E0"
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
+- template: block-media-feature
+  block: media-feature
+  width: '40'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  title_margin_left: 0%
+  title_margin_right: 0%
+  meta_align: left
+  attached_collection: collections/phoenix.md
+  meta: 2018 - 2020
+  image: https://jesserieser.brandlew.co/uploads/rieser_phx-HI-2.jpg
+  color: "#A0E1DD"
+  title: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
 home_theme_color: "#EDDDDE"
 collection_description: ''
 collection_content: ''
