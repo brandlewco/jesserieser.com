@@ -162,6 +162,21 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: ''
+- template: block-media-feature
+  block: media-feature
+  width: '33'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  title_margin_left: 0%
+  title_margin_right: 0%
+  meta_align: left
+  title: Sunset
+  image: https://jesserieser.brandlew.co/uploads/sunset-limited-6.jpg
+  color: "#D7F3E6"
+  meta: ''
+  attached_collection: ''
 home_theme_color: "#EDDDDE"
 collection_description: ''
 collection_content: ''
