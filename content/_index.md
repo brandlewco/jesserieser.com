@@ -93,6 +93,21 @@ page_sections:
   title_margin_left: "-45%"
   title_margin_right: ''
   meta_align: ''
+- template: block-media-feature
+  block: media-feature
+  width: '45'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  title_margin_left: 0%
+  title_margin_right: 0%
+  meta_align: left
+  meta: 'Society Magazine (France) '
+  attached_collection: collections/stalking-a-serial-killer.md
+  image: https://jesserieser.brandlew.co/uploads/serial-6.jpg
+  title: ''
+  color: ''
 home_theme_color: "#EDDDDE"
 collection_description: ''
 collection_content: ''
