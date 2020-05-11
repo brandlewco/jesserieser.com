@@ -1,13 +1,13 @@
 +++
 attached_collection = "collections/star-geezers.md"
 blog_header = "https://jesserieser.brandlew.co/uploads/stargeezers-1.jpg"
-caption = ""
+caption = "Featured on BOOOOOOM"
 content = "Test test "
 date = ""
 draft = true
 news_category = ["press"]
 theme_color = "#BFFFBD"
-title = "Star Geezers on BOOOOOOM!"
+title = "The Star Geezers "
 [[blog_builder]]
 block = "media-element-static"
 caption = ""
