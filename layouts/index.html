@@ -12,4 +12,31 @@
   </div>
   {{ partial "feature_footer" .}}
 </section>
-{{ partial "gallery" . }} {{- end -}}
+<script>
+  (function(){
+      var images = [
+      {{- range .Params.selected_works_theme -}}
+      ["{{.image }}?nf_resize=fit&w=1024 1024w, {{.image }}?nf_resize=fit&w=1920 1920w, {{.image }}?nf_resize=fit&w=2560 2560w, {{.image }}","{{.theme_color}}"],
+      {{- end -}}
+      ]
+    var imgCount = images.length;
+  
+    var randNumber=Math.floor((Math.random() * imgCount) + 1);
+  
+    imgURL = images[randNumber-1];
+
+    const featureImage = document.getElementById("feature-image");
+    const hueHeaderShift = document.querySelectorAll(".hue-header.page .shift");
+    document.querySelectorAll(".shift").forEach(function(button) {
+      button.style.color = imgURL[1];
+    });
+    featureImage.setAttribute("data-srcset", imgURL[0]);
+    featureImage.classList.add("lazyload");
+  }());
+</script>
+<!-- <style>
+    body .hue-header.page .shift{
+        color: {{.Params.feature_color}} !important;
+    };
+</style> -->
+{{- end -}}

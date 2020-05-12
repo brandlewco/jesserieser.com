@@ -82,11 +82,11 @@ html.is-changing #content {
 }
 
 .hue-header.default .shift, .hue-header.black .shift{
-  @apply text-black;
+  @apply text-black  !important;;
 }
 
 .hue-header.white .shift{
-  @apply text-white;
+  @apply text-white !important;
 }
 
 a.shift:hover {
