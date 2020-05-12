@@ -143,7 +143,7 @@ page_sections:
   image: https://jesserieser.brandlew.co/uploads/swchief-8.jpg
   meta: The Southwest Chief
   title: SW AMtrak
-  color: ''
+  color: "#F5ECE3"
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/wired-the-internet-giant-that-went-too-far.md
