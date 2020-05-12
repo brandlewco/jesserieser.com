@@ -646,6 +646,7 @@ page_sections:
   title_margin_left: 0%
   title_margin_right: 0%
   title: Clients
+  color: "#F7BD1E"
   modal_block:
   - template: popup-text-element
     icon: https://jesserieser.brandlew.co/uploads/1280px-Wired_logo.svg.png
