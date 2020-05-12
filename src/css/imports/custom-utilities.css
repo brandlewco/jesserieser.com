@@ -305,8 +305,7 @@ img.lazyload {
 }
 
 img.lazyloaded,
-#page-title.lazyloaded,
-img.pswp__img {
+#page-title.lazyloaded {
   opacity: 1;
   transition-delay: 0s;
 }

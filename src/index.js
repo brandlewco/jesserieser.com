@@ -243,10 +243,10 @@ function init() {
           // define gallery index (for URL)
           galleryUID: galleryElement.getAttribute("data-pswp-uid"),
           history: false,
-          bgOpacity: 0.05,
+          bgOpacity: 0.10,
           closeOnScroll: false,
           closeOnVerticalDrag: false,
-          preload: [2, 2],
+          preload: [3, 3],
           loadingIndicatorDelay: 100,
           getThumbBoundsFn: function(index) {
             // See Options -> getThumbBoundsFn section of documentation for more info
@@ -305,7 +305,19 @@ function init() {
         //     img.src = item.src;
         //   }
         // });
+        gallery.listen("beforeChange", function() {
+          var activeSlide = document.getElementsByClassName("active-slide");
+          function removeActiveSlide() {
+            while (activeSlide[0]) {
+              activeSlide[0].classList.remove("active-slide");
+            }
+          }
+          removeActiveSlide();
+        });
         gallery.listen("afterChange", function() {
+          var currentItem = gallery.currItem.container;
+          currentItem.classList.add("active-slide");
+          console.log("afterChange", currentItem);
           Element.prototype.documentOffsetTop = function() {
             return this.offsetTop + (this.offsetParent ? this.offsetParent.documentOffsetTop() : 0);
           };

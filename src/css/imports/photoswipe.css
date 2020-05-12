@@ -149,9 +149,26 @@ body.archive .pswp__bg {
   -webkit-backface-visibility: hidden;
 }
 
+.pswp__img {
+  will-change: opacity;
+  position: absolute;
+  width: auto;
+  top: 0;
+  left: 0;
+  transition: opacity 333ms linear;
+  display: block !important;
+  opacity: 0 !important;
+}
+
+.pswp__zoom-wrap.active-slide .pswp__img {
+  opacity: 1 !important;
+  transition-delay: 333ms;
+}
+
+
 @media (pointer: fine) {
 .pswp__container {
-  transition: transform 333ms cubic-bezier(0.4, 0, 0.22, 1);
+  transition: transform 666ms cubic-bezier(0.4, 0, 0.22, 1);
 }
 }
 
@@ -164,7 +181,7 @@ body.archive .pswp__bg {
   overflow: hidden;
 }
 
-.pswp__img {
+/* .pswp__img {
   will-change: opacity;
   position: absolute;
   width: auto;
@@ -172,7 +189,10 @@ body.archive .pswp__bg {
   left: 0;
   transition: opacity 0.2s linear;
   display: block !important;
-}
+} */
+
+
+
 /* added */
 /* .pswp__img {
   height: auto !important;
