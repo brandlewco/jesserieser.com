@@ -80,7 +80,7 @@ page_sections:
   align_y: ''
   margin_left: ''
   margin_right: 5%
-  title_margin_left: "-25%"
+  title_margin_left: "-20%"
   title_margin_right: 70%
   meta_align: center
 - template: block-media-row
@@ -93,7 +93,7 @@ page_sections:
   margin_y: '100'
   margin_left: 25%
   margin_right: 0%
-  title_margin_left: 0%
+  title_margin_left: 25%
   title_margin_right: 0%
   meta_align: left
   image: https://jesserieser.brandlew.co/uploads/rieser_phx-HI-22.jpg
@@ -191,12 +191,12 @@ page_sections:
 - template: block-media-feature
   block: media-feature
   width: '33'
-  align_y: start
-  margin_y: '100'
-  margin_left: 10%
-  margin_right: 5%
-  title_margin_left: 0%
-  title_margin_right: 0%
+  align_y: ''
+  margin_y: '200'
+  margin_left: 35%
+  margin_right: ''
+  title_margin_left: "-20%"
+  title_margin_right: ''
   meta_align: left
   image: https://jesserieser.brandlew.co/uploads/adicross-12.jpg
   color: "#D1D1D1"
@@ -208,7 +208,7 @@ page_sections:
   row_alignment: ''
 - template: block-media-feature
   block: media-feature
-  width: '20'
+  width: '25'
   align_x: start
   image: https://jesserieser.brandlew.co/uploads/backpage-3.jpg
   title: 'Wired '
@@ -218,9 +218,9 @@ page_sections:
   meta: Backpage.com Cover Story
   margin_x: ''
   align_y: ''
-  margin_left: 20%
+  margin_left: 15%
   margin_right: ''
-  title_margin_left: "-30%"
+  title_margin_left: 60%
   title_margin_right: ''
   meta_align: ''
 - template: block-media-feature
@@ -229,7 +229,7 @@ page_sections:
   align_y: start
   margin_y: '500'
   margin_left: 0%
-  margin_right: 10%
+  margin_right: 5%
   title_margin_left: "-20%"
   title_margin_right: 55%
   meta_align: left
@@ -271,7 +271,7 @@ page_sections:
   row_alignment: ''
 - template: block-media-feature
   block: media-feature
-  width: '50'
+  width: '30'
   align_y: start
   margin_y: '100'
   margin_left: 5%
@@ -280,21 +280,16 @@ page_sections:
   title_margin_right: 0%
   meta_align: left
   image: https://jesserieser.brandlew.co/uploads/_JR_8055.jpg
-  title: 'Oustide Magazine '
+  title: 'Outside Magazine '
   color: "#FFB4B4"
   attached_collection: collections/outside-magazine-rob-krar.md
   meta: Rob Krar Running in the Dark
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
 - template: block-media-feature
   block: media-feature
   width: '40'
-  align_y: start
-  margin_y: '100'
-  margin_left: 40%
-  margin_right: 0%
-  title_margin_left: 0%
+  margin_y: '500'
+  margin_right: 10%
+  title_margin_left: "-30%"
   title_margin_right: 0%
   meta_align: left
   title: ESPN Cowboy
@@ -302,6 +297,11 @@ page_sections:
   meta: 'Donald Cerronne '
   attached_collection: collections/espn-cowboy-cerronne.md
   color: "#110101"
+  align_y: ''
+  margin_left: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
 home_theme_color: "#EDDDDE"
 collection_description: ''
 collection_content: ''
