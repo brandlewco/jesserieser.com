@@ -272,6 +272,21 @@ page_sections:
   meta: 'Donald Cerronne '
   attached_collection: collections/espn-cowboy-cerronne.md
   color: "#110101"
+- template: block-media-feature
+  block: media-feature
+  width: '33'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  title_margin_left: 0%
+  title_margin_right: 0%
+  meta_align: left
+  image: https://jesserieser.brandlew.co/uploads/rieser_phx-HI-22.jpg
+  color: "#E1EBF2"
+  title: 'Skeleton Party '
+  meta: Collection of Small Crews
+  attached_collection: ''
 home_theme_color: "#EDDDDE"
 collection_description: ''
 collection_content: ''
