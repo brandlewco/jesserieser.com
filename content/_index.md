@@ -257,6 +257,21 @@ page_sections:
   margin_right: 0%
   title: Star Geezers on BOOOOOOM!
   color: "#FFE7C3"
+- template: block-media-feature
+  block: media-feature
+  width: '33'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  title_margin_left: 0%
+  title_margin_right: 0%
+  meta_align: left
+  title: ESPN Cowboy
+  image: https://jesserieser.brandlew.co/uploads/cowboy-4.jpg
+  meta: 'Donald Cerronne '
+  attached_collection: collections/espn-cowboy-cerronne.md
+  color: "#110101"
 home_theme_color: "#EDDDDE"
 collection_description: ''
 collection_content: ''
