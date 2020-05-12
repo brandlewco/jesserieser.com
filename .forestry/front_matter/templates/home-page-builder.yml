@@ -77,28 +77,11 @@ fields:
   label: Social Media Card
   description: This image is what appears in OpenGraph previews and image masks
 - name: selected_works_theme
-  type: field_group_list
-  fields:
-  - name: theme
-    type: field_group
-    config: {}
-    fields:
-    - name: image
-      type: file
-      config:
-        maxSize: 64
-      label: image
-    - name: theme_color
-      type: color
-      label: theme color
-      config:
-        required: false
-        color_format: Hex
-    label: theme
+  type: blocks
+  label: Selected Works Theme
+  template_types: []
   config:
     min: 
     max: 
-    labelField: 
-  label: Selected Works Theme
 pages:
 - content/_index.md
