@@ -3,9 +3,39 @@ layout: blocks
 title: Jesse Rieser
 date: 2017-11-01T23:00:00.000+00:00
 page_sections:
+- template: block-media-feature
+  block: media-feature
+  width: '40'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  title_margin_left: 0%
+  title_margin_right: 0%
+  meta_align: left
+  attached_collection: collections/phoenix.md
+  meta: 2018 - 2020
+  image: https://jesserieser.brandlew.co/uploads/rieser_phx-HI-2.jpg
+  color: "#A0E1DD"
+  title: PHX
 - template: block-media-row
   block: media-row
   row_alignment: ''
+- template: block-media-feature
+  block: media-feature
+  width: '40'
+  align_y: start
+  margin_y: '100'
+  margin_left: 0%
+  margin_right: 0%
+  title_margin_left: 0%
+  title_margin_right: 0%
+  meta_align: left
+  image: https://jesserieser.brandlew.co/uploads/retail-cover-1.jpg
+  color: "#F2ECDF"
+  attached_collection: collections/retail.md
+  meta: 2015 - 2018
+  title: 'Retail '
 - template: block-media-feature
   block: media-feature
   width: '70'
@@ -111,21 +141,6 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: ''
-- template: block-media-feature
-  block: media-feature
-  width: '40'
-  align_y: start
-  margin_y: '50'
-  margin_left: 0%
-  margin_right: 0%
-  title_margin_left: 0%
-  title_margin_right: 0%
-  meta_align: left
-  attached_collection: collections/phoenix.md
-  meta: 2018 - 2020
-  image: https://jesserieser.brandlew.co/uploads/rieser_phx-HI-2.jpg
-  color: "#A0E1DD"
-  title: PHX
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -175,21 +190,6 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: ''
-- template: block-media-feature
-  block: media-feature
-  width: '40'
-  align_y: start
-  margin_y: '100'
-  margin_left: 0%
-  margin_right: 0%
-  title_margin_left: 0%
-  title_margin_right: 0%
-  meta_align: left
-  image: https://jesserieser.brandlew.co/uploads/retail-20.jpg
-  color: "#F2ECDF"
-  attached_collection: collections/retail.md
-  meta: 2015 - 2018
-  title: 'Retail '
 - template: block-media-row
   block: media-row
   row_alignment: ''
