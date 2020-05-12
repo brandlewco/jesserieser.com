@@ -79,7 +79,8 @@ fields:
 - name: selected_works_theme
   type: blocks
   label: Selected Works Theme
-  template_types: []
+  template_types:
+  - selected-works-theme
   config:
     min: 
     max: 
