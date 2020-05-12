@@ -244,9 +244,6 @@ page_sections:
   attached_collection: collections/adidas-golf.md
   title: 'Adidas GOlf '
   meta: ''
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/star-geezers-on-boooooom.md
@@ -257,6 +254,9 @@ page_sections:
   margin_right: 0%
   title: Star Geezers on BOOOOOOM!
   color: "#FFE7C3"
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
 - template: block-media-feature
   block: media-feature
   width: '33'
@@ -287,6 +287,21 @@ page_sections:
   title: 'Skeleton Party '
   meta: Collection of Small Crews
   attached_collection: ''
+- template: block-media-feature
+  block: media-feature
+  width: '33'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  title_margin_left: 0%
+  title_margin_right: 0%
+  meta_align: left
+  image: https://jesserieser.brandlew.co/uploads/robkrar-3.jpg
+  title: 'Oustide Magazine '
+  color: "#FFB4B4"
+  attached_collection: collections/outside-magazine-rob-krar.md
+  meta: Rob Krar Running in the Dark
 home_theme_color: "#EDDDDE"
 collection_description: ''
 collection_content: ''
