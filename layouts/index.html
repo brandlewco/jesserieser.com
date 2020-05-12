@@ -27,6 +27,10 @@
 
     const featureImage = document.getElementById("feature-image");
     const hueHeaderShift = document.querySelectorAll(".hue-header.page .shift");
+    const projectHeader = document.getElementById("project-header");
+    const projectDescription = document.getElementById("project-description");
+    projectHeader.style.backgroundColor = imgURL[1];
+    projectDescription.style.backgroundColor = imgURL[1];
     document.querySelectorAll(".shift").forEach(function(button) {
       button.style.color = imgURL[1];
     });
@@ -34,9 +38,4 @@
     featureImage.classList.add("lazyload");
   }());
 </script>
-<!-- <style>
-    body .hue-header.page .shift{
-        color: {{.Params.feature_color}} !important;
-    };
-</style> -->
 {{- end -}}
