@@ -8,16 +8,16 @@ page_sections:
   width: '40'
   align_y: start
   margin_y: '100'
-  margin_left: 0%
+  margin_left: 10%
   margin_right: 0%
-  title_margin_left: 0%
+  title_margin_left: "-15%"
   title_margin_right: 0%
   meta_align: left
   attached_collection: collections/phoenix.md
   meta: 2018 - 2020
   image: https://jesserieser.brandlew.co/uploads/rieser_phx-HI-2.jpg
   color: "#A0E1DD"
-  title: PHX
+  title: 'Phoenix: A Dystopian Legoland That Tastes Like Candy'
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/wired-the-internet-giant-that-went-too-far.md
@@ -25,7 +25,7 @@ page_sections:
   align_y: start
   margin_y: '700'
   margin_left: 0%
-  margin_right: 25%
+  margin_right: 15%
   title: AP 35
   color: "#D8EBEE"
 - template: block-media-row
@@ -33,25 +33,25 @@ page_sections:
   row_alignment: ''
 - template: block-media-feature
   block: media-feature
-  width: '50'
+  width: '60'
   align_y: start
   margin_y: '100'
-  margin_left: 30%
+  margin_left: 20%
   margin_right: 0%
-  title_margin_left: 0%
-  title_margin_right: 0%
+  title_margin_left: "-15%"
+  title_margin_right: 95%
   meta_align: left
   image: https://jesserieser.brandlew.co/uploads/retail-cover-1.jpg
   color: "#F2ECDF"
   attached_collection: collections/retail.md
   meta: 2015 - 2018
-  title: 'Retail '
+  title: The Changing Landscape of American Retail
 - template: block-media-row
   block: media-row
   row_alignment: ''
 - template: block-media-feature
   block: media-feature
-  width: '33'
+  width: '30'
   align_x: end
   margin_y: '500'
   image: https://jesserieser.brandlew.co/uploads/stargeezers-1.jpg
@@ -61,14 +61,14 @@ page_sections:
   meta: Condor Airlines (Germany)
   margin_x: ''
   align_y: ''
-  margin_left: 5%
+  margin_left: 15%
   margin_right: ''
-  title_margin_left: 0%
-  title_margin_right: 20%
+  title_margin_left: "-40%"
+  title_margin_right: 90%
   meta_align: ''
 - template: block-media-feature
   block: media-feature
-  width: '50'
+  width: '40'
   align_x: start
   margin_y: '100'
   image: https://jesserieser.brandlew.co/uploads/xmas-1.jpg
@@ -79,9 +79,9 @@ page_sections:
   margin_x: ''
   align_y: ''
   margin_left: ''
-  margin_right: 0%
-  title_margin_left: "-25%"
-  title_margin_right: ''
+  margin_right: 5%
+  title_margin_left: "-15%"
+  title_margin_right: 60%
   meta_align: center
 - template: block-media-row
   block: media-row
@@ -308,11 +308,13 @@ collection_content: ''
 cover_image: ''
 feature_logo: https://jesserieser.brandlew.co/uploads/logo-amtrak-8.png
 feature_cover: https://jesserieser.brandlew.co/uploads/timeGC-5.jpg
-feature_description: Jesse Rieser is an award winning photographer and blah blah blah
-  blah. Elevator pitch game strong. Lorem ipsum dolor sit amet, consectetuer adipiscing
-  elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-  volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
-  lobortis nisl ut aliquip ex ea commodo consequat.
+feature_description: "Welcome!  \nHere in _Selected Works_ you will find a brief yet
+  representative experience of my personal photographic art works and client commissions,
+  reflecting both my unique style of light and color as I explore themes of the uniquely
+  American experience.\n\nA bit about navigation: If you aren’t in a rush, head over
+  to _All Works;_ if looking for something specific, give the category filter a spin.
+  I hope you enjoy your time here and excited to share my photographic world with
+  you. I truly look forward to hearingfrom you."
 navigation_theme: white
 row_alignment: between
 selected_works_theme:
