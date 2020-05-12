@@ -270,6 +270,16 @@ feature_description: Jesse Rieser is an award winning photographer and blah blah
   lobortis nisl ut aliquip ex ea commodo consequat.
 navigation_theme: white
 row_alignment: between
+selected_works_theme:
+- template: selected-works-theme
+  image: https://jesserieser.brandlew.co/uploads/timeGC-5.jpg
+  theme_color: "#FFF2CE"
+- template: selected-works-theme
+  image: https://jesserieser.brandlew.co/uploads/ieg-1.jpg
+  theme_color: "#F9E71B"
+- template: selected-works-theme
+  image: https://jesserieser.brandlew.co/uploads/xmas-34.jpg
+  theme_color: "#FF3636"
 
 ---
 ## Click the collections link above to preview collections.
