@@ -61,14 +61,14 @@ page_sections:
   meta: Condor Airlines (Germany)
   margin_x: ''
   align_y: ''
-  margin_left: 15%
+  margin_left: 10%
   margin_right: ''
-  title_margin_left: "-40%"
+  title_margin_left: "-30%"
   title_margin_right: 90%
   meta_align: ''
 - template: block-media-feature
   block: media-feature
-  width: '40'
+  width: '45'
   align_x: start
   margin_y: '100'
   image: https://jesserieser.brandlew.co/uploads/xmas-1.jpg
@@ -80,8 +80,8 @@ page_sections:
   align_y: ''
   margin_left: ''
   margin_right: 5%
-  title_margin_left: 5%
-  title_margin_right: 0%
+  title_margin_left: "-25%"
+  title_margin_right: 70%
   meta_align: center
 - template: block-media-row
   block: media-row
@@ -91,7 +91,25 @@ page_sections:
   width: '45'
   align_y: start
   margin_y: '100'
-  margin_left: 0%
+  margin_left: 25%
+  margin_right: 0%
+  title_margin_left: 0%
+  title_margin_right: 0%
+  meta_align: left
+  image: https://jesserieser.brandlew.co/uploads/rieser_phx-HI-22.jpg
+  color: "#E1EBF2"
+  title: 'Skeleton Party '
+  meta: Collection of Small Crews
+  attached_collection: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
+- template: block-media-feature
+  block: media-feature
+  width: '40'
+  align_y: start
+  margin_y: '100'
+  margin_left: 15%
   margin_right: 0%
   title_margin_left: 65%
   title_margin_right: 0%
@@ -114,22 +132,25 @@ page_sections:
   margin_x: ''
   align_y: ''
   margin_left: 0%
-  margin_right: 10%
+  margin_right: 5%
   title_margin_left: "-20%"
   title_margin_right: ''
   meta_align: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
 - template: block-modal-blog
   block: modal-blog
   width: '20'
   align_x: start
   margin_x: '0'
-  margin_y: '50'
+  margin_y: "-200"
   title: ''
   image: ''
   color: "#fde25e"
   attached_blog: posts/test-blog-posts.md
   align_y: ''
-  margin_left: 15%
+  margin_left: 20%
   margin_right: 0%
 - template: block-media-feature
   block: media-feature
@@ -151,79 +172,17 @@ page_sections:
   row_alignment: ''
 - template: block-media-feature
   block: media-feature
-  width: '45'
-  align_x: start
-  image: https://jesserieser.brandlew.co/uploads/backpage-3.jpg
-  title: 'Wired '
-  color: "#b9a49e"
-  margin_y: '100'
-  attached_collection: collections/wired.md
-  meta: Backpage.com Cover Story
-  margin_x: ''
-  align_y: ''
-  margin_left: ''
-  margin_right: ''
-  title_margin_left: 70%
-  title_margin_right: ''
-  meta_align: ''
-- template: block-media-feature
-  block: media-feature
-  width: '45'
+  width: '50'
   align_y: start
-  margin_y: '50'
-  margin_left: 0%
-  margin_right: 0%
-  title_margin_left: 0%
-  title_margin_right: 0%
-  meta_align: left
-  meta: 'Society Magazine (France) '
-  attached_collection: collections/stalking-a-serial-killer.md
-  image: https://jesserieser.brandlew.co/uploads/serial-6.jpg
-  title: Serial
-  color: "#C0D0E0"
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
-- template: block-media-feature
-  block: media-feature
-  width: '45'
-  align_y: start
-  margin_y: '50'
-  margin_left: 0%
-  margin_right: 0%
-  title_margin_left: 0%
-  title_margin_right: 0%
-  meta_align: left
-  attached_collection: collections/amtrak-southwest-chief.md
-  image: https://jesserieser.brandlew.co/uploads/swchief-8.jpg
-  meta: The Southwest Chief
-  title: SW AMtrak
-  color: "#F5ECE3"
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
-- template: block-media-feature
-  block: media-feature
-  width: '45'
-  align_y: start
-  margin_y: '100'
-  margin_left: 0%
+  margin_y: '200'
+  margin_left: 5%
   margin_right: 0%
   title_margin_left: 0%
   title_margin_right: 0%
   meta_align: left
   image: https://jesserieser.brandlew.co/uploads/autobiography-23.jpg
   color: "#FAE1D7"
-  title: Auto
+  title: Autobiography of a Contact Sport
   meta: ''
   attached_collection: collections/autobiography.md
 - template: block-media-row
@@ -234,35 +193,106 @@ page_sections:
   width: '33'
   align_y: start
   margin_y: '100'
-  margin_left: 0%
-  margin_right: 0%
+  margin_left: 10%
+  margin_right: 5%
   title_margin_left: 0%
   title_margin_right: 0%
   meta_align: left
-  image: https://jesserieser.brandlew.co/uploads/adicross-10.jpg
+  image: https://jesserieser.brandlew.co/uploads/adicross-12.jpg
   color: "#D1D1D1"
   attached_collection: collections/adidas-golf.md
   title: 'Adidas GOlf '
   meta: ''
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/star-geezers-on-boooooom.md
-  width: '40'
-  align_y: start
-  margin_y: '50'
-  margin_left: 0%
-  margin_right: 0%
-  title: Star Geezers on BOOOOOOM!
-  color: "#FFE7C3"
 - template: block-media-row
   block: media-row
   row_alignment: ''
 - template: block-media-feature
   block: media-feature
-  width: '33'
+  width: '20'
+  align_x: start
+  image: https://jesserieser.brandlew.co/uploads/backpage-3.jpg
+  title: 'Wired '
+  color: "#b9a49e"
+  margin_y: '200'
+  attached_collection: collections/wired.md
+  meta: Backpage.com Cover Story
+  margin_x: ''
+  align_y: ''
+  margin_left: 20%
+  margin_right: ''
+  title_margin_left: "-30%"
+  title_margin_right: ''
+  meta_align: ''
+- template: block-media-feature
+  block: media-feature
+  width: '45'
   align_y: start
-  margin_y: '50'
+  margin_y: '500'
   margin_left: 0%
+  margin_right: 10%
+  title_margin_left: "-20%"
+  title_margin_right: 55%
+  meta_align: left
+  meta: 'Society Magazine (France) '
+  attached_collection: collections/stalking-a-serial-killer.md
+  image: https://jesserieser.brandlew.co/uploads/serial-6.jpg
+  title: Stalking A Serial Killer
+  color: "#C0D0E0"
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/star-geezers-on-boooooom.md
+  width: '30'
+  align_y: start
+  margin_y: '100'
+  margin_left: 0%
+  margin_right: 0%
+  title: Star Geezers on BOOOOOOM!
+  color: "#FFE7C3"
+- template: block-media-feature
+  block: media-feature
+  width: '50'
+  align_y: start
+  margin_y: '300'
+  margin_left: 0%
+  margin_right: 20%
+  title_margin_left: 0%
+  title_margin_right: 0%
+  meta_align: left
+  attached_collection: collections/amtrak-southwest-chief.md
+  image: https://jesserieser.brandlew.co/uploads/swchief-8.jpg
+  meta: The Southwest Chief
+  title: Amtrak The National
+  color: "#F5ECE3"
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
+- template: block-media-feature
+  block: media-feature
+  width: '50'
+  align_y: start
+  margin_y: '100'
+  margin_left: 5%
+  margin_right: 0%
+  title_margin_left: 10%
+  title_margin_right: 0%
+  meta_align: left
+  image: https://jesserieser.brandlew.co/uploads/robkrar-1.jpg
+  title: 'Oustide Magazine '
+  color: "#FFB4B4"
+  attached_collection: collections/outside-magazine-rob-krar.md
+  meta: Rob Krar Running in the Dark
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
+- template: block-media-feature
+  block: media-feature
+  width: '40'
+  align_y: start
+  margin_y: '100'
+  margin_left: 40%
   margin_right: 0%
   title_margin_left: 0%
   title_margin_right: 0%
@@ -272,36 +302,6 @@ page_sections:
   meta: 'Donald Cerronne '
   attached_collection: collections/espn-cowboy-cerronne.md
   color: "#110101"
-- template: block-media-feature
-  block: media-feature
-  width: '33'
-  align_y: start
-  margin_y: '50'
-  margin_left: 0%
-  margin_right: 0%
-  title_margin_left: 0%
-  title_margin_right: 0%
-  meta_align: left
-  image: https://jesserieser.brandlew.co/uploads/rieser_phx-HI-22.jpg
-  color: "#E1EBF2"
-  title: 'Skeleton Party '
-  meta: Collection of Small Crews
-  attached_collection: ''
-- template: block-media-feature
-  block: media-feature
-  width: '33'
-  align_y: start
-  margin_y: '50'
-  margin_left: 0%
-  margin_right: 0%
-  title_margin_left: 0%
-  title_margin_right: 0%
-  meta_align: left
-  image: https://jesserieser.brandlew.co/uploads/robkrar-3.jpg
-  title: 'Oustide Magazine '
-  color: "#FFB4B4"
-  attached_collection: collections/outside-magazine-rob-krar.md
-  meta: Rob Krar Running in the Dark
 home_theme_color: "#EDDDDE"
 collection_description: ''
 collection_content: ''
