@@ -80,26 +80,41 @@ page_sections:
   align_y: ''
   margin_left: ''
   margin_right: 5%
-  title_margin_left: "-15%"
-  title_margin_right: 60%
+  title_margin_left: 5%
+  title_margin_right: 0%
   meta_align: center
 - template: block-media-row
   block: media-row
   row_alignment: ''
 - template: block-media-feature
   block: media-feature
-  width: '40'
+  width: '45'
+  align_y: start
+  margin_y: '100'
+  margin_left: 0%
+  margin_right: 0%
+  title_margin_left: 65%
+  title_margin_right: 0%
+  meta_align: left
+  image: https://jesserieser.brandlew.co/uploads/bitmain-19.jpg
+  title: Wired
+  color: "#FFE087"
+  meta: 'The Hard Luck Texas Town That Bet on Bitcoin and Lost '
+  attached_collection: collections/wired-bitmain.md
+- template: block-media-feature
+  block: media-feature
+  width: '30'
   align_x: end
-  margin_y: '200'
+  margin_y: '500'
   image: https://jesserieser.brandlew.co/uploads/timeGC-5.jpg
-  title: Time Magazine
+  title: 'Time '
   color: "#fdcfb1"
   attached_collection: collections/time.md
   meta: Grand Canyon 100th Anniversary 
   margin_x: ''
   align_y: ''
-  margin_left: 15%
-  margin_right: ''
+  margin_left: 0%
+  margin_right: 10%
   title_margin_left: "-20%"
   title_margin_right: ''
   meta_align: ''
@@ -108,14 +123,29 @@ page_sections:
   width: '20'
   align_x: start
   margin_x: '0'
-  margin_y: '400'
+  margin_y: '50'
   title: ''
   image: ''
   color: "#fde25e"
   attached_blog: posts/test-blog-posts.md
   align_y: ''
-  margin_left: ''
-  margin_right: 10%
+  margin_left: 15%
+  margin_right: 0%
+- template: block-media-feature
+  block: media-feature
+  width: '30'
+  align_y: start
+  margin_y: '300'
+  margin_left: 0%
+  margin_right: 30%
+  title_margin_left: 10%
+  title_margin_right: 0%
+  meta_align: left
+  title: Amtrak the National
+  image: https://jesserieser.brandlew.co/uploads/sunset-limited-28.jpg
+  color: "#D7F3E6"
+  meta: ''
+  attached_collection: collections/amtrak-southwest-chief.md
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -172,42 +202,12 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: ''
-- template: block-media-feature
-  block: media-feature
-  width: '50'
-  align_y: start
-  margin_y: '50'
-  margin_left: 0%
-  margin_right: 0%
-  title_margin_left: 0%
-  title_margin_right: 0%
-  meta_align: left
-  title: Sunset
-  image: https://jesserieser.brandlew.co/uploads/sunset-limited-6.jpg
-  color: "#D7F3E6"
-  meta: ''
-  attached_collection: collections/amtrak-southwest-chief.md
 - template: block-media-row
   block: media-row
   row_alignment: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
-- template: block-media-feature
-  block: media-feature
-  width: '60'
-  align_y: start
-  margin_y: '100'
-  margin_left: 0%
-  margin_right: 0%
-  title_margin_left: 0%
-  title_margin_right: 0%
-  meta_align: left
-  image: https://jesserieser.brandlew.co/uploads/bitmain-31.jpg
-  title: Wired BitMain
-  color: "#FFE087"
-  meta: 'The Hard Luck Texas Town That Bet on Bitcoin and Lost '
-  attached_collection: collections/wired-bitmain.md
 - template: block-media-row
   block: media-row
   row_alignment: ''
