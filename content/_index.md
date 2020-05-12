@@ -51,7 +51,7 @@ page_sections:
   row_alignment: ''
 - template: block-media-feature
   block: media-feature
-  width: '40'
+  width: '33'
   align_x: end
   margin_y: '500'
   image: https://jesserieser.brandlew.co/uploads/stargeezers-1.jpg
@@ -61,16 +61,16 @@ page_sections:
   meta: Condor Airlines (Germany)
   margin_x: ''
   align_y: ''
-  margin_left: ''
+  margin_left: 5%
   margin_right: ''
-  title_margin_left: 85%
-  title_margin_right: ''
+  title_margin_left: 0%
+  title_margin_right: 20%
   meta_align: ''
 - template: block-media-feature
   block: media-feature
-  width: '70'
+  width: '50'
   align_x: start
-  margin_y: '200'
+  margin_y: '100'
   image: https://jesserieser.brandlew.co/uploads/xmas-1.jpg
   attached_collection: collections/xmas-in-america.md
   title: Christmas in America
@@ -80,7 +80,7 @@ page_sections:
   align_y: ''
   margin_left: ''
   margin_right: 0%
-  title_margin_left: 70%
+  title_margin_left: "-25%"
   title_margin_right: ''
   meta_align: center
 - template: block-media-row
