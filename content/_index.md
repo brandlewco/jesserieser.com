@@ -279,7 +279,7 @@ page_sections:
   title_margin_left: 10%
   title_margin_right: 0%
   meta_align: left
-  image: https://jesserieser.brandlew.co/uploads/robkrar-1.jpg
+  image: https://jesserieser.brandlew.co/uploads/_JR_8055.jpg
   title: 'Oustide Magazine '
   color: "#FFB4B4"
   attached_collection: collections/outside-magazine-rob-krar.md
