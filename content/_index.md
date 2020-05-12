@@ -7,7 +7,7 @@ page_sections:
   block: media-feature
   width: '40'
   align_y: start
-  margin_y: '50'
+  margin_y: '100'
   margin_left: 0%
   margin_right: 0%
   title_margin_left: 0%
@@ -18,15 +18,25 @@ page_sections:
   image: https://jesserieser.brandlew.co/uploads/rieser_phx-HI-2.jpg
   color: "#A0E1DD"
   title: PHX
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/wired-the-internet-giant-that-went-too-far.md
+  width: '20'
+  align_y: start
+  margin_y: '700'
+  margin_left: 0%
+  margin_right: 25%
+  title: AP 35
+  color: "#D8EBEE"
 - template: block-media-row
   block: media-row
   row_alignment: ''
 - template: block-media-feature
   block: media-feature
-  width: '40'
+  width: '50'
   align_y: start
   margin_y: '100'
-  margin_left: 0%
+  margin_left: 30%
   margin_right: 0%
   title_margin_left: 0%
   title_margin_right: 0%
@@ -36,6 +46,26 @@ page_sections:
   attached_collection: collections/retail.md
   meta: 2015 - 2018
   title: 'Retail '
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
+- template: block-media-feature
+  block: media-feature
+  width: '40'
+  align_x: end
+  margin_y: '500'
+  image: https://jesserieser.brandlew.co/uploads/stargeezers-1.jpg
+  attached_collection: collections/star-geezers.md
+  title: The Star Geezers
+  color: "#9bbad5"
+  meta: Condor Airlines (Germany)
+  margin_x: ''
+  align_y: ''
+  margin_left: ''
+  margin_right: ''
+  title_margin_left: 85%
+  title_margin_right: ''
+  meta_align: ''
 - template: block-media-feature
   block: media-feature
   width: '70'
@@ -108,23 +138,6 @@ page_sections:
   meta_align: ''
 - template: block-media-feature
   block: media-feature
-  width: '40'
-  align_x: end
-  margin_y: '300'
-  image: https://jesserieser.brandlew.co/uploads/stargeezers-1.jpg
-  attached_collection: collections/star-geezers.md
-  title: Star Geezers
-  color: "#9bbad5"
-  meta: Condor Airlines (Germany)
-  margin_x: ''
-  align_y: ''
-  margin_left: ''
-  margin_right: ''
-  title_margin_left: "-45%"
-  title_margin_right: ''
-  meta_align: ''
-- template: block-media-feature
-  block: media-feature
   width: '45'
   align_y: start
   margin_y: '50'
@@ -138,9 +151,6 @@ page_sections:
   image: https://jesserieser.brandlew.co/uploads/serial-6.jpg
   title: Serial
   color: "#C0D0E0"
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -159,16 +169,6 @@ page_sections:
   meta: The Southwest Chief
   title: SW AMtrak
   color: "#F5ECE3"
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/wired-the-internet-giant-that-went-too-far.md
-  width: '33'
-  align_y: start
-  margin_y: '50'
-  margin_left: 0%
-  margin_right: 0%
-  title: AP 35
-  color: "#D8EBEE"
 - template: block-media-row
   block: media-row
   row_alignment: ''
