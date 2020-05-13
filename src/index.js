@@ -535,8 +535,12 @@ function init() {
   // Scroll Animations
   let scrollPos = 0;
   window.onscroll = function() {
+
     // document.documentElement.style.setProperty("--scroll-y", `${window.scrollY}px`);
     var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
+    const windowY = window.scrollY;
+    scrollPos = windowY;
+
     if (headerImage) {
       headerImage.style.opacity = value_limit(1 - (scrollTop / (height * 0.35)), 0, 1).toFixed(2);
     }
@@ -549,7 +553,7 @@ function init() {
     // if (featureOverlay) {
     //   featureOverlay.style.opacity = value_limit((scrollTop / (height * 0.9)), 0, 1).toFixed(2);
     // }
-    const windowY = window.scrollY;
+
     if (projectHeader) {
       if (windowY > (window.innerHeight * 0.75)) {
         if (windowY < scrollPos) {
@@ -576,7 +580,6 @@ function init() {
       } else {
         headerPointer.style.opacity = 1;
       }
-      // console.log("windowY", windowY, "pageTitleBottom", pageTitleBottom);
       if (windowY > pageTitleBottom) {
         pageTitle.classList.add("absolute");
         pageTitle.classList.remove("fixed");
@@ -591,10 +594,10 @@ function init() {
         pageTitle.style.transform = "translate3d(0, -50%, 0)";
       }
     }
-    scrollPos = windowY;
   };
 
   window.__forceSmoothScrollPolyfill__ = true;
+  window.smoothscroll = true
   smoothscroll.polyfill();
 
   if (document.querySelector("#current")) {

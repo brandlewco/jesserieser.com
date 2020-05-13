@@ -437,6 +437,10 @@ a.collection-next .arrow {
   opacity: 1;
 }
 
+.filter-item {
+  transform:translate3d(0,0,0);
+}
+
 .filter-item img.lazyloading, .filter-item img.lazyload {
   opacity: 0 !important;
 }

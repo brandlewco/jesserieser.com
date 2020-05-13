@@ -243,6 +243,81 @@ fields:
       file: 
       path: 
   label: Title Right Margin (X)
+- name: text_color
+  type: color
+  label: Text Color
+  config:
+    required: false
+    color_format: Hex
+- type: select
+  name: text_size
+  config:
+    source:
+      type: simple
+      section: ''
+      path: ''
+    options:
+    - xs
+    - sm
+    - base
+    - lg
+    - 2xl
+    - 4xl
+    - 6xl
+  label: Text Size
+  default: 2xl
+- name: text_alignment
+  type: select
+  default: left
+  config:
+    required: false
+    options:
+    - left
+    - center
+    - right
+    - justified
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Text Alignment
+  description: left / center / right
+- type: select
+  name: text_tracking
+  config:
+    source:
+      type: simple
+      section: ''
+      path: ''
+    options:
+    - tighter
+    - tight
+    - normal
+    - wide
+    - wider
+    - widest
+  label: Text Tracking
+  default: normal
+  description: spacing between letters
+- name: font_weight
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - hairline
+    - light
+    - normal
+    - semibold
+    - bold
+    - extrabold
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Font Weight
 - type: select
   name: meta_align
   config:
