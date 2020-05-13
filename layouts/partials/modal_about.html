@@ -1,9 +1,9 @@
 {{ with .Site.GetPage "about" }}
-<section id="modal-about" class="popup-modal fixed z-999 text-black bg-white overflow-y-scroll h-full w-full inset-0 pb-8" data-popup-modal="modal-about" style="display: hidden; opacity: 0;">
+<section id="modal-about" class="popup-modal fixed flex flex-col z-999 text-black bg-white overflow-y-scroll overflow-x-hidden h-full w-full inset-0 pb-8" data-popup-modal="modal-about" style="visibility: hidden; opacity: 0;">
   <div class="popup-modal__close h-8 w-8 m-4 mr-10 fixed cursor-pointer z-50 top-0 right-0">
       <svg class="icon h-8 w-8 text-black"><use xlink:href="#close"></use></svg>
   </div>
-  <header id="modal-header" class="w-full lazyload flex flex-col items-center overflow-hidden relative" style="background-color: {{.Params.theme_color}}; height: calc(100vh - 15%);">
+  <header id="modal-header" class="w-full flex flex-col items-center relative" style="background-color: {{.Params.theme_color}}; height: calc(100vh - 15%);">
     <img data-srcset="{{.Params.collection_cover }}?nf_resize=fit&w=1024 1024w, {{.Params.collection_cover }}?nf_resize=fit&w=1920 1920w, {{.Params.collection_cover }}?nf_resize=fit&w=2560 2560w, {{.Params.collection_cover }}"
 		 data-sizes="auto"
 		 class="lazyload z-10 bg-center max-w-full h-full object-cover"

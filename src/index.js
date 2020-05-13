@@ -396,18 +396,22 @@ function init() {
       scrollLock();
       // document.body.style.overflowY = "hidden";
       popupModal.style.opacity = 1;
+      popupModal.style.visibility = "visible";
       popupModal.classList.add("is--visible");
       bodyPopup.classList.add("is-poped-out");
       popupModal.addEventListener("scroll", function() {
         rellax.refresh();
       });
     });
+
+    // modal close methods
     popupModal.querySelector(".popup-modal__close").addEventListener("click", () => {
       scrollUnlock();
       navigation.style.opacity = 1;
       navigation.style.display = "block";
       // document.body.style.overflowY = "auto";
       popupModal.style.opacity = 0;
+      popupModal.style.visibility = "hidden";
       popupModal.classList.remove("is--visible");
       bodyPopup.classList.remove("is-poped-out");
     });
@@ -423,6 +427,7 @@ function init() {
         navigation.style.display = "block";
         // document.body.style.overflowY = "auto";
         popupModal.style.opacity = 0;
+        popupModal.style.visibility = "hidden";
         popupModal.classList.remove("is--visible");
         bodyPopup.classList.remove("is-poped-out");
       }
@@ -433,6 +438,8 @@ function init() {
       navigation.style.opacity = 1;
       navigation.style.display = "block";
       // document.body.style.overflowY = "auto";
+      popupModal.style.opacity = 0;
+      popupModal.style.visibility = "hidden";
       popupModal.classList.remove("is--visible");
       bodyPopup.classList.remove("is-poped-out");
     });
@@ -446,6 +453,8 @@ function init() {
     const innerPopupModal = document.querySelector(`[data-inner-popup-modal="${innerPopupTrigger}"]`);
     trigger.addEventListener("click", () => {
       innerPopupModal.classList.add("is--visible");
+      innerPopupModal.style.visibility = "visible";
+      innerPopupModal.style.opacity = 1;
     });
     // document.addEventListener("keyup", function(event) {
     //   if (event.defaultPrevented) {
@@ -458,6 +467,8 @@ function init() {
     // });
     innerPopupModal.querySelector(".popup-modal__close").addEventListener("click", () => {
       innerPopupModal.classList.remove("is--visible");
+      innerPopupModal.style.visibility = "hidden";
+      innerPopupModal.style.opacity = 0;
     });
   });
 
@@ -614,12 +625,12 @@ function init() {
     currentPage.nextElementSibling.classList.add("visible", "collection-next");
   }
 
-  setTimeout(function() {
-    const popupModal = document.querySelectorAll(".popup-modal");
-    popupModal.forEach((element) => {
-      element.style.display = "block";
-    });
-  }, 1000);
+  // setTimeout(function() {
+  //   const popupModal = document.querySelectorAll(".popup-modal");
+  //   popupModal.forEach((element) => {
+  //     element.style.display = "block";
+  //   });
+  // }, 2000);
 
   navigation.style.opacity = "1";
 

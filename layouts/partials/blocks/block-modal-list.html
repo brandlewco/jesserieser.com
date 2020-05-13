@@ -12,7 +12,7 @@
   </button>
 </section>
 
-<div class="popup-modal fixed z-999 text-white overflow-y-scroll h-full w-full inset-0" style="background: {{ .Section.color }};" data-inner-popup-modal="{{.Section.title | lower}}" style="opacity: 0; display: hidden;">
+<div class="popup-modal fixed z-999 text-white flex flex-col overflow-y-scroll h-full w-full inset-0" style="visibility: hidden; opacity: 0; background: {{ .Section.color }};" data-inner-popup-modal="{{.Section.title | lower}}">
   <header class="fixed top-0 left-0 w-full flex flex-row justify-between p-4" style="background: {{ .Section.color }};" >
     <div class="text-xl uppercase font-medium">{{ .Section.title }}</div>
     <div>
