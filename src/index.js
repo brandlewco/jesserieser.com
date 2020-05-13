@@ -597,7 +597,7 @@ function init() {
   };
 
   window.__forceSmoothScrollPolyfill__ = true;
-  window.smoothscroll = true
+  window.smoothscroll = true;
   smoothscroll.polyfill();
 
   if (document.querySelector("#current")) {
@@ -610,9 +610,11 @@ function init() {
     currentPage.nextElementSibling.classList.add("visible", "collection-next");
   }
 
-  const aboutModal = document.getElementById("modal-about");
   setTimeout(function() {
-    aboutModal.style.display = "block";
+    const popupModal = document.querySelectorAll(".popup-modal");
+    popupModal.forEach((element) => {
+      element.style.display = "block";
+    });
   }, 1000);
 
   navigation.style.opacity = "1";

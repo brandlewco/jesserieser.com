@@ -17,6 +17,10 @@ page_sections:
   meta: 2018 - 2020
   image: https://jesserieser.brandlew.co/uploads/rieser_phx-HI-2.jpg
   color: "#A0E1DD"
+  text_size: 4xl
+  font_weight: bold
+  text_tracking: loose
+  text_alignment: justify
   title: 'Phoenix: A Dystopian Legoland That Tastes Like Candy'
 - template: block-modal-blog
   block: modal-blog
