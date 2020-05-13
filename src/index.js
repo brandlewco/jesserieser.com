@@ -395,6 +395,7 @@ function init() {
       navigation.style.display = "none";
       scrollLock();
       // document.body.style.overflowY = "hidden";
+      popupModal.style.opacity = 1;
       popupModal.classList.add("is--visible");
       bodyPopup.classList.add("is-poped-out");
       popupModal.addEventListener("scroll", function() {
@@ -406,6 +407,7 @@ function init() {
       navigation.style.opacity = 1;
       navigation.style.display = "block";
       // document.body.style.overflowY = "auto";
+      popupModal.style.opacity = 0;
       popupModal.classList.remove("is--visible");
       bodyPopup.classList.remove("is-poped-out");
     });
@@ -420,6 +422,7 @@ function init() {
         navigation.style.opacity = 1;
         navigation.style.display = "block";
         // document.body.style.overflowY = "auto";
+        popupModal.style.opacity = 0;
         popupModal.classList.remove("is--visible");
         bodyPopup.classList.remove("is-poped-out");
       }
