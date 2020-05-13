@@ -4,7 +4,6 @@ blog_header = "https://jesserieser.brandlew.co/uploads/stargeezers-1.jpg"
 caption = "Featured on BOOOOOOM"
 content = "Test test "
 date = ""
-draft = true
 news_category = ["press"]
 theme_color = "#BFFFBD"
 title = "The Star Geezers "
