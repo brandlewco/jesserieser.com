@@ -635,6 +635,7 @@ a.collection-next .arrow {
 }
 
 .rellax {
+  transform: translate3d(0px, 0px, 0px);
   will-change: transform;
 }
 

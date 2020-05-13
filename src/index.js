@@ -539,7 +539,7 @@ function init() {
     // document.documentElement.style.setProperty("--scroll-y", `${window.scrollY}px`);
     var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
     const windowY = window.scrollY;
-    scrollPos = windowY;
+
 
     if (headerImage) {
       headerImage.style.opacity = value_limit(1 - (scrollTop / (height * 0.35)), 0, 1).toFixed(2);
@@ -594,6 +594,7 @@ function init() {
         pageTitle.style.transform = "translate3d(0, -50%, 0)";
       }
     }
+    scrollPos = windowY;
   };
 
   window.__forceSmoothScrollPolyfill__ = true;
