@@ -582,8 +582,8 @@ page_sections:
   color: "#F7BD1E"
   modal_block:
   - template: popup-text-element
-    content: "**2019**  \n_The Changing Landscape of American Retail  \n  \n_**Photoville
-      The Fence:**_  \nBrooklyn Bridge Park. Brooklyn, NY.  \nSanta Fe Railyard Park.
+    content: "**2019  \n_The Changing Landscape of American Retail_**\n\n**Photoville
+      The Fence:  \n**Brooklyn Bridge Park. Brooklyn, NY.  \nSanta Fe Railyard Park.
       Santa Fe, NM.  \nLoDo District. Denver, CO.  \nAtlanta Beltline. Atlanta, GA.
       \ \nCity Hall Plaza. Durham, NC.  \nSoWa Southie Plaza. Boston, MA.  \nFourth
       Ward. Houston, TX._"
