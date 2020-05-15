@@ -116,13 +116,15 @@ function init() {
           linkEl = figureEl.children[0]; // <a> element
           imgEl = linkEl.children[0]; // <img>
 
-          size = linkEl.getAttribute("data-size").split("x");
+          // size = linkEl.getAttribute("data-size").split("x");
 
           // create slide object
           item = {
             src: linkEl.getAttribute("href"),
-            w: parseInt(size[0], 10),
-            h: parseInt(size[1], 10),
+            // w: parseInt(size[0], 10),
+            // h: parseInt(size[1], 10),
+            w: imgEl.naturalWidth,
+            h: imgEl.naturalHeight,
             pid: linkEl.getAttribute("pid")
           };
 
