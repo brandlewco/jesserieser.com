@@ -739,7 +739,7 @@ page_sections:
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2019**  \n_On the Verge of Existence_  \nHendershot Gallery.  \nNew
+    content: "**2009**  \n_On the Verge of Existence_  \nHendershot Gallery.  \nNew
       York, NY (Group Show)"
     icon: ''
     url: ''
