@@ -116,15 +116,15 @@ function init() {
           linkEl = figureEl.children[0]; // <a> element
           imgEl = linkEl.children[0]; // <img>
 
-          // size = linkEl.getAttribute("data-size").split("x");
+          size = linkEl.getAttribute("data-size").split("x");
 
           // create slide object
           item = {
             src: linkEl.getAttribute("href"),
-            // w: parseInt(size[0], 10),
-            // h: parseInt(size[1], 10),
-            w: imgEl.naturalWidth,
-            h: imgEl.naturalHeight,
+            w: parseInt(size[0], 10) || imgEl.naturalWidth,
+            h: parseInt(size[1], 10) || imgEl.naturalHeight,
+            // w: imgEl.naturalWidth,
+            // h: imgEl.naturalHeight,
             pid: linkEl.getAttribute("pid")
           };
 
@@ -248,7 +248,7 @@ function init() {
           bgOpacity: 0.10,
           closeOnScroll: false,
           closeOnVerticalDrag: false,
-          preload: [3, 3],
+          preload: [1, 2],
           loadingIndicatorDelay: 100,
           getThumbBoundsFn: function(index) {
             // See Options -> getThumbBoundsFn section of documentation for more info
