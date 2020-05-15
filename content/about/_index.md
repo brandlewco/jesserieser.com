@@ -647,8 +647,11 @@ page_sections:
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    content: "**2017 - 2018**  \n_Christmas In America: Happy Birthday, Jesus_  \nPhotoville
+      The Fence:\n\n* Brooklyn Bridge Park. Brooklyn, NY.\n* Santa Fe Railyard Park.
+      Santa Fe, NM.\n* LoDo District. Denver, CO.\n* Atlanta Beltline. Atlanta, GA.\n*
+      City Hall Plaza. Durham, NC.\n* SoWa Southie Plaza. Boston, MA.\n* Fourth Ward.
+      Houston, TX."
     icon: ''
     url: ''
   - template: popup-text-element
