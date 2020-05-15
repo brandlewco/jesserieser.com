@@ -155,14 +155,14 @@ body.archive .pswp__bg {
   width: auto;
   top: 0;
   left: 0;
-  opacity: 0 !important;
+  /* opacity: 0 !important; */
   transition: opacity 333s cubic-bezier(0.4, 0, 0.22, 1);
-  display: block !important;
+  /* display: block !important; */
 }
 
-.active-slide .pswp__img {
+/* .active-slide .pswp__img {
   opacity: 1 !important;
-}
+} */
 
 @media (pointer: fine) {
   .pswp__container {

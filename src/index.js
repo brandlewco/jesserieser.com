@@ -100,7 +100,7 @@ function init() {
           items = [],
           figureEl,
           linkEl,
-          // size,
+          size,
           imgEl,
           item;
 
@@ -116,13 +116,13 @@ function init() {
           linkEl = figureEl.children[0]; // <a> element
           imgEl = linkEl.children[0]; // <img>
 
-          // size = linkEl.getAttribute("data-size").split("x");
+          size = linkEl.getAttribute("data-size").split("x");
 
           // create slide object
           item = {
             src: linkEl.getAttribute("href"),
-            w: imgEl.naturalWidth,
-            h: imgEl.naturalHeight,
+            w: parseInt(size[0], 10),
+            h: parseInt(size[1], 10),
             pid: linkEl.getAttribute("pid")
           };
 
@@ -306,25 +306,24 @@ function init() {
         //   }
         // });
         gallery.listen("beforeChange", function() {
-          var activeSlide = document.getElementsByClassName("active-slide");
-          var activeWrapper = document.getElementsByClassName("active-wrapper");
-          function removeActiveSlide() {
-            while (activeSlide[0]) {
-              activeSlide[0].classList.remove("active-slide");
-            }
-            while (activeWrapper[0]) {
-              activeWrapper[0].classList.remove("active-wrapper");
-            }
-          }
-          removeActiveSlide();
+          // var activeSlide = document.getElementsByClassName("active-slide");
+          // var activeWrapper = document.getElementsByClassName("active-wrapper");
+          // function removeActiveSlide() {
+          //   while (activeSlide[0]) {
+          //     activeSlide[0].classList.remove("active-slide");
+          //   }
+          //   while (activeWrapper[0]) {
+          //     activeWrapper[0].classList.remove("active-wrapper");
+          //   }
+          // }
+          // removeActiveSlide();
         });
         gallery.listen("afterChange", function() {
-          var currentItem = gallery.currItem.container;
-          var currentItemParent = gallery.currItem.container.parentNode;
-          currentItem.classList.add("active-slide");
-          currentItemParent.classList.add("active-wrapper");
-          console.log(gallery.currItem.container.parentNode)
-          // console.log("afterChange", currentItem);
+          // var currentItem = gallery.currItem.container;
+          // var currentItemParent = gallery.currItem.container.parentNode;
+          // currentItem.classList.add("active-slide");
+          // currentItemParent.classList.add("active-wrapper");
+
           Element.prototype.documentOffsetTop = function() {
             return this.offsetTop + (this.offsetParent ? this.offsetParent.documentOffsetTop() : 0);
           };
