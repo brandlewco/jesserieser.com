@@ -729,8 +729,8 @@ page_sections:
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    content: "**2011**  \n_Starting Over: Will Move for Work_  \nFilter Photo Festival
+      Juried Exhibition  \nBlack Cloud Gallery. Chicago, IL (Group Show)"
     icon: ''
     url: ''
   - template: popup-text-element
