@@ -686,13 +686,15 @@ page_sections:
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "_Chaos Theory 13_  \n_A New American Folklore_  \nLegend City Gallery.
-      Phoenix, AZ (Group Show)"
+    content: "**2013**_  \nChaos Theory 13_  \n_A New American Folklore_  \nLegend
+      City Gallery. Phoenix, AZ (Group Show)"
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    content: "**2012**  \n_Christmas In America: Happy Birthday, Jesus_  \nLove, Anxiety,
+      and Happiness: Critical Mass Top 50 Touring Show\n\n* Northwest Center For Photography.
+      Seattle, WA\n* Newspace Center For Photography. Portland, OR\n* Raykko Gallery.
+      San Francisco, CA (Group Show)"
     icon: ''
     url: ''
   - template: popup-text-element
