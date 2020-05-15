@@ -655,13 +655,13 @@ page_sections:
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    content: "**2017**  \n_Stalking A Serial Killer_  \nSunday Afternoon Gallery.
+      \ \nNew York, NY (Group Show)"
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    content: "**2017**  \n_Chaos Theory 17_  \nLegend City Gallery. Phoenix, AZ (Group
+      Show)"
     icon: ''
     url: ''
   - template: popup-text-element
