@@ -4,7 +4,7 @@ module.exports = {
   separator: ":",
   theme: {
     screens: {
-      "sm": "760px",
+      "sm": "1200px",
       "md": "1600px",
       "lg": "2000px",
       "xl": "2600px",
@@ -349,6 +349,7 @@ module.exports = {
       "2/3": "66.66667%",
       "1/4": "25%",
       "grid": "calc(25% - 0.375rem)",
+      "gridmd": "calc(50% - 0.375rem)",
       "3/4": "75%",
       "1/5": "20%",
       "2/5": "40%",
@@ -415,7 +416,6 @@ module.exports = {
     flexShrink: ["responsive"],
     flexWrap: ["responsive"],
     float: ["responsive"],
-    // fontFamily: ["responsive"],
     fontSize: ["responsive"],
     fontSmoothing: ["responsive"],
     fontStyle: ["responsive"],
@@ -434,7 +434,6 @@ module.exports = {
     minWidth: ["responsive"],
     objectFit: ["responsive"],
     objectPosition: ["responsive"],
-    // opacity: ["responsive"],
     order: ["responsive"],
     outline: ["responsive", "focus"],
     overflow: ["responsive"],
@@ -454,7 +453,6 @@ module.exports = {
     whitespace: ["responsive"],
     width: ["responsive"],
     wordBreak: ["responsive"],
-    // zIndex: ["responsive"],
   },
   corePlugins: {},
   plugins: [

@@ -12,6 +12,7 @@ page_sections:
   margin_right: 0%
   title_margin_left: "-15%"
   title_margin_right: 0%
+  title_margin_y: "15%"
   meta_align: left
   attached_collection: collections/phoenix.md
   meta: 2018 - 2020

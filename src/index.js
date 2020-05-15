@@ -307,17 +307,24 @@ function init() {
         // });
         gallery.listen("beforeChange", function() {
           var activeSlide = document.getElementsByClassName("active-slide");
+          var activeWrapper = document.getElementsByClassName("active-wrapper");
           function removeActiveSlide() {
             while (activeSlide[0]) {
               activeSlide[0].classList.remove("active-slide");
+            }
+            while (activeWrapper[0]) {
+              activeWrapper[0].classList.remove("active-wrapper");
             }
           }
           removeActiveSlide();
         });
         gallery.listen("afterChange", function() {
           var currentItem = gallery.currItem.container;
+          var currentItemParent = gallery.currItem.container.parentNode;
           currentItem.classList.add("active-slide");
-          console.log("afterChange", currentItem);
+          currentItemParent.classList.add("active-wrapper");
+          console.log(gallery.currItem.container.parentNode)
+          // console.log("afterChange", currentItem);
           Element.prototype.documentOffsetTop = function() {
             return this.offsetTop + (this.offsetParent ? this.offsetParent.documentOffsetTop() : 0);
           };

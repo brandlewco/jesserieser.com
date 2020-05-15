@@ -134,6 +134,7 @@ header#project-header img {
   mask-repeat: no-repeat;
   mask-position: center 40%;
   mask-size: 25% auto;
+  opacity: 0;
 }
  
 header#project-header img.lazyloaded {
@@ -143,11 +144,11 @@ header#project-header img.lazyloaded {
   animation-timing-function: ease-out, ease-in;
   animation-fill-mode: forwards, forwards;
   transform-origin: center, center;
-  opacity: 1, 1;
-  animation-delay: 0ms, 2s;
+  opacity: 1;
+  animation-delay: 0ms, 2.5s;
 } 
 
-html.is-rendering header#project-header img.lazyloaded {
+/* html.is-rendering header#project-header img.lazyloaded {
   animation-name: r-drop;
   animation-duration: 1s;
   animation-iteration-count: 1;
@@ -156,7 +157,7 @@ html.is-rendering header#project-header img.lazyloaded {
   transform-origin: center;
   opacity: 1;
   animation-delay: 0ms;
-}
+} */
 
 #header-overlay, #feature-overlay {
   will-change: opacity, transform;
@@ -261,7 +262,6 @@ header img.lazyload, header img.lazyloading {
 }
 header img.lazyloaded {
   opacity: 1;
-
   transition: opacity 0s ease-in-out;
 }
 
@@ -587,13 +587,13 @@ a.collection-next .arrow {
 
 .popup-modal {
   will-change: opacity;
-  /* opacity: 0; */
+  opacity: 0;
   pointer-events: none;
   transition: all 300ms ease-in-out;
   backface-visibility:  hidden;
 
   &.is--visible {
-    /* opacity: 1; */
+    opacity: 1;
     pointer-events: auto;
   }
 }

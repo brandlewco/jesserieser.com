@@ -1,4 +1,4 @@
-<figure class="filter-item h-auto px-3 sm:pl-4 sm:pr-2 py-2 sm:w-grid w-full overflow-hidden {{range .Params.collection_category }}{{. | replaceRE "[\\W]" "" | lower}} {{end}}{{with .Params.collection_filter}}{{. | replaceRE "[\\W]" "" | lower}}{{end}} all active" data-theme="{{.Params.theme_color}}" data-filter="{{range .Params.collection_category}}{{. | replaceRE "[\\W]" "" | lower}},{{end}},{{with .Params.collection_filter}}{{. | replaceRE "[\\W]" "" | lower}}{{end}}">
+<figure class="filter-item h-auto px-3 sm:pl-4 sm:pr-2 py-2 md:w-grid sm:w-gridmd w-full overflow-hidden {{range .Params.collection_category }}{{. | replaceRE "[\\W]" "" | lower}} {{end}}{{with .Params.collection_filter}}{{. | replaceRE "[\\W]" "" | lower}}{{end}} all active" data-theme="{{.Params.theme_color}}" data-filter="{{range .Params.collection_category}}{{. | replaceRE "[\\W]" "" | lower}},{{end}},{{with .Params.collection_filter}}{{. | replaceRE "[\\W]" "" | lower}}{{end}}">
     <a href="{{.Permalink}}">
         {{if .Params.collection_preview }}
         <div class="collection-preview relative" style="padding-top:75%; background-color:{{.Params.theme_color}};">

@@ -1,10 +1,12 @@
 
   <figure class="w-full {{with .Section.align_y}}sm:self-{{.}}{{end}} {{with .Section.width}}sm:w-{{.}}/100{{end}} mt-4 {{with .Section.margin_y}}sm:mt-{{.}}{{end}} ml-0 {{with .Section.margin_left}}sm:ml-{{.}}{{end}} mr-0 {{with .Section.margin_right}}sm:mr-{{.}}{{end}} highlight {{with .Section.parallax}}rellax-wrapper{{end}} relative" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
     {{if (eq .Section.background_image_toggle true) }}
-      <img class="lazyload {{with .Section.parallax}}rellax rellax-off{{end}}" src="{{ .Section.image }}?nf_resize=fit&w=1024" data-src="{{ .Section.image  }}" alt="{{ .Section.caption }}" {{with .Section.parallax}}data-rellax-speed="2" data-rellax-percentage=""{{end}} style="{{with .Section.image_css | safeCSS }}{{.}}{{end}}"/>
-      <figcaption class="relative sm:absolute top-0 mt-8 sm:mt-32 w-full ml-0 sm:w-4/5 sm:ml-neg break-words {{with .Section.text_size }}text-{{.}}{{end}} {{with .Section.text_tracking}}tracking-{{.}}{{end}} {{with .Section.background_color}} p-4{{end}}" style="{{with .Section.text_color}}color:{{.}}; {{end}}{{with .Section.background_color}}background-color:{{.}}; {{end}}{{with .Section.caption_css | safeCSS}}{{.}}{{end}}">
-        {{ .Section.text | markdownify }}
-      </figcaption>
+      <div class="flex flex-col sm:flex-row md:relative md:flex-none flex-row-reverse">
+        <img class="lazyload {{with .Section.parallax}}rellax rellax-off{{end}}" src="{{ .Section.image }}?nf_resize=fit&w=1024" data-src="{{ .Section.image  }}" alt="{{ .Section.caption }}" {{with .Section.parallax}}data-rellax-speed="2" data-rellax-percentage=""{{end}} style="{{with .Section.image_css | safeCSS }}{{.}}{{end}}"/>
+        <figcaption class="relative md:absolute top-0 mt-8 sm:mt-32 w-full ml-0 md:w-4/5 sm:ml-neg break-words {{with .Section.text_size }}text-{{.}}{{end}} {{with .Section.text_tracking}}tracking-{{.}}{{end}} {{with .Section.background_color}} p-4{{end}}" style="{{with .Section.text_color}}color:{{.}}; {{end}}{{with .Section.background_color}}background-color:{{.}}; {{end}}{{with .Section.caption_css | safeCSS}}{{.}}{{end}}">
+          {{ .Section.text | markdownify }}
+        </figcaption>
+      </div>
       {{else}}
       <figcaption class="break-words {{with .Section.font_weight }}font-{{.}} {{end}}{{with .Section.text_size }}text-{{.}} {{end}}{{with .Section.text_tracking}}tracking-{{.}} {{end}}{{with .Section.text_alignment }}text-{{.}} {{end}}{{with .Section.parallax}}rellax rellax-off {{end}}{{with .Section.background_color}}p-4 {{end}}" {{with .Section.parallax}}data-rellax-speed="2" data-rellax-percentage="0"{{end}} style="{{with .Section.text_color}}color:{{.}}; {{end}}{{with .Section.background_color}}background-color:{{.}};{{end}} {{with .Section.caption_css | safeCSS}}{{.}}{{end}}">
         {{ .Section.text | markdownify }}
