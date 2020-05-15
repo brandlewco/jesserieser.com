@@ -1,7 +1,7 @@
 
 {{ $fileName := path.Base .Section.image | replaceRE "(.doc|.jpeg|.jpg)" ""}}
 
-{{ $imgPath := .Section.image | replaceRE "https://jesserieser.brandlew.co/" "/static/"}}
+{{ $imgPath := .Section.image | replaceRE "https://jesserieser.brandlew.co/" "/opt/build/repo/dist/uploads/"}}
 {{ $imgData := imageConfig $imgPath }}
 
 <!-- <section class="block-media-1 block-hover flex flex-row {{with .Section.row_alignment}}sm:justify-{{.}}{{else}}sm:justify-between{{end}} mx-auto h-auto"> -->
