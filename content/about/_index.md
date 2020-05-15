@@ -686,8 +686,8 @@ page_sections:
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    content: "_Chaos Theory 13_  \n_A New American Folklore_  \nLegend City Gallery.
+      Phoenix, AZ (Group Show)"
     icon: ''
     url: ''
   - template: popup-text-element
