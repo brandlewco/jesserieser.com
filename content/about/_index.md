@@ -637,8 +637,8 @@ page_sections:
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    content: "**2017 - 2018**  \n_Christmas In America: Happy Birthday, Jesus_  \nIrving
+      Arts Center a Smithsonian Affiliate  \nIrving, TX (Solo Show)"
     icon: ''
     url: ''
 - template: block-modal-list
