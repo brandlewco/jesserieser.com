@@ -759,6 +759,11 @@ page_sections:
     icon: https://jesserieser.brandlew.co/uploads/1280px-Wired_logo.svg.png
     content: "**Test** "
     url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
   image: https://jesserieser.brandlew.co/uploads/autobiography-38.jpg
 header_col_1: "### Advertising & Editorial\n\n### Commissions\n\nEcho Hopkins  \n[echo@andersonhopkins.com](mailto:echo@andersonhopkins.com)
   \ \n  \nHannah Marchetto   \n[hannah@andersonhopkins.com](mailto:hannah@andersonhopkins.com)\n\n
