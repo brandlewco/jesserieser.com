@@ -698,8 +698,8 @@ page_sections:
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    content: "**2012**  \n_Class of 99 Turns 30_  \nLa Fototeca Gallery. Guatemala
+      City (Group Show)  \nGuate Photo Festival: \\[DOT\\]COM"
     icon: ''
     url: ''
   - template: popup-text-element
