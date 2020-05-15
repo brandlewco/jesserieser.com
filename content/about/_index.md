@@ -707,6 +707,41 @@ page_sections:
       Center for Photography.  \nPortland, OR (Solo Show)"
     icon: ''
     url: ''
+  - template: popup-text-element
+    content: "**2011**  \n_Christmas In America: Happy Birthday, Jesus_  \nThe Saguaro,
+      A Joie de Vivre Boutique Hotel.  \nScottsdale, AZ (Solo Show)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
 - template: block-modal-list
   block: modal-list
   width: '33'
