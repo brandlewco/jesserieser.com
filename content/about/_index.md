@@ -596,8 +596,9 @@ page_sections:
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    content: "**2019**  \n_Grand Canyon National Park Centennial for Time Magazine_
+      \ \nTerry Etherton Gallery. Tucson, AZ (Group Show)  \nCelebrating The Grand
+      Canyon National Park at 100"
     icon: ''
     url: ''
   - template: popup-text-element
