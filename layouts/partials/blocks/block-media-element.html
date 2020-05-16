@@ -2,7 +2,7 @@
 {{ $fileName := path.Base .Section.image | replaceRE "(.jpeg|.jpg)" ""}}
 
 {{ $baseURL := .Site.BaseURL }}
-{{ $imgPath := .Section.image | replaceRE .Site.BaseURL "static" }}
+{{ $imgPath := .Section.image | replaceRE .Site.BaseURL "/static/" }}
 {{ $imgData := imageConfig $imgPath }}
 
 <!-- <section class="block-media-1 block-hover flex flex-row {{with .Section.row_alignment}}sm:justify-{{.}}{{else}}sm:justify-between{{end}} mx-auto h-auto"> -->
