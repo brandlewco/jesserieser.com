@@ -121,8 +121,8 @@ function init() {
           // create slide object
           item = {
             src: linkEl.getAttribute("href"),
-            w: (imgEl.naturalWidth * 2.1).toFixed(0),
-            h: (imgEl.naturalHeight * 2.1).toFixed(0),
+            w: imgEl.naturalWidth * 2,
+            h: imgEl.naturalHeight * 2,
             // w: imgEl.naturalWidth,
             // h: imgEl.naturalHeight,
             pid: linkEl.getAttribute("pid")
