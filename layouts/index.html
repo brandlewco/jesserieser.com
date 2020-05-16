@@ -29,6 +29,7 @@
     const hueHeaderShift = document.querySelectorAll(".hue-header.page .shift");
     const projectHeader = document.getElementById("project-header");
     const projectDescription = document.getElementById("project-description");
+    const featureOverlay = document.getElementById("feature-overlay");
     projectHeader.style.backgroundColor = imgURL[1];
     projectDescription.style.backgroundColor = imgURL[1];
     document.querySelectorAll(".shift").forEach(function(button) {
@@ -36,6 +37,7 @@
     });
     featureImage.setAttribute("data-srcset", imgURL[0]);
     featureImage.classList.add("lazyload");
+    featureOverlay.style.backgroundColor = imgURL[1];
   }());
 </script>
 {{- end -}}

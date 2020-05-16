@@ -3,12 +3,12 @@
 		 class="lazyload bg-center h-screen object-cover fixed inset-0 z-0"
          data-parent-fit="cover"
          id="feature-image"/>
-    <!-- <div id="feature-overlay" class="absolute w-full h-screen inset-auto z-40" style="background-color: {{.Params.home_theme_color}};"></div> -->
+    <div id="feature-overlay" class="absolute w-full h-screen inset-auto z-40" style="background-color: {{.Params.home_theme_color}}; opacity: 0.01;"></div>
     <div id="header-loading" class="text-center font-semibold absolute inset-x-0 bottom-0 z-50 text-4xl">
     <i class="fas fa-spinner-third fa-spin text-{{.Params.navigation_theme}}"></i>
     </div>
     <div id="header-pointer" class="font- absolute bottom-0 mx-0 text-6xl font-light text-{{.Params.navigation_theme}} z-10">&#8964;</div>
-    <!-- <div id="loading-overlay" class="absolute w-full h-screen inset-auto z-10" style="background-color: {{.Params.home_theme_color}};"></div> -->
+    <!-- <div id="loading-overlay" class="absolute w-full h-screen inset-auto z-10" style="background-color: {{.Params.home_theme_color}}; opacity: 0.01;"></div> -->
 </header>
 <article id="project-description" class="w-full py-8 px-5 sm:px-64 text-lg sm:text-xl text-{{.Params.navigation_theme}} items-center text-justify leading-loose relative z-100"  style="backface-visibility: hidden;">
     <div class="flex flex-col justify-center mx-auto" data-sal="slide-up" data-sal-delay="300">

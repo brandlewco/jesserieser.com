@@ -553,6 +553,8 @@ function init() {
   const pageTitle = document.getElementById("page-title");
   const headerImage = document.querySelector("#header-image");
   const featureImage = document.querySelector("#feature-image");
+  const headerOverlay = document.getElementById("header-overlay");
+  const featureOverlay = document.getElementById("feature-overlay");
   const height = window.innerHeight;
 
   // Scroll Animations
@@ -564,18 +566,18 @@ function init() {
     const windowY = window.scrollY;
 
 
-    if (headerImage) {
-      headerImage.style.opacity = value_limit(1 - (scrollTop / (height * 0.35)), 0, 1).toFixed(2);
-    }
-    if (featureImage) {
-      featureImage.style.opacity = value_limit(1 - (scrollTop / (height * 0.9)), 0, 1).toFixed(2);
-    }
-    // if (headerOverlay) {
-    //   headerOverlay.style.opacity = value_limit((scrollTop / (height * 0.4)), 0, 1).toFixed(2);
+    // if (headerImage) {
+    //   headerImage.style.opacity = value_limit(1 - (scrollTop / (height * 0.35)), 0, 1).toFixed(2);
     // }
-    // if (featureOverlay) {
-    //   featureOverlay.style.opacity = value_limit((scrollTop / (height * 0.9)), 0, 1).toFixed(2);
+    // if (featureImage) {
+    //   featureImage.style.opacity = value_limit(1 - (scrollTop / (height * 0.9)), 0, 1).toFixed(2);
     // }
+    if (headerOverlay) {
+      headerOverlay.style.opacity = value_limit((scrollTop / (height * 0.4)), 0, 1).toFixed(2);
+    }
+    if (featureOverlay) {
+      featureOverlay.style.opacity = value_limit((scrollTop / (height * 0.9)), 0, 1).toFixed(2);
+    }
 
     if (projectHeader) {
       if (windowY > (window.innerHeight * 0.75)) {
