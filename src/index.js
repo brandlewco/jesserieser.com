@@ -116,13 +116,13 @@ function init() {
           linkEl = figureEl.children[0]; // <a> element
           imgEl = linkEl.children[0]; // <img>
 
-          size = linkEl.getAttribute("data-size").split("x");
+          // size = linkEl.getAttribute("data-size").split("x");
 
           // create slide object
           item = {
             src: linkEl.getAttribute("href"),
-            w: parseInt(size[0], 10) || imgEl.naturalWidth,
-            h: parseInt(size[1], 10) || imgEl.naturalHeight,
+            w: (imgEl.naturalWidth * 2.1).toFixed(0),
+            h: (imgEl.naturalHeight * 2.1).toFixed(0),
             // w: imgEl.naturalWidth,
             // h: imgEl.naturalHeight,
             pid: linkEl.getAttribute("pid")
@@ -248,7 +248,7 @@ function init() {
           bgOpacity: 0.10,
           closeOnScroll: false,
           closeOnVerticalDrag: false,
-          preload: [1, 2],
+          preload: [2, 2],
           loadingIndicatorDelay: 100,
           getThumbBoundsFn: function(index) {
             // See Options -> getThumbBoundsFn section of documentation for more info
@@ -308,23 +308,24 @@ function init() {
         //   }
         // });
         gallery.listen("beforeChange", function() {
-          // var activeSlide = document.getElementsByClassName("active-slide");
-          // var activeWrapper = document.getElementsByClassName("active-wrapper");
-          // function removeActiveSlide() {
-          //   while (activeSlide[0]) {
-          //     activeSlide[0].classList.remove("active-slide");
-          //   }
-          //   while (activeWrapper[0]) {
-          //     activeWrapper[0].classList.remove("active-wrapper");
-          //   }
-          // }
-          // removeActiveSlide();
+          var activeSlide = document.getElementsByClassName("active-slide");
+          var activeWrapper = document.getElementsByClassName("active-wrapper");
+          function removeActiveSlide() {
+            while (activeSlide[0]) {
+              activeSlide[0].classList.remove("active-slide");
+            }
+            while (activeWrapper[0]) {
+              activeWrapper[0].classList.remove("active-wrapper");
+            }
+          }
+          removeActiveSlide();
         });
         gallery.listen("afterChange", function() {
-          // var currentItem = gallery.currItem.container;
-          // var currentItemParent = gallery.currItem.container.parentNode;
-          // currentItem.classList.add("active-slide");
-          // currentItemParent.classList.add("active-wrapper");
+          console.log("h", gallery.currItem.h, "w", gallery.currItem.w);
+          var currentItem = gallery.currItem.container;
+          var currentItemParent = gallery.currItem.container.parentNode;
+          currentItem.classList.add("active-slide");
+          currentItemParent.classList.add("active-wrapper");
 
           Element.prototype.documentOffsetTop = function() {
             return this.offsetTop + (this.offsetParent ? this.offsetParent.documentOffsetTop() : 0);
