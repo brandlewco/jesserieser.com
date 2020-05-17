@@ -9,9 +9,9 @@
       {{ partial "footer" . }}
       {{ block "attached" .}}
       {{ end }}
-      {{ partial "modal_about.html" .}}
-      <div class="body-popup h-full w-full fixed inset-0 z-40" style="background: rgba(235,235,235,0.85);"></div>
+      <!-- <div class="body-popup h-full w-full fixed inset-0 z-40" style="background: rgba(235,235,235,0.85);"></div> -->
     </main>
+    {{ partial "modal_about.html" .}}
     {{ partial "fa-icon.html" .}}
     <style type="text/css">
     {{ partial "style_themer.html" . | safeCSS }}

@@ -55,6 +55,7 @@ swup.on("animationInDone", function() {
 swup.on("contentReplaced", init);
 
 function init() {
+  window.scrollTo(0,1);
   // MIDDAY
   const middayNav = new Midday(document.getElementById("navigation"), {
     headerClass: "hue-header",
@@ -392,7 +393,7 @@ function init() {
 
   // Modal
   const modalTriggers = document.querySelectorAll(".popup-trigger");
-  const bodyPopup = document.querySelector(".body-popup");
+  // const bodyPopup = document.querySelector(".body-popup");
 
   modalTriggers.forEach((trigger) => {
     // const navigation = document.getElementById("navigation");
@@ -407,7 +408,7 @@ function init() {
       popupModal.style.opacity = 1;
       popupModal.style.visibility = "visible";
       popupModal.classList.add("is--visible");
-      bodyPopup.classList.add("is-poped-out");
+      // bodyPopup.classList.add("is-poped-out");
       popupModal.addEventListener("scroll", function() {
         rellax.refresh();
       });
@@ -422,7 +423,7 @@ function init() {
       popupModal.style.opacity = 0;
       popupModal.style.visibility = "hidden";
       popupModal.classList.remove("is--visible");
-      bodyPopup.classList.remove("is-poped-out");
+      // bodyPopup.classList.remove("is-poped-out");
     });
 
     document.addEventListener("keyup", function(event) {
@@ -438,25 +439,24 @@ function init() {
         popupModal.style.opacity = 0;
         popupModal.style.visibility = "hidden";
         popupModal.classList.remove("is--visible");
-        bodyPopup.classList.remove("is-poped-out");
+        // bodyPopup.classList.remove("is-poped-out");
       }
     });
 
-    bodyPopup.addEventListener("click", () => {
-      scrollUnlock();
-      navigation.style.opacity = 1;
-      navigation.style.display = "block";
-      // document.body.style.overflowY = "auto";
-      popupModal.style.opacity = 0;
-      popupModal.style.visibility = "hidden";
-      popupModal.classList.remove("is--visible");
-      bodyPopup.classList.remove("is-poped-out");
-    });
+    // bodyPopup.addEventListener("click", () => {
+    //   scrollUnlock();
+    //   navigation.style.opacity = 1;
+    //   navigation.style.display = "block";
+    //   // document.body.style.overflowY = "auto";
+    //   popupModal.style.opacity = 0;
+    //   popupModal.style.visibility = "hidden";
+    //   popupModal.classList.remove("is--visible");
+    //   bodyPopup.classList.remove("is-poped-out");
+    // });
   });
 
   // Inner Modal
   const innerModalTriggers = document.querySelectorAll(".inner-popup-trigger");
-
   innerModalTriggers.forEach((trigger) => {
     const {innerPopupTrigger} = trigger.dataset;
     const innerPopupModal = document.querySelector(`[data-inner-popup-modal="${innerPopupTrigger}"]`);
@@ -465,15 +465,6 @@ function init() {
       innerPopupModal.style.visibility = "visible";
       innerPopupModal.style.opacity = 1;
     });
-    // document.addEventListener("keyup", function(event) {
-    //   if (event.defaultPrevented) {
-    //     return;
-    //   }
-    //   var key = event.key || event.keyCode;
-    //   if (key === "Escape" || key === "Esc" || key === 27) {
-    //     innerPopupModal.classList.remove("is--visible");
-    //   }
-    // });
     innerPopupModal.querySelector(".popup-modal__close").addEventListener("click", () => {
       innerPopupModal.classList.remove("is--visible");
       innerPopupModal.style.visibility = "hidden";
@@ -481,7 +472,7 @@ function init() {
     });
   });
 
-  // Button Toggle
+  // Generic Button Toggle
   var buttons = document.getElementsByClassName("toggle");
   Array.prototype.forEach.call(buttons, function(button) {
     button.addEventListener("click", function(event) {
@@ -509,7 +500,7 @@ function init() {
   });
 
 
-  // USE FOR BLOCK HOVER
+  // Block Hover Dimming
   const figureAll = document.querySelectorAll(".figure");
   figureAll.forEach((figureHovered) => {
     figureHovered.addEventListener("mouseenter", () => {
@@ -524,7 +515,7 @@ function init() {
     });
   });
 
-  // SCROLL FUNCTION
+  // Scroll Lock / Unlock
   const scrollLock = () => {
     // document.getElementById("dialog").classList.add("show");
     const body = document.body;
@@ -547,12 +538,12 @@ function init() {
   }
 
   const projectHeader = document.getElementById("project-header");
-  const content = document.getElementById("content");
   const filterContainer = document.getElementById("filter-container");
   const headerPointer = document.getElementById("header-pointer");
   const pageTitle = document.getElementById("page-title");
-  const headerImage = document.querySelector("#header-image");
-  const featureImage = document.querySelector("#feature-image");
+  // const headerImage = document.querySelector("#header-image");
+  // const featureImage = document.querySelector("#feature-image");
+  // const content = document.getElementById("content");
   const headerOverlay = document.getElementById("header-overlay");
   const featureOverlay = document.getElementById("feature-overlay");
   const height = window.innerHeight;
