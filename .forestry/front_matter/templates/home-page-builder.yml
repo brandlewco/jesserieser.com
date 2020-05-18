@@ -46,7 +46,7 @@ fields:
       section: 
       file: 
       path: 
-  label: Navigation Theme
+  label: Navigation Color
 - type: textarea
   name: feature_description
   label: Introduction
