@@ -18,6 +18,15 @@ fields:
 - type: file
   name: feature_cover
   label: Feature Cover Image
+  hidden: true
+- name: selected_works_theme
+  type: blocks
+  label: Selected Works Theme
+  template_types:
+  - selected-works-theme
+  config:
+    min: 
+    max: 
 - type: color
   name: home_theme_color
   config:
@@ -76,13 +85,5 @@ fields:
   name: cover_image
   label: Social Media Card
   description: This image is what appears in OpenGraph previews and image masks
-- name: selected_works_theme
-  type: blocks
-  label: Selected Works Theme
-  template_types:
-  - selected-works-theme
-  config:
-    min: 
-    max: 
 pages:
 - content/_index.md
