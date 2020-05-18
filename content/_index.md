@@ -12,7 +12,7 @@ page_sections:
   margin_right: 0%
   title_margin_left: "-15%"
   title_margin_right: 0%
-  title_margin_y: "15%"
+  title_margin_y: 15%
   meta_align: left
   attached_collection: collections/phoenix.md
   meta: 2018 - 2020
@@ -23,6 +23,7 @@ page_sections:
   text_tracking: loose
   text_alignment: justify
   title: 'Phoenix: A Dystopian Legoland That Tastes Like Candy'
+  text_color: ''
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/wired-the-internet-giant-that-went-too-far.md
@@ -51,6 +52,11 @@ page_sections:
   attached_collection: collections/retail.md
   meta: 2015 - 2018
   title: The Changing Landscape of American Retail
+  text_color: ''
+  text_size: ''
+  text_alignment: ''
+  text_tracking: ''
+  font_weight: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -71,6 +77,11 @@ page_sections:
   title_margin_left: "-30%"
   title_margin_right: 90%
   meta_align: ''
+  text_color: ''
+  text_size: ''
+  text_alignment: ''
+  text_tracking: ''
+  font_weight: ''
 - template: block-media-feature
   block: media-feature
   width: '45'
@@ -88,6 +99,11 @@ page_sections:
   title_margin_left: "-20%"
   title_margin_right: 70%
   meta_align: center
+  text_color: ''
+  text_size: ''
+  text_alignment: ''
+  text_tracking: ''
+  font_weight: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -106,6 +122,11 @@ page_sections:
   title: 'Skeleton Party '
   meta: Collection of Small Crews
   attached_collection: ''
+  text_color: ''
+  text_size: ''
+  text_alignment: ''
+  text_tracking: ''
+  font_weight: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -124,6 +145,11 @@ page_sections:
   color: "#FFE087"
   meta: 'The Hard Luck Texas Town That Bet on Bitcoin and Lost '
   attached_collection: collections/wired-bitmain.md
+  text_color: ''
+  text_size: ''
+  text_alignment: ''
+  text_tracking: ''
+  font_weight: ''
 - template: block-media-feature
   block: media-feature
   width: '30'
@@ -141,6 +167,11 @@ page_sections:
   title_margin_left: "-20%"
   title_margin_right: ''
   meta_align: ''
+  text_color: ''
+  text_size: ''
+  text_alignment: ''
+  text_tracking: ''
+  font_weight: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -172,6 +203,11 @@ page_sections:
   color: "#D7F3E6"
   meta: ''
   attached_collection: collections/amtrak-southwest-chief.md
+  text_color: ''
+  text_size: ''
+  text_alignment: ''
+  text_tracking: ''
+  font_weight: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -190,6 +226,11 @@ page_sections:
   title: Autobiography of a Contact Sport
   meta: ''
   attached_collection: collections/autobiography.md
+  text_color: ''
+  text_size: ''
+  text_alignment: ''
+  text_tracking: ''
+  font_weight: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -208,6 +249,11 @@ page_sections:
   attached_collection: collections/adidas-golf.md
   title: 'Adidas GOlf '
   meta: ''
+  text_color: ''
+  text_size: ''
+  text_alignment: ''
+  text_tracking: ''
+  font_weight: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -228,6 +274,11 @@ page_sections:
   title_margin_left: 60%
   title_margin_right: ''
   meta_align: ''
+  text_color: ''
+  text_size: ''
+  text_alignment: ''
+  text_tracking: ''
+  font_weight: ''
 - template: block-media-feature
   block: media-feature
   width: '45'
@@ -243,6 +294,11 @@ page_sections:
   image: https://jesserieser.brandlew.co/uploads/serial-6.jpg
   title: Stalking A Serial Killer
   color: "#C0D0E0"
+  text_color: ''
+  text_size: ''
+  text_alignment: ''
+  text_tracking: ''
+  font_weight: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -271,6 +327,11 @@ page_sections:
   meta: The Southwest Chief
   title: Amtrak The National
   color: "#F5ECE3"
+  text_color: ''
+  text_size: ''
+  text_alignment: ''
+  text_tracking: ''
+  font_weight: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -289,6 +350,11 @@ page_sections:
   color: "#FFB4B4"
   attached_collection: collections/outside-magazine-rob-krar.md
   meta: Rob Krar Running in the Dark
+  text_color: ''
+  text_size: ''
+  text_alignment: ''
+  text_tracking: ''
+  font_weight: ''
 - template: block-media-feature
   block: media-feature
   width: '40'
@@ -304,6 +370,11 @@ page_sections:
   color: "#110101"
   align_y: ''
   margin_left: ''
+  text_color: ''
+  text_size: ''
+  text_alignment: ''
+  text_tracking: ''
+  font_weight: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -319,7 +390,7 @@ feature_description: "Welcome!  \nHere in _Selected Works_ you will find a brief
   American experience.\n\nA bit about navigation: If you aren’t in a rush, head over
   to _All Works;_ if looking for something specific, give the category filter a spin.
   I hope you enjoy your time here and excited to share my photographic world with
-  you. I truly look forward to hearingfrom you."
+  you. I truly look forward to hearing from you."
 navigation_theme: white
 row_alignment: between
 selected_works_theme:
