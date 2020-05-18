@@ -32,6 +32,7 @@ fields:
   config:
     color_format: Hex
   label: Theme Color
+  hidden: true
 - name: navigation_theme
   type: select
   default: white
