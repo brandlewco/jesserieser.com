@@ -21,7 +21,7 @@ fields:
   hidden: true
 - name: selected_works_theme
   type: blocks
-  label: Selected Works Theme
+  label: Random Featured Image
   template_types:
   - selected-works-theme
   config:
