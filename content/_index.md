@@ -396,13 +396,13 @@ row_alignment: between
 selected_works_theme:
 - template: selected-works-theme
   image: https://jesserieser.brandlew.co/uploads/timeGC-5.jpg
-  theme_color: "#FFF2CE"
+  theme_color: "#EEDDDD"
 - template: selected-works-theme
   image: https://jesserieser.brandlew.co/uploads/ieg-1.jpg
-  theme_color: "#F9E71B"
+  theme_color: "#E2EADE"
 - template: selected-works-theme
   image: https://jesserieser.brandlew.co/uploads/xmas-34.jpg
-  theme_color: "#FF3636"
+  theme_color: "#B1D9D2"
 
 ---
 ## Click the collections link above to preview collections.
