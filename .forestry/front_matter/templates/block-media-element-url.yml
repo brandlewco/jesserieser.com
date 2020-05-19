@@ -1,6 +1,7 @@
 ---
 label: "\U0001F3D9 Blog Slider Image"
 hide_body: false
+display_field: caption
 fields:
 - type: text
   hidden: true

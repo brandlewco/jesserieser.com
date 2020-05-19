@@ -1,0 +1,17 @@
+
+{{ $fileName := path.Base .Section.image | replaceRE "(.jpeg|.jpg)" ""}}
+
+{{/* $baseURL := .Site.BaseURL */}}
+{{/* $imgPath := .Section.image | replaceRE .Site.BaseURL "/static/" */}}
+{{/* $imgData := imageConfig $imgPath */}}
+
+<!-- <section class="block-media-1 block-hover flex flex-row {{with .Section.row_alignment}}sm:justify-{{.}}{{else}}sm:justify-between{{end}} mx-auto h-auto"> -->
+  <figure class="figure block-hover magnify self-start {{with .Section.align_y}}sm:self-{{.}}{{end}} w-full {{with .Section.width}}sm:w-{{.}}/100{{end}} mt-4 {{with .Section.margin_y}}sm:mt-{{.}}{{end}} ml-0 {{with .Section.margin_left}}sm:ml-{{.}}{{end}} mr-0 {{with .Section.margin_right}}sm:mr-{{.}}{{end}} highlight" style="background: {{with .Section.color}}{{.}}{{else}}{{.Page.Params.theme_color}}{{end}};" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" id="{{ $fileName }}" data-sal="image">
+    <a href="{{ .Section.image }}" itemprop="contentUrl" pid="{{ $fileName }}" data-no-swup>
+      <img class="lazyload" src="{{ .Section.image }}?nf_resize=fit&h=1080" data-src="{{ .Section.image }}?nf_resize=fit&h=1080" alt="{{ .Section.caption }}"/>
+    </a>
+    {{ with .Section.caption }}
+      <figcaption class="hidden" itemprop="caption description">{{ . }}</figcaption>
+    {{ end }}
+  </figure>  
+<!-- </section> -->

@@ -58,11 +58,11 @@ block = "media-motion-id"
 template = "block-media-motion-id"
 vimeo_id = 414925506
 [[bog_slider]]
-block = "media-element-static-image"
+block = "media-element-url"
 image = "https://jesserieser.brandlew.co/uploads/startingover-11.jpg"
 template = "block-media-element-blog-image"
 [[bog_slider]]
-block = "media-element-static-image"
+block = "media-element-url"
 image = "https://jesserieser.brandlew.co/uploads/startingover-5.jpg"
 template = "block-media-element-blog-image"
 
