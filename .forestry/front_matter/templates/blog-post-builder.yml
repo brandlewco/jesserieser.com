@@ -46,24 +46,15 @@ fields:
       file: 
       path: 
   label: Attached Collection
-- name: blog_slider
-  type: field_group_list
-  fields:
-  - name: image
-    type: file
-    config:
-      maxSize: 64
-    label: Image
-  - name: vimeo_id
-    type: text
-    config:
-      required: false
-    label: Vimeo ID
+- name: bog_slider
+  type: blocks
+  label: Bog Slider
+  template_types:
+  - block-media-element
+  - block-media-motion
   config:
     min: 
     max: 
-    labelField: 
-  label: Blog Slider
 - name: blog_header
   type: file
   config:
