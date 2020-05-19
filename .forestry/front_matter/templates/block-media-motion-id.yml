@@ -1,0 +1,20 @@
+---
+label: "⏯ Vimeo ID"
+hide_body: false
+display_field: caption
+fields:
+- type: text
+  hidden: true
+  label: block
+  name: block
+  default: media-motion-id
+- name: vimeo_id
+  type: number
+  label: Vimeo ID
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 

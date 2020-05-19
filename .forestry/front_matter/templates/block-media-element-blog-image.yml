@@ -1,0 +1,13 @@
+---
+label: "\U0001F3D9 Blog Image URL"
+hide_body: false
+display_field: caption
+fields:
+- type: text
+  hidden: true
+  label: block
+  name: block
+  default: media-element-static-image
+- type: file
+  name: image
+  label: Image
