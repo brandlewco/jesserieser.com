@@ -46,9 +46,9 @@ fields:
       file: 
       path: 
   label: Attached Collection
-- name: bog_slider
+- name: blog_slider
   type: blocks
-  label: Bog Slider
+  label: Blog Slider
   template_types:
   - block-media-element-url
   - block-media-motion-id
