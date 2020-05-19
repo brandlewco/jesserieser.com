@@ -1,4 +1,4 @@
-<figure class="filter-item h-auto px-3 sm:pl-4 sm:pr-2 py-2 md:w-grid sm:w-gridmd w-full overflow-hidden {{range .Params.collection_category }}{{. | replaceRE "[\\W]" "" | lower}} {{end}}{{with .Params.collection_filter}}{{. | replaceRE "[\\W]" "" | lower}}{{end}} all active" data-theme="{{.Params.theme_color}}" data-filter="{{range .Params.collection_category}}{{. | replaceRE "[\\W]" "" | lower}},{{end}},{{with .Params.collection_filter}}{{. | replaceRE "[\\W]" "" | lower}}{{end}}">
+<figure class="filter-item h-auto py-4 px-4 md:grid-padding md:w-grid-three sm:w-grid-two w-full overflow-hidden {{range .Params.collection_category }}{{. | replaceRE "[\\W]" "" | lower}} {{end}}{{with .Params.collection_filter}}{{. | replaceRE "[\\W]" "" | lower}}{{end}} all active" data-theme="{{.Params.theme_color}}" data-filter="{{range .Params.collection_category}}{{. | replaceRE "[\\W]" "" | lower}},{{end}},{{with .Params.collection_filter}}{{. | replaceRE "[\\W]" "" | lower}}{{end}}">
     <a href="{{.Permalink}}">
         {{if .Params.collection_preview }}
         <div class="collection-preview relative" style="padding-top:75%; background-color:{{.Params.theme_color}};">
@@ -8,10 +8,10 @@
 
         {{with .Params.collection_preview}}
         {{ range first 4 . }}
-        <img src="{{.}}?nf_resize=fit&w=400&h=300"/>
+        <img src="{{.}}?nf_resize=fit&w=800&h=600"/>
         {{end}}
         {{else}}
-        <img src="{{.Params.collection_cover}}?nf_resize=fit&w=400&h=300" class="absolute top-0 left-0" alt="{{.Title}}"/>
+        <img src="{{.Params.collection_cover}}?nf_resize=fit&w=800&h=600" class="absolute top-0 left-0" alt="{{.Title}}"/>
         {{end}}
 
         </div>
@@ -21,8 +21,8 @@
         {{else}}
         <figcaption class="text-black text-md uppercase"> 
         {{end}}
-        <span class="font-semibold italic block pt-2">{{.Title}}</span>
-        {{with .Params.collection_meta}}<span class="font-medium block text-sm">{{.}}</span>{{end}}
+        <span class="font-semibold italic block pt-2 tracking-wide">{{.Title}}</span>
+        {{with .Params.collection_meta}}<span class="font-medium block text-xs">{{.}}</span>{{end}}
         </figcaption>
     </a>
 </figure>

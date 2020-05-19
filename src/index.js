@@ -55,7 +55,6 @@ swup.on("animationInDone", function() {
 swup.on("contentReplaced", init);
 
 function init() {
-  window.scrollTo(0,1);
   // MIDDAY
   const middayNav = new Midday(document.getElementById("navigation"), {
     headerClass: "hue-header",
@@ -538,7 +537,7 @@ function init() {
   }
 
   const projectHeader = document.getElementById("project-header");
-  const filterContainer = document.getElementById("filter-container");
+  const filterContainer = document.getElementById("filters");
   const headerPointer = document.getElementById("header-pointer");
   const pageTitle = document.getElementById("page-title");
   // const headerImage = document.querySelector("#header-image");
@@ -549,6 +548,26 @@ function init() {
   const height = window.innerHeight;
 
   // Scroll Animations
+
+  // function scrollDetect() {
+  //   var lastScroll = 0;
+  //   window.onscroll = function() {
+  //     const currentScroll = document.documentElement.scrollTop || document.body.scrollTop; // Get Current Scroll Value
+
+  //     if (currentScroll > 0 && lastScroll <= currentScroll) {
+  //       lastScroll = currentScroll;
+
+  //       navigation.style.transform = "translate3d(0, -68px, 0)";
+  //       filterContainer.style.transform = "translate3d(0, -68px, 0)";
+  //     } else {
+  //       lastScroll = currentScroll;
+  //       navigation.style.transform = "translate3d(0, 0, 0)";
+  //       filterContainer.style.transform = "translate3d(0, -0px, 0)";
+  //     }
+  //   };
+  // }
+  // scrollDetect();
+
   let scrollPos = 0;
   window.onscroll = function() {
 
@@ -579,15 +598,6 @@ function init() {
         }
       }
     }
-    if (filterContainer) {
-      if (windowY < scrollPos) {
-        navigation.style.transform = "translate3d(0, 0, 0)";
-        filterContainer.style.transform = "translate3d(0, 68px, 0)";
-      } else {
-        navigation.style.transform = "translate3d(0, -68px, 0)";
-        filterContainer.style.transform = "translate3d(0, 0px, 0)";
-      }
-    }
     if (pageTitle) {
       const pageTitleHeight = pageTitle.offsetHeight;
       const pageTitleBottom = (height - pageTitleHeight) / 2;
@@ -610,6 +620,16 @@ function init() {
         pageTitle.style.transform = "translate3d(0, -50%, 0)";
       }
     }
+    if (filterContainer) {
+      if ((scrollTop < scrollPos) || scrollPos < 0) {
+        navigation.style.transform = "translate3d(0, 0, 0)";
+        filterContainer.style.transform = "translate3d(0, 0px, 0)";
+      } else {
+        navigation.style.transform = "translate3d(0, -86px, 0)";
+        filterContainer.style.transform = "translate3d(0, -86px, 0)";
+      }
+    }
+    // console.log("scrollTop", scrollTop, "scrollPos", scrollPos);
     scrollPos = windowY;
   };
 

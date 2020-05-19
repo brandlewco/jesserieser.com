@@ -239,3 +239,12 @@ imagesLoaded(grid, function() {
     }
   });
 });
+
+var isSafari = !!navigator.userAgent.match(/Version\/[\d\.]+.*Safari/);
+var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+var filters = document.getElementById("filters");
+if (isSafari && iOS) {
+  filters.style.top = "86px";
+} else if(isSafari) {
+  filters.style.top = "86px";
+}
