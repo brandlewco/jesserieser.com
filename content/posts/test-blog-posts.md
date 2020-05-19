@@ -53,6 +53,18 @@ caption = ""
 image = "https://jesserieser.brandlew.co/uploads/startingover-18.jpg"
 template = "block-media-element-static"
 width = "33"
+[[bog_slider]]
+block = "media-motion-id"
+template = "block-media-motion-id"
+vimeo_id = 414925506
+[[bog_slider]]
+block = "media-element-static-image"
+image = "https://jesserieser.brandlew.co/uploads/startingover-11.jpg"
+template = "block-media-element-blog-image"
+[[bog_slider]]
+block = "media-element-static-image"
+image = "https://jesserieser.brandlew.co/uploads/startingover-5.jpg"
+template = "block-media-element-blog-image"
 
 +++
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod ante sit amet porta sodales. Quisque non varius sapien, non malesuada neque. Duis dapibus lobortis augue, non dapibus sapien tempus id. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum in nunc eu tellus bibendum egestas. Donec sed vehicula augue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
