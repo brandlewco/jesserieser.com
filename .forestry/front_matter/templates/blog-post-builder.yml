@@ -50,8 +50,8 @@ fields:
   type: blocks
   label: Bog Slider
   template_types:
-  - block-media-element
-  - block-media-motion
+  - block-media-motion-id
+  - block-media-element-blog-image
   config:
     min: 
     max: 
