@@ -46,6 +46,24 @@ fields:
       file: 
       path: 
   label: Attached Collection
+- name: blog_slider
+  type: field_group_list
+  fields:
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+  - name: vimeo_id
+    type: text
+    config:
+      required: false
+    label: Vimeo ID
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Blog Slider
 - name: blog_header
   type: file
   config:
@@ -74,7 +92,7 @@ fields:
   config:
     min: 
     max: 
-  label: Blog Builder
+  label: Blog Photo Grid
 pages:
 - content/posts/star-geezers-on-boooooom.md
 - content/posts/test-blog-posts.md
