@@ -654,9 +654,10 @@ function init() {
   //   });
   // }, 2000);
 
+  // Animate Navigaiton on Load
   navigation.style.opacity = "1";
 
-
+  // Open External Links In New Window
   (function() {
     var links = document.getElementsByTagName("a");
     for (var i = 0; i < links.length; i++) {
@@ -665,6 +666,28 @@ function init() {
       }
     }
   })();
+
+  // Blog Gallery
+  const paginatedGallery = document.getElementsByClassName("paginated_gallery");
+  Array.prototype.forEach.call(paginatedGallery, function(gallery) {
+    var gallery_scroller = gallery.querySelector(".gallery_scroller");
+    var gallery_item_size = gallery.offsetWidth;
+    console.log(gallery_scroller, gallery_item_size);
+
+    gallery.querySelector(".btn.next").addEventListener("click", scrollToNextPage);
+    gallery.querySelector(".btn.prev").addEventListener("click", scrollToPrevPage);
+
+    // For paginated scrolling, simply scroll the gallery one item in the given
+    // direction and let css scroll snaping handle the specific alignment.
+    function scrollToNextPage() {
+      console.log("scroll Next");
+      gallery_scroller.scrollBy(gallery_item_size, 0);
+    }
+    function scrollToPrevPage() {
+      console.log("scroll prev");
+      gallery_scroller.scrollBy(-gallery_item_size, 0);
+    }
+  });
 }
 
 // intit code on each page load

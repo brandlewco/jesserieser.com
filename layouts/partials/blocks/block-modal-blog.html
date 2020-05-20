@@ -20,13 +20,20 @@
       </div>
     </div>
     <div class="w-full lazyload flex flex-col items-center relative" style="height: 80vh;">
-      <img data-srcset="{{$key.Params.blog_header}}?nf_resize=fit&w=1024 1024w, {{$key.Params.blog_header}}?nf_resize=fit&w=1920 1920w, {{$key.Params.blog_header}}?nf_resize=fit&w=2560 2560w, {{$key.Params.blog_header}}"
+      <!-- <img data-srcset="{{$key.Params.blog_header}}?nf_resize=fit&w=1024 1024w, {{$key.Params.blog_header}}?nf_resize=fit&w=1920 1920w, {{$key.Params.blog_header}}?nf_resize=fit&w=2560 2560w, {{$key.Params.blog_header}}"
         data-sizes="auto"
         class="lazyload z-10 bg-center max-w-full h-full object-cover"
-        data-parent-fit="cover"/>
-      <!-- <div id="header-loading" class="text-center font-semibold fixed inset-x-0 bottom-0 z-50 text-4xl">
-          <i class="fad fa-spinner-third fa-spin text-{{$key.Params.navigation_theme}}"></i>
-      </div> -->
+        data-parent-fit="cover"/> -->
+
+        <div class="paginated_gallery gallery">
+          <div class="gallery_scroller">
+            {{- range $key.Params.blog_slider -}}
+            {{ partial (printf "blocks/block-%s.html" .block) (dict "Section" . "Page" $ "Site" $.Site) }}
+            {{- end -}}
+          </div>
+          <span class="btn prev"></span>
+          <span class="btn next"></span>
+        </div>
     </div>
     <section class="py-6 mx-auto">
       <header class="flex flex-col items-start">

@@ -50,7 +50,6 @@
 
 {{- define "attached" -}}
 <script src="https://player.vimeo.com/api/player.js"></script>
-
 {{ $filter := .Site.Data.webpack.filter }}
 {{ with $filter.js }}
 <script src="{{ . | relURL }}" async></script>
