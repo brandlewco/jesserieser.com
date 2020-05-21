@@ -10,6 +10,7 @@
       <!-- <div class="body-popup h-full w-full fixed inset-0 z-40" style="background: rgba(235,235,235,0.85);"></div> -->
       {{ block "attached" .}}
       {{ end }}
+      <script src="https://player.vimeo.com/api/player.js"></script>
       {{ template "_internal/google_analytics_async.html" . }}
     </main>
     {{ partial "modal_about.html" .}}

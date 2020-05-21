@@ -125,11 +125,12 @@ a.shift:hover {
 
 
 .gallery_scroller .slide {
-  scroll-snap-align: center;
-  position: relative;
-  min-width: 100%;
-  min-height: 100%;
-  width: 100%;
+  scroll-snap-align: start;
+  min-width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .gallery .btn {

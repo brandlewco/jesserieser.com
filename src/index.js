@@ -14,6 +14,7 @@ import Midday from "midday.js";
 import smoothscroll from "smoothscroll-polyfill";
 import sal from "sal.js";
 import Rellax from "rellax";
+import Flickity from "flickity";
 
 lazySizes.cfg.expand = "1000";
 
@@ -408,9 +409,27 @@ function init() {
       popupModal.style.visibility = "visible";
       popupModal.classList.add("is--visible");
       // bodyPopup.classList.add("is-poped-out");
-      popupModal.addEventListener("scroll", function() {
-        rellax.refresh();
-      });
+      // popupModal.addEventListener("scroll", function() {
+      //   rellax.refresh();
+      // });
+
+      // Blog Gallery
+      var paginatedGallery = popupModal.querySelector(".paginated_gallery");
+      var gallery_scroller = paginatedGallery.querySelector(".gallery_scroller");
+      var gallery_item_size = paginatedGallery.querySelector(".slide");
+      console.log(paginatedGallery);
+      paginatedGallery.querySelector(".btn.next").addEventListener("click", scrollToNextPage);
+      paginatedGallery.querySelector(".btn.prev").addEventListener("click", scrollToPrevPage);
+      // For paginated scrolling, simply scroll the gallery one item in the given
+      // direction and let css scroll snaping handle the specific alignment.
+      function scrollToNextPage() {
+        console.log("scroll Next");
+        gallery_scroller.scrollBy(100, 0);
+      }
+      function scrollToPrevPage() {
+        console.log("scroll prev");
+        gallery_scroller.scrollBy(-100, 0);
+      }
     });
 
     // modal close methods
@@ -666,28 +685,6 @@ function init() {
       }
     }
   })();
-
-  // Blog Gallery
-  const paginatedGallery = document.getElementsByClassName("paginated_gallery");
-  Array.prototype.forEach.call(paginatedGallery, function(gallery) {
-    var gallery_scroller = gallery.querySelector(".gallery_scroller");
-    var gallery_item_size = gallery.offsetWidth;
-    console.log(gallery_scroller, gallery_item_size);
-
-    gallery.querySelector(".btn.next").addEventListener("click", scrollToNextPage);
-    gallery.querySelector(".btn.prev").addEventListener("click", scrollToPrevPage);
-
-    // For paginated scrolling, simply scroll the gallery one item in the given
-    // direction and let css scroll snaping handle the specific alignment.
-    function scrollToNextPage() {
-      console.log("scroll Next");
-      gallery_scroller.scrollBy(gallery_item_size, 0);
-    }
-    function scrollToPrevPage() {
-      console.log("scroll prev");
-      gallery_scroller.scrollBy(-gallery_item_size, 0);
-    }
-  });
 }
 
 // intit code on each page load
