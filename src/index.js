@@ -422,12 +422,18 @@ function init() {
 
       console.log(gallery_scroller, gallery_item_size);
       gallery_prev.addEventListener("click", () => {
-        console.log("scroll Prev");
-        gallery_scroller.scrollBy(-gallery_item_size, 0);
+        gallery_scroller.scrollBy({
+          top: 0,
+          left: -gallery_item_size,
+          behavior: "smooth"
+        });
       });
       gallery_next.addEventListener("click", () => {
-        console.log("scroll Next");
-        gallery_scroller.scrollBy(gallery_item_size, 0);
+        gallery_scroller.scrollBy({
+          top: 0,
+          left: gallery_item_size,
+          behavior: "auto"
+        });
       });
 
 

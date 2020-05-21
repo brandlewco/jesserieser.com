@@ -1,13 +1,13 @@
 .gallery {
   position: relative;
+  max-width: 100%;
 }
 
 .gallery_scroller {
   /* snap mandatory on horizontal axis  */
   scroll-snap-type: x mandatory;
-  scroll-snap-points-x: repeat(100vw);
 
-  overflow-x: scroll;
+  overflow-x: hidden;
   overflow-y: hidden;
 
   display: flex;
@@ -52,7 +52,7 @@
 
 .gallery .btn.next {
   background-image: url('data:image/svg+xml;charset=utf-8,<svg width="18" height="18" viewBox="0 0 34 34" xmlns="http://www.w3.org/2000/svg"><title>Shape</title><path d="M25.557 14.7L13.818 2.961 16.8 0l16.8 16.8-16.8 16.8-2.961-2.961L25.557 18.9H0v-4.2z" fill="%23FFF" fill-rule="evenodd"/></svg>');
-  right: 50px;
+  right: -50px;
 }
 
 .gallery .btn.prev {
