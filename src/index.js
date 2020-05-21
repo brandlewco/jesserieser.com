@@ -416,20 +416,25 @@ function init() {
       // Blog Gallery
       var paginatedGallery = popupModal.querySelector(".paginated_gallery");
       var gallery_scroller = paginatedGallery.querySelector(".gallery_scroller");
-      var gallery_item_size = paginatedGallery.querySelector(".slide");
-      console.log(paginatedGallery);
-      paginatedGallery.querySelector(".btn.next").addEventListener("click", scrollToNextPage);
-      paginatedGallery.querySelector(".btn.prev").addEventListener("click", scrollToPrevPage);
+      var gallery_item_size = paginatedGallery.querySelector(".carousel-cell").clientWidth;
+      var gallery_prev = paginatedGallery.querySelector(".prev");
+      var gallery_next = paginatedGallery.querySelector(".next");
+
+      console.log(gallery_scroller, gallery_item_size);
+      gallery_prev.addEventListener("click", () => {
+        console.log("scroll Prev");
+        gallery_scroller.scrollBy(-gallery_item_size, 0);
+      });
+      gallery_next.addEventListener("click", () => {
+        console.log("scroll Next");
+        gallery_scroller.scrollBy(gallery_item_size, 0);
+      });
+
+
+      // paginatedGallery.querySelector(".next").addEventListener("click", scrollToNextPage);
+      // paginatedGallery.querySelector(".btn.prev").addEventListener("click", scrollToPrevPage);
       // For paginated scrolling, simply scroll the gallery one item in the given
       // direction and let css scroll snaping handle the specific alignment.
-      function scrollToNextPage() {
-        console.log("scroll Next");
-        gallery_scroller.scrollBy(100, 0);
-      }
-      function scrollToPrevPage() {
-        console.log("scroll prev");
-        gallery_scroller.scrollBy(-100, 0);
-      }
     });
 
     // modal close methods
