@@ -83,16 +83,15 @@ html.is-animating .transition-nav {
   transition: 0.33s transform ease-in-out, 0.33s opacity ease-in-out 0.33s;
   /* height: 68px !important; */
   /* z-index: 999; */
+  .navigation-container {
+    background-color: transparent;
+    transition: background-color 0.33s ease-in-out;
+  }
 }
 
 #navigation.active {
-  @apply bg-white;
   height: 100vh !important;
   transform: translate3d(0px, 0px, 0px) !important;
-
-  .hue-header.white .shift {
-    color: #000 !important;
-  }
 
   /* .hue-header.white button{
     color: #000 !important;
@@ -101,6 +100,9 @@ html.is-animating .transition-nav {
   .menu {
     transform: translateY(0%);
     display: flex !important;
+  }
+  .navigation-container {
+    @apply bg-white;
   }
 }
 

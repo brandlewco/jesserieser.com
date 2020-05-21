@@ -3,7 +3,7 @@
 {{ end }} -->
 {{ $key := .Site.GetPage .Section.attached_blog }}
 <section class="figure block-hover self-start {{with .Section.align_y}}sm:self-{{.}}{{end}} w-full {{with .Section.width}}sm:w-{{.}}/100{{end}} mt-4 {{with .Section.margin_y}}sm:mt-{{.}}{{end}} ml-0 {{with .Section.margin_left}}sm:ml-{{.}}{{end}} mr-0 {{with .Section.margin_right}}sm:mr-{{.}}{{end}} highlight rellax rellax-off" data-rellax-speed="2" data-rellax-percentage="0">
-  <button type="button" class="popup-trigger w-full sm:w-auto flex flex-col h-48 sm:h-auto justify-end sm:justify-between p-4 sm:p-8 items-start sm:items-center" style="background-color: {{$key.Params.theme_color}}" data-popup-trigger="{{$key.Params.title | lower | urlize}}">
+  <button type="button" class="popup-trigger w-full sm:w-auto flex flex-col sm:h-auto justify-end sm:justify-between p-4 sm:p-8 items-start sm:items-center" style="background-color: {{$key.Params.theme_color}}" data-popup-trigger="{{$key.Params.title | lower | urlize}}">
         <h1 class="text-2xl font-bold uppercase text-left sm:text-center tracking-widest">{{$key.Params.title}}</h1>
         <h2 class="text-lg font-semibold uppercase text-left sm:text-center tracking-widest">{{$key.Params.caption}}</h2>
   </button>
