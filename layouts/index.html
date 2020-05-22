@@ -14,7 +14,7 @@
 </section>
 <script>
   (function(){
-      var images = [
+    var images = [
       {{- range .Params.selected_works_theme -}}
       ["{{.image }}?nf_resize=fit&w=1024 1024w, {{.image }}?nf_resize=fit&w=1920 1920w, {{.image }}?nf_resize=fit&w=2560 2560w, {{.image }}","{{.theme_color}}"],
       {{- end -}}
@@ -33,6 +33,9 @@
     projectDescription.style.backgroundColor = imgURL[1];
     document.querySelectorAll(".shift").forEach(function(button) {
       button.style.color = imgURL[1];
+    });
+    document.querySelectorAll(".bun").forEach(function(bunLine) {
+      bunLine.style.backgroundColor = imgURL[1];
     });
     featureImage.setAttribute("data-srcset", imgURL[0]);
     featureImage.classList.add("lazyload");

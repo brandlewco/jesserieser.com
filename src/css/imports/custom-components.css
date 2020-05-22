@@ -82,11 +82,19 @@ html.is-changing #content {
 }
 
 .hue-header.default .shift, .hue-header.black .shift{
-  @apply text-black  !important;;
+  @apply text-black !important;;
+}
+
+.hue-header.default .shift.bun, .hue-header.black .shift.bun{
+  @apply bg-black !important;;
 }
 
 .hue-header.white .shift{
   @apply text-white !important;
+}
+
+.hue-header.white .shift.bun {
+  @apply bg-white !important;
 }
 
 a.shift:hover {
@@ -102,3 +110,53 @@ a.shift:hover {
   }
 }
 
+
+button.target-burger {
+  position: relative;
+  display: block;
+  transition: all 0.3s ease;
+}
+button.target-burger:hover {
+  cursor: pointer;
+  /* opacity: 0.8; */
+}
+.navToggle.toggle-active button.target-burger ul.buns li.bun {
+  -webkit-transform: rotate(45deg) translateZ(0);
+  transform: rotate(45deg) translateZ(0);
+  background-color: #000 !important;
+}
+.navToggle.toggle-active button.target-burger ul.buns li.bun:last-child {
+  -webkit-transform: rotate(-45deg) translateZ(0);
+  transform: rotate(-45deg) translateZ(0);
+}
+button.target-burger ul.buns {
+  width: 1.5rem;
+  height: 1.5rem;
+  list-style: none;
+  /* margin: -0.8125em 0 0 -0.8125em; */
+  padding: 0;
+  position: relative;
+  /* top: 50%;
+  left: 50%; */
+  -webkit-transition: -webkit-transform 1s cubic-bezier(0.23, 1, 0.32, 1), color 1s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: transform 1s cubic-bezier(0.23, 1, 0.32, 1), color 1s cubic-bezier(0.23, 1, 0.32, 1);
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  color: #fff;
+}
+button.target-burger ul.buns li.bun {
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  margin-top: -0.75px;
+  -webkit-transform: translateY(-3.75px) translateZ(0);
+  transform: translateY(-3.75px) translateZ(0);
+  -webkit-transition: -webkit-transform 1s cubic-bezier(0.23, 1, 0.32, 1), background-color 1s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: transform 1s cubic-bezier(0.23, 1, 0.32, 1), background-color 1s cubic-bezier(0.23, 1, 0.32, 1);
+}
+button.target-burger ul.buns li.bun:last-child {
+  -webkit-transform: translateY(3.75px) translateZ(0);
+  transform: translateY(3.75px) translateZ(0);
+}

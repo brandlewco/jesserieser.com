@@ -6,12 +6,18 @@
 
 /* collection style preloaders */
 {{ range (where .Site.RegularPages "Section" "collections") }}
+    body.page-{{lower .Title | urlize}} .hue-header.page .bun {
+        background-color: {{.Params.theme_color}} !important;
+    }
+
     body.page-{{lower .Title | urlize}} .hue-header.page .shift{
         color: {{.Params.theme_color}} !important;
-    };
+    }
+
     body.page-{{lower .Title | urlize}} .pswp__ui--fit .pswp__top-bar, .pswp__ui--fit .pswp__caption  {
         background: {{.Params.theme_color}} !important;
     }
+    
     <!-- html.to-collection-{{lower .Title | urlize}} body {
         background-color: {{.Params.theme_color}};
     } -->
