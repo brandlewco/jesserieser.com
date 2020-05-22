@@ -393,8 +393,6 @@ function init() {
 
   // Modal
   const modalTriggers = document.querySelectorAll(".popup-trigger");
-  // const bodyPopup = document.querySelector(".body-popup");
-
   modalTriggers.forEach((trigger) => {
     // const navigation = document.getElementById("navigation");
     const {popupTrigger} = trigger.dataset;
@@ -416,23 +414,26 @@ function init() {
       // Blog Gallery
       var paginatedGallery = popupModal.querySelector(".paginated_gallery");
       var gallery_scroller = paginatedGallery.querySelector(".gallery_scroller");
-      var gallery_item_size = paginatedGallery.querySelector(".carousel-cell").clientWidth;
+      var gallery_scroller_size = gallery_scroller.clientWidth;
+      // var gallery_carousel_cell = gallery_scroller.querySelectorAll(".carousel-cell");
       var gallery_prev = paginatedGallery.querySelector(".prev");
       var gallery_next = paginatedGallery.querySelector(".next");
-
-      console.log(gallery_scroller, gallery_item_size);
+      // for (var i = 0; i < gallery_carousel_cell.length; i++) {
+      //   gallery_carousel_cell[i].style.minWidth = gallery_scroller_size;
+      // }
+      console.log(gallery_scroller, gallery_scroller_size);
       gallery_prev.addEventListener("click", () => {
         gallery_scroller.scrollBy({
           top: 0,
-          left: -gallery_item_size,
+          left: -gallery_scroller_size,
           behavior: "smooth"
         });
       });
       gallery_next.addEventListener("click", () => {
         gallery_scroller.scrollBy({
           top: 0,
-          left: gallery_item_size,
-          behavior: "auto"
+          left: gallery_scroller_size,
+          behavior: "smooth"
         });
       });
 
