@@ -5,7 +5,7 @@
 
 .gallery_scroller {
   /* snap mandatory on horizontal axis  */
-  scroll-snap-type: x mandatory;
+  /* scroll-snap-type: x mandatory; */
 
   overflow-x: hidden;
   overflow-y: hidden;

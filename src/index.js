@@ -375,6 +375,13 @@ function init() {
     initPhotoSwipeFromDOM(".my-gallery");
   }
 
+  var lazydelay = document.getElementsByClassName("lazyload-delay");
+  function lazyloadToggle() {
+    for (var i = 0; i < lazydelay.length; i++) {
+      lazydelay[i].classList.add("lazyload");
+    }
+  }
+
   // smooth scroll anchor links
   document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     anchor.addEventListener("click", function(e) {
@@ -384,6 +391,19 @@ function init() {
       });
     });
   });
+
+  // Navigation Toggle
+  const navigation = document.getElementById("navigation");
+  function navigationToggle() {
+    var navToggle = document.getElementsByClassName("navToggle");
+    Array.prototype.forEach.call(navToggle, function(nav) {
+      nav.addEventListener("click", function(event) {
+        nav.classList.toggle("toggle-active");
+        navigation.classList.toggle("active");
+      });
+    });
+  }
+  navigationToggle();
 
   function removeActive() {
     const navigation = document.getElementById("navigation");
@@ -410,38 +430,35 @@ function init() {
       // popupModal.addEventListener("scroll", function() {
       //   rellax.refresh();
       // });
+      lazyloadToggle();
 
       // Blog Gallery
       var paginatedGallery = popupModal.querySelector(".paginated_gallery");
-      var gallery_scroller = paginatedGallery.querySelector(".gallery_scroller");
-      var gallery_scroller_size = gallery_scroller.clientWidth;
-      // var gallery_carousel_cell = gallery_scroller.querySelectorAll(".carousel-cell");
-      var gallery_prev = paginatedGallery.querySelector(".prev");
-      var gallery_next = paginatedGallery.querySelector(".next");
-      // for (var i = 0; i < gallery_carousel_cell.length; i++) {
-      //   gallery_carousel_cell[i].style.minWidth = gallery_scroller_size;
-      // }
-      console.log(gallery_scroller, gallery_scroller_size);
-      gallery_prev.addEventListener("click", () => {
-        gallery_scroller.scrollBy({
-          top: 0,
-          left: -gallery_scroller_size,
-          behavior: "smooth"
+      if (paginatedGallery) {
+        var gallery_scroller = paginatedGallery.querySelector(".gallery_scroller");
+        var gallery_scroller_size = gallery_scroller.clientWidth;
+        var gallery_prev = paginatedGallery.querySelector(".prev");
+        var gallery_next = paginatedGallery.querySelector(".next");
+        // console.log(gallery_scroller, gallery_scroller_size);
+        gallery_prev.addEventListener("click", () => {
+          gallery_scroller.scrollBy({
+            top: 0,
+            left: -gallery_scroller_size,
+            behavior: "smooth"
+          });
         });
-      });
-      gallery_next.addEventListener("click", () => {
-        gallery_scroller.scrollBy({
-          top: 0,
-          left: gallery_scroller_size,
-          behavior: "smooth"
+        gallery_next.addEventListener("click", () => {
+          gallery_scroller.scrollBy({
+            top: 0,
+            left: gallery_scroller_size,
+            behavior: "smooth"
+          });
         });
+      }
+      var navToggle = document.getElementsByClassName("navToggle");
+      Array.prototype.forEach.call(navToggle, function(nav) {
+        nav.classList.toggle("toggle-active");
       });
-
-
-      // paginatedGallery.querySelector(".next").addEventListener("click", scrollToNextPage);
-      // paginatedGallery.querySelector(".btn.prev").addEventListener("click", scrollToPrevPage);
-      // For paginated scrolling, simply scroll the gallery one item in the given
-      // direction and let css scroll snaping handle the specific alignment.
     });
 
     // modal close methods
@@ -449,11 +466,9 @@ function init() {
       scrollUnlock();
       navigation.style.opacity = 1;
       navigation.style.display = "block";
-      // document.body.style.overflowY = "auto";
       popupModal.style.opacity = 0;
       popupModal.style.visibility = "hidden";
       popupModal.classList.remove("is--visible");
-      // bodyPopup.classList.remove("is-poped-out");
     });
 
     document.addEventListener("keyup", function(event) {
@@ -465,24 +480,11 @@ function init() {
         scrollUnlock();
         navigation.style.opacity = 1;
         navigation.style.display = "block";
-        // document.body.style.overflowY = "auto";
         popupModal.style.opacity = 0;
         popupModal.style.visibility = "hidden";
         popupModal.classList.remove("is--visible");
-        // bodyPopup.classList.remove("is-poped-out");
       }
     });
-
-    // bodyPopup.addEventListener("click", () => {
-    //   scrollUnlock();
-    //   navigation.style.opacity = 1;
-    //   navigation.style.display = "block";
-    //   // document.body.style.overflowY = "auto";
-    //   popupModal.style.opacity = 0;
-    //   popupModal.style.visibility = "hidden";
-    //   popupModal.classList.remove("is--visible");
-    //   bodyPopup.classList.remove("is-poped-out");
-    // });
   });
 
   // Inner Modal
@@ -510,25 +512,6 @@ function init() {
     });
   });
 
-  // Navigation Toggle
-  const navigation = document.getElementById("navigation");
-  var navToggle = document.getElementsByClassName("navToggle");
-  Array.prototype.forEach.call(navToggle, function(nav) {
-    nav.addEventListener("click", function(event) {
-      nav.classList.toggle("toggle-active");
-      navigation.classList.toggle("active");
-      // // create locking event
-      // scrollLock();
-      // // create unlocking event
-      // const navToggleActive = document.getElementsByClassName("toggle-active");
-      // Array.prototype.forEach.call(navToggleActive, function(toggledActive) {
-      //   toggledActive.addEventListener("click", function(event) {
-      //     scrollUnlock();
-      //   });
-      // });
-    });
-  });
-
 
   // Block Hover Dimming
   const figureAll = document.querySelectorAll(".figure");
@@ -547,21 +530,12 @@ function init() {
 
   // Scroll Lock / Unlock
   const scrollLock = () => {
-    // document.getElementById("dialog").classList.add("show");
     const body = document.body;
     body.style.overflowY = "hidden";
-    // body.style.position = "fixed";
-    // console.log(scrollY);
-    // body.style.top = window.scrollY;
   };
   const scrollUnlock = () => {
     const body = document.body;
     body.style.overflowY = "scroll";
-    // body.style.position = "";
-    // const body = document.body;
-    // body.style.top = window.scrollY;
-    // window.scrollTo(0, parseInt(scrollY || "0") * -1);
-    // document.getElementById("dialog").classList.remove("show");
   };
   function value_limit(val, min, max) {
     return val < min ? min : (val > max ? max : val);
@@ -571,34 +545,11 @@ function init() {
   const filterContainer = document.getElementById("filters");
   const headerPointer = document.getElementById("header-pointer");
   const pageTitle = document.getElementById("page-title");
-  // const headerImage = document.querySelector("#header-image");
-  // const featureImage = document.querySelector("#feature-image");
-  // const content = document.getElementById("content");
   const headerOverlay = document.getElementById("header-overlay");
   const featureOverlay = document.getElementById("feature-overlay");
   const height = window.innerHeight;
 
   // Scroll Animations
-
-  // function scrollDetect() {
-  //   var lastScroll = 0;
-  //   window.onscroll = function() {
-  //     const currentScroll = document.documentElement.scrollTop || document.body.scrollTop; // Get Current Scroll Value
-
-  //     if (currentScroll > 0 && lastScroll <= currentScroll) {
-  //       lastScroll = currentScroll;
-
-  //       navigation.style.transform = "translate3d(0, -68px, 0)";
-  //       filterContainer.style.transform = "translate3d(0, -68px, 0)";
-  //     } else {
-  //       lastScroll = currentScroll;
-  //       navigation.style.transform = "translate3d(0, 0, 0)";
-  //       filterContainer.style.transform = "translate3d(0, -0px, 0)";
-  //     }
-  //   };
-  // }
-  // scrollDetect();
-
   let scrollPos = 0;
   window.onscroll = function() {
 
