@@ -228,7 +228,7 @@ page_sections:
   attached_collection: collections/autobiography.md
   text_color: ''
   text_size: ''
-  text_alignment: ''
+  text_alignment: center
   text_tracking: ''
   font_weight: ''
 - template: block-media-row
