@@ -18,12 +18,12 @@ page_sections:
   meta: 2018 - 2020
   image: https://jesserieser.brandlew.co/uploads/rieser_phx-HI-2.jpg
   color: "#A0E1DD"
-  text_size: 4xl
+  text_size: 6xl
   font_weight: bold
-  text_tracking: loose
-  text_alignment: justify
+  text_tracking: tighter
+  text_alignment: left
   title: 'Phoenix: A Dystopian Legoland That Tastes Like Candy'
-  text_color: ''
+  text_color: "#FF0000"
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/wired-the-internet-giant-that-went-too-far.md
