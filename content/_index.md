@@ -52,11 +52,11 @@ page_sections:
   attached_collection: collections/retail.md
   meta: 2015 - 2018
   title: The Changing Landscape of American Retail
-  text_color: ''
-  text_size: ''
+  text_color: "#FF0000"
+  text_size: 6xl
   text_alignment: ''
-  text_tracking: ''
-  font_weight: ''
+  text_tracking: normal
+  font_weight: hairline
 - template: block-media-row
   block: media-row
   row_alignment: ''
