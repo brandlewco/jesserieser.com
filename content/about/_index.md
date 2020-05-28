@@ -50,9 +50,9 @@ page_sections:
   width: '33'
   align_x: start
   margin_y: '200'
-  margin_left: 50%
+  margin_left: 10%
   margin_right: ''
-  title_margin_left: "-40%"
+  title_margin_left: 60%
   image: https://jesserieser.brandlew.co/uploads/bio-5.jpg
   title: Awards
   color: "#9DC2BE"
