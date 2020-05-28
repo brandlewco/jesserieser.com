@@ -121,7 +121,7 @@ page_sections:
   color: "#E1EBF2"
   title: 'Skeleton Party '
   meta: Collection of Small Crews
-  attached_collection: ''
+  attached_collection: collections/jerry-halls-sad-instgram.md
   text_color: ''
   text_size: ''
   text_alignment: ''
