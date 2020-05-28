@@ -137,7 +137,7 @@ page_sections:
   margin_y: '100'
   margin_left: 15%
   margin_right: 0%
-  title_margin_left: 65%
+  title_margin_left: 0%
   title_margin_right: 0%
   meta_align: left
   image: https://jesserieser.brandlew.co/uploads/bitmain-19.jpg
