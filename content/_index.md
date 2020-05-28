@@ -55,7 +55,7 @@ page_sections:
   text_color: "#FF0000"
   text_size: 6xl
   text_alignment: ''
-  text_tracking: normal
+  text_tracking: widest
   font_weight: hairline
 - template: block-media-row
   block: media-row
