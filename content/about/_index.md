@@ -756,13 +756,36 @@ page_sections:
   color: "#F7BD1E"
   modal_block:
   - template: popup-text-element
-    icon: https://jesserieser.brandlew.co/uploads/1280px-Wired_logo.svg.png
-    content: "**Test** "
+    icon: https://jesserieser.brandlew.co/uploads/logos-1.jpg
+    content: "**AARP**"
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-    icon: ''
+    content: "**Adidas**"
+    icon: https://jesserieser.brandlew.co/uploads/logos-2.jpg
+    url: ''
+  - template: popup-text-element
+    content: "**Amtrak**"
+    icon: https://jesserieser.brandlew.co/uploads/logos-3.jpg
+    url: ''
+  - template: popup-text-element
+    content: Anomaly
+    icon: https://jesserieser.brandlew.co/uploads/logos-4.jpg
+    url: ''
+  - template: popup-text-element
+    content: "**AZ Lottery**"
+    icon: https://jesserieser.brandlew.co/uploads/logos-5.jpg
+    url: ''
+  - template: popup-text-element
+    content: "**Banner Health**"
+    icon: https://jesserieser.brandlew.co/uploads/logos-7.jpg
+    url: ''
+  - template: popup-text-element
+    content: "**BBDO**"
+    icon: https://jesserieser.brandlew.co/uploads/logos-8.jpg
+    url: ''
+  - template: popup-text-element
+    content: "**Best Buy**"
+    icon: https://jesserieser.brandlew.co/uploads/logos-9.jpg
     url: ''
   image: https://jesserieser.brandlew.co/uploads/autobiography-38.jpg
 header_col_1: "### Advertising & Editorial\n\n### Commissions\n\nEcho Hopkins  \n[echo@andersonhopkins.com](mailto:echo@andersonhopkins.com)\n\nHannah
