@@ -14,12 +14,12 @@ navigation_theme: white
 page_sections:
 - template: block-media-text
   block: media-text
-  text_size: ''
-  text_tracking: ''
-  width: '33'
+  text_size: 2xl
+  text_tracking: wide
+  width: '45'
   align_y: start
   margin_y: '100'
-  margin_left: 40%
+  margin_left: 50%
   margin_right: 0%
   text: "**MY NAME IS JESSE RIESER  \nAND I AM A STUDENT OF SUBTLETIES.**\n\nSince
     I was 17 I have been looking through a lens, making images filed with telling
@@ -41,7 +41,7 @@ page_sections:
   font_weight: ''
   image_css: 'opacity: 0.6;'
   caption_css: ''
-  text_alignment: ''
+  text_alignment: right
 - template: block-media-row
   block: media-row
   row_alignment: between
