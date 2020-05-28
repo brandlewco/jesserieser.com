@@ -14,7 +14,6 @@ import Midday from "midday.js";
 import smoothscroll from "smoothscroll-polyfill";
 import sal from "sal.js";
 import Rellax from "rellax";
-import Flickity from "flickity";
 
 lazySizes.cfg.expand = "1000";
 
@@ -322,7 +321,7 @@ function init() {
           removeActiveSlide();
         });
         gallery.listen("afterChange", function() {
-          console.log("h", gallery.currItem.h, "w", gallery.currItem.w);
+          // console.log("h", gallery.currItem.h, "w", gallery.currItem.w);
           var currentItem = gallery.currItem.container;
           var currentItemParent = gallery.currItem.container.parentNode;
           currentItem.classList.add("active-slide");
