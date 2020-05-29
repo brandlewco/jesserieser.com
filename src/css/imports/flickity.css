@@ -1,5 +1,6 @@
 .gallery {
   position: relative;
+  width: 100%;
   max-width: 100%;
 }
 
@@ -37,8 +38,8 @@
   top: 50%;
   transform: translateY(-50%);
 
-  height: 20px;
-  width: 10px;
+  /* height: 32px;
+  width: 10px; */
   background-position: 0% 50%;
   background-repeat: no-repeat;
 
@@ -46,13 +47,13 @@
 }
 
 .gallery .btn.next {
-  background-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_2' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='20px' height='20px' viewBox='0 0 512 512' style='enable-background:new 0 0 512 512;' xml:space='preserve'%3E %3Cpath d='M17.5 36.5l-7.1 7.1c-4.7 4.7-4.7 12.3 0 17L205.9 256 10.5 451.5c-4.7 4.7-4.7 12.3 0 17l7.1 7.1c4.7 4.7 12.3 4.7 17 0l211.1-211.1c4.7-4.7 4.7-12.3 0-17L34.5 36.5c-4.7-4.7-12.3-4.7-17 0z'/%3E %3C/svg%3E");
-  right: -20px;
+  background-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_2' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='32px' height='32px' viewBox='0 0 512 512' style='enable-background:new 0 0 512 512;' xml:space='preserve'%3E %3Cpath d='M17.5 36.5l-7.1 7.1c-4.7 4.7-4.7 12.3 0 17L205.9 256 10.5 451.5c-4.7 4.7-4.7 12.3 0 17l7.1 7.1c4.7 4.7 12.3 4.7 17 0l211.1-211.1c4.7-4.7 4.7-12.3 0-17L34.5 36.5c-4.7-4.7-12.3-4.7-17 0z'/%3E %3C/svg%3E");
+  right: -32px;
   background-position: 0% 50%;
 }
 
 .gallery .btn.prev {
-  background-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='20px' height='20px' viewBox='0 0 512 512' style='enable-background:new 0 0 512 512;' xml:space='preserve'%3E %3Cpath d='M238.475 475.535l7.071-7.07c4.686-4.686 4.686-12.284 0-16.971L50.053 256 245.546 60.506c4.686-4.686 4.686-12.284 0-16.971l-7.071-7.07c-4.686-4.686-12.284-4.686-16.97 0L10.454 247.515c-4.686 4.686-4.686 12.284 0 16.971l211.051 211.05c4.686 4.686 12.284 4.686 16.97-.001z'/%3E %3C/svg%3E");
-  left: -20px;
+  background-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='32px' height='32px' viewBox='0 0 512 512' style='enable-background:new 0 0 512 512;' xml:space='preserve'%3E %3Cpath d='M238.475 475.535l7.071-7.07c4.686-4.686 4.686-12.284 0-16.971L50.053 256 245.546 60.506c4.686-4.686 4.686-12.284 0-16.971l-7.071-7.07c-4.686-4.686-12.284-4.686-16.97 0L10.454 247.515c-4.686 4.686-4.686 12.284 0 16.971l211.051 211.05c4.686 4.686 12.284 4.686 16.97-.001z'/%3E %3C/svg%3E");
+  left: -32px;
   background-position: 0% 50%;
 }

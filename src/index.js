@@ -456,7 +456,7 @@ function init() {
       }
       var navToggle = document.getElementsByClassName("navToggle");
       Array.prototype.forEach.call(navToggle, function(nav) {
-        nav.classList.toggle("toggle-active");
+        nav.classList.remove("toggle-active");
       });
     });
 
@@ -495,11 +495,13 @@ function init() {
       innerPopupModal.classList.add("is--visible");
       innerPopupModal.style.visibility = "visible";
       innerPopupModal.style.opacity = 1;
+      scrollLock();
     });
     innerPopupModal.querySelector(".popup-modal__close").addEventListener("click", () => {
       innerPopupModal.classList.remove("is--visible");
       innerPopupModal.style.visibility = "hidden";
       innerPopupModal.style.opacity = 0;
+      scrollUnlock();
     });
   });
 
@@ -527,13 +529,12 @@ function init() {
     });
   });
 
+  const body = document.body;
   // Scroll Lock / Unlock
   const scrollLock = () => {
-    const body = document.body;
     body.style.overflowY = "hidden";
   };
   const scrollUnlock = () => {
-    const body = document.body;
     body.style.overflowY = "scroll";
   };
   function value_limit(val, min, max) {
@@ -552,7 +553,7 @@ function init() {
   let scrollPos = 0;
   window.onscroll = function() {
 
-    // document.documentElement.style.setProperty("--scroll-y", `${window.scrollY}px`);
+    document.documentElement.style.setProperty("--scroll-y", `${window.scrollY}px`);
     var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
     const windowY = window.scrollY;
 

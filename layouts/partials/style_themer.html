@@ -3,6 +3,19 @@
             color: {{.Params.feature_color}} !important;
         };
 {{end}} -->
+/* about */
+{{ with .Site.GetPage "about" }}
+body.page-{{lower .Title | urlize}} .hue-header.page .bun {
+        background-color: {{.Params.theme_color}} !important;
+    }
+
+    body.page-{{lower .Title | urlize}} .hue-header.page .shift{
+        color: {{.Params.theme_color}} !important;
+    }
+    html.to-about body {
+        background-color: {{.Params.theme_color}};
+    }
+{{end}}
 
 /* collection style preloaders */
 {{ range (where .Site.RegularPages "Section" "collections") }}

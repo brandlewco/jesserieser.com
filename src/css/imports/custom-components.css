@@ -14,7 +14,7 @@ html.is-changing #content {
   }
 }
 
-@media (max-width: 640px) { 
+@media (max-width: 768px) { 
   .translate-none {
     transform: none !important;
   }
@@ -28,29 +28,12 @@ html.is-changing #content {
   transition: 0.33s all ease-in-out;
 }
 
-/* .btn {
-  @apply font-medium py-1 px-2 rounded cursor-pointer text-base;
-  transition: 0.33s background-color ease-in-out;
-}
-
-.btn-gray {
-  @apply bg-gray-100 text-gray-700;
-}
-.btn-gray:hover {
-  @apply bg-gray-200;
-}
-.btn-toggle.active {
-  @apply font-bold text-gray-800;
-} */
-
 .button {
   transition: 0.2s color ease-in-out;
   @apply text-black;
 }
 .button:focus {outline:0;}
-.button:hover {
-  @apply text-gray-600;
-}
+
 .button.ui-check {
   transition: 0.15s font-weight ease-in-out;
 }
