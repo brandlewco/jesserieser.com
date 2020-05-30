@@ -16,21 +16,21 @@ imagesLoaded(grid, function() {
     // stamp: ".stamp",
     layoutMode: "fitRows",
     fitRows: {
-      gutter: 0
+      gutter: 0,
     },
     hiddenStyle: {
-      opacity: 0
+      opacity: 0,
     },
     visibleStyle: {
-      opacity: 1
-    }
+      opacity: 1,
+    },
   });
   // store filter for each group
   var filters = [];
   function onHashchange() {
     var hashFilter = getHashFilter();
     iso.arrange({
-      filter: hashFilter
+      filter: hashFilter,
     });
 
     // hash style
@@ -49,7 +49,7 @@ imagesLoaded(grid, function() {
   var filtersElem = document.querySelector(".filters");
 
   filtersElem.addEventListener("click", function(event) {
-  // only buttons
+    // only buttons
     var target = event.target;
     if (target.nodeName != "BUTTON") {
       return;
@@ -104,7 +104,6 @@ imagesLoaded(grid, function() {
     //   }
     // });
 
-
     // filter isotope
     // group filters together, inclusive
     iso.arrange({filter: filters.join("")});
@@ -115,7 +114,6 @@ imagesLoaded(grid, function() {
     }
     location.hash = "filter=" + encodeURIComponent(filters.join(""));
   });
-
 
   function addFilter(filter) {
     if (filters.indexOf(filter) == -1) {
@@ -131,18 +129,24 @@ imagesLoaded(grid, function() {
   }
 
   function getHashFilter() {
-  // get filter=filterName
+    // get filter=filterName
     var matches = location.hash.match(/filter=([^&]+)/i);
     var hashFilter = matches && matches[1];
     return hashFilter && decodeURIComponent(hashFilter);
   }
 
   function removeHash() {
-    history.pushState("", document.title, window.location.pathname + window.location.search);
+    history.pushState(
+      "",
+      document.title,
+      window.location.pathname + window.location.search
+    );
   }
 
   function clearActiveClass() {
-    const filterClearClass = Array.from(document.querySelectorAll(".button.is-checked"));
+    const filterClearClass = Array.from(
+      document.querySelectorAll(".button.is-checked")
+    );
     for (const element of filterClearClass) {
       element.classList.remove("is-checked");
     }
@@ -151,7 +155,7 @@ imagesLoaded(grid, function() {
   function resetFilters() {
     filters = {};
     iso.arrange({
-      filter: "*"
+      filter: "*",
     });
   }
 
@@ -166,23 +170,54 @@ imagesLoaded(grid, function() {
   filterItems.forEach((items) => {
     const filters = items.dataset.filter.split(",");
     // const filtersTheme = items.dataset.theme;
+    var current = 0;
+    var slides = items.getElementsByTagName("img");
+    var fader;
+    function faderTimer() {
+      for (var i = 0; i < slides.length; i++) {
+        slides[i].style.opacity = 0;
+      }
+      current = current != slides.length - 1 ? current + 1 : 0;
+      slides[current].style.opacity = 1;
+      fader = setTimeout(faderTimer, 1500);
+    }
+
+    // start a crossfade animation by looping the images
+    function crossfade() {
+      setTimeout(faderTimer, 500);
+    }
+
+    // clear timeout and reset styles
+    function stopCrossfade() {
+      clearTimeout(fader);
+      current = 0;
+      slides[0].style.opacity = 1;
+      slides[1].style.opacity = 0;
+      slides[2].style.opacity = 0;
+      slides[3].style.opacity = 0;
+    }
+
+
     items.addEventListener("mouseenter", () => {
+      // crossfade
+      crossfade();
       items.classList.add("hover-animate");
       filters.forEach(function(element) {
         var filterActive = document.getElementById(element);
         if (filterActive) {
-        // filterActive.style.color = filtersTheme;
+          // filterActive.style.color = filtersTheme;
           filterActive.classList.add("font-semibold");
         }
       });
     });
     items.addEventListener("mouseleave", () => {
+      stopCrossfade();
       items.classList.remove("hover-animate");
       // void items.offsetWidth; // trigger a DOM reflow
       filters.forEach(function(element) {
         var filterActive = document.getElementById(element);
         if (filterActive) {
-        // filterActive.style.color = null;
+          // filterActive.style.color = null;
           filterActive.classList.remove("font-semibold");
         }
       });
@@ -212,7 +247,6 @@ imagesLoaded(grid, function() {
     });
   });
   // console.log(catButtons);
-
 
   const catToggle = document.getElementById("catToggle");
   const categories = document.getElementById("categories");
@@ -244,6 +278,6 @@ var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
 var filters = document.getElementById("filters");
 if (isSafari && iOS) {
   filters.style.top = "86px";
-} else if(isSafari) {
+} else if (isSafari) {
   filters.style.top = "86px";
 }

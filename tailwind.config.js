@@ -348,7 +348,7 @@ module.exports = {
       "1/3": "33.33333%",
       "2/3": "66.66667%",
       "1/4": "25%",
-      "grid-four": "calc(25% + 1rem)",
+      "grid-four": "calc(25%)",
       "grid-three": "calc(33% + 0.25rem)",
       "grid-two": "calc(50%)",
       "3/4": "75%",
