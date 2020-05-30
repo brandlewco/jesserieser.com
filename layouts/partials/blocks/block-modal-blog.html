@@ -19,11 +19,13 @@
           <svg class="icon h-8 w-8 text-black"><use xlink:href="#close"></use></svg>
       </div>
     </div>
-    <div class="w-full lazyload relative vh-33 md:vh-50 lg:vh-75">
+    <div class="w-full lazyload relative vh-33 sm:vh-66">
         <div class="paginated_gallery gallery">
           <div class="gallery_scroller flex flex-row justify-start items-center" style="transform: translate3d(0,0,0);">
             {{- range $key.Params.blog_slider -}}
-            {{ partial (printf "blocks/block-%s.html" .block) (dict "Section" . "Page" $ "Site" $.Site) }}
+            <div class="carousel-cell vh-33 sm:vh-66">
+              {{ partial (printf "blocks/block-%s.html" .block) (dict "Section" . "Page" $ "Site" $.Site) }}
+            </div>
             {{- end -}}
           </div>
           <span class="btn prev w-4 h-8 ml-1 sm:ml-0"></span>

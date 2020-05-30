@@ -10,7 +10,7 @@
             <h2>TRY REMOVING SOME OF THE SELECTED CATEGORIES ABOVE.</h2>
         </div>
         <!-- {{ range (readDir "content/collections/") }}"/collections/{{ .Name }}", {{ end }} -->
-        <section id="filter" class="flex flex-wrap overflow-hidden filter-container z-10 mx-auto relative" style="opacity: 0;">
+        <section id="filter" class="flex flex-wrap overflow-hidden filter-container z-10 mx-auto relative pl-0 sm:pl-5 md:pl-6" style="opacity: 0;">
             <!-- {{ range where (where .Pages.ByDate ".Params.collection_archive" "!=" true) ".Params.collection_hidden" "!=" true}}
                     {{ partial "collection_sorter_item" .}}
             {{ end }} -->
