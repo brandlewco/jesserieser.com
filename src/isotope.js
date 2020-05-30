@@ -184,17 +184,18 @@ imagesLoaded(grid, function() {
 
     // start a crossfade animation by looping the images
     function crossfade() {
-      setTimeout(faderTimer, 500);
+      faderTimer();
     }
 
     // clear timeout and reset styles
     function stopCrossfade() {
       clearTimeout(fader);
       current = 0;
-      slides[0].style.opacity = 1;
-      slides[1].style.opacity = 0;
-      slides[2].style.opacity = 0;
-      slides[3].style.opacity = 0;
+      slides[0].style.removeProperty("opacity");
+      slides[1].style.removeProperty("opacity");
+      slides[2].style.removeProperty("opacity");
+      slides[3].style.removeProperty("opacity");
+      console.log(current);
     }
 
 
