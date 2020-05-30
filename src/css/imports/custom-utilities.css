@@ -118,7 +118,7 @@ button:hover {
 }
 
 #filter-container {
-  transition: 0.33s transform ease-in-out;
+  transition: 0.33s transform ease-in-out, 0.33s opacity ease-in-out 0.33s;
 }
 
 #filter {
@@ -142,7 +142,7 @@ header#project-header img {
   mask-position: center 40%;
   mask-size: 25% auto;
   opacity: 0;
-  transition: opacity 0.33s ease-in-out;
+  transition: opacity 0.33s ease-in-out 0.33s;
 }
 
 header#project-header img.lazyloaded {
@@ -154,7 +154,6 @@ header#project-header img.lazyloaded {
   transform-origin: center, center;
   opacity: 1;
   animation-delay: 0ms, 2.5s;
-  /* transition: opacity 0s ease-in-out; */
 }
 
 /* html.is-rendering header#project-header img.lazyloaded {
@@ -519,7 +518,7 @@ a.collection-next .arrow {
   left: 0;
   position: absolute;
   object-fit: cover;
-  transition: opacity 0.33s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
   opacity: 0;
 }
 .filter-item img:nth-child(1) {
@@ -538,9 +537,15 @@ a.collection-next .arrow {
   z-index: 1;
 }
 
-.filter-item.hover-animate img {
+
+/* .filter-item.hover-animate img {
   transition-delay: 0.66s;
 }
+
+.filter-item img.lazyloaded:nth-child(n+2) {
+  transition-delay: 1s;
+} */
+
 
 /* .filter-item.hover-off img {
   animation: showMe 1s reverse;

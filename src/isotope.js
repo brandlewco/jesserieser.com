@@ -6,7 +6,13 @@ import imagesLoaded from "imagesloaded";
 var grid = document.querySelector(".filter-container");
 var iso;
 
+const navigation = document.getElementById("navigation");
+const navigationHeight = navigation.clientHeight;
+const filterWrapper = document.getElementById("filter-container");
+
 imagesLoaded(grid, function() {
+  filterWrapper.style.transform = "translate3d(0, " + navigationHeight + "px, 0)";
+  filterWrapper.style.opacity = 1;
   var filterContainer = document.getElementById("filter");
   var filterLoading = document.getElementById("filter-loading");
   filterContainer.style.opacity = 1;
@@ -173,9 +179,16 @@ imagesLoaded(grid, function() {
     var current = 0;
     var slides = items.getElementsByTagName("img");
     var fader;
+
+    // unset after initial load
+    for (var i = 0; i < slides.length; i++) {
+      slides[0].style.removeProperty("opacity");
+    }
+
     function faderTimer() {
       for (var i = 0; i < slides.length; i++) {
         slides[i].style.opacity = 0;
+        slides[i].style.transitionDelay = "0.33s";
       }
       current = current != slides.length - 1 ? current + 1 : 0;
       slides[current].style.opacity = 1;
@@ -195,7 +208,6 @@ imagesLoaded(grid, function() {
       slides[1].style.removeProperty("opacity");
       slides[2].style.removeProperty("opacity");
       slides[3].style.removeProperty("opacity");
-      console.log(current);
     }
 
 
@@ -278,7 +290,7 @@ var isSafari = !!navigator.userAgent.match(/Version\/[\d\.]+.*Safari/);
 var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
 var filters = document.getElementById("filters");
 if (isSafari && iOS) {
-  filters.style.top = "86px";
+  filters.style.top = navigationHeight;
 } else if (isSafari) {
-  filters.style.top = "86px";
+  filters.style.top = navigationHeight;
 }

@@ -48,13 +48,12 @@ const options = {
 };
 const swup = new Swup(options);
 
-swup.on("animationInDone", function() {
-
-});
-
 swup.on("contentReplaced", init);
 
 function init() {
+  const navigation = document.getElementById("navigation");
+  const navigationHeight = navigation.clientHeight;
+
   // MIDDAY
   const middayNav = new Midday(document.getElementById("navigation"), {
     headerClass: "hue-header",
@@ -154,8 +153,7 @@ function init() {
       // triggers when user clicks on thumbnail
       var onThumbnailsClick = function(e) {
         // UI pre-gallery launch
-        navigation.style.opacity = 0;
-        navigation.style.display = "none";
+        navigation.style.transform = "translate3d(0, -" + navigationHeight + "px, 0)";
         const figureIMG = document.querySelectorAll(".figure img");
         figureIMG.forEach(function(element) {
           // console.log(element);
@@ -392,7 +390,6 @@ function init() {
   });
 
   // Navigation Toggle
-  const navigation = document.getElementById("navigation");
   function navigationToggle() {
     var navToggle = document.getElementsByClassName("navToggle");
     Array.prototype.forEach.call(navToggle, function(nav) {
@@ -405,7 +402,6 @@ function init() {
   navigationToggle();
 
   function removeActive() {
-    const navigation = document.getElementById("navigation");
     navigation.classList.remove("active");
   }
   removeActive();
@@ -413,7 +409,6 @@ function init() {
   // Modal
   const modalTriggers = document.querySelectorAll(".popup-trigger");
   modalTriggers.forEach((trigger) => {
-    // const navigation = document.getElementById("navigation");
     const {popupTrigger} = trigger.dataset;
     const popupModal = document.querySelector(`[data-popup-modal="${popupTrigger}"]`);
     trigger.addEventListener("click", () => {
@@ -555,30 +550,30 @@ function init() {
   let scrollPos = 0;
   window.onscroll = function() {
 
-    document.documentElement.style.setProperty("--scroll-y", `${window.scrollY}px`);
+    // document.documentElement.style.setProperty("--scroll-y", `${window.scrollY}px`);
     var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
     const windowY = window.scrollY;
 
 
-    if (headerImage) {
-      headerImage.style.opacity = value_limit(1 - (scrollTop / (height * 0.35)), 0, 1).toFixed(2);
-    }
-    if (featureImage) {
-      featureImage.style.opacity = value_limit(1 - (scrollTop / (height * 0.9)), 0, 1).toFixed(2);
-    }
-    // if (headerOverlay) {
-    //   headerOverlay.style.opacity = value_limit((scrollTop / (height * 0.4)), 0, 1).toFixed(2);
+    // if (headerImage) {
+    //   headerImage.style.opacity = value_limit(1 - (scrollTop / (height * 0.35)), 0, 1).toFixed(2);
     // }
-    // if (featureOverlay) {
-    //   featureOverlay.style.opacity = value_limit((scrollTop / (height * 0.9)), 0, 1).toFixed(2);
+    // if (featureImage) {
+    //   featureImage.style.opacity = value_limit(1 - (scrollTop / (height * 0.9)), 0, 1).toFixed(2);
     // }
+    if (headerOverlay) {
+      headerOverlay.style.opacity = value_limit((scrollTop / (height * 0.4)), 0, 1).toFixed(2);
+    }
+    if (featureOverlay) {
+      featureOverlay.style.opacity = value_limit((scrollTop / (height * 0.9)), 0, 1).toFixed(2);
+    }
 
     if (projectHeader) {
       if (windowY > (window.innerHeight * 0.75)) {
         if (windowY < scrollPos) {
           navigation.style.transform = "translate3d(0, 0, 0)";
         } else {
-          navigation.style.transform = "translate3d(0, -200%, 0)";
+          navigation.style.transform = "translate3d(0, -" + navigationHeight + "px, 0)";
         }
       }
     }
@@ -609,8 +604,8 @@ function init() {
         navigation.style.transform = "translate3d(0, 0, 0)";
         filterContainer.style.transform = "translate3d(0, 0px, 0)";
       } else {
-        navigation.style.transform = "translate3d(0, -86px, 0)";
-        filterContainer.style.transform = "translate3d(0, -86px, 0)";
+        navigation.style.transform = "translate3d(0, -" + navigationHeight + "px, 0)";
+        filterContainer.style.transform = "translate3d(0, -" + navigationHeight + "px, 0)";
       }
     }
     // console.log("scrollTop", scrollTop, "scrollPos", scrollPos);
