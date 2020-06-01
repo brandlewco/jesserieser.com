@@ -19,6 +19,7 @@ logo = ""
 navigation_theme = "white"
 theme_color = "#161518"
 title = "ESPN"
+url = "ESPN UFC 246: The Painful Stories Behind Donald “Cowbody” Cerrone’s Injuries"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
