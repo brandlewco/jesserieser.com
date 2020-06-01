@@ -19,6 +19,7 @@ logo = ""
 navigation_theme = "white"
 theme_color = "#1E95A2"
 title = "Time Magazine"
+url = "Time Magazine The Vaccine Battlegrounds"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
