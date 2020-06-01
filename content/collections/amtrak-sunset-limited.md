@@ -20,6 +20,7 @@ navigation_theme = "white"
 page = "/collections/amtrak-sunset-limited"
 theme_color = "#E3E7EB"
 title = "Amtrak The National"
+url = "Amtrak The National Palm Springs to Yuma On The Sunset Limited"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
