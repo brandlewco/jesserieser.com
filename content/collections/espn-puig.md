@@ -19,6 +19,7 @@ logo = ""
 navigation_theme = "white"
 theme_color = "#86D0F7"
 title = "ESPN The Magazine"
+url = "ESPN The Magazine Partying With Puig"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
