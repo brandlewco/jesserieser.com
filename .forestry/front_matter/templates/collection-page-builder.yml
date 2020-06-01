@@ -16,6 +16,18 @@ fields:
 - type: text
   label: Title
   name: title
+- name: collection_meta
+  type: text
+  config:
+    required: false
+  label: Collection Meta
+  description: Project year, or one line description
+- name: collection_meta_2
+  type: text
+  config:
+    required: false
+  label: Collection Meta 2
+  description: secondary meta
 - type: datetime
   name: date
   label: Publish Date
@@ -43,18 +55,6 @@ fields:
     required: true
   label: Navigation Theme
   default: white
-- name: collection_meta
-  type: text
-  config:
-    required: false
-  label: Collection Meta
-  description: Project year, or one line description
-- name: collection_meta_2
-  type: text
-  config:
-    required: false
-  label: Collection Meta 2
-  description: secondary meta
 - type: textarea
   name: collection_description
   label: Project Description
