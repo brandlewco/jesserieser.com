@@ -7,7 +7,7 @@ collection_cover_mobile = "https://jesserieser.brandlew.co/uploads/verticalcover
 collection_description = "These works celebrate the beautiful dance-like aesthetic between two athletes competing in a racquetball match while confined by 4 concrete walls.\n\nSelected as one of the year’s best in the 2016 **_PDN Photo Annual_**."
 collection_filter = "Commissioned + Stock"
 collection_hidden = false
-collection_meta = "meta title"
+collection_meta = ""
 collection_press = []
 collection_preview = ["https://jesserieser.brandlew.co/uploads/soc_covers-1.jpg", "https://jesserieser.brandlew.co/uploads/soc_covers-2.jpg", "https://jesserieser.brandlew.co/uploads/soc_covers-3.jpg", "https://jesserieser.brandlew.co/uploads/soc_covers-6.jpg", "https://jesserieser.brandlew.co/uploads/soc_covers-5.jpg", "https://jesserieser.brandlew.co/uploads/soc_covers-4.jpg"]
 cover_image = "https://jesserieser.brandlew.co/uploads/social-21.jpg"
@@ -17,6 +17,7 @@ logo = ""
 navigation_theme = "black"
 theme_color = "#CCCCCC"
 title = "Sounds of Cement"
+url = "Sounds of Cement"
 [[collection_awards]]
 content = "**2016**  \n**_PDN Photo Annual_**   \nBest Stock Photography"
 template = "popup-text-element"
