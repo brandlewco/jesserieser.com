@@ -2,7 +2,7 @@
 {{.}}
 {{ end }} -->
 {{ $key := .Site.GetPage .Section.attached_blog }}
-<section class="figure block-hover self-start {{with .Section.align_y}}sm:self-{{.}}{{end}} w-full {{with .Section.width}}sm:w-{{.}}/100{{end}} mt-4 {{with .Section.margin_y}}sm:mt-{{.}}{{end}} ml-0 {{with .Section.margin_left}}sm:ml-{{.}}{{end}} mr-0 {{with .Section.margin_right}}sm:mr-{{.}}{{end}} highlight rellax rellax-off" data-rellax-speed="2" data-rellax-percentage="0">
+<section class="figure block-hover self-start {{with .Section.align_y}}sm:self-{{.}}{{end}} w-full {{with .Section.width}}sm:w-{{.}}/100{{end}} mt-4 {{with .Section.margin_y}}sm:mt-{{.}}{{end}} ml-0 {{with .Section.margin_left}}sm:ml-{{.}}{{end}} mr-0 {{with .Section.margin_right}}sm:mr-{{.}}{{end}} highlight rellax" data-rellax-speed="2" data-rellax-xs-speed="0">
   <button type="button" class="popup-trigger w-full sm:w-auto flex flex-col sm:h-auto justify-end sm:justify-between p-4 sm:p-8 items-start sm:items-center" style="background-color: {{$key.Params.theme_color}}" data-popup-trigger="{{$key.Params.title | lower | urlize}}">
         <h1 class="text-2xl font-bold uppercase text-left sm:text-center tracking-widest">{{$key.Params.title}}</h1>
         <h2 class="text-lg font-semibold uppercase text-left sm:text-center tracking-widest">{{$key.Params.caption}}</h2>
@@ -11,7 +11,7 @@
 </section>
 
 <article class="popup-modal flex flex-col fixed z-999 text-black bg-white overflow-y-scroll overflow-x-hidden h-full w-full inset-0" data-popup-modal="{{$key.Params.title | lower | urlize}}" style="visibility: hidden; opacity: 0;">
-  <div class="w-full px-8 sm:px-32">
+  <div class="w-full px-12 sm:px-32">
     <div class="flex flex-row justify-between py-6">
       <div class="text-xl sm:text-2xl uppercase font-medium text-center text-black">JESSE RIESER</div>
       <div class="text-lg sm:text-xl uppercase font-medium text-center text-black">NEWS: <span class="italic font-normal">{{range $key.Params.news_category}}{{.}}{{end}}</span></div>
@@ -19,11 +19,11 @@
           <svg class="icon h-8 w-8 text-black"><use xlink:href="#close"></use></svg>
       </div>
     </div>
-    <div class="w-full lazyload relative vh-33 sm:vh-66">
+    <div class="w-full lazyload relative vh-33 sm:vh-80">
         <div class="paginated_gallery gallery">
           <div class="gallery_scroller flex flex-row justify-start items-center" style="transform: translate3d(0,0,0);">
             {{- range $key.Params.blog_slider -}}
-            <div class="carousel-cell vh-33 sm:vh-66">
+            <div class="carousel-cell vh-33 sm:vh-80">
               {{ partial (printf "blocks/block-%s.html" .block) (dict "Section" . "Page" $ "Site" $.Site) }}
             </div>
             {{- end -}}

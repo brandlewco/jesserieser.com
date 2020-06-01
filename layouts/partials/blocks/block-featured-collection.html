@@ -4,7 +4,7 @@
         <figure class="{{with .Section.align_x}}self-{{.}}{{end}} w-100 {{with .Section.width}}sm:w-{{.}}/100{{end}} rellax-wrapper" style="{{with .Section.margin_y}}margin-top:{{.}}px;{{end}} background: {{.Section.color }};" data-sal="image">
           <img src="{{ .Section.image | relURL }}?nf_resize=fit&w=1200" alt="{{ .Section.caption }}" />
           {{ if .Section.caption }}
-          <figcaption class="absolute w-100 sm:w-1/2 {{if eq .Section.align_x "start" }}text-left right-0 mr-2{{else}}text-right left-0 ml-2{{end}} z-10 rellax" style="pointer-events:none; bottom: 25%;" data-rellax-speed="4" data-rellax-percentage="0">
+          <figcaption class="absolute w-100 sm:w-1/2 {{if eq .Section.align_x "start" }}text-left right-0 mr-2{{else}}text-right left-0 ml-2{{end}} z-10 rellax" style="pointer-events:none; bottom: 25%;" data-rellax-speed="4" data-rellax-xs-speed="1">
             <h2 class="text-black uppercase text-6xl tracking-widest">{{ .Section.caption }}</h2>
           </figcaption>
           {{ end }}

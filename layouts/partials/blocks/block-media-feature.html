@@ -10,7 +10,7 @@
       </a>
     {{end}}
     {{ if .Section.title }}
-    <figcaption class="absolute w-100 z-10 rellax px-4 sm:px-auto sm:ml-0 mb-0 text-left {{with .Section.text_alignment}}sm:text-{{.}}{{end}}" style="pointer-events:none; {{with .Section.title_margin_y}}top:{{.}};{{else}}top: 35%;{{end}} {{with .Section.title_margin_left}}margin-left:{{.}};{{end}} {{with .Section.title_margin_right}}margin-right:{{.}};{{end}}" data-rellax-speed="3" data-rellax-percentage="0">
+    <figcaption class="absolute w-100 z-10 rellax px-4 sm:px-auto sm:ml-0 mb-0 text-left {{with .Section.text_alignment}}sm:text-{{.}}{{end}}" style="pointer-events:none; {{with .Section.title_margin_y}}top:{{.}};{{else}}top: 35%;{{end}} {{with .Section.title_margin_left}}margin-left:{{.}};{{end}} {{with .Section.title_margin_right}}margin-right:{{.}};{{end}}" data-rellax-speed="4" data-rellax-xs-speed="1">
       <h2 class="text-4xl {{with .Section.text_size }}sm:text-{{.}}{{else}}sm:text-6xl{{end}} {{with .Section.text_tracking }}tracking-{{.}}{{end}} {{with .Section.font_weight }}font-{{.}}{{end}} text-white sm:text-black">{{ .Section.title }}</h2>
       <!-- style="color:{{with .Section.text_color }}{{.}}{{else}}#000;{{end}}" -->
     </figcaption>

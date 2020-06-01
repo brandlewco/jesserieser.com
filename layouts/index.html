@@ -2,7 +2,7 @@
 <section data-hue="{{with .Params.navigation_theme}}{{.}}{{else}}white{{end}}" class="relative z-0">
   {{ partial "feature_header-clip" .}}
 </section>
-<section data-hue="page" class="pt-8 mx-auto bg-white relative z-100" style="backface-visibility: hidden;">
+<section data-hue="page" class="pt-8 mx-auto bg-white relative z-100 overflow-y-hidden" style="backface-visibility: hidden;">
   <div class="px-8 xl:px-16">
     <section class="flex flex-wrap mx-auto h-auto {{with .Params.row_alignment}}sm:justify-{{.}}{{else}}sm:justify-between{{end}}">
     {{- range .Params.page_sections -}}
@@ -28,6 +28,7 @@
     const hueHeaderShift = document.querySelectorAll(".hue-header.page .shift");
     const projectHeader = document.getElementById("project-header");
     const projectDescription = document.getElementById("project-description");
+    const toTop = document.getElementById("to-top");
     const featureOverlay = document.getElementById("feature-overlay");
     projectHeader.style.backgroundColor = imgURL[1];
     projectDescription.style.backgroundColor = imgURL[1];
@@ -40,6 +41,7 @@
     featureImage.setAttribute("data-srcset", imgURL[0]);
     featureImage.classList.add("lazyload");
     featureOverlay.style.backgroundColor = imgURL[1];
+    toTop.style.color = imgURL[1];
   }());
 </script>
 {{- end -}}

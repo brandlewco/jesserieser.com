@@ -77,7 +77,8 @@ function init() {
     wrapper: ".rellax-wrapper",
     round: true,
     vertical: true,
-    horizontal: false
+    horizontal: false,
+    breakpoints: [1200, 1600, 2000]
   });
 
   if (document.querySelector(".rellax")) {
@@ -153,7 +154,8 @@ function init() {
       // triggers when user clicks on thumbnail
       var onThumbnailsClick = function(e) {
         // UI pre-gallery launch
-        navigation.style.transform = "translate3d(0, -" + navigationHeight + "px, 0)";
+        navigation.style.opacity = 0;
+        navigation.style.display = "hidden";
         const figureIMG = document.querySelectorAll(".figure img");
         figureIMG.forEach(function(element) {
           // console.log(element);
@@ -347,7 +349,6 @@ function init() {
           navigation.style.display = "block";
           const figureIMG = document.querySelectorAll(".figure img");
           figureIMG.forEach(function(element) {
-            // console.log(element);
             element.style.opacity = 1;
           });
         });

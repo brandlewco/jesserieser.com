@@ -663,6 +663,12 @@ a.collection-next .arrow {
   .vh-screen {
     height: 100vh;
   }
+  .rellax-off {
+    transform: translate3d(0px, 0px, 0px) !important;
+  }
+  .rellax-on {
+    transform: translate3d(0px, 0px, 0px);
+  }
 }
 
 .rellax {
@@ -679,10 +685,6 @@ a.collection-next .arrow {
 
   header#project-header img {
     mask-size: 75% auto;
-  }
-
-  .rellax-off {
-    transform: translate3d(0px, 0px, 0px) !important;
   }
 /* 
   .sal-off {
