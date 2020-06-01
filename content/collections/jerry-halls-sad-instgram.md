@@ -18,6 +18,7 @@ logo = ""
 navigation_theme = "white"
 theme_color = "#E9DED1"
 title = "Jerry Hall's Sad Instagram"
+url = "Jerry Hall's Sad Instagram Preview of a Work in Progress"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
