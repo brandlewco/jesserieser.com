@@ -20,6 +20,7 @@ navigation_theme = "white"
 page = "/collections/outside-dq"
 theme_color = "#CFDDE5"
 title = "Outside Magazine"
+url = "Outside Magazine Golf At Last An Apologia by David Quammen"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
