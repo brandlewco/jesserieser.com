@@ -1,13 +1,18 @@
 ---
 label: Collections - Page Builder
 hide_body: true
-display_field: title
+display_field: url
 fields:
 - type: text
   name: layout
   label: Layout
   hidden: true
   default: blocks
+- name: url
+  type: text
+  config:
+    required: false
+  label: URL
 - type: text
   label: Title
   name: title
