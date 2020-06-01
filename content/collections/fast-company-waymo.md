@@ -19,6 +19,7 @@ logo = ""
 navigation_theme = "white"
 theme_color = "#C2ECD1"
 title = "Fast Company "
+url = "Fast Company Google's Waymo"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
