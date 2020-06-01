@@ -16,6 +16,7 @@ logo = ""
 navigation_theme = "white"
 theme_color = "#F6E3CD"
 title = "Wired Magazine"
+url = "Wired Magazine Backpage.com Cover Story"
 [[collection_layout_builder]]
 align_y = "start"
 block = "media-element"
