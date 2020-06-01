@@ -17,6 +17,7 @@ logo = ""
 navigation_theme = "white"
 theme_color = "#E1EAED"
 title = "When Fall Came Early:"
+url = "When Fall Came Early: The Drought Along the Arkansas River Basin"
 [[collection_awards]]
 content = "**2015**  \n**_PDN Photo Annual_**  \nBest Editorial Series: _When Fall Came Early_ published by MSNBC"
 template = "popup-text-element"
