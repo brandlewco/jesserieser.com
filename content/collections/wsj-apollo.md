@@ -20,6 +20,7 @@ navigation_theme = "black"
 page = "/collections/wsj-apollo"
 theme_color = "#FFD765"
 title = "The Wall Street Journal"
+url = "The Wall Street Journal Apollo 11 50th Anniversary: Guidance Computer Rebuild"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
