@@ -16,6 +16,7 @@ logo = ""
 navigation_theme = "white"
 theme_color = "#D8E1E1"
 title = "The Wallow Fire"
+url = "The Wallow Fire 2012"
 [[collection_awards]]
 content = "**2013**  \n**_Photolucida's Critical Mass_**  \nWinner\" Top 50 International Project"
 template = "popup-text-element"
