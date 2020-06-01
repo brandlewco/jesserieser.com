@@ -16,6 +16,7 @@ logo = ""
 navigation_theme = "white"
 theme_color = "#D4725F"
 title = "The Class of 99 Turns 30"
+url = "The Class of 99 Turns 30 2009 - 2010"
 [[collection_awards]]
 content = "**2011**  \n**_Center's Review Santa Fe 100_**  \nTop 100 International Project"
 template = "popup-text-element"
