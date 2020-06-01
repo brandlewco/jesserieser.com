@@ -18,6 +18,7 @@ logo = ""
 navigation_theme = "white"
 theme_color = "#EEDDDD"
 title = "Time Magazine"
+url = "Time Magazine Grand Canyon 100th Anniversary "
 [[collection_awards]]
 content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
 template = "popup-text-element"
