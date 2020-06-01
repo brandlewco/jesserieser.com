@@ -20,6 +20,7 @@ navigation_theme = "white"
 row_alignment = ""
 theme_color = "#B1D9D2"
 title = "Christmas In America: Happy Birthday, Jesus"
+url = "Christmas In America: Happy Birthday, Jesus"
 [[collection_awards]]
 content = "**2017**  \n_Communication Arts Photography Annual  \nWinner: Best Unpublished Series_"
 icon = ""
