@@ -16,6 +16,7 @@ logo = ""
 navigation_theme = "white"
 theme_color = "#9CB8D7"
 title = "Society Magazine"
+url = "Society Magazine Stalking A Serial Killer"
 [[collection_awards]]
 content = "**2017**  \n_AP 33: American Photography Annual 33_  \nBest Editorial Series"
 template = "popup-text-element"
