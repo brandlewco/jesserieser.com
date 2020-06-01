@@ -172,4 +172,5 @@ fields:
   description: Don't show this collection in the all works sorter, accessible only
     through direct link.
 pages:
+- content/collections/testing-title-field.md
 - content/collections/xmas-in-america.md
