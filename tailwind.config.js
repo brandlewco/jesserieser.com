@@ -16,15 +16,8 @@ module.exports = {
       white: "#fff",
 
       gray: {
-        // 100: "#f7fafc",
-        // 200: "#edf2f7",
-        // 300: "#e2e8f0",
-        // 400: "#cbd5e0",
-        // 500: "#a0aec0",
         600: "#718096",
         700: "#4a5568",
-        // 800: "#2d3748",
-        // 900: "#1a202c",
       },
     },
     spacing: {
@@ -46,8 +39,7 @@ module.exports = {
       "40": "10rem",
       "48": "12rem",
       "56": "14rem",
-      "64": "16rem",
-      "4k": "32rem",
+      "64": "16rem"
     },
     backgroundColor: (theme) => theme("colors"),
     backgroundPosition: {
@@ -70,13 +62,6 @@ module.exports = {
       ...theme("colors"),
       default: theme("colors.gray.300", "currentColor"),
     }),
-    // borderRadius: {
-    //   none: "0",
-    //   sm: "0.125rem",
-    //   default: "0.25rem",
-    //   lg: "0.5rem",
-    //   full: "9999px",
-    // },
     borderWidth: {
       default: "1px",
       "0": "0",
@@ -84,16 +69,6 @@ module.exports = {
       "4": "4px",
       "8": "8px",
     },
-    // boxShadow: {
-    //   default: "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
-    //   md: "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
-    //   lg: "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
-    //   xl: "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
-    //   "2xl": "0 25px 50px -12px rgba(0, 0, 0, 0.25)",
-    //   inner: "inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)",
-    //   outline: "0 0 0 3px rgba(66, 153, 225, 0.5)",
-    //   none: "none",
-    // },
     container: {
       center: true,
       padding: "1rem",
@@ -139,22 +114,22 @@ module.exports = {
         '"Segoe UI Emoji"',
         '"Segoe UI Symbol"',
         '"Noto Color Emoji"',
-      ],
-      serif: [
-        "Georgia",
-        "Cambria",
-        '"Times New Roman"',
-        "Times",
-        "serif",
-      ],
-      mono: [
-        "Menlo",
-        "Monaco",
-        "Consolas",
-        '"Liberation Mono"',
-        '"Courier New"',
-        "monospace",
-      ],
+      ]
+      // serif: [
+      //   "Georgia",
+      //   "Cambria",
+      //   '"Times New Roman"',
+      //   "Times",
+      //   "serif",
+      // ],
+      // mono: [
+      //   "Menlo",
+      //   "Monaco",
+      //   "Consolas",
+      //   '"Liberation Mono"',
+      //   '"Courier New"',
+      //   "monospace",
+      // ],
     },
     fontSize: {
       xs: "0.75rem",
@@ -168,7 +143,8 @@ module.exports = {
       "5xl": "3rem",
       "6xl": "4rem",
       "7xl": "5rem",
-      "8xl": "6rem"
+      "8xl": "6rem",
+      "10xl" : "7rem"
     },
     fontWeight: {
       hairline: "100",
@@ -185,9 +161,7 @@ module.exports = {
       auto: "auto",
       ...theme("spacing"),
       full: "100%",
-      screen: "100vh",
-      feature: "calc(100vh - 75px)",
-      "3/4": "75%",
+      screen: "100vh"
     }),
     aspectRatio: { // defaults to {}
       "square": [1, 1],

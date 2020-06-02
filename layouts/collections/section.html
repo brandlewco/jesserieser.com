@@ -11,34 +11,23 @@
         </div>
         <!-- {{ range (readDir "content/collections/") }}"/collections/{{ .Name }}", {{ end }} -->
         <section id="filter" class="flex flex-wrap overflow-hidden filter-container z-10 mx-auto relative pl-0 sm:pl-5 md:pl-6" style="opacity: 0;">
-            <!-- {{ range where (where .Pages.ByDate ".Params.collection_archive" "!=" true) ".Params.collection_hidden" "!=" true}}
-                    {{ partial "collection_sorter_item" .}}
-            {{ end }} -->
             {{ range .Site.Data.categories}}
             {{ range .collection_sorter}}
             {{ with $.Site.GetPage . }}
                 {{ if eq .Params.collection_archive false }}
-                {{ if eq .Params.collection_hidden false }}
                     {{ partial "collection_sorter_item" . }}
                 {{ end }}
-                {{ end }}
             {{ end }}
             {{ end }}
             {{ end }}
-            <!-- <div class="filter-item w-screen filter-archive {{range $.Site.Data.categories.categories.categories}}{{. | replaceRE "[\\W]" "" | lower}} {{end}} personal commissionedstock all active" data-filter="{{range $.Site.Data.categories.categories.categories}}{{. | replaceRE "[\\W]" "" | lower}},{{end}},all,personal,commissionedstock"></div> -->
             <div id="filter-archive" class="filter-item w-screen filter-archive {{range $.Site.Data.categories.categories.categories}}{{. | replaceRE "[\\W]" "" | lower}} {{end}} personal commissionedstock all active"  data-filter="{{range $.Site.Data.categories.categories.categories}}{{. | replaceRE "[\\W]" ""| lower}},{{end}},all,personal,commissionedstock">
                 <h1 class="p-4 text-lg text-white font-bold">ARCHIVE</h1>
             </div>
-            <!-- {{ range where (where .Pages.ByDate ".Params.collection_archive" "=" true) ".Params.collection_hidden" "!=" true}}
-                {{ partial "collection_sorter_item" .}}
-            {{ end }} -->
             {{ range .Site.Data.categories}}
             {{ range .collection_sorter}}
             {{ with $.Site.GetPage . }}
                 {{ if eq .Params.collection_archive true }}
-                {{ if eq .Params.collection_hidden false }}
                     {{ partial "collection_sorter_item" . }}
-                {{ end }}
                 {{ end }}
             {{ end }}
             {{ end }}

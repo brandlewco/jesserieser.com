@@ -1,18 +1,18 @@
 <figure class="filter-item h-auto py-4 pr-4 sm:pr-0 pl-4 md:w-grid-four sm:w-grid-three w-full overflow-hidden {{range .Params.collection_category }}{{. | replaceRE "[\\W]" "" | lower}} {{end}}{{with .Params.collection_filter}}{{. | replaceRE "[\\W]" "" | lower}}{{end}} all active" data-theme="{{.Params.theme_color}}" data-filter="{{range .Params.collection_category}}{{. | replaceRE "[\\W]" "" | lower}},{{end}}{{with .Params.collection_filter}}{{. | replaceRE "[\\W]" "" | lower}}{{end}}">
     <a href="{{.Permalink}}">
         {{if .Params.collection_preview }}
-        <div class="collection-preview relative" style="padding-top:75%; background-color:{{.Params.theme_color}};">
+        <div class="collection-preview relative lazyload" style="padding-top:75%; background-color:{{.Params.theme_color}};">
         {{else}}
         <div class="relative" style="padding-top:75%; background-color:{{.Params.theme_color}};">
         {{end}}
 
-        {{with .Params.collection_preview}}
-        {{ range first 4 . }}
-        <img data-sizes="auto" data-srcset="{{.}}?nf_resize=fit&w=800&h=600 800w, {{.}}?nf_resize=fit&w=1600&h=1200 1600w" class="lazyload absolute top-0 left-0" style="opacity: 0;"/>
-        {{end}}
-        {{else}}
-        <img data-sizes="auto" data-parent-fit="cover" data-srcset="{{.Params.collection_cover}}?nf_resize=fit&w=800&h=600 800w, {{.Params.collection_cover}}?nf_resize=fit&w=1600&h=1200 1600w" class="lazyload absolute top-0 left-0" alt="{{.Title}}"/>
-        {{end}}
+            {{with .Params.collection_preview}}
+            {{ range first 4 . }}
+            <img data-sizes="auto" data-srcset="{{.}}?nf_resize=fit&w=800&h=600 800w, {{.}}?nf_resize=fit&w=1600&h=1200 1600w" class="lazyload absolute top-0 left-0" style="opacity: 0;"/>
+            {{end}}
+            {{else}}
+            <img data-sizes="auto" data-parent-fit="cover" data-srcset="{{.Params.collection_cover}}?nf_resize=fit&w=800&h=600 800w, {{.Params.collection_cover}}?nf_resize=fit&w=1600&h=1200 1600w" class="lazyload absolute top-0 left-0" alt="{{.Title}}"/>
+            {{end}}
 
         </div>
         

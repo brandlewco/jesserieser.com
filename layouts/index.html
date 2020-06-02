@@ -12,6 +12,34 @@
   </div>
   {{ partial "feature_footer" .}}
 </section>
+{{- end -}}
+{{- define "attached" -}}
+<!-- <style>
+  #content {
+    opacity: 0;
+  }
+  body::before {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: block;
+    content: "";
+    z-index: -1;
+    animation: background 1.5s forwards infinite;
+  }
+
+  @keyframes background {
+    {{ $.Scratch.Set "counter" 0 }}
+  {{range sort .Params.selected_works_theme}}
+    {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 25) }} {{$.Scratch.Get "counter"}}% {
+    background-color: {{.theme_color}};
+  }
+  {{end}}
+
+}
+</style> -->
 <script>
   (function(){
     var images = [
@@ -24,6 +52,7 @@
     var randNumber=Math.floor((Math.random() * imgCount) + 1);
     imgURL = images[randNumber-1];
 
+    const content = document.getElementById("content");
     const featureImage = document.getElementById("feature-image");
     const hueHeaderShift = document.querySelectorAll(".hue-header.page .shift");
     const projectHeader = document.getElementById("project-header");
@@ -42,6 +71,10 @@
     featureImage.classList.add("lazyload");
     featureOverlay.style.backgroundColor = imgURL[1];
     toTop.style.color = imgURL[1];
+
+    // setTimeout(function(){
+    //   content.style.opacity = 1;
+    // }, 1500);
   }());
 </script>
 {{- end -}}

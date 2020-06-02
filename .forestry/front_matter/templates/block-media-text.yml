@@ -55,6 +55,10 @@ fields:
     - 2xl
     - 4xl
     - 6xl
+    - 7xl
+    - 8xl
+    - 9xl
+    - 10xl
   label: Text Size
   default: 2xl
 - name: text_alignment
