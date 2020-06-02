@@ -144,7 +144,7 @@ page_sections:
   title: Wired
   color: "#FFE087"
   meta: 'The Hard Luck Texas Town That Bet on Bitcoin and Lost '
-  attached_collection: ''
+  attached_collection: collections/wired-bitmain.md
   text_color: ''
   text_size: ''
   text_alignment: ''
@@ -158,7 +158,7 @@ page_sections:
   image: https://jesserieser.brandlew.co/uploads/timeGC-5.jpg
   title: 'Time '
   color: "#fdcfb1"
-  attached_collection: collections/time.md
+  attached_collection: ''
   meta: Grand Canyon 100th Anniversary 
   margin_x: ''
   align_y: ''
