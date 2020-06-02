@@ -88,7 +88,7 @@ page_sections:
   align_x: start
   margin_y: '100'
   image: https://jesserieser.brandlew.co/uploads/xmas-1.jpg
-  attached_collection: ''
+  attached_collection: collections/xmas-in-america.md
   title: Christmas in America
   color: "#FF0000"
   meta: Personal 2010 -  2019
@@ -121,7 +121,7 @@ page_sections:
   color: "#E1EBF2"
   title: 'Skeleton Party '
   meta: Collection of Small Crews
-  attached_collection: collections/jerry-halls-sad-instgram.md
+  attached_collection: ''
   text_color: ''
   text_size: ''
   text_alignment: ''
