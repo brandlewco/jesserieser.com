@@ -14,6 +14,9 @@ relativeURLs = false
 # Enable to have links open in new tab
 hrefTargetBlank = false
 
+[markup.goldmark.renderer]
+unsafe = true
+
 [params]
 cover = "?nf_resize=fit&w=2560"
 contain = "?nf_resize=fit&w=1280"

@@ -22,8 +22,7 @@ page_sections:
   font_weight: bold
   text_tracking: tighter
   text_alignment: left
-  title: '<p>&lt;span&gt;Phoenix: A Dystopian Legoland&lt;/span&gt;<br>&lt;span style="float:
-    right"&gt;That Tastes Like Candy&lt;/span&gt;</p>'
+  title: '<p>Phoenix: A Dystopian Legoland</p><p style="text-align: right"> That Tastes Like Candy</p>'
   text_color: "#FF0000"
 - template: block-modal-blog
   block: modal-blog
