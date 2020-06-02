@@ -348,7 +348,7 @@ page_sections:
   image: https://jesserieser.brandlew.co/uploads/_JR_8055.jpg
   title: 'Outside Magazine '
   color: "#FFB4B4"
-  attached_collection: ''
+  attached_collection: collections/outside-magazine-rob-krar.md
   meta: Rob Krar Running in the Dark
   text_color: ''
   text_size: ''
@@ -366,7 +366,7 @@ page_sections:
   title: ESPN Cowboy
   image: https://jesserieser.brandlew.co/uploads/cowboy-4.jpg
   meta: 'Donald Cerronne '
-  attached_collection: collections/espn-cowboy-cerronne.md
+  attached_collection: ''
   color: "#110101"
   align_y: ''
   margin_left: ''
