@@ -246,7 +246,7 @@ page_sections:
   meta_align: left
   image: https://jesserieser.brandlew.co/uploads/adicross-12.jpg
   color: "#D1D1D1"
-  attached_collection: ''
+  attached_collection: collections/adidas-golf.md
   title: 'Adidas GOlf '
   meta: ''
   text_color: ''
@@ -265,7 +265,7 @@ page_sections:
   title: 'Wired '
   color: "#b9a49e"
   margin_y: '200'
-  attached_collection: collections/wired.md
+  attached_collection: ''
   meta: Backpage.com Cover Story
   margin_x: ''
   align_y: ''
