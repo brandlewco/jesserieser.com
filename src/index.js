@@ -246,7 +246,7 @@ function init() {
           // define gallery index (for URL)
           galleryUID: galleryElement.getAttribute("data-pswp-uid"),
           history: false,
-          bgOpacity: 0.10,
+          bgOpacity: 0.15,
           closeOnScroll: false,
           closeOnVerticalDrag: false,
           preload: [2, 2],
@@ -263,6 +263,7 @@ function init() {
           zoomEl: false,
           shareEl: false,
           indexIndicatorSep: " / ",
+          loop: false,
 
         };
 
@@ -296,18 +297,12 @@ function init() {
 
         // Pass data to PhotoSwipe and initialize it
         gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
-        // gallery.listen("imageLoadComplete", function(index, item) {
-        //   if (item.h < 1 || item.w < 1) {
-        //     const img = new Image();
-        //     img.onload = () => {
-        //       item.w = img.width;
-        //       item.h = img.height;
-        //       gallery.invalidateCurrItems();
-        //       gallery.updateSize(true);
-        //     };
-        //     img.src = item.src;
-        //   }
-        // });
+        gallery.listen("imageLoadComplete", function() {
+          const imgItem = document.querySelectorAll(".pswp__img");
+          imgItem.forEach(function(element) {
+            element.style.opacity = null;
+          });
+        });
         gallery.listen("beforeChange", function() {
           var activeSlide = document.getElementsByClassName("active-slide");
           var activeWrapper = document.getElementsByClassName("active-wrapper");
@@ -327,7 +322,6 @@ function init() {
           var currentItemParent = gallery.currItem.container.parentNode;
           currentItem.classList.add("active-slide");
           currentItemParent.classList.add("active-wrapper");
-
           Element.prototype.documentOffsetTop = function() {
             return this.offsetTop + (this.offsetParent ? this.offsetParent.documentOffsetTop() : 0);
           };
