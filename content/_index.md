@@ -322,7 +322,7 @@ page_sections:
   title_margin_left: 0%
   title_margin_right: 0%
   meta_align: left
-  attached_collection: ''
+  attached_collection: collections/amtrak-southwest-chief.md
   image: https://jesserieser.brandlew.co/uploads/swchief-8.jpg
   meta: The Southwest Chief
   title: Amtrak The National
@@ -348,7 +348,7 @@ page_sections:
   image: https://jesserieser.brandlew.co/uploads/_JR_8055.jpg
   title: 'Outside Magazine '
   color: "#FFB4B4"
-  attached_collection: collections/outside-magazine-rob-krar.md
+  attached_collection: ''
   meta: Rob Krar Running in the Dark
   text_color: ''
   text_size: ''
