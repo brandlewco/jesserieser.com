@@ -290,7 +290,7 @@ page_sections:
   title_margin_right: 55%
   meta_align: left
   meta: 'Society Magazine (France) '
-  attached_collection: ''
+  attached_collection: collections/stalking-a-serial-killer.md
   image: https://jesserieser.brandlew.co/uploads/serial-6.jpg
   title: Stalking A Serial Killer
   color: "#C0D0E0"
@@ -322,7 +322,7 @@ page_sections:
   title_margin_left: 0%
   title_margin_right: 0%
   meta_align: left
-  attached_collection: collections/amtrak-southwest-chief.md
+  attached_collection: ''
   image: https://jesserieser.brandlew.co/uploads/swchief-8.jpg
   meta: The Southwest Chief
   title: Amtrak The National
