@@ -10,5 +10,17 @@ title = "Wired: The Internet Giant That Went Too Far "
 [[blog_builder]]
 block = "media-row-static"
 template = "block-media-row-static"
+[[blog_slider]]
+block = "media-element-url"
+image = "https://jesserieser.brandlew.co/uploads/backpage-1.jpg"
+template = "block-media-element-url"
+[[blog_slider]]
+block = "media-element-url"
+image = "https://jesserieser.brandlew.co/uploads/backpage-3.jpg"
+template = "block-media-element-url"
+[[blog_slider]]
+block = "media-element-url"
+image = "https://jesserieser.brandlew.co/uploads/backpage-8.jpg"
+template = "block-media-element-url"
 
 +++
