@@ -60,6 +60,7 @@ fields:
   config:
     maxSize: 
   label: Blog Header
+  hidden: true
 - name: content
   type: textarea
   default: ''
