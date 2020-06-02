@@ -13,10 +13,14 @@ fields:
   label: Image
   template: media-element
 - name: meta
-  type: text
+  type: textarea
+  default: ''
   config:
     required: false
-  label: Meta Title
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Title
 - type: select
   name: attached_collection
   config:
