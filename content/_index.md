@@ -202,7 +202,7 @@ page_sections:
   image: https://jesserieser.brandlew.co/uploads/sunset-limited-28.jpg
   color: "#D7F3E6"
   meta: ''
-  attached_collection: ''
+  attached_collection: collections/amtrak-southwest-chief.md
   text_color: ''
   text_size: ''
   text_alignment: ''
@@ -225,7 +225,7 @@ page_sections:
   color: "#FAE1D7"
   title: Autobiography of a Contact Sport
   meta: ''
-  attached_collection: collections/autobiography.md
+  attached_collection: ''
   text_color: ''
   text_size: ''
   text_alignment: center
