@@ -57,20 +57,12 @@ fields:
   default: white
 - type: textarea
   name: collection_description
-  label: Project Description
-  config:
-    wysiwyg: true
-    schema:
-      format: html-blocks
-  description: Used for the collection header, and google meta data. (300 characters)
-- type: textarea
-  name: collection_content
-  label: Project Brief
+  label: Collection Description
   config:
     wysiwyg: true
     schema:
       format: markdown
-  description: Write the project brief here
+  description: Used for the collection header, and google meta data. (300 characters)
 - name: row_alignment
   type: select
   default: between
@@ -134,6 +126,14 @@ fields:
   name: cover_image
   label: Social Media Card
   description: This image is what appears in OpenGraph previews and image masks
+- type: textarea
+  name: collection_content
+  label: Collection Brief
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+  description: Project brief at footer of collection
 - name: collection_awards
   type: blocks
   label: Collection Awards
