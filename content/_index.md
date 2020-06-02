@@ -66,7 +66,7 @@ page_sections:
   align_x: end
   margin_y: '500'
   image: https://jesserieser.brandlew.co/uploads/stargeezers-1.jpg
-  attached_collection: ''
+  attached_collection: collections/starting-over.md
   title: The Star Geezers
   color: "#9bbad5"
   meta: Condor Airlines (Germany)
@@ -88,7 +88,7 @@ page_sections:
   align_x: start
   margin_y: '100'
   image: https://jesserieser.brandlew.co/uploads/xmas-1.jpg
-  attached_collection: collections/xmas-in-america.md
+  attached_collection: ''
   title: Christmas in America
   color: "#FF0000"
   meta: Personal 2010 -  2019
