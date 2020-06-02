@@ -14,7 +14,7 @@ page_sections:
   title_margin_right: 0%
   title_margin_y: 15%
   meta_align: left
-  attached_collection: collections/phoenix.md
+  attached_collection: ''
   meta: 2018 - 2020
   image: https://jesserieser.brandlew.co/uploads/rieser_phx-HI-2.jpg
   color: "#A0E1DD"
