@@ -158,7 +158,7 @@ page_sections:
   image: https://jesserieser.brandlew.co/uploads/timeGC-5.jpg
   title: 'Time '
   color: "#fdcfb1"
-  attached_collection: ''
+  attached_collection: collections/time.md
   meta: Grand Canyon 100th Anniversary 
   margin_x: ''
   align_y: ''
@@ -202,7 +202,7 @@ page_sections:
   image: https://jesserieser.brandlew.co/uploads/sunset-limited-28.jpg
   color: "#D7F3E6"
   meta: ''
-  attached_collection: collections/amtrak-southwest-chief.md
+  attached_collection: ''
   text_color: ''
   text_size: ''
   text_alignment: ''
