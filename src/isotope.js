@@ -192,11 +192,11 @@ imagesLoaded(grid, function() {
     function faderTimer() {
       for (var i = 0; i < slides.length; i++) {
         slides[i].style.opacity = 0;
-        slides[i].style.transitionDelay = "0.33s";
+        slides[i].style.transitionDelay = "0.25s";
       }
       current = current != slides.length - 1 ? current + 1 : 0;
       slides[current].style.opacity = 1;
-      fader = setTimeout(faderTimer, 1500);
+      fader = setTimeout(faderTimer, 1000);
     }
 
     // start a crossfade animation by looping the images
