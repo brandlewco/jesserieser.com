@@ -19,11 +19,11 @@
           <svg class="icon h-8 w-8 text-black"><use xlink:href="#close"></use></svg>
       </div>
     </div>
-    <div class="w-full lazyload relative vh-33 sm:vh-80">
+    <div class="w-full lazyload relative">
         <div class="paginated_gallery gallery">
           <div class="gallery_scroller flex flex-row justify-start items-center" style="transform: translate3d(0,0,0);">
             {{- range $key.Params.blog_slider -}}
-            <div class="carousel-cell vh-33 sm:vh-80">
+            <div class="carousel-cell w-full" style="padding-top: 56.25%; background-color: {{$key.Params.theme_color}};">
               {{ partial (printf "blocks/block-%s.html" .block) (dict "Section" . "Page" $ "Site" $.Site) }}
             </div>
             {{- end -}}

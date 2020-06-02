@@ -304,7 +304,7 @@ img {
   display: block;
 }
 
-img.lazyload {
+img.lazyload, img.lazyload-delay {
   opacity: 0;
 }
 
