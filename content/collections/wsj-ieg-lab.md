@@ -19,7 +19,7 @@ logo = ""
 navigation_theme = "white"
 theme_color = "#E2EADE"
 title = "The Wall Street Journal"
-url = "The Wall Street Journal IEC Labs Earth Engine"
+slug = "The Wall Street Journal IEC Labs Earth Engine"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"

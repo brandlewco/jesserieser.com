@@ -16,7 +16,7 @@ logo = ""
 navigation_theme = "white"
 theme_color = "#9CB8D7"
 title = "Society Magazine"
-url = "Society Magazine Stalking A Serial Killer"
+slug = "Society Magazine Stalking A Serial Killer"
 [[collection_awards]]
 content = "**2017**  \n_AP 33: American Photography Annual 33_  \nBest Editorial Series"
 template = "popup-text-element"
@@ -491,7 +491,7 @@ width = "66"
 [[collection_press]]
 content = "[_Buzzfeed_](https://www.buzzfeed.com/gabrielsanchez/incredible-photo-stories-you-absolutely-cant-miss-mar-3?utm_term=.leYqRXGzBr#.itQ6oNpDeb)"
 template = "popup-text-element"
-url = ""
+slug = ""
 [[collection_press]]
 content = "[_Fast Company_](https://www.fastcodesign.com/90128233/chilling-photos-of-a-community-in-the-grips-of-a-serial-killer) "
 template = "popup-text-element"

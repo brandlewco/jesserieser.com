@@ -17,7 +17,7 @@ logo = ""
 navigation_theme = "white"
 theme_color = "#E0CBC6"
 title = "Starting Over: Will Move For Work"
-url = "Starting Over: Will Move For Work 2009 - 2010"
+slug = "Starting Over: Will Move For Work 2009 - 2010"
 [[collection_awards]]
 content = "**2012**  \n_Photolucida's Critical Mass_  \nFinalist: Top International Project"
 template = "popup-text-element"

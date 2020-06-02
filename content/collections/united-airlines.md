@@ -19,7 +19,7 @@ logo = ""
 navigation_theme = "white"
 theme_color = "#B9C5D0"
 title = "United Airlines Rhapsody"
-url = "United Airlines Rhapsody Sedona"
+slug = "United Airlines Rhapsody Sedona"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"

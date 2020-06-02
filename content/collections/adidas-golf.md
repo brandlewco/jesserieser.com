@@ -17,7 +17,7 @@ logo = ""
 navigation_theme = "white"
 theme_color = "#B8EEBC"
 title = "Adidas Golf: Adicross"
-url = "Adidas Golf: Adicross Dustin Johnson, Xander Schaufelle, & Sergio Garcia"
+slug = "Adidas Golf: Adicross Dustin Johnson, Xander Schaufelle, & Sergio Garcia"
 [[collection_awards]]
 content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
 template = "popup-text-element"

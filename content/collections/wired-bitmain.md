@@ -18,7 +18,7 @@ navigation_theme = "white"
 test_repeater = []
 theme_color = "#D2DEE7"
 title = "Wired Magazine"
-url = "Wired Magazine The Hard-Luck Texas Town That Bet on Bitcoin and Lost"
+slug = "Wired Magazine The Hard-Luck Texas Town That Bet on Bitcoin and Lost"
 [[collection_exhibition]]
 content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
 template = "popup-text-element"

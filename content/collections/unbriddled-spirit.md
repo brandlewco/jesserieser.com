@@ -18,7 +18,7 @@ logo = ""
 navigation_theme = "white"
 theme_color = "#C6ACD2"
 title = "Phoenix Home & Garden"
-url = "Phoenix Home & Garden Curt Mattson Unbridled Spirit"
+slug = "Phoenix Home & Garden Curt Mattson Unbridled Spirit"
 [[collection_awards]]
 content = "**2016**  \n_AP 32: American Photography Annual 32_  \nBest Editorial Work:"
 template = "popup-text-element"

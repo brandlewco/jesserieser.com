@@ -20,7 +20,7 @@ navigation_theme = "white"
 page = "/collections/amtrak-chief"
 theme_color = "#E3D2E7"
 title = "Amtrak The National "
-url = "Amtrak The National On The Southwest Chief"
+slug = "Amtrak The National On The Southwest Chief"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"

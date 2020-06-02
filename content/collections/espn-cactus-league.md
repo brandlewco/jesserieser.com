@@ -18,7 +18,7 @@ logo = ""
 navigation_theme = "white"
 theme_color = "#FDE583"
 title = "ESPN the Magazine"
-url = "ESPN the Magazine Cactus League "
+slug = "ESPN the Magazine Cactus League "
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"

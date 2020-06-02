@@ -19,7 +19,7 @@ logo = ""
 navigation_theme = "white"
 theme_color = "#F1D7D5"
 title = "Outside Magazine "
-url = "Outside Magazine Rob Krar Running In The Dark"
+slug = "Outside Magazine Rob Krar Running In The Dark"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"

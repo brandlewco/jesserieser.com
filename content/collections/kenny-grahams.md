@@ -19,7 +19,7 @@ logo = ""
 navigation_theme = "white"
 theme_color = "#DBEDB4"
 title = "Nike’s Kenny Graham’s "
-url = "Nike’s Kenny Graham’s The Cage"
+slug = "Nike’s Kenny Graham’s The Cage"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"

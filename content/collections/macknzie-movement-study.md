@@ -20,7 +20,7 @@ logo = ""
 navigation_theme = "white"
 theme_color = "#9394AD"
 title = "Mackenzie Gossage"
-url = "Mackenzie Gossage Movement Study"
+slug = "Mackenzie Gossage Movement Study"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"

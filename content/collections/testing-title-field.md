@@ -22,6 +22,6 @@ navigation_theme = "white"
 row_alignment = "between"
 theme_color = ""
 title = "testing title field"
-url = "testing URL field"
+slug = "testing slug field"
 
 +++

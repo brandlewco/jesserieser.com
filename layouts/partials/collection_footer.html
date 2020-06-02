@@ -111,45 +111,6 @@
     {{ end }}
     {{ end }}
     </nav>
-
-    <!-- {{ with .PrevInSection }}
-    <nav class="mx-auto flex flex-row justify-between">
-        <a href="{{ .Permalink }}" alt="Previous Project - {{ .Title }}" data-swup-preload>
-        <div class="flex flex-row text-left items-center">
-            <div class="text-6xl font-thin pr-4">
-                &#8249;
-            </div>
-            <div class="">
-                <div class="text-lg sm:text-2xl block font-bold font-light">
-                    {{ .Title }}
-                </div>
-                <div class="text-md sm:text-xl block font-normal font-base leading-relaxed text-left ">
-                    {{.Params.collection_meta}}
-                </div>
-            </div>
-        </div>
-        </a>
-        {{ end }}
-        {{ with .NextInSection }}
-        <a href="{{ .Permalink }}" alt="Next Project - {{ .Title }}" data-swup-preload>
-        <div class="flex flex-row content-end items-center">
-            <div class="">
-                <div class="text-lg sm:text-2xl block font-bold font-light">
-                    {{ .Title }}
-                </div>
-                <div class="text-md sm:text-xl block font-normal font-base leading-relaxed text-right">
-                    {{.Params.collection_meta}}
-                </div>
-            </div>
-            <div class="text-6xl font-thin pl-4">
-                &#8250;
-            </div>
-        </div>
-        </a>
-    </nav>
-    {{ end }} -->
-
-
 </section>
 <a href="#project-header" alt="back to top" data-no-swup>
     <div class="mx-auto w-full mt-32 text-center font-light" style="color: {{.Params.theme_color}};"  data-sal="slide-down" data-sal-delay="300">
@@ -163,8 +124,8 @@
     <div class="mx-auto w-full">
         <aside class="mx-16 xl:mx-32 py-16 text-lg leading-loose {{with .Params.navigation_theme}}text-{{.}}{{end}} border-b-2 border-solid" {{with .Params.navigation_theme}}style="border-color: {{.}}"{{end}}>
             <h1 class="font-bold mb-2 text-md sm:text-xl tracking-relaxed">{{.Params.title}}</h1>
-            <h2 class="mb-12 text-md sm:text-xl tracking-relaxed">{{.Params.collection_meta}}</h2>
-            <article class="leading-relaxed">{{ .Params.collection_content | markdownify }}</article>
+            {{with .Params.collection_meta}}<h2 class="mb-12 text-md sm:text-xl tracking-relaxed">{{.}}</h2>{{end}}
+            {{with .Params.collection_content}}<article class="leading-relaxed">{{ . | markdownify }}</article>{{end}}
         </aside>
     </div>
     <section class="flex flex-wrap p-16 xl:p-32 {{with .Params.navigation_theme}}text-{{.}}{{end}}">

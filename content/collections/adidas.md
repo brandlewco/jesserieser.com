@@ -1,5 +1,5 @@
 +++
-url = "Adidas Basketball Crazy Explosive Primeknit"
+slug = "Adidas Basketball Crazy Explosive Primeknit"
 attached_gallery = "gallery/addidas.md"
 collection_archive = true
 collection_awards = []

@@ -20,7 +20,7 @@ logo = ""
 navigation_theme = "white"
 theme_color = "#FFC1C7"
 title = "Nike Running’s "
-url = "Nike Running’s Fred Kerley "
+slug = "Nike Running’s Fred Kerley "
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"

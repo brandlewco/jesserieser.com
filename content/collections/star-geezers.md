@@ -19,7 +19,7 @@ logo = ""
 navigation_theme = "white"
 theme_color = "#FCE4D0"
 title = "Condor Airlines "
-url = "Condor Airlines The Star Geezers"
+slug = "Condor Airlines The Star Geezers"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"

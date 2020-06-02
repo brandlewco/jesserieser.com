@@ -20,7 +20,7 @@ navigation_theme = "white"
 page = "/collections/amtrak"
 theme_color = "#E0C5B7"
 title = "Amtrak The National"
-url = "Amtrak The National Ted Turner Is On A Mission To Save Everything"
+slug = "Amtrak The National Ted Turner Is On A Mission To Save Everything"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"

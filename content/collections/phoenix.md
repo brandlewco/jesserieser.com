@@ -18,7 +18,7 @@ navigation_theme = "white"
 row_alignment = "between"
 theme_color = "#FF9758"
 title = "Phoenix: A Dystopian LegoLand That Tastes Like Candy"
-url = "Phoenix: A Dystopian LegoLand That Tastes Like Candy"
+slug = "Phoenix: A Dystopian LegoLand That Tastes Like Candy"
 [[collection_awards]]
 content = "**2019**  \n_AP 35: American Photography Annual 35_  \nBest Personal Work Series:"
 template = "popup-text-element"

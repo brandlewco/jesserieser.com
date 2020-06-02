@@ -19,7 +19,7 @@ logo = ""
 navigation_theme = "white"
 theme_color = "#BFD6FC"
 title = "ESPN The Magazine"
-url = "ESPN The Magazine MLB Preview"
+slug = "ESPN The Magazine MLB Preview"
 [[collection_layout_builder]]
 block = "media-row"
 row_alignment = "between"

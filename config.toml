@@ -17,6 +17,9 @@ hrefTargetBlank = false
 [markup.goldmark.renderer]
 unsafe = true
 
+[permalinks]
+collections = "/:section/:slug/"
+
 [params]
 cover = "?nf_resize=fit&w=2560"
 contain = "?nf_resize=fit&w=1280"

@@ -19,7 +19,7 @@ logo = ""
 navigation_theme = "white"
 theme_color = "#CFE7DF"
 title = "Arizona Lottery"
-url = "Arizona Lottery Welcome Back Willie / OH Partners"
+slug = "Arizona Lottery Welcome Back Willie / OH Partners"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"

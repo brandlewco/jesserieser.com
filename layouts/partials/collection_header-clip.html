@@ -10,7 +10,7 @@
     </div>
     <div id="header-pointer" class="absolute bottom-0 mx-0 text-6xl font-light text-{{.Params.navigation_theme}} z-10">
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="50" height="50" viewBox="0 0 256 150">
-        <path d="M242.4 4.5L255.6 17.8 128 145.5 0.4 17.8 13.6 4.5 128 118.9z" style="fill:{{.Params.navigation_theme}} ;" class="path-name"/>
+        <path d="M242.4 4.5L255.6 17.8 128 145.5 0.4 17.8 13.6 4.5 128 118.9z" style="fill:{{.Params.navigation_theme}} ;" class="arrow-down"/>
         </svg>
     </div>
     <div id="page-title" class="fixed z-50 margin-0 left-0 right-0 px-4 sm:px-64 font-light text-{{.Params.navigation_theme}} text-center lazyload" style="top: 50%; transform: translate3d(0, -50%, 0)">
@@ -22,8 +22,8 @@
     </div>
     <!-- <div id="loading-overlay" class="absolute w-full h-screen inset-auto z-10" style="background-color: {{.Params.theme_color}};"></div> -->
 </header>
-<article id="project-description" class="w-full py-8 px-5 sm:px-8 md:px-64 text-lg sm:text-xl text-{{.Params.navigation_theme}} items-center text-justify leading-loose relative z-100"  style="background-color: {{.Params.theme_color}}; backface-visibility: hidden;">
-    <div class="flex flex-col justify-center mx-auto" data-sal="slide-up" data-sal-delay="100">
+<article id="project-description" class="w-full py-8 px-5 sm:px-8 md:px-64 text-lg sm:text-xl text-{{.Params.navigation_theme}} items-center leading-loose relative z-100"  style="background-color: {{.Params.theme_color}}; backface-visibility: hidden;">
+    <div class="flex flex-col justify-center mx-auto text-left {{with .Params.collection_description_alignment}}sm:text-{{.}}{{end}}" data-sal="slide-up" data-sal-delay="100">
             {{ .Params.collection_description | markdownify }}
             {{if (eq .Params.hide_footer true) }}
             {{else}}

@@ -20,7 +20,7 @@ logo = ""
 navigation_theme = "white"
 theme_color = "#BBD8FF"
 title = "New York City"
-url = "New York City GoSkateBoardingDay"
+slug = "New York City GoSkateBoardingDay"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
