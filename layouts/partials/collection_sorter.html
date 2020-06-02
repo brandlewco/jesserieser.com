@@ -1,22 +1,22 @@
 <section id="filters" class="sticky mx-auto px-8 xl:px-16 sm:flex flex-col mb-2 pt-2 z-50 hidden" style="transform:translate3d(0,0,0);background-color:rgba(255,255,255,0.6);">
     <div class="flex flex-col filters">
-      <button id="catToggle" class="toggle text-left tracking-wide font-semibold is-checked">CATEGORIES</button>
+      <button id="catToggle" class="toggle text-left tracking-wide font-semibold is-checked self-start">CATEGORIES</button>
       <div id="categories" class="ui-group collapsible flex flex-wrap pt-4">
         <!-- <button id="all" class="ui-check button w-1/6 text-left" alt="clear filters">All</button> -->
         <div class="ui-group filter-categories pb-4 px-2">
           {{range $.Site.Data.categories}}
           {{range sort .categories "value" "asc"}}
-          <button id="{{. | replaceRE "[\\W]" "" | lower}}" class="bold-hover relative ui-check button w-1/8 italic text-left tracking-wide pl-2" data-filter=".{{. | replaceRE "[\\W]" "" | lower}}">{{.}}</button>
+          <button id="{{. | replaceRE "[\\W]" "" | lower}}" class="bold-hover text-gray-600 relative ui-check button w-1/8 italic text-left tracking-wide pl-2" data-filter=".{{. | replaceRE "[\\W]" "" | lower}}">{{.}}</button>
           {{end}}
           {{end}}
         </div>
       </div>
       <div class="ui-group pb-2">
-        <button id="personal" class="ui-radio button tracking-wide pr-4 font-semibold" data-filter=".personal">PERSONAL</button>
+        <button id="personal" class="ui-radio button tracking-wide pr-4" data-filter=".personal">PERSONAL</button>
           <span class="font-hairline">/</span>
-        <button id="commissionedstock" class="ui-radio px-4 button tracking-wide font-semibold" data-filter=".commissionedstock">COMMISSIONED + STOCK</button>
+        <button id="commissionedstock" class="ui-radio px-4 button tracking-wide" data-filter=".commissionedstock">COMMISSIONED + STOCK</button>
           <span id="all-divide" class="font-hairline opacity-0">|</span>
-        <button id="all" class="ui-radio button tracking-wide pl-4 font-semibold opacity-0" data-filter=".all">BOTH</button>
+        <button id="all" class="ui-radio button tracking-wide pl-4 opacity-0" data-filter=".all">BOTH</button>
       </div>
     </div>
 </section>

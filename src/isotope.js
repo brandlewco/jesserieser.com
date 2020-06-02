@@ -11,8 +11,12 @@ const navigationHeight = navigation.clientHeight;
 const filterWrapper = document.getElementById("filter-container");
 
 imagesLoaded(grid, function() {
-  filterWrapper.style.transform = "translate3d(0, " + navigationHeight + "px, 0)";
-  filterWrapper.style.opacity = 1;
+
+  setTimeout(function() {
+    filterWrapper.style.transform = "translate3d(0, " + navigationHeight + "px, 0)";
+    filterWrapper.style.opacity = 1;
+  }, 500);
+
   var filterContainer = document.getElementById("filter");
   var filterLoading = document.getElementById("filter-loading");
   filterContainer.style.opacity = 1;
@@ -219,7 +223,7 @@ imagesLoaded(grid, function() {
         var filterActive = document.getElementById(element);
         if (filterActive) {
           // filterActive.style.color = filtersTheme;
-          filterActive.classList.add("font-semibold");
+          filterActive.style.color = "#000";
         }
       });
     });
@@ -231,7 +235,7 @@ imagesLoaded(grid, function() {
         var filterActive = document.getElementById(element);
         if (filterActive) {
           // filterActive.style.color = null;
-          filterActive.classList.remove("font-semibold");
+          filterActive.style.color = null;
         }
       });
     });
