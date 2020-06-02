@@ -366,7 +366,7 @@ page_sections:
   title: ESPN Cowboy
   image: https://jesserieser.brandlew.co/uploads/cowboy-4.jpg
   meta: 'Donald Cerronne '
-  attached_collection: ''
+  attached_collection: collections/espn-cowboy-cerronne.md
   color: "#110101"
   align_y: ''
   margin_left: ''
