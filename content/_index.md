@@ -265,7 +265,7 @@ page_sections:
   title: 'Wired '
   color: "#b9a49e"
   margin_y: '200'
-  attached_collection: ''
+  attached_collection: collections/wired.md
   meta: Backpage.com Cover Story
   margin_x: ''
   align_y: ''
@@ -290,7 +290,7 @@ page_sections:
   title_margin_right: 55%
   meta_align: left
   meta: 'Society Magazine (France) '
-  attached_collection: collections/stalking-a-serial-killer.md
+  attached_collection: ''
   image: https://jesserieser.brandlew.co/uploads/serial-6.jpg
   title: Stalking A Serial Killer
   color: "#C0D0E0"
