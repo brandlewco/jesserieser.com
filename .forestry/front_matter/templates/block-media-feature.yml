@@ -22,9 +22,9 @@ fields:
   default: ''
   config:
     required: false
-    wysiwyg: false
+    wysiwyg: true
     schema:
-      format: markdown
+      format: html-blocks
   label: Collection Title
   description: 'html enabled. e.g. &lt;span style="float: right"&gt;ALIGNED RIGHT&lt;/span&gt;'
 - name: meta
