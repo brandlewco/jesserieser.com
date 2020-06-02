@@ -17,7 +17,7 @@ fields:
   label: Color
   name: color
   description: Background color show on image hover
-- name: collection_title
+- name: title
   type: textarea
   default: ''
   config:
