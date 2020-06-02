@@ -225,7 +225,7 @@ page_sections:
   color: "#FAE1D7"
   title: Autobiography of a Contact Sport
   meta: ''
-  attached_collection: ''
+  attached_collection: collections/autobiography.md
   text_color: ''
   text_size: ''
   text_alignment: center
@@ -246,7 +246,7 @@ page_sections:
   meta_align: left
   image: https://jesserieser.brandlew.co/uploads/adicross-12.jpg
   color: "#D1D1D1"
-  attached_collection: collections/adidas-golf.md
+  attached_collection: ''
   title: 'Adidas GOlf '
   meta: ''
   text_color: ''
