@@ -144,7 +144,7 @@ page_sections:
   title: Wired
   color: "#FFE087"
   meta: 'The Hard Luck Texas Town That Bet on Bitcoin and Lost '
-  attached_collection: collections/wired-bitmain.md
+  attached_collection: ''
   text_color: ''
   text_size: ''
   text_alignment: ''
