@@ -14,7 +14,7 @@ page_sections:
   title_margin_right: 0%
   title_margin_y: 15%
   meta_align: left
-  attached_collection: ''
+  attached_collection: collections/phoenix.md
   meta: 2018 - 2020
   image: https://jesserieser.brandlew.co/uploads/rieser_phx-HI-2.jpg
   color: "#A0E1DD"
@@ -49,7 +49,7 @@ page_sections:
   meta_align: left
   image: https://jesserieser.brandlew.co/uploads/retail-cover-1.jpg
   color: "#F2ECDF"
-  attached_collection: collections/retail.md
+  attached_collection: ''
   meta: 2015 - 2018
   title: The Changing Landscape of American Retail
   text_color: "#FF0000"
