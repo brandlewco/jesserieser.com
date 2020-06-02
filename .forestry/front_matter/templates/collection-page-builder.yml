@@ -63,6 +63,21 @@ fields:
     schema:
       format: markdown
   description: Used for the collection header, and google meta data. (300 characters)
+- name: collection_description_alignment
+  type: select
+  default: left
+  config:
+    required: false
+    options:
+    - left
+    - center
+    - right
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Collection Description Alignment
 - name: row_alignment
   type: select
   default: between
