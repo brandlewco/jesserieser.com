@@ -49,7 +49,7 @@ page_sections:
   meta_align: left
   image: https://jesserieser.brandlew.co/uploads/retail-cover-1.jpg
   color: "#F2ECDF"
-  attached_collection: ''
+  attached_collection: collections/retail.md
   meta: 2015 - 2018
   title: The Changing Landscape of American Retail
   text_color: "#FF0000"
@@ -66,7 +66,7 @@ page_sections:
   align_x: end
   margin_y: '500'
   image: https://jesserieser.brandlew.co/uploads/stargeezers-1.jpg
-  attached_collection: collections/star-geezers.md
+  attached_collection: ''
   title: The Star Geezers
   color: "#9bbad5"
   meta: Condor Airlines (Germany)
