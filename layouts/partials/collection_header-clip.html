@@ -1,14 +1,18 @@
 <header id="project-header" class="w-full min-h-screen lazyload flex flex-col items-center overflow-hidden relative z-100" style="background-color: {{.Params.theme_color}};">
     <img data-srcset="{{.Params.collection_cover_mobile }}?nf_resize=fit&w=1024 1024w, {{.Params.collection_cover }}?nf_resize=fit&w=1920 1920w, {{.Params.collection_cover }}?nf_resize=fit&w=2560 2560w, {{.Params.collection_cover }}"
 		 data-sizes="auto"
-		 class="lazyload bg-center h-screen object-cover fixed inset-0 z-0"
+		 class="featured lazyload bg-center h-screen object-cover fixed inset-0 z-0"
          data-parent-fit="cover"
          id="header-image"/>
     <div id="header-overlay" class="absolute w-full h-full inset-auto z-40" style="background-color: {{.Params.theme_color}}; opacity: 0.01;" ></div>
     <div id="header-loading" class="text-center font-semibold absolute inset-x-0 bottom-0 z-50 text-4xl">
         <i class="fad fa-spinner-third fa-spin text-{{.Params.navigation_theme}}"></i>
     </div>
-    <div id="header-pointer" class="absolute bottom-0 mx-0 text-6xl font-light text-{{.Params.navigation_theme}} z-10">&#8964;</div>
+    <div id="header-pointer" class="absolute bottom-0 mx-0 text-6xl font-light text-{{.Params.navigation_theme}} z-10">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="50" height="50" viewBox="0 0 256 150">
+        <path d="M242.4 4.5L255.6 17.8 128 145.5 0.4 17.8 13.6 4.5 128 118.9z" style="fill:{{.Params.navigation_theme}} ;" class="path-name"/>
+        </svg>
+    </div>
     <div id="page-title" class="fixed z-50 margin-0 left-0 right-0 px-4 sm:px-64 font-light text-{{.Params.navigation_theme}} text-center lazyload" style="top: 50%; transform: translate3d(0, -50%, 0)">
         <h1 class="text-2xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold tracking-loosest leading-normal text-center" data-sal="slide-down" data-sal-delay="1000">{{.Title}}</h1>
         <h2 class="uppercase text-lg sm:text-2xl font-light italic tracking-widest text-center mt-2" data-sal="slide-down" data-sal-delay="1500">{{.Params.collection_meta}}</h2>

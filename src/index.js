@@ -154,6 +154,7 @@ function init() {
       // triggers when user clicks on thumbnail
       var onThumbnailsClick = function(e) {
         // UI pre-gallery launch
+        navigation.style.zIndex = 0;
         navigation.style.opacity = 0;
         navigation.style.display = "hidden";
         const figureIMG = document.querySelectorAll(".figure img");
@@ -345,6 +346,8 @@ function init() {
             left: 0,
             behavior: "smooth"
           });
+          navigation.style.zIndex = 110;
+          navigation.style.transform = "translate3d(0, 0px, 0)";
           navigation.style.opacity = 1;
           navigation.style.display = "block";
           const figureIMG = document.querySelectorAll(".figure img");
