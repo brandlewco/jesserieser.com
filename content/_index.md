@@ -23,7 +23,8 @@ page_sections:
   text_tracking: tighter
   text_alignment: left
   line_height: relaxed
-  title: '<p>Phoenix: A Dystopian Legoland</p><p style="text-align: right"> That Tastes Like Candy</p>'
+  title: '<p>Phoenix: A Dystopian Legoland</p><p style="text-align: right"> That Tastes
+    Like Candy</p>'
   text_color: "#FF0000"
 - template: block-modal-blog
   block: modal-blog
@@ -58,6 +59,7 @@ page_sections:
   text_alignment: ''
   text_tracking: widest
   font_weight: hairline
+  line_height: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -67,7 +69,7 @@ page_sections:
   align_x: end
   margin_y: '500'
   image: https://jesserieser.brandlew.co/uploads/stargeezers-1.jpg
-  attached_collection: collections/starting-over.md
+  attached_collection: collections/star-geezers.md
   title: The Star Geezers
   color: "#9bbad5"
   meta: Condor Airlines (Germany)
@@ -83,6 +85,7 @@ page_sections:
   text_alignment: ''
   text_tracking: ''
   font_weight: ''
+  line_height: ''
 - template: block-media-feature
   block: media-feature
   width: '45'
@@ -105,6 +108,7 @@ page_sections:
   text_alignment: ''
   text_tracking: ''
   font_weight: ''
+  line_height: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -128,6 +132,7 @@ page_sections:
   text_alignment: ''
   text_tracking: ''
   font_weight: ''
+  line_height: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -151,6 +156,7 @@ page_sections:
   text_alignment: ''
   text_tracking: ''
   font_weight: ''
+  line_height: ''
 - template: block-media-feature
   block: media-feature
   width: '30'
@@ -173,6 +179,7 @@ page_sections:
   text_alignment: ''
   text_tracking: ''
   font_weight: ''
+  line_height: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -209,6 +216,7 @@ page_sections:
   text_alignment: ''
   text_tracking: ''
   font_weight: ''
+  line_height: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -232,6 +240,7 @@ page_sections:
   text_alignment: center
   text_tracking: ''
   font_weight: ''
+  line_height: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -255,6 +264,7 @@ page_sections:
   text_alignment: ''
   text_tracking: ''
   font_weight: ''
+  line_height: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -280,6 +290,7 @@ page_sections:
   text_alignment: ''
   text_tracking: ''
   font_weight: ''
+  line_height: ''
 - template: block-media-feature
   block: media-feature
   width: '45'
@@ -300,6 +311,7 @@ page_sections:
   text_alignment: ''
   text_tracking: ''
   font_weight: ''
+  line_height: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -333,6 +345,7 @@ page_sections:
   text_alignment: ''
   text_tracking: ''
   font_weight: ''
+  line_height: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -356,6 +369,7 @@ page_sections:
   text_alignment: ''
   text_tracking: ''
   font_weight: ''
+  line_height: ''
 - template: block-media-feature
   block: media-feature
   width: '40'
@@ -376,6 +390,7 @@ page_sections:
   text_alignment: ''
   text_tracking: ''
   font_weight: ''
+  line_height: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
