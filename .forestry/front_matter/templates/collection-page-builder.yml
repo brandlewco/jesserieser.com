@@ -8,11 +8,11 @@ fields:
   label: Layout
   hidden: true
   default: blocks
-- name: url
+- name: slug
   type: text
   config:
     required: false
-  label: URL
+  label: slug
 - type: text
   label: Title
   name: title
