@@ -20,7 +20,7 @@ navigation_theme = "white"
 slug = "ESPN The Magazine Partying With Puig"
 theme_color = "#86D0F7"
 title = "ESPN The Magazine"
-url = "https://jesserieser.com/collections/partying-with-puig/"
+url = "https://jesserieser.com/collections/partying with puig/"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
