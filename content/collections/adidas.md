@@ -1,5 +1,4 @@
 +++
-slug = "Adidas Basketball Crazy Explosive Primeknit"
 attached_gallery = "gallery/addidas.md"
 collection_archive = true
 collection_awards = []
@@ -23,8 +22,10 @@ logo = "https://jesserieser.brandlew.co/uploads/logo-adidas-8.png"
 navigation_theme = "white"
 page = "/collections/addidas"
 row_alignment = ""
+slug = "Adidas Basketball Crazy Explosive Primeknit"
 theme_color = "#F4E9A8"
 title = "Adidas Basketball"
+url = "https://jesserieser.com/collections/adidas basketball/"
 [[collection_layout_builder]]
 align_x = "start"
 align_y = ""
