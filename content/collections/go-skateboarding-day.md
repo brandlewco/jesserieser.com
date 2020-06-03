@@ -18,9 +18,10 @@ hide_footer = true
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
+slug = "New York City GoSkateBoardingDay"
 theme_color = "#BBD8FF"
 title = "New York City"
-slug = "New York City GoSkateBoardingDay"
+url = "https://jesserieser.com/collections/go skateboarding day/"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
