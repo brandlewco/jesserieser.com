@@ -12,7 +12,8 @@ fields:
   type: text
   config:
     required: false
-  label: slug
+  label: Slug
+  description: the last part of the url https://jesserieser.com/SLUG
 - type: text
   label: Title
   name: title
