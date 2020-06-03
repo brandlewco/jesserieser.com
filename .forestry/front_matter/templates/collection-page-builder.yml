@@ -13,7 +13,7 @@ fields:
   config:
     required: false
   label: Slug
-  description: the last part of the url https://jesserieser.com/SLUG
+  description: the last part of the url https://jesserieser.com/SLUG<br>e.g. collection/slug
 - type: text
   label: Title
   name: title
