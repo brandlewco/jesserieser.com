@@ -16,10 +16,9 @@ hide_footer = false
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-slug = "Time Magazine Grand Canyon 100th Anniversary "
+slug = "time magazine grand canyon 100th anniversary"
 theme_color = "#EEDDDD"
 title = "Time Magazine"
-url = "https://jesserieser.com/collections/time magazine grand canyon 100th anniversary/"
 [[collection_awards]]
 content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
 template = "popup-text-element"

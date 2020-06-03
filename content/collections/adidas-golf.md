@@ -15,10 +15,9 @@ hide_footer = false
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-slug = "Adidas Golf: Adicross Dustin Johnson, Xander Schaufelle, & Sergio Garcia"
+slug = "adidas golf adicross"
 theme_color = "#B8EEBC"
 title = "Adidas Golf: Adicross"
-url = "https://jesserieser.com/collections/adidas golf adicross/"
 [[collection_awards]]
 content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
 template = "popup-text-element"
