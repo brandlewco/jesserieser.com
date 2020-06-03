@@ -15,10 +15,11 @@ date = 2019-06-18T07:00:00Z
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
+slug = "Wired Magazine The Hard-Luck Texas Town That Bet on Bitcoin and Lost"
 test_repeater = []
 theme_color = "#D2DEE7"
 title = "Wired Magazine"
-slug = "Wired Magazine The Hard-Luck Texas Town That Bet on Bitcoin and Lost"
+url = "https://jesserieser.com/collections/wired magazine 2/"
 [[collection_exhibition]]
 content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
 template = "popup-text-element"
