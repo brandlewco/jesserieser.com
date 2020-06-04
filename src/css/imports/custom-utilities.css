@@ -26,6 +26,10 @@ p {
   @apply mb-4 !important;
 }
 
+h3 p {
+  @apply mb-0 !important;
+}
+
 body.page-collections #navigation {
   /* position: relative !important; */
   background-color: rgba(255, 255, 255, 0.6);
@@ -35,10 +39,9 @@ body.page-jesse-rieser #menu #nav-selected, body.page-collections #menu #nav-col
   @apply font-medium tracking-widest;
 }
 
-a[target=_blank] {
+a[target=_blank], a[href^="mailto:"], a[href^="tel:"] {
   @apply underline;
 }
-
 
 /* body.page-jesse-rieser #menu #nav-about {
   @apply font-medium tracking-wider;
@@ -332,6 +335,7 @@ img.lazyload, img.lazyload-delay {
 /* body.archive #project-header {
   background-color: #000 !important;
 } */
+
 
 .block-hover img {
   transition-delay: 0s;
