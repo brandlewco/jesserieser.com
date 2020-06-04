@@ -4,10 +4,10 @@ module.exports = {
   separator: ":",
   theme: {
     screens: {
-      "sm": "1024px",
-      "md": "1440px",
-      "lg": "2048px",
-      "xl": "2600px",
+      "sm": "1020px",
+      "md": "1430px",
+      "lg": "2040px",
+      "xl": "2500px",
       // "md": "1600px",
       // "lg": "2000px",
       // "xl": "2600px",
