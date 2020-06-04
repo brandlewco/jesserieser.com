@@ -18,7 +18,7 @@ hrefTargetBlank = false
 unsafe = true
 
 [permalinks]
-collections = "/:section/:slug/"
+collections = "/:slug/"
 
 [params]
 cover = "?nf_resize=fit&w=2560"

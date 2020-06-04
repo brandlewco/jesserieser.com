@@ -4,10 +4,13 @@ module.exports = {
   separator: ":",
   theme: {
     screens: {
-      "sm": "1200px",
-      "md": "1600px",
-      "lg": "2000px",
+      "sm": "1024px",
+      "md": "1440px",
+      "lg": "2048px",
       "xl": "2600px",
+      // "md": "1600px",
+      // "lg": "2000px",
+      // "xl": "2600px",
     },
     colors: {
       transparent: "transparent",
