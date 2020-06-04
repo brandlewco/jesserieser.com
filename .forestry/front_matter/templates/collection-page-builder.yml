@@ -30,9 +30,6 @@ fields:
     required: false
   label: Collection Meta 2
   description: secondary meta
-- type: datetime
-  name: date
-  label: Publish Date
 - type: file
   name: collection_cover
   label: Cover Image
@@ -183,6 +180,10 @@ fields:
   type: boolean
   label: Archive
   description: Archive Collection to remove it from the flow of featured collections
+- type: datetime
+  name: date
+  label: Publish Date
+  hidden: true
 - name: collection_hidden
   type: boolean
   label: Hide Collection
