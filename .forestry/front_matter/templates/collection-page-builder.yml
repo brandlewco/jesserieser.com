@@ -8,15 +8,16 @@ fields:
   label: Layout
   hidden: true
   default: blocks
-- name: slug
-  type: text
-  config:
-    required: false
-  label: Slug
-  description: the last part of the url https://jesserieser.com/SLUG<br>e.g. collection/slug
 - type: text
   label: Title
   name: title
+- name: slug
+  type: text
+  config:
+    required: true
+  label: Slug
+  description: the last part of the url<br>e.g. collections/work-title
+  default: ''
 - name: collection_meta
   type: text
   config:
