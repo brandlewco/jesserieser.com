@@ -704,7 +704,7 @@ a.collection-next .arrow {
     transform: translate3d(0px, 0px, 0px) !important;
   }
   header#project-header img.featured {
-    mask-size: 75% auto;
+    mask-size: 50% auto;
   }
 /* 
   .sal-off {
