@@ -44,6 +44,11 @@ fields:
     schema:
       format: markdown
   hidden: true
+- name: header_col_1_title
+  type: text
+  config:
+    required: false
+  label: Header Column 1 Title
 - name: header_col_1
   type: textarea
   default: ''
@@ -53,6 +58,11 @@ fields:
     schema:
       format: markdown
   label: Header Column 1
+- name: header_col_2_title
+  type: text
+  config:
+    required: false
+  label: Header Column 2 Title
 - name: header_col_2
   type: textarea
   default: ''
@@ -62,6 +72,11 @@ fields:
     schema:
       format: markdown
   label: Header Column 2
+- name: header_col_3_title
+  type: text
+  config:
+    required: false
+  label: Header Column 3 Title
 - name: header_col_3
   type: textarea
   default: ''
