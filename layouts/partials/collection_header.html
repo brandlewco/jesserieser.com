@@ -13,17 +13,17 @@
         <path d="M242.4 4.5L255.6 17.8 128 145.5 0.4 17.8 13.6 4.5 128 118.9z" style="fill:{{.Params.navigation_theme}} ;" class="arrow-down"/>
         </svg>
     </div>
-    <div id="page-title" class="fixed z-50 margin-0 left-0 right-0 px-4 sm:px-64 font-light text-{{.Params.navigation_theme}} text-center lazyload" style="top: 50%; transform: translate3d(0, -50%, 0)">
-        <h1 class="text-2xl sm:text-6xl lg:text-7xl xl:text-10xl font-bold tracking-loosest leading-normal text-center" data-sal="slide-down" data-sal-delay="1000">{{.Title}}</h1>
-        <h2 class="uppercase text-lg sm:text-2xl font-light italic tracking-widest text-center mt-2" data-sal="slide-down" data-sal-delay="1500">{{.Params.collection_meta}}</h2>
+    <div id="page-title" class="fixed z-50 margin-0 left-0 right-0 px-4 lg:px-64 font-light text-{{.Params.navigation_theme}} text-center lazyload" style="top: 50%; transform: translate3d(0, -50%, 0)">
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold tracking-loose sm:tracking-loosest leading-normal text-center" data-sal="slide-down" data-sal-delay="1000">{{.Title}}</h1>
+        <h2 class="uppercase text-lg sm:text-2xl md:text-3xl lg:text-4xl font-light italic tracking-widest text-center mt-2" data-sal="slide-down" data-sal-delay="1500">{{.Params.collection_meta}}</h2>
         {{with .Params.collection_meta_2}}
-        <h3 class="uppercase text-lg sm:2xl font-light italic tracking-widest text-center  mt-2" data-sal="slide-down" data-sal-delay="1500">{{.}}</h2>
+        <h3 class="uppercase text-base sm:text-xl md:text-2xl lg:text-3xl font-light italic tracking-widest text-center  mt-2" data-sal="slide-down" data-sal-delay="1500">{{.}}</h2>
         {{end}}
     </div>
     <!-- <div id="loading-overlay" class="absolute w-full h-screen inset-auto z-10" style="background-color: {{.Params.theme_color}};"></div> -->
 </header>
-<article id="project-description" class="w-full py-8 px-5 sm:px-8 md:px-64 text-lg sm:text-xl text-{{.Params.navigation_theme}} items-center leading-loose relative z-100"  style="background-color: {{.Params.theme_color}}; backface-visibility: hidden;">
-    <div class="flex flex-col justify-center mx-auto text-left {{with .Params.collection_description_alignment}}sm:text-{{.}}{{end}}" data-sal="slide-up" data-sal-delay="100">
+<article id="project-description" class="w-full py-8 px-8 sm:px-32 lg:px-64 text-lg md:text-xl text-{{.Params.navigation_theme}} items-center leading-loose relative z-100"  style="background-color: {{.Params.theme_color}}; backface-visibility: hidden;">
+    <div class="flex flex-col justify-center mx-auto text-left {{with .Params.collection_description_alignment}}md:text-{{.}}{{end}}" data-sal="slide-up" data-sal-delay="100">
             {{ .Params.collection_description | markdownify }}
             {{if (eq .Params.hide_footer true) }}
             {{else}}

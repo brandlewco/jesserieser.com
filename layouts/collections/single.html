@@ -1,6 +1,6 @@
 {{- define "main" -}}
     <section data-hue="{{with .Params.navigation_theme}}{{.}}{{end}}" class="relative z-0">
-    {{ partial "collection_header-clip" .}}
+    {{ partial "collection_header" .}}
     </section>
     <section data-hue="page" class="pt-8 mx-auto bg-white relative z-100 overflow-y-hidden" style="backface-visibility: hidden;">
         <div class="my-gallery px-8 xl:px-16" itemscope itemtype="http://schema.org/ImageGallery">
