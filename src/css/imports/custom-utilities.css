@@ -7,6 +7,21 @@ html {
   box-sizing: inherit;
 }
 
+html::-webkit-scrollbar, .scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #c8c8c8 #ffffff;
+}
+html::-webkit-scrollbar-track, .scrollbar::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+html::-webkit-scrollbar-thumb, .scrollbar::-webkit-scrollbar-thumb {
+  background-color: #c8c8c8;
+}
+
+
 p {
   @apply mb-4 !important;
 }
@@ -20,6 +35,11 @@ body.page-jesse-rieser #menu #nav-selected, body.page-collections #menu #nav-col
   @apply font-medium tracking-widest;
 }
 
+a[target=_blank] {
+  @apply underline;
+}
+
+
 /* body.page-jesse-rieser #menu #nav-about {
   @apply font-medium tracking-wider;
 } */
@@ -28,6 +48,7 @@ body {
   background-color: #fff;
   transition: 0.33s background-color cubic-bezier(0.55, 0.055, 0.675, 0.19);
   transition-delay: 0.15s;
+  scrollbar-width: none;
 }
 
 html.is-animating img {
@@ -659,9 +680,6 @@ a.collection-next .arrow {
   .vh-screen {
     height: 100vh;
   }
-  .rellax-off {
-    transform: translate3d(0px, 0px, 0px) !important;
-  }
   .rellax-on {
     transform: translate3d(0px, 0px, 0px);
   }
@@ -672,13 +690,15 @@ a.collection-next .arrow {
   will-change: transform;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 1024px) {
   .rellax,
   img.rellax + figcaption {
     margin-left: 0 !important;
     margin-right: 0 !important;
   }
-
+  .rellax-off {
+    transform: translate3d(0px, 0px, 0px) !important;
+  }
   header#project-header img.featured {
     mask-size: 75% auto;
   }

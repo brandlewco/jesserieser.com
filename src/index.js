@@ -51,8 +51,19 @@ const swup = new Swup(options);
 swup.on("contentReplaced", init);
 
 function init() {
+  const body = document.body;
   const navigation = document.getElementById("navigation");
   const navigationHeight = navigation.clientHeight;
+  const content = document.getElementById("content");
+  const documentWidth = document.documentElement.clientWidth;
+  // const documentScrollTop = document.documentElement.scrollTop;
+  // console.log(documentScrollTop);
+
+  const setUp = () => {
+    console.log("// built by brett lewis");
+    console.log("// hello@brandlew.co");
+  };
+  setUp();
 
   // MIDDAY
   const middayNav = new Midday(document.getElementById("navigation"), {
@@ -404,6 +415,33 @@ function init() {
   }
   removeActive();
 
+  // Paginated Gallery Function
+  function initPaginatedGallery(selector) {
+    lazyloadToggle();
+    var paginatedGallery = selector.querySelector(".paginated_gallery");
+    if (paginatedGallery) {
+      var gallery_scroller = paginatedGallery.querySelector(".gallery_scroller");
+      var gallery_scroller_size = gallery_scroller.clientWidth;
+      var gallery_prev = paginatedGallery.querySelector(".prev");
+      var gallery_next = paginatedGallery.querySelector(".next");
+      console.log(gallery_scroller_size);
+      gallery_prev.addEventListener("click", () => {
+        gallery_scroller.scrollBy({
+          top: 0,
+          left: -gallery_scroller_size,
+          behavior: "smooth"
+        });
+      });
+      gallery_next.addEventListener("click", () => {
+        gallery_scroller.scrollBy({
+          top: 0,
+          left: gallery_scroller_size,
+          behavior: "smooth"
+        });
+      });
+    }
+  }
+
   // Modal
   const modalTriggers = document.querySelectorAll(".popup-trigger");
   modalTriggers.forEach((trigger) => {
@@ -413,54 +451,34 @@ function init() {
       navigation.classList.remove("active");
       navigation.style.opacity = 0;
       navigation.style.display = "none";
-      scrollLock();
       // document.body.style.overflowY = "hidden";
       popupModal.style.opacity = 1;
       popupModal.style.visibility = "visible";
       popupModal.classList.add("is--visible");
+      scrollLock();
+      setTimeout(function() {
+        initPaginatedGallery(popupModal);
+      }, 250);
       // bodyPopup.classList.add("is-poped-out");
       // popupModal.addEventListener("scroll", function() {
       //   rellax.refresh();
       // });
-      lazyloadToggle();
 
-      // Blog Gallery
-      var paginatedGallery = popupModal.querySelector(".paginated_gallery");
-      if (paginatedGallery) {
-        var gallery_scroller = paginatedGallery.querySelector(".gallery_scroller");
-        var gallery_scroller_size = gallery_scroller.clientWidth;
-        var gallery_prev = paginatedGallery.querySelector(".prev");
-        var gallery_next = paginatedGallery.querySelector(".next");
-        // console.log(gallery_scroller, gallery_scroller_size);
-        gallery_prev.addEventListener("click", () => {
-          gallery_scroller.scrollBy({
-            top: 0,
-            left: -gallery_scroller_size,
-            behavior: "smooth"
-          });
-        });
-        gallery_next.addEventListener("click", () => {
-          gallery_scroller.scrollBy({
-            top: 0,
-            left: gallery_scroller_size,
-            behavior: "smooth"
-          });
-        });
-      }
       var navToggle = document.getElementsByClassName("navToggle");
       Array.prototype.forEach.call(navToggle, function(nav) {
         nav.classList.remove("toggle-active");
       });
     });
 
+
     // modal close methods
     popupModal.querySelector(".popup-modal__close").addEventListener("click", () => {
-      scrollUnlock();
       navigation.style.opacity = 1;
       navigation.style.display = "block";
       popupModal.style.opacity = 0;
       popupModal.style.visibility = "hidden";
       popupModal.classList.remove("is--visible");
+      scrollUnlock();
     });
 
     document.addEventListener("keyup", function(event) {
@@ -480,23 +498,23 @@ function init() {
   });
 
   // Inner Modal
-  const innerModalTriggers = document.querySelectorAll(".inner-popup-trigger");
-  innerModalTriggers.forEach((trigger) => {
-    const {innerPopupTrigger} = trigger.dataset;
-    const innerPopupModal = document.querySelector(`[data-inner-popup-modal="${innerPopupTrigger}"]`);
-    trigger.addEventListener("click", () => {
-      innerPopupModal.classList.add("is--visible");
-      innerPopupModal.style.visibility = "visible";
-      innerPopupModal.style.opacity = 1;
-      scrollLock();
-    });
-    innerPopupModal.querySelector(".popup-modal__close").addEventListener("click", () => {
-      innerPopupModal.classList.remove("is--visible");
-      innerPopupModal.style.visibility = "hidden";
-      innerPopupModal.style.opacity = 0;
-      scrollUnlock();
-    });
-  });
+  // const innerModalTriggers = document.querySelectorAll(".inner-popup-trigger");
+  // innerModalTriggers.forEach((trigger) => {
+  //   const {innerPopupTrigger} = trigger.dataset;
+  //   const innerPopupModal = document.querySelector(`[data-inner-popup-modal="${innerPopupTrigger}"]`);
+  //   trigger.addEventListener("click", () => {
+  //     innerPopupModal.classList.add("is--visible");
+  //     innerPopupModal.style.visibility = "visible";
+  //     innerPopupModal.style.opacity = 1;
+  //     scrollLock();
+  //   });
+  //   innerPopupModal.querySelector(".popup-modal__close").addEventListener("click", () => {
+  //     innerPopupModal.classList.remove("is--visible");
+  //     innerPopupModal.style.visibility = "hidden";
+  //     innerPopupModal.style.opacity = 0;
+  //     scrollUnlock();
+  //   });
+  // });
 
   // Generic Button Toggle
   var buttons = document.getElementsByClassName("toggle");
@@ -522,7 +540,6 @@ function init() {
     });
   });
 
-  const body = document.body;
   // Scroll Lock / Unlock
   const scrollLock = () => {
     body.style.overflowY = "hidden";

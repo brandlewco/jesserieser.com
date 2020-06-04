@@ -14,32 +14,6 @@
 </section>
 {{- end -}}
 {{- define "attached" -}}
-<!-- <style>
-  #content {
-    opacity: 0;
-  }
-  body::before {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    display: block;
-    content: "";
-    z-index: -1;
-    animation: background 1.5s forwards infinite;
-  }
-
-  @keyframes background {
-    {{ $.Scratch.Set "counter" 0 }}
-  {{range sort .Params.selected_works_theme}}
-    {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 25) }} {{$.Scratch.Get "counter"}}% {
-    background-color: {{.theme_color}};
-  }
-  {{end}}
-
-}
-</style> -->
 <script>
   (function(){
     var images = [
@@ -59,6 +33,7 @@
     const projectDescription = document.getElementById("project-description");
     const toTop = document.getElementById("to-top");
     const featureOverlay = document.getElementById("feature-overlay");
+
     projectHeader.style.backgroundColor = imgURL[1];
     projectDescription.style.backgroundColor = imgURL[1];
     document.querySelectorAll(".shift").forEach(function(button) {

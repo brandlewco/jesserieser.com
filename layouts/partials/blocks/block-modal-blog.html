@@ -10,8 +10,8 @@
   <h6 class="mb-0 ml-0 text-black uppercase tracking-widest">{{range $key.Params.news_category}}{{. | replaceRE "[\\W]" "" | lower}} {{end}}</h6>
 </section>
 
-<article class="popup-modal flex flex-col fixed z-999 text-black bg-white overflow-y-scroll overflow-x-hidden h-full w-full inset-0" data-popup-modal="{{$key.Params.title | lower | urlize}}" style="visibility: hidden; opacity: 0;">
-  <div class="w-full px-12 sm:px-32">
+<article class="popup-modal scrollbar flex flex-col fixed z-999 text-black bg-white overflow-y-scroll overflow-x-hidden h-full w-full inset-0" data-popup-modal="{{$key.Params.title | lower | urlize}}" style="visibility: hidden; opacity: 0;">
+  <div class="w-full px-12 sm:px-40">
     <div class="flex flex-row justify-between py-6">
       <div class="text-xl sm:text-2xl uppercase font-medium text-center text-black">JESSE RIESER</div>
       <div class="text-lg sm:text-xl uppercase font-medium text-center text-black">NEWS: <span class="italic font-normal">{{range $key.Params.news_category}}{{.}}{{end}}</span></div>

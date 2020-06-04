@@ -16,10 +16,10 @@ page_sections:
   block: media-text
   text_size: 2xl
   text_tracking: wide
-  width: '45'
+  width: '33'
   align_y: start
-  margin_y: '100'
-  margin_left: 50%
+  margin_y: '0'
+  margin_left: 40%
   margin_right: 0%
   text: "**MY NAME IS JESSE RIESER  \nAND I AM A STUDENT OF SUBTLETIES.**\n\nSince
     I was 17 I have been looking through a lens, making images filed with telling
@@ -753,7 +753,7 @@ page_sections:
   title_margin_left: 0%
   title_margin_right: 0%
   title: Clients
-  color: "#ffffff"
+  color: "#9DC2BE"
   modal_block:
   - template: popup-text-element
     icon: https://jesserieser.brandlew.co/uploads/logos-1.jpg

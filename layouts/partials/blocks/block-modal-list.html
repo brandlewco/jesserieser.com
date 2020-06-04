@@ -1,29 +1,31 @@
-<section class="block-hover relative self-start {{with .Section.align_y}}sm:self-{{.}}{{end}} w-full {{with .Section.width}}sm:w-{{.}}/100{{end}} mt-4 {{with .Section.margin_y}}sm:mt-{{.}}{{end}} ml-0 {{with .Section.margin_left}}sm:ml-{{.}}{{end}} mr-0 {{with .Section.margin_right}}sm:mr-{{.}}{{end}} highlight rellax-wrapper">
-    <button type="button" class="inner-popup-trigger flex flex-col relative w-full" data-inner-popup-trigger="{{.Section.title | lower}}">
-    <figure class="relative"  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" data-sal="image" style="background: {{with .Section.color}}{{.}}{{else}}{{.Page.Params.theme_color}}{{end}};">
+<article class="block-hover relative self-start {{with .Section.align_y}}sm:self-{{.}}{{end}} w-full {{with .Section.width}}sm:w-{{.}}/100{{end}} mt-4 {{with .Section.margin_y}}sm:mt-{{.}}{{end}} ml-0 {{with .Section.margin_left}}sm:ml-{{.}}{{end}} mr-0 {{with .Section.margin_right}}sm:mr-{{.}}{{end}} highlight rellax-wrapper">
+  <button type="button" class="popup-trigger flex flex-col relative w-full" data-popup-trigger="{{.Section.title | lower}}">
+  <figure class="figure relative" style="background: {{with .Section.color}}{{.}}{{else}}{{.Page.Params.theme_color}}{{end}};" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" data-sal="image">
         <img class="lazyload" src="{{ .Section.image }}?nf_resize=fit&w=1024" data-src="{{ .Section.image }}?nf_resize=fit&w=1024" alt="{{ .Section.title }}"/>
-      {{ if .Section.title }}
-      <figcaption class="absolute w-full z-10 px-4 sm:px-auto sm:ml-0 mb-0 rellax" style="pointer-events:none; top: 35%; {{with .Section.title_margin_left}}margin-left:{{.}};{{end}} {{with .Section.title_margin_right}}margin-right:{{.}};{{end}}" data-rellax-speed="2" data-rellax-percentage="0">
-        <h2 class="text-white sm:text-black uppercase text-4xl sm:text-6xl tracking-widest font-semibold text-left sm:text-center">{{ .Section.title }}</h2>
-      </figcaption>
+    {{ if .Section.title }}
+    <figcaption class="absolute w-100 z-10 rellax px-4 sm:px-auto sm:ml-0 mb-0 text-left {{with .Section.text_alignment}}sm:text-{{.}}{{end}}" style="pointer-events:none; {{with .Section.title_margin_y}}top:{{.}};{{else}}top: 35%;{{end}} {{with .Section.title_margin_left}}margin-left:{{.}};{{end}} {{with .Section.title_margin_right}}margin-right:{{.}};{{end}}" data-rellax-speed="4" data-rellax-xs-speed="1">
+      <h2 class="text-4xl {{with .Section.text_size }}sm:text-{{.}}{{else}}sm:text-6xl{{end}} {{with .Section.text_tracking }}tracking-{{.}}{{end}} {{with .Section.font_weight }}font-{{.}}{{end}} {{with .Section.line_height }}leading-{{.}}{{else}}leading-normal{{end}} text-white sm:text-black" style="color:{{with .Section.text_color }}{{.}}{{end}}">{{ .Section.title | markdownify}}</h2>
+      {{ if .Section.meta }}
+      <h6 class="mb-0 ml-0 text-black uppercase tracking-widest {{with .Section.meta_align}}text-{{.}}{{end}}">{{ .Section.meta }}</h6>
       {{ end }}
-    </figure>   
+    </figcaption>
+    {{ end }}
+  </figure>
   </button>
-</section>
+</article>
 
-<div class="popup-modal fixed z-999 text-white flex flex-col overflow-y-scroll h-full w-full inset-0" style="visibility: hidden; opacity: 0; background: {{ .Section.color }};" data-inner-popup-modal="{{.Section.title | lower}}">
-  <header class="fixed top-0 left-0 w-full flex flex-row justify-between p-4" style="background: {{ .Section.color }};" >
-    <div class="text-xl uppercase font-medium">{{ .Section.title }}</div>
-    <div>
-      <svg class="icon pointer h-8 w-8 m-4 absolute top-0 right-0 text-white popup-modal__close"><use xlink:href="#close"></use></svg>
-    </div>
+<div class="popup-modal fixed z-999 text-white flex flex-col overflow-y-hidden h-full w-full inset-0 " style="visibility: hidden; opacity: 0; background: {{ .Section.color }};" data-popup-modal="{{.Section.title | lower}}">
+  <svg class="icon pointer h-8 w-8 m-4 absolute top-0 right-0 text-white popup-modal__close z-999"><use xlink:href="#close"></use></svg>
+  <header class="fixed top-0 left-0 w-full flex flex-row justify-between p-4" style="background: {{ .Section.color }};">
+    <div class="text-xl sm:text-2xl uppercase font-medium mx-12 sm:mx-40 pb-4 w-full border-white border-b-2 border-solid">{{ .Section.title }}</div>
   </header>
-  <section class="flex flex-wrap pa-2 mt-12 w-100 overflow-y-scroll">
+  <section class="flex flex-wrap mt-24 w-100 overflow-y-scroll scrollbar px-12 sm:px-40">
     {{- range .Section.modal_block -}}
-      <article class="w-full sm:w-1/3 px-4 py-3 border-b-2 border-solid border-white sm:border-b-0">
+      <article class="w-full sm:w-1/3 px-4 py-3">
         {{with .icon}}<img src="{{.}}" class="h-8 lg:h-12 w-auto">{{else}}{{ .content | markdownify }}{{end}}
       </article>
     {{- end -}}
   </section>
 </div>
+
 <!-- https://codepen.io/kimpetersend1/pen/LajgaW -->
