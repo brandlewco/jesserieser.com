@@ -17,7 +17,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-slug = "star geezers"
+slug = "collections/star-geezers"
 theme_color = "#FCE4D0"
 title = "Condor Airlines "
 [[collection_layout_builder]]
