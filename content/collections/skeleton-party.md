@@ -20,7 +20,7 @@ logo = ""
 navigation_theme = "white"
 slug = "collections/skeleton-party"
 theme_color = "#B8EEBC"
-title = "skeleton party"
+title = "Skeleton Party"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
