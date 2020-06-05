@@ -22,7 +22,7 @@ logo = "https://jesserieser.brandlew.co/uploads/logo-adidas-8.png"
 navigation_theme = "white"
 page = "/collections/addidas"
 row_alignment = ""
-slug = "adidas basketball"
+slug = "collections/adidas-basketball"
 theme_color = "#F4E9A8"
 title = "Adidas Basketball"
 [[collection_layout_builder]]
