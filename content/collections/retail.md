@@ -15,7 +15,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-slug = "changing landscape american retail"
+slug = "projects/changing-landscape-american-retail"
 theme_color = "#E9DCD0"
 title = "The Changing Landscape of American Retail"
 [[collection_awards]]
