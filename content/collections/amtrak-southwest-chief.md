@@ -18,7 +18,7 @@ layout = "blocks"
 logo = ""
 navigation_theme = "white"
 page = "/collections/amtrak-chief"
-slug = "southwest chief"
+slug = "collections/southwest-chief"
 theme_color = "#E3D2E7"
 title = "Amtrak The National "
 [[collection_layout_builder]]
