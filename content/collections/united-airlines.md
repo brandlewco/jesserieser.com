@@ -17,7 +17,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-slug = "united airlines rhapsody"
+slug = "collections/united-airlines-rhapsody"
 theme_color = "#B9C5D0"
 title = "United Airlines Rhapsody"
 [[collection_layout_builder]]

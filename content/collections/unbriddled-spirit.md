@@ -16,7 +16,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-slug = "cowboy curt"
+slug = "collections/cowboy-curt/"
 theme_color = "#C6ACD2"
 title = "Phoenix Home & Garden"
 [[collection_awards]]
