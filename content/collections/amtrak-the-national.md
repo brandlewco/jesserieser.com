@@ -18,7 +18,7 @@ layout = "blocks"
 logo = ""
 navigation_theme = "white"
 page = "/collections/amtrak"
-slug = "amtrak the national"
+slug = "collections/amtrak-the-national"
 theme_color = "#E0C5B7"
 title = "Amtrak The National"
 [[collection_layout_builder]]
