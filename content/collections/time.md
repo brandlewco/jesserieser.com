@@ -16,7 +16,7 @@ hide_footer = false
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-slug = "time magazine grand canyon 100th anniversary"
+slug = "collections/time-magazine-grand-canyon-100th-anniversary"
 theme_color = "#EEDDDD"
 title = "Time Magazine"
 [[collection_awards]]
