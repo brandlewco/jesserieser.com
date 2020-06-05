@@ -1,7 +1,7 @@
 ---
 label: Collections - Page Builder
 hide_body: true
-display_field: url
+display_field: slug
 fields:
 - type: text
   name: layout
