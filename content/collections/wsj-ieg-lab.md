@@ -17,7 +17,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-slug = "wall street journal 2"
+slug = "collections/wall-street-journal-2"
 theme_color = "#E2EADE"
 title = "The Wall Street Journal"
 [[collection_layout_builder]]
