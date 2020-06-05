@@ -16,7 +16,7 @@ layout = "blocks"
 logo = ""
 navigation_theme = "white"
 row_alignment = "between"
-slug = "phoenix"
+slug = "projects/phoenix"
 theme_color = "#FF9758"
 title = "Phoenix: A Dystopian LegoLand That Tastes Like Candy"
 [[collection_awards]]
