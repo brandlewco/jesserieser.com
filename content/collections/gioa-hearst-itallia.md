@@ -16,7 +16,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-slug = "paris"
+slug = "collections/paris"
 theme_color = "#F4BEFF"
 title = "Hearst Itallia"
 [[collection_awards]]
