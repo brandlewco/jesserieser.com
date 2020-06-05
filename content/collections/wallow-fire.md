@@ -14,7 +14,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-slug = "the wallow fire"
+slug = "projects/the-wallow-fire"
 theme_color = "#D8E1E1"
 title = "The Wallow Fire"
 [[collection_awards]]
