@@ -17,7 +17,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-slug = "collections/Arizona Lottery"
+slug = "collections/Arizona-Lottery"
 theme_color = "#CFE7DF"
 title = "Arizona Lottery"
 [[collection_layout_builder]]
