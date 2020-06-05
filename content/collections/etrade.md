@@ -17,7 +17,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-slug = "etrade"
+slug = "collections/etrade"
 theme_color = "#D7C6AD"
 title = "E*Trade"
 [[collection_layout_builder]]
