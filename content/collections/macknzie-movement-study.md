@@ -18,7 +18,7 @@ hide_footer = true
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-slug = "collections/Mackenzie Gossage"
+slug = "collections/Mackenzie-Gossage"
 theme_color = "#9394AD"
 title = "Mackenzie Gossage"
 [[collection_layout_builder]]
