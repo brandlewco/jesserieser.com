@@ -17,7 +17,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-slug = "espn"
+slug = "collections/espn"
 theme_color = "#161518"
 title = "ESPN"
 [[collection_layout_builder]]
