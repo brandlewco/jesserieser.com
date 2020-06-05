@@ -17,7 +17,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-slug = "partying with puig"
+slug = "collections/partying-with-puig"
 theme_color = "#86D0F7"
 title = "ESPN The Magazine"
 [[collection_layout_builder]]
