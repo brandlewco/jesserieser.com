@@ -14,7 +14,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-slug = "The Class of 99 Turns 30 2009 - 2010"
+slug = "projects/the-class-of-99-turns-30"
 theme_color = "#D4725F"
 title = "The Class of 99 Turns 30"
 [[collection_awards]]
