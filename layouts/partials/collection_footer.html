@@ -3,7 +3,7 @@
     <!-- RUN RANGE JUST FOR LAST ITEM IN COLLECTION TO COMPLETE PAGER LOOP -->
     {{ $currentPage := .Permalink }}
     {{ range .Site.Data.categories}}
-    {{ range last 1 .collection_sorter}}
+    {{ range last 1 .collection_pager}}
     {{ with $.Site.GetPage . }} 
     {{ if eq .Params.collection_archive true }}
     <a href="{{ .Permalink }}" class="hidden first" alt="{{ .Title }}">
@@ -29,7 +29,7 @@
     <!-- RUN RANGE OF EVERY COLLECTION - NO ARCHIVES -->
     {{ $currentPage := .Permalink }}
     {{ range .Site.Data.categories}}
-    {{ range .collection_sorter}}
+    {{ range .collection_pager}}
     {{ with $.Site.GetPage . }} 
     {{ if eq .Params.collection_archive false }}
     {{ if eq $currentPage .Permalink }}
@@ -58,7 +58,7 @@
 
     <!-- RUN RANGE OF ARCHIVE -->
     {{ range .Site.Data.categories}}
-    {{ range .collection_sorter}}
+    {{ range .collection_pager}}
     {{ with $.Site.GetPage . }} 
     {{ if eq .Params.collection_archive true}}
     {{ if eq $currentPage .Permalink }}
@@ -88,7 +88,7 @@
     <!-- RUN RANGE JUST FOR FIRST ITEM IN COLLECTION TO COMPLETE PAGER LOOP -->
     {{ $currentPage := .Permalink }}
     {{ range .Site.Data.categories}}
-    {{ range first 1 .collection_sorter}}
+    {{ range first 1 .collection_pager}}
     {{ with $.Site.GetPage . }} 
     {{ if eq .Params.collection_archive false }}
     <a href="{{ .Permalink }}" class="hidden" alt="{{ .Title }}">
