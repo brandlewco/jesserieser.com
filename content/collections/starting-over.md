@@ -15,7 +15,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-slug = "projects/starting over"
+slug = "projects/starting-over"
 theme_color = "#E0CBC6"
 title = "Starting Over: Will Move For Work"
 [[collection_awards]]
