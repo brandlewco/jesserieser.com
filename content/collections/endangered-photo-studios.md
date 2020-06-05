@@ -16,7 +16,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-slug = "projects/Photo Studios Extinction"
+slug = "projects/Photo-Studios-Extinction"
 theme_color = "#FBC8B2"
 title = "Photo Studios Extinction"
 [[collection_exhibition]]
