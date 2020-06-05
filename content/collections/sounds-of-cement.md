@@ -15,7 +15,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "black"
-slug = "sounds of cement"
+slug = "collections/sounds-of-cement"
 theme_color = "#CCCCCC"
 title = "Sounds of Cement"
 [[collection_awards]]
