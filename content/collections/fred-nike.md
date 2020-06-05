@@ -9,7 +9,7 @@ collection_description = "As a new face of Nike Running, Kerley is ranked #1 in 
 collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_hidden = false
-collection_meta = "collections/Fred Kerley "
+collection_meta = "Fred Kerley "
 collection_press = []
 collection_preview = ["https://jesserieser.brandlew.co/uploads/Fred_covers-1-1.jpg", "https://jesserieser.brandlew.co/uploads/Fred_covers-2-1.jpg", "https://jesserieser.brandlew.co/uploads/Fred_covers-3-1.jpg", "https://jesserieser.brandlew.co/uploads/Fred_covers-4-1.jpg"]
 cover_image = "https://jesserieser.brandlew.co/uploads/social-29.jpg"
@@ -18,7 +18,7 @@ hide_footer = true
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-slug = "Nike Running’s Fred Kerley"
+slug = "collections/Fred Kerley "
 theme_color = "#FFC1C7"
 title = "Nike Running’s "
 [[collection_layout_builder]]
