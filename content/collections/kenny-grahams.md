@@ -17,7 +17,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-slug = "kenny grahams"
+slug = "collections/kenny-grahams"
 theme_color = "#DBEDB4"
 title = "Nike’s Kenny Graham’s "
 [[collection_layout_builder]]
