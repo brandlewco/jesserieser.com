@@ -406,7 +406,7 @@ feature_description: "Welcome!  \nHere in _Selected Works_ you will find a brief
   American experience.\n\nA bit about navigation: If you aren’t in a rush, head over
   to _All Works;_ if looking for something specific, give the category filter a spin.
   I hope you enjoy your time here and excited to share my photographic world with
-  you. I truly look forward to hearing from you."
+  you."
 navigation_theme: white
 row_alignment: between
 selected_works_theme:
