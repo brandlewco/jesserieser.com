@@ -17,7 +17,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-slug = "rob krar outside magazine"
+slug = "collections/rob-krar-outside-magazine"
 theme_color = "#F1D7D5"
 title = "Outside Magazine "
 [[collection_layout_builder]]
