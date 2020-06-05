@@ -14,7 +14,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-slug = "stalking serial killer"
+slug = "collections/stalking-serial-killer"
 theme_color = "#9CB8D7"
 title = "Society Magazine"
 [[collection_awards]]
