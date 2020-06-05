@@ -15,7 +15,7 @@ hide_footer = false
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-slug = "collection/adidas golf adicross"
+slug = "collections/adidas-golf-adicross"
 theme_color = "#B8EEBC"
 title = "Adidas Golf: Adicross"
 [[collection_awards]]
