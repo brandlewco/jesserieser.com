@@ -14,7 +14,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-slug = "wired magazine"
+slug = "collections/wired-magazine"
 theme_color = "#F6E3CD"
 title = "Wired Magazine"
 [[collection_layout_builder]]
