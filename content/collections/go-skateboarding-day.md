@@ -18,7 +18,7 @@ hide_footer = true
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-slug = "go skateboarding day"
+slug = "collections/go-skateboarding-day"
 theme_color = "#BBD8FF"
 title = "New York City"
 [[collection_layout_builder]]
