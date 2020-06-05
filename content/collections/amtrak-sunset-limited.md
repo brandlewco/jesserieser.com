@@ -18,7 +18,7 @@ layout = "blocks"
 logo = ""
 navigation_theme = "white"
 page = "/collections/amtrak-sunset-limited"
-slug = "sunsetlimited"
+slug = "collections/sunsetlimited"
 theme_color = "#E3E7EB"
 title = "Amtrak The National"
 [[collection_layout_builder]]
