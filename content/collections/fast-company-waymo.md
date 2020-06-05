@@ -17,7 +17,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-slug = "googles waymo car"
+slug = "collections/googles-waymo-car"
 theme_color = "#C2ECD1"
 title = "Fast Company "
 [[collection_layout_builder]]
