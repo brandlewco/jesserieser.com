@@ -18,7 +18,7 @@ layout = "blocks"
 logo = ""
 navigation_theme = "white"
 page = "/collections/outside-dq"
-slug = "outside magazine dq"
+slug = "collections/outside-magazine-dq"
 theme_color = "#CFDDE5"
 title = "Outside Magazine"
 [[collection_layout_builder]]
