@@ -15,7 +15,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-slug = "when fall came early"
+slug = "projects/when-fall-came-early"
 theme_color = "#E1EAED"
 title = "When Fall Came Early:"
 [[collection_awards]]
