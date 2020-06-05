@@ -1,29 +1,26 @@
 +++
 collection_archive = false
+collection_awards = []
 collection_category = ["Advertising", "Reportage", "Black and White", "Sports + Athletes", "Still Life + Details", "Environments", "Portraits"]
 collection_content = ""
-collection_cover = "https://jesserieser.brandlew.co/uploads/skeleton-12.jpg"
-collection_cover_mobile = "https://jesserieser.brandlew.co/uploads/verticalcovers-8.jpg"
-collection_description = "Adicross is a marriage of Adidas street wear and golf attire and in their words “Always On Because The Game Never Stops.” Due to the narrative quality in my work, I was asked to tell each golfer’s “Monday - Wednesday” story on and off the course.\n\nThe campaign features the [#1](https://www.instagram.com/explore/tags/1/) ranked player in the world Dustin Johnson, rising star Xander Schauffele (he became the first ever rookie to win the tour championship in 2017) and long time tour favorite and 2017 Masters Champion, Sergio Garcia."
+collection_cover = "https://jesserieser.brandlew.co/uploads/skeleton-8.jpg"
+collection_cover_mobile = ""
+collection_description = ""
+collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_hidden = false
-collection_meta = "Dustin Johnson, Xander Schaufelle, & Sergio Garcia"
+collection_meta = ""
+collection_press = []
 collection_preview = ["https://jesserieser.brandlew.co/uploads/skeleton-1.jpg", "https://jesserieser.brandlew.co/uploads/skeleton-2.jpg", "https://jesserieser.brandlew.co/uploads/skeleton-3.jpg", "https://jesserieser.brandlew.co/uploads/skeleton-4.jpg"]
-cover_image = "https://jesserieser.brandlew.co/uploads/social-9.jpg"
+cover_image = ""
 date = ""
 hide_footer = false
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-slug = "collection/skeleton"
+slug = "collections/skeleton-party"
 theme_color = "#B8EEBC"
-title = "skeleton"
-[[collection_awards]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-template = "popup-text-element"
-[[collection_exhibition]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-template = "popup-text-element"
+title = "skeleton party"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
@@ -784,8 +781,5 @@ margin_left = "20%"
 margin_y = "100"
 template = "block-media-element"
 width = "60"
-[[collection_press]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-template = "popup-text-element"
 
 +++
