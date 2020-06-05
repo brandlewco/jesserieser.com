@@ -16,7 +16,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-slug = "collections/Jerry Hall's Sad Instagram"
+slug = "projects/Jerry-Halls-Sad-Instagram"
 theme_color = "#E9DED1"
 title = "Jerry Hall's Sad Instagram"
 [[collection_layout_builder]]
