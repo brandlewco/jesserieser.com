@@ -17,7 +17,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-slug = "personalities of the mlb"
+slug = "collections/personalities-of-the-mlb"
 theme_color = "#BFD6FC"
 title = "ESPN The Magazine"
 [[collection_layout_builder]]
