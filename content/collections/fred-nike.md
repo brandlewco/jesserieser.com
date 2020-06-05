@@ -18,7 +18,7 @@ hide_footer = true
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-slug = "collections/Fred Kerley "
+slug = "collections/Fred-Kerley "
 theme_color = "#FFC1C7"
 title = "Nike Running’s "
 [[collection_layout_builder]]
