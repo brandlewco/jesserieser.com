@@ -19,7 +19,7 @@ layout = "blocks"
 logo = ""
 navigation_theme = "white"
 row_alignment = ""
-slug = "projects/christmas in america"
+slug = "projects/christmas-in-america"
 theme_color = "#B1D9D2"
 title = "Christmas In America: Happy Birthday, Jesus"
 [[collection_awards]]
