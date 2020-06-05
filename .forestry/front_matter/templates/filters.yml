@@ -24,8 +24,8 @@ fields:
     source:
       type: pages
       section: collections
-  label: Collection sorter
-- name: selected_works_sorter
+  label: All Works Sorter
+- name: collection_pager
   type: list
   config:
     use_select: true
@@ -34,6 +34,6 @@ fields:
     source:
       type: pages
       section: collections
-  label: Selected Works Navigation
+  label: Collections Footer Navigation
 pages:
 - data/categories/categories.toml
