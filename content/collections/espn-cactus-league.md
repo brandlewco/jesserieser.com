@@ -16,7 +16,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-slug = "cactus league"
+slug = "collections/cactus-league"
 theme_color = "#FDE583"
 title = "ESPN the Magazine"
 [[collection_layout_builder]]
