@@ -16,7 +16,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-slug = "autobiography contact sport"
+slug = "projects/autobiography-contact-sport"
 theme_color = "#CAD39C"
 title = "Autobiography of a Contact Sport"
 [[collection_awards]]
