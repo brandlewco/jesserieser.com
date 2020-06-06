@@ -14,7 +14,7 @@ page_sections:
   title_margin_right: 0%
   title_margin_y: 15%
   meta_align: left
-  attached_collection: ''
+  attached_collection: collections/phoenix.md
   meta: 2018 - 2020
   image: https://jesserieser.brandlew.co/uploads/rieser_phx-HI-2.jpg
   color: "#A0E1DD"
@@ -51,7 +51,7 @@ page_sections:
   meta_align: left
   image: https://jesserieser.brandlew.co/uploads/retail-cover-1.jpg
   color: "#F2ECDF"
-  attached_collection: ''
+  attached_collection: collections/retail.md
   meta: 2015 - 2018
   title: The Changing Landscape of American Retail
   text_color: "#FF0000"
@@ -69,7 +69,7 @@ page_sections:
   align_x: end
   margin_y: '500'
   image: https://jesserieser.brandlew.co/uploads/stargeezers-1.jpg
-  attached_collection: ''
+  attached_collection: collections/star-geezers.md
   title: The Star Geezers
   color: "#9bbad5"
   meta: Condor Airlines (Germany)
@@ -92,7 +92,7 @@ page_sections:
   align_x: start
   margin_y: '100'
   image: https://jesserieser.brandlew.co/uploads/xmas-1.jpg
-  attached_collection: ''
+  attached_collection: collections/xmas-in-america.md
   title: Christmas in America
   color: "#FF0000"
   meta: Personal 2010 -  2019
@@ -126,7 +126,7 @@ page_sections:
   color: "#E1EBF2"
   title: 'Skeleton Party '
   meta: Collection of Small Crews
-  attached_collection: ''
+  attached_collection: collections/skeleton-party.md
   text_color: ''
   text_size: ''
   text_alignment: ''
@@ -150,7 +150,7 @@ page_sections:
   title: Wired
   color: "#FFE087"
   meta: 'The Hard Luck Texas Town That Bet on Bitcoin and Lost '
-  attached_collection: ''
+  attached_collection: collections/wired-bitmain.md
   text_color: ''
   text_size: ''
   text_alignment: ''
@@ -165,7 +165,7 @@ page_sections:
   image: https://jesserieser.brandlew.co/uploads/timeGC-5.jpg
   title: 'Time '
   color: "#fdcfb1"
-  attached_collection: ''
+  attached_collection: collections/time.md
   meta: Grand Canyon 100th Anniversary 
   margin_x: ''
   align_y: ''
@@ -210,7 +210,7 @@ page_sections:
   image: https://jesserieser.brandlew.co/uploads/sunset-limited-28.jpg
   color: "#D7F3E6"
   meta: ''
-  attached_collection: ''
+  attached_collection: collections/amtrak-the-national.md
   text_color: ''
   text_size: ''
   text_alignment: ''
@@ -234,7 +234,7 @@ page_sections:
   color: "#FAE1D7"
   title: Autobiography of a Contact Sport
   meta: ''
-  attached_collection: ''
+  attached_collection: collections/autobiography.md
   text_color: ''
   text_size: ''
   text_alignment: center
@@ -256,7 +256,7 @@ page_sections:
   meta_align: left
   image: https://jesserieser.brandlew.co/uploads/adicross-12.jpg
   color: "#D1D1D1"
-  attached_collection: ''
+  attached_collection: collections/adidas-golf.md
   title: 'Adidas GOlf '
   meta: ''
   text_color: ''
@@ -276,7 +276,7 @@ page_sections:
   title: 'Wired '
   color: "#b9a49e"
   margin_y: '200'
-  attached_collection: ''
+  attached_collection: collections/wired.md
   meta: Backpage.com Cover Story
   margin_x: ''
   align_y: ''
@@ -302,7 +302,7 @@ page_sections:
   title_margin_right: 55%
   meta_align: left
   meta: 'Society Magazine (France) '
-  attached_collection: ''
+  attached_collection: collections/stalking-a-serial-killer.md
   image: https://jesserieser.brandlew.co/uploads/serial-6.jpg
   title: Stalking A Serial Killer
   color: "#C0D0E0"
@@ -335,7 +335,7 @@ page_sections:
   title_margin_left: 0%
   title_margin_right: 0%
   meta_align: left
-  attached_collection: ''
+  attached_collection: collections/amtrak-southwest-chief.md
   image: https://jesserieser.brandlew.co/uploads/swchief-8.jpg
   meta: The Southwest Chief
   title: Amtrak The National
@@ -362,7 +362,7 @@ page_sections:
   image: https://jesserieser.brandlew.co/uploads/_JR_8055.jpg
   title: 'Outside Magazine '
   color: "#FFB4B4"
-  attached_collection: ''
+  attached_collection: collections/outside-magazine-rob-krar.md
   meta: Rob Krar Running in the Dark
   text_color: ''
   text_size: ''
@@ -381,7 +381,7 @@ page_sections:
   title: ESPN Cowboy
   image: https://jesserieser.brandlew.co/uploads/cowboy-4.jpg
   meta: 'Donald Cerronne '
-  attached_collection: ''
+  attached_collection: collections/espn-cowboy-cerronne.md
   color: "#110101"
   align_y: ''
   margin_left: ''
