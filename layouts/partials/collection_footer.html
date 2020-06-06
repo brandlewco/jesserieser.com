@@ -128,7 +128,7 @@
             {{with .Params.collection_content}}<article class="text-lg leading-tight">{{ . | markdownify }}</article>{{end}}
         </aside>
     </div>
-    <section class="flex flex-wrap p-16 xl:p-32 {{with .Params.navigation_theme}}text-{{.}}{{end}}">
+    <section class="flex flex-wrap mx-16 xl:mx-32 py-12 {{with .Params.navigation_theme}}text-{{.}}{{end}}">
         {{with .Params.collection_awards}}
         <aside class="w-full sm:w-1/3 pr-0 sm:pr-4 items-start">
             <div>
