@@ -3,7 +3,7 @@
 <article class="block-hover relative self-start {{with .Section.align_y}}sm:self-{{.}}{{end}} w-full {{with .Section.width}}sm:w-{{.}}/100{{end}} mt-4 {{with .Section.margin_y}}sm:mt-{{.}}{{end}} ml-0 {{with .Section.margin_left}}sm:ml-{{.}}{{end}} mr-0 {{with .Section.margin_right}}sm:mr-{{.}}{{end}} highlight rellax-wrapper">
   <figure class="figure relative" style="background: {{with .Section.color}}{{.}}{{else}}{{.Page.Params.theme_color}}{{end}};" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" id="{{ $fileName }}" data-sal="image">
     {{ with .Site.GetPage .Section.attached_collection }}
-      <a href="/collections/{{.Params.slug | urlize}}">
+      <a href="/{{.Params.slug | urlize}}">
     {{end}}
         <img class="lazyload" src="{{ .Section.image }}?nf_resize=fit&w=1024" data-src="{{ .Section.image }}?nf_resize=fit&w=1024" alt="{{ .Section.caption }}"/>
     {{with .Section.attached_collection}}
@@ -11,7 +11,9 @@
     {{end}}
     {{ if .Section.title }}
     <figcaption class="absolute w-100 z-10 rellax px-4 sm:px-auto sm:ml-0 mb-0 text-left {{with .Section.text_alignment}}sm:text-{{.}}{{end}}" style="pointer-events:none; {{with .Section.title_margin_y}}top:{{.}};{{else}}top: 35%;{{end}} {{with .Section.title_margin_left}}margin-left:{{.}};{{end}} {{with .Section.title_margin_right}}margin-right:{{.}};{{end}}" data-rellax-speed="4" data-rellax-xs-speed="1">
-      <h2 class="text-4xl {{with .Section.text_size }}sm:text-{{.}}{{else}}sm:text-6xl{{end}} {{with .Section.text_tracking }}tracking-{{.}}{{end}} {{with .Section.font_weight }}font-{{.}}{{end}} {{with .Section.line_height }}leading-{{.}}{{else}}leading-normal{{end}} text-white sm:text-black" style="color:{{with .Section.text_color }}{{.}}{{end}}">{{ .Section.title | markdownify}}</h2>
+      <h2 class="text-4xl {{with .Section.text_size }}sm:text-{{.}}{{else}}sm:text-6xl{{end}} {{with .Section.text_tracking }}tracking-{{.}}{{end}} {{with .Section.font_weight }}font-{{.}}{{end}} {{with .Section.line_height }}leading-{{.}}{{else}}leading-normal{{end}} text-white sm:text-black" style="color:{{with .Section.text_color }}{{.}}{{end}}">
+        {{ .Section.title | safeHTML }}
+      </h2>
       <!-- style="color:{{with .Section.text_color }}{{.}}{{else}}#000;{{end}}" -->
     </figcaption>
     {{ end }}

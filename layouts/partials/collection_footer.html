@@ -6,7 +6,7 @@
     {{ range last 1 .collection_pager}}
     {{ with $.Site.GetPage . }} 
     {{ if eq .Params.collection_archive true }}
-    <a href="{{ .Permalink }}" class="hidden first" alt="{{ .Title }}">
+    <a href="{{ .RelPermalink }}" class="hidden first" alt="{{ .Title }}">
         <div class="flex flex-row text-left items-center">
             <div class="arrow text-6xl font-thin pr-4">
                 &#8249;
@@ -33,9 +33,9 @@
     {{ with $.Site.GetPage . }} 
     {{ if eq .Params.collection_archive false }}
     {{ if eq $currentPage .Permalink }}
-    <a href="{{ .Permalink }}" id="current" class="hidden">CURRENT PAGE</a>
+    <a href="{{ .RelPermalink }}" id="current" class="hidden">CURRENT PAGE</a>
     {{else}}
-    <a href="{{ .Permalink }}" class="hidden" alt="{{ .Title }}">
+    <a href="{{ .RelPermalink }}" class="hidden" alt="{{ .Title }}">
         <div class="flex flex-row text-left items-center">
             <div class="arrow text-6xl font-thin pr-4">
                 &#8249;
@@ -62,9 +62,9 @@
     {{ with $.Site.GetPage . }} 
     {{ if eq .Params.collection_archive true}}
     {{ if eq $currentPage .Permalink }}
-    <a href="{{ .Permalink }}" id="current" class="hidden">CURRENT PAGE</a>
+    <a href="{{ .RelPermalink }}" id="current" class="hidden">CURRENT PAGE</a>
     {{else}}
-    <a href="{{ .Permalink }}" class="hidden archive" alt="{{ .Title }}">
+    <a href="{{ .RelPermalink }}" class="hidden archive" alt="{{ .Title }}">
         <div class="flex flex-row text-left items-center">
             <div class="arrow text-6xl font-thin pr-4">
                 &#8249;
@@ -91,7 +91,7 @@
     {{ range first 1 .collection_pager}}
     {{ with $.Site.GetPage . }} 
     {{ if eq .Params.collection_archive false }}
-    <a href="{{ .Permalink }}" class="hidden" alt="{{ .Title }}">
+    <a href="{{ .RelPermalink }}" class="hidden" alt="{{ .Title }}">
         <div class="flex flex-row text-left items-center">
             <div class="arrow text-6xl font-thin pr-4">
                 &#8249;
