@@ -788,21 +788,24 @@ page_sections:
     icon: https://jesserieser.brandlew.co/uploads/logos-9.jpg
     url: ''
   image: https://jesserieser.brandlew.co/uploads/autobiography-38.jpg
-header_col_1_title: "Advertising & Editorial Commissions"
-header_col_1: "Echo Hopkins  \n[echo@andersonhopkins.com](mailto:echo@andersonhopkins.com)\n\nHannah
-  Marchetto  \n[hannah@andersonhopkins.com](mailto:hannah@andersonhopkins.com)\n\n[Anderson
-  Hopkins ](https://www.andersonhopkins.com)  \n70 Lafayette Street, 7th Floor  \nNew
-  York, NY 10013  \n212 431 5117"
-header_col_2_title: "Exhibition, Editorial Syndication,\n\nand Press Inquiries"
-header_col_2: "Jesse
-  Rieser  \nInstagram [@jesserieser.com](https://www.instagram.com/jesserieser/)  \n[jesse@jesserieser.com](mailto:jesse@jesserieser.com
-  \"jesse@jesserieser.com\")  \n[310 985 9818](tel:+13109859818 \"310 985 9818\")\n\n124
-  W. McDowell Rd.  \nPhoenix, AZ 85003\n\n1610 W 7th St. #401  \nLos Angeles, CA 90017"
-header_col_3_title: "Stock Licensing"
-header_col_3: "[Gallery Stock](https://www.gallerystock.com)
-  \ \n190 Bowery  \nNew York, NY 10012  \n[212 219 7520](tel:+12122197520 \"212 219
-  7520\")  \n[newyork@gallerystock.com](mailto:newyork@gallerystock.com \"newyork@gallerystock.com\")\n\n[Paris](mailto:PARIS@GALLERYSTOCK.COM)
-  \ \n[Munich](mailto:MUNICH@GALLERYSTOCK.COM)  \n[Sydney](mailto:HELLO@SNAPPERIMAGES.COM)"
+header_col_1_title: Advertising & Editorial Commissions
+header_col_1: "[Anderson Hopkins ](https://www.andersonhopkins.com)\n\nEcho Hopkins
+  \ \n[echo@andersonhopkins.com](mailto:echo@andersonhopkins.com)\n\nHannah Marchetto
+  \ \n[hannah@andersonhopkins.com](mailto:hannah@andersonhopkins.com)  \n  \n70 Lafayette
+  Street, 7th Floor  \nNew York, NY 10013  \n212 431 5117"
+header_col_2_title: |-
+  Exhibition, Editorial Syndication,
+
+  and Press Inquiries
+header_col_2: "Jesse Rieser  \nInstagram [@jesserieser.com](https://www.instagram.com/jesserieser/)
+  \ \n[jesse@jesserieser.com](mailto:jesse@jesserieser.com \"jesse@jesserieser.com\")
+  \ \n[310 985 9818](tel:+13109859818 \"310 985 9818\")\n\n124 W. McDowell Rd.  \nPhoenix,
+  AZ 85003\n\n1610 W 7th St. #401  \nLos Angeles, CA 90017"
+header_col_3_title: Stock Licensing
+header_col_3: "[Gallery Stock](https://www.gallerystock.com)  \n190 Bowery  \nNew
+  York, NY 10012  \n[212 219 7520](tel:+12122197520 \"212 219 7520\")  \n[newyork@gallerystock.com](mailto:newyork@gallerystock.com
+  \"newyork@gallerystock.com\")\n\n[Paris](mailto:PARIS@GALLERYSTOCK.COM)  \n[Munich](mailto:MUNICH@GALLERYSTOCK.COM)
+  \ \n[Sydney](mailto:HELLO@SNAPPERIMAGES.COM)"
 row_alignment: between
 
 ---
