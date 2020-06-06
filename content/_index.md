@@ -23,7 +23,7 @@ page_sections:
   text_tracking: tighter
   text_alignment: left
   line_height: relaxed
-  title: "<p>Phoenix: A Dystopian Legoland That Tastes Like Candy</p>"
+  title: "&lt;p&gt;Phoenix: A Dystopian Legoland That Tastes Like Candy&lt;/p&gt;"
   text_color: "#FF0000"
 - template: block-modal-blog
   block: modal-blog
