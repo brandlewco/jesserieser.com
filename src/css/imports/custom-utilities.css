@@ -190,13 +190,13 @@ header#project-header img.featured.lazyloaded {
 #header-overlay,
 #feature-overlay {
   will-change: opacity, transform;
+  transition: opacity 0.33s ease-in-out 0.1s;
 }
 
 #project-header img.lazyload + #header-overlay,
 #project-header img.lazyloading + #header-overlay,
 #project-header img.lazyload + #feature-overlay,
 #project-header img.lazyloading + #feature-overlay {
-  transition: opacity 0.33s ease-in-out 0.1s;
   opacity: 1;
 }
 
