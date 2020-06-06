@@ -295,6 +295,8 @@ var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
 var filters = document.getElementById("filters");
 if (isSafari && iOS) {
   filters.style.top = navigationHeight;
+  console.log("welcome to IOS");
 } else if (isSafari) {
   filters.style.top = navigationHeight;
+  console.log("welcome to safari");
 }
