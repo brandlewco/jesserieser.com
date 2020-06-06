@@ -29,7 +29,7 @@ fields:
 - name: image
   type: file
   config:
-    maxSize: 250
+    maxSize: 64
   label: Background Image
   showOnly:
     field: background_image_toggle
