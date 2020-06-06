@@ -179,7 +179,7 @@ imagesLoaded(grid, function() {
   const filterItems = document.querySelectorAll(".filter-item");
   filterItems.forEach((items) => {
     const filters = items.dataset.filter.split(",");
-    // const filtersTheme = items.dataset.theme;
+    const filtersTheme = items.dataset.theme;
     var current = 0;
     var slides = items.getElementsByTagName("img");
     var fader;
@@ -222,8 +222,8 @@ imagesLoaded(grid, function() {
       filters.forEach(function(element) {
         var filterActive = document.getElementById(element);
         if (filterActive) {
-          // filterActive.style.color = filtersTheme;
-          filterActive.style.color = "#000";
+          filterActive.style.color = filtersTheme;
+          // filterActive.style.color = "#000";
         }
       });
     });
