@@ -21,7 +21,7 @@
             {{ end }}
             {{ end }}
             <div id="filter-archive" class="filter-item w-screen filter-archive mt-20 {{range $.Site.Data.categories.categories.categories}}{{. | replaceRE "[\\W]" "" | lower}} {{end}} personal commissionedstock all active"  data-filter="{{range $.Site.Data.categories.categories.categories}}{{. | replaceRE "[\\W]" ""| lower}},{{end}},all,personal,commissionedstock">
-                <h1 class="pl-4 sm:pl-8 pt-24 pb-1 text-lg text-white font-bold">Archive</h1>
+                <h1 class="pl-4 sm:pl-8 pt-24 pb-4 text-lg text-white font-bold">Archive</h1>
             </div>
             {{ range .Site.Data.categories}}
             {{ range .collection_sorter}}
