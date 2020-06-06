@@ -6,9 +6,11 @@ collection_content = "This commission touches on something I think a lot about- 
 collection_cover = "https://jesserieser.brandlew.co/uploads/bitmain-27.jpg"
 collection_cover_mobile = "https://jesserieser.brandlew.co/uploads/verticalcovers-11.jpg"
 collection_description = "These works are a portrait of Rockdale, Texas a community on life support, the closed Alcoa plant (their one-time financial lifeline), and the players working to bring the world’s largest bitcoin mining facility to a community desperately needing good news. Bitmain promised to create between 400 and 600 jobs. New industry would replace the old. Instead, Milam County and other communities have learned a real-life lesson about the elusive promise of virtual currency with only 30 new jobs created."
+collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_hidden = false
 collection_meta = "The Hard-Luck Texas Town That Bet on Bitcoin and Lost"
+collection_press = []
 collection_preview = ["https://jesserieser.brandlew.co/uploads/bitmain_covers-2.jpg", "https://jesserieser.brandlew.co/uploads/bitmain_covers-1.jpg", "https://jesserieser.brandlew.co/uploads/bitmain_covers-6.jpg", "https://jesserieser.brandlew.co/uploads/bitmain_covers-4.jpg", "https://jesserieser.brandlew.co/uploads/bitmain_covers-8.jpg", "https://jesserieser.brandlew.co/uploads/bitmain_covers-3.jpg", "https://jesserieser.brandlew.co/uploads/bitmain_covers-7.jpg", "https://jesserieser.brandlew.co/uploads/bitmain_covers-5.jpg"]
 cover_image = "https://jesserieser.brandlew.co/uploads/social-32.jpg"
 date = 2019-06-18T07:00:00Z
@@ -19,12 +21,6 @@ slug = "collections/wired-magazine-2"
 test_repeater = []
 theme_color = "#D2DEE7"
 title = "Wired Magazine"
-[[collection_exhibition]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-template = "popup-text-element"
-[[collection_exhibition]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-template = "popup-text-element"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
@@ -432,11 +428,5 @@ margin_left = "20%"
 margin_y = "100"
 template = "block-media-element"
 width = "60"
-[[collection_press]]
-content = "Press List Item"
-template = "popup-text-element"
-[[collection_press]]
-content = "Press List Item"
-template = "popup-text-element"
 
 +++
