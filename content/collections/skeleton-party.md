@@ -789,9 +789,9 @@ block = "media-element"
 caption = "caption"
 color = "#454545"
 image = "https://jesserieser.brandlew.co/uploads/skeleton-56.jpg"
-margin_left = "40%"
+margin_left = "50%"
 margin_y = "100"
 template = "block-media-element"
-width = "45"
+width = "40"
 
 +++
