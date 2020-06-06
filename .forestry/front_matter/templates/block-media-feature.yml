@@ -1,7 +1,7 @@
 ---
-label: "⭐️ Selected Work"
+label: "⭐️  Selected Work"
 hide_body: true
-display_field: title
+display_field: attached_collection
 fields:
 - type: text
   hidden: true
