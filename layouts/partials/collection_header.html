@@ -24,10 +24,12 @@
 </header>
 <article id="project-description" class="w-full py-8 px-8 sm:px-32 lg:px-64 text-lg text-{{.Params.navigation_theme}} items-center leading-tight relative z-100"  style="background-color: {{.Params.theme_color}}; backface-visibility: hidden;">
     <div class="flex flex-col justify-center mx-auto {{if (eq .Params.px_extra true) }}xl:px-40{{else}}{{end}} text-left {{with .Params.collection_description_alignment}}md:text-{{.}}{{end}}" data-sal="slide-up" data-sal-delay="100">
-            {{ .Params.collection_description | markdownify }}
-            {{if (eq .Params.hide_footer true) }}
-            {{else}}
-            <a href="#project-brief" class="block text-left text-{{.Params.navigation_theme}} font-bold" data-no-swup>Read more.</a>
-            {{end}}
+    <p>
+        {{ .Params.collection_description | markdownify }}
+    </p>
+    {{if (eq .Params.hide_footer true) }}
+    {{else}}
+    <div class="mt-2"><a href="#project-brief" class="block text-left text-{{.Params.navigation_theme}} font-bold" data-no-swup>Read more.</a></div>
+    {{end}}
     </div>
 </article>

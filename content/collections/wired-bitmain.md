@@ -21,6 +21,7 @@ slug = "collections/wired-magazine-2"
 test_repeater = []
 theme_color = "#D2DEE7"
 title = "Wired Magazine"
+px_extra = true
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
