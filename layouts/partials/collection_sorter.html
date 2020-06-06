@@ -1,9 +1,9 @@
 <section id="filters" class="sticky mx-auto px-4 sm:px-8 sm:flex flex-col mb-2 pt-2 z-50 hidden" style="transform:translate3d(0,0,0);background-color:rgba(255,255,255,0.75);">
     <div class="flex flex-col filters">
       <button id="catToggle" class="toggle text-left tracking-wide font-semibold is-checked self-start">CATEGORIES</button>
-      <div id="categories" class="ui-group collapsible flex flex-wrap pt-4">
+      <div id="categories" class="ui-group collapsible flex flex-wrap pt-6 pb-3">
         <!-- <button id="all" class="ui-check button w-1/6 text-left" alt="clear filters">All</button> -->
-        <div class="ui-group filter-categories pb-4 px-2">
+        <div class="ui-group filter-categories pb-4 pl-4 pr-2">
           {{range $.Site.Data.categories}}
           {{range sort .categories "value" "asc"}}
           <button id="{{. | replaceRE "[\\W]" "" | lower}}" class="bold-hover text-black relative ui-check button w-1/8 italic text-left tracking-wide pl-2" data-filter=".{{. | replaceRE "[\\W]" "" | lower}}">{{.}}</button>
