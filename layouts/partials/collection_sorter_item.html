@@ -1,5 +1,5 @@
 <figure class="filter-item h-auto py-4 pr-4 sm:pr-0 pl-4 md:w-grid-four sm:w-grid-three w-full overflow-hidden {{range .Params.collection_category }}{{. | replaceRE "[\\W]" "" | lower}} {{end}}{{with .Params.collection_filter}}{{. | replaceRE "[\\W]" "" | lower}}{{end}} all active" data-theme="{{.Params.theme_color}}" data-filter="{{range .Params.collection_category}}{{. | replaceRE "[\\W]" "" | lower}},{{end}}{{with .Params.collection_filter}}{{. | replaceRE "[\\W]" "" | lower}}{{end}}">
-    <a href="{{.Permalink}}">
+    <a href="{{.RelPermalink}}">
         {{if .Params.collection_preview }}
         <div class="collection-preview relative lazyload" style="padding-top:75%; background-color:{{.Params.theme_color}};">
         {{else}}
@@ -17,9 +17,9 @@
         </div>
         
         {{ if eq .Params.collection_archive true }}
-        <figcaption class="text-white bg-black px-3 py-1 text-md uppercase">
+        <figcaption class="text-white bg-black px-3 py-1 text-base">
         {{else}}
-        <figcaption class="text-black text-md uppercase"> 
+        <figcaption class="text-black text-base">
         {{end}}
         <span class="font-semibold italic block pt-2 tracking-wide">{{.Title}}</span>
         {{with .Params.collection_meta}}<span class="font-medium block text-xs">{{.}}</span>{{end}}
