@@ -1,7 +1,7 @@
 ---
 label: "\U0001F53C Blog Popup"
 hide_body: true
-display_field: caption
+display_field: title
 fields:
 - name: block
   type: text
