@@ -21,6 +21,32 @@ imagesLoaded(grid, function() {
   var filterLoading = document.getElementById("filter-loading");
   filterContainer.style.opacity = 1;
   filterLoading.style.opacity = 0;
+
+  var isSafari = !!navigator.userAgent.match(/Version\/[\d\.]+.*Safari/);
+  var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+  var filters = document.getElementById("filter-container");
+
+  let scrollPos = 0;
+  window.onscroll = function() {
+    // document.documentElement.style.setProperty("--scroll-y", `${window.scrollY}px`);
+    var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
+    const windowY = window.scrollY;
+    if (filterContainer) {
+      if ((scrollTop < scrollPos) || scrollPos < 0) {
+        filterContainer.style.transform = "translate3d(0, " + navigationHeight + "px, 0)";
+      } else {
+        filterContainer.style.transform = "translate3d(0, -" + navigationHeight + "px, 0)";
+      }
+    }
+    if (isSafari && iOS) {
+      console.log("welcome to IOS", navigationHeight);
+    } else if (isSafari) {
+      console.log("welcome to safari", navigationHeight);
+    }
+    // console.log("scrollTop", scrollTop, "scrollPos", scrollPos);
+    scrollPos = windowY;
+  };
+
   var iso = new Isotope(grid, {
     itemSelector: ".filter-item",
     // stamp: ".stamp",
@@ -290,13 +316,7 @@ imagesLoaded(grid, function() {
   });
 });
 
-var isSafari = !!navigator.userAgent.match(/Version\/[\d\.]+.*Safari/);
-var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-var filters = document.getElementById("filters");
-if (isSafari && iOS) {
-  filters.style.top = navigationHeight;
-  console.log("welcome to IOS");
-} else if (isSafari) {
-  filters.style.top = navigationHeight;
-  console.log("welcome to safari");
-}
+// var isSafari = navigator.vendor && navigator.vendor.indexOf('Apple') > -1 &&
+//                navigator.userAgent &&
+//                navigator.userAgent.indexOf('CriOS') == -1 &&
+//                navigator.userAgent.indexOf('FxiOS') == -1;

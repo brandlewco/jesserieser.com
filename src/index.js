@@ -616,9 +616,11 @@ function init() {
     }
     if (filterContainer) {
       if ((scrollTop < scrollPos) || scrollPos < 0) {
+        console.log("filter container");
         navigation.style.transform = "translate3d(0, 0, 0)";
-        filterContainer.style.transform = "translate3d(0, 0px, 0)";
+        filterContainer.style.transform = "translate3d(0, " + navigationHeight + "px, 0)";
       } else {
+        console.log("filter contain else");
         navigation.style.transform = "translate3d(0, -" + navigationHeight + "px, 0)";
         filterContainer.style.transform = "translate3d(0, -" + navigationHeight + "px, 0)";
       }

@@ -43,6 +43,11 @@ fields:
   config:
     color_format: Hex
   label: Theme Color
+- type: color
+  name: theme_color_all_works
+  config:
+    color_format: Hex
+  label: Theme Color (All Works Highlight)
 - type: select
   name: navigation_theme
   config:
