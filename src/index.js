@@ -552,13 +552,13 @@ function init() {
   }
 
   const projectHeader = document.getElementById("project-header");
-  const filterContainer = document.getElementById("filters");
+  // const filterContainer = document.getElementById("filters");
   const headerPointer = document.getElementById("header-pointer");
   const pageTitle = document.getElementById("page-title");
   const headerOverlay = document.getElementById("header-overlay");
   const featureOverlay = document.getElementById("feature-overlay");
-  const headerImage = document.getElementById("header-image");
-  const featureImage = document.getElementById("feature-image");
+  // const headerImage = document.getElementById("header-image");
+  // const featureImage = document.getElementById("feature-image");
   const height = window.innerHeight;
 
   // Scroll Animations
@@ -614,17 +614,17 @@ function init() {
         pageTitle.style.transform = "translate3d(0, -50%, 0)";
       }
     }
-    if (filterContainer) {
-      if ((scrollTop < scrollPos) || scrollPos < 0) {
-        console.log("filter container");
-        navigation.style.transform = "translate3d(0, 0, 0)";
-        filterContainer.style.transform = "translate3d(0, " + navigationHeight + "px, 0)";
-      } else {
-        console.log("filter contain else");
-        navigation.style.transform = "translate3d(0, -" + navigationHeight + "px, 0)";
-        filterContainer.style.transform = "translate3d(0, -" + navigationHeight + "px, 0)";
-      }
-    }
+    // if (filterContainer) {
+    //   if ((scrollTop < scrollPos) || scrollPos < 0) {
+    //     console.log("filter container");
+    //     navigation.style.transform = "translate3d(0, 0, 0)";
+    //     filterContainer.style.transform = "translate3d(0, " + navigationHeight + "px, 0)";
+    //   } else {
+    //     console.log("filter contain else");
+    //     navigation.style.transform = "translate3d(0, -" + navigationHeight + "px, 0)";
+    //     filterContainer.style.transform = "translate3d(0, -" + navigationHeight + "px, 0)";
+    //   }
+    // }
     // console.log("scrollTop", scrollTop, "scrollPos", scrollPos);
     scrollPos = windowY;
   };

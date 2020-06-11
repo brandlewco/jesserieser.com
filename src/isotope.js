@@ -9,17 +9,26 @@ var iso;
 const navigation = document.getElementById("navigation");
 const navigationHeight = navigation.clientHeight;
 const filterWrapper = document.getElementById("filter-container");
+const filterContainer = document.getElementById("filters");
+const filterContainerHeight = filterContainer.clientHeight;
+const filter = document.getElementById("filter");
+const filterLoading = document.getElementById("filter-loading");
+
+function filterCalc() {
+  filterWrapper.style.transform = "translate3d(0, " + navigationHeight + "px, 0)";
+  filterWrapper.style.opacity = 1;
+  console.log(navigationHeight);
+}
+
+filterCalc();
+
 
 imagesLoaded(grid, function() {
 
-  setTimeout(function() {
-    filterWrapper.style.transform = "translate3d(0, " + navigationHeight + "px, 0)";
-    filterWrapper.style.opacity = 1;
-  }, 500);
+  // setTimeout(function() {
+  // }, 500);
 
-  var filterContainer = document.getElementById("filter");
-  var filterLoading = document.getElementById("filter-loading");
-  filterContainer.style.opacity = 1;
+  filter.style.opacity = 1;
   filterLoading.style.opacity = 0;
 
   var isSafari = !!navigator.userAgent.match(/Version\/[\d\.]+.*Safari/);
@@ -31,18 +40,42 @@ imagesLoaded(grid, function() {
     // document.documentElement.style.setProperty("--scroll-y", `${window.scrollY}px`);
     var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
     const windowY = window.scrollY;
-    if (filterContainer) {
-      if ((scrollTop < scrollPos) || scrollPos < 0) {
-        filterContainer.style.transform = "translate3d(0, " + navigationHeight + "px, 0)";
-      } else {
-        filterContainer.style.transform = "translate3d(0, -" + navigationHeight + "px, 0)";
-      }
-    }
     if (isSafari && iOS) {
-      console.log("welcome to IOS", navigationHeight);
+      if (filterContainer) {
+        if ((scrollTop < scrollPos) || scrollPos < 0) {
+          navigation.style.transform = "translate3d(0, 0, 0)";
+          filterContainer.style.transform = "translate3d(0, 0px, 0)";
+        } else {
+          navigation.style.transform = "translate3d(0, -" + navigationHeight + "px, 0)";
+          filterContainer.style.transform = "translate3d(0, -" + navigationHeight + "px, 0)";
+        }
+      }
+      console.log("safari nobile");
     } else if (isSafari) {
-      console.log("welcome to safari", navigationHeight);
-    }
+      if (filterContainer) {
+        if ((scrollTop < scrollPos) || scrollPos < 0) {
+          navigation.style.transform = "translate3d(0, 0, 0)";
+          filterContainer.style.transform = "translate3d(0, 0px, 0)";
+          filterContainer.style.top = navigationHeight + "px";
+        } else {
+          navigation.style.transform = "translate3d(0, -" + navigationHeight + "px, 0)";
+          filterContainer.style.transform = "translate3d(0, -" + filterContainer + "px, 0)";
+          filterContainer.style.top = "0px";
+        }
+      }
+      console.log("safari");
+    } else {
+      if (filterContainer) {
+        if ((scrollTop < scrollPos) || scrollPos < 0) {
+          navigation.style.transform = "translate3d(0, 0, 0)";
+          filterContainer.style.transform = "translate3d(0, 0px, 0)";
+        } else {
+          navigation.style.transform = "translate3d(0, -" + navigationHeight + "px, 0)";
+          filterContainer.style.transform = "translate3d(0, -" + navigationHeight + "px, 0)";
+        }
+      }
+      console.log("else");
+    };
     // console.log("scrollTop", scrollTop, "scrollPos", scrollPos);
     scrollPos = windowY;
   };
@@ -239,7 +272,6 @@ imagesLoaded(grid, function() {
       slides[2].style.removeProperty("opacity");
       slides[3].style.removeProperty("opacity");
     }
-
 
     items.addEventListener("mouseenter", () => {
       // crossfade
