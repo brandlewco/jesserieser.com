@@ -14,7 +14,7 @@ navigation_theme: white
 page_sections:
 - template: block-media-text
   block: media-text
-  text_size: xl
+  text_size: lg
   text_tracking: wide
   width: '33'
   align_y: start
