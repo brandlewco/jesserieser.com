@@ -15,9 +15,9 @@
     <div class="flex flex-row justify-between py-6">
       <div class="text-xl sm:text-2xl uppercase font-medium text-center text-black">JESSE RIESER</div>
       <div class="text-lg sm:text-xl uppercase font-medium text-center text-black">NEWS: <span class="italic font-normal">{{range $key.Params.news_category}}{{.}}{{end}}</span></div>
-      <div class="popup-modal__close h-8 w-8 m-6 mr-0 sm:mr-6 fixed cursor-pointer z-50 top-0 right-0">
-          <svg class="icon h-8 w-8 text-black"><use xlink:href="#close"></use></svg>
-      </div>
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="35" height="35" viewBox="0 0 256 256" class="icon pointer h-8 w-8 m-8 absolute top-0 right-0 text-white popup-modal__close z-999">
+          <path d="M254.7 8.1L247 .4 127.5 119.8 8.1.4.4 8.1l119.4 119.4L.4 247l7.7 7.7 119.4-119.5L247 254.7l7.7-7.7-119.5-119.5z" style="fill: #000" class="arrow-down"/>
+        </svg>
     </div>
     <div class="w-full lazyload relative">
         <div class="paginated_gallery gallery">
