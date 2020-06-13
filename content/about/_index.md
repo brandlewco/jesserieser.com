@@ -14,7 +14,7 @@ navigation_theme: white
 page_sections:
 - template: block-media-text
   block: media-text
-  text_size: 2xl
+  text_size: xl
   text_tracking: wide
   width: '33'
   align_y: start
@@ -49,7 +49,7 @@ page_sections:
   block: modal-list
   width: '33'
   align_x: start
-  margin_y: '200'
+  margin_y: '400'
   margin_left: 10%
   margin_right: ''
   title_margin_left: 60%

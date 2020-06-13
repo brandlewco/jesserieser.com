@@ -9,7 +9,17 @@
                 {{ partial (printf "blocks/block-%s.html" .block) (dict "Section" . "Page" $ "Site" $.Site) }}
                 {{- end -}}
             <div class="h-24 w-full"></div>
+            <div class="flex flex-row justify-center w-full">
+                <figure class="bg-center w-1/2 sm:w-1/4">
+                    <img data-srcset="/bio.jpg?nf_resize=fit&w=1024 1024w, /bio.jpg?nf_resize=fit&w=1920 1920w, /bio.jpg?nf_resize=fit&w=2560 2560w, /bio.jpg"
+                    data-sizes="auto"
+                    class="lazyload bg-center w-1/2 sm:w-1/4"/>
+                </figure>
+            </div>
             </section>
         </div>
+        <footer class="px-8 xl:px-16" style="background-color: {{.Params.theme_color}};">
+            test
+        </footer>
 </section>
 {{- end -}}
