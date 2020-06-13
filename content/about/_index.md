@@ -788,7 +788,10 @@ page_sections:
     icon: https://jesserieser.brandlew.co/uploads/logos-9.jpg
     url: ''
   image: https://jesserieser.brandlew.co/uploads/autobiography-38.jpg
-header_col_1_title: Advertising & Editorial Commissions
+header_col_1_title: |-
+  Advertising & Editorial
+  
+  Commissions
 header_col_1: "[Anderson Hopkins ](https://www.andersonhopkins.com)\n\nEcho Hopkins
   \ \n[echo@andersonhopkins.com](mailto:echo@andersonhopkins.com)\n\nHannah Marchetto
   \ \n[hannah@andersonhopkins.com](mailto:hannah@andersonhopkins.com)  \n  \n70 Lafayette
