@@ -35,7 +35,7 @@ page_sections:
   background_image_toggle: true
   image: https://jesserieser.brandlew.co/uploads/bio_final-4.jpg
   font_weight: ''
-  image_css: 'opacity: 0.6;'
+  image_css: 'opacity: 0.3;'
   caption_css: ''
   text_alignment: left
 - template: block-media-row
