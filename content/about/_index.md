@@ -790,7 +790,7 @@ page_sections:
   image: https://jesserieser.brandlew.co/uploads/autobiography-38.jpg
 header_col_1_title: |-
   Advertising & Editorial
-  
+
   Commissions
 header_col_1: "[Anderson Hopkins ](https://www.andersonhopkins.com)\n\nEcho Hopkins
   \ \n[echo@andersonhopkins.com](mailto:echo@andersonhopkins.com)\n\nHannah Marchetto
