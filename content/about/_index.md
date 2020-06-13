@@ -208,6 +208,7 @@ page_sections:
   block-list: ''
   align_y: ''
   title_margin_right: ''
+  meta: WOW!
 - template: block-media-row
   block: media-row
   row_alignment: between
@@ -531,6 +532,7 @@ page_sections:
     content: _JAVA Magazine_
     icon: ''
     url: ''
+  meta: ''
 - template: block-media-row
   block: media-row
   row_alignment: center
@@ -743,6 +745,7 @@ page_sections:
       York, NY (Group Show)"
     icon: ''
     url: ''
+  meta: ''
 - template: block-modal-list
   block: modal-list
   width: '33'
@@ -788,6 +791,7 @@ page_sections:
     icon: https://jesserieser.brandlew.co/uploads/logos-9.jpg
     url: ''
   image: https://jesserieser.brandlew.co/uploads/autobiography-38.jpg
+  meta: ''
 header_col_1_title: |-
   Advertising & Editorial
 
