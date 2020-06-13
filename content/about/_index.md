@@ -37,7 +37,7 @@ page_sections:
   background_color: ''
   text_color: "#000000"
   background_image_toggle: true
-  image: https://jesserieser.brandlew.co/uploads/bio-4.jpg
+  image: https://jesserieser.brandlew.co/uploads/bio_final-12.jpg
   font_weight: ''
   image_css: 'opacity: 0.6;'
   caption_css: ''
