@@ -41,7 +41,7 @@ page_sections:
   font_weight: ''
   image_css: 'opacity: 0.6;'
   caption_css: ''
-  text_alignment: right
+  text_alignment: left
 - template: block-media-row
   block: media-row
   row_alignment: between
