@@ -13,28 +13,28 @@
         <path d="M242.4 4.5L255.6 17.8 128 145.5 0.4 17.8 13.6 4.5 128 118.9z" style="fill:{{.Params.navigation_theme}} ;" class="arrow-down"/>
         </svg>
     </div>
-    <div id="about-title" class="absolute inset-auto h-full z-50 margin-0 uppercase px-4 sm:px-0 font-light tracking-wide text-{{.Params.navigation_theme}} text-center lazyload">
-        <h1 class="uppercase text-4xl sm:text-6xl font-light tracking-loose text-center relative" style="top: 40%" data-sal="slide-down" data-sal-delay="600">{{.Title}}</h1>
+    <div id="page-title" class="fixed z-50 margin-0 left-0 right-0 px-4 lg:px-64 font-light text-{{.Params.navigation_theme}} text-center lazyload" style="top: 50%; transform: translate3d(0, -50%, 0)">
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold tracking-loose leading-tight text-center" data-sal="slide-down" data-sal-delay="1000">{{.Title}}</h1>
     </div>
 </header>
-<section id="project-description" class="about-col w-full py-8 px-8 xl:px-16 text-lg sm:text-xl text-{{.Params.navigation_theme}} items-center relative z-100"  style="background-color: {{.Params.theme_color}}; backface-visibility: hidden;">
+<section id="project-description" class="about-col w-full py-8 px-8 xl:px-16 leading-tight text-{{.Params.navigation_theme}} items-center relative z-100"  style="background-color: {{.Params.theme_color}}; backface-visibility: hidden;">
     <div class="flex flex-col justify-center mx-auto">
-        <header class="hidden sm:flex flex-row justify-start flex-grow">
-            <h3 class="w-full sm:w-1/3 mx-0 sm:mx-8 pb-4 mb-4 border-b-2 border-solid border-white flex flex-col justify-center" data-sal="slide-up" data-sal-delay="0">{{ .Params.header_col_1_title | markdownify }}</h3>
-            <h3 class="w-full sm:w-1/3 mx-0 sm:mx-8 pb-4 mb-4  border-b-2 border-solid border-white flex flex-col justify-center" data-sal="slide-up" data-sal-delay="0">{{ .Params.header_col_2_title | markdownify }}</h3>
-            <h3 class="w-full sm:w-1/3 mx-0 sm:mx-8 pb-4 mb-4 border-b-2 border-solid border-white flex flex-col justify-center" data-sal="slide-up" data-sal-delay="0">{{ .Params.header_col_3_title | markdownify }}</h3>
+        <header class="hidden sm:flex flex-row justify-start flex-grow text-2xl">
+            <h3 class="w-full sm:w-1/3 mx-0 sm:mx-8 pb-4 mb-4 flex flex-col justify-center" data-sal="slide-up" data-sal-delay="0">{{ .Params.header_col_1_title | markdownify }}</h3>
+            <h3 class="w-full sm:w-1/3 mx-0 sm:mx-8 pb-4 mb-4 flex flex-col justify-center" data-sal="slide-up" data-sal-delay="0">{{ .Params.header_col_2_title | markdownify }}</h3>
+            <h3 class="w-full sm:w-1/3 mx-0 sm:mx-8 pb-4 mb-4 flex flex-col justify-center" data-sal="slide-up" data-sal-delay="0">{{ .Params.header_col_3_title | markdownify }}</h3>
         </header>
-        <section class="flex flex-col sm:flex-row justify-start items-start">
+        <section class="flex flex-col sm:flex-row justify-start items-start text-lg">
             <aside class="w-full sm:w-1/3 mx-0 sm:mx-8 pb-4 sm:pb-0" data-sal="slide-up" data-sal-delay="50">
-                <h3 class="block sm:hidden pb-4 mb-4 border-b-2 border-solid border-white flex flex-col justify-center" >{{ .Params.header_col_1_title | markdownify }}</h3>
+                <h3 class="block sm:hidden pb-4 mb-4  flex flex-col justify-center" >{{ .Params.header_col_1_title | markdownify }}</h3>
                 {{ .Params.header_col_1 | markdownify }}
             </aside>
             <aside class="w-full sm:w-1/3 mx-0 sm:mx-8 pb-4 sm:pb-0" data-sal="slide-up" data-sal-delay="250">
-                <h3 class="block sm:hidden pb-4 mb-4 border-b-2 border-solid border-white flex flex-col justify-center">{{ .Params.header_col_2_title | markdownify }}</h3>
+                <h3 class="block sm:hidden pb-4 mb-4  flex flex-col justify-center">{{ .Params.header_col_2_title | markdownify }}</h3>
                 {{ .Params.header_col_2 | markdownify }}
             </aside>
             <aside class="w-full sm:w-1/3 mx-0 sm:mx-8 pb-4 sm:pb-0" data-sal="slide-up" data-sal-delay="500">
-                <h3 class="block sm:hidden pb-4 mb-4 border-b-2 border-solid border-white flex flex-col justify-center" >{{ .Params.header_col_3_title | markdownify }}</h3>
+                <h3 class="block sm:hidden pb-4 mb-4  flex flex-col justify-center" >{{ .Params.header_col_3_title | markdownify }}</h3>
                 {{ .Params.header_col_3 | markdownify }}
             </aside>
     </section> 
