@@ -16,6 +16,11 @@ fields:
 - type: text
   name: title
   label: Popup Title
+- name: meta
+  type: text
+  config:
+    required: false
+  label: Meta
 - type: select
   name: width
   config:
