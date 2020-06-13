@@ -727,3 +727,10 @@ a.collection-next .arrow {
    } */
   }
 }
+
+@media only screen and (max-width: 1280px) {
+  .rellax-off-lg {
+    transform: translate3d(0px, 0px, 0px) !important;
+  }
+}
+
