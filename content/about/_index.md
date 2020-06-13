@@ -4,12 +4,12 @@ title: Say Hello
 date: 2017-11-02T23:00:00.000+00:00
 cover_image: ''
 collection_logo: ''
-collection_cover: https://jesserieser.brandlew.co/uploads/bio-2.jpg
+collection_cover: https://jesserieser.brandlew.co/uploads/bio_final-7.jpg
 collection_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
   hendrerit quam dapibus sem porttitor convallis. Integer convallis arcu non lectus
   facilisis dapibus. Aenean commodo magna at laoreet tempor. Phasellus lorem lorem,
   fringilla vitae interdum vel, euismod vitae quam.
-theme_color: "#BDD0E1"
+theme_color: "#D7E7DA"
 navigation_theme: white
 page_sections:
 - template: block-media-text
