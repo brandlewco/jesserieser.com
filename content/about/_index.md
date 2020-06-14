@@ -19,7 +19,7 @@ page_sections:
   width: '25'
   align_y: start
   margin_y: '0'
-  margin_left: 60%
+  margin_left: 45%
   margin_right: 0%
   text: "**Bio**\n\nJesse was born in the Ozarks--an 80’s kid with a Midwestern upbringing
     in Springfield, Missouri. At Arizona State University he majored in photography
@@ -56,11 +56,190 @@ page_sections:
   row_alignment: between
 - template: block-modal-list
   block: modal-list
+  width: '30'
+  align_x: start
+  margin_y: '100'
+  margin_left: 0%
+  margin_right: ''
+  title_margin_left: ''
+  margin_x: 5%
+  block-list: ''
+  align_y: ''
+  title_margin_right: ''
+  image: https://jesserieser.brandlew.co/uploads/bio_final-11.jpg
+  title: Exhibitions
+  color: "#F7BD1E"
+  modal_block:
+  - template: popup-text-element
+    content: "**2019**  \n_The Changing Landscape of American Retail_\n\nPhotoville
+      The Fence:\n\n* Brooklyn Bridge Park. Brooklyn, NY.\n* Santa Fe Railyard Park.
+      Santa Fe, NM.\n* LoDo District. Denver, CO.\n* Atlanta Beltline. Atlanta, GA.\n*
+      City Hall Plaza. Durham, NC.\n* SoWa Southie Plaza. Boston, MA.\n* Fourth Ward.
+      Houston, TX."
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \n_Christmas In America: Happy Birthday: Jesus_  \nMonopoli,
+      Italy (Solo Show)  \nPhest Photography Festival: See Beyond the Sea with National
+      Geographic"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \n_Grand Canyon National Park Centennial for Time Magazine_
+      \ \nTerry Etherton Gallery. Tucson, AZ (Group Show)  \nCelebrating The Grand
+      Canyon National Park at 100"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \n_Phoenix: A Dystopian Legoland That Tastes Like Candy_  \nLegend
+      City Gallery. Phoenix, AZ (Group Show)  \nChaos Theory 19"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \n_The Changing Landscape of American Retail_  \nCamerawork
+      Gallery  \nPortland, OR (Solo Show)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \n_The Changing Landscape of American Retail_  \nStandard
+      Vision LA at LA Live.   \nLos Angeles, CA (Solo Show)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2018 - 2019**  \n_Christmas In America: Happy Birthday, Jesus_  \nMabee-Gerrer
+      Museum of Art  \nShawnee, OK (Solo Show)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2018**  \n_Christmas In America: Happy Birthday, Jesus_  \nIndustry
+      City  \nBrooklyn, NY (Solo Show)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2018**  \n_The Changing Landscape of American Retail_  \nLegend City
+      Gallery. Phoenix, AZ (Group Show)  \nChaos Theory 18"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2018**  \n_Stalking A Serial Killer_  \nHCP Print Auction, Houston
+      Center for Photography.  \nHouston, TX (Group Show)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2017 - 2018**  \n_Christmas In America: Happy Birthday, Jesus_  \nIrving
+      Arts Center a Smithsonian Affiliate  \nIrving, TX (Solo Show)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2017 - 2018**  \n_Christmas In America: Happy Birthday, Jesus_  \nStandard
+      Vision LA at LA Live.   \nLos Angeles, CA (Solo Show)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2017 - 2018**  \n_Christmas In America: Happy Birthday, Jesus_  \nPhotoville
+      The Fence:\n\n* Brooklyn Bridge Park. Brooklyn, NY.\n* Santa Fe Railyard Park.
+      Santa Fe, NM.\n* LoDo District. Denver, CO.\n* Atlanta Beltline. Atlanta, GA.\n*
+      City Hall Plaza. Durham, NC.\n* SoWa Southie Plaza. Boston, MA.\n* Fourth Ward.
+      Houston, TX."
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2017**  \n_Stalking A Serial Killer_  \nSunday Afternoon Gallery.
+      \ \nNew York, NY (Group Show)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2017**  \n_Chaos Theory 17_  \nLegend City Gallery. Phoenix, AZ (Group
+      Show)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2016**  \n_Sounds of Cement_  \nInert Gallery. New York, NY (Group
+      Show)  \nSunday Afternoon Artist Exhibition"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2016**  \n_A New American Folklore_  \nLegend City Gallery. Phoenix,
+      AZ (Group Show)  \nChaos Theory 16"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2014**  \n_The Wallow Fire_  \nHow One Thing Leads To Another: Critical
+      Mass Top 50 Touring Show\n\n* Corden Potts Gallery. San Francisco, CA\n* Houston
+      Center For Photography. Houston, TX (Group Show)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2013**  \n_The Wallow Fire_  \nMonorchid Gallery. Phoenix, AZ (Group
+      Show)  \nThe Forty Eighth: Contemporary Photography at Arizona’s Centennial"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2013**_  \nChaos Theory 13_  \n_A New American Folklore_  \nLegend
+      City Gallery. Phoenix, AZ (Group Show)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2012**  \n_Christmas In America: Happy Birthday, Jesus_  \nLove, Anxiety,
+      and Happiness: Critical Mass Top 50 Touring Show\n\n* Northwest Center For Photography.
+      Seattle, WA\n* Newspace Center For Photography. Portland, OR\n* Raykko Gallery.
+      San Francisco, CA (Group Show)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2012**  \n_Class of 99 Turns 30_  \nLa Fototeca Gallery. Guatemala
+      City (Group Show)  \nGuate Photo Festival: \\[DOT\\]COM"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2011**  \n_Christmas In America: Happy Birthday, Jesus_  \nNewspace
+      Center for Photography.  \nPortland, OR (Solo Show)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2011**  \n_Christmas In America: Happy Birthday, Jesus_  \nThe Saguaro,
+      A Joie de Vivre Boutique Hotel.  \nScottsdale, AZ (Solo Show)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2011**  \n_Art Director’s Club Young Guns 9 Exhibition_  \nArt Director’s
+      Club Gallery.  \nNew York, NY. (Group Show)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2011**  \n_Christmas In America: Happy Birthday, Jesus_  \nArt of
+      Photography Juried Exhibition  \nJuried by Ann Lyden, Assoc. Curator of J. Paul
+      Getty Museum, Los Angeles  \nLyceum Theatre Gallery. San Diego, CA (Group Show)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2011**  \n_Christmas In America: Happy Birthday, Jesus_  \nCamera
+      Club of New York Gallery  \nNew York, NY (Group Show)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2011**  \n_Starting Over: Will Move for Work_  \nFilter Photo Festival
+      Juried Exhibition  \nBlack Cloud Gallery. Chicago, IL (Group Show)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2010**  \n_The Class of 99 Turns 30_  \nChaos Theory 10  \nLegend
+      City Gallery. Phoenix, AZ (Group Show)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2009**  \n_On the Verge of Existence_  \nHendershot Gallery.  \nNew
+      York, NY (Group Show)"
+    icon: ''
+    url: ''
+  meta: ''
+- template: block-modal-list
+  block: modal-list
   width: '33'
   align_x: start
-  margin_y: '400'
-  margin_left: 10%
-  margin_right: ''
+  margin_y: '100'
+  margin_left: 0%
+  margin_right: 10%
   title_margin_left: 60%
   image: https://jesserieser.brandlew.co/uploads/bio_final-9.jpg
   title: Awards
@@ -218,6 +397,40 @@ page_sections:
   align_y: ''
   title_margin_right: ''
   meta: WOW!
+- template: block-media-row
+  block: media-row
+  row_alignment: between
+- template: block-media-row
+  block: media-row
+  row_alignment: center
+- template: block-media-text
+  block: media-text
+  text_tracking: widest
+  width: '33'
+  align_y: center
+  margin_y: '100'
+  margin_left: 0%
+  margin_right: 0%
+  background_color: "#FF6A5A"
+  text: |-
+    “I’ve worked with tons of photographers that can’t make something great out of nothing. You made gold from a blank canvas. Thank you.”
+
+    \- Devin Gillespie Creative Director, Wieden+Kennedy Portland
+
+    “This shoot would have honestly never gotten off the ground if it wasn’t for everything you have done.” Kate Moore Senior Art Producer, Anomaly New York
+
+    “You are incapable of taking a normal picture.” - Jen Lamping
+
+    Lead Print Producer RPA Los Angeles
+  parallax: true
+  text_size: xl
+  background_image_toggle: false
+  image: ''
+  text_color: "#ffffff"
+  font_weight: ''
+  image_css: ''
+  caption_css: ''
+  text_alignment: ''
 - template: block-media-row
   block: media-row
   row_alignment: between
@@ -539,219 +752,6 @@ page_sections:
     url: ''
   - template: popup-text-element
     content: _JAVA Magazine_
-    icon: ''
-    url: ''
-  meta: ''
-- template: block-media-row
-  block: media-row
-  row_alignment: center
-- template: block-media-text
-  block: media-text
-  text_tracking: widest
-  width: '33'
-  align_y: center
-  margin_y: '100'
-  margin_left: 0%
-  margin_right: 0%
-  background_color: "#FF6A5A"
-  text: |-
-    “I’ve worked with tons of photographers that can’t make something great out of nothing. You made gold from a blank canvas. Thank you.”
-
-    \- Devin Gillespie Creative Director, Wieden+Kennedy Portland
-
-    “This shoot would have honestly never gotten off the ground if it wasn’t for everything you have done.” Kate Moore Senior Art Producer, Anomaly New York
-
-    “You are incapable of taking a normal picture.” - Jen Lamping
-
-    Lead Print Producer RPA Los Angeles
-  parallax: true
-  text_size: xl
-  background_image_toggle: false
-  image: ''
-  text_color: "#ffffff"
-  font_weight: ''
-  image_css: ''
-  caption_css: ''
-  text_alignment: ''
-- template: block-media-row
-  block: media-row
-  row_alignment: between
-- template: block-modal-list
-  block: modal-list
-  width: '33'
-  align_x: start
-  margin_y: '100'
-  margin_left: 60%
-  margin_right: ''
-  title_margin_left: ''
-  margin_x: 5%
-  block-list: ''
-  align_y: ''
-  title_margin_right: ''
-  image: https://jesserieser.brandlew.co/uploads/antivaxx-11.jpg
-  title: Exhibitions
-  color: "#F7BD1E"
-  modal_block:
-  - template: popup-text-element
-    content: "**2019**  \n_The Changing Landscape of American Retail_\n\nPhotoville
-      The Fence:\n\n* Brooklyn Bridge Park. Brooklyn, NY.\n* Santa Fe Railyard Park.
-      Santa Fe, NM.\n* LoDo District. Denver, CO.\n* Atlanta Beltline. Atlanta, GA.\n*
-      City Hall Plaza. Durham, NC.\n* SoWa Southie Plaza. Boston, MA.\n* Fourth Ward.
-      Houston, TX."
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "**2019**  \n_Christmas In America: Happy Birthday: Jesus_  \nMonopoli,
-      Italy (Solo Show)  \nPhest Photography Festival: See Beyond the Sea with National
-      Geographic"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "**2019**  \n_Grand Canyon National Park Centennial for Time Magazine_
-      \ \nTerry Etherton Gallery. Tucson, AZ (Group Show)  \nCelebrating The Grand
-      Canyon National Park at 100"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "**2019**  \n_Phoenix: A Dystopian Legoland That Tastes Like Candy_  \nLegend
-      City Gallery. Phoenix, AZ (Group Show)  \nChaos Theory 19"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "**2019**  \n_The Changing Landscape of American Retail_  \nCamerawork
-      Gallery  \nPortland, OR (Solo Show)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "**2019**  \n_The Changing Landscape of American Retail_  \nStandard
-      Vision LA at LA Live.   \nLos Angeles, CA (Solo Show)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "**2018 - 2019**  \n_Christmas In America: Happy Birthday, Jesus_  \nMabee-Gerrer
-      Museum of Art  \nShawnee, OK (Solo Show)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "**2018**  \n_Christmas In America: Happy Birthday, Jesus_  \nIndustry
-      City  \nBrooklyn, NY (Solo Show)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "**2018**  \n_The Changing Landscape of American Retail_  \nLegend City
-      Gallery. Phoenix, AZ (Group Show)  \nChaos Theory 18"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "**2018**  \n_Stalking A Serial Killer_  \nHCP Print Auction, Houston
-      Center for Photography.  \nHouston, TX (Group Show)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "**2017 - 2018**  \n_Christmas In America: Happy Birthday, Jesus_  \nIrving
-      Arts Center a Smithsonian Affiliate  \nIrving, TX (Solo Show)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "**2017 - 2018**  \n_Christmas In America: Happy Birthday, Jesus_  \nStandard
-      Vision LA at LA Live.   \nLos Angeles, CA (Solo Show)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "**2017 - 2018**  \n_Christmas In America: Happy Birthday, Jesus_  \nPhotoville
-      The Fence:\n\n* Brooklyn Bridge Park. Brooklyn, NY.\n* Santa Fe Railyard Park.
-      Santa Fe, NM.\n* LoDo District. Denver, CO.\n* Atlanta Beltline. Atlanta, GA.\n*
-      City Hall Plaza. Durham, NC.\n* SoWa Southie Plaza. Boston, MA.\n* Fourth Ward.
-      Houston, TX."
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "**2017**  \n_Stalking A Serial Killer_  \nSunday Afternoon Gallery.
-      \ \nNew York, NY (Group Show)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "**2017**  \n_Chaos Theory 17_  \nLegend City Gallery. Phoenix, AZ (Group
-      Show)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "**2016**  \n_Sounds of Cement_  \nInert Gallery. New York, NY (Group
-      Show)  \nSunday Afternoon Artist Exhibition"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "**2016**  \n_A New American Folklore_  \nLegend City Gallery. Phoenix,
-      AZ (Group Show)  \nChaos Theory 16"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "**2014**  \n_The Wallow Fire_  \nHow One Thing Leads To Another: Critical
-      Mass Top 50 Touring Show\n\n* Corden Potts Gallery. San Francisco, CA\n* Houston
-      Center For Photography. Houston, TX (Group Show)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "**2013**  \n_The Wallow Fire_  \nMonorchid Gallery. Phoenix, AZ (Group
-      Show)  \nThe Forty Eighth: Contemporary Photography at Arizona’s Centennial"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "**2013**_  \nChaos Theory 13_  \n_A New American Folklore_  \nLegend
-      City Gallery. Phoenix, AZ (Group Show)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "**2012**  \n_Christmas In America: Happy Birthday, Jesus_  \nLove, Anxiety,
-      and Happiness: Critical Mass Top 50 Touring Show\n\n* Northwest Center For Photography.
-      Seattle, WA\n* Newspace Center For Photography. Portland, OR\n* Raykko Gallery.
-      San Francisco, CA (Group Show)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "**2012**  \n_Class of 99 Turns 30_  \nLa Fototeca Gallery. Guatemala
-      City (Group Show)  \nGuate Photo Festival: \\[DOT\\]COM"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "**2011**  \n_Christmas In America: Happy Birthday, Jesus_  \nNewspace
-      Center for Photography.  \nPortland, OR (Solo Show)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "**2011**  \n_Christmas In America: Happy Birthday, Jesus_  \nThe Saguaro,
-      A Joie de Vivre Boutique Hotel.  \nScottsdale, AZ (Solo Show)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "**2011**  \n_Art Director’s Club Young Guns 9 Exhibition_  \nArt Director’s
-      Club Gallery.  \nNew York, NY. (Group Show)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "**2011**  \n_Christmas In America: Happy Birthday, Jesus_  \nArt of
-      Photography Juried Exhibition  \nJuried by Ann Lyden, Assoc. Curator of J. Paul
-      Getty Museum, Los Angeles  \nLyceum Theatre Gallery. San Diego, CA (Group Show)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "**2011**  \n_Christmas In America: Happy Birthday, Jesus_  \nCamera
-      Club of New York Gallery  \nNew York, NY (Group Show)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "**2011**  \n_Starting Over: Will Move for Work_  \nFilter Photo Festival
-      Juried Exhibition  \nBlack Cloud Gallery. Chicago, IL (Group Show)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "**2010**  \n_The Class of 99 Turns 30_  \nChaos Theory 10  \nLegend
-      City Gallery. Phoenix, AZ (Group Show)"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "**2009**  \n_On the Verge of Existence_  \nHendershot Gallery.  \nNew
-      York, NY (Group Show)"
     icon: ''
     url: ''
   meta: ''
