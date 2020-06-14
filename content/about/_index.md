@@ -16,7 +16,7 @@ page_sections:
   block: media-text
   text_size: lg
   text_tracking: wide
-  width: '33'
+  width: '30'
   align_y: start
   margin_y: '0'
   margin_left: 40%
@@ -33,7 +33,7 @@ page_sections:
   background_color: ''
   text_color: "#000000"
   background_image_toggle: true
-  image: https://jesserieser.brandlew.co/uploads/bio_final-4.jpg
+  image: https://jesserieser.brandlew.co/uploads/bio_final-3.jpg
   font_weight: ''
   image_css: 'opacity: 0.3;'
   caption_css: ''
