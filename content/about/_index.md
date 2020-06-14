@@ -14,12 +14,12 @@ navigation_theme: white
 page_sections:
 - template: block-media-text
   block: media-text
-  text_size: lg
+  text_size: xl
   text_tracking: wide
   width: '25'
   align_y: start
   margin_y: '0'
-  margin_left: 45%
+  margin_left: 30%
   margin_right: 0%
   text: "**Bio**\n\nJesse was born in the Ozarks--an 80’s kid with a Midwestern upbringing
     in Springfield, Missouri. At Arizona State University he majored in photography
@@ -48,7 +48,7 @@ page_sections:
   background_image_toggle: true
   image: https://jesserieser.brandlew.co/uploads/bio_final-3.jpg
   font_weight: ''
-  image_css: 'opacity: 0.6;'
+  image_css: 'opacity: 0.5;'
   caption_css: ''
   text_alignment: left
 - template: block-media-row
@@ -58,10 +58,10 @@ page_sections:
   block: modal-list
   width: '30'
   align_x: start
-  margin_y: '100'
-  margin_left: 0%
+  margin_y: '200'
+  margin_left: 5%
   margin_right: ''
-  title_margin_left: ''
+  title_margin_left: "-20%"
   margin_x: 5%
   block-list: ''
   align_y: ''
@@ -235,12 +235,12 @@ page_sections:
   meta: ''
 - template: block-modal-list
   block: modal-list
-  width: '33'
+  width: '40'
   align_x: start
-  margin_y: '100'
+  margin_y: '500'
   margin_left: 0%
   margin_right: 10%
-  title_margin_left: 60%
+  title_margin_left: "-15%"
   image: https://jesserieser.brandlew.co/uploads/bio_final-9.jpg
   title: Awards
   color: "#9DC2BE"
@@ -406,40 +406,36 @@ page_sections:
 - template: block-media-text
   block: media-text
   text_tracking: widest
-  width: '33'
-  align_y: center
-  margin_y: '100'
-  margin_left: 0%
+  width: '40'
+  align_y: start
+  margin_y: '200'
+  margin_left: 10%
   margin_right: 0%
   background_color: "#FF6A5A"
   text: |-
-    “I’ve worked with tons of photographers that can’t make something great out of nothing. You made gold from a blank canvas. Thank you.”
+    “I’ve worked with tons of photographers that can’t make something great out of nothing. You made gold from a blank canvas. Thank you.” - _Devin Gillespie Creative Director, Wieden+Kennedy Portland_
 
-    \- Devin Gillespie Creative Director, Wieden+Kennedy Portland
+    “This shoot would have honestly never gotten off the ground if it wasn’t for everything you have done.”- _Kate Moore Senior Art Producer, Anomaly New York_
 
-    “This shoot would have honestly never gotten off the ground if it wasn’t for everything you have done.” Kate Moore Senior Art Producer, Anomaly New York
-
-    “You are incapable of taking a normal picture.” - Jen Lamping
-
-    Lead Print Producer RPA Los Angeles
+    “You are incapable of taking a normal picture.” - _Jen Lamping Lead Print Producer RPA Los Angeles_
   parallax: true
-  text_size: xl
+  text_size: lg
   background_image_toggle: false
   image: ''
   text_color: "#ffffff"
-  font_weight: ''
+  font_weight: light
   image_css: ''
   caption_css: ''
-  text_alignment: ''
+  text_alignment: left
 - template: block-media-row
   block: media-row
   row_alignment: between
 - template: block-modal-list
   block: modal-list
-  width: '33'
+  width: '20'
   align_x: start
   margin_y: '100'
-  margin_left: 55%
+  margin_left: 20%
   margin_right: ''
   title_margin_left: 75%
   margin_x: 5%
@@ -447,7 +443,7 @@ page_sections:
   align_y: ''
   title_margin_right: ''
   title: Press
-  image: https://jesserieser.brandlew.co/uploads/bio-3.jpg
+  image: https://jesserieser.brandlew.co/uploads/bio_final-10.jpg
   color: "#FE9A8E"
   modal_block:
   - template: popup-text-element
@@ -757,12 +753,12 @@ page_sections:
   meta: ''
 - template: block-modal-list
   block: modal-list
-  width: '33'
+  width: '40'
   align_y: start
-  margin_y: '50'
+  margin_y: '400'
   margin_left: 0%
   margin_right: 0%
-  title_margin_left: 0%
+  title_margin_left: "-15%"
   title_margin_right: 0%
   title: Clients
   color: "#9DC2BE"
@@ -799,7 +795,7 @@ page_sections:
     content: "**Best Buy**"
     icon: https://jesserieser.brandlew.co/uploads/logos-9.jpg
     url: ''
-  image: https://jesserieser.brandlew.co/uploads/autobiography-38.jpg
+  image: https://jesserieser.brandlew.co/uploads/bio_final-13.jpg
   meta: ''
 header_col_1_title: |-
   Advertising & Editorial
