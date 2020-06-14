@@ -437,12 +437,12 @@ page_sections:
   margin_y: '100'
   margin_left: 20%
   margin_right: ''
-  title_margin_left: 75%
+  title_margin_left: "-95%"
   margin_x: 5%
   block-list: ''
   align_y: ''
   title_margin_right: ''
-  title: Press
+  title: Press & Interviews
   image: https://jesserieser.brandlew.co/uploads/bio_final-10.jpg
   color: "#FE9A8E"
   modal_block:
