@@ -16,10 +16,10 @@ page_sections:
   block: media-text
   text_size: lg
   text_tracking: wide
-  width: '30'
+  width: '25'
   align_y: start
   margin_y: '0'
-  margin_left: 40%
+  margin_left: 60%
   margin_right: 0%
   text: |-
     **Bio**
@@ -35,7 +35,7 @@ page_sections:
   background_image_toggle: true
   image: https://jesserieser.brandlew.co/uploads/bio_final-3.jpg
   font_weight: ''
-  image_css: 'opacity: 0.3;'
+  image_css: 'opacity: 0.6;'
   caption_css: ''
   text_alignment: left
 - template: block-media-row
