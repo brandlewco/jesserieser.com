@@ -1,9 +1,9 @@
 <figure class="filter-item h-auto py-4 pr-4 sm:pr-0 pl-4 md:w-grid-four sm:w-grid-three w-full overflow-hidden {{range .Params.collection_category }}{{. | replaceRE "[\\W]" "" | lower}} {{end}}{{with .Params.collection_filter}}{{. | replaceRE "[\\W]" "" | lower}}{{end}} all active" data-theme="{{with .Params.theme_color_all_works}}{{.}}{{else}}{{.Params.theme_color}}{{end}}" data-filter="{{range .Params.collection_category}}{{. | replaceRE "[\\W]" "" | lower}},{{end}}{{with .Params.collection_filter}}{{. | replaceRE "[\\W]" "" | lower}}{{end}}">
     <a href="{{.RelPermalink}}">
         {{if .Params.collection_preview }}
-        <div class="collection-preview relative lazyload" style="padding-top:75%; background-color:{{.Params.theme_color}};">
+        <div class="collection-preview relative lazyload magnify" style="padding-top:75%; background-color:{{.Params.theme_color}};">
         {{else}}
-        <div class="relative" style="padding-top:75%; background-color:{{.Params.theme_color}};">
+        <div class="relative magnify" style="padding-top:75%; background-color:{{.Params.theme_color}};">
         {{end}}
 
             {{with .Params.collection_preview}}

@@ -16,7 +16,7 @@
                     {{ .Title }}
                 </div>
                 <div class="text-md sm:text-xl block font-normal font-base leading-relaxed text-left ">
-                    {{.Params.collection_meta}}
+                    {{.Params.collection_meta | truncate 45 }}
                 </div>
             </div>
         </div>
@@ -45,7 +45,7 @@
                     {{ .Title }}
                 </div>
                 <div class="text-md sm:text-xl block font-normal font-base leading-relaxed text-left ">
-                    {{.Params.collection_meta}}
+                    {{.Params.collection_meta | truncate 45 }}
                 </div>
             </div>
         </div>
@@ -74,7 +74,7 @@
                     ARCHIVE: {{ .Title }}
                 </div>
                 <div class="text-md sm:text-xl block font-normal font-base leading-relaxed text-left ">
-                    {{.Params.collection_meta}}
+                    {{.Params.collection_meta | truncate 45 }}
                 </div>
             </div>
         </div>
@@ -101,7 +101,7 @@
                     {{ .Title }}
                 </div>
                 <div class="text-md sm:text-xl block font-normal font-base leading-relaxed text-left ">
-                    {{.Params.collection_meta}}
+                    {{.Params.collection_meta | truncate 45 }}
                 </div>
             </div>
         </div>
