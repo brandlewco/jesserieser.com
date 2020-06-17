@@ -305,6 +305,10 @@ function init() {
         if (disableAnimation) {
           options.showAnimationDuration = 0;
         }
+        const galleryClose = document.getElementById("pswp_close");
+        galleryClose.addEventListener("click", () => {
+          gallery.close();
+        });
 
         // Pass data to PhotoSwipe and initialize it
         gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
@@ -340,7 +344,7 @@ function init() {
           window.scrollTo({
             top: topPos,
             left: 0,
-            behavior: "smooth"
+            behavior: "smooth",
           });
           // document.getElementById(gallery.currItem.el.id).scrollIntoView({behavior: "smooth", block: "nearest", inline: "start"});
         });
