@@ -19,6 +19,7 @@ logo = ""
 navigation_theme = "white"
 slug = "collections/star-geezers"
 theme_color = "#FCE4D0"
+theme_color_all_works = "#FFC795"
 title = "Condor Airlines "
 [[collection_layout_builder]]
 align_x = "start"
