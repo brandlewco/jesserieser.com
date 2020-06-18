@@ -20,6 +20,7 @@ logo = ""
 navigation_theme = "white"
 slug = "collections/Mackenzie-Gossage"
 theme_color = "#9394AD"
+theme_color_all_works = "#B4B4FC"
 title = "Mackenzie Gossage"
 [[collection_layout_builder]]
 align_x = "start"
