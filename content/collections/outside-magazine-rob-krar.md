@@ -7,7 +7,7 @@ collection_cover = "https://jesserieser.brandlew.co/uploads/robkrar-2.jpg"
 collection_cover_mobile = "https://jesserieser.brandlew.co/uploads/verticalcovers-9.jpg"
 collection_description = "Rob Krar had to embrace incredible physical pain to win iconic ultramarathons like the Leadville Traill 100 and the Western States Endurance Run. But that’s a form suffering he can control- unlike his decades-long struggle with depression.⁠ Krar opens up about his battle with depression, the balance of his personal life and life as a professional athlete, what he means to the running community, and how his running camp has “saved lives.”"
 collection_exhibition = []
-collection_filter = "Commissioned + Stock"
+collection_filter = ""
 collection_hidden = false
 collection_meta = "Rob Krar Running In The Dark"
 collection_press = []
@@ -19,6 +19,7 @@ logo = ""
 navigation_theme = "white"
 slug = "collections/rob-krar-outside-magazine"
 theme_color = "#F1D7D5"
+theme_color_all_works = "#FFC0BC"
 title = "Outside Magazine "
 [[collection_layout_builder]]
 align_x = "start"
