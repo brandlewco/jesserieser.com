@@ -21,6 +21,7 @@ logo = ""
 navigation_theme = "white"
 slug = "collections/Fred-Kerley "
 theme_color = "#FFC1C7"
+theme_color_all_works = "#FFB5BD"
 title = "Nike Running’s "
 [[collection_layout_builder]]
 align_x = "start"
