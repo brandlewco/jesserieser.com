@@ -17,11 +17,12 @@ date = 2019-06-18T07:00:00Z
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
+px_extra = true
 slug = "collections/wired-magazine-2"
 test_repeater = []
 theme_color = "#D2DEE7"
+theme_color_all_works = "#8FD2F9"
 title = "Wired Magazine"
-px_extra = true
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
