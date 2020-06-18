@@ -19,6 +19,7 @@ logo = ""
 navigation_theme = "white"
 slug = "collections/united-airlines-rhapsody"
 theme_color = "#B9C5D0"
+theme_color_all_works = "#B3DEFE"
 title = "United Airlines Rhapsody"
 [[collection_layout_builder]]
 align_x = "start"
