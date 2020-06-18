@@ -26,6 +26,7 @@ filterCalc();
 imagesLoaded(grid, function() {
 
   // setTimeout(function() {
+
   // }, 500);
 
   filter.style.opacity = 1;
