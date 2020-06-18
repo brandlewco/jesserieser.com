@@ -17,6 +17,7 @@ logo = ""
 navigation_theme = "white"
 slug = "projects/changing-landscape-american-retail"
 theme_color = "#E9DCD0"
+theme_color_all_works = "#FFD0A4"
 title = "The Changing Landscape of American Retail"
 [[collection_awards]]
 content = "**2018**  \nPhotolucida Critical Mass  \nTop 50 International Project "
