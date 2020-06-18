@@ -11,6 +11,7 @@ collection_exhibition = []
 collection_filter = ""
 collection_hidden = false
 collection_meta = "Grand Canyon 100th Anniversary "
+collection_press = []
 collection_preview = ["https://jesserieser.brandlew.co/uploads/gc_covers-1.jpg", "https://jesserieser.brandlew.co/uploads/gc_covers-2.jpg", "https://jesserieser.brandlew.co/uploads/gc_covers-3.jpg", "https://jesserieser.brandlew.co/uploads/gc_covers-4.jpg"]
 cover_image = "https://jesserieser.brandlew.co/uploads/social-12.jpg"
 date = ""
@@ -258,11 +259,5 @@ margin_right = "20%"
 margin_y = "100"
 template = "block-media-element"
 width = "60"
-[[collection_press]]
-content = "Press List Item"
-template = "popup-text-element"
-[[collection_press]]
-content = "Press List Item"
-template = "popup-text-element"
 
 +++
