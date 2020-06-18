@@ -13,6 +13,7 @@ collection_press = []
 collection_preview = ["https://jesserieser.brandlew.co/uploads/studios-cover-1.jpg", "https://jesserieser.brandlew.co/uploads/studios-cover-2.jpg", "https://jesserieser.brandlew.co/uploads/studios-cover-3.jpg", "https://jesserieser.brandlew.co/uploads/studios-cover-4.jpg"]
 cover_image = "https://jesserieser.brandlew.co/uploads/social-5.jpg"
 date = ""
+hide_footer = true
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
