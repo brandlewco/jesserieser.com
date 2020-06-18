@@ -18,6 +18,7 @@ logo = ""
 navigation_theme = "white"
 slug = "projects/Photo-Studios-Extinction"
 theme_color = "#FBC8B2"
+theme_color_all_works = "#FFAC87"
 title = "Photo Studios Extinction"
 [[collection_exhibition]]
 content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
