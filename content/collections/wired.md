@@ -16,6 +16,7 @@ logo = ""
 navigation_theme = "white"
 slug = "collections/wired-magazine"
 theme_color = "#F6E3CD"
+theme_color_all_works = "#FFCC95"
 title = "Wired Magazine"
 [[collection_layout_builder]]
 align_y = "start"
