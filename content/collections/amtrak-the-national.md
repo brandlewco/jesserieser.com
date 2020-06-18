@@ -20,6 +20,7 @@ navigation_theme = "white"
 page = "/collections/amtrak"
 slug = "collections/amtrak-the-national"
 theme_color = "#E0C5B7"
+theme_color_all_works = "#FFB283"
 title = "Amtrak The National"
 [[collection_layout_builder]]
 align_x = "start"
