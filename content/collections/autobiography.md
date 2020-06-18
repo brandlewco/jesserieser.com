@@ -18,6 +18,7 @@ logo = ""
 navigation_theme = "white"
 slug = "projects/autobiography-contact-sport"
 theme_color = "#CAD39C"
+theme_color_all_works = "#EDF89A"
 title = "Autobiography of a Contact Sport"
 [[collection_awards]]
 content = "**2018**  \n_AP 34: American Photography Annual 34_  \nBest Personal Work Series"
