@@ -20,6 +20,7 @@ logo = ""
 navigation_theme = "white"
 slug = "collections/go-skateboarding-day"
 theme_color = "#BBD8FF"
+theme_color_all_works = "#B0D1FF"
 title = "New York City"
 [[collection_layout_builder]]
 align_x = "start"
