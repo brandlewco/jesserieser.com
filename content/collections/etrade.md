@@ -19,6 +19,7 @@ logo = ""
 navigation_theme = "white"
 slug = "collections/etrade"
 theme_color = "#D7C6AD"
+theme_color_all_works = "#FFD5A0"
 title = "E*Trade"
 [[collection_layout_builder]]
 align_x = "start"
