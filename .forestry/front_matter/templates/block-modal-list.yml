@@ -31,13 +31,17 @@ fields:
     options:
     - '10'
     - '20'
+    - '25'
     - '30'
     - '33'
     - '40'
+    - '45'
     - '50'
+    - '55'
     - '60'
     - '66'
     - '70'
+    - '75'
     - '80'
     - '90'
     - '100'
@@ -67,6 +71,8 @@ fields:
     - '300'
     - '400'
     - '500'
+    - '600'
+    - '700'
     - '0'
     source:
       type: simple
@@ -248,6 +254,118 @@ fields:
       file: 
       path: 
   label: Title Right Margin (X)
+- name: text_color
+  type: color
+  label: Text Color
+  config:
+    required: false
+    color_format: Hex
+- type: select
+  name: text_size
+  config:
+    source:
+      type: simple
+      section: ''
+      path: ''
+    options:
+    - xs
+    - sm
+    - base
+    - lg
+    - 2xl
+    - 4xl
+    - 6xl
+    - 7xl
+    - 8xl
+    - 9xl
+    - 10xl
+  label: Text Size
+  default: 2xl
+- name: line_height
+  type: select
+  default: normal
+  config:
+    required: false
+    options:
+    - none
+    - tight
+    - snug
+    - normal
+    - relaxed
+    - loose
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Line Height
+  description: 1-2 line height scale
+- name: text_alignment
+  type: select
+  default: left
+  config:
+    required: false
+    options:
+    - left
+    - center
+    - right
+    - justified
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Text Alignment
+  description: left / center / right
+- type: select
+  name: text_tracking
+  config:
+    source:
+      type: simple
+      section: ''
+      path: ''
+    options:
+    - tighter
+    - tight
+    - normal
+    - wide
+    - wider
+    - widest
+  label: Text Tracking
+  default: normal
+  description: spacing between letters
+- name: font_weight
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - hairline
+    - light
+    - normal
+    - semibold
+    - bold
+    - extrabold
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Font Weight
+- type: select
+  name: meta_align
+  config:
+    options:
+    - left
+    - center
+    - right
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  default: left
+  label: Meta Title Alignment (X)
 - name: modal_block
   type: blocks
   template_types:
