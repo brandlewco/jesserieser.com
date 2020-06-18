@@ -25,6 +25,9 @@ html::-webkit-scrollbar-thumb, .scrollbar::-webkit-scrollbar-thumb {
 p {
   @apply mb-4 !important;
 }
+p:empty {
+  margin-bottom: 0px !important;
+}
 
 h3 p {
   @apply mb-0 !important;
