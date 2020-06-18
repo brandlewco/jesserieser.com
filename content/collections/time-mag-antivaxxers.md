@@ -18,7 +18,7 @@ layout = "blocks"
 logo = ""
 navigation_theme = "white"
 slug = "collections/time-magazine-ii"
-theme_color = "#1E95A2"
+theme_color = "#25CBDD"
 title = "Time Magazine"
 [[collection_layout_builder]]
 align_x = "start"
