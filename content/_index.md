@@ -60,6 +60,7 @@ page_sections:
   text_tracking: widest
   font_weight: hairline
   line_height: ''
+  title_margin_y: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -86,6 +87,7 @@ page_sections:
   text_tracking: ''
   font_weight: ''
   line_height: ''
+  title_margin_y: 60%
 - template: block-media-feature
   block: media-feature
   width: '45'
@@ -109,6 +111,7 @@ page_sections:
   text_tracking: ''
   font_weight: ''
   line_height: ''
+  title_margin_y: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -133,6 +136,7 @@ page_sections:
   text_tracking: ''
   font_weight: ''
   line_height: ''
+  title_margin_y: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -157,6 +161,7 @@ page_sections:
   text_tracking: ''
   font_weight: ''
   line_height: ''
+  title_margin_y: ''
 - template: block-media-feature
   block: media-feature
   width: '30'
@@ -180,6 +185,7 @@ page_sections:
   text_tracking: ''
   font_weight: ''
   line_height: ''
+  title_margin_y: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -217,6 +223,7 @@ page_sections:
   text_tracking: ''
   font_weight: ''
   line_height: ''
+  title_margin_y: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -241,6 +248,7 @@ page_sections:
   text_tracking: ''
   font_weight: ''
   line_height: ''
+  title_margin_y: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -265,6 +273,7 @@ page_sections:
   text_tracking: ''
   font_weight: ''
   line_height: ''
+  title_margin_y: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -291,6 +300,7 @@ page_sections:
   text_tracking: ''
   font_weight: ''
   line_height: ''
+  title_margin_y: ''
 - template: block-media-feature
   block: media-feature
   width: '45'
@@ -312,6 +322,7 @@ page_sections:
   text_tracking: ''
   font_weight: ''
   line_height: ''
+  title_margin_y: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -346,6 +357,7 @@ page_sections:
   text_tracking: ''
   font_weight: ''
   line_height: ''
+  title_margin_y: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -370,6 +382,7 @@ page_sections:
   text_tracking: ''
   font_weight: ''
   line_height: ''
+  title_margin_y: ''
 - template: block-media-feature
   block: media-feature
   width: '40'
@@ -391,6 +404,7 @@ page_sections:
   text_tracking: ''
   font_weight: ''
   line_height: ''
+  title_margin_y: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
