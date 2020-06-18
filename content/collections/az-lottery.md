@@ -19,6 +19,7 @@ logo = ""
 navigation_theme = "white"
 slug = "collections/Arizona-Lottery"
 theme_color = "#CFE7DF"
+theme_color_all_works = "#A8EFDB"
 title = "Arizona Lottery"
 [[collection_layout_builder]]
 align_x = "start"
