@@ -19,7 +19,7 @@ layout = "blocks"
 logo = ""
 navigation_theme = "white"
 slug = "collections/skeleton-party"
-theme_color = "#B8EEBC"
+theme_color = "#A3F4A7"
 title = "Skeleton Party"
 [[collection_layout_builder]]
 align_x = "start"
