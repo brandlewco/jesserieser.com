@@ -19,6 +19,7 @@ logo = ""
 navigation_theme = "white"
 slug = "collections/kenny-grahams"
 theme_color = "#DBEDB4"
+theme_color_all_works = "#CFF191"
 title = "Nike’s Kenny Graham’s "
 [[collection_layout_builder]]
 align_x = "start"
