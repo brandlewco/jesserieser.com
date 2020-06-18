@@ -16,6 +16,7 @@ logo = ""
 navigation_theme = "white"
 slug = "collections/stalking-serial-killer"
 theme_color = "#9CB8D7"
+theme_color_all_works = "#9BC6FF"
 title = "Society Magazine"
 [[collection_awards]]
 content = "**2017**  \n_AP 33: American Photography Annual 33_  \nBest Editorial Series"
