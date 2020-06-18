@@ -5,6 +5,7 @@ collection_content = ""
 collection_cover = "https://jesserieser.brandlew.co/uploads/soc-10.jpg"
 collection_cover_mobile = "https://jesserieser.brandlew.co/uploads/verticalcovers-26.jpg"
 collection_description = "These works celebrate the beautiful dance-like aesthetic between two athletes competing in a racquetball match while confined by 4 concrete walls.\n\nSelected as one of the year’s best in the 2016 **_PDN Photo Annual_** and exhibited at Inert Gallery, New York, NY."
+collection_description_alignment = "left"
 collection_filter = "Commissioned + Stock"
 collection_hidden = false
 collection_meta = ""
