@@ -22,6 +22,7 @@ px_extra = true
 row_alignment = ""
 slug = "projects/christmas-in-america"
 theme_color = "#B1D9D2"
+theme_color_all_works = "#69E5CE"
 title = "Christmas In America: Happy Birthday, Jesus"
 [[collection_awards]]
 content = "**2017**  \n_Communication Arts Photography Annual  \nWinner: Best Unpublished Series_"
