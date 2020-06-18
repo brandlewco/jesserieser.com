@@ -20,6 +20,7 @@ navigation_theme = "white"
 page = "/collections/amtrak-chief"
 slug = "collections/southwest-chief"
 theme_color = "#E3D2E7"
+theme_color_all_works = "#F6D1FF"
 title = "Amtrak The National "
 [[collection_layout_builder]]
 align_x = "start"
