@@ -28,6 +28,9 @@ p {
 p:empty {
   margin-bottom: 0px !important;
 }
+/* di:empty {
+  display: none !important;
+} */
 
 h3 p {
   @apply mb-0 !important;

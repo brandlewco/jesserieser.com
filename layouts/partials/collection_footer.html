@@ -122,13 +122,13 @@
 {{else}}
 <section id="project-brief" class="mt-4" style="background-color:{{.Params.theme_color}};">
     <div class="mx-auto w-full">
-        <aside class="mx-16 xl:mx-32 py-12 {{with .Params.navigation_theme}}text-{{.}}{{end}} border-b-2 border-solid" {{with .Params.navigation_theme}}style="border-color: {{.}}"{{end}}>
+        <aside class="mx-16 xl:mx-32 py-12 {{with .Params.navigation_theme}}text-{{.}}{{end}}">
             <h1 class="text-lg sm:text-2xl font-bold font-light">{{.Params.title}}</h1>
-            {{with .Params.collection_meta}}<h2 class="mb-6 text-base sm:text-xl font-normal leading-relaxed">{{.}}</h2>{{end}}
+            {{with .Params.collection_meta}}<h2 class="mb-6 text-base sm:text-xl font-normal">{{.}}</h2>{{end}}
             {{with .Params.collection_content}}<article class="text-lg leading-tight">{{ . | markdownify }}</article>{{end}}
         </aside>
     </div>
-    <section class="flex flex-wrap mx-16 xl:mx-32 py-16 {{with .Params.navigation_theme}}text-{{.}}{{end}} empty">
+    <section class="flex flex-wrap mx-16 xl:mx-32 py-16 {{with .Params.navigation_theme}}text-{{.}}{{end}} empty border-t-2 border-solid" {{with .Params.navigation_theme}}style="border-color: {{.}}"{{end}}>
         {{with .Params.collection_awards}}
         <aside class="w-full sm:w-1/3 pr-0 sm:pr-4 items-start">
             <div>
