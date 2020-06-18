@@ -14,6 +14,7 @@ collection_press = []
 collection_preview = ["https://jesserieser.brandlew.co/uploads/kenny_covers-3.jpg", "https://jesserieser.brandlew.co/uploads/kenny_covers-2.jpg", "https://jesserieser.brandlew.co/uploads/kenny_covers-1.jpg", "https://jesserieser.brandlew.co/uploads/kenny_covers-7.jpg", "https://jesserieser.brandlew.co/uploads/kenny_covers-4.jpg", "https://jesserieser.brandlew.co/uploads/kenny_covers-5.jpg", "https://jesserieser.brandlew.co/uploads/kenny_covers-6.jpg", "https://jesserieser.brandlew.co/uploads/kenny_covers-8.jpg"]
 cover_image = "https://jesserieser.brandlew.co/uploads/social-23.jpg"
 date = ""
+hide_footer = true
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
