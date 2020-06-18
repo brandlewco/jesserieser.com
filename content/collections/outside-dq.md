@@ -20,6 +20,7 @@ navigation_theme = "white"
 page = "/collections/outside-dq"
 slug = "collections/outside-magazine-dq"
 theme_color = "#CFDDE5"
+theme_color_all_works = "#9BDDFF"
 title = "Outside Magazine"
 [[collection_layout_builder]]
 align_x = "start"
