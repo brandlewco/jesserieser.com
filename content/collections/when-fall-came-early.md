@@ -121,5 +121,8 @@ width = "60"
 [[collection_press]]
 content = "[**_MSNBC. Feature and Interview._**](http://www.msnbc.com/msnbc/when-fall-came-early)"
 template = "popup-text-element"
+[[collection_press]]
+content = "**_AARP Earth Day Feature_**"
+template = "popup-text-element"
 
 +++
