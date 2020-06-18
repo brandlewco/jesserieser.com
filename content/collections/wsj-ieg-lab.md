@@ -19,6 +19,7 @@ logo = ""
 navigation_theme = "white"
 slug = "collections/wall-street-journal-2"
 theme_color = "#E2EADE"
+theme_color_all_works = "#BCF6A6"
 title = "The Wall Street Journal"
 [[collection_layout_builder]]
 align_x = "start"
