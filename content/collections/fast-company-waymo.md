@@ -19,6 +19,7 @@ logo = ""
 navigation_theme = "white"
 slug = "collections/googles-waymo-car"
 theme_color = "#C2ECD1"
+theme_color_all_works = "#B3EFCB"
 title = "Fast Company "
 [[collection_layout_builder]]
 align_x = "start"
