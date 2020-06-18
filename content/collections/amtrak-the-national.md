@@ -14,6 +14,7 @@ collection_press = []
 collection_preview = ["https://jesserieser.brandlew.co/uploads/amtrak_ttx_covers-1.jpg", "https://jesserieser.brandlew.co/uploads/amtrak_ttx_covers-2.jpg", "https://jesserieser.brandlew.co/uploads/amtrak_ttx_covers-3.jpg", "https://jesserieser.brandlew.co/uploads/amtrak_ttx_covers-4.jpg"]
 cover_image = "https://jesserieser.brandlew.co/uploads/social-16.jpg"
 date = 2019-08-01T07:00:00Z
+hide_footer = true
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
