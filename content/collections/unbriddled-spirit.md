@@ -18,6 +18,7 @@ logo = ""
 navigation_theme = "white"
 slug = "collections/cowboy-curt/"
 theme_color = "#C6ACD2"
+theme_color_all_works = "#D9AAEB"
 title = "Phoenix Home & Garden"
 [[collection_awards]]
 content = "**2016**  \n_AP 32: American Photography Annual 32_  \nBest Editorial Work:"
