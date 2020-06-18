@@ -16,7 +16,7 @@ layout = "blocks"
 logo = ""
 navigation_theme = "black"
 slug = "collections/sounds-of-cement"
-theme_color = "#CCCCCC"
+theme_color = "#8DFBC6"
 title = "Sounds of Cement"
 [[collection_awards]]
 content = "**2016**  \n**_PDN Photo Annual_**   \nBest Stock Photography"
