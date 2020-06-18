@@ -22,7 +22,7 @@
         <figcaption class="text-black text-base">
         {{end}}
         <span class="font-medium italic block pt-1 tracking-wide leading-tight">{{.Title}}</span>
-        {{with .Params.collection_meta}}<span class="font-normal block text-xs">{{.}}</span>{{end}}
+        <span class="font-normal block text-xs">{{.Params.collection_meta}} {{with .Params.collection_meta_2}} - {{.}}{{end}}</span>
         </figcaption>
     </a>
 </figure>
