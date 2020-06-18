@@ -17,7 +17,7 @@ layout = "blocks"
 logo = ""
 navigation_theme = "black"
 slug = "collections/sounds-of-cement"
-theme_color = "#BABABA"
+theme_color = "#CDCDCD"
 theme_color_all_works = "#8DFBC6"
 title = "Sounds of Cement"
 [[collection_awards]]
