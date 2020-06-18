@@ -327,10 +327,11 @@ a.pswp__share--download:hover {
 .pswp__preloader {
   width: 44px;
   height: 44px;
-  position: absolute;
-  top: 0;
+  position: fixed;
+  top: 50%;
   left: 50%;
-  margin-left: -22px;
+  margin-left: -25px;
+  margin-top: -25px;
   opacity: 0;
   -webkit-transition: opacity 0.25s ease-out;
   transition: opacity 0.25s ease-out;

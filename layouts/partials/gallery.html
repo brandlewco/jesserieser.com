@@ -40,12 +40,8 @@
       
                       <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
                       <!-- element will get class pswp__preloader--active when preloader is running -->
-                      <div class="pswp__preloader">
-                          <div class="pswp__preloader__icn">
-                            <div class="pswp__preloader__cut">
-                              <div class="pswp__preloader__donut"></div>
-                            </div>
-                          </div>
+                      <div class="pswp__preloader text-4xl">
+                      <i class="fad fa-spinner-third fa-spin" style="{{with .Params.theme_color}}color: {{.}}{{else}}color: {{.Params.navigation_theme}}{{end}}"></i>
                       </div>
                   </div>
       
