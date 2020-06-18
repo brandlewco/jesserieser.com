@@ -9,7 +9,7 @@ collection_exhibition = []
 collection_filter = "Personal"
 collection_hidden = false
 collection_meta = "The Drought Along the Arkansas River Basin"
-collection_meta_2 = "The Blah At The Web"
+collection_meta_2 = "2014"
 collection_preview = ["https://jesserieser.brandlew.co/uploads/fall-cover-1.jpg", "https://jesserieser.brandlew.co/uploads/fall-cover-2.jpg", "https://jesserieser.brandlew.co/uploads/fall-cover-3.jpg", "https://jesserieser.brandlew.co/uploads/fall-cover-4.jpg"]
 cover_image = "https://jesserieser.brandlew.co/uploads/social-4.jpg"
 date = ""
@@ -18,6 +18,7 @@ logo = ""
 navigation_theme = "white"
 slug = "projects/when-fall-came-early"
 theme_color = "#E1EAED"
+theme_color_all_works = "#B5DFFF"
 title = "When Fall Came Early:"
 [[collection_awards]]
 content = "**2015**  \n**_PDN Photo Annual_**  \nBest Editorial Series: _When Fall Came Early_ published by MSNBC"
