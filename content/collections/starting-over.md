@@ -17,6 +17,7 @@ logo = ""
 navigation_theme = "white"
 slug = "projects/starting-over"
 theme_color = "#E0CBC6"
+theme_color_all_works = "#F9917C"
 title = "Starting Over: Will Move For Work"
 [[collection_awards]]
 content = "**2012**  \n_Photolucida's Critical Mass_  \nFinalist: Top International Project"
