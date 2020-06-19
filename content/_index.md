@@ -24,7 +24,7 @@ page_sections:
   text_alignment: left
   line_height: relaxed
   title: '<p style="text-align: left;">Phoenix: A Dystopian Legoland</p><p style="text-align:
-    right;">That Tastes Like Candy</p>'
+    right; margin-right: -50px;">That Tastes Like Candy</p>'
   text_color: "#FF0000"
 - template: block-modal-blog
   block: modal-blog
