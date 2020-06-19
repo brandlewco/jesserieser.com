@@ -274,11 +274,11 @@ module.exports = {
       top: "top",
     },
     opacity: {
-      "0": "0",
-      "25": "0.25",
-      "50": "0.5",
-      "75": "0.75",
-      "100": "1",
+      "0": "0 !important",
+      "25": "0.25 !important",
+      "50": "0.5 !important",
+      "75": "0.75 !important",
+      "100": "1 !important",
     },
     order: {
       first: "-9999",
