@@ -233,6 +233,14 @@ page_sections:
     icon: ''
     url: ''
   meta: ''
+  title_margin_y: ''
+  text_color: ''
+  text_size: ''
+  line_height: ''
+  text_alignment: ''
+  text_tracking: ''
+  font_weight: ''
+  meta_align: ''
 - template: block-modal-list
   block: modal-list
   width: '40'
@@ -397,6 +405,14 @@ page_sections:
   align_y: ''
   title_margin_right: ''
   meta: WOW!
+  title_margin_y: ''
+  text_color: ''
+  text_size: ''
+  line_height: ''
+  text_alignment: ''
+  text_tracking: ''
+  font_weight: ''
+  meta_align: ''
 - template: block-media-row
   block: media-row
   row_alignment: between
@@ -751,6 +767,14 @@ page_sections:
     icon: ''
     url: ''
   meta: ''
+  title_margin_y: ''
+  text_color: ''
+  text_size: ''
+  line_height: ''
+  text_alignment: ''
+  text_tracking: ''
+  font_weight: ''
+  meta_align: ''
 - template: block-modal-list
   block: modal-list
   width: '40'
@@ -797,6 +821,14 @@ page_sections:
     url: ''
   image: https://jesserieser.brandlew.co/uploads/bio_final-13.jpg
   meta: ''
+  title_margin_y: ''
+  text_color: ''
+  text_size: ''
+  line_height: ''
+  text_alignment: ''
+  text_tracking: ''
+  font_weight: ''
+  meta_align: ''
 header_col_1_title: |-
   Advertising & Editorial
 
@@ -819,6 +851,18 @@ header_col_3: "[Gallery Stock](https://www.gallerystock.com)  \n190 Bowery  \nNe
   \"newyork@gallerystock.com\")\n\n[Paris](mailto:PARIS@GALLERYSTOCK.COM)  \n[Munich](mailto:MUNICH@GALLERYSTOCK.COM)
   \ \n[Sydney](mailto:HELLO@SNAPPERIMAGES.COM)"
 row_alignment: between
+collection_cover_mobile: ''
+about_bio: |-
+  **Bio**
+
+  Jesse was born in the Ozarks--an 80’s kid with a Midwestern upbringing in Springfield, Missouri. At Arizona State University he majored in photography and art history while attending the Herberger Institute of Art and Design. His world has been shaped by his artistic parents: a mother who is a painter and educator and a father who draws and paints; they exposed him to the colorful pop art movement of the 50s, American photo realism of the 70s; and the use of light to celebrate the subjects in the Dutch Baroque, and Renaissance periods- all major influences in his aesthetic.
+
+  For the past decade Jesse has carefully constructed a photographic world built on the foundation of celebrating the mundane and humorous elements that often go overlooked in our day-to-day American experience. His use of light and bleached color, leaves the viewer with the illusion that our existence is equally beautiful as it is fleeting. In this world you will find one-time paradisal places and memories framed by our modern anxieties about the past, present, and future--examining our rituals and the artifacts left behind. If these earlier works were more documentary in nature, his latest work _Phoenix A Dystopian Lego Land_ blurs the lines of fact and fiction--the real dancing joyfully with the surreal and constructed.
+
+  Clients find him as a creative additive to the collaborative process not only with his technical expertise but also in the ideation phase. He feels his greatest currency is how he communicates and sees the world--formed by life experiences, relationships, hardships, and triumphs.
+
+  Some call it empathy. Some call it charm. His mom just says he’s a nice young man.
+about_bio_image: https://jesserieser.brandlew.co/uploads/bio_final-10.jpg
 
 ---
 ## Click the collections link above to preview collections.
