@@ -101,6 +101,20 @@ fields:
     schema:
       format: markdown
   label: Header Column 3
+- name: about_bio
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Bio
+- name: about_bio_image
+  type: file
+  config:
+    maxSize: 64
+  label: Bio Image
 - name: row_alignment
   type: select
   default: between
