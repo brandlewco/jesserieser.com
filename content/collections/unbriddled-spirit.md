@@ -28,7 +28,7 @@ template = "popup-text-element"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E0D2E0"
 image = "https://jesserieser.brandlew.co/uploads/spirit-1.jpg"
 margin_left = "25%"
@@ -43,7 +43,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F9F7D1"
 image = "https://jesserieser.brandlew.co/uploads/spirit-2.jpg"
 margin_left = "5%"
@@ -53,7 +53,7 @@ width = "50"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#DEE8BD"
 image = "https://jesserieser.brandlew.co/uploads/spirit-3.jpg"
 margin_left = ""
@@ -68,7 +68,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#D3E7F3"
 image = "https://jesserieser.brandlew.co/uploads/spirit-4.jpg"
 margin_left = "35%"
@@ -83,7 +83,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F4E8DC"
 image = "https://jesserieser.brandlew.co/uploads/spirit-6.jpg"
 margin_left = "10%"
@@ -94,7 +94,7 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#D1B5DA"
 image = "https://jesserieser.brandlew.co/uploads/spirit-5.jpg"
 margin_right = "5%"
@@ -108,7 +108,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F4CBAA"
 image = "https://jesserieser.brandlew.co/uploads/spirit-7.jpg"
 margin_left = "20%"

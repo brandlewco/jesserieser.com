@@ -232,7 +232,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FCBE8E"
 image = "https://jesserieser.brandlew.co/uploads/rieser_phx-HI-16.jpg"
 margin_left = "25%"
@@ -247,7 +247,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#88F1E8"
 image = "https://jesserieser.brandlew.co/uploads/rieser_phx-HI-17.jpg"
 margin_left = "5%"
@@ -257,7 +257,7 @@ width = "60"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FFECA9"
 image = "https://jesserieser.brandlew.co/uploads/rieser_phx-HI-18.jpg"
 margin_left = "0%"
@@ -272,7 +272,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#BBE1E4"
 image = "https://jesserieser.brandlew.co/uploads/rieser_phx-HI-19.jpg"
 margin_left = "10%"
@@ -283,7 +283,7 @@ width = "20"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FEED9D"
 image = "https://jesserieser.brandlew.co/uploads/rieser_phx-HI-20.jpg"
 margin_left = "0%"
@@ -302,7 +302,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FFDEE1"
 image = "https://jesserieser.brandlew.co/uploads/rieser_phx-HI-21.jpg"
 margin_left = "25%"
@@ -317,7 +317,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FFE181"
 image = "https://jesserieser.brandlew.co/uploads/rieser_phx-HI-22.jpg"
 margin_left = "5%"
@@ -327,7 +327,7 @@ width = "50"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#D5E0E6"
 image = "https://jesserieser.brandlew.co/uploads/rieser_phx-HI-23.jpg"
 margin_right = "5%"
@@ -341,7 +341,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#D4F1EC"
 image = "https://jesserieser.brandlew.co/uploads/rieser_phx-HI-24.jpg"
 margin_left = "15%"

@@ -25,7 +25,7 @@ title = "Nike’s Kenny Graham’s "
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E9E9E9"
 image = "https://jesserieser.brandlew.co/uploads/kennygraham-1.jpg"
 margin_left = "5%"
@@ -36,7 +36,7 @@ width = "60"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#5B5B5B"
 image = "https://jesserieser.brandlew.co/uploads/kennygraham-2.jpg"
 margin_left = ""
@@ -51,7 +51,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#8D8D8D"
 image = "https://jesserieser.brandlew.co/uploads/kennygraham-4.jpg"
 margin_left = "10%"
@@ -62,7 +62,7 @@ width = "45"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#D6D6D6"
 image = "https://jesserieser.brandlew.co/uploads/kennygraham-3.jpg"
 margin_left = ""
@@ -77,7 +77,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#C1C1C1"
 image = "https://jesserieser.brandlew.co/uploads/kennygraham-5.jpg"
 margin_left = "20%"
@@ -92,7 +92,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#414141"
 image = "https://jesserieser.brandlew.co/uploads/kennygraham-6.jpg"
 margin_left = "15%"
@@ -103,7 +103,7 @@ width = "25"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#efefef"
 image = "https://jesserieser.brandlew.co/uploads/kennygraham-7.jpg"
 margin_left = ""
@@ -118,7 +118,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#8B8B8B"
 image = "https://jesserieser.brandlew.co/uploads/kennygraham-8.jpg"
 margin_left = "30%"
@@ -132,7 +132,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#efefef"
 image = "https://jesserieser.brandlew.co/uploads/kennygraham-9.jpg"
 margin_left = "15%"
@@ -147,7 +147,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#B6B6B6"
 image = "https://jesserieser.brandlew.co/uploads/kennygraham-10.jpg"
 margin_left = "5%"
@@ -158,7 +158,7 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#777777"
 image = "https://jesserieser.brandlew.co/uploads/kennygraham-11.jpg"
 margin_left = ""
@@ -173,7 +173,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#414141"
 image = "https://jesserieser.brandlew.co/uploads/kennygraham-13.jpg"
 margin_left = "15%"
@@ -188,7 +188,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#8C8C8C"
 image = "https://jesserieser.brandlew.co/uploads/kennygraham-14.jpg"
 margin_left = "5%"
@@ -198,7 +198,7 @@ width = "45"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#D8D8D8"
 image = "https://jesserieser.brandlew.co/uploads/kennygraham-12.jpg"
 margin_left = "0%"
@@ -213,7 +213,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#797979"
 image = "https://jesserieser.brandlew.co/uploads/kennygraham-15.jpg"
 margin_left = "25%"
@@ -227,7 +227,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#efefef"
 image = "https://jesserieser.brandlew.co/uploads/kennygraham-18.jpg"
 margin_left = "5%"
@@ -237,7 +237,7 @@ width = "60"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#C4C4C4"
 image = "https://jesserieser.brandlew.co/uploads/kennygraham-16.jpg"
 margin_right = "5%"
@@ -251,7 +251,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#323232"
 image = "https://jesserieser.brandlew.co/uploads/kennygraham-17.jpg"
 margin_left = "40%"
@@ -266,7 +266,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#777777"
 image = "https://jesserieser.brandlew.co/uploads/kennygraham-19.jpg"
 margin_left = "20%"

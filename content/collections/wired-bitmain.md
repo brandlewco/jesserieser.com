@@ -26,7 +26,7 @@ title = "Wired Magazine"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "Caption"
+
 color = "#A3C8AD"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-1.jpg"
 margin_left = "35%"
@@ -42,7 +42,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E7A973"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-2.jpg"
 margin_left = "5%"
@@ -52,7 +52,7 @@ width = "50"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FFD467"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-3.jpg"
 margin_left = ""
@@ -67,7 +67,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#7DDBC0"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-4.jpg"
 margin_left = "15%"
@@ -78,7 +78,7 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FD9496"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-5.jpg"
 margin_left = ""
@@ -93,7 +93,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#EFD6B4"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-6.jpg"
 margin_left = "5%"
@@ -103,7 +103,7 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E1EA6D"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-7.jpg"
 margin_left = ""
@@ -118,7 +118,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#CEDCDD"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-8.jpg"
 margin_left = "5%"
@@ -128,7 +128,7 @@ width = "50"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E7BFAA"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-9.jpg"
 margin_left = ""
@@ -143,7 +143,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#A4D38E"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-10.jpg"
 margin_left = "25%"
@@ -157,7 +157,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F5614B"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-11.jpg"
 margin_left = "5%"
@@ -168,7 +168,7 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#A6CAE5"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-12.jpg"
 margin_right = "15%"
@@ -182,7 +182,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F8D9B6"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-13.jpg"
 margin_left = "25%"
@@ -197,7 +197,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FFC9B6"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-14.jpg"
 margin_left = "15%"
@@ -208,7 +208,7 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#DCEDF6"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-15.jpg"
 margin_left = ""
@@ -223,7 +223,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#EEFAE4"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-16.jpg"
 margin_left = ""
@@ -234,7 +234,7 @@ width = "25"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FFE9B4"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-17.jpg"
 margin_left = ""
@@ -249,7 +249,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#DAD4DE"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-18.jpg"
 margin_left = "10%"
@@ -260,7 +260,7 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FFC690"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-19.jpg"
 margin_left = ""
@@ -275,7 +275,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FFDA9C"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-20.jpg"
 margin_left = "25%"
@@ -289,7 +289,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#D4D29A"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-21.jpg"
 margin_left = "10%"
@@ -300,7 +300,7 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F0F9FA"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-22.jpg"
 margin_left = ""
@@ -315,7 +315,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FF9167"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-23.jpg"
 margin_left = "30%"
@@ -329,7 +329,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#D8E59D"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-24.jpg"
 margin_left = "10%"
@@ -340,7 +340,7 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FFDCB6"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-25.jpg"
 margin_left = "0%"
@@ -355,7 +355,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E1EEF5"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-26.jpg"
 margin_left = "25%"
@@ -370,7 +370,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FAEEDC"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-27.jpg"
 margin_left = "35%"
@@ -384,7 +384,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E7DEF3"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-28.jpg"
 margin_left = "0%"
@@ -395,7 +395,7 @@ width = "50"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F1CDBA"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-29.jpg"
 margin_right = "10%"
@@ -409,7 +409,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E79F85"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-30.jpg"
 margin_left = "30%"

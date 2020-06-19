@@ -24,7 +24,7 @@ title = "Outside Magazine "
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#CDDCEC"
 image = "https://jesserieser.brandlew.co/uploads/robkrar-1.jpg"
 margin_left = "15%"
@@ -39,7 +39,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#EBF3F1"
 image = "https://jesserieser.brandlew.co/uploads/robkrar-2.jpg"
 margin_left = "50%"
@@ -53,7 +53,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#EEDBBB"
 image = "https://jesserieser.brandlew.co/uploads/robkrar-4.jpg"
 margin_left = "25%"
@@ -64,7 +64,7 @@ width = "20"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#EED8C9"
 image = "https://jesserieser.brandlew.co/uploads/robkrar-3.jpg"
 margin_left = ""
@@ -79,7 +79,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#CAE8EE"
 image = "https://jesserieser.brandlew.co/uploads/robkrar-5.jpg"
 margin_left = "20%"
@@ -94,7 +94,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F8DFC3"
 image = "https://jesserieser.brandlew.co/uploads/robkrar-7.jpg"
 margin_left = "35%"
@@ -105,7 +105,7 @@ width = "25"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E4AF97"
 image = "https://jesserieser.brandlew.co/uploads/robkrar-6.jpg"
 margin_left = ""
@@ -120,7 +120,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F8967D"
 image = "https://jesserieser.brandlew.co/uploads/robkrar-8.jpg"
 margin_left = "20%"
@@ -135,7 +135,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#C4D4E2"
 image = "https://jesserieser.brandlew.co/uploads/robkrar-9.jpg"
 margin_left = "5%"
@@ -145,7 +145,7 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#B89990"
 image = "https://jesserieser.brandlew.co/uploads/robkrar-10.jpg"
 margin_left = ""
@@ -160,7 +160,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#C4EDF3"
 image = "https://jesserieser.brandlew.co/uploads/robkrar-13.jpg"
 margin_left = "10%"
@@ -171,7 +171,7 @@ width = "25"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#EEE0CC"
 image = "https://jesserieser.brandlew.co/uploads/robkrar-11.jpg"
 margin_right = "10%"
@@ -185,7 +185,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#D1DEC4"
 image = "https://jesserieser.brandlew.co/uploads/robkrar-14.jpg"
 margin_left = "15%"
@@ -195,7 +195,7 @@ width = "45"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#EFC69C"
 image = "https://jesserieser.brandlew.co/uploads/robkrar-15.jpg"
 margin_left = ""
@@ -210,7 +210,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#C1EDF0"
 image = "https://jesserieser.brandlew.co/uploads/robkrar-17.jpg"
 margin_left = "5%"
@@ -220,7 +220,7 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FA855E"
 image = "https://jesserieser.brandlew.co/uploads/robkrar-16.jpg"
 margin_left = ""
@@ -235,7 +235,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FAB0A9"
 image = "https://jesserieser.brandlew.co/uploads/robkrar-18.jpg"
 margin_left = "10%"
@@ -245,7 +245,7 @@ width = "50"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#EAE1B0"
 image = "https://jesserieser.brandlew.co/uploads/robkrar-19.jpg"
 margin_left = ""
@@ -260,7 +260,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FAE79D"
 image = "https://jesserieser.brandlew.co/uploads/robkrar-20.jpg"
 margin_left = "20%"

@@ -24,7 +24,7 @@ title = "ESPN the Magazine"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#B1CD6B"
 image = "https://jesserieser.brandlew.co/uploads/cactus-1.jpg"
 margin_left = "20%"
@@ -39,7 +39,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F6E483"
 image = "https://jesserieser.brandlew.co/uploads/cactus-3.jpg"
 margin_left = "5%"
@@ -49,7 +49,7 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#EEA998"
 image = "https://jesserieser.brandlew.co/uploads/cactus-2.jpg"
 margin_left = ""
@@ -64,7 +64,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#CAD9E2"
 image = "https://jesserieser.brandlew.co/uploads/cactus-4.jpg"
 margin_left = "25%"
@@ -78,7 +78,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F93832"
 image = "https://jesserieser.brandlew.co/uploads/cactus-5.jpg"
 margin_left = "0%"
@@ -89,7 +89,7 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FADABF"
 image = "https://jesserieser.brandlew.co/uploads/cactus-6.jpg"
 margin_left = "0%"
@@ -104,7 +104,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#5083E0"
 image = "https://jesserieser.brandlew.co/uploads/cactus-7.jpg"
 margin_left = "50%"
@@ -119,7 +119,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#DDE5F1"
 image = "https://jesserieser.brandlew.co/uploads/cactus-8.jpg"
 margin_left = "10%"
@@ -130,7 +130,7 @@ width = "50"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FEE5DA"
 image = "https://jesserieser.brandlew.co/uploads/cactus-9.jpg"
 margin_left = "0%"
@@ -141,7 +141,7 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#EA113C"
 image = "https://jesserieser.brandlew.co/uploads/cactus-10.jpg"
 margin_left = "45%"
@@ -156,7 +156,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#92D09F"
 image = "https://jesserieser.brandlew.co/uploads/cactus-11.jpg"
 margin_left = "10%"
@@ -170,7 +170,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#8CABA5"
 image = "https://jesserieser.brandlew.co/uploads/cactus-12.jpg"
 margin_left = "5%"
@@ -181,7 +181,7 @@ width = "50"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F4DFCE"
 image = "https://jesserieser.brandlew.co/uploads/cactus-13.jpg"
 margin_right = "10%"
@@ -195,7 +195,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#B0CB97"
 image = "https://jesserieser.brandlew.co/uploads/cactus-14.jpg"
 margin_left = "10%"
@@ -206,7 +206,7 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#3850A3"
 image = "https://jesserieser.brandlew.co/uploads/cactus-15.jpg"
 margin_left = ""
@@ -221,7 +221,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#CDE5F3"
 image = "https://jesserieser.brandlew.co/uploads/cactus-16.jpg"
 margin_left = "10%"

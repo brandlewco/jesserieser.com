@@ -25,7 +25,7 @@ title = "Arizona Lottery"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#BABECD"
 image = "https://jesserieser.brandlew.co/uploads/azlottery-1.jpg"
 margin_left = "10%"
@@ -40,7 +40,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#EED8C5"
 image = "https://jesserieser.brandlew.co/uploads/azlottery-2.jpg"
 margin_left = "55%"
@@ -67,7 +67,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#AAB792"
 image = "https://jesserieser.brandlew.co/uploads/azlottery-3.jpg"
 margin_left = "5%"
@@ -92,7 +92,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F5F0DB"
 image = "https://jesserieser.brandlew.co/uploads/azlottery-4.jpg"
 margin_left = "20%"
@@ -107,7 +107,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F1E2E0"
 image = "https://jesserieser.brandlew.co/uploads/azlottery-5.jpg"
 margin_left = "30%"
@@ -122,7 +122,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#C6DBEB"
 image = "https://jesserieser.brandlew.co/uploads/azlottery-6.jpg"
 margin_left = "15%"
@@ -133,7 +133,7 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F3D3A7"
 image = "https://jesserieser.brandlew.co/uploads/azlottery-7.jpg"
 margin_left = ""
@@ -148,7 +148,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#DFDFDF"
 image = "https://jesserieser.brandlew.co/uploads/azlottery-8.jpg"
 margin_left = "25%"

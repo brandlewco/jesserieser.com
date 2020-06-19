@@ -25,7 +25,7 @@ title = "Amtrak The National"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F2F1DB"
 image = "https://jesserieser.brandlew.co/uploads/sunset-limited-1.jpg"
 margin_left = "35%"
@@ -40,7 +40,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F4E6D6"
 image = "https://jesserieser.brandlew.co/uploads/sunset-limited-2.jpg"
 margin_left = "15%"
@@ -55,7 +55,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#A7D2F0"
 image = "https://jesserieser.brandlew.co/uploads/sunset-limited-3.jpg"
 margin_left = "5%"
@@ -66,7 +66,7 @@ width = "20"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FAE0B4"
 image = "https://jesserieser.brandlew.co/uploads/sunset-limited-4.jpg"
 margin_left = ""
@@ -81,7 +81,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E8EDC6"
 image = "https://jesserieser.brandlew.co/uploads/sunset-limited-5.jpg"
 margin_left = "20%"
@@ -96,7 +96,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FFEACA"
 image = "https://jesserieser.brandlew.co/uploads/sunset-limited-7.jpg"
 margin_left = "10%"
@@ -107,7 +107,7 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#D5EFE4"
 image = "https://jesserieser.brandlew.co/uploads/sunset-limited-6.jpg"
 margin_right = "10%"
@@ -121,7 +121,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F9D8C5"
 image = "https://jesserieser.brandlew.co/uploads/sunset-limited-8.jpg"
 margin_left = "35%"
@@ -136,7 +136,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E6E9E8"
 image = "https://jesserieser.brandlew.co/uploads/sunset-limited-9.jpg"
 margin_left = "10%"
@@ -146,7 +146,7 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F1E9DC"
 image = "https://jesserieser.brandlew.co/uploads/sunset-limited-10.jpg"
 margin_left = ""
@@ -161,7 +161,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#DFEDF4"
 image = "https://jesserieser.brandlew.co/uploads/sunset-limited-11.jpg"
 margin_left = "25%"
@@ -175,7 +175,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E4CAA9"
 image = "https://jesserieser.brandlew.co/uploads/sunset-limited-12.jpg"
 margin_left = "5%"
@@ -186,7 +186,7 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F4EEE3"
 image = "https://jesserieser.brandlew.co/uploads/sunset-limited-13.jpg"
 margin_right = "15%"
@@ -200,7 +200,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#EBDFE9"
 image = "https://jesserieser.brandlew.co/uploads/sunset-limited-14.jpg"
 margin_left = "20%"
@@ -214,7 +214,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F3DFD8"
 image = "https://jesserieser.brandlew.co/uploads/sunset-limited-15.jpg"
 margin_left = "5%"
@@ -225,7 +225,7 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E4ECF4"
 image = "https://jesserieser.brandlew.co/uploads/sunset-limited-16.jpg"
 margin_right = "5%"
@@ -239,7 +239,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FFE6C0"
 image = "https://jesserieser.brandlew.co/uploads/sunset-limited-17.jpg"
 margin_left = "35%"
@@ -254,7 +254,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FFE3EC"
 image = "https://jesserieser.brandlew.co/uploads/sunset-limited-19.jpg"
 margin_left = "20%"
@@ -269,7 +269,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FFE3CC"
 image = "https://jesserieser.brandlew.co/uploads/sunset-limited-20.jpg"
 margin_left = "10%"
@@ -280,7 +280,7 @@ width = "20"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E7F6F4"
 image = "https://jesserieser.brandlew.co/uploads/sunset-limited-18.jpg"
 margin_left = ""
@@ -295,7 +295,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#DBD2D8"
 image = "https://jesserieser.brandlew.co/uploads/sunset-limited-21.jpg"
 margin_left = "10%"
@@ -305,7 +305,7 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E9F0F7"
 image = "https://jesserieser.brandlew.co/uploads/sunset-limited-22.jpg"
 margin_left = ""
@@ -320,7 +320,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#DFECEA"
 image = "https://jesserieser.brandlew.co/uploads/sunset-limited-23.jpg"
 margin_left = "25%"
@@ -334,7 +334,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#4C2323"
 image = "https://jesserieser.brandlew.co/uploads/sunset-limited-24.jpg"
 margin_left = "15%"
@@ -345,7 +345,7 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#BEB6CC"
 image = "https://jesserieser.brandlew.co/uploads/sunset-limited-25.jpg"
 margin_left = ""
@@ -359,7 +359,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E9D5D0"
 image = "https://jesserieser.brandlew.co/uploads/sunset-limited-26.jpg"
 margin_left = "30%"
@@ -374,7 +374,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#756B75"
 image = "https://jesserieser.brandlew.co/uploads/sunset-limited-27.jpg"
 margin_left = "10%"
@@ -389,7 +389,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F5E6D8"
 image = "https://jesserieser.brandlew.co/uploads/sunset-limited-28.jpg"
 margin_left = "20%"

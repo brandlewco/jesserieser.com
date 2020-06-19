@@ -2,8 +2,10 @@
 <article id="filter-container" class="relative" style="transform: translate3d(0px, 0px, 0px); opacity: 0;">
     {{partial "collection_sorter" .}}
     <section class="overflow-x-hidden content mx-auto">
-        <div id="filter-loading" class="text-center font-semibold fixed inset-x-0 mt-24 text-4xl">
-            <i class="fad fa-spinner-third fa-spin"></i>
+        <div id="filter-loading" class="fixed mt-24" style="left: 50%; margin-left: -1rem;">
+            <svg id="filter-loading" class="text-4xl icon h-8 w-8 text-black spin">
+                <use xlink:href="#spinner"></use>
+            </svg>
         </div>
         <div id="filter-error" class="text-center text-xl font-semibold fixed inset-x-0 mt-24">
             <h1>NO RESULTS.</h1>

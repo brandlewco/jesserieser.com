@@ -24,7 +24,7 @@ title = "The Wall Street Journal"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F2DAF4"
 image = "https://jesserieser.brandlew.co/uploads/wsj-apollo-1.jpg"
 margin_left = "25%"
@@ -39,7 +39,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#D8F4F3"
 image = "https://jesserieser.brandlew.co/uploads/wsj-apollo-3.jpg"
 margin_left = "10%"
@@ -50,7 +50,7 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FFEBC3"
 image = "https://jesserieser.brandlew.co/uploads/wsj-apollo-2.jpg"
 margin_left = ""
@@ -65,7 +65,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#DDD6E7"
 image = "https://jesserieser.brandlew.co/uploads/wsj-apollo-4.jpg"
 margin_left = "20%"
@@ -79,7 +79,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E6E9F1"
 image = "https://jesserieser.brandlew.co/uploads/wsj-apollo-5.jpg"
 margin_left = ""
@@ -90,7 +90,7 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F2EBD8"
 image = "https://jesserieser.brandlew.co/uploads/wsj-apollo-6.jpg"
 margin_right = "15%"
@@ -104,7 +104,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FFE0BA"
 image = "https://jesserieser.brandlew.co/uploads/wsj-apollo-7.jpg"
 margin_left = "40%"
@@ -119,7 +119,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#EAECEC"
 image = "https://jesserieser.brandlew.co/uploads/wsj-apollo-8.jpg"
 margin_left = "5%"
@@ -134,7 +134,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FFD195"
 image = "https://jesserieser.brandlew.co/uploads/wsj-apollo-9.jpg"
 margin_left = "10%"
@@ -144,7 +144,7 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F8F6EE"
 image = "https://jesserieser.brandlew.co/uploads/wsj-apollo-10.jpg"
 margin_left = ""
@@ -159,7 +159,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#efefef"
 image = "https://jesserieser.brandlew.co/uploads/wsj-apollo-11.jpg"
 margin_left = "35%"
@@ -173,7 +173,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E3F0E7"
 image = "https://jesserieser.brandlew.co/uploads/wsj-apollo-12.jpg"
 margin_left = ""
@@ -184,7 +184,7 @@ width = "50"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E7EBF0"
 image = "https://jesserieser.brandlew.co/uploads/wsj-apollo-13.jpg"
 margin_left = "10%"
@@ -203,7 +203,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FAF3E7"
 image = "https://jesserieser.brandlew.co/uploads/wsj-apollo-14.jpg"
 margin_left = "25%"

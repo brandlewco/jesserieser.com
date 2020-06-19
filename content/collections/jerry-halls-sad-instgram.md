@@ -25,7 +25,7 @@ title = "Jerry Hall's Sad Instagram"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F3E3E3"
 image = "https://jesserieser.brandlew.co/uploads/jerry-1.jpg"
 margin_left = "5%"
@@ -36,7 +36,7 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F9EBB7"
 image = "https://jesserieser.brandlew.co/uploads/jerry-2.jpg"
 margin_left = "5%"
@@ -51,7 +51,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F6E2CF"
 image = "https://jesserieser.brandlew.co/uploads/jerry-5.jpg"
 margin_left = "10%"
@@ -62,7 +62,7 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E5F3F2"
 image = "https://jesserieser.brandlew.co/uploads/jerry-6.jpg"
 margin_left = "0%"
@@ -77,7 +77,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FADCC1"
 image = "https://jesserieser.brandlew.co/uploads/jerry-3.jpg"
 margin_left = "30%"
@@ -92,7 +92,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FEEEC7"
 image = "https://jesserieser.brandlew.co/uploads/jerry-4.jpg"
 margin_left = "15%"

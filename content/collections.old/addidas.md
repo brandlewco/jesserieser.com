@@ -29,7 +29,7 @@ image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-1.jpg"
 margin_y = "50"
 width = "33"
 [collection_layout_builder.image_2]
-caption = "caption"
+
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-2.jpg"
 margin_y = 50
@@ -38,7 +38,7 @@ align_x = "start"
 [[collection_layout_builder]]
 align_x = "center"
 block = "media-1"
-caption = "Caption"
+
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-3.jpg"
 margin_y = "50"
@@ -76,14 +76,14 @@ row_order = false
 template = "block-media-2"
 [collection_layout_builder.image_1]
 align_x = "start"
-caption = "caption"
+
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-5.jpg"
 margin_y = 50
 width = "33"
 [collection_layout_builder.image_2]
 align_x = "end"
-caption = "caption"
+
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-6.jpg"
 margin_y = 300
@@ -147,7 +147,7 @@ width = 40
 align_x = "start"
 [collection_layout_builder.image_2]
 
-caption = "caption"
+
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/rieser-adidas-11.jpg"
 margin_y = 100

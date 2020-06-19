@@ -1,5 +1,7 @@
 html {
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: auto;
 }
 *,
 *:before,
@@ -526,6 +528,11 @@ a.collection-next .arrow {
   right:0;
   overflow: visible;
   z-index: -1;
+}
+
+
+.spin {
+  animation: fa-spin 2s infinite linear;
 }
 
 /**** disabling Isotope CSS3 transitions ****/

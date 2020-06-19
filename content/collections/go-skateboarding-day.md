@@ -25,7 +25,7 @@ title = "New York City"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#CBCBCB"
 image = "https://jesserieser.brandlew.co/uploads/sk8-1.jpg"
 margin_left = "15%"
@@ -40,7 +40,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E9E9E9"
 image = "https://jesserieser.brandlew.co/uploads/sk8-2.jpg"
 margin_left = "5%"
@@ -51,7 +51,7 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#A7A7A7"
 image = "https://jesserieser.brandlew.co/uploads/sk8-3.jpg"
 margin_left = ""
@@ -66,7 +66,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#858585"
 image = "https://jesserieser.brandlew.co/uploads/sk8-4.jpg"
 margin_left = "20%"
@@ -80,7 +80,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FFF6E7"
 image = "https://jesserieser.brandlew.co/uploads/sk8-5.jpg"
 margin_left = "15%"
@@ -91,7 +91,7 @@ width = "25"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#D1E2DF"
 image = "https://jesserieser.brandlew.co/uploads/sk8-6.jpg"
 margin_right = "15%"
@@ -105,7 +105,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E4E4E4"
 image = "https://jesserieser.brandlew.co/uploads/sk8-7.jpg"
 margin_left = "5%"
@@ -120,7 +120,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#AAAAAA"
 image = "https://jesserieser.brandlew.co/uploads/sk8-8.jpg"
 margin_left = "35%"
@@ -135,7 +135,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F2ECE6"
 image = "https://jesserieser.brandlew.co/uploads/sk8-10.jpg"
 margin_left = "10%"
@@ -145,7 +145,7 @@ width = "45"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F3F9E9"
 image = "https://jesserieser.brandlew.co/uploads/sk8-9.jpg"
 margin_left = ""
@@ -160,7 +160,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E4E4E4"
 image = "https://jesserieser.brandlew.co/uploads/sk8-11.jpg"
 margin_left = "35%"
@@ -174,7 +174,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FBEDE7"
 image = "https://jesserieser.brandlew.co/uploads/sk8-12.jpg"
 margin_left = "10%"
@@ -189,7 +189,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F9F9F3"
 image = "https://jesserieser.brandlew.co/uploads/sk8-13.jpg"
 margin_left = ""
@@ -200,7 +200,7 @@ width = "66"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#C6D5DB"
 image = "https://jesserieser.brandlew.co/uploads/sk8-14.jpg"
 margin_left = ""
@@ -215,7 +215,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#D9D9D9"
 image = "https://jesserieser.brandlew.co/uploads/sk8-16.jpg"
 margin_left = "15%"
@@ -226,7 +226,7 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F9E1D9"
 image = "https://jesserieser.brandlew.co/uploads/sk8-15.jpg"
 margin_right = "10%"
@@ -240,7 +240,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#EAFAF9"
 image = "https://jesserieser.brandlew.co/uploads/sk8-17.jpg"
 margin_left = "30%"

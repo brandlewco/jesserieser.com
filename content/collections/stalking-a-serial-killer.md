@@ -30,7 +30,7 @@ template = "popup-text-element"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FAFAFA"
 image = "https://jesserieser.brandlew.co/uploads/serial-2.jpg"
 margin_left = "5%"
@@ -41,7 +41,7 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FCF4D6"
 image = "https://jesserieser.brandlew.co/uploads/serial-3.jpg"
 margin_right = "5%"
@@ -55,7 +55,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F8E9DF"
 image = "https://jesserieser.brandlew.co/uploads/serial-4.jpg"
 margin_left = "10%"
@@ -66,7 +66,7 @@ width = "45"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FAFAFA"
 image = "https://jesserieser.brandlew.co/uploads/serial-5.jpg"
 margin_left = "0%"
@@ -81,7 +81,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#D6E6FB"
 image = "https://jesserieser.brandlew.co/uploads/serial-6.jpg"
 margin_left = "15%"
@@ -96,7 +96,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#DED0DA"
 image = "https://jesserieser.brandlew.co/uploads/serial-8.jpg"
 margin_left = "5%"
@@ -106,7 +106,7 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FAFAFA"
 image = "https://jesserieser.brandlew.co/uploads/serial-7.jpg"
 margin_left = ""
@@ -121,7 +121,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FAFAFA"
 image = "https://jesserieser.brandlew.co/uploads/serial-9.jpg"
 margin_left = "15%"
@@ -131,7 +131,7 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F7EAE1"
 image = "https://jesserieser.brandlew.co/uploads/serial-10.jpg"
 margin_left = ""
@@ -146,7 +146,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FAFAFA"
 image = "https://jesserieser.brandlew.co/uploads/serial-11.jpg"
 margin_left = "5%"
@@ -157,7 +157,7 @@ width = "25"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#C8DBE1"
 image = "https://jesserieser.brandlew.co/uploads/serial-12.jpg"
 margin_left = "0%"
@@ -172,7 +172,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FAFAFA"
 image = "https://jesserieser.brandlew.co/uploads/serial-13.jpg"
 margin_left = "10%"
@@ -182,7 +182,7 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#ECE0D5"
 image = "https://jesserieser.brandlew.co/uploads/serial-14.jpg"
 margin_left = ""
@@ -197,7 +197,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F0DEC9"
 image = "https://jesserieser.brandlew.co/uploads/serial-16.jpg"
 margin_left = "5%"
@@ -207,7 +207,7 @@ width = "55"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FAFAFA"
 image = "https://jesserieser.brandlew.co/uploads/serial-15.jpg"
 margin_right = "5%"
@@ -221,7 +221,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FAFAFA"
 image = "https://jesserieser.brandlew.co/uploads/serial-17.jpg"
 margin_left = "10%"
@@ -231,7 +231,7 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#DAEBED"
 image = "https://jesserieser.brandlew.co/uploads/serial-18.jpg"
 margin_left = ""
@@ -246,7 +246,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FAFAFA"
 image = "https://jesserieser.brandlew.co/uploads/serial-19.jpg"
 margin_right = "5%"
@@ -256,7 +256,7 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F9F0E6"
 image = "https://jesserieser.brandlew.co/uploads/serial-20.jpg"
 margin_left = "5%"
@@ -270,7 +270,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FAFAFA"
 image = "https://jesserieser.brandlew.co/uploads/serial-21.jpg"
 margin_left = "10%"
@@ -280,7 +280,7 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#51413A"
 image = "https://jesserieser.brandlew.co/uploads/serial-23.jpg"
 margin_right = "5%"
@@ -294,7 +294,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FAFAFA"
 image = "https://jesserieser.brandlew.co/uploads/serial-22.jpg"
 margin_left = "30%"
@@ -309,7 +309,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E6DACE"
 image = "https://jesserieser.brandlew.co/uploads/serial-25.jpg"
 margin_left = "5%"
@@ -324,7 +324,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FAFAFA"
 image = "https://jesserieser.brandlew.co/uploads/serial-24.jpg"
 margin_left = "5%"
@@ -335,7 +335,7 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E9E5E4"
 image = "https://jesserieser.brandlew.co/uploads/serial-26.jpg"
 margin_right = "10%"
@@ -349,7 +349,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#CDDDD5"
 image = "https://jesserieser.brandlew.co/uploads/serial-28.jpg"
 margin_left = "0%"
@@ -359,7 +359,7 @@ width = "66"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FAFAFA"
 image = "https://jesserieser.brandlew.co/uploads/serial-27.jpg"
 margin_left = ""
@@ -373,7 +373,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FAFAFA"
 image = "https://jesserieser.brandlew.co/uploads/serial-30.jpg"
 margin_left = "5%"
@@ -384,7 +384,7 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F2E7DB"
 image = "https://jesserieser.brandlew.co/uploads/serial-29.jpg"
 margin_left = ""
@@ -399,7 +399,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E2E9EA"
 image = "https://jesserieser.brandlew.co/uploads/serial-31.jpg"
 margin_left = "15%"
@@ -410,7 +410,7 @@ width = "45"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FAFAFA"
 image = "https://jesserieser.brandlew.co/uploads/serial-32.jpg"
 margin_left = ""
@@ -425,7 +425,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#D0EED7"
 image = "https://jesserieser.brandlew.co/uploads/serial-33.jpg"
 margin_left = "35%"
@@ -440,7 +440,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FAFAFA"
 image = "https://jesserieser.brandlew.co/uploads/serial-34.jpg"
 margin_left = "10%"
@@ -451,7 +451,7 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F9C1A3"
 image = "https://jesserieser.brandlew.co/uploads/serial-35.jpg"
 margin_left = "0%"
@@ -466,7 +466,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FAFAFA"
 image = "https://jesserieser.brandlew.co/uploads/serial-36.jpg"
 margin_left = "30%"
@@ -481,7 +481,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#D6E7EA"
 image = "https://jesserieser.brandlew.co/uploads/serial-37.jpg"
 margin_left = "20%"

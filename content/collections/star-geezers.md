@@ -24,7 +24,7 @@ title = "Condor Airlines "
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E2EFF9"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-1.jpg"
 margin_left = "30%"
@@ -39,7 +39,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FEF4EA"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-2.jpg"
 margin_left = "10%"
@@ -50,7 +50,7 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FFE7D8"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-3.jpg"
 margin_left = ""
@@ -65,7 +65,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#EFF4F8"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-4.jpg"
 margin_left = "15%"
@@ -76,7 +76,7 @@ width = "50"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#AE9B9B"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-5.jpg"
 margin_left = "0%"
@@ -91,7 +91,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FADFCD"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-6.jpg"
 margin_left = "25%"
@@ -106,7 +106,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F7F2EE"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-7.jpg"
 margin_left = "45%"
@@ -121,7 +121,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#211F2D"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-8.jpg"
 margin_left = "5%"
@@ -136,7 +136,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#404B51"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-9.jpg"
 margin_left = "10%"
@@ -146,7 +146,7 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#2F292E"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-10.jpg"
 margin_left = ""
@@ -161,7 +161,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#010101"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-12.jpg"
 margin_left = "15%"
@@ -176,7 +176,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FD1E18"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-11.jpg"
 margin_left = "20%"
@@ -200,7 +200,7 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#95527C"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-13.jpg"
 margin_left = ""
@@ -215,7 +215,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FFE7CA"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-15.jpg"
 margin_left = "5%"
@@ -226,7 +226,7 @@ width = "50"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F0F4F7"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-14.jpg"
 margin_y = "100"
@@ -251,7 +251,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E4EAED"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-16.jpg"
 margin_left = "10%"
@@ -265,7 +265,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F6E5D1"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-17.jpg"
 margin_left = "15%"
@@ -276,7 +276,7 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E8D2CF"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-18.jpg"
 margin_left = ""
@@ -290,7 +290,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F5E4E4"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-19.jpg"
 margin_left = "20%"
@@ -305,7 +305,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#9B98A6"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-20.jpg"
 margin_left = "40%"
@@ -320,7 +320,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#CEDAEC"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-21.jpg"
 margin_left = "20%"
@@ -330,7 +330,7 @@ width = "25"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#EFF4F2"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-22.jpg"
 margin_left = ""
@@ -345,7 +345,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#000000"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-24.jpg"
 margin_left = "5%"
@@ -356,7 +356,7 @@ width = "50"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E0C8CE"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-23.jpg"
 margin_left = ""
@@ -370,7 +370,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FFE9D0"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-25.jpg"
 margin_left = "30%"

@@ -25,7 +25,7 @@ title = "Mackenzie Gossage"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F8E0CE"
 image = "https://jesserieser.brandlew.co/uploads/mackenzie-1.jpg"
 margin_left = "10%"
@@ -40,7 +40,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#D7DFF1"
 image = "https://jesserieser.brandlew.co/uploads/mackenzie-3.jpg"
 margin_left = "15%"
@@ -51,7 +51,7 @@ width = "25"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F4DEE4"
 image = "https://jesserieser.brandlew.co/uploads/mackenzie-2.jpg"
 margin_left = "0%"
@@ -66,7 +66,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F5E8D5"
 image = "https://jesserieser.brandlew.co/uploads/mackenzie-4.jpg"
 margin_left = "40%"
@@ -80,7 +80,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F9E0CF"
 image = "https://jesserieser.brandlew.co/uploads/mackenzie-5.jpg"
 margin_left = "55%"

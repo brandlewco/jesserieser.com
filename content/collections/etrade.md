@@ -25,7 +25,7 @@ title = "E*Trade"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E4BDA2"
 image = "https://jesserieser.brandlew.co/uploads/etrade-1.jpg"
 margin_left = "30%"
@@ -40,7 +40,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#C7DCF4"
 image = "https://jesserieser.brandlew.co/uploads/etrade-2.jpg"
 margin_left = "10%"
@@ -50,7 +50,7 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F3E3DF"
 image = "https://jesserieser.brandlew.co/uploads/etrade-3.jpg"
 margin_left = "0%"
@@ -65,7 +65,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F5D6BF"
 image = "https://jesserieser.brandlew.co/uploads/etrade-4.jpg"
 margin_left = "20%"
@@ -79,7 +79,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#D3E5AF"
 image = "https://jesserieser.brandlew.co/uploads/etrade-5.jpg"
 margin_left = "5%"
@@ -90,7 +90,7 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FAEEC0"
 image = "https://jesserieser.brandlew.co/uploads/etrade-6.jpg"
 margin_right = "15%"
@@ -104,7 +104,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#43C6CF"
 image = "https://jesserieser.brandlew.co/uploads/etrade-7.jpg"
 margin_left = "20%"
@@ -119,7 +119,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FFC777"
 image = "https://jesserieser.brandlew.co/uploads/etrade-9.jpg"
 margin_left = "5%"
@@ -130,7 +130,7 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F0E3D6"
 image = "https://jesserieser.brandlew.co/uploads/etrade-8.jpg"
 margin_left = ""
@@ -145,7 +145,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#D7CAD7"
 image = "https://jesserieser.brandlew.co/uploads/etrade-10.jpg"
 margin_left = "25%"
@@ -160,7 +160,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E7DED9"
 image = "https://jesserieser.brandlew.co/uploads/etrade-11.jpg"
 margin_left = "35%"
@@ -175,7 +175,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F0C19F"
 image = "https://jesserieser.brandlew.co/uploads/etrade-13.jpg"
 margin_left = "5%"
@@ -186,7 +186,7 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#D4E4F0"
 image = "https://jesserieser.brandlew.co/uploads/etrade-12.jpg"
 margin_left = ""
@@ -201,7 +201,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#C9BBCC"
 image = "https://jesserieser.brandlew.co/uploads/etrade-14.jpg"
 margin_left = "20%"

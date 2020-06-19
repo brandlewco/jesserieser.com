@@ -24,7 +24,7 @@ title = "The Wall Street Journal"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FFF0AE"
 image = "https://jesserieser.brandlew.co/uploads/ieg-1.jpg"
 margin_left = "35%"
@@ -63,7 +63,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FFE9E6"
 image = "https://jesserieser.brandlew.co/uploads/ieg-3.jpg"
 margin_left = "5%"
@@ -74,7 +74,7 @@ width = "60"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#EEFBFC"
 image = "https://jesserieser.brandlew.co/uploads/ieg-4.jpg"
 margin_right = "5%"
@@ -88,7 +88,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#EAF6E6"
 image = "https://jesserieser.brandlew.co/uploads/ieg-5.jpg"
 margin_left = "30%"
@@ -103,7 +103,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E5FAF5"
 image = "https://jesserieser.brandlew.co/uploads/ieg-6.jpg"
 margin_left = "5%"
@@ -114,7 +114,7 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FDF3CA"
 image = "https://jesserieser.brandlew.co/uploads/ieg-7.jpg"
 margin_left = ""
@@ -129,7 +129,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E4F4F8"
 image = "https://jesserieser.brandlew.co/uploads/ieg-8.jpg"
 margin_left = "30%"
@@ -144,7 +144,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F5EEEA"
 image = "https://jesserieser.brandlew.co/uploads/ieg-9.jpg"
 margin_left = "15%"
@@ -155,7 +155,7 @@ width = "25"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F1F8EE"
 image = "https://jesserieser.brandlew.co/uploads/ieg-10.jpg"
 margin_right = "10%"

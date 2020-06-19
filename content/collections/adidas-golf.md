@@ -28,7 +28,7 @@ template = "popup-text-element"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#D4D4D4"
 image = "https://jesserieser.brandlew.co/uploads/adicross-1.jpg"
 margin_left = "30%"
@@ -43,7 +43,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#EDEDED"
 image = "https://jesserieser.brandlew.co/uploads/adicross-3.jpg"
 margin_left = "10%"
@@ -54,7 +54,7 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#4D4D4D"
 image = "https://jesserieser.brandlew.co/uploads/adicross-2.jpg"
 margin_left = ""
@@ -69,7 +69,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#272727"
 image = "https://jesserieser.brandlew.co/uploads/adicross-4.jpg"
 margin_left = "20%"
@@ -83,7 +83,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#D7D7D7"
 image = "https://jesserieser.brandlew.co/uploads/adicross-5.jpg"
 margin_left = ""
@@ -94,7 +94,7 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#A7A7A7"
 image = "https://jesserieser.brandlew.co/uploads/adicross-6.jpg"
 margin_right = "15%"
@@ -108,7 +108,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#EFEFEF"
 image = "https://jesserieser.brandlew.co/uploads/adicross-7.jpg"
 margin_left = "40%"
@@ -123,7 +123,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#B5B5B5"
 image = "https://jesserieser.brandlew.co/uploads/adicross-8.jpg"
 margin_left = "5%"
@@ -138,7 +138,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#8E8E8E"
 image = "https://jesserieser.brandlew.co/uploads/adicross-9.jpg"
 margin_left = "10%"
@@ -148,7 +148,7 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#D5D5D5"
 image = "https://jesserieser.brandlew.co/uploads/adicross-10.jpg"
 margin_left = ""
@@ -163,7 +163,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#565656"
 image = "https://jesserieser.brandlew.co/uploads/adicross-11.jpg"
 margin_left = "40%"
@@ -177,7 +177,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#282828"
 image = "https://jesserieser.brandlew.co/uploads/adicross-12.jpg"
 margin_left = ""
@@ -192,7 +192,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#565656"
 image = "https://jesserieser.brandlew.co/uploads/adicross-13.jpg"
 margin_left = "10%"
@@ -207,7 +207,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#191919"
 image = "https://jesserieser.brandlew.co/uploads/adicross-14.jpg"
 margin_left = "25%"
@@ -221,7 +221,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#B2B2B2"
 image = "https://jesserieser.brandlew.co/uploads/adicross-15.jpg"
 margin_left = "5%"
@@ -232,7 +232,7 @@ width = "50"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E0E0E0"
 image = "https://jesserieser.brandlew.co/uploads/adicross-16.jpg"
 margin_y = "400"
@@ -245,7 +245,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#C2C2C2"
 image = "https://jesserieser.brandlew.co/uploads/adicross-17.jpg"
 margin_left = "20%"
@@ -260,7 +260,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#efefef"
 image = "https://jesserieser.brandlew.co/uploads/adicross-19.jpg"
 margin_left = "5%"
@@ -271,7 +271,7 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#C4C4C4"
 image = "https://jesserieser.brandlew.co/uploads/adicross-18.jpg"
 margin_left = ""
@@ -286,7 +286,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#818181"
 image = "https://jesserieser.brandlew.co/uploads/adicross-20.jpg"
 margin_left = "15%"
@@ -301,7 +301,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#CDCDCD"
 image = "https://jesserieser.brandlew.co/uploads/adicross-21.jpg"
 margin_left = "5%"
@@ -311,7 +311,7 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#B1B1B1"
 image = "https://jesserieser.brandlew.co/uploads/adicross-22.jpg"
 margin_left = ""
@@ -326,7 +326,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#5E5E5E"
 image = "https://jesserieser.brandlew.co/uploads/adicross-23.jpg"
 margin_left = "25%"
@@ -340,7 +340,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#B2B2B2"
 image = "https://jesserieser.brandlew.co/uploads/adicross-24.jpg"
 margin_left = "10%"
@@ -355,7 +355,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#797979"
 image = "https://jesserieser.brandlew.co/uploads/adicross-25.jpg"
 margin_left = "45%"
@@ -369,7 +369,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#A8A8A8"
 image = "https://jesserieser.brandlew.co/uploads/adicross-26.jpg"
 margin_left = "20%"
@@ -384,7 +384,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#D0D0D0"
 image = "https://jesserieser.brandlew.co/uploads/adicross-28.jpg"
 margin_left = "5%"
@@ -395,7 +395,7 @@ width = "20"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#747474"
 image = "https://jesserieser.brandlew.co/uploads/adicross-27.jpg"
 margin_right = "5%"
@@ -409,7 +409,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#979797"
 image = "https://jesserieser.brandlew.co/uploads/adicross-29.jpg"
 margin_left = "15%"
@@ -423,7 +423,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#555555"
 image = "https://jesserieser.brandlew.co/uploads/adicross-30.jpg"
 margin_left = "35%"
@@ -437,7 +437,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#919191"
 image = "https://jesserieser.brandlew.co/uploads/adicross-31.jpg"
 margin_left = "20%"

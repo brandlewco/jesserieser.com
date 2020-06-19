@@ -29,7 +29,7 @@ template = "popup-text-element"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F1CDA5"
 image = "https://jesserieser.brandlew.co/uploads/fall-1.jpg"
 margin_left = "35%"
@@ -44,7 +44,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FF7E69"
 image = "https://jesserieser.brandlew.co/uploads/fall-2.jpg"
 margin_left = "5%"
@@ -54,7 +54,7 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E5F3F0"
 image = "https://jesserieser.brandlew.co/uploads/fall-3.jpg"
 margin_left = ""
@@ -70,7 +70,7 @@ template = "block-media-row"
 align_x = "start"
 align_y = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#EEEBE6"
 image = "https://jesserieser.brandlew.co/uploads/fall-4.jpg"
 margin_left = "30%"
@@ -85,7 +85,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#C6DC87"
 image = "https://jesserieser.brandlew.co/uploads/fall-5.jpg"
 margin_left = "5%"
@@ -96,7 +96,7 @@ width = "45"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FFE29A"
 image = "https://jesserieser.brandlew.co/uploads/fall-6.jpg"
 margin_right = "15%"
@@ -110,7 +110,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F2AE73"
 image = "https://jesserieser.brandlew.co/uploads/fall-7.jpg"
 margin_left = "20%"

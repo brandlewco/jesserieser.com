@@ -26,7 +26,7 @@ title = "Time Magazine"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#C2A282"
 image = "https://jesserieser.brandlew.co/uploads/timeGC-1b.jpg"
 margin_left = "20%"
@@ -41,7 +41,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#DFEBEF"
 image = "https://jesserieser.brandlew.co/uploads/timeGC-2.jpg"
 margin_left = "10%"
@@ -65,7 +65,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#D8A6C7"
 image = "https://jesserieser.brandlew.co/uploads/timeGC-4.jpg"
 margin_left = "40%"
@@ -80,7 +80,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#EEDDDD"
 image = "https://jesserieser.brandlew.co/uploads/timeGC-5.jpg"
 margin_left = "25%"
@@ -94,7 +94,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F1B88C"
 image = "https://jesserieser.brandlew.co/uploads/timeGC-6.jpg"
 margin_left = "10%"
@@ -104,7 +104,7 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#CFC78C"
 image = "https://jesserieser.brandlew.co/uploads/timeGC-7.jpg"
 margin_right = "10%"
@@ -118,7 +118,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#C6A5C1"
 image = "https://jesserieser.brandlew.co/uploads/timeGC-8.jpg"
 margin_left = "5%"
@@ -133,7 +133,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#D4E8FF"
 image = "https://jesserieser.brandlew.co/uploads/timeGC-9.jpg"
 margin_left = "10%"
@@ -143,7 +143,7 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FAE386"
 image = "https://jesserieser.brandlew.co/uploads/timeGC-10.jpg"
 margin_left = ""
@@ -158,7 +158,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#EED8CA"
 image = "https://jesserieser.brandlew.co/uploads/timeGC-11.jpg"
 margin_left = "15%"
@@ -173,7 +173,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E5DCD0"
 image = "https://jesserieser.brandlew.co/uploads/timeGC-12.jpg"
 margin_left = "60%"
@@ -211,7 +211,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#D2A872"
 image = "https://jesserieser.brandlew.co/uploads/timeGC-14.jpg"
 margin_left = "5%"
@@ -226,7 +226,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#EED4C4"
 image = "https://jesserieser.brandlew.co/uploads/timeGC-3.jpg"
 margin_left = "10%"
@@ -237,7 +237,7 @@ width = "25"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#CFB699"
 image = "https://jesserieser.brandlew.co/uploads/timeGC-15.jpg"
 margin_right = "25%"
@@ -251,7 +251,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#EFDEC3"
 image = "https://jesserieser.brandlew.co/uploads/timeGC-16.jpg"
 margin_left = "20%"

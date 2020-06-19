@@ -34,7 +34,7 @@ template = "popup-text-element"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FBF1D3"
 image = "https://jesserieser.brandlew.co/uploads/wallow-1.jpg"
 margin_left = "30%"
@@ -49,7 +49,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#C2D5B2"
 image = "https://jesserieser.brandlew.co/uploads/wallow-3.jpg"
 margin_left = "5%"
@@ -60,7 +60,7 @@ width = "50"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FADFBB"
 image = "https://jesserieser.brandlew.co/uploads/wallow-2.jpg"
 margin_left = "0%"
@@ -75,7 +75,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#DBB782"
 image = "https://jesserieser.brandlew.co/uploads/wallow-4.jpg"
 margin_left = "40%"
@@ -89,7 +89,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#D5C5C5"
 image = "https://jesserieser.brandlew.co/uploads/wallow-5.jpg"
 margin_left = "10%"
@@ -104,7 +104,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E0E9E5"
 image = "https://jesserieser.brandlew.co/uploads/wallow-6.jpg"
 margin_right = "0%"
@@ -114,7 +114,7 @@ width = "45"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F9E99F"
 image = "https://jesserieser.brandlew.co/uploads/wallow-7.jpg"
 margin_left = "0%"
@@ -129,7 +129,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F0E2C8"
 image = "https://jesserieser.brandlew.co/uploads/wallow-8.jpg"
 margin_left = "30%"
@@ -144,7 +144,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E5EEEC"
 image = "https://jesserieser.brandlew.co/uploads/wallow-9.jpg"
 margin_left = "5%"
@@ -155,7 +155,7 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#CAC9C8"
 image = "https://jesserieser.brandlew.co/uploads/wallow-10.jpg"
 margin_left = ""
@@ -170,7 +170,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E1E3DE"
 image = "https://jesserieser.brandlew.co/uploads/wallow-11.jpg"
 margin_left = "15%"
@@ -184,7 +184,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#D0C797"
 image = "https://jesserieser.brandlew.co/uploads/wallow-13.jpg"
 margin_left = "5%"
@@ -195,7 +195,7 @@ width = "25"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#B3AE99"
 image = "https://jesserieser.brandlew.co/uploads/wallow-12.jpg"
 margin_left = "0%"
@@ -210,7 +210,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F9DCBC"
 image = "https://jesserieser.brandlew.co/uploads/wallow-14.jpg"
 margin_left = "20%"
@@ -225,7 +225,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FBEECD"
 image = "https://jesserieser.brandlew.co/uploads/wallow-15.jpg"
 margin_left = "35%"
@@ -239,7 +239,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#D4CEC3"
 image = "https://jesserieser.brandlew.co/uploads/wallow-17.jpg"
 margin_left = "5%"
@@ -249,7 +249,7 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E7EEEF"
 image = "https://jesserieser.brandlew.co/uploads/wallow-16.jpg"
 margin_right = "0%"
@@ -263,7 +263,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FCE7A3"
 image = "https://jesserieser.brandlew.co/uploads/wallow-18.jpg"
 margin_left = "30%"
@@ -277,7 +277,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#CACBD2"
 image = "https://jesserieser.brandlew.co/uploads/wallow-19.jpg"
 margin_left = "10%"
@@ -292,7 +292,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#222842"
 image = "https://jesserieser.brandlew.co/uploads/wallow-20.jpg"
 margin_left = "25%"

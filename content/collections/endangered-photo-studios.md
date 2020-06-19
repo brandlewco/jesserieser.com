@@ -27,7 +27,7 @@ template = "popup-text-element"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#B4FFAB"
 image = "https://jesserieser.brandlew.co/uploads/studios-1.jpg"
 margin_left = "20%"
@@ -42,7 +42,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FBE7CF"
 image = "https://jesserieser.brandlew.co/uploads/studios-3.jpg"
 margin_left = "10%"
@@ -52,7 +52,7 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F5EFEF"
 image = "https://jesserieser.brandlew.co/uploads/studios-2.jpg"
 margin_left = ""
@@ -67,7 +67,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#DCE3EB"
 image = "https://jesserieser.brandlew.co/uploads/studios-4.jpg"
 margin_left = "30%"
@@ -81,7 +81,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#EDF2E6"
 image = "https://jesserieser.brandlew.co/uploads/studios-5.jpg"
 margin_left = "5%"
@@ -92,7 +92,7 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FBE9ED"
 image = "https://jesserieser.brandlew.co/uploads/studios-6.jpg"
 margin_y = "300"
@@ -101,7 +101,7 @@ width = "50"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F2E8F2"
 image = "https://jesserieser.brandlew.co/uploads/studios-9.jpg"
 margin_left = "10%"
@@ -112,7 +112,7 @@ width = "45"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F4ECE6"
 image = "https://jesserieser.brandlew.co/uploads/studios-8.jpg"
 margin_left = ""
@@ -127,7 +127,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FEEECD"
 image = "https://jesserieser.brandlew.co/uploads/studios-7.jpg"
 margin_left = "20%"

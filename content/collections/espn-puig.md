@@ -25,7 +25,7 @@ title = "ESPN The Magazine"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FBF2E9"
 image = "https://jesserieser.brandlew.co/uploads/puig-1.jpg"
 margin_left = "25%"
@@ -64,7 +64,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F6DDCB"
 image = "https://jesserieser.brandlew.co/uploads/puig-3.jpg"
 margin_left = "55%"
@@ -103,7 +103,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F6E8DC"
 image = "https://jesserieser.brandlew.co/uploads/puig-5.jpg"
 margin_left = "30%"
@@ -162,7 +162,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F7E7DA"
 image = "https://jesserieser.brandlew.co/uploads/puig-7.jpg"
 margin_left = "20%"
@@ -172,7 +172,7 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#DCE4F2"
 image = "https://jesserieser.brandlew.co/uploads/puig-9.jpg"
 margin_left = ""
@@ -187,7 +187,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F5E0D4"
 image = "https://jesserieser.brandlew.co/uploads/puig-10.jpg"
 margin_left = "25%"

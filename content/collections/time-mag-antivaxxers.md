@@ -24,7 +24,7 @@ title = "Time Magazine"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F9DDB8"
 image = "https://jesserieser.brandlew.co/uploads/antivaxx-2.jpg"
 margin_left = "20%"
@@ -38,7 +38,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#C6D7E9"
 image = "https://jesserieser.brandlew.co/uploads/antivaxx-3.jpg"
 margin_left = "20%"
@@ -49,7 +49,7 @@ width = "25"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#EE8585"
 image = "https://jesserieser.brandlew.co/uploads/antivaxx-4.jpg"
 margin_left = "0%"
@@ -64,7 +64,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#5CC5CF"
 image = "https://jesserieser.brandlew.co/uploads/antivaxx-5.jpg"
 margin_left = "30%"
@@ -79,7 +79,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FEDFCD"
 image = "https://jesserieser.brandlew.co/uploads/antivaxx-7.jpg"
 margin_left = "25%"
@@ -90,7 +90,7 @@ width = "20"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FCE692"
 image = "https://jesserieser.brandlew.co/uploads/antivaxx-6.jpg"
 margin_left = ""
@@ -105,7 +105,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#AEC7DE"
 image = "https://jesserieser.brandlew.co/uploads/antivaxx-8.jpg"
 margin_left = "5%"
@@ -120,7 +120,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FCC9C1"
 image = "https://jesserieser.brandlew.co/uploads/antivaxx-9.jpg"
 margin_left = "10%"
@@ -130,7 +130,7 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E9CEBF"
 image = "https://jesserieser.brandlew.co/uploads/antivaxx-10.jpg"
 margin_left = ""
@@ -145,7 +145,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F1F3CF"
 image = "https://jesserieser.brandlew.co/uploads/antivaxx-12.jpg"
 margin_left = "25%"
@@ -160,7 +160,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#C2CFDF"
 image = "https://jesserieser.brandlew.co/uploads/antivaxx-14.jpg"
 margin_left = "15%"
@@ -171,7 +171,7 @@ width = "25"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#CFE3B4"
 image = "https://jesserieser.brandlew.co/uploads/antivaxx-1.jpg"
 margin_left = ""
@@ -186,7 +186,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F8E4B1"
 image = "https://jesserieser.brandlew.co/uploads/antivaxx-16.jpg"
 margin_left = "15%"

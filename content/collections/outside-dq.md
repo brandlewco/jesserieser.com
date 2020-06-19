@@ -25,7 +25,7 @@ title = "Outside Magazine"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F6F4EB"
 image = "https://jesserieser.brandlew.co/uploads/dq-outside-1.jpg"
 margin_left = "10%"
@@ -40,7 +40,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FDE1DA"
 image = "https://jesserieser.brandlew.co/uploads/dq-outside-3.jpg"
 margin_left = "10%"
@@ -51,7 +51,7 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E2ECD5"
 image = "https://jesserieser.brandlew.co/uploads/dq-outside-2.jpg"
 margin_left = ""
@@ -66,7 +66,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FFE5D1"
 image = "https://jesserieser.brandlew.co/uploads/dq-outside-4.jpg"
 margin_left = "20%"
@@ -80,7 +80,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E7EBC7"
 image = "https://jesserieser.brandlew.co/uploads/dq-outside-5.jpg"
 margin_left = "10%"
@@ -91,7 +91,7 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E0EAEF"
 image = "https://jesserieser.brandlew.co/uploads/dq-outside-6.jpg"
 margin_right = "20%"
@@ -105,7 +105,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F1E3E4"
 image = "https://jesserieser.brandlew.co/uploads/dq-outside-7.jpg"
 margin_left = "20%"
@@ -120,7 +120,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#EAE2D6"
 image = "https://jesserieser.brandlew.co/uploads/dq-outside-8.jpg"
 margin_left = "30%"

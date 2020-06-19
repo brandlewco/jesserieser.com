@@ -21,14 +21,14 @@ row_height = 75
 row_order = false
 template = "block-media-2"
 [collection_layout_builder.image_1]
-caption = "caption"
+
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/rieser-amtrak-1.jpg"
 margin_y = 50
 width = 40
 align_x = "start"
 [collection_layout_builder.image_2]
-caption = "caption"
+
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/rieser-amtrak-20.jpg"
 margin_y = 50
@@ -36,7 +36,7 @@ width = 40
 align_x = "start"
 [[collection_layout_builder]]
 block = "media-1"
-caption = "Caption"
+
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/rieser-amtrak-3.jpg"
 margin_y = 200
@@ -67,14 +67,14 @@ row_alignment = "between"
 row_height = 25
 template = "block-media-2"
 [collection_layout_builder.image_1]
-caption = "caption"
+
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/rieser-amtrak-5.jpg"
 margin_y = 50
 width = 33
 align_x = "start"
 [collection_layout_builder.image_2]
-caption = "caption"
+
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/rieser-amtrak-6.jpg"
 margin_y = 300
@@ -132,7 +132,7 @@ margin_y = 100
 width = 40
 align_x = "start"
 [collection_layout_builder.image_2]
-caption = "caption"
+
 color = ""
 image = "https://jesserieser.brandlew.co/uploads/rieser-amtrak-11.jpg"
 margin_y = 100

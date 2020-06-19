@@ -25,7 +25,7 @@ title = "Fast Company "
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F6ECE3"
 image = "https://jesserieser.brandlew.co/uploads/waymo-1.jpg"
 margin_left = "10%"
@@ -40,7 +40,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FAF7DF"
 image = "https://jesserieser.brandlew.co/uploads/waymo-3.jpg"
 margin_left = "5%"
@@ -51,7 +51,7 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#CBD9E9"
 image = "https://jesserieser.brandlew.co/uploads/waymo-2.jpg"
 margin_left = "0%"
@@ -65,7 +65,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#D3F5E5"
 image = "https://jesserieser.brandlew.co/uploads/waymo-4.jpg"
 margin_left = "25%"
@@ -79,7 +79,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F6E5D9"
 image = "https://jesserieser.brandlew.co/uploads/waymo-5.jpg"
 margin_left = ""
@@ -90,7 +90,7 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#D8E9EA"
 image = "https://jesserieser.brandlew.co/uploads/waymo-6.jpg"
 margin_right = "10%"
@@ -104,7 +104,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#CDCEDD"
 image = "https://jesserieser.brandlew.co/uploads/waymo-7.jpg"
 margin_left = "30%"
@@ -119,7 +119,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#CCF5DF"
 image = "https://jesserieser.brandlew.co/uploads/waymo-8.jpg"
 margin_left = "10%"
@@ -134,7 +134,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FBDFD9"
 image = "https://jesserieser.brandlew.co/uploads/waymo-10.jpg"
 margin_left = "5%"
@@ -144,7 +144,7 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F5F5E9"
 image = "https://jesserieser.brandlew.co/uploads/waymo-9.jpg"
 margin_left = ""
@@ -159,7 +159,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E9F0F8"
 image = "https://jesserieser.brandlew.co/uploads/waymo-11.jpg"
 margin_left = "20%"

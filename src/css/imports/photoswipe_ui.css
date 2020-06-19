@@ -294,6 +294,15 @@ a.pswp__share--download:hover {
   transition: opacity 0.1s linear;
 }
 
+.info {
+  opacity: 1;
+  transition: opacity 0.1s linear;
+}
+
+.caption:empty + .info {
+  opacity: 0;
+}
+
 .pswp__caption:hover {
   cursor: help;
   .caption {

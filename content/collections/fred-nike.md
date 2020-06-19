@@ -26,7 +26,7 @@ title = "Nike Running’s "
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#A0ECEC"
 image = "https://jesserieser.brandlew.co/uploads/fred-1.jpg"
 margin_left = "35%"
@@ -41,7 +41,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FBF0DD"
 image = "https://jesserieser.brandlew.co/uploads/fred-2.jpg"
 margin_left = "10%"
@@ -51,7 +51,7 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#D3E7AF"
 image = "https://jesserieser.brandlew.co/uploads/fred-3.jpg"
 margin_right = "5%"
@@ -65,7 +65,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FFD5DD"
 image = "https://jesserieser.brandlew.co/uploads/fred-4.jpg"
 margin_left = "35%"
@@ -79,7 +79,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FBECE4"
 image = "https://jesserieser.brandlew.co/uploads/fred-5.jpg"
 margin_left = "5%"
@@ -90,7 +90,7 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#C5E4F2"
 image = "https://jesserieser.brandlew.co/uploads/fred-6.jpg"
 margin_right = "5%"

@@ -26,7 +26,7 @@ title = "United Airlines Rhapsody"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#DDAE93"
 image = "https://jesserieser.brandlew.co/uploads/sedona-3.jpg"
 margin_left = "5%"
@@ -37,7 +37,7 @@ width = "55"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E5ECBA"
 image = "https://jesserieser.brandlew.co/uploads/sedona-4.jpg"
 margin_left = ""
@@ -52,7 +52,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F8EADC"
 image = "https://jesserieser.brandlew.co/uploads/sedona-5.jpg"
 margin_left = "40%"
@@ -67,7 +67,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#EDD9E9"
 image = "https://jesserieser.brandlew.co/uploads/sedona-2.jpg"
 margin_left = "20%"
@@ -82,7 +82,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FFE4BD"
 image = "https://jesserieser.brandlew.co/uploads/sedona-6.jpg"
 margin_left = "0%"
@@ -93,7 +93,7 @@ width = "55"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E0E9F6"
 image = "https://jesserieser.brandlew.co/uploads/sedona-7.jpg"
 margin_left = ""
@@ -108,7 +108,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E5D8D3"
 image = "https://jesserieser.brandlew.co/uploads/sedona-1.jpg"
 margin_left = "35%"
@@ -123,7 +123,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E1E3E9"
 image = "https://jesserieser.brandlew.co/uploads/sedona-9.jpg"
 margin_left = "5%"
@@ -134,7 +134,7 @@ width = "50"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E7A894"
 image = "https://jesserieser.brandlew.co/uploads/sedona-8.jpg"
 margin_right = "5%"
@@ -148,7 +148,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#D5DFCB"
 image = "https://jesserieser.brandlew.co/uploads/sedona-10.jpg"
 margin_left = "45%"
@@ -163,7 +163,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#EEDED2"
 image = "https://jesserieser.brandlew.co/uploads/sedona-11.jpg"
 margin_left = "35%"
@@ -177,7 +177,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E0E7F3"
 image = "https://jesserieser.brandlew.co/uploads/sedona-12.jpg"
 margin_left = "5%"
@@ -192,7 +192,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F8EFCF"
 image = "https://jesserieser.brandlew.co/uploads/sedona-13.jpg"
 margin_left = "45%"

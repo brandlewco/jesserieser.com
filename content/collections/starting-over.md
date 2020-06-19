@@ -37,7 +37,7 @@ template = "popup-text-element"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#D0E5CB"
 image = "https://jesserieser.brandlew.co/uploads/startingover-1.jpg"
 margin_left = "55%"
@@ -52,7 +52,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#C19E88"
 image = "https://jesserieser.brandlew.co/uploads/startingover-3.jpg"
 margin_y = "700"
@@ -61,7 +61,7 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FBA093"
 image = "https://jesserieser.brandlew.co/uploads/startingover-2.jpg"
 margin_left = ""
@@ -76,7 +76,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#ECD1BA"
 image = "https://jesserieser.brandlew.co/uploads/startingover-4.jpg"
 margin_left = "15%"
@@ -90,7 +90,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#B7DCB6"
 image = "https://jesserieser.brandlew.co/uploads/startingover-5.jpg"
 margin_left = "25%"
@@ -105,7 +105,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F0F0C8"
 image = "https://jesserieser.brandlew.co/uploads/startingover-6.jpg"
 margin_left = "5%"
@@ -116,7 +116,7 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#889C81"
 image = "https://jesserieser.brandlew.co/uploads/startingover-7.jpg"
 margin_left = "0%"
@@ -135,7 +135,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#EDCBA7"
 image = "https://jesserieser.brandlew.co/uploads/startingover-8.jpg"
 margin_left = "25%"
@@ -146,7 +146,7 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E5CDBE"
 image = "https://jesserieser.brandlew.co/uploads/startingover-9.jpg"
 margin_right = "5%"
@@ -160,7 +160,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#BDD493"
 image = "https://jesserieser.brandlew.co/uploads/startingover-10.jpg"
 margin_left = "5%"
@@ -175,7 +175,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E2F0EC"
 image = "https://jesserieser.brandlew.co/uploads/startingover-11.jpg"
 margin_left = "30%"
@@ -189,7 +189,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#CDD2EB"
 image = "https://jesserieser.brandlew.co/uploads/startingover-12.jpg"
 margin_left = "20%"
@@ -200,7 +200,7 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#C3DEE5"
 image = "https://jesserieser.brandlew.co/uploads/startingover-13.jpg"
 margin_right = "10%"
@@ -214,7 +214,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#DBD8D8"
 image = "https://jesserieser.brandlew.co/uploads/startingover-14.jpg"
 margin_left = "5%"
@@ -224,7 +224,7 @@ width = "20"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E3E3D9"
 image = "https://jesserieser.brandlew.co/uploads/startingover-15.jpg"
 margin_left = "0%"
@@ -239,7 +239,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E4ECEB"
 image = "https://jesserieser.brandlew.co/uploads/startingover-16.jpg"
 margin_left = "15%"
@@ -254,7 +254,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E8E1D4"
 image = "https://jesserieser.brandlew.co/uploads/startingover-17.jpg"
 margin_left = "25%"
@@ -269,7 +269,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#DAEDFD"
 image = "https://jesserieser.brandlew.co/uploads/startingover-18.jpg"
 margin_left = "5%"
@@ -280,7 +280,7 @@ width = "50"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#DCE4E8"
 image = "https://jesserieser.brandlew.co/uploads/startingover-19.jpg"
 margin_left = "0%"
@@ -295,7 +295,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F0EEE2"
 image = "https://jesserieser.brandlew.co/uploads/startingover-20.jpg"
 margin_left = "20%"

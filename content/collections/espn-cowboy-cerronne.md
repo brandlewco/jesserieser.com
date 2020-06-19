@@ -23,7 +23,7 @@ title = "ESPN"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F1B784"
 image = "https://jesserieser.brandlew.co/uploads/cowboy-1.jpg"
 margin_left = "35%"
@@ -34,7 +34,7 @@ width = "60"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#FCDDBA"
 image = "https://jesserieser.brandlew.co/uploads/cowboy-2.jpg"
 margin_left = "20%"
@@ -44,7 +44,7 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#DEB08E"
 image = "https://jesserieser.brandlew.co/uploads/cowboy-5.jpg"
 margin_left = "0%"
@@ -55,7 +55,7 @@ width = "25"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#B69565"
 image = "https://jesserieser.brandlew.co/uploads/cowboy-4.jpg"
 margin_left = "10%"
@@ -66,7 +66,7 @@ width = "50"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#B47D64"
 image = "https://jesserieser.brandlew.co/uploads/cowboy-3.jpg"
 margin_left = "25%"
@@ -85,7 +85,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#9F7769"
 image = "https://jesserieser.brandlew.co/uploads/cowboy-6.jpg"
 margin_left = "15%"
@@ -96,7 +96,7 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#663C2B"
 image = "https://jesserieser.brandlew.co/uploads/cowboy-7.jpg"
 margin_left = ""
@@ -111,7 +111,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#E98A74"
 image = "https://jesserieser.brandlew.co/uploads/cowboy-8.jpg"
 margin_left = "20%"
@@ -126,7 +126,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#ECBE9C"
 image = "https://jesserieser.brandlew.co/uploads/cowboy-9.jpg"
 margin_left = "5%"
@@ -136,7 +136,7 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#866254"
 image = "https://jesserieser.brandlew.co/uploads/cowboy-10.jpg"
 margin_left = ""
@@ -151,7 +151,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#42312D"
 image = "https://jesserieser.brandlew.co/uploads/cowboy-11.jpg"
 margin_left = "30%"
@@ -165,7 +165,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F1D0B6"
 image = "https://jesserieser.brandlew.co/uploads/cowboy-12.jpg"
 margin_left = "5%"
@@ -176,7 +176,7 @@ width = "50"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#D1513A"
 image = "https://jesserieser.brandlew.co/uploads/cowboy-13.jpg"
 margin_right = "15%"
@@ -186,7 +186,7 @@ width = "20"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#B2805B"
 image = "https://jesserieser.brandlew.co/uploads/cowboy-15.jpg"
 margin_left = "40%"
@@ -197,7 +197,7 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#F4DFCC"
 image = "https://jesserieser.brandlew.co/uploads/cowboy-14.jpg"
 margin_left = "30%"
@@ -212,7 +212,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#5A2B21"
 image = "https://jesserieser.brandlew.co/uploads/cowboy-17.jpg"
 margin_left = "10%"
@@ -222,7 +222,7 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-caption = "caption"
+
 color = "#D8875E"
 image = "https://jesserieser.brandlew.co/uploads/cowboy-16.jpg"
 margin_right = "15%"
