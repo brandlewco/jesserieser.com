@@ -50,11 +50,10 @@ html.is-changing #content {
 
 .button.ui-radio {
   transition: 0.15s font-weight ease-in-out, 0.25s color ease-in-out;
-  @apply font-semibold
 }
 
 .button.ui-radio.is-checked {
-  @apply underline;
+  @apply font-semibold
 }
 
 .hue-btn {
