@@ -851,7 +851,7 @@ header_col_3: "[Gallery Stock](https://www.gallerystock.com)  \n190 Bowery  \nNe
   \"newyork@gallerystock.com\")\n\n[Paris](mailto:PARIS@GALLERYSTOCK.COM)  \n[Munich](mailto:MUNICH@GALLERYSTOCK.COM)
   \ \n[Sydney](mailto:HELLO@SNAPPERIMAGES.COM)"
 row_alignment: between
-collection_cover_mobile: ''
+collection_cover_mobile: https://jesserieser.brandlew.co/uploads/bio_final-5.jpg
 about_bio: |-
   **Bio**
 
