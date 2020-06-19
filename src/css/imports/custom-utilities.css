@@ -38,7 +38,7 @@ h3 p {
 
 body.page-collections #navigation {
   /* position: relative !important; */
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(255, 255, 255, 0.90);
 }
 
 body.page-jesse-rieser #menu #nav-selected, body.page-collections #menu #nav-collections, body.page-say-hello #menu #nav-about{
@@ -543,7 +543,7 @@ a.collection-next .arrow {
   left: 0;
   position: absolute;
   object-fit: cover;
-  transition: opacity 0.5s ease-in;
+  transition: opacity 0.5s ease-in-out;
   opacity: 0;
 }
 .filter-item img:nth-child(1) {
