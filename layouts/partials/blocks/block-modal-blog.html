@@ -49,7 +49,16 @@
   </div>
   {{$attached := $key.Params.attached_collection}}
   {{with $attached}}
-  <a href="/{{ substr . 0 -3}}" data-no-swup><div class="w-full h-16 flex justify-center items-center text-2xl text-white" style="background-color: {{$key.Params.theme_color}}">VIEW FULL COLLECTION</div></a>
+  <section class="mt-16 sm:mt-16" style="color: {{$key.Params.theme_color}};">
+    <a href="/{{ substr . 0 -3}}" alt="view collection" data-no-swup>
+        <div class="mx-auto w-full mt-32 text-center font-light"  data-sal="slide-down" data-sal-delay="300">
+            <!-- <p class="text-5xl font-hairline" style="line-height: 0.4;">&#8963;</p> -->
+            <p class="text-md sm:text-xl font-light">View Full Collection</p>
+        </div>
+    </a>
+  </section>
   {{end}}
+
+
 </article>
 <!-- https://codepen.io/kimpetersend1/pen/LajgaW -->
