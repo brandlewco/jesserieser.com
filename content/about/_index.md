@@ -820,7 +820,7 @@ about_bio: |-
   Clients find him as a creative additive to the collaborative process not only with his technical expertise but also in the ideation phase. He feels his greatest currency is how he communicates and sees the world--formed by life experiences, relationships, hardships, and triumphs.
 
   Some call it empathy. Some call it charm. His mom just says he’s a nice young man.
-about_bio_image: https://jesserieser.brandlew.co/uploads/bio_final-10.jpg
+about_bio_image: https://jesserieser.brandlew.co/uploads/bio_final-3.jpg
 
 ---
 ## Click the collections link above to preview collections.
