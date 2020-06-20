@@ -410,6 +410,46 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: ''
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: []
+  width: '33'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  title: ''
+  color: ''
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: []
+  width: '33'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  title: ''
+  color: ''
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: []
+  width: '33'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  title: ''
+  color: ''
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: []
+  width: '33'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  title: ''
+  color: ''
 home_theme_color: "#EDDDDE"
 collection_description: ''
 collection_content: ''
@@ -421,8 +461,7 @@ feature_description: "Welcome!  \nHere in _Selected Works_ you will find a brief
   reflecting both my unique style of light and color as I explore themes of the uniquely
   American experience.\n\nA bit about navigation: If you aren’t in a rush, head over
   to _All Works;_ if looking for something specific, give the category filter a spin.
-  I hope you enjoy your time here and excited to share my photographic world with
-  you."
+  I hope you enjoy your time and excited to share my photographic world with you."
 navigation_theme: white
 row_alignment: between
 selected_works_theme:
