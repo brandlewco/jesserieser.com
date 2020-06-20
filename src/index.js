@@ -274,7 +274,7 @@ function init() {
           zoomEl: false,
           shareEl: false,
           indexIndicatorSep: " / ",
-          loop: false,
+          loop: true,
 
         };
 

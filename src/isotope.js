@@ -141,8 +141,8 @@ imagesLoaded(grid, function() {
       removeFilter(".commissionedstock");
       removeFilter(".all");
       addFilter(".personal");
-      filterAll.style.opacity = 1;
-      filterAllDivide.style.opacity = 1;
+      filterAll.style.opacity = 1 + "!important";
+      filterAllDivide.style.opacity = 1 + "!important";
       filterPersonal.classList.add("is-checked");
       filterComissioned.classList.remove("is-checked");
       filterAll.classList.remove("is-checked");
@@ -151,8 +151,8 @@ imagesLoaded(grid, function() {
       removeFilter(".personal");
       removeFilter(".all");
       addFilter(".commissionedstock");
-      filterAll.style.opacity = 1;
-      filterAllDivide.style.opacity = 1;
+      filterAll.style.opacity = 1 + "!important";
+      filterAllDivide.style.opacity = 1 + "!important";
       filterComissioned.classList.add("is-checked");
       filterPersonal.classList.remove("is-checked");
       filterAll.classList.remove("is-checked");
