@@ -26,5 +26,9 @@ width = "50"
 block = "media-element-url"
 image = "https://jesserieser.brandlew.co/uploads/blog_skygeezer-1.jpg"
 template = "block-media-element-url"
+[[blog_slider]]
+block = "media-element-url"
+image = "https://jesserieser.brandlew.co/uploads/blog_skygeezer-2.jpg"
+template = "block-media-element-url"
 
 +++
