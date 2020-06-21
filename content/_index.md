@@ -419,7 +419,7 @@ page_sections:
   margin_left: 0%
   margin_right: 0%
   title: ''
-  color: ''
+  color: "#C5C458"
 - template: block-modal-blog
   block: modal-blog
   attached_blog: []
