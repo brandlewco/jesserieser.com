@@ -190,7 +190,7 @@ page_sections:
       York, NY (Group Show)"
     icon: ''
     url: ''
-  meta: ''
+  meta: My father and I. By Rob Rieser, 2019.
   title_margin_y: ''
   text_color: ''
   text_size: ''
