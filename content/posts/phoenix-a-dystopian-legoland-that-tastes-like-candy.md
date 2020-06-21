@@ -7,7 +7,7 @@ caption = "AP 35: American Photography Annual, Winner for Best Personal Work"
 content = ""
 date = ""
 draft = true
-news_category = []
+news_category = ["awards"]
 theme_color = ""
 title = "Phoenix A Dystopian Legoland That Tastes Like Candy"
 
