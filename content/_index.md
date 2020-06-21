@@ -420,36 +420,6 @@ page_sections:
   margin_right: 0%
   title: dgh
   color: "#C5C458"
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: []
-  width: '33'
-  align_y: start
-  margin_y: '50'
-  margin_left: 0%
-  margin_right: 0%
-  title: ''
-  color: ''
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: []
-  width: '33'
-  align_y: start
-  margin_y: '50'
-  margin_left: 0%
-  margin_right: 0%
-  title: ''
-  color: ''
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: []
-  width: '33'
-  align_y: start
-  margin_y: '50'
-  margin_left: 0%
-  margin_right: 0%
-  title: ''
-  color: ''
 home_theme_color: "#EDDDDE"
 collection_description: ''
 collection_content: ''
