@@ -4,7 +4,7 @@ blog_header = "https://jesserieser.brandlew.co/uploads/stargeezers-1.jpg"
 caption = "Interviews and Features on BOOOOOOM and Fisheye Magazine (France)"
 content = "Test test "
 date = ""
-news_category = ["press"]
+news_category = ["press", "press"]
 theme_color = "#BFFFBD"
 title = "The Star Geezers "
 [[blog_builder]]
