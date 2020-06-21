@@ -86,6 +86,7 @@ fields:
     max: 
   label: Blog Photo Grid
 pages:
+- content/posts/christmas-in-america-happy-birthday-jesus.md
 - content/posts/star-geezers-on-boooooom.md
 - content/posts/test-blog-posts.md
 - content/posts/wired-the-internet-giant-that-went-too-far.md
