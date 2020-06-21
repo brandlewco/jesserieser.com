@@ -12,7 +12,7 @@ fields:
   default: modal-blog
 - name: attached_blog
   type: select
-  default: []
+  default: posts/test-blog-posts.md
   config:
     required: true
     options: []
