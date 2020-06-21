@@ -24,15 +24,7 @@ template = "block-media-element-static"
 width = "50"
 [[blog_slider]]
 block = "media-element-url"
-image = "https://jesserieser.brandlew.co/uploads/stargeezers-24.jpg"
-template = "block-media-element-url"
-[[blog_slider]]
-block = "media-element-url"
-image = "https://jesserieser.brandlew.co/uploads/stargeezers-20.jpg"
-template = "block-media-element-url"
-[[blog_slider]]
-block = "media-element-url"
-image = "https://jesserieser.brandlew.co/uploads/stargeezers-6.jpg"
+image = "https://jesserieser.brandlew.co/uploads/blog_skygeezer-1.jpg"
 template = "block-media-element-url"
 
 +++
