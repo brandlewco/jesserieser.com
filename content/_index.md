@@ -412,7 +412,7 @@ page_sections:
   row_alignment: ''
 - template: block-modal-blog
   block: modal-blog
-  attached_blog: []
+  attached_blog: posts/christmas-in-america-happy-birthday-jesus.md
   width: '33'
   align_y: start
   margin_y: '50'
