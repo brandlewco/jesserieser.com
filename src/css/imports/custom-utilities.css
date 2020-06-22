@@ -313,7 +313,8 @@ header img.lazyloaded {
 }
 
 #project-header {
-  height: -webkit-fill-available;
+  height: 100%;
+  height: stretch;
 }
 
 #project-header img.lazyloaded #loading-overlay {
