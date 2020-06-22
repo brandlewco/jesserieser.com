@@ -42,6 +42,7 @@ imagesLoaded(grid, function() {
     var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
     const windowY = window.scrollY;
     if (isSafari && iOS) {
+      alert("isSafari & IOS");
       if (filterContainer) {
         if ((scrollTop < scrollPos) || scrollPos < 0) {
           navigation.style.transform = "translate3d(0, 0, 0)";
@@ -53,6 +54,7 @@ imagesLoaded(grid, function() {
       }
       console.log("safari nobile");
     } else if (isSafari) {
+      alert("isSafari");
       if (filterContainer) {
         if ((scrollTop < scrollPos) || scrollPos < 0) {
           navigation.style.transform = "translate3d(0, 0, 0)";
@@ -66,6 +68,7 @@ imagesLoaded(grid, function() {
       }
       console.log("safari");
     } else {
+      alert("not safari, not ios");
       if (filterContainer) {
         if ((scrollTop < scrollPos) || scrollPos < 0) {
           navigation.style.transform = "translate3d(0, 0, 0)";
@@ -141,8 +144,8 @@ imagesLoaded(grid, function() {
       removeFilter(".commissionedstock");
       removeFilter(".all");
       addFilter(".personal");
-      filterAll.style.opacity = 1 + "!important";
-      filterAllDivide.style.opacity = 1 + "!important";
+      filterAll.style.opacity = 1;
+      filterAllDivide.style.opacity = 1;
       filterPersonal.classList.add("is-checked");
       filterComissioned.classList.remove("is-checked");
       filterAll.classList.remove("is-checked");
@@ -151,8 +154,8 @@ imagesLoaded(grid, function() {
       removeFilter(".personal");
       removeFilter(".all");
       addFilter(".commissionedstock");
-      filterAll.style.opacity = 1 + "!important";
-      filterAllDivide.style.opacity = 1 + "!important";
+      filterAll.style.opacity = 1;
+      filterAllDivide.style.opacity = 1;
       filterComissioned.classList.add("is-checked");
       filterPersonal.classList.remove("is-checked");
       filterAll.classList.remove("is-checked");

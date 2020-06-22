@@ -1,4 +1,4 @@
-<section id="project-next" class="mt-32 px-16 xl:px-32 {{if (eq .Params.collection_archive true) }}text-white{{end}}">
+<section id="project-next" class="mt-32 px-4 lg:px-16 xl:px-32 {{if (eq .Params.collection_archive true) }}text-white{{end}}">
     <nav class="mx-auto flex flex-col sm:flex-row justify-between items-center sm:items-stretch">
     <!-- RUN RANGE JUST FOR LAST ITEM IN COLLECTION TO COMPLETE PAGER LOOP -->
     {{ $currentPage := .Permalink }}
@@ -6,7 +6,7 @@
     {{ range last 1 .collection_pager}}
     {{ with $.Site.GetPage . }} 
     {{ if eq .Params.collection_archive true }}
-    <a href="{{ .RelPermalink }}" class="hidden first" alt="{{ .Title }}" style="max-width: 40vw;">
+    <a href="{{ .RelPermalink }}" class="hidden first" alt="{{ .Title }}" style="max-width: 35vw;">
         <div class="flex flex-row text-left items-center">
             <div class="arrow text-6xl font-thin pr-4">
                 &#8249;
@@ -35,7 +35,7 @@
     {{ if eq $currentPage .Permalink }}
     <a href="{{ .RelPermalink }}" id="current" class="hidden">CURRENT PAGE</a>
     {{else}}
-    <a href="{{ .RelPermalink }}" class="hidden" alt="{{ .Title }}" style="max-width: 40vw;">
+    <a href="{{ .RelPermalink }}" class="hidden" alt="{{ .Title }}" style="max-width: 35vw;">
         <div class="flex flex-row text-left items-center">
             <div class="arrow text-6xl font-thin pr-4">
                 &#8249;
@@ -64,7 +64,7 @@
     {{ if eq $currentPage .Permalink }}
     <a href="{{ .RelPermalink }}" id="current" class="hidden">CURRENT PAGE</a>
     {{else}}
-    <a href="{{ .RelPermalink }}" class="hidden archive" alt="{{ .Title }}" style="max-width: 40vw;">
+    <a href="{{ .RelPermalink }}" class="hidden archive" alt="{{ .Title }}" style="max-width: 35vw;">
         <div class="flex flex-row text-left items-center">
             <div class="arrow text-6xl font-thin pr-4">
                 &#8249;
@@ -91,7 +91,7 @@
     {{ range first 1 .collection_pager}}
     {{ with $.Site.GetPage . }} 
     {{ if eq .Params.collection_archive false }}
-    <a href="{{ .RelPermalink }}" class="hidden" alt="{{ .Title }}" style="max-width: 40vw;">
+    <a href="{{ .RelPermalink }}" class="hidden" alt="{{ .Title }}" style="max-width: 35vw;">
         <div class="flex flex-row text-left items-center">
             <div class="arrow text-6xl font-thin pr-4">
                 &#8249;

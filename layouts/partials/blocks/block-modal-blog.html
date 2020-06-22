@@ -1,13 +1,10 @@
-<!-- {{ with .Section.attached_blog }}
-{{.}}
-{{ end }} -->
 {{ $key := .Site.GetPage .Section.attached_blog }}
 <section class="figure block-hover self-start {{with .Section.align_y}}sm:self-{{.}}{{end}} w-full {{with .Section.width}}sm:w-{{.}}/100{{end}} mt-4 {{with .Section.margin_y}}sm:mt-{{.}}{{end}} ml-0 {{with .Section.margin_left}}sm:ml-{{.}}{{end}} mr-0 {{with .Section.margin_right}}sm:mr-{{.}}{{end}} highlight rellax" data-rellax-speed="2" data-rellax-xs-speed="0">
   <button type="button" class="popup-trigger w-full sm:w-auto flex flex-col sm:h-auto justify-end sm:justify-between p-4 sm:p-8 items-start sm:items-center" style="background-color: {{$key.Params.theme_color}}" data-popup-trigger="{{$key.Params.title | lower | urlize}}">
-        <h1 class="text-2xl font-bold uppercase text-left sm:text-center tracking-widest">{{$key.Params.title}}</h1>
-        <h2 class="text-lg font-semibold uppercase text-left sm:text-center tracking-widest">{{$key.Params.caption}}</h2>
+        <h1 class="text-2xl font-bold text-left sm:text-center tracking-widest">{{$key.Params.title}}</h1>
+        <h2 class="text-lg font-semibold text-left sm:text-center tracking-widest">{{$key.Params.caption}}</h2>
   </button>
-  <h6 class="mb-0 ml-0 text-black uppercase tracking-widest">{{range $key.Params.news_category}}{{. | replaceRE "[\\W]" "" | lower}} {{end}}</h6>
+  <h6 class="mb-0 ml-0 text-black tracking-widest">{{range $key.Params.news_category}}{{. | replaceRE "[\\W]" "" | lower}} {{end}}</h6>
 </section>
 
 <article class="popup-modal scrollbar flex flex-col fixed z-999 text-black bg-white overflow-y-scroll overflow-x-hidden h-full w-full inset-0" data-popup-modal="{{$key.Params.title | lower | urlize}}" style="visibility: hidden; opacity: 0;">
@@ -34,8 +31,8 @@
     </div>
     <section class="py-6 mx-auto">
       <header class="flex flex-col items-start">
-        <div class="text-2xl sm:text-4xl uppercase font-medium text-center text-black pb-2">{{$key.Params.title}}</div>
-        <div class="text-lg sm:text-xl uppercase font-medium italic text-center text-black pb-6">{{$key.Params.caption}}</div>
+        <div class="text-2xl sm:text-4xl font-medium text-center text-black pb-2">{{$key.Params.title}}</div>
+        <div class="text-lg sm:text-xl font-medium italic text-center text-black pb-6">{{$key.Params.caption}}</div>
       </header>
       <div class="text-lg w-100 h-100 text-black leading-loose pb-16">
             {{ $key.Params.content | markdownify }}
@@ -47,18 +44,17 @@
       </section>
     </section>
   </div>
-  {{$attached := $key.Params.attached_collection}}
-  {{with $attached}}
-  <section class="mt-16 sm:mt-16" style="color: {{$key.Params.theme_color}};">
-    <a href="/{{ substr . 0 -3}}" alt="view collection" data-no-swup>
-        <div class="mx-auto w-full mt-32 text-center font-light"  data-sal="slide-down" data-sal-delay="300">
-            <!-- <p class="text-5xl font-hairline" style="line-height: 0.4;">&#8963;</p> -->
-            <p class="text-md sm:text-xl font-light">View Full Collection</p>
-        </div>
-    </a>
-  </section>
-  {{end}}
-
+<!-- https://codepen.io/kimpetersend1/pen/LajgaW -->
+{{$attached := $key.Params.attached_collection}}
+{{with $attached}}
+<section class="mt-16 sm:mt-16" style="color: {{$key.Params.theme_color}};">
+  <a href="/{{ substr . 0 -3}}" alt="view collection" data-no-swup>
+      <div class="mx-auto w-full mt-32 text-center font-light"  data-sal="slide-down" data-sal-delay="300">
+          <!-- <p class="text-5xl font-hairline" style="line-height: 0.4;">&#8963;</p> -->
+          <p class="text-md sm:text-xl font-light">View Full Collection</p>
+      </div>
+  </a>
+</section>
+{{end}}
 
 </article>
-<!-- https://codepen.io/kimpetersend1/pen/LajgaW -->
