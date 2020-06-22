@@ -145,5 +145,12 @@ fields:
   name: cover_image
   label: Social Media Card
   description: This image is what appears in OpenGraph previews and image masks
+- name: footer_links
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Footer Links
 pages:
 - content/about/_index.md
