@@ -42,7 +42,6 @@ imagesLoaded(grid, function() {
     var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
     const windowY = window.scrollY;
     if (isSafari && iOS) {
-      alert("isSafari & IOS");
       if (filterContainer) {
         if ((scrollTop < scrollPos) || scrollPos < 0) {
           navigation.style.transform = "translate3d(0, 0, 0)";
@@ -54,7 +53,8 @@ imagesLoaded(grid, function() {
       }
       console.log("safari nobile");
     } else if (isSafari) {
-      alert("isSafari");
+      // macos safari
+      // ios safari
       if (filterContainer) {
         if ((scrollTop < scrollPos) || scrollPos < 0) {
           navigation.style.transform = "translate3d(0, 0, 0)";
@@ -68,7 +68,8 @@ imagesLoaded(grid, function() {
       }
       console.log("safari");
     } else {
-      alert("not safari, not ios");
+      // ios chrome
+      // macos chrome
       if (filterContainer) {
         if ((scrollTop < scrollPos) || scrollPos < 0) {
           navigation.style.transform = "translate3d(0, 0, 0)";
