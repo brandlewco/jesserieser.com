@@ -823,8 +823,8 @@ about_bio: |-
 about_bio_image: https://jesserieser.brandlew.co/uploads/bio_final-3.jpg
 footer_links:
 - link_url: https://test.com
-  link_title: Link 2
-- link_title: Link 1
+  link_title: Instagram
+- link_title: Facebook
   link_url: https://test.com
 
 ---
