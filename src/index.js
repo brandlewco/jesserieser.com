@@ -59,6 +59,10 @@ function init() {
   // const documentScrollTop = document.documentElement.scrollTop;
   // console.log(documentScrollTop);
 
+  const vh = window.innerHeight * 0.01;
+  // Then we set the value in the --vh custom property to the root of the document
+  document.documentElement.style.setProperty("--vh", `${vh}px`);
+
   const setUp = () => {
     console.log("// built by brett lewis");
     console.log("// hello@brandlew.co");
