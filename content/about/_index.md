@@ -821,6 +821,11 @@ about_bio: |-
 
   Some call it empathy. Some call it charm. His mom just says he’s a nice young man.
 about_bio_image: https://jesserieser.brandlew.co/uploads/bio_final-3.jpg
+footer_links:
+- link_url: https://test.com
+  link_title: Link 2
+- link_title: Link 1
+  link_url: https://test.com
 
 ---
 ## Click the collections link above to preview collections.
