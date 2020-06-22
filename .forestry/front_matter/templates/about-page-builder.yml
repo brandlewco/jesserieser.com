@@ -147,10 +147,21 @@ fields:
   description: This image is what appears in OpenGraph previews and image masks
 - name: footer_links
   type: field_group_list
+  fields:
+  - name: link_title
+    type: text
+    config:
+      required: false
+    label: Link Title
+  - name: link_url
+    type: text
+    config:
+      required: false
+    label: Link URL
   config:
     min: 
     max: 
     labelField: 
-  label: footer links
+  label: Footer Links
 pages:
 - content/about/_index.md
