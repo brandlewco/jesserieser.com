@@ -146,11 +146,11 @@ fields:
   label: Social Media Card
   description: This image is what appears in OpenGraph previews and image masks
 - name: footer_links
-  type: list
+  type: field_group_list
   config:
-    use_select: false
     min: 
     max: 
-  label: Footer Links
+    labelField: 
+  label: footer links
 pages:
 - content/about/_index.md
