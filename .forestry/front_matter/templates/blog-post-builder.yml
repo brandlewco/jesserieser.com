@@ -46,6 +46,11 @@ fields:
       file: 
       path: 
   label: Attached Collection
+- name: blog_block_cover
+  type: file
+  config:
+    maxSize: 64
+  label: Blog Block Cover
 - name: blog_slider
   type: blocks
   label: Blog Slider
