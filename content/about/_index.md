@@ -16,8 +16,8 @@ page_sections:
   block: modal-list
   width: '30'
   align_x: start
-  margin_y: '300'
-  margin_left: 5%
+  margin_y: '600'
+  margin_left: 15%
   margin_right: ''
   title_margin_left: "-20%"
   margin_x: 5%
@@ -205,8 +205,8 @@ page_sections:
   align_x: start
   margin_y: '500'
   margin_left: 0%
-  margin_right: 10%
-  title_margin_left: "-15%"
+  margin_right: 0%
+  title_margin_left: "-25%"
   image: https://jesserieser.brandlew.co/uploads/bio_final-9.jpg
   title: Awards
   color: "#9DC2BE"
@@ -362,15 +362,15 @@ page_sections:
   block-list: ''
   align_y: ''
   title_margin_right: ''
-  meta: WOW!
-  title_margin_y: ''
+  meta: Me and my big wheel,1984.
+  title_margin_y: 15%
   text_color: ''
-  text_size: ''
+  text_size: 8xl
   line_height: ''
   text_alignment: ''
   text_tracking: ''
   font_weight: ''
-  meta_align: ''
+  meta_align: right
 - template: block-media-row
   block: media-row
   row_alignment: between
