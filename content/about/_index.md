@@ -371,7 +371,7 @@ page_sections:
   text_alignment: ''
   text_tracking: ''
   font_weight: ''
-  meta_align: center
+  meta_align: right
   modal_color: ''
 - template: block-media-row
   block: media-row
