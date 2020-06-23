@@ -742,7 +742,7 @@ page_sections:
   block: modal-list
   width: '40'
   align_y: start
-  margin_y: '500'
+  margin_y: '700'
   margin_left: 0%
   margin_right: 0%
   title_margin_left: "-20%"
