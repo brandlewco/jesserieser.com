@@ -1,7 +1,8 @@
 <header id="project-header" class="w-full min-h-screen lazyload flex flex-col items-center overflow-hidden relative z-100" style="background-color: {{.Params.theme_color}};">
-        <img data-srcset="{{.Params.collection_cover_mobile }}?nf_resize=fit&w=1024 1024w, {{.Params.collection_cover }}?nf_resize=fit&w=1920 1920w, {{.Params.collection_cover }}?nf_resize=fit&w=2560 2560w, {{.Params.collection_cover }}"
+    <img 
         data-sizes="auto"
-        class="featured lazyload bg-center h-screen object-cover fixed inset-0 z-0"
+        data-srcset="{{.Params.collection_cover_mobile }}?nf_resize=fit&w=1024 768w, {{.Params.collection_cover }}?nf_resize=fit&w=1920 1920w, {{.Params.collection_cover }}?nf_resize=fit&w=2560 2560w, {{.Params.collection_cover }}"
+		class="featured lazyload bg-center h-screen object-cover fixed inset-0 z-0"
         data-parent-fit="cover"
         id="header-image"/>
     <div id="header-overlay" class="absolute w-full h-full inset-auto z-40" style="background-color: {{.Params.theme_color}}; opacity: 0.01;" ></div>
