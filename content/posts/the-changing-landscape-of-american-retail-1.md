@@ -5,7 +5,6 @@ blog_header = ""
 caption = "The Fence at The Griffin Museum of Photography"
 content = ""
 date = ""
-draft = true
 news_category = []
 theme_color = ""
 title = "The Changing Landscape of American Retail "
