@@ -16,10 +16,10 @@ page_sections:
   block: modal-list
   width: '25'
   align_x: start
-  margin_y: '600'
+  margin_y: '700'
   margin_left: 15%
   margin_right: ''
-  title_margin_left: "-20%"
+  title_margin_left: "-40%"
   margin_x: 5%
   block-list: ''
   align_y: ''
@@ -191,9 +191,9 @@ page_sections:
     icon: ''
     url: ''
   meta: My father and I. Rob Rieser, 2019.
-  title_margin_y: ''
+  title_margin_y: 65%
   text_color: ''
-  text_size: ''
+  text_size: 7xl
   line_height: ''
   text_alignment: ''
   text_tracking: ''
