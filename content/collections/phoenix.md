@@ -5,13 +5,14 @@ collection_category = ["Studio ", "Lifestyle", "Color", "Conceptual", "Portraits
 collection_content = ""
 collection_cover = "https://jesserieser.brandlew.co/uploads/rieser_phx-HI-4.jpg"
 collection_cover_mobile = "https://jesserieser.brandlew.co/uploads/verticalcovers-1.jpg"
-collection_description = "A selection of images from my new works consisting of colorful, constructed, fictional, and surreal suburban vignettes.\n\nRecognized as a 2-time winner in the **_AP 35: American Photography Annual 2019_**_._"
+collection_description = "A selection of images from my new works consisting of colorful, constructed, fictional, and surreal suburban vignettes.\n\nRecognized as a 2-time winner in the **_AP 35: American Photography Annual 2019_** _and featured in LoDown Magazine (Germany)_"
 collection_filter = "Personal"
 collection_hidden = false
 collection_meta = "2018 - 2019"
 collection_preview = ["https://jesserieser.brandlew.co/uploads/phoenix-cover-3.jpg", "https://jesserieser.brandlew.co/uploads/phoenix-cover-2.jpg", "https://jesserieser.brandlew.co/uploads/phoenix-cover-1.jpg", "https://jesserieser.brandlew.co/uploads/phoenix-cover-4.jpg"]
 cover_image = "https://jesserieser.brandlew.co/uploads/social-10.jpg"
 date = ""
+hide_footer = true
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
@@ -232,7 +233,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FCBE8E"
 image = "https://jesserieser.brandlew.co/uploads/rieser_phx-HI-16.jpg"
 margin_left = "25%"
@@ -247,7 +247,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#88F1E8"
 image = "https://jesserieser.brandlew.co/uploads/rieser_phx-HI-17.jpg"
 margin_left = "5%"
@@ -257,7 +256,6 @@ width = "60"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FFECA9"
 image = "https://jesserieser.brandlew.co/uploads/rieser_phx-HI-18.jpg"
 margin_left = "0%"
@@ -272,7 +270,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#BBE1E4"
 image = "https://jesserieser.brandlew.co/uploads/rieser_phx-HI-19.jpg"
 margin_left = "10%"
@@ -283,7 +280,6 @@ width = "20"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FEED9D"
 image = "https://jesserieser.brandlew.co/uploads/rieser_phx-HI-20.jpg"
 margin_left = "0%"
@@ -302,7 +298,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FFDEE1"
 image = "https://jesserieser.brandlew.co/uploads/rieser_phx-HI-21.jpg"
 margin_left = "25%"
@@ -317,7 +312,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FFE181"
 image = "https://jesserieser.brandlew.co/uploads/rieser_phx-HI-22.jpg"
 margin_left = "5%"
@@ -327,7 +321,6 @@ width = "50"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#D5E0E6"
 image = "https://jesserieser.brandlew.co/uploads/rieser_phx-HI-23.jpg"
 margin_right = "5%"
@@ -341,7 +334,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#D4F1EC"
 image = "https://jesserieser.brandlew.co/uploads/rieser_phx-HI-24.jpg"
 margin_left = "15%"
