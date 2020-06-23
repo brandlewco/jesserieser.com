@@ -25,9 +25,15 @@
   </header>
   <section class="flex flex-wrap mt-32 w-100 overflow-y-scroll scrollbar px-12 sm:px-40">
     {{- range .Section.modal_block -}}
-      <article class="w-full sm:w-1/3 px-4 py-3">
-        {{with .icon}}<img src="{{.}}" class="h-8 lg:h-12 w-auto">{{else}}{{ .content | markdownify }}{{end}}
+      {{with .icon}}
+      <article class="w-full flex sm:w-1/3 px-4 py-3 justify-center">
+        <img src="{{.}}" class="w-full sm:w-66/100">
       </article>
+      {{else}}
+      <article class="w-full sm:w-1/3 px-4 py-3">
+        {{ .content | markdownify }}
+      </article>
+      {{end}}
     {{- end -}}
   </section>
 </div>
