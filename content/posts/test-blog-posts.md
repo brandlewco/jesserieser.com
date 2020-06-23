@@ -113,7 +113,7 @@ image = "https://jesserieser.brandlew.co/uploads/blog_waporetail-1.jpg"
 template = "block-media-element-url"
 [[blog_slider]]
 block = "media-element-url"
-image = "https://jesserieser.brandlew.co/uploads/blog_waporetail-2.jpg"
+image = "https://jesserieser.brandlew.co/uploads/blog_waporetail-2b.jpg"
 template = "block-media-element-url"
 
 +++
