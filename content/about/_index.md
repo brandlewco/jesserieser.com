@@ -408,12 +408,12 @@ page_sections:
   row_alignment: between
 - template: block-modal-list
   block: modal-list
-  width: '20'
+  width: '25'
   align_x: start
-  margin_y: '100'
-  margin_left: 20%
+  margin_y: '50'
+  margin_left: 25%
   margin_right: ''
-  title_margin_left: "-95%"
+  title_margin_left: "-75%"
   margin_x: 5%
   block-list: ''
   align_y: ''
@@ -726,14 +726,14 @@ page_sections:
     content: _JAVA Magazine_
     icon: ''
     url: ''
-  meta: ''
-  title_margin_y: ''
+  meta: Nicky Hedyatzadeh
+  title_margin_y: 30%
   text_color: ''
   text_size: ''
   line_height: ''
   text_alignment: ''
   text_tracking: ''
-  font_weight: ''
+  font_weight: normal
   meta_align: ''
 - template: block-modal-list
   block: modal-list
