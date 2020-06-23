@@ -971,7 +971,7 @@ footer_links:
 - link_title: Art Photo Index
   link_url: https://www.artphotoindex.com/api/#photographer/Jesse-Rieser/15804
 - link_title: LensCulture
-  link_url: https://test.com
+  link_url: https://www.lensculture.com/jesse-rieser
 
 ---
 ## Click the collections link above to preview collections.
