@@ -370,7 +370,7 @@ page_sections:
   text_alignment: ''
   text_tracking: ''
   font_weight: ''
-  meta_align: right
+  meta_align: center
 - template: block-media-row
   block: media-row
   row_alignment: between
@@ -388,6 +388,8 @@ page_sections:
   background_color: "#FF6A5A"
   text: |-
     “I’ve worked with tons of photographers that can’t make something great out of nothing. You made gold from a blank canvas. Thank you.” - _Devin Gillespie Creative Director, Wieden+Kennedy Portland_
+
+    "It’s no easy task to enter the world of contemporary art color photography, but you have successfully done so with your own unique voice.” - _Rob Schaefer Senior Acquisitions Editor, Princeton Architectural Press_
 
     “This shoot would have honestly never gotten off the ground if it wasn’t for everything you have done.”- _Kate Moore Senior Art Producer, Anomaly New York_
 
