@@ -43,6 +43,21 @@ caption = ""
 image = "https://jesserieser.brandlew.co/uploads/blog_retailfence-9.jpg"
 template = "block-media-element-static"
 width = "60"
+[[blog_builder]]
+block = "media-row-static"
+template = "block-media-row-static"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = "https://jesserieser.brandlew.co/uploads/blog_retailfence-2.jpg"
+template = "block-media-element-static"
+width = "50"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = "https://jesserieser.brandlew.co/uploads/blog_retailfence-3.jpg"
+template = "block-media-element-static"
+width = "50"
 [[blog_slider]]
 block = "media-element-url"
 image = "https://jesserieser.brandlew.co/uploads/blog_retailfence-1.jpg"
