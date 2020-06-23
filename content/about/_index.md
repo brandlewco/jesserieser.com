@@ -963,7 +963,7 @@ footer_links:
 - link_title: Working NotWorking
   link_url: https://workingnotworking.com/6282-jesse
 - link_title: Twitter
-  link_url: https://test.com
+  link_url: https://twitter.com/jesserieser
 - link_title: Behance
   link_url: https://test.com
 - link_title: LinkedIn
