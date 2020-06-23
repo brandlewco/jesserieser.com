@@ -2,7 +2,7 @@
 attached_collection = "collections/phoenix.md"
 blog_header = ""
 caption = "AP 35: American Photography Annual, Winner for Best Personal Work"
-content = "Honored to have two images from [**_Phoenix: A Dystopian Lego Land That Tastes Like Candy_**](https://jesserieser.com/projects/phoenix/) selected as one of the year’s best in the [**_American Photography AP 35 Annual_**](https://www.ai-ap.com/archive/AP/). Phoenix is a new personal works in progress consisting of colorful, constructed, fictional, and surreal suburban vignettes. \n\nCover by Adam Amengual and book design by Claudia de Almeida. Congrats to all the winners and thank you to the Judges:  \nJessica Dimson, _New York Times_  \nDustin Drankoski, Mashable  \nLea Golis, Apple  \nRosey Lakos, Godfrey Dadich  \nEve Lyons, _New York Times_  \nThea Traff, _Time Magazine_"
+content = "Honored to have two images from [**_Phoenix: A Dystopian Lego Land That Tastes Like Candy_**](https://jesserieser.com/projects/phoenix/) selected as one of the year’s best in the [**_American Photography AP 35 Annual_**](https://www.ai-ap.com/archive/AP/). Phoenix is a new personal project consisting of colorful, constructed, fictional, and surreal suburban vignettes. \n\nCover by Adam Amengual and book design by Claudia de Almeida. Congrats to all the winners and thank you to the Judges:  \nJessica Dimson, _New York Times_  \nDustin Drankoski, Mashable  \nLea Golis, Apple  \nRosey Lakos, Godfrey Dadich  \nEve Lyons, _New York Times_  \nThea Traff, _Time Magazine_"
 date = ""
 news_category = ["awards"]
 theme_color = "#B2E9D4"
