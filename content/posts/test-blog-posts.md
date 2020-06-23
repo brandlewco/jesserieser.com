@@ -1,35 +1,35 @@
 +++
 align_x = "start"
-attached_collection = "collections/starting-over.md"
+attached_collection = "collections/retail.md"
 blog_header = "https://jesserieser.brandlew.co/uploads/startingover-11.jpg"
-caption = "sub title of blog"
-content = "**Lorem ipsum** dolor sit amet, consectetur adipiscing elit. Suspendisse at ante sodales, molestie est id, viverra felis. Donec vehicula lectus at pulvinar commodo. Nam sed nisi congue, iaculis nisl id, rhoncus dolor. Maecenas scelerisque augue in dui cursus, vel tincidunt odio ultricies. Mauris eget ante ex. Curabitur scelerisque quis leo id dapibus. Nullam in mi placerat, tempus sapien id, feugiat arcu. okay.\n\nMorbi eget nibh vel ligula dignissim iaculis. Vestibulum ac venenatis tortor. Aliquam consequat massa dolor, sed egestas est lacinia in. Suspendisse et vestibulum ligula. Sed lobortis, erat sit amet euismod ultrices, tortor nunc imperdiet ipsum, eget consectetur lectus tortor sit amet lacus. Suspendisse gravida risus quam, non blandit augue tristique sit amet. Aenean ut ipsum sodales, fringilla felis sit amet, tincidunt nibh. Suspendisse semper libero sapien, ut venenatis sapien [**_eleifend a._**](https://jesserieser.brandlew.co/collections/starting-over/)"
+caption = "Featured on Washington Post and Business Insider"
+content = "For the kickoff of the holiday spending season, I talk The Changing Landscape of American Retail to The Washington Post. Click [**here**](https://www.washingtonpost.com/photography/2019/11/22/photographing-retail-apocalypse/) to read in full and images bellow from an expanded edit and outtakes for a [**_Business Insider_**](https://www.businessinsider.com/retail-apocalypse-american-landscape-jesse-rieser-photos-2018-12#growing-up-in-the-80s-and-the-90s-theres-a-big-part-of-the-american-experience-as-a-young-person-in-mall-culture-rieser-said-5) feature.\n\nThe Washington Post feature Edited by Karly Domb Sadof and design by Clare Ramirez.  \nBusiness Insider feature edited and interview conducted by Katie Canales"
 date = 2020-01-14T07:00:00Z
 margin_x = "5%"
 margin_y = "50"
 news_category = ["press"]
 theme_color = "#B5CFA8"
-title = "Starting Over"
+title = "The Changing Landscape of America Retail "
 width = "10"
 [[blog_builder]]
 block = "media-element-static"
 caption = ""
-image = "https://jesserieser.brandlew.co/uploads/startingover-3.jpg"
+image = "https://jesserieser.brandlew.co/uploads/blog_waporetail-3.jpg"
 template = "block-media-element-static"
-width = "40"
+width = "50"
 [[blog_builder]]
 block = "media-element-static"
 caption = ""
-image = "https://jesserieser.brandlew.co/uploads/startingover-4.jpg"
+image = "https://jesserieser.brandlew.co/uploads/blog_waporetail-4.jpg"
 template = "block-media-element-static"
-width = "60"
+width = "50"
 [[blog_builder]]
 block = "media-row-static"
 template = "block-media-row-static"
 [[blog_builder]]
 block = "media-element-static"
 caption = ""
-image = "https://jesserieser.brandlew.co/uploads/startingover-5.jpg"
+image = "https://jesserieser.brandlew.co/uploads/blog_waporetail-5.jpg"
 template = "block-media-element-static"
 width = "100"
 [[blog_builder]]
@@ -38,32 +38,82 @@ template = "block-media-row-static"
 [[blog_builder]]
 block = "media-element-static"
 caption = ""
-image = "https://jesserieser.brandlew.co/uploads/startingover-2.jpg"
+image = "https://jesserieser.brandlew.co/uploads/blog_waporetail-6.jpg"
 template = "block-media-element-static"
 width = "33"
 [[blog_builder]]
 block = "media-element-static"
 caption = ""
-image = "https://jesserieser.brandlew.co/uploads/startingover-19.jpg"
+image = "https://jesserieser.brandlew.co/uploads/blog_waporetail-7.jpg"
 template = "block-media-element-static"
 width = "33"
 [[blog_builder]]
 block = "media-element-static"
 caption = ""
-image = "https://jesserieser.brandlew.co/uploads/startingover-18.jpg"
+image = "https://jesserieser.brandlew.co/uploads/blog_waporetail-8.jpg"
 template = "block-media-element-static"
 width = "33"
-[[blog_slider]]
-block = "media-motion-id"
-template = "block-media-motion-id"
-vimeo_id = 414925506
+[[blog_builder]]
+block = "media-row-static"
+template = "block-media-row-static"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = "https://jesserieser.brandlew.co/uploads/blog_waporetail-10.jpg"
+template = "block-media-element-static"
+width = "50"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = "https://jesserieser.brandlew.co/uploads/blog_waporetail-11.jpg"
+template = "block-media-element-static"
+width = "50"
+[[blog_builder]]
+block = "media-row-static"
+template = "block-media-row-static"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = "https://jesserieser.brandlew.co/uploads/blog_waporetail-9.jpg"
+template = "block-media-element-static"
+width = "40"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = "https://jesserieser.brandlew.co/uploads/blog_waporetail-12.jpg"
+template = "block-media-element-static"
+width = "60"
+[[blog_builder]]
+block = "media-row-static"
+template = "block-media-row-static"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = "https://jesserieser.brandlew.co/uploads/blog_waporetail-13.jpg"
+template = "block-media-element-static"
+width = "50"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = "https://jesserieser.brandlew.co/uploads/blog_waporetail-15.jpg"
+template = "block-media-element-static"
+width = "50"
+[[blog_builder]]
+block = "media-row-static"
+template = "block-media-row-static"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = "https://jesserieser.brandlew.co/uploads/blog_waporetail-14.jpg"
+template = "block-media-element-static"
+width = "50"
 [[blog_slider]]
 block = "media-element-url"
-image = "https://jesserieser.brandlew.co/uploads/startingover-11.jpg"
+image = "https://jesserieser.brandlew.co/uploads/blog_waporetail-1.jpg"
 template = "block-media-element-url"
 [[blog_slider]]
 block = "media-element-url"
-image = "https://jesserieser.brandlew.co/uploads/startingover-5.jpg"
+image = "https://jesserieser.brandlew.co/uploads/blog_waporetail-2.jpg"
 template = "block-media-element-url"
 
 +++
