@@ -108,7 +108,7 @@ html.is-animating .transition-nav {
 } */
 
 #navigation {
-  transition: 0.33s transform ease-in-out, 0.33s opacity ease-in-out 0.33s;
+  transition: 0.33s transform ease-in-out, 0.33s opacity ease-in-out 0.15s, 0.66s height ease-in-out;
   /* height: 68px !important; */
   /* z-index: 999; */
   .navigation-container {
