@@ -199,6 +199,7 @@ page_sections:
   text_tracking: ''
   font_weight: ''
   meta_align: ''
+  modal_color: ''
 - template: block-modal-list
   block: modal-list
   width: '40'
@@ -371,6 +372,7 @@ page_sections:
   text_tracking: ''
   font_weight: ''
   meta_align: center
+  modal_color: ''
 - template: block-media-row
   block: media-row
   row_alignment: between
@@ -735,11 +737,12 @@ page_sections:
   text_tracking: ''
   font_weight: normal
   meta_align: ''
+  modal_color: ''
 - template: block-modal-list
   block: modal-list
   width: '40'
   align_y: start
-  margin_y: '500'
+  margin_y: '700'
   margin_left: 0%
   margin_right: 0%
   title_margin_left: "-20%"
@@ -917,6 +920,7 @@ page_sections:
   text_tracking: ''
   font_weight: ''
   meta_align: ''
+  modal_color: ''
 header_col_1_title: |-
   Advertising & Editorial
 
@@ -943,7 +947,7 @@ collection_cover_mobile: https://jesserieser.brandlew.co/uploads/bio_final-5.jpg
 about_bio: |-
   **Bio**
 
-  Jesse was born in the Ozarks--an 80’s kid with a Midwestern upbringing in Springfield, Missouri. At Arizona State University he majored in photography and art history while attending the Herberger Institute of Art and Design. His world has been shaped by his artistic parents: a mother who is a painter and educator and a father who draws and paints; they exposed him to the colorful pop art movement of the 50s, American photo realism of the 70s; and the use of light to celebrate the subjects in the Dutch Baroque, and Renaissance periods- all major influences in his aesthetic.
+  Jesse was born in the Ozarks--an 80s kid with a Midwestern upbringing in Springfield, Missouri. At Arizona State University he majored in photography and art history while attending the Herberger Institute of Art and Design. His world has been shaped by his artistic parents: a mother who is a painter and educator and a father who draws and paints; they exposed him to the colorful pop art movement of the 50s, American photo realism of the 70s; and the use of light to celebrate the subjects in the Dutch Baroque, and Renaissance periods- all major influences in his aesthetic.
 
   For the past decade Jesse has carefully constructed a photographic world built on the foundation of celebrating the mundane and humorous elements that often go overlooked in our day-to-day American experience. His use of light and bleached color, leaves the viewer with the illusion that our existence is equally beautiful as it is fleeting. In this world you will find one-time paradisal places and memories framed by our modern anxieties about the past, present, and future--examining our rituals and the artifacts left behind. If these earlier works were more documentary in nature, his latest work _Phoenix A Dystopian Lego Land_ blurs the lines of fact and fiction--the real dancing joyfully with the surreal and constructed.
 
