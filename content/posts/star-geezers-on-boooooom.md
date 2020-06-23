@@ -4,13 +4,19 @@ blog_header = "https://jesserieser.brandlew.co/uploads/stargeezers-1.jpg"
 caption = "Interviews and Features on BOOOOOOM and Fisheye Magazine (France)"
 content = "Test test "
 date = ""
-news_category = ["press", "press"]
+news_category = ["press"]
 theme_color = "#BFFFBD"
 title = "The Star Geezers "
 [[blog_builder]]
 block = "media-element-static"
 caption = ""
-image = "https://jesserieser.brandlew.co/uploads/stargeezers-3.jpg"
+image = "https://jesserieser.brandlew.co/uploads/blog_skygeezer-3.jpg"
+template = "block-media-element-static"
+width = "50"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = "https://jesserieser.brandlew.co/uploads/stargeezers-2.jpg"
 template = "block-media-element-static"
 width = "50"
 [[blog_builder]]
@@ -19,7 +25,73 @@ template = "block-media-row-static"
 [[blog_builder]]
 block = "media-element-static"
 caption = ""
-image = "https://jesserieser.brandlew.co/uploads/stargeezers-2.jpg"
+image = "https://jesserieser.brandlew.co/uploads/blog_skygeezer-5.jpg"
+template = "block-media-element-static"
+width = "66"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = ""
+template = "block-media-element-static"
+width = "50"
+[[blog_builder]]
+block = "media-row-static"
+template = "block-media-row-static"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = ""
+template = "block-media-element-static"
+width = "50"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = ""
+template = "block-media-element-static"
+width = "50"
+[[blog_builder]]
+block = "media-row-static"
+template = "block-media-row-static"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = ""
+template = "block-media-element-static"
+width = "50"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = ""
+template = "block-media-element-static"
+width = "50"
+[[blog_builder]]
+block = "media-row-static"
+template = "block-media-row-static"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = ""
+template = "block-media-element-static"
+width = "50"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = ""
+template = "block-media-element-static"
+width = "50"
+[[blog_builder]]
+block = "media-row-static"
+template = "block-media-row-static"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = ""
+template = "block-media-element-static"
+width = "50"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = ""
 template = "block-media-element-static"
 width = "50"
 [[blog_slider]]
