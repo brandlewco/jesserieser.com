@@ -961,7 +961,7 @@ footer_links:
 - link_title: The One Club Young Guns
   link_url: https://www.oneclub.org/awards/youngguns/9/-bio/yg9-2545-jesse-rieser
 - link_title: Working NotWorking
-  link_url: https://test.com
+  link_url: https://workingnotworking.com/6282-jesse
 - link_title: Twitter
   link_url: https://test.com
 - link_title: Behance
