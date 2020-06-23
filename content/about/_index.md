@@ -830,99 +830,80 @@ page_sections:
     icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__lilly.png
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-    icon: ''
+    content: "**MC Saatchi**"
+    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__m-saatchi.png
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-    icon: ''
+    content: "**McCann**"
+    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__mccann.png
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-    icon: ''
+    content: "**MGM**"
+    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__mgm.png
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-    icon: ''
+    content: "**Mullen Lowe**"
+    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__mullenlowe.png
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-    icon: ''
+    content: "**NBA**"
+    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__nba.png
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-    icon: ''
+    content: "**NFL**"
+    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__nfl.png
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-    icon: ''
+    content: "**Outside**"
+    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__outside.png
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-    icon: ''
+    content: "**P&G**"
+    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__p-g.png
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-    icon: ''
+    content: "**Publicis**"
+    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__publicis.png
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-    icon: ''
+    content: "**Smart Water**"
+    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__smartwater.png
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-    icon: ''
+    content: "**This American Life**"
+    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__thisamerican.png
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-    icon: ''
+    content: "**Time**"
+    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__time.png
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-    icon: ''
+    content: "**United Airlines**"
+    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__united.png
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-    icon: ''
+    content: "**Visa**"
+    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__visa.png
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-    icon: ''
+    content: "**WSJ**"
+    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__wallstreet.png
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-    icon: ''
+    content: "**Warner Bros**"
+    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__warnerbrothers.png
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-    icon: ''
+    content: "**WaPo**"
+    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__washingtonpost.png
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-    icon: ''
+    content: "**WK**"
+    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__wiedenkennedy.png
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-    icon: ''
+    content: "**Wired**"
+    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__wired.png
     url: ''
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
