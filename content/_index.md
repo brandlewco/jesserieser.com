@@ -418,7 +418,7 @@ page_sections:
   margin_y: '50'
   margin_left: 0%
   margin_right: 0%
-  title: dgh
+  title: Xmas Roundup
   color: "#C5C458"
 - template: block-modal-blog
   block: modal-blog
