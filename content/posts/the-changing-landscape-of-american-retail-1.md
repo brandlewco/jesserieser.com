@@ -2,7 +2,7 @@
 attached_collection = "collections/retail.md"
 blog_header = ""
 caption = "The Fence at The Griffin Museum of Photography"
-content = ""
+content = "test"
 date = ""
 news_category = []
 theme_color = "#BDF2F3"
