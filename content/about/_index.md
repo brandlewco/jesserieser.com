@@ -739,10 +739,10 @@ page_sections:
   block: modal-list
   width: '40'
   align_y: start
-  margin_y: '400'
+  margin_y: '500'
   margin_left: 0%
   margin_right: 0%
-  title_margin_left: "-15%"
+  title_margin_left: "-20%"
   title_margin_right: 0%
   title: Clients
   color: "#9DC2BE"
@@ -909,9 +909,9 @@ page_sections:
     url: ''
   image: https://jesserieser.brandlew.co/uploads/bio_final-13.jpg
   meta: ''
-  title_margin_y: ''
+  title_margin_y: 10%
   text_color: ''
-  text_size: ''
+  text_size: 7xl
   line_height: ''
   text_alignment: ''
   text_tracking: ''
