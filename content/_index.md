@@ -432,7 +432,7 @@ page_sections:
   color: "#F0B7B7"
 - template: block-modal-blog
   block: modal-blog
-  attached_blog: posts/test-blog-posts.md
+  attached_blog: posts/the-changing-landscape-of-american-retail-1.md
   width: '33'
   align_y: start
   margin_y: '50'
