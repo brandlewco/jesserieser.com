@@ -21,6 +21,12 @@ fields:
   config:
     required: false
   label: Meta
+- name: color
+  type: color
+  label: Block Color
+  config:
+    required: false
+    color_format: Hex
 - type: select
   name: width
   config:
