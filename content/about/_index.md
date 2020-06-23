@@ -133,8 +133,8 @@ page_sections:
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2013**_  \nChaos Theory 13_  \n_A New American Folklore_  \nLegend
-      City Gallery. Phoenix, AZ (Group Show)"
+    content: "**2013**  \nChaos Theory 13  \n_A New American Folklore_  \nLegend City
+      Gallery. Phoenix, AZ (Group Show)"
     icon: ''
     url: ''
   - template: popup-text-element
