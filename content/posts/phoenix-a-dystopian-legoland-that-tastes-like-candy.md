@@ -12,5 +12,17 @@ title = "Phoenix A Dystopian Legoland That Tastes Like Candy"
 block = "media-element-url"
 image = "https://jesserieser.brandlew.co/uploads/blog_phoenixap-1.jpg"
 template = "block-media-element-url"
+[[blog_slider]]
+block = "media-element-url"
+image = "https://jesserieser.brandlew.co/uploads/blog_phoenixap-2.jpg"
+template = "block-media-element-url"
+[[blog_slider]]
+block = "media-element-url"
+image = ""
+template = "block-media-element-url"
+[[blog_slider]]
+block = "media-element-url"
+image = ""
+template = "block-media-element-url"
 
 +++
