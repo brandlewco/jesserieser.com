@@ -6,6 +6,7 @@ collection_content = ""
 collection_cover = "https://jesserieser.brandlew.co/uploads/rieser_phx-HI-4.jpg"
 collection_cover_mobile = "https://jesserieser.brandlew.co/uploads/verticalcovers-1.jpg"
 collection_description = "A selection of images from my new works consisting of colorful, constructed, fictional, and surreal suburban vignettes. Recognized as a 2-time winner in the **_AP 35: American Photography Annual 2019 _**and featured in _LoDown Magazine_ (Germany)."
+collection_description_alignment = "center"
 collection_filter = "Personal"
 collection_hidden = false
 collection_meta = "2018 - 2019"
