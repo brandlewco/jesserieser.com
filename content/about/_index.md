@@ -958,8 +958,8 @@ footer_links:
   link_url: https://www.facebook.com/jesse.rieser
 - link_title: Tumblr
   link_url: https://test.com
-- link_title: ADC Young Guns
-  link_url: https://test.com
+- link_title: The One Club Young Guns
+  link_url: https://www.oneclub.org/awards/youngguns/9/-bio/yg9-2545-jesse-rieser
 - link_title: Working NotWorking
   link_url: https://test.com
 - link_title: Twitter
