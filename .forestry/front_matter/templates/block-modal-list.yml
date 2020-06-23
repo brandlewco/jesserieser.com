@@ -27,6 +27,12 @@ fields:
   config:
     required: false
     color_format: Hex
+- name: modal_color
+  type: color
+  label: Popup Color
+  config:
+    required: false
+    color_format: Hex
 - type: select
   name: width
   config:
