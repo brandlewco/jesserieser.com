@@ -951,7 +951,7 @@ about_bio: |-
 about_bio_image: https://jesserieser.brandlew.co/uploads/bio_final-3.jpg
 footer_links:
 - link_title: Instagram
-  link_url: https://test.com
+  link_url: https://www.instagram.com/jesserieser/
 - link_title: Facebook
   link_url: https://test.com
 - link_title: Tumblr
