@@ -826,9 +826,8 @@ page_sections:
     icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__inc.png
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-    icon: ''
+    content: "**Elli Lilly**"
+    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__lilly.png
     url: ''
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
