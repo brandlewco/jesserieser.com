@@ -967,7 +967,7 @@ footer_links:
 - link_title: Behance
   link_url: https://www.behance.net/jesserieser
 - link_title: LinkedIn
-  link_url: https://test.com
+  link_url: https://www.linkedin.com/in/jesserieser
 - link_title: Art Photo Index
   link_url: https://test.com
 - link_title: LensCulture
