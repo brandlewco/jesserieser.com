@@ -328,6 +328,8 @@ function init() {
         gallery.listen("beforeChange", function() {
           var activeSlide = document.getElementsByClassName("active-slide");
           var activeWrapper = document.getElementsByClassName("active-wrapper");
+          var activeBefore = document.querySelectorAll(".active-before");
+          var activeAfter = document.querySelectorAll(".active-after");
           function removeActiveSlide() {
             while (activeSlide[0]) {
               activeSlide[0].classList.remove("active-slide");
@@ -344,6 +346,8 @@ function init() {
           var currentItemParent = gallery.currItem.container.parentNode;
           currentItem.classList.add("active-slide");
           currentItemParent.classList.add("active-wrapper");
+          // currentItemParent.previousElementSibling.classList.add("active-before");
+          // currentItemParent.nextElementSibling.classList.add("active-after");
           Element.prototype.documentOffsetTop = function() {
             return this.offsetTop + (this.offsetParent ? this.offsetParent.documentOffsetTop() : 0);
           };
