@@ -391,6 +391,10 @@ figure:hover img {
   opacity: 1;
 }
 
+.block-hover h1, .block-hover h2 {
+  transition: 0.33s opacity ease-in-out;
+}
+
 figcaption p {
   @apply mb-4;
 }
@@ -401,6 +405,18 @@ figcaption p {
   }
 
   .figure.dimmed:hover img {
+    opacity: 1 !important;
+  }
+
+  .figure.figure-blog.dimmed img, .figure.figure-blog.dimmed h1, .figure.figure-blog.dimmed h2 {
+    opacity: 0 !important;
+  }
+
+  .figure.figure-blog.dimmed:hover img {
+    opacity: 0 !important;
+  }
+
+  .figure.figure-blog.dimmed:hover h1, .figure.figure-blog.dimmed:hover h2 {
     opacity: 1 !important;
   }
 }
