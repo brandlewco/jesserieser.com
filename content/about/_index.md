@@ -953,7 +953,7 @@ footer_links:
 - link_title: Instagram
   link_url: https://www.instagram.com/jesserieser/
 - link_title: Facebook
-  link_url: https://test.com
+  link_url: https://www.facebook.com/jesse.rieser
 - link_title: Tumblr
   link_url: https://test.com
 - link_title: ADC Young Guns
