@@ -650,6 +650,24 @@ a.collection-next .arrow {
   display: inline-block;
 }
 
+/* .popup-trigger h1, .popup-trigger h2 {
+  opacity: 0;
+  transition: 0.33s opacity ease-in-out 0.15s;
+}
+
+.popup-trigger img.lazyloaded + h1, .popup-trigger img.lazyloaded + h1 + h2 {
+  opacity: 1;
+} */
+
+.popup-trigger img {
+  opacity: 1;
+  transition: 0.33s opacity ease-in-out;
+}
+
+.popup-trigger:hover img {
+  opacity: 0;
+}
+
 .popup-modal {
   will-change: opacity;
   opacity: 0;
