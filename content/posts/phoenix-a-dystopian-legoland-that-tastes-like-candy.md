@@ -12,7 +12,7 @@ block = "media-element-static"
 caption = ""
 image = "https://jesserieser.brandlew.co/uploads/blog_phoenixap-5.jpg"
 template = "block-media-element-static"
-width = "50"
+width = "33"
 [[blog_builder]]
 block = "media-element-static"
 caption = ""
