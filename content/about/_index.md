@@ -965,7 +965,7 @@ footer_links:
 - link_title: Twitter
   link_url: https://twitter.com/jesserieser
 - link_title: Behance
-  link_url: https://test.com
+  link_url: https://www.behance.net/jesserieser
 - link_title: LinkedIn
   link_url: https://test.com
 - link_title: Art Photo Index
