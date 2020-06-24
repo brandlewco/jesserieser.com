@@ -32,7 +32,7 @@ page_sections:
   align_y: start
   margin_y: '700'
   margin_left: 0%
-  margin_right: 10%
+  margin_right: 15%
   title: AP 35
   color: "#D8EBEE"
   block_aspect_ratio: 11x8.5
