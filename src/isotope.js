@@ -304,7 +304,7 @@ imagesLoaded(grid, function() {
     });
   });
 
-  const catButtons = document.querySelectorAll("#categories .button");
+  const catButtons = document.querySelectorAll(".button");
   catButtons.forEach((catFilter) => {
     catFilter.addEventListener("mouseenter", () => {
       var catDataFilter = catFilter.getAttribute("data-filter");
@@ -318,6 +318,7 @@ imagesLoaded(grid, function() {
         }
       });
     });
+
 
     catFilter.addEventListener("mouseleave", () => {
       const filterItems = document.querySelectorAll(".filter-item");
