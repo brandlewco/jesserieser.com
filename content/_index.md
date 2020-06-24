@@ -130,24 +130,24 @@ page_sections:
   block: media-feature
   width: '45'
   align_y: start
-  margin_y: '300'
+  margin_y: '400'
   margin_left: 0%
   margin_right: 25%
   title_margin_left: 25%
   title_margin_right: 0%
-  meta_align: left
+  meta_align: right
   image: https://jesserieser.brandlew.co/uploads/rieser_phx-HI-22.jpg
-  color: "#E1EBF2"
+  color: "#CBEEE5"
   title: 'Skeleton Party '
-  meta: Collection of Small Crews
+  meta: Portfolio Overview of Work Made with Skeleton Crews
   attached_collection: collections/skeleton-party.md
-  text_color: ''
-  text_size: ''
-  text_alignment: ''
-  text_tracking: ''
-  font_weight: ''
+  text_color: "#FFFFFF"
+  text_size: 7xl
+  text_alignment: center
+  text_tracking: normal
+  font_weight: normal
   line_height: ''
-  title_margin_y: ''
+  title_margin_y: 10%
 - template: block-media-row
   block: media-row
   row_alignment: ''
