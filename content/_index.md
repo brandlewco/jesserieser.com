@@ -68,7 +68,7 @@ page_sections:
   block: media-feature
   width: '30'
   align_x: end
-  margin_y: '500'
+  margin_y: '700'
   image: https://jesserieser.brandlew.co/uploads/stargeezers-1.jpg
   attached_collection: collections/star-geezers.md
   title: The Star Geezers
