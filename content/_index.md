@@ -430,28 +430,6 @@ page_sections:
   title: Xmas Roundup
   color: "#C5C458"
   block_aspect_ratio: 11x8.5
-- template: block-media-feature
-  block: media-feature
-  width: '40'
-  margin_y: '500'
-  margin_right: 10%
-  title_margin_left: "-30%"
-  title_margin_right: 0%
-  meta_align: left
-  title: ESPN Cowboy
-  image: https://jesserieser.brandlew.co/uploads/cowboy-4.jpg
-  meta: 'Donald Cerronne '
-  attached_collection: collections/espn-cowboy-cerronne.md
-  color: "#110101"
-  align_y: ''
-  margin_left: ''
-  text_color: ''
-  text_size: ''
-  text_alignment: ''
-  text_tracking: ''
-  font_weight: ''
-  line_height: ''
-  title_margin_y: ''
 home_theme_color: "#EDDDDE"
 collection_description: ''
 collection_content: ''
