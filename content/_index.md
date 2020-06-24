@@ -105,11 +105,11 @@ page_sections:
   title_margin_left: 5%
   title_margin_right: 0%
   meta_align: right
-  text_color: ''
+  text_color: "#060606"
   text_size: 6xl
   text_alignment: center
   text_tracking: normal
-  font_weight: normal
+  font_weight: semibold
   line_height: ''
   title_margin_y: 20%
 - template: block-media-row
