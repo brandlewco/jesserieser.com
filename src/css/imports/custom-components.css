@@ -12,6 +12,24 @@ html.is-changing #content {
   .translate-neg {
     transform: translateY(-200%);
   }
+  .ratio-9x16 {
+    padding-top: 177.77% !important;
+  }
+  .ratio-16x9 {
+    padding-top: 56.25% !important;
+  }
+  .ratio-4x3 {
+    padding-top: 75% !important;
+  }
+  .ratio-3x4 {
+    padding-top: 133% !important; 
+  }
+  .ratio-8-5x11 {
+    padding-top: 129.41% !important;
+  }
+  .ratio-11x8-5 {
+    padding-top: 77.27% !important;
+  }
 }
 
 @media (max-width: 768px) { 
