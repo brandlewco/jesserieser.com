@@ -11,7 +11,7 @@
     {{ end }}
   </figure>
   {{ if .Section.meta }}
-  <h6 class="w-full mb-0 ml-0 text-black uppercase tracking-widest {{with .Section.meta_align}}text-{{.}}{{end}}">{{ .Section.meta }}</h6>
+  <h6 class="w-full mb-0 ml-0 text-black tracking-widest {{with .Section.meta_align}}text-{{.}}{{end}}">{{ .Section.meta }}</h6>
   {{ end }}
   </button>
 </article>
@@ -21,7 +21,7 @@
     <path d="M254.7 8.1L247 .4 127.5 119.8 8.1.4.4 8.1l119.4 119.4L.4 247l7.7 7.7 119.4-119.5L247 254.7l7.7-7.7-119.5-119.5z" style="fill: #fff" class="arrow-down"/>
   </svg>
   <header class="fixed top-0 left-0 w-full flex flex-row justify-between pt-12 pb-4 px-4" style="{{with .Section.modal_color }}background: {{.}};{{else}} background-color: #ccc;{{end}}">
-    <div class="text-xl sm:text-2xl uppercase font-medium mx-12 sm:mx-40 pb-4 w-full border-white border-b-2 border-solid">{{ .Section.title }}</div>
+    <div class="text-xl sm:text-2xl  font-medium mx-12 sm:mx-40 pb-4 w-full border-white border-b-2 border-solid">{{ .Section.title }}</div>
   </header>
   <section class="flex flex-wrap mt-32 w-100 overflow-y-scroll scrollbar px-12 sm:px-40">
     {{- range .Section.modal_block -}}
