@@ -79,15 +79,15 @@ page_sections:
   margin_left: 10%
   margin_right: ''
   title_margin_left: "-30%"
-  title_margin_right: 90%
-  meta_align: ''
+  title_margin_right: 0%
+  meta_align: left
   text_color: ''
-  text_size: ''
+  text_size: 6xl
   text_alignment: ''
-  text_tracking: ''
-  font_weight: ''
-  line_height: ''
-  title_margin_y: 60%
+  text_tracking: normal
+  font_weight: normal
+  line_height: none
+  title_margin_y: 5%
 - template: block-media-feature
   block: media-feature
   width: '45'
