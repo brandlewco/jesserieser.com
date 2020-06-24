@@ -10,9 +10,9 @@ page_sections:
   margin_y: '100'
   margin_left: 10%
   margin_right: 0%
-  title_margin_left: 0%
+  title_margin_left: 5%
   title_margin_right: 0%
-  title_margin_y: 5%
+  title_margin_y: 0%
   meta_align: left
   attached_collection: collections/phoenix.md
   meta: 2018 - 2020
