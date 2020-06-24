@@ -1,6 +1,6 @@
 +++
 attached_collection = "collections/phoenix.md"
-block_aspect_ratio = "ratio-8-5x11"
+block_aspect_ratio = "ratio-11x8-5"
 blog_block_cover = "https://jesserieser.brandlew.co/uploads/blog_phoenixap-3b-cover.jpg"
 blog_header = ""
 caption = "AP 35: American Photography Annual, Winner for Best Personal Work"
