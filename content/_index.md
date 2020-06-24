@@ -216,26 +216,26 @@ page_sections:
   row_alignment: ''
 - template: block-media-feature
   block: media-feature
-  width: '30'
+  width: '45'
   align_y: start
-  margin_y: '300'
-  margin_left: 0%
-  margin_right: 30%
+  margin_y: '100'
+  margin_left: 20%
+  margin_right: 0%
   title_margin_left: 10%
   title_margin_right: 0%
   meta_align: left
   title: Amtrak the National
   image: https://jesserieser.brandlew.co/uploads/sunset-limited-28.jpg
   color: "#D7F3E6"
-  meta: ''
+  meta: Palm Springs to Yuma on the Sunset Limited
   attached_collection: collections/amtrak-the-national.md
   text_color: ''
-  text_size: ''
+  text_size: 6xl
   text_alignment: ''
   text_tracking: ''
   font_weight: ''
   line_height: ''
-  title_margin_y: ''
+  title_margin_y: 25%
 - template: block-media-row
   block: media-row
   row_alignment: ''
