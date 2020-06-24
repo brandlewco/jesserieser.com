@@ -329,26 +329,26 @@ page_sections:
   title_margin_y: 5%
 - template: block-media-feature
   block: media-feature
-  width: '45'
+  width: '50'
   align_y: start
   margin_y: '500'
   margin_left: 0%
-  margin_right: 5%
-  title_margin_left: "-20%"
-  title_margin_right: 55%
+  margin_right: 0%
+  title_margin_left: 5%
+  title_margin_right: 0%
   meta_align: left
   meta: 'Society Magazine (France) '
   attached_collection: collections/stalking-a-serial-killer.md
   image: https://jesserieser.brandlew.co/uploads/serial-6.jpg
-  title: Stalking A Serial Killer
+  title: "Stalking \n\na \n\nSerial Killer"
   color: "#C0D0E0"
   text_color: ''
-  text_size: ''
-  text_alignment: ''
-  text_tracking: ''
-  font_weight: ''
-  line_height: ''
-  title_margin_y: ''
+  text_size: 6xl
+  text_alignment: left
+  text_tracking: normal
+  font_weight: normal
+  line_height: none
+  title_margin_y: 15%
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -399,6 +399,34 @@ page_sections:
   font_weight: ''
   line_height: ''
   title_margin_y: ''
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/christmas-in-america-happy-birthday-jesus.md
+  width: '33'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  title: Xmas Roundup
+  color: "#C5C458"
+  block_aspect_ratio: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: between
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/phoenix-a-dystopian-legoland-that-tastes-like-candy.md
+  width: '33'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  title: AP 35
+  color: "#F0B7B7"
+  block_aspect_ratio: ''
 - template: block-media-feature
   block: media-feature
   width: '40'
@@ -421,34 +449,6 @@ page_sections:
   font_weight: ''
   line_height: ''
   title_margin_y: ''
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/christmas-in-america-happy-birthday-jesus.md
-  width: '33'
-  align_y: start
-  margin_y: '50'
-  margin_left: 0%
-  margin_right: 0%
-  title: Xmas Roundup
-  color: "#C5C458"
-  block_aspect_ratio: ''
-- template: block-media-row
-  block: media-row
-  row_alignment: between
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/phoenix-a-dystopian-legoland-that-tastes-like-candy.md
-  width: '33'
-  align_y: start
-  margin_y: '50'
-  margin_left: 0%
-  margin_right: 0%
-  title: AP 35
-  color: "#F0B7B7"
-  block_aspect_ratio: ''
 home_theme_color: "#EDDDDE"
 collection_description: ''
 collection_content: ''
