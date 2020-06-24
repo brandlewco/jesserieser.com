@@ -1,6 +1,6 @@
 +++
 attached_collection = "collections/wired.md"
-block_aspect_ratio = "11x8.5"
+block_aspect_ratio = "ratio-4x3"
 blog_block_cover = "https://jesserieser.brandlew.co/uploads/blog_apwired-1b-cover.jpg"
 blog_header = "https://jesserieser.brandlew.co/uploads/backpage-3.jpg"
 caption = "AP 36: American Photography Annual, Winner for Best Editorial Photography"
