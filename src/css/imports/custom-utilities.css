@@ -391,8 +391,9 @@ figure:hover img {
   opacity: 1;
 }
 
-.block-hover h1, .block-hover h2 {
-  transition: 0.33s opacity ease-in-out;
+.figure.figure-blog h1, .figure.figure-blog h2 {
+  opacity: 0;
+  transition: 0.33s opacity cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
 figcaption p {
