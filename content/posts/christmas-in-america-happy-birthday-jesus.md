@@ -11,13 +11,13 @@ title = "Christmas In America: Happy Birthday, Jesus "
 [[blog_builder]]
 block = "media-element-static"
 caption = ""
-image = "https://jesserieser.brandlew.co/uploads/blog_xmaspress-1.jpg"
+image = "https://jesserieser.brandlew.co/uploads/blog_xmaspress-24.jpg"
 template = "block-media-element-static"
 width = "45"
 [[blog_builder]]
 block = "media-element-static"
 caption = ""
-image = "https://jesserieser.brandlew.co/uploads/blog_xmaspress-2.jpg"
+image = "https://jesserieser.brandlew.co/uploads/blog_xmaspress-25.jpg"
 template = "block-media-element-static"
 width = "55"
 [[blog_builder]]
@@ -26,19 +26,19 @@ template = "block-media-row-static"
 [[blog_builder]]
 block = "media-element-static"
 caption = ""
-image = "https://jesserieser.brandlew.co/uploads/blog_xmaspress-3.jpg"
+image = "https://jesserieser.brandlew.co/uploads/blog_xmaspress-26.jpg"
 template = "block-media-element-static"
 width = "33"
 [[blog_builder]]
 block = "media-element-static"
 caption = ""
-image = "https://jesserieser.brandlew.co/uploads/blog_xmaspress-4.jpg"
+image = "https://jesserieser.brandlew.co/uploads/blog_xmaspress-27.jpg"
 template = "block-media-element-static"
 width = "33"
 [[blog_builder]]
 block = "media-element-static"
 caption = ""
-image = "https://jesserieser.brandlew.co/uploads/blog_xmaspress-5.jpg"
+image = "https://jesserieser.brandlew.co/uploads/blog_xmaspress-28.jpg"
 template = "block-media-element-static"
 width = "33"
 [[blog_builder]]
