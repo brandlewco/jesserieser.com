@@ -96,7 +96,7 @@ page_sections:
   image: https://jesserieser.brandlew.co/uploads/xmas-1.jpg
   attached_collection: collections/xmas-in-america.md
   title: Christmas in America
-  color: "#FF0000"
+  color: "#F0DADA"
   meta: Personal 2010 -  2019
   margin_x: ''
   align_y: ''
