@@ -221,7 +221,7 @@ page_sections:
   margin_y: '100'
   margin_left: 20%
   margin_right: 0%
-  title_margin_left: 10%
+  title_margin_left: 5%
   title_margin_right: 0%
   meta_align: left
   title: Amtrak the National
@@ -235,7 +235,7 @@ page_sections:
   text_tracking: ''
   font_weight: ''
   line_height: ''
-  title_margin_y: 25%
+  title_margin_y: 20%
 - template: block-media-row
   block: media-row
   row_alignment: ''
