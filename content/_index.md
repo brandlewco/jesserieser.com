@@ -10,24 +10,21 @@ page_sections:
   margin_y: '100'
   margin_left: 10%
   margin_right: 0%
-  title_margin_left: "-15%"
+  title_margin_left: 0%
   title_margin_right: 0%
-  title_margin_y: 15%
+  title_margin_y: 5%
   meta_align: left
   attached_collection: collections/phoenix.md
   meta: 2018 - 2020
   image: https://jesserieser.brandlew.co/uploads/rieser_phx-HI-2.jpg
-  color: "#A0E1DD"
-  text_size: 6xl
+  color: "#D0F4F2"
+  text_size: 7xl
   font_weight: bold
-  text_tracking: tighter
+  text_tracking: normal
   text_alignment: left
-  line_height: relaxed
-  title: |-
-    <p style="text-align: left;">Phoenix: A Dystopian Legoland</p>
-
-    <p style="text-align: right;">That Tastes Like Candy</p>
-  text_color: "#FF0000"
+  line_height: tight
+  title: "Phoenix: \n\nA Dystopian Legoland\n\nThat Tastes Like Candy"
+  text_color: "#000000"
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/wired-the-internet-giant-that-went-too-far.md
