@@ -425,7 +425,7 @@ page_sections:
   width: '30'
   align_y: start
   margin_y: '100'
-  margin_left: 30%
+  margin_left: 35%
   margin_right: 0%
   title: Xmas Roundup
   color: "#C5C458"
