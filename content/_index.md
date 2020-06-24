@@ -352,6 +352,20 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: ''
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/phoenix-a-dystopian-legoland-that-tastes-like-candy.md
+  width: '33'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  title: AP 35
+  color: "#F0B7B7"
+  block_aspect_ratio: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: between
 - template: block-media-feature
   block: media-feature
   width: '50'
@@ -413,20 +427,6 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: ''
-- template: block-media-row
-  block: media-row
-  row_alignment: between
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/phoenix-a-dystopian-legoland-that-tastes-like-candy.md
-  width: '33'
-  align_y: start
-  margin_y: '50'
-  margin_left: 0%
-  margin_right: 0%
-  title: AP 35
-  color: "#F0B7B7"
-  block_aspect_ratio: ''
 - template: block-media-feature
   block: media-feature
   width: '40'
