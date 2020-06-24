@@ -126,16 +126,13 @@ page_sections:
   title: 'The Fence '
   color: "#EED2D2"
   block_aspect_ratio: ''
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
 - template: block-media-feature
   block: media-feature
   width: '45'
   align_y: start
-  margin_y: '100'
-  margin_left: 25%
-  margin_right: 0%
+  margin_y: '300'
+  margin_left: 0%
+  margin_right: 25%
   title_margin_left: 25%
   title_margin_right: 0%
   meta_align: left
@@ -151,6 +148,9 @@ page_sections:
   font_weight: ''
   line_height: ''
   title_margin_y: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
