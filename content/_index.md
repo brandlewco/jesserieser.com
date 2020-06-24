@@ -317,16 +317,16 @@ page_sections:
   align_y: ''
   margin_left: 15%
   margin_right: ''
-  title_margin_left: 60%
+  title_margin_left: 35%
   title_margin_right: ''
-  meta_align: ''
+  meta_align: left
   text_color: ''
-  text_size: ''
-  text_alignment: ''
-  text_tracking: ''
-  font_weight: ''
-  line_height: ''
-  title_margin_y: ''
+  text_size: 6xl
+  text_alignment: left
+  text_tracking: normal
+  font_weight: normal
+  line_height: none
+  title_margin_y: 5%
 - template: block-media-feature
   block: media-feature
   width: '45'
