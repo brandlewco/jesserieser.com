@@ -34,8 +34,8 @@ sections:
 - type: heading
   label: Help
 - type: document
-  path: README-FORESTRY.md
-  label: How To
+  path: README-DATA.md
+  label: Site Data
   read_only: true
 upload_dir: static/uploads
 public_path: https://jesserieser.brandlew.co/uploads
