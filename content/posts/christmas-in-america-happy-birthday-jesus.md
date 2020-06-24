@@ -92,7 +92,7 @@ image = "https://jesserieser.brandlew.co/uploads/blog_xmaspress-4.jpg"
 template = "block-media-element-url"
 [[blog_slider]]
 block = "media-element-url"
-image = "https://jesserieser.brandlew.co/uploads/blog_xmaspress-28.jpg"
+image = "https://jesserieser.brandlew.co/uploads/blog_xmaspress-5.jpg"
 template = "block-media-element-url"
 
 +++
