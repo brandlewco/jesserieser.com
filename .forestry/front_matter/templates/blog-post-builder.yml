@@ -63,6 +63,8 @@ fields:
     - ratio-16x9
     - ratio-3x4
     - ratio-4x3
+    - ratio-3x2
+    - ratio-2x3
     source:
       type: simple
       section: 
