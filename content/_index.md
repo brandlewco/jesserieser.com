@@ -368,26 +368,26 @@ page_sections:
   row_alignment: between
 - template: block-media-feature
   block: media-feature
-  width: '50'
+  width: '60'
   align_y: start
-  margin_y: '200'
+  margin_y: '100'
   margin_left: 20%
   margin_right: 0%
-  title_margin_left: 0%
+  title_margin_left: 50%
   title_margin_right: 0%
   meta_align: left
   attached_collection: collections/amtrak-southwest-chief.md
   image: https://jesserieser.brandlew.co/uploads/swchief-8.jpg
-  meta: The Southwest Chief
-  title: Amtrak The National
+  meta: On the Southwest Chief
+  title: Amtrak the National
   color: "#F5ECE3"
   text_color: ''
-  text_size: ''
-  text_alignment: ''
-  text_tracking: ''
-  font_weight: ''
-  line_height: ''
-  title_margin_y: ''
+  text_size: 6xl
+  text_alignment: left
+  text_tracking: normal
+  font_weight: normal
+  line_height: none
+  title_margin_y: 25%
 - template: block-media-row
   block: media-row
   row_alignment: ''
