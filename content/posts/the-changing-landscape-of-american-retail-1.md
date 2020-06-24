@@ -7,7 +7,7 @@ caption = "The Fence at The Griffin Museum of Photography, Winchester, MA"
 content = "[**_The Changing Landscape of American Retail_**](https://jesserieser.com/projects/changing-landscape-american-retail/) is currently on exhibit as part of the traveling exhibition [The Fence by Photoville](https://fence.photoville.com/host-cities/) at the [Griffin Museum of Photography](https://griffinmuseum.org/event/photoville-fence-winchester/) and the Winchester Cultural District until September 27, 2020. The outdoor installation is a safe exhibition experience during covid.\n\n2019 & 2020 Fence exhibitions:  \nBrooklyn Bridge Park. Brooklyn, NY.  \nSanta Fe Railyard Park. Santa Fe, NM.  \nLoDo District. Denver, CO.  \nAtlanta Beltline. Atlanta, GA.  \nCity Hall Plaza. Durham, NC.  \nWaterfront Seattle. Seattle, WA.  \nSoWa Southie Plaza. Boston, MA.  \nFourth Ward. Houston, TX.  \nNew Orleans, LA.   \nThe Metro (North Dakota, South Dakota, Minnesota)"
 date = ""
 news_category = ["exhibition"]
-theme_color = "#BDF2F3"
+theme_color = "#DDD9D8"
 title = "The Changing Landscape of American Retail "
 [[blog_builder]]
 block = "media-element-static"
