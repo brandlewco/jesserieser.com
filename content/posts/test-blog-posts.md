@@ -10,7 +10,7 @@ date = 2020-01-14T07:00:00Z
 margin_x = "5%"
 margin_y = "50"
 news_category = ["press"]
-theme_color = "#B5CFA8"
+theme_color = "#EEEBDC"
 title = "The Changing Landscape of America Retail "
 width = "10"
 [[blog_builder]]
