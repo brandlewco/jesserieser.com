@@ -251,12 +251,12 @@ page_sections:
   meta_align: left
   image: https://jesserieser.brandlew.co/uploads/autobiography-23.jpg
   color: "#FAE1D7"
-  title: Autobiography of a Contact Sport
+  title: "Autobiography \n\nof a \n\nContact Sport"
   meta: "2016"
   attached_collection: collections/autobiography.md
   text_color: "#FFFFFF"
   text_size: 6xl
-  text_alignment: center
+  text_alignment: left
   text_tracking: normal
   font_weight: normal
   line_height: none
