@@ -192,7 +192,7 @@ page_sections:
   margin_right: 5%
   title_margin_left: 65%
   title_margin_right: ''
-  meta_align: right
+  meta_align: left
   text_color: ''
   text_size: 6xl
   text_alignment: left
