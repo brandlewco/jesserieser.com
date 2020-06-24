@@ -243,24 +243,24 @@ page_sections:
   block: media-feature
   width: '50'
   align_y: start
-  margin_y: '200'
+  margin_y: '100'
   margin_left: 5%
   margin_right: 0%
-  title_margin_left: 0%
+  title_margin_left: 5%
   title_margin_right: 0%
   meta_align: left
   image: https://jesserieser.brandlew.co/uploads/autobiography-23.jpg
   color: "#FAE1D7"
   title: Autobiography of a Contact Sport
-  meta: ''
+  meta: "2016"
   attached_collection: collections/autobiography.md
-  text_color: ''
-  text_size: ''
+  text_color: "#FFFFFF"
+  text_size: 6xl
   text_alignment: center
-  text_tracking: ''
-  font_weight: ''
-  line_height: ''
-  title_margin_y: ''
+  text_tracking: normal
+  font_weight: normal
+  line_height: none
+  title_margin_y: 20%
 - template: block-media-row
   block: media-row
   row_alignment: between
