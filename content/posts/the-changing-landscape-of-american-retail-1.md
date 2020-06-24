@@ -1,6 +1,6 @@
 +++
 attached_collection = "collections/retail.md"
-block_aspect_ratio = "ratio-8-5:11"
+block_aspect_ratio = "ratio-8-5x11"
 blog_block_cover = "https://jesserieser.brandlew.co/uploads/blog_retailfence_blog-cover-1.jpg"
 blog_header = ""
 caption = "The Fence at The Griffin Museum of Photography, Winchester, MA"
