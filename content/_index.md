@@ -261,6 +261,20 @@ page_sections:
   font_weight: normal
   line_height: none
   title_margin_y: 20%
+- template: block-modal-blog
+  block: modal-blog
+  width: '20'
+  align_x: start
+  margin_x: '0'
+  margin_y: '200'
+  title: WaPo
+  image: ''
+  color: "#fde25e"
+  attached_blog: posts/test-blog-posts.md
+  align_y: ''
+  margin_left: 0%
+  margin_right: 10%
+  block_aspect_ratio: ''
 - template: block-media-row
   block: media-row
   row_alignment: between
@@ -420,20 +434,6 @@ page_sections:
   margin_right: 0%
   title: Xmas Roundup
   color: "#C5C458"
-  block_aspect_ratio: ''
-- template: block-modal-blog
-  block: modal-blog
-  width: '20'
-  align_x: start
-  margin_x: '0'
-  margin_y: "-200"
-  title: ''
-  image: ''
-  color: "#fde25e"
-  attached_blog: posts/test-blog-posts.md
-  align_y: ''
-  margin_left: 20%
-  margin_right: 0%
   block_aspect_ratio: ''
 - template: block-media-row
   block: media-row
