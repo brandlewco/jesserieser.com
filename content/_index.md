@@ -38,6 +38,7 @@ page_sections:
   margin_right: 15%
   title: AP 35
   color: "#D8EBEE"
+  block_aspect_ratio: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -204,6 +205,7 @@ page_sections:
   align_y: ''
   margin_left: 20%
   margin_right: 0%
+  block_aspect_ratio: ''
 - template: block-media-feature
   block: media-feature
   width: '30'
@@ -338,6 +340,7 @@ page_sections:
   margin_right: 0%
   title: Star Geezers on BOOOOOOM!
   color: "#FFE7C3"
+  block_aspect_ratio: ''
 - template: block-media-feature
   block: media-feature
   width: '50'
@@ -420,6 +423,10 @@ page_sections:
   margin_right: 0%
   title: Xmas Roundup
   color: "#C5C458"
+  block_aspect_ratio: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: between
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/phoenix-a-dystopian-legoland-that-tastes-like-candy.md
@@ -430,6 +437,10 @@ page_sections:
   margin_right: 0%
   title: AP 35
   color: "#F0B7B7"
+  block_aspect_ratio: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: between
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/the-changing-landscape-of-american-retail-1.md
@@ -440,6 +451,7 @@ page_sections:
   margin_right: 0%
   title: 'The Fence '
   color: "#EED2D2"
+  block_aspect_ratio: ''
 home_theme_color: "#EDDDDE"
 collection_description: ''
 collection_content: ''
