@@ -228,7 +228,7 @@ page_sections:
   image: https://jesserieser.brandlew.co/uploads/sunset-limited-28.jpg
   color: "#D7F3E6"
   meta: Palm Springs to Yuma on the Sunset Limited
-  attached_collection: collections/amtrak-the-national.md
+  attached_collection: collections/amtrak-sunset-limited.md
   text_color: ''
   text_size: 6xl
   text_alignment: ''
