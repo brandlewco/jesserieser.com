@@ -24,7 +24,7 @@ page_sections:
   text_alignment: left
   line_height: none
   title: "Phoenix: \n\nA Dystopian Legoland\n\nThat Tastes Like Candy"
-  text_color: "#000000"
+  text_color: "#FFFFFF"
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/wired-the-internet-giant-that-went-too-far.md
