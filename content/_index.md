@@ -356,9 +356,9 @@ page_sections:
   block: media-feature
   width: '50'
   align_y: start
-  margin_y: '300'
-  margin_left: 0%
-  margin_right: 20%
+  margin_y: '200'
+  margin_left: 20%
+  margin_right: 0%
   title_margin_left: 0%
   title_margin_right: 0%
   meta_align: left
