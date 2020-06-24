@@ -1,6 +1,6 @@
 +++
 attached_collection = "collections/xmas-in-america.md"
-block_aspect_ratio = "ratio-11x8-5"
+block_aspect_ratio = "ratio-8-5x11"
 blog_block_cover = "https://jesserieser.brandlew.co/uploads/blog_xmaspress-24.jpg"
 blog_header = ""
 caption = "Holiday Season Feature and Interview Roundup "
