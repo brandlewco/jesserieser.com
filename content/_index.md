@@ -142,7 +142,7 @@ page_sections:
   meta: Portfolio Overview of Work Made with Skeleton Crews
   attached_collection: collections/skeleton-party.md
   text_color: "#FFFFFF"
-  text_size: 7xl
+  text_size: 6xl
   text_alignment: center
   text_tracking: normal
   font_weight: semibold
