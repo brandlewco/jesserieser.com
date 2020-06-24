@@ -273,33 +273,33 @@ page_sections:
   attached_blog: posts/test-blog-posts.md
   align_y: ''
   margin_left: 0%
-  margin_right: 10%
+  margin_right: 15%
   block_aspect_ratio: ''
 - template: block-media-row
   block: media-row
   row_alignment: between
 - template: block-media-feature
   block: media-feature
-  width: '33'
+  width: '40'
   align_y: ''
-  margin_y: '200'
+  margin_y: '100'
   margin_left: 35%
   margin_right: ''
-  title_margin_left: "-20%"
+  title_margin_left: 5%
   title_margin_right: ''
-  meta_align: left
+  meta_align: right
   image: https://jesserieser.brandlew.co/uploads/adicross-12.jpg
   color: "#D1D1D1"
   attached_collection: collections/adidas-golf.md
-  title: 'Adidas GOlf '
-  meta: ''
-  text_color: ''
-  text_size: ''
-  text_alignment: ''
-  text_tracking: ''
-  font_weight: ''
-  line_height: ''
-  title_margin_y: ''
+  title: Adidas Golf
+  meta: 'Adicross: Dustin Johnson, Xander Schaufelle, & Sergio Garcia '
+  text_color: "#FFFFFF"
+  text_size: 6xl
+  text_alignment: left
+  text_tracking: normal
+  font_weight: normal
+  line_height: none
+  title_margin_y: 20%
 - template: block-media-row
   block: media-row
   row_alignment: ''
