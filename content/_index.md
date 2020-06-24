@@ -471,11 +471,11 @@ selected_works_theme:
   image: https://jesserieser.brandlew.co/uploads/timeGC-5.jpg
   theme_color: "#EEDDDD"
 - template: selected-works-theme
-  image: https://jesserieser.brandlew.co/uploads/ieg-1.jpg
-  theme_color: "#E2EADE"
+  image: https://jesserieser.brandlew.co/uploads/swchief-8.jpg
+  theme_color: "#D7E6ED"
 - template: selected-works-theme
-  image: https://jesserieser.brandlew.co/uploads/xmas-34.jpg
-  theme_color: "#B1D9D2"
+  image: https://jesserieser.brandlew.co/uploads/xmas-6.jpg
+  theme_color: "#9DE3D9"
 
 ---
 ## Click the collections link above to preview collections.
