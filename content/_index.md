@@ -130,10 +130,10 @@ page_sections:
   block: media-feature
   width: '45'
   align_y: start
-  margin_y: '400'
+  margin_y: '300'
   margin_left: 0%
-  margin_right: 25%
-  title_margin_left: 20%
+  margin_right: 30%
+  title_margin_left: 60%
   title_margin_right: ''
   meta_align: left
   image: https://jesserieser.brandlew.co/uploads/rieser_phx-HI-22.jpg
@@ -145,9 +145,9 @@ page_sections:
   text_size: 6xl
   text_alignment: center
   text_tracking: normal
-  font_weight: semibold
+  font_weight: normal
   line_height: none
-  title_margin_y: 10%
+  title_margin_y: 15%
 - template: block-media-row
   block: media-row
   row_alignment: ''
