@@ -954,26 +954,26 @@ about_bio: |-
   Clients find him as a creative additive to the collaborative process not only with his technical expertise but also in the ideation phase. He feels his greatest currency is how he communicates and sees the world. Some call it empathy. Some call it charm. His mom just says he’s a nice young man.
 about_bio_image: https://jesserieser.brandlew.co/uploads/bio_final-3.jpg
 footer_links:
+- link_title: The Agents Club
+  link_url: https://theagents.club/jesse-rieser/
 - link_title: Instagram
   link_url: https://www.instagram.com/jesserieser/
-- link_title: Facebook
-  link_url: https://www.facebook.com/jesse.rieser
-- link_title: Tumblr
-  link_url: https://test.com
+- link_title: Behance
+  link_url: https://www.behance.net/jesserieser
+- link_title: LensCulture
+  link_url: https://www.lensculture.com/jesse-rieser
 - link_title: The One Club Young Guns
   link_url: https://www.oneclub.org/awards/youngguns/9/-bio/yg9-2545-jesse-rieser
 - link_title: Working NotWorking
   link_url: https://workingnotworking.com/6282-jesse
+- link_title: Facebook
+  link_url: https://www.facebook.com/jesse.rieser
 - link_title: Twitter
   link_url: https://twitter.com/jesserieser
-- link_title: Behance
-  link_url: https://www.behance.net/jesserieser
 - link_title: LinkedIn
   link_url: https://www.linkedin.com/in/jesserieser
 - link_title: Art Photo Index
   link_url: https://www.artphotoindex.com/api/#photographer/Jesse-Rieser/15804
-- link_title: LensCulture
-  link_url: https://www.lensculture.com/jesse-rieser
 
 ---
 ## Click the collections link above to preview collections.
