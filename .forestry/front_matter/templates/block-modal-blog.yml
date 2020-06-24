@@ -22,6 +22,24 @@ fields:
       file: 
       path: 
   label: Attached Blog
+- name: block_aspect_ratio
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - 8.5:11
+    - 11x8.5
+    - 9x16
+    - 16x9
+    - 4x3
+    - 3x4
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Block Aspect Ratio
 - name: title
   type: text
   config:
