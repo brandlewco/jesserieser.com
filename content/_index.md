@@ -393,26 +393,29 @@ page_sections:
   row_alignment: ''
 - template: block-media-feature
   block: media-feature
-  width: '30'
+  width: '33'
   align_y: start
-  margin_y: '100'
+  margin_y: '200'
   margin_left: 5%
   margin_right: 0%
   title_margin_left: 10%
   title_margin_right: 0%
   meta_align: left
   image: https://jesserieser.brandlew.co/uploads/_JR_8055.jpg
-  title: 'Outside Magazine '
+  title: |-
+    Outside
+
+    Magazine
   color: "#FFB4B4"
   attached_collection: collections/outside-magazine-rob-krar.md
   meta: Rob Krar Running in the Dark
   text_color: ''
-  text_size: ''
-  text_alignment: ''
-  text_tracking: ''
-  font_weight: ''
-  line_height: ''
-  title_margin_y: ''
+  text_size: 6xl
+  text_alignment: left
+  text_tracking: normal
+  font_weight: normal
+  line_height: none
+  title_margin_y: 20%
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/christmas-in-america-happy-birthday-jesus.md
