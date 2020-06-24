@@ -205,6 +205,17 @@ page_sections:
   row_alignment: ''
 - template: block-modal-blog
   block: modal-blog
+  attached_blog: posts/star-geezers-on-boooooom.md
+  width: '30'
+  align_y: start
+  margin_y: '100'
+  margin_left: 0%
+  margin_right: 0%
+  title: Star Geezers on BOOOOOOM!
+  color: "#FFE7C3"
+  block_aspect_ratio: ''
+- template: block-modal-blog
+  block: modal-blog
   width: '20'
   align_x: start
   margin_x: '0'
@@ -341,17 +352,6 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: ''
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/star-geezers-on-boooooom.md
-  width: '30'
-  align_y: start
-  margin_y: '100'
-  margin_left: 0%
-  margin_right: 0%
-  title: Star Geezers on BOOOOOOM!
-  color: "#FFE7C3"
-  block_aspect_ratio: ''
 - template: block-media-feature
   block: media-feature
   width: '50'
