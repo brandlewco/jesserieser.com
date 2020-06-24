@@ -78,8 +78,8 @@ page_sections:
   align_y: ''
   margin_left: 10%
   margin_right: ''
-  title_margin_left: 0%
-  title_margin_right: "-45%"
+  title_margin_left: ''
+  title_margin_right: "-80%"
   meta_align: left
   text_color: ''
   text_size: 4xl
