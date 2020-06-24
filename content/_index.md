@@ -78,12 +78,12 @@ page_sections:
   align_y: ''
   margin_left: 10%
   margin_right: ''
-  title_margin_left: ''
-  title_margin_right: "-80%"
+  title_margin_left: 70%
+  title_margin_right: ''
   meta_align: left
   text_color: ''
-  text_size: 4xl
-  text_alignment: center
+  text_size: 6xl
+  text_alignment: left
   text_tracking: normal
   font_weight: normal
   line_height: none
