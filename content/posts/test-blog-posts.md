@@ -1,7 +1,7 @@
 +++
 align_x = "start"
 attached_collection = "collections/retail.md"
-block_aspect_ratio = "ratio-9x16"
+block_aspect_ratio = "ratio-2x3"
 blog_block_cover = "https://jesserieser.brandlew.co/uploads/blog_waporetail-1b-cover.jpg"
 blog_header = "https://jesserieser.brandlew.co/uploads/startingover-11.jpg"
 caption = "Featured on Washington Post and Business Insider"
