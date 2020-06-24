@@ -206,27 +206,13 @@ page_sections:
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/star-geezers-on-boooooom.md
-  width: '30'
+  width: '33'
   align_y: start
   margin_y: '100'
-  margin_left: 0%
+  margin_left: 45%
   margin_right: 0%
   title: Star Geezers on BOOOOOOM!
   color: "#FFE7C3"
-  block_aspect_ratio: ''
-- template: block-modal-blog
-  block: modal-blog
-  width: '20'
-  align_x: start
-  margin_x: '0'
-  margin_y: "-200"
-  title: ''
-  image: ''
-  color: "#fde25e"
-  attached_blog: posts/test-blog-posts.md
-  align_y: ''
-  margin_left: 20%
-  margin_right: 0%
   block_aspect_ratio: ''
 - template: block-media-feature
   block: media-feature
@@ -434,6 +420,20 @@ page_sections:
   margin_right: 0%
   title: Xmas Roundup
   color: "#C5C458"
+  block_aspect_ratio: ''
+- template: block-modal-blog
+  block: modal-blog
+  width: '20'
+  align_x: start
+  margin_x: '0'
+  margin_y: "-200"
+  title: ''
+  image: ''
+  color: "#fde25e"
+  attached_blog: posts/test-blog-posts.md
+  align_y: ''
+  margin_left: 20%
+  margin_right: 0%
   block_aspect_ratio: ''
 - template: block-media-row
   block: media-row
