@@ -36,7 +36,6 @@ sections:
 - type: document
   path: README-DATA.md
   label: Site Data
-  match: "**/*"
   read_only: true
 upload_dir: static/uploads
 public_path: https://jesserieser.brandlew.co/uploads
