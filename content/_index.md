@@ -47,20 +47,20 @@ page_sections:
   margin_left: 20%
   margin_right: 0%
   title_margin_left: "-15%"
-  title_margin_right: 95%
+  title_margin_right: 0%
   meta_align: left
   image: https://jesserieser.brandlew.co/uploads/retail-cover-1.jpg
   color: "#F2ECDF"
   attached_collection: collections/retail.md
   meta: 2015 - 2018
   title: The Changing Landscape of American Retail
-  text_color: "#FF0000"
-  text_size: 6xl
-  text_alignment: ''
+  text_color: "#000000"
+  text_size: 7xl
+  text_alignment: left
   text_tracking: widest
-  font_weight: hairline
-  line_height: ''
-  title_margin_y: ''
+  font_weight: normal
+  line_height: tight
+  title_margin_y: 20%
 - template: block-media-row
   block: media-row
   row_alignment: ''
