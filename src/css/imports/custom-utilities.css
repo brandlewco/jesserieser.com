@@ -391,9 +391,22 @@ figure:hover img {
   opacity: 1;
 }
 
-.figure.figure-blog h1, .figure.figure-blog h2 {
+.figure.figure-blog-cover h1, .figure.figure-blog-cover h2 {
   opacity: 0;
   transition: 0.33s opacity cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.figure.figure-blog-text h1, .figure.figure-blog-text h2 {
+  opacity: 1;
+  transition: 0.33s opacity cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.figure.figure-blog-text.dimmed h1, .figure.figure-blog-text.dimmed h2 {
+  opacity: 0;
+}
+
+.figure.figure-blog-text.dimmed:hover h1, .figure.figure-blog-text.dimmed:hover h2 {
+  opacity: 1;
 }
 
 figcaption p {
@@ -409,15 +422,15 @@ figcaption p {
     opacity: 1 !important;
   }
 
-  .figure.figure-blog.dimmed img, .figure.figure-blog.dimmed h1, .figure.figure-blog.dimmed h2 {
+  .figure.figure-blog-cover.dimmed img, .figure.figure-blog-cover.dimmed h1 {
     opacity: 0 !important;
   }
 
-  .figure.figure-blog.dimmed:hover img {
+  .figure.figure-blog-cover.dimmed:hover img {
     opacity: 0 !important;
   }
 
-  .figure.figure-blog.dimmed:hover h1, .figure.figure-blog.dimmed:hover h2 {
+  .figure.figure-blog-cover.dimmed:hover h1, .figure.figure-blog-cover.dimmed:hover h2 {
     opacity: 1 !important;
   }
 }
