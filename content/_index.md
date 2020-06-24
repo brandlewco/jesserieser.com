@@ -161,7 +161,7 @@ page_sections:
   margin_y: '100'
   margin_left: 15%
   margin_right: 0%
-  title_margin_left: 0%
+  title_margin_left: 5%
   title_margin_right: 0%
   meta_align: left
   image: https://jesserieser.brandlew.co/uploads/bitmain-19.jpg
@@ -169,13 +169,13 @@ page_sections:
   color: "#FFE087"
   meta: 'The Hard Luck Texas Town That Bet on Bitcoin and Lost '
   attached_collection: collections/wired-bitmain.md
-  text_color: ''
-  text_size: ''
-  text_alignment: ''
-  text_tracking: ''
-  font_weight: ''
+  text_color: "#FFFFFF"
+  text_size: 7xl
+  text_alignment: left
+  text_tracking: normal
+  font_weight: normal
   line_height: ''
-  title_margin_y: ''
+  title_margin_y: 10%
 - template: block-media-feature
   block: media-feature
   width: '30'
