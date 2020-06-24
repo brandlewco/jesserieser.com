@@ -393,12 +393,12 @@ page_sections:
   row_alignment: ''
 - template: block-media-feature
   block: media-feature
-  width: '33'
+  width: '40'
   align_y: start
   margin_y: '100'
   margin_left: 5%
   margin_right: 0%
-  title_margin_left: 10%
+  title_margin_left: 5%
   title_margin_right: 0%
   meta_align: left
   image: https://jesserieser.brandlew.co/uploads/_JR_8055.jpg
@@ -416,6 +416,9 @@ page_sections:
   font_weight: normal
   line_height: none
   title_margin_y: 20%
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/christmas-in-america-happy-birthday-jesus.md
@@ -427,9 +430,6 @@ page_sections:
   title: Xmas Roundup
   color: "#C5C458"
   block_aspect_ratio: ''
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
 - template: block-media-feature
   block: media-feature
   width: '40'
