@@ -393,7 +393,7 @@ page_sections:
 
     "It’s no easy task to enter the world of contemporary art color photography, but you have successfully done so with your own unique voice.” - _Rob Schaefer Senior Acquisitions Editor, Princeton Architectural Press_
 
-    ““This shoot wouldn't have been such a success without your attention to detail, hands-on approach, and upfront leg work. Thank you!”- _Kate Moore Senior Art Producer, Anomaly New York_
+    “This shoot wouldn't have been such a success without your attention to detail, hands-on approach, and upfront leg work. Thank you!”- _Kate Moore Senior Art Producer, Anomaly New York_
 
     “You are incapable of taking a normal picture.” - _Jen Lamping Lead Print Producer RPA Los Angeles_
   parallax: true
