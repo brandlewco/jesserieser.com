@@ -12,17 +12,17 @@ page_sections:
   margin_right: 0%
   title_margin_left: 5%
   title_margin_right: 0%
-  title_margin_y: 0%
+  title_margin_y: 10%
   meta_align: left
   attached_collection: collections/phoenix.md
   meta: 2018 - 2020
   image: https://jesserieser.brandlew.co/uploads/rieser_phx-HI-2.jpg
   color: "#D0F4F2"
   text_size: 7xl
-  font_weight: bold
+  font_weight: normal
   text_tracking: normal
   text_alignment: left
-  line_height: tight
+  line_height: none
   title: "Phoenix: \n\nA Dystopian Legoland\n\nThat Tastes Like Candy"
   text_color: "#000000"
 - template: block-modal-blog
