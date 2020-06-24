@@ -180,7 +180,7 @@ page_sections:
   block: media-feature
   width: '30'
   align_x: end
-  margin_y: '500'
+  margin_y: '600'
   image: https://jesserieser.brandlew.co/uploads/timeGC-5.jpg
   title: 'Time '
   color: "#fdcfb1"
@@ -190,16 +190,16 @@ page_sections:
   align_y: ''
   margin_left: 0%
   margin_right: 5%
-  title_margin_left: "-20%"
+  title_margin_left: 65%
   title_margin_right: ''
-  meta_align: ''
+  meta_align: right
   text_color: ''
-  text_size: ''
-  text_alignment: ''
+  text_size: 6xl
+  text_alignment: left
   text_tracking: ''
-  font_weight: ''
+  font_weight: normal
   line_height: ''
-  title_margin_y: ''
+  title_margin_y: 45%
 - template: block-media-row
   block: media-row
   row_alignment: ''
