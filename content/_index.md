@@ -78,16 +78,16 @@ page_sections:
   align_y: ''
   margin_left: 10%
   margin_right: ''
-  title_margin_left: "-30%"
-  title_margin_right: 0%
+  title_margin_left: 0%
+  title_margin_right: "-45%"
   meta_align: left
   text_color: ''
-  text_size: 6xl
-  text_alignment: ''
+  text_size: 4xl
+  text_alignment: center
   text_tracking: normal
   font_weight: normal
   line_height: none
-  title_margin_y: 5%
+  title_margin_y: 20%
 - template: block-media-feature
   block: media-feature
   width: '45'
