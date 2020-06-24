@@ -305,7 +305,7 @@ page_sections:
   row_alignment: ''
 - template: block-media-feature
   block: media-feature
-  width: '25'
+  width: '30'
   align_x: start
   image: https://jesserieser.brandlew.co/uploads/backpage-3.jpg
   title: 'Wired '
