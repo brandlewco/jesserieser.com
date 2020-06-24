@@ -134,8 +134,8 @@ page_sections:
   margin_left: 0%
   margin_right: 25%
   title_margin_left: 20%
-  title_margin_right: 0%
-  meta_align: right
+  title_margin_right: ''
+  meta_align: left
   image: https://jesserieser.brandlew.co/uploads/rieser_phx-HI-22.jpg
   color: "#CBEEE5"
   title: 'Skeleton Party '
@@ -146,7 +146,7 @@ page_sections:
   text_alignment: center
   text_tracking: normal
   font_weight: semibold
-  line_height: ''
+  line_height: none
   title_margin_y: 10%
 - template: block-media-row
   block: media-row
