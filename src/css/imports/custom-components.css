@@ -12,6 +12,12 @@ html.is-changing #content {
   .translate-neg {
     transform: translateY(-200%);
   }
+  .ratio-3x2 {
+    padding-top: 66.66% !important;
+  }
+  .ratio-2x3 {
+    padding-top: 150% !important;
+  }
   .ratio-9x16 {
     padding-top: 177.77% !important;
   }
