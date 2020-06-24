@@ -121,7 +121,7 @@ page_sections:
   width: '20'
   align_y: start
   margin_y: '100'
-  margin_left: 0%
+  margin_left: 5%
   margin_right: 0%
   title: 'The Fence '
   color: "#EED2D2"
