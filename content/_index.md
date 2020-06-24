@@ -97,21 +97,21 @@ page_sections:
   attached_collection: collections/xmas-in-america.md
   title: Christmas in America
   color: "#F0DADA"
-  meta: Personal 2010 -  2019
+  meta: 2010 -  2019
   margin_x: ''
   align_y: ''
   margin_left: ''
   margin_right: 5%
-  title_margin_left: "-20%"
-  title_margin_right: 70%
-  meta_align: center
+  title_margin_left: 5%
+  title_margin_right: 0%
+  meta_align: right
   text_color: ''
-  text_size: ''
-  text_alignment: ''
-  text_tracking: ''
-  font_weight: ''
+  text_size: 6xl
+  text_alignment: center
+  text_tracking: normal
+  font_weight: normal
   line_height: ''
-  title_margin_y: ''
+  title_margin_y: 20%
 - template: block-media-row
   block: media-row
   row_alignment: ''
