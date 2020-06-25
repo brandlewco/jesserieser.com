@@ -965,7 +965,7 @@ footer_links:
 - link_title: The Agents Club
   link_url: https://theagents.club/jesse-rieser/
 - link_title: LinkedIn
-  link_url: https://www.linkedin.com/in/jesserieser
+  link_url: https://www.linkedin.com/in/jesserieser/
 - link_title: Tumblr
   link_url: https://artfairkegger.tumblr.com
 - link_title: 'Gallery Stock '
