@@ -447,13 +447,13 @@ navigation_theme: white
 row_alignment: between
 selected_works_theme:
 - template: selected-works-theme
-  image: https://jesserieser.brandlew.co/uploads/retail-21.jpg
+  image: https://jesserieser.brandlew.co/uploads/selected_featured-1.jpg
   theme_color: "#DBEFEA"
 - template: selected-works-theme
-  image: https://jesserieser.brandlew.co/uploads/swchief-8.jpg
+  image: https://jesserieser.brandlew.co/uploads/selected_featured-2.jpg
   theme_color: "#D7E6ED"
 - template: selected-works-theme
-  image: https://jesserieser.brandlew.co/uploads/rieser_phx-HI-1.jpg
+  image: https://jesserieser.brandlew.co/uploads/selected_featured-3.jpg
   theme_color: "#FF6766"
 
 ---
