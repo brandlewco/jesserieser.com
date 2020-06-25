@@ -171,7 +171,7 @@ page_sections:
   text_alignment: left
   text_tracking: normal
   font_weight: normal
-  line_height: ''
+  line_height: none
   title_margin_y: 10%
 - template: block-media-feature
   block: media-feature
@@ -195,7 +195,7 @@ page_sections:
   text_alignment: left
   text_tracking: ''
   font_weight: normal
-  line_height: ''
+  line_height: none
   title_margin_y: 45%
 - template: block-media-row
   block: media-row
