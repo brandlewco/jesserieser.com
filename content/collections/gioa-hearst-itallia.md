@@ -1,6 +1,6 @@
 +++
 collection_archive = false
-collection_category = ["Award Winning", "Portraits", "Lifestyle", "Color", "Sports + Athletes", "Editorial"]
+collection_category = ["Award Winning", "Award Winning", "Portraits", "Lifestyle", "Color", "Sports + Athletes", "Editorial"]
 collection_content = ""
 collection_cover = "https://jesserieser.brandlew.co/uploads/hearst-5.jpg"
 collection_cover_mobile = "https://jesserieser.brandlew.co/uploads/verticalcovers-25.jpg"
