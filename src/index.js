@@ -1,6 +1,6 @@
 import Swup from "swup";
 import SwupScrollPlugin from "@swup/scroll-plugin";
-import SwupGaPlugin from "@swup/ga-plugin";
+import SwupGtmPlugin from "@swup/gtm-plugin";
 import SwupBodyClassPlugin from "@swup/body-class-plugin";
 import SwupScriptsPlugin from "@swup/scripts-plugin";
 import SwupPreloadPlugin from "@swup/preload-plugin";
@@ -27,7 +27,7 @@ const options = {
       scrollAcceleration: 0.04,
       doScrollingRightAway: false
     }),
-    new SwupGaPlugin(),
+    new SwupGtmPlugin(),
     new SwupPreloadPlugin(),
     new SwupBodyClassPlugin(),
     new SwupScriptsPlugin({

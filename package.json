@@ -73,6 +73,7 @@
     "@swup/body-class-plugin": "^1.0.2",
     "@swup/fade-theme": "^1.0.5",
     "@swup/ga-plugin": "^1.0.1",
+    "@swup/gtm-plugin": "^1.0.2",
     "@swup/preload-plugin": "^1.0.3",
     "@swup/scripts-plugin": "^1.1.0",
     "@swup/scroll-plugin": "^1.0.6",
@@ -89,6 +90,7 @@
     "sal.js": "^0.7.4",
     "smoothscroll-polyfill": "^0.4.4",
     "swup": "^2.0.9",
+    "swup-gtag-plugin": "0.0.0",
     "tailwindcss-flexbox-order": "^1.1.0"
   }
 }
