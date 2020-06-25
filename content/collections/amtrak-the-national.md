@@ -1,7 +1,7 @@
 +++
 collection_archive = false
 collection_awards = []
-collection_category = ["Editorial", "Portraits", "Environments", "Travel", "Reportage", "Color", "Uniquely American"]
+collection_category = ["Exhibited Works ", "Editorial", "Portraits", "Environments", "Travel", "Reportage", "Color", "Uniquely American"]
 collection_content = ""
 collection_cover = "https://jesserieser.brandlew.co/uploads/ttx-4.jpg"
 collection_cover_mobile = "https://jesserieser.brandlew.co/uploads/verticalcovers-17.jpg"
