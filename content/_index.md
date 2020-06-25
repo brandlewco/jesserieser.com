@@ -448,7 +448,7 @@ row_alignment: between
 selected_works_theme:
 - template: selected-works-theme
   image: https://jesserieser.brandlew.co/uploads/selected_featured-1.jpg
-  theme_color: "#DBEFEA"
+  theme_color: "#F4D8BE"
 - template: selected-works-theme
   image: https://jesserieser.brandlew.co/uploads/selected_featured-2.jpg
   theme_color: "#D7E6ED"
