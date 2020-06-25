@@ -1,5 +1,5 @@
 <article class="block-hover relative self-start {{with .Section.align_y}}sm:self-{{.}}{{end}} w-full {{with .Section.width}}sm:w-{{.}}/100{{end}} mt-4 {{with .Section.margin_y}}sm:mt-{{.}}{{end}} ml-0 {{with .Section.margin_left}}sm:ml-{{.}}{{end}} mr-0 {{with .Section.margin_right}}sm:mr-{{.}}{{end}} highlight rellax-wrapper">
-  <button type="button" class="popup-trigger flex flex-col relative w-full" data-popup-trigger="{{.Section.title | lower}}" onclick="ga('send', 'event', 'popup', 'about - {{.Section.title | lower}}'); return true;">
+  <button type="button" class="popup-trigger flex flex-col relative w-full" data-popup-trigger="{{.Section.title | lower}}" onclick="gtag('send', 'event', 'popup', 'about - {{.Section.title | lower}}'); return true;">
   <figure class="figure relative" style="background: {{with .Section.color}}{{.}}{{else}}{{.Page.Params.theme_color}}{{end}};" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" data-sal="image">
         <img class="lazyload" src="{{ .Section.image }}?nf_resize=fit&h=1440" data-src="{{ .Section.image }}?nf_resize=fit&h=1440" alt="{{ .Section.title }}"/>
     {{ if .Section.title }}

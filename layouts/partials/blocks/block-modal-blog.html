@@ -1,6 +1,6 @@
 {{ $key := .Site.GetPage .Section.attached_blog }}
 <section class="figure {{with $key.Params.blog_block_cover }}figure-blog-cover{{else}}figure-blog-text{{end}} block-hover self-start {{with .Section.align_y}}sm:self-{{.}}{{end}} w-full {{with .Section.width}}sm:w-{{.}}/100{{end}} mt-4 {{with .Section.margin_y}}sm:mt-{{.}}{{end}} ml-0 {{with .Section.margin_left}}sm:ml-{{.}}{{end}} mr-0 {{with .Section.margin_right}}sm:mr-{{.}}{{end}} highlight rellax" data-rellax-speed="2" data-rellax-xs-speed="0">
-  <button type="button" class="popup-trigger relative w-full flex flex-col h-auto sm:h-0 justify-end sm:justify-between p-4 sm:p-8 items-start sm:items-center overflow-hidden {{with $key.Params.block_aspect_ratio }}sm:{{.}}{{else}}sm:aspect-ratio-4/3{{end}}" style="background-color: {{$key.Params.theme_color}}" data-popup-trigger="{{$key.Params.title | lower | urlize}}"  onclick="gtag('send', 'event', 'popup', 'blog - {{$key.Params.title | lower | urlize}}'); return true;">
+  <button type="button" class="popup-trigger relative w-full flex flex-col h-auto sm:h-0 justify-end sm:justify-between p-4 sm:p-8 items-start sm:items-center overflow-hidden {{with $key.Params.block_aspect_ratio }}sm:{{.}}{{else}}sm:aspect-ratio-4/3{{end}}" style="background-color: {{$key.Params.theme_color}}" data-popup-trigger="{{$key.Params.title | lower | urlize}}">
     {{with $key.Params.blog_block_cover }}
       <img 
       data-sizes="auto"
