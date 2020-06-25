@@ -1,7 +1,7 @@
 +++
 collection_archive = false
 collection_awards = []
-collection_category = ["Editorial", "Reportage", "Lifestyle", "Humor", "Sports + Athletes", "Still Life + Details", "Portraits", "Color"]
+collection_category = ["Kids", "Editorial", "Reportage", "Lifestyle", "Humor", "Sports + Athletes", "Still Life + Details", "Portraits", "Color"]
 collection_content = ""
 collection_cover = "https://jesserieser.brandlew.co/uploads/puig-7.jpg"
 collection_cover_mobile = "https://jesserieser.brandlew.co/uploads/vertical_covers-41.jpg"
