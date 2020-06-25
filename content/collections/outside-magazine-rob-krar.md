@@ -1,13 +1,13 @@
 +++
 collection_archive = false
 collection_awards = []
-collection_category = ["Editorial", "Travel", "Reportage", "Conceptual", "Sports + Athletes", "Environments", "Portraits", "Color"]
+collection_category = ["Still Life + Details", "Editorial", "Travel", "Reportage", "Sports + Athletes", "Portraits", "Color"]
 collection_content = "“_Rob Krar had to embrace incredible physical pain to win iconic ultramarathons like the Leadville Traill 100 and the Western States Endurance Run. But that’s a form suffering he can control- unlike his decades-long struggle with depression._”⁠\n\nThis past fall my brother Shea and I visited their 5th annual camp in Flagstaff, AZ. It was the perfect time of year- the air cool and crisp as fall approached and the aspens golden in color illuminated Locket Meadow. As someone who copes with clinical depression and anxiety disorder, we loved our time with Rob, Christina, campers, and volunteers…. even being pushed beyond our comfort zone climbing SP Crater.\n\nArticle by former editor at Runner’s World Christine Fennessy- Krar opens up about his battle with depression, the balance of his personal life and life a professional athlete, what he means to the running community, and how is running camp has “saved lives.” Hit the link in bio to see a newly posted portfolio on my site.\n\nIf you or someone you know is having thoughts of suicide or self-harm, call the National Suicide Prevention Lifeline toll-free from anywhere in the U.S. at 1-800-273-8255."
 collection_cover = "https://jesserieser.brandlew.co/uploads/robkrar-2.jpg"
 collection_cover_mobile = "https://jesserieser.brandlew.co/uploads/verticalcovers-9.jpg"
 collection_description = "Rob Krar had to embrace incredible physical pain to win iconic ultramarathons like the Leadville Traill 100 and the Western States Endurance Run. But that’s a form suffering he can control- unlike his decades-long struggle with depression.⁠ Krar opens up about his battle with depression, the balance of his personal life and life as a professional athlete, what he means to the running community, and how his running camp has “saved lives.”"
 collection_exhibition = []
-collection_filter = ""
+collection_filter = "Commissioned + Stock"
 collection_hidden = false
 collection_meta = "Rob Krar Running In The Dark"
 collection_press = []
@@ -24,7 +24,6 @@ title = "Outside Magazine "
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#CDDCEC"
 image = "https://jesserieser.brandlew.co/uploads/robkrar-1.jpg"
 margin_left = "15%"
@@ -39,7 +38,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#EBF3F1"
 image = "https://jesserieser.brandlew.co/uploads/robkrar-2.jpg"
 margin_left = "50%"
@@ -53,7 +51,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#EEDBBB"
 image = "https://jesserieser.brandlew.co/uploads/robkrar-4.jpg"
 margin_left = "25%"
@@ -64,7 +61,6 @@ width = "20"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#EED8C9"
 image = "https://jesserieser.brandlew.co/uploads/robkrar-3.jpg"
 margin_left = ""
@@ -79,7 +75,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#CAE8EE"
 image = "https://jesserieser.brandlew.co/uploads/robkrar-5.jpg"
 margin_left = "20%"
@@ -94,7 +89,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F8DFC3"
 image = "https://jesserieser.brandlew.co/uploads/robkrar-7.jpg"
 margin_left = "35%"
@@ -105,7 +99,6 @@ width = "25"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E4AF97"
 image = "https://jesserieser.brandlew.co/uploads/robkrar-6.jpg"
 margin_left = ""
@@ -120,7 +113,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F8967D"
 image = "https://jesserieser.brandlew.co/uploads/robkrar-8.jpg"
 margin_left = "20%"
@@ -135,7 +127,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#C4D4E2"
 image = "https://jesserieser.brandlew.co/uploads/robkrar-9.jpg"
 margin_left = "5%"
@@ -145,7 +136,6 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#B89990"
 image = "https://jesserieser.brandlew.co/uploads/robkrar-10.jpg"
 margin_left = ""
@@ -160,7 +150,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#C4EDF3"
 image = "https://jesserieser.brandlew.co/uploads/robkrar-13.jpg"
 margin_left = "10%"
@@ -171,7 +160,6 @@ width = "25"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#EEE0CC"
 image = "https://jesserieser.brandlew.co/uploads/robkrar-11.jpg"
 margin_right = "10%"
@@ -185,7 +173,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#D1DEC4"
 image = "https://jesserieser.brandlew.co/uploads/robkrar-14.jpg"
 margin_left = "15%"
@@ -195,7 +182,6 @@ width = "45"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#EFC69C"
 image = "https://jesserieser.brandlew.co/uploads/robkrar-15.jpg"
 margin_left = ""
@@ -210,7 +196,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#C1EDF0"
 image = "https://jesserieser.brandlew.co/uploads/robkrar-17.jpg"
 margin_left = "5%"
@@ -220,7 +205,6 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FA855E"
 image = "https://jesserieser.brandlew.co/uploads/robkrar-16.jpg"
 margin_left = ""
@@ -235,7 +219,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FAB0A9"
 image = "https://jesserieser.brandlew.co/uploads/robkrar-18.jpg"
 margin_left = "10%"
@@ -245,7 +228,6 @@ width = "50"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#EAE1B0"
 image = "https://jesserieser.brandlew.co/uploads/robkrar-19.jpg"
 margin_left = ""
@@ -260,7 +242,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FAE79D"
 image = "https://jesserieser.brandlew.co/uploads/robkrar-20.jpg"
 margin_left = "20%"
