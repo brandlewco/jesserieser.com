@@ -1,8 +1,12 @@
 html {
   box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: auto;
 }
+
+*, body, button, input, textarea, select {
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 *,
 *:before,
 *:after {
