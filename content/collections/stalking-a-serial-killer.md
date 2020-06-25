@@ -1,6 +1,6 @@
 +++
 collection_archive = false
-collection_category = ["Editorial", "Reportage", "Conceptual", "Still Life + Details", "Environments", "Color"]
+collection_category = ["Award Winning", "Exhibited Works ", "Editorial", "Reportage", "Conceptual", "Still Life + Details", "Environments", "Color"]
 collection_content = "Stalking A Serial Killer is narrated by quotes taken from detectives, residents, family members, witnesses, and survivors as a singular voice of a Phoenix neighborhood terrorized by a serial killer. The “Serial Street Shooter” has gunned down seven and wounded two. The killings are at random from his car and the victims are often in cars, near cars, or exiting their car.\n\nOriginally published during the week of the US election for the French magazine Society for their ‘America’ issue, this photo essay depicts the black and Hispanic neighborhood of Maryvale roamed by the killer, while serving as a metaphor for issues plaguing American policy and politics; a lack of immigration reform, racial inequity, a shrinking middle class, community policing dysfunction, a lack of mental health care and quotidian gun violence.\n\nOriginal interview and reporting by Emmanuelle Andreani-Facchin and typeset by Juan Carlos Pagan.\n\n“_The innovative layout of this story allows for both the strengths and the weaknesses of visual storytelling to be seen. The subject matter itself is shadowy, ephemeral, fitting the form. The images are beautiful, and start to create their own context and narrative when only surrounded by quotes — and nothing else. It’s a striking way to report on a story — one that tantalizes, leading to more questions than answers, and leaves you wanting more._”  \n– Buzzfeed –"
 collection_cover = "https://jesserieser.brandlew.co/uploads/serial-6.jpg"
 collection_cover_mobile = "https://jesserieser.brandlew.co/uploads/verticalcovers-6.jpg"
@@ -30,7 +30,6 @@ template = "popup-text-element"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FAFAFA"
 image = "https://jesserieser.brandlew.co/uploads/serial-2.jpg"
 margin_left = "5%"
@@ -41,7 +40,6 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FCF4D6"
 image = "https://jesserieser.brandlew.co/uploads/serial-3.jpg"
 margin_right = "5%"
@@ -55,7 +53,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F8E9DF"
 image = "https://jesserieser.brandlew.co/uploads/serial-4.jpg"
 margin_left = "10%"
@@ -66,7 +63,6 @@ width = "45"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FAFAFA"
 image = "https://jesserieser.brandlew.co/uploads/serial-5.jpg"
 margin_left = "0%"
@@ -81,7 +77,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#D6E6FB"
 image = "https://jesserieser.brandlew.co/uploads/serial-6.jpg"
 margin_left = "15%"
@@ -96,7 +91,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#DED0DA"
 image = "https://jesserieser.brandlew.co/uploads/serial-8.jpg"
 margin_left = "5%"
@@ -106,7 +100,6 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FAFAFA"
 image = "https://jesserieser.brandlew.co/uploads/serial-7.jpg"
 margin_left = ""
@@ -121,7 +114,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FAFAFA"
 image = "https://jesserieser.brandlew.co/uploads/serial-9.jpg"
 margin_left = "15%"
@@ -131,7 +123,6 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F7EAE1"
 image = "https://jesserieser.brandlew.co/uploads/serial-10.jpg"
 margin_left = ""
@@ -146,7 +137,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FAFAFA"
 image = "https://jesserieser.brandlew.co/uploads/serial-11.jpg"
 margin_left = "5%"
@@ -157,7 +147,6 @@ width = "25"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#C8DBE1"
 image = "https://jesserieser.brandlew.co/uploads/serial-12.jpg"
 margin_left = "0%"
@@ -172,7 +161,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FAFAFA"
 image = "https://jesserieser.brandlew.co/uploads/serial-13.jpg"
 margin_left = "10%"
@@ -182,7 +170,6 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#ECE0D5"
 image = "https://jesserieser.brandlew.co/uploads/serial-14.jpg"
 margin_left = ""
@@ -197,7 +184,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F0DEC9"
 image = "https://jesserieser.brandlew.co/uploads/serial-16.jpg"
 margin_left = "5%"
@@ -207,7 +193,6 @@ width = "55"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FAFAFA"
 image = "https://jesserieser.brandlew.co/uploads/serial-15.jpg"
 margin_right = "5%"
@@ -221,7 +206,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FAFAFA"
 image = "https://jesserieser.brandlew.co/uploads/serial-17.jpg"
 margin_left = "10%"
@@ -231,7 +215,6 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#DAEBED"
 image = "https://jesserieser.brandlew.co/uploads/serial-18.jpg"
 margin_left = ""
@@ -246,7 +229,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FAFAFA"
 image = "https://jesserieser.brandlew.co/uploads/serial-19.jpg"
 margin_right = "5%"
@@ -256,7 +238,6 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F9F0E6"
 image = "https://jesserieser.brandlew.co/uploads/serial-20.jpg"
 margin_left = "5%"
@@ -270,7 +251,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FAFAFA"
 image = "https://jesserieser.brandlew.co/uploads/serial-21.jpg"
 margin_left = "10%"
@@ -280,7 +260,6 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#51413A"
 image = "https://jesserieser.brandlew.co/uploads/serial-23.jpg"
 margin_right = "5%"
@@ -294,7 +273,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FAFAFA"
 image = "https://jesserieser.brandlew.co/uploads/serial-22.jpg"
 margin_left = "30%"
@@ -309,7 +287,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E6DACE"
 image = "https://jesserieser.brandlew.co/uploads/serial-25.jpg"
 margin_left = "5%"
@@ -324,7 +301,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FAFAFA"
 image = "https://jesserieser.brandlew.co/uploads/serial-24.jpg"
 margin_left = "5%"
@@ -335,7 +311,6 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E9E5E4"
 image = "https://jesserieser.brandlew.co/uploads/serial-26.jpg"
 margin_right = "10%"
@@ -349,7 +324,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#CDDDD5"
 image = "https://jesserieser.brandlew.co/uploads/serial-28.jpg"
 margin_left = "0%"
@@ -359,7 +333,6 @@ width = "66"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FAFAFA"
 image = "https://jesserieser.brandlew.co/uploads/serial-27.jpg"
 margin_left = ""
@@ -373,7 +346,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FAFAFA"
 image = "https://jesserieser.brandlew.co/uploads/serial-30.jpg"
 margin_left = "5%"
@@ -384,7 +356,6 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F2E7DB"
 image = "https://jesserieser.brandlew.co/uploads/serial-29.jpg"
 margin_left = ""
@@ -399,7 +370,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E2E9EA"
 image = "https://jesserieser.brandlew.co/uploads/serial-31.jpg"
 margin_left = "15%"
@@ -410,7 +380,6 @@ width = "45"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FAFAFA"
 image = "https://jesserieser.brandlew.co/uploads/serial-32.jpg"
 margin_left = ""
@@ -425,7 +394,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#D0EED7"
 image = "https://jesserieser.brandlew.co/uploads/serial-33.jpg"
 margin_left = "35%"
@@ -440,7 +408,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FAFAFA"
 image = "https://jesserieser.brandlew.co/uploads/serial-34.jpg"
 margin_left = "10%"
@@ -451,7 +418,6 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F9C1A3"
 image = "https://jesserieser.brandlew.co/uploads/serial-35.jpg"
 margin_left = "0%"
@@ -466,7 +432,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FAFAFA"
 image = "https://jesserieser.brandlew.co/uploads/serial-36.jpg"
 margin_left = "30%"
@@ -481,7 +446,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#D6E7EA"
 image = "https://jesserieser.brandlew.co/uploads/serial-37.jpg"
 margin_left = "20%"
