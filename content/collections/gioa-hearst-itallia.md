@@ -1,6 +1,6 @@
 +++
 collection_archive = false
-collection_category = ["Lifestyle", "Color", "Sports + Athletes", "Editorial"]
+collection_category = ["Award Winning", "Portraits", "Lifestyle", "Color", "Sports + Athletes", "Editorial"]
 collection_content = ""
 collection_cover = "https://jesserieser.brandlew.co/uploads/hearst-5.jpg"
 collection_cover_mobile = "https://jesserieser.brandlew.co/uploads/verticalcovers-25.jpg"
@@ -27,7 +27,6 @@ template = "popup-text-element"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FDE3BB"
 image = "https://jesserieser.brandlew.co/uploads/hearst-1.jpg"
 margin_left = "30%"
@@ -42,7 +41,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#B7F5F8"
 image = "https://jesserieser.brandlew.co/uploads/hearst-2.jpg"
 margin_left = "5%"
@@ -52,7 +50,6 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FECAC4"
 image = "https://jesserieser.brandlew.co/uploads/hearst-3.jpg"
 margin_left = ""
@@ -67,7 +64,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F5DFF8"
 image = "https://jesserieser.brandlew.co/uploads/hearst-5.jpg"
 margin_left = "0%"
@@ -77,7 +73,6 @@ width = "60"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#B2DDFD"
 image = "https://jesserieser.brandlew.co/uploads/hearst-4.jpg"
 margin_left = ""
@@ -92,7 +87,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#C9F6F9"
 image = "https://jesserieser.brandlew.co/uploads/hearst-6.jpg"
 margin_left = "40%"
@@ -106,7 +100,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FDEBEB"
 image = "https://jesserieser.brandlew.co/uploads/hearst-7.jpg"
 margin_left = "25%"
@@ -121,7 +114,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#EDF6C8"
 image = "https://jesserieser.brandlew.co/uploads/hearst-8.jpg"
 margin_left = "10%"
@@ -132,7 +124,6 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E8F3F7"
 image = "https://jesserieser.brandlew.co/uploads/hearst-9.jpg"
 margin_left = ""
@@ -147,7 +138,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F9F3DD"
 image = "https://jesserieser.brandlew.co/uploads/hearst-10.jpg"
 margin_left = "10%"
@@ -162,7 +152,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#D2ECFF"
 image = "https://jesserieser.brandlew.co/uploads/hearst-12.jpg"
 margin_left = "5%"
@@ -172,7 +161,6 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#DFF7F4"
 image = "https://jesserieser.brandlew.co/uploads/hearst-11.jpg"
 margin_left = ""
@@ -187,7 +175,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FEEEEE"
 image = "https://jesserieser.brandlew.co/uploads/hearst-13.jpg"
 margin_left = "30%"
