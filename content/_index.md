@@ -447,8 +447,8 @@ navigation_theme: white
 row_alignment: between
 selected_works_theme:
 - template: selected-works-theme
-  image: https://jesserieser.brandlew.co/uploads/timeGC-5.jpg
-  theme_color: "#EEDDDD"
+  image: https://jesserieser.brandlew.co/uploads/retail-21.jpg
+  theme_color: "#DBEFEA"
 - template: selected-works-theme
   image: https://jesserieser.brandlew.co/uploads/swchief-8.jpg
   theme_color: "#D7E6ED"
