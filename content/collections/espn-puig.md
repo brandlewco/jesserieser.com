@@ -4,7 +4,7 @@ collection_awards = []
 collection_category = ["Editorial", "Reportage", "Lifestyle", "Humor", "Sports + Athletes", "Still Life + Details", "Portraits", "Color"]
 collection_content = ""
 collection_cover = "https://jesserieser.brandlew.co/uploads/puig-7.jpg"
-collection_cover_mobile = "https://jesserieser.brandlew.co/uploads/verticalcovers-27.jpg"
+collection_cover_mobile = "https://jesserieser.brandlew.co/uploads/vertical_covers-41.jpg"
 collection_description = "ESPN host Sam Alipour joined Major League Baseball star Yasiel Puig, his friends, teammates, and family at his home for Sam’s SportsCenter segment “Hangtime: Partying With Puig.”"
 collection_description_alignment = "center"
 collection_exhibition = []
@@ -25,7 +25,6 @@ title = "ESPN The Magazine"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FBF2E9"
 image = "https://jesserieser.brandlew.co/uploads/puig-1.jpg"
 margin_left = "25%"
@@ -64,7 +63,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F6DDCB"
 image = "https://jesserieser.brandlew.co/uploads/puig-3.jpg"
 margin_left = "55%"
@@ -103,7 +101,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F6E8DC"
 image = "https://jesserieser.brandlew.co/uploads/puig-5.jpg"
 margin_left = "30%"
@@ -162,7 +159,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F7E7DA"
 image = "https://jesserieser.brandlew.co/uploads/puig-7.jpg"
 margin_left = "20%"
@@ -172,7 +168,6 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#DCE4F2"
 image = "https://jesserieser.brandlew.co/uploads/puig-9.jpg"
 margin_left = ""
@@ -187,7 +182,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F5E0D4"
 image = "https://jesserieser.brandlew.co/uploads/puig-10.jpg"
 margin_left = "25%"
