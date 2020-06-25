@@ -954,6 +954,10 @@ about_bio: |-
   Clients find him as a creative additive to the collaborative process not only with his technical expertise but also in the ideation phase. He feels his greatest currency is how he communicates and sees the world. Some call it empathy. Some call it charm. His mom just says he’s a nice young man.
 about_bio_image: https://jesserieser.brandlew.co/uploads/bio_final-3.jpg
 footer_links:
+- link_title: ''
+  link_url: ''
+- link_title: 'Gallery Stock '
+  link_url: https://www.gallerystock.com/CS.aspx?VP3=SearchResult&VBID=2P0UBHSGBWW77&SMLS=1&RW=1852&RH=1237
 - link_title: Anderson Hopkins
   link_url: https://www.andersonhopkins.com/artists/118/Jesse-Rieser/images/680/Overview
 - link_title: Le Book
