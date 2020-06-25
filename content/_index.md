@@ -46,7 +46,7 @@ page_sections:
   margin_y: '100'
   margin_left: 20%
   margin_right: 0%
-  title_margin_left: "-25%"
+  title_margin_left: "-30%"
   title_margin_right: 0%
   meta_align: left
   image: https://jesserieser.brandlew.co/uploads/retail-cover-1.jpg
@@ -59,7 +59,7 @@ page_sections:
   text_alignment: left
   text_tracking: widest
   font_weight: normal
-  line_height: tight
+  line_height: none
   title_margin_y: 10%
 - template: block-media-row
   block: media-row
