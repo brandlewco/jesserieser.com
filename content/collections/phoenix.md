@@ -1,7 +1,7 @@
 +++
 attached_gallery = "gallery/phoenix.md"
 collection_archive = false
-collection_category = ["Studio ", "Lifestyle", "Color", "Conceptual", "Portraits"]
+collection_category = ["Award Winning", "Exhibited Works ", "Humor", "Studio ", "Lifestyle", "Color", "Conceptual", "Portraits"]
 collection_content = ""
 collection_cover = "https://jesserieser.brandlew.co/uploads/rieser_phx-HI-4.jpg"
 collection_cover_mobile = "https://jesserieser.brandlew.co/uploads/verticalcovers-1.jpg"

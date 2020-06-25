@@ -1,6 +1,6 @@
 +++
 collection_archive = false
-collection_category = ["Reportage", "Travel", "Climate Change", "Color", "Environments", "Color"]
+collection_category = ["Award Winning", "Exhibited Works ", "Reportage", "Travel", "Climate Change", "Color", "Environments", "Color"]
 collection_content = "In Eastern Arizona, near the border with New Mexico, is a land of dirt roads stretching out to white-washed horizons. Here, ranches are carved out of the scrub and pine-dotted landscapes and grazing cattle are the only living things for miles.\n\nThe area’s beauty comes from its pervasive remoteness.\n\nBut from late May to early June in 2011, the land in and surrounding the Bear Wallow Wilderness Area in the White Mountains was remade with a terrible, devastating kind of beauty. One that turned the landscape lunar and the air yellowed and hazy. A campfire sparked a conflagration that charred 841 miles across Arizona and New Mexico, destroying 72 buildings, 32 of them homes.\n\nAs I traveled across the western United States in late May 2011, I saw the Wallow Fire, as it was named, and I was mesmerized by the towering smoke plumes and expanses of blackened earth. I stopped to stay, to photograph the fire, its effects, and the international community of men and women assembled to fight and eventually extinguish the blaze.\n\nI was drawn by the way the Wallow Fire, reshaped the landscape and the atmosphere, making it a surreal, deadly place where playgrounds stood empty, where tree bark turned to ash scales, where grazing land was charred to cinder, where the air swirled thick with smoke and heat. It quickly became the largest fire in Arizona’s history, forcing everyone to evacuate.\n\nSadly, due to man made climate change, this was the first of many historic fires that has severely impacted the land and residents of Colorado, California, New Mexico, Texas, and again Arizona. This project is dedicated to the families of the 19 fallen firefighters of the Granite Mountain Hotshot Crew of Arizona who lost their lives in the Yarnell Hill Fire on June 30, 2013. The deadliest day for United States firefighters since September 11, 2001."
 collection_cover = "https://jesserieser.brandlew.co/uploads/wallow-15.jpg"
 collection_cover_mobile = "https://jesserieser.brandlew.co/uploads/verticalcovers-15.jpg"
@@ -34,7 +34,6 @@ template = "popup-text-element"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FBF1D3"
 image = "https://jesserieser.brandlew.co/uploads/wallow-1.jpg"
 margin_left = "30%"
@@ -49,7 +48,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#C2D5B2"
 image = "https://jesserieser.brandlew.co/uploads/wallow-3.jpg"
 margin_left = "5%"
@@ -60,7 +58,6 @@ width = "50"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FADFBB"
 image = "https://jesserieser.brandlew.co/uploads/wallow-2.jpg"
 margin_left = "0%"
@@ -75,7 +72,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#DBB782"
 image = "https://jesserieser.brandlew.co/uploads/wallow-4.jpg"
 margin_left = "40%"
@@ -89,7 +85,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#D5C5C5"
 image = "https://jesserieser.brandlew.co/uploads/wallow-5.jpg"
 margin_left = "10%"
@@ -104,7 +99,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E0E9E5"
 image = "https://jesserieser.brandlew.co/uploads/wallow-6.jpg"
 margin_right = "0%"
@@ -114,7 +108,6 @@ width = "45"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F9E99F"
 image = "https://jesserieser.brandlew.co/uploads/wallow-7.jpg"
 margin_left = "0%"
@@ -129,7 +122,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F0E2C8"
 image = "https://jesserieser.brandlew.co/uploads/wallow-8.jpg"
 margin_left = "30%"
@@ -144,7 +136,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E5EEEC"
 image = "https://jesserieser.brandlew.co/uploads/wallow-9.jpg"
 margin_left = "5%"
@@ -155,7 +146,6 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#CAC9C8"
 image = "https://jesserieser.brandlew.co/uploads/wallow-10.jpg"
 margin_left = ""
@@ -170,7 +160,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E1E3DE"
 image = "https://jesserieser.brandlew.co/uploads/wallow-11.jpg"
 margin_left = "15%"
@@ -184,7 +173,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#D0C797"
 image = "https://jesserieser.brandlew.co/uploads/wallow-13.jpg"
 margin_left = "5%"
@@ -195,7 +183,6 @@ width = "25"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#B3AE99"
 image = "https://jesserieser.brandlew.co/uploads/wallow-12.jpg"
 margin_left = "0%"
@@ -210,7 +197,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F9DCBC"
 image = "https://jesserieser.brandlew.co/uploads/wallow-14.jpg"
 margin_left = "20%"
@@ -225,7 +211,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FBEECD"
 image = "https://jesserieser.brandlew.co/uploads/wallow-15.jpg"
 margin_left = "35%"
@@ -239,7 +224,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#D4CEC3"
 image = "https://jesserieser.brandlew.co/uploads/wallow-17.jpg"
 margin_left = "5%"
@@ -249,7 +233,6 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E7EEEF"
 image = "https://jesserieser.brandlew.co/uploads/wallow-16.jpg"
 margin_right = "0%"
@@ -263,7 +246,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FCE7A3"
 image = "https://jesserieser.brandlew.co/uploads/wallow-18.jpg"
 margin_left = "30%"
@@ -277,7 +259,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#CACBD2"
 image = "https://jesserieser.brandlew.co/uploads/wallow-19.jpg"
 margin_left = "10%"
@@ -292,7 +273,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#222842"
 image = "https://jesserieser.brandlew.co/uploads/wallow-20.jpg"
 margin_left = "25%"

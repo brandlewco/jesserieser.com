@@ -2,11 +2,11 @@
 attached_gallery = "gallery/star-geezers.md"
 collection_archive = false
 collection_awards = []
-collection_category = ["Editorial", "Portraits", "Environments", "Motion", "Humor", "Science", "Uniquely American", "Travel", "Reportage", "Color"]
+collection_category = ["Conceptual", "Editorial", "Portraits", "Environments", "Motion", "Humor", "Science", "Uniquely American", "Travel", "Reportage", "Color"]
 collection_content = "This is a story about “Sky Village,” an astronomy centric retirement community and their founders, the self appointed “Star Geezers,” Jack and Alice Newton. Located in Arizona near the New Mexico and Mexico border, the remoteness (closest grocery store is 3 hours away) is a gift as this is one of the darkest places on the North American light pollution map. Couple this with the clear air of the desert, this was how the Newtons selected and purchased several hundred acres of land and divided them into 22 distinct lots.\n\nEasily one of the most interesting places I have visited in recent memory. A close-knit community bonded by their love of the celestial, the remoteness, and the darkness….. so dark that on a new moon you can no longer see your feet. So dark you never knew so many stars existed- appearing dizzying, textural, and 3-dimensional. So dark as your eyes adjust, you can see your shadow cast by the stars overhead."
 collection_cover = "https://jesserieser.brandlew.co/uploads/stargeezers-6.jpg"
 collection_cover_mobile = "https://jesserieser.brandlew.co/uploads/verticalcovers-4.jpg"
-collection_description = "This is a story about “Sky Village,” an astronomy centric retirement community and their founders Jack and Alice Newton, known as the “Star Geezers.” Sky Village is one of the most remote and darkest places in North America. So dark you never knew so many stars existed- appearing dizzying, textural, and 3-dimensional.\n\nFeatured on _Vice_ and _Booooooom._"
+collection_description = "This is a story about “Sky Village,” an astronomy centric retirement community and their founders Jack and Alice Newton, known as the “Star Geezers.” Sky Village is one of the most remote and darkest places in North America. So dark you never knew so many stars existed- appearing dizzying, textural, and 3-dimensional.\n\nFeatured on _Vice_, Fish _Eye Magazine_ and _Booooooom._"
 collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_hidden = false
@@ -24,7 +24,6 @@ title = "Condor Airlines "
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E2EFF9"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-1.jpg"
 margin_left = "30%"
@@ -39,7 +38,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FEF4EA"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-2.jpg"
 margin_left = "10%"
@@ -50,7 +48,6 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FFE7D8"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-3.jpg"
 margin_left = ""
@@ -65,7 +62,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#EFF4F8"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-4.jpg"
 margin_left = "15%"
@@ -76,7 +72,6 @@ width = "50"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#AE9B9B"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-5.jpg"
 margin_left = "0%"
@@ -91,7 +86,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FADFCD"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-6.jpg"
 margin_left = "25%"
@@ -106,7 +100,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F7F2EE"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-7.jpg"
 margin_left = "45%"
@@ -121,7 +114,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#211F2D"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-8.jpg"
 margin_left = "5%"
@@ -136,7 +128,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#404B51"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-9.jpg"
 margin_left = "10%"
@@ -146,7 +137,6 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#2F292E"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-10.jpg"
 margin_left = ""
@@ -161,7 +151,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#010101"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-12.jpg"
 margin_left = "15%"
@@ -176,7 +165,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FD1E18"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-11.jpg"
 margin_left = "20%"
@@ -200,7 +188,6 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#95527C"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-13.jpg"
 margin_left = ""
@@ -215,7 +202,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FFE7CA"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-15.jpg"
 margin_left = "5%"
@@ -226,7 +212,6 @@ width = "50"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F0F4F7"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-14.jpg"
 margin_y = "100"
@@ -251,7 +236,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E4EAED"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-16.jpg"
 margin_left = "10%"
@@ -265,7 +249,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F6E5D1"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-17.jpg"
 margin_left = "15%"
@@ -276,7 +259,6 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E8D2CF"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-18.jpg"
 margin_left = ""
@@ -290,7 +272,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F5E4E4"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-19.jpg"
 margin_left = "20%"
@@ -305,7 +286,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#9B98A6"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-20.jpg"
 margin_left = "40%"
@@ -320,7 +300,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#CEDAEC"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-21.jpg"
 margin_left = "20%"
@@ -330,7 +309,6 @@ width = "25"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#EFF4F2"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-22.jpg"
 margin_left = ""
@@ -345,7 +323,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#000000"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-24.jpg"
 margin_left = "5%"
@@ -356,7 +333,6 @@ width = "50"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E0C8CE"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-23.jpg"
 margin_left = ""
@@ -370,7 +346,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FFE9D0"
 image = "https://jesserieser.brandlew.co/uploads/stargeezers-25.jpg"
 margin_left = "30%"

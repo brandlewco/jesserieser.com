@@ -1,7 +1,7 @@
 +++
 attached_gallery = "gallery/retail.md"
 collection_archive = false
-collection_category = ["Tech", "Environments", "Workplace", "Conceptual", "Color", "Environments", "Reportage"]
+collection_category = ["Award Winning", "Exhibited Works ", "Tech", "Environments", "Workplace", "Conceptual", "Color", "Environments", "Reportage"]
 collection_content = "Beginning in 2015, _The Changing Landscape of American Retail_ is an ongoing documentation of the shift from traditional brick-and-mortar locations where we once socialized and interacted with our community to the stark and generic structures that house shipping, fulfillment, call, and server centers, now essential for e-commerce.\n\nLike memories, familiar retail entities are fading away. Today, they stand as modern-day ruins and architectural artifacts that reach into the not-so-distant past of our own maturing interests and evolving identities.\n\nToys “R” Us brings back of memories of avoiding my brother’s aerial assaults of red dodge balls and Nerf guns while simultaneously ignoring my mother’s plea to stop tearing into brand-new boxes of Teenage Mutant Ninja Turtle action figures and Lego Pirate sets.\n\nThe Battlefield Mall was once a central meeting spot for my junior high peers—anchored by the food court and Aladdin’s Castle arcade. Here, a myriad of sights and smells trigger the memory to act as a roadmap for navigating the mall. Orange Julius produced the sweet scent of Florida citrus in Southern Missouri; there was the salty cheese sauce wafting from Potato Plus; and the fragrant cinnamon-sugar of Auntie Anne’s baked pretzels. The nearby arcade elicits a sensory transaction when I’m greeted by the flashing lights of Street Fighter II, manic electronic beeps, purple geometric carpet, and the oddly unique odor of stale popcorn mixed with the metallic scent of quarters, tucked into my front pocket.\n\nDuring high school and college, I spent hours at the Best Buy listening stations, previewing new music releases from my favorite artists. Today, I laugh when thinking back to a time when a Circuit City sales associate begrudgingly answered my product question by reading the back of the box, all before returning to watch Shaq and Kobe’s Lakers in the NBA Finals. It makes sense, Circuit City was known for having the best televisions and poor customer service.\n\nBy 2012, Circuit City closed their doors. Toys “R” Us folded in the spring of 2018, and Best Buy continues to shutter underperforming stores. Additionally, arcades and food courts are endangered as small- and medium-sized “Class B” malls are closing all over the U.S.\n\nLike most Americans, I love the ease and product availability of Amazon and online retailers. I order my toothpaste with a click of a button and can obtain work supplies from the comfort of my sofa. My concerns are rooted in our recent pattern of isolationism and shrinking human interaction. Store closings feel like a continuation of our declining thoughtful conversations, empty playgrounds, and sense of community as we opt for a digital facsimile. We are no longer previewing music and getting recommendations on new releases in person and in retail shops. We will no longer meet our friends in food courts. And there will never be an opportunity to watch an NBA game with an uninformed and complacent Circuit City employee.\n\n_The Changing Landscape of American Retail_ is an exercise of looking to the past and peering into the future, serving as a metaphor of how technology is accelerating cultural change in the modern world. I know you can’t fight change, but that doesn’t mean you can’t be sentimental."
 collection_cover = "https://jesserieser.brandlew.co/uploads/retail-2.jpg"
 collection_cover_mobile = "https://jesserieser.brandlew.co/uploads/verticalcovers-2.jpg"
@@ -40,7 +40,6 @@ template = "popup-text-element"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#D5E6F1"
 image = "https://jesserieser.brandlew.co/uploads/retail-1.jpg"
 margin_left = "20%"
@@ -55,7 +54,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FCCEB1"
 image = "https://jesserieser.brandlew.co/uploads/retail-3.jpg"
 margin_left = "10%"
@@ -65,7 +63,6 @@ width = "45"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F2DED6"
 image = "https://jesserieser.brandlew.co/uploads/retail-2.jpg"
 margin_right = "5%"
@@ -79,7 +76,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#DAF0E7"
 image = "https://jesserieser.brandlew.co/uploads/retail-4.jpg"
 margin_left = "20%"
@@ -93,7 +89,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F8F2F7"
 image = "https://jesserieser.brandlew.co/uploads/retail-5.jpg"
 margin_left = "35%"
@@ -108,7 +103,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FBE5D2"
 image = "https://jesserieser.brandlew.co/uploads/retail-6.jpg"
 margin_left = "5%"
@@ -119,7 +113,6 @@ width = "45"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FF8E7D"
 image = "https://jesserieser.brandlew.co/uploads/retail-7.jpg"
 margin_left = ""
@@ -134,7 +127,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#DCDEE5"
 image = "https://jesserieser.brandlew.co/uploads/retail-8.jpg"
 margin_left = "15%"
@@ -149,7 +141,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FFDFC9"
 image = "https://jesserieser.brandlew.co/uploads/retail-10.jpg"
 margin_left = "10%"
@@ -159,7 +150,6 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E0F3EB"
 image = "https://jesserieser.brandlew.co/uploads/retail-9.jpg"
 margin_right = "5%"
@@ -173,7 +163,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F5ECBA"
 image = "https://jesserieser.brandlew.co/uploads/retail-11.jpg"
 margin_left = "35%"
@@ -187,7 +176,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F3E7DD"
 image = "https://jesserieser.brandlew.co/uploads/retail-12.jpg"
 margin_left = "25%"
@@ -202,7 +190,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F0CDC4"
 image = "https://jesserieser.brandlew.co/uploads/retail-13.jpg"
 margin_left = "10%"
@@ -213,7 +200,6 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#A9CFFD"
 image = "https://jesserieser.brandlew.co/uploads/retail-14.jpg"
 margin_left = ""
@@ -228,7 +214,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#EDD5BE"
 image = "https://jesserieser.brandlew.co/uploads/retail-15.jpg"
 margin_left = "20%"
@@ -243,7 +228,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FBE6DF"
 image = "https://jesserieser.brandlew.co/uploads/retail-17.jpg"
 margin_left = "5%"
@@ -254,7 +238,6 @@ width = "45"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F3ECE4"
 image = "https://jesserieser.brandlew.co/uploads/retail-16.jpg"
 margin_left = "0%"
@@ -269,7 +252,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FCE6C8"
 image = "https://jesserieser.brandlew.co/uploads/retail-18.jpg"
 margin_left = "35%"
@@ -283,7 +265,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#D9D1CE"
 image = "https://jesserieser.brandlew.co/uploads/retail-19.jpg"
 margin_left = ""
@@ -294,7 +275,6 @@ width = "45"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FBF9E1"
 image = "https://jesserieser.brandlew.co/uploads/retail-20.jpg"
 margin_right = "5%"
@@ -308,7 +288,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E0EAE7"
 image = "https://jesserieser.brandlew.co/uploads/retail-21.jpg"
 margin_left = "15%"

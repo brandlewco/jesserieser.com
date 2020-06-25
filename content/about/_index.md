@@ -393,7 +393,7 @@ page_sections:
 
     "It’s no easy task to enter the world of contemporary art color photography, but you have successfully done so with your own unique voice.” - _Rob Schaefer Senior Acquisitions Editor, Princeton Architectural Press_
 
-    “This shoot would have honestly never gotten off the ground if it wasn’t for everything you have done.”- _Kate Moore Senior Art Producer, Anomaly New York_
+    “This shoot wouldn't have been such a success without your attention to detail, hands-on approach, and upfront leg work. Thank you!”- _Kate Moore Senior Art Producer, Anomaly New York_
 
     “You are incapable of taking a normal picture.” - _Jen Lamping Lead Print Producer RPA Los Angeles_
   parallax: true
@@ -956,24 +956,34 @@ about_bio_image: https://jesserieser.brandlew.co/uploads/bio_final-3.jpg
 footer_links:
 - link_title: Instagram
   link_url: https://www.instagram.com/jesserieser/
-- link_title: Facebook
-  link_url: https://www.facebook.com/jesse.rieser
-- link_title: Tumblr
-  link_url: https://test.com
-- link_title: The One Club Young Guns
-  link_url: https://www.oneclub.org/awards/youngguns/9/-bio/yg9-2545-jesse-rieser
-- link_title: Working NotWorking
-  link_url: https://workingnotworking.com/6282-jesse
-- link_title: Twitter
-  link_url: https://twitter.com/jesserieser
 - link_title: Behance
   link_url: https://www.behance.net/jesserieser
+- link_title: Anderson Hopkins
+  link_url: https://www.andersonhopkins.com/artists/118/Jesse-Rieser/images/680/Overview
+- link_title: Le Book
+  link_url: http://www.lebook.com/search/jesse%20rieser%20
+- link_title: The Agents Club
+  link_url: https://theagents.club/jesse-rieser/
 - link_title: LinkedIn
-  link_url: https://www.linkedin.com/in/jesserieser
-- link_title: Art Photo Index
-  link_url: https://www.artphotoindex.com/api/#photographer/Jesse-Rieser/15804
+  link_url: https://www.linkedin.com/in/jesserieser/
+- link_title: Tumblr
+  link_url: https://artfairkegger.tumblr.com
+- link_title: 'Gallery Stock '
+  link_url: https://www.gallerystock.com/CS.aspx?VP3=SearchResult&VBID=2P0UBHSGBWW77&SMLS=1&RW=1852&RH=1237
 - link_title: LensCulture
   link_url: https://www.lensculture.com/jesse-rieser
+- link_title: Working NotWorking
+  link_url: https://workingnotworking.com/6282-jesse
+- link_title: Facebook
+  link_url: https://www.facebook.com/jesse.rieser
+- link_title: Twitter
+  link_url: https://twitter.com/jesserieser
+- link_title: Photo Politic
+  link_url: https://photopolitic.com
+- link_title: Art Photo Index
+  link_url: https://www.artphotoindex.com/api/#photographer/Jesse-Rieser/15804
+- link_title: The One Club Young Guns
+  link_url: https://www.oneclub.org/awards/youngguns/9/-bio/yg9-2545-jesse-rieser
 
 ---
 ## Click the collections link above to preview collections.

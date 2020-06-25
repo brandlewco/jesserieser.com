@@ -1,7 +1,7 @@
 +++
 collection_archive = false
 collection_awards = []
-collection_category = ["Environments", "Portraits", "Travel", "Editorial", "Uniquely American", "Science", "Tech", "Reportage", "Color"]
+collection_category = ["Environments", "Portraits", "Travel", "Editorial", "Uniquely American", "Tech", "Reportage", "Color"]
 collection_content = "This commission touches on something I think a lot about- how will “Main Street” and the idyllic small towns of America’s yesterday survive tomorrow? As the economy and workforce move to urban communities in record numbers, I’m afraid in the not-so-distant future the US landscape will be littered with ghost towns and abandoned communities, bringing a fabled American way of life to near extinction.\n\nThese works are a portrait of a community on life support, the closed Alcoa plant (the one-time financial lifeline), and the players working to bring the world’s largest bitcoin mining facility to a community desperately needing good news: Milam County Judge Steve Young, The Director of Rockdale Municipal Development Kara Chlore, and Joan and Dan Ratliff, owners of the historic Rainbow Courts Motel.\n\nIn 1952, **_The Saturday Evening Post_** christened Rockdale, Texas, “_The Town Where It Rains Money_.” More recently, though, prosperity has eluded Rockdale. The Alcoa smelter was shuttered in 2008, and an adjoining coal-fired power plant closed last year. More than 1,000 jobs vanished, sending Rockdale and surrounding Milam County, population 25,000, into a nosedive.\n\nThen, last summer, a ray of hope pierced the gloom. Bitmain, a Chinese company that makes specialized computers for “mining” crypto currency, said it would invest $500 million in the closed Alcoa smelter, which, crucially, was still connected to massive electrical lines. Most important for Milam County, Bitmain promised to create between 400 and 600 jobs. New industry would replace the old.\n\nInstead, Milam County and other communities have learned a real-life lesson about the elusive promise of virtual currency as the promised 400-600 jobs are currently at 20-40.\n\n[**_Article_**](https://www.wired.com/story/hard-luck-texas-town-bet-bitcoin-lost/) written by Mark Dent and assigned by Samantha Cooper."
 collection_cover = "https://jesserieser.brandlew.co/uploads/bitmain-27.jpg"
 collection_cover_mobile = "https://jesserieser.brandlew.co/uploads/verticalcovers-11.jpg"
@@ -26,7 +26,6 @@ title = "Wired Magazine"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#A3C8AD"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-1.jpg"
 margin_left = "35%"
@@ -42,7 +41,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E7A973"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-2.jpg"
 margin_left = "5%"
@@ -52,7 +50,6 @@ width = "50"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FFD467"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-3.jpg"
 margin_left = ""
@@ -67,7 +64,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#7DDBC0"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-4.jpg"
 margin_left = "15%"
@@ -78,7 +74,6 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FD9496"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-5.jpg"
 margin_left = ""
@@ -93,7 +88,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#EFD6B4"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-6.jpg"
 margin_left = "5%"
@@ -103,7 +97,6 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E1EA6D"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-7.jpg"
 margin_left = ""
@@ -118,7 +111,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#CEDCDD"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-8.jpg"
 margin_left = "5%"
@@ -128,7 +120,6 @@ width = "50"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E7BFAA"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-9.jpg"
 margin_left = ""
@@ -143,7 +134,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#A4D38E"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-10.jpg"
 margin_left = "25%"
@@ -157,7 +147,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F5614B"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-11.jpg"
 margin_left = "5%"
@@ -168,7 +157,6 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#A6CAE5"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-12.jpg"
 margin_right = "15%"
@@ -182,7 +170,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F8D9B6"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-13.jpg"
 margin_left = "25%"
@@ -197,7 +184,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FFC9B6"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-14.jpg"
 margin_left = "15%"
@@ -208,7 +194,6 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#DCEDF6"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-15.jpg"
 margin_left = ""
@@ -223,7 +208,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#EEFAE4"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-16.jpg"
 margin_left = ""
@@ -234,7 +218,6 @@ width = "25"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FFE9B4"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-17.jpg"
 margin_left = ""
@@ -249,7 +232,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#DAD4DE"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-18.jpg"
 margin_left = "10%"
@@ -260,7 +242,6 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FFC690"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-19.jpg"
 margin_left = ""
@@ -275,7 +256,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FFDA9C"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-20.jpg"
 margin_left = "25%"
@@ -289,7 +269,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#D4D29A"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-21.jpg"
 margin_left = "10%"
@@ -300,7 +279,6 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F0F9FA"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-22.jpg"
 margin_left = ""
@@ -315,7 +293,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FF9167"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-23.jpg"
 margin_left = "30%"
@@ -329,7 +306,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#D8E59D"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-24.jpg"
 margin_left = "10%"
@@ -340,7 +316,6 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FFDCB6"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-25.jpg"
 margin_left = "0%"
@@ -355,7 +330,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E1EEF5"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-26.jpg"
 margin_left = "25%"
@@ -370,7 +344,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FAEEDC"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-27.jpg"
 margin_left = "35%"
@@ -384,7 +357,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E7DEF3"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-28.jpg"
 margin_left = "0%"
@@ -395,7 +367,6 @@ width = "50"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F1CDBA"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-29.jpg"
 margin_right = "10%"
@@ -409,7 +380,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E79F85"
 image = "https://jesserieser.brandlew.co/uploads/bitmain-30.jpg"
 margin_left = "30%"

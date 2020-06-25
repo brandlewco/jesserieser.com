@@ -447,14 +447,14 @@ navigation_theme: white
 row_alignment: between
 selected_works_theme:
 - template: selected-works-theme
-  image: https://jesserieser.brandlew.co/uploads/timeGC-5.jpg
-  theme_color: "#EEDDDD"
+  image: https://jesserieser.brandlew.co/uploads/selected_featured-1.jpg
+  theme_color: "#F4D8BE"
 - template: selected-works-theme
-  image: https://jesserieser.brandlew.co/uploads/swchief-8.jpg
-  theme_color: "#D7E6ED"
+  image: https://jesserieser.brandlew.co/uploads/selected_featured-2.jpg
+  theme_color: "#CBEFA7"
 - template: selected-works-theme
-  image: https://jesserieser.brandlew.co/uploads/xmas-6.jpg
-  theme_color: "#9DE3D9"
+  image: https://jesserieser.brandlew.co/uploads/selected_featured-3.jpg
+  theme_color: "#FF6766"
 
 ---
 ## Click the collections link above to preview collections.

@@ -1,7 +1,7 @@
 +++
 collection_archive = false
 collection_awards = []
-collection_category = ["Portraits", "Environments", "Travel", "Reportage", "Color", "Uniquely American"]
+collection_category = ["Tech", "Editorial", "Workplace", "Science", "Still Life + Details", "Portraits", "Environments", "Reportage", "Color"]
 collection_content = "Ever wonder about the computers which guided the Apollo moon landing 50 years ago today? One was unknowingly purchased in a Nasa garage sale by Texas resident Jimmie Loocke (purple polo.) I headed to Silicon Valley for The Wall Street Journal to photograph a group of amateur tech anthropologists as they began a two week at-home refurbishing project to get Loocke’s Apollo Guidance Computer (ACG) up and running.\n\nThese moonshot machines were the world’s first general-purpose, portable, digital computers, the first to fly and the first on which human lives directly depended. If all went well, the group would run the computer programs that, a half-century ago, put astronauts on the moon.⁠\n\nBarely two dozen Apollo onboard computers remain in museums or private hands. According to computer historians, no one has turned one on in generations."
 collection_cover = "https://jesserieser.brandlew.co/uploads/wsj-apollo-10.jpg"
 collection_cover_mobile = "https://jesserieser.brandlew.co/uploads/verticalcovers-20.jpg"
@@ -24,7 +24,6 @@ title = "The Wall Street Journal"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F2DAF4"
 image = "https://jesserieser.brandlew.co/uploads/wsj-apollo-1.jpg"
 margin_left = "25%"
@@ -39,7 +38,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#D8F4F3"
 image = "https://jesserieser.brandlew.co/uploads/wsj-apollo-3.jpg"
 margin_left = "10%"
@@ -50,7 +48,6 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FFEBC3"
 image = "https://jesserieser.brandlew.co/uploads/wsj-apollo-2.jpg"
 margin_left = ""
@@ -65,7 +62,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#DDD6E7"
 image = "https://jesserieser.brandlew.co/uploads/wsj-apollo-4.jpg"
 margin_left = "20%"
@@ -79,7 +75,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E6E9F1"
 image = "https://jesserieser.brandlew.co/uploads/wsj-apollo-5.jpg"
 margin_left = ""
@@ -90,7 +85,6 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F2EBD8"
 image = "https://jesserieser.brandlew.co/uploads/wsj-apollo-6.jpg"
 margin_right = "15%"
@@ -104,7 +98,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FFE0BA"
 image = "https://jesserieser.brandlew.co/uploads/wsj-apollo-7.jpg"
 margin_left = "40%"
@@ -119,7 +112,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#EAECEC"
 image = "https://jesserieser.brandlew.co/uploads/wsj-apollo-8.jpg"
 margin_left = "5%"
@@ -134,7 +126,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FFD195"
 image = "https://jesserieser.brandlew.co/uploads/wsj-apollo-9.jpg"
 margin_left = "10%"
@@ -144,7 +135,6 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F8F6EE"
 image = "https://jesserieser.brandlew.co/uploads/wsj-apollo-10.jpg"
 margin_left = ""
@@ -159,7 +149,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#efefef"
 image = "https://jesserieser.brandlew.co/uploads/wsj-apollo-11.jpg"
 margin_left = "35%"
@@ -173,7 +162,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E3F0E7"
 image = "https://jesserieser.brandlew.co/uploads/wsj-apollo-12.jpg"
 margin_left = ""
@@ -184,7 +172,6 @@ width = "50"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E7EBF0"
 image = "https://jesserieser.brandlew.co/uploads/wsj-apollo-13.jpg"
 margin_left = "10%"
@@ -203,7 +190,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FAF3E7"
 image = "https://jesserieser.brandlew.co/uploads/wsj-apollo-14.jpg"
 margin_left = "25%"
