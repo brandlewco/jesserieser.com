@@ -232,9 +232,9 @@ page_sections:
   text_color: ''
   text_size: 6xl
   text_alignment: ''
-  text_tracking: ''
-  font_weight: ''
-  line_height: ''
+  text_tracking: normal
+  font_weight: normal
+  line_height: none
   title_margin_y: 20%
 - template: block-media-row
   block: media-row
