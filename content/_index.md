@@ -451,7 +451,7 @@ selected_works_theme:
   theme_color: "#F4D8BE"
 - template: selected-works-theme
   image: https://jesserieser.brandlew.co/uploads/selected_featured-2.jpg
-  theme_color: "#DCF7C0"
+  theme_color: "#CBEFA7"
 - template: selected-works-theme
   image: https://jesserieser.brandlew.co/uploads/selected_featured-3.jpg
   theme_color: "#FF6766"
