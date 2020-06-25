@@ -2,13 +2,13 @@
 attached_gallery = "gallery/time.md"
 collection_archive = false
 collection_awards = []
-collection_category = ["Travel", "Environments", "Portraits", "Environments", "Travel", "Color", "Reportage", "Editorial"]
+collection_category = ["Workplace", "Travel", "Environments", "Portraits", "Environments", "Travel", "Color", "Reportage", "Editorial"]
 collection_content = "“_As Grand Canyon National Park Turns 100, Its’ Chief Ranger Plans for the Next Century_.” These new works pay homage to American Romanticism and celebrate the west as I photograph head ranger Mathew Vandzura at Grandeur Point on the South Rim as a nod to Teddy Roosevelt’s legacy of conservation.\n\nVandzura talks at length about modernizing an ancient natural wonder, the park system’s responsibility to the public, the recent government shutdown, and exploring every possible option before limiting visitation to the 6.4 million annual park-goers.\n\nInterview by Lily Rothman, assigned by Kim Bubello."
 collection_cover = "https://jesserieser.brandlew.co/uploads/timeGC-5.jpg"
 collection_cover_mobile = "https://jesserieser.brandlew.co/uploads/verticalcovers-10.jpg"
 collection_description = "_“As Grand Canyon National Park Turns 100, Its’ Chief Ranger Plans for the Next Century.”_ A nod to Teddy Roosevelt’s legacy of conservation, these works pay homage to American Romanticism as I photograph head ranger Mathew Vandzura in the historic Kolb House and South Rim."
 collection_exhibition = []
-collection_filter = ""
+collection_filter = "Commissioned + Stock"
 collection_hidden = false
 collection_meta = "Grand Canyon 100th Anniversary "
 collection_press = []
@@ -26,7 +26,6 @@ title = "Time Magazine"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#C2A282"
 image = "https://jesserieser.brandlew.co/uploads/timeGC-1b.jpg"
 margin_left = "20%"
@@ -41,7 +40,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#DFEBEF"
 image = "https://jesserieser.brandlew.co/uploads/timeGC-2.jpg"
 margin_left = "10%"
@@ -65,7 +63,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#D8A6C7"
 image = "https://jesserieser.brandlew.co/uploads/timeGC-4.jpg"
 margin_left = "40%"
@@ -80,7 +77,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#EEDDDD"
 image = "https://jesserieser.brandlew.co/uploads/timeGC-5.jpg"
 margin_left = "25%"
@@ -94,7 +90,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F1B88C"
 image = "https://jesserieser.brandlew.co/uploads/timeGC-6.jpg"
 margin_left = "10%"
@@ -104,7 +99,6 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#CFC78C"
 image = "https://jesserieser.brandlew.co/uploads/timeGC-7.jpg"
 margin_right = "10%"
@@ -118,7 +112,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#C6A5C1"
 image = "https://jesserieser.brandlew.co/uploads/timeGC-8.jpg"
 margin_left = "5%"
@@ -133,7 +126,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#D4E8FF"
 image = "https://jesserieser.brandlew.co/uploads/timeGC-9.jpg"
 margin_left = "10%"
@@ -143,7 +135,6 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FAE386"
 image = "https://jesserieser.brandlew.co/uploads/timeGC-10.jpg"
 margin_left = ""
@@ -158,7 +149,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#EED8CA"
 image = "https://jesserieser.brandlew.co/uploads/timeGC-11.jpg"
 margin_left = "15%"
@@ -173,7 +163,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E5DCD0"
 image = "https://jesserieser.brandlew.co/uploads/timeGC-12.jpg"
 margin_left = "60%"
@@ -211,7 +200,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#D2A872"
 image = "https://jesserieser.brandlew.co/uploads/timeGC-14.jpg"
 margin_left = "5%"
@@ -226,7 +214,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#EED4C4"
 image = "https://jesserieser.brandlew.co/uploads/timeGC-3.jpg"
 margin_left = "10%"
@@ -237,7 +224,6 @@ width = "25"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#CFB699"
 image = "https://jesserieser.brandlew.co/uploads/timeGC-15.jpg"
 margin_right = "25%"
@@ -251,7 +237,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#EFDEC3"
 image = "https://jesserieser.brandlew.co/uploads/timeGC-16.jpg"
 margin_left = "20%"
