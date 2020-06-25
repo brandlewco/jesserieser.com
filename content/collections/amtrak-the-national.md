@@ -1,7 +1,7 @@
 +++
 collection_archive = false
 collection_awards = []
-collection_category = ["Portraits", "Environments", "Travel", "Reportage", "Color", "Uniquely American"]
+collection_category = ["Exhibited Works ", "Editorial", "Portraits", "Environments", "Travel", "Reportage", "Color", "Uniquely American"]
 collection_content = ""
 collection_cover = "https://jesserieser.brandlew.co/uploads/ttx-4.jpg"
 collection_cover_mobile = "https://jesserieser.brandlew.co/uploads/verticalcovers-17.jpg"
@@ -26,7 +26,6 @@ title = "Amtrak The National"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#C5D7D0"
 image = "https://jesserieser.brandlew.co/uploads/ttx-1.jpg"
 margin_left = "20%"
@@ -41,7 +40,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F2D7A2"
 image = "https://jesserieser.brandlew.co/uploads/ttx-2.jpg"
 margin_left = "5%"
@@ -51,7 +49,6 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E1572A"
 image = "https://jesserieser.brandlew.co/uploads/ttx-3.jpg"
 margin_left = ""
@@ -66,7 +63,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E0C5B7"
 image = "https://jesserieser.brandlew.co/uploads/ttx-4.jpg"
 margin_left = "15%"
@@ -81,7 +77,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#C6D6E0"
 image = "https://jesserieser.brandlew.co/uploads/ttx-5.jpg"
 margin_left = "25%"
@@ -120,7 +115,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F2EBD5"
 image = "https://jesserieser.brandlew.co/uploads/ttx-7.jpg"
 margin_left = "15%"
@@ -131,7 +125,6 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#EE2A2A"
 image = "https://jesserieser.brandlew.co/uploads/ttx-8.jpg"
 margin_right = "10%"
@@ -145,7 +138,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#C3DDEE"
 image = "https://jesserieser.brandlew.co/uploads/ttx-9.jpg"
 margin_left = "0%"
@@ -156,7 +148,6 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F2E2CD"
 image = "https://jesserieser.brandlew.co/uploads/ttx-10.jpg"
 margin_right = "10%"
@@ -170,7 +161,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#C9D378"
 image = "https://jesserieser.brandlew.co/uploads/ttx-12.jpg"
 margin_left = "20%"
@@ -184,7 +174,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#0089BC"
 image = "https://jesserieser.brandlew.co/uploads/ttx-11.jpg"
 margin_left = "55%"
@@ -199,7 +188,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#C9E7F8"
 image = "https://jesserieser.brandlew.co/uploads/ttx-13.jpg"
 margin_left = "25%"
@@ -214,7 +202,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#6B5A68"
 image = "https://jesserieser.brandlew.co/uploads/ttx-14.jpg"
 margin_left = "5%"
@@ -225,7 +212,6 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#DDB187"
 image = "https://jesserieser.brandlew.co/uploads/ttx-15.jpg"
 margin_left = ""
@@ -240,7 +226,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#80B6C4"
 image = "https://jesserieser.brandlew.co/uploads/ttx-16.jpg"
 margin_left = "20%"
@@ -255,7 +240,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#CC8571"
 image = "https://jesserieser.brandlew.co/uploads/ttx-17.jpg"
 margin_left = "10%"
@@ -265,7 +249,6 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#6A3E4B"
 image = "https://jesserieser.brandlew.co/uploads/ttx-18.jpg"
 margin_left = ""
@@ -280,7 +263,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#CA8660"
 image = "https://jesserieser.brandlew.co/uploads/ttx-19.jpg"
 margin_left = "30%"
@@ -294,7 +276,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#B2B6A7"
 image = "https://jesserieser.brandlew.co/uploads/ttx-20.jpg"
 margin_left = "10%"
@@ -305,7 +286,6 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#A2C6CB"
 image = "https://jesserieser.brandlew.co/uploads/ttx-21.jpg"
 margin_right = "5%"
@@ -319,7 +299,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F8E8D8"
 image = "https://jesserieser.brandlew.co/uploads/ttx-22.jpg"
 margin_left = "20%"

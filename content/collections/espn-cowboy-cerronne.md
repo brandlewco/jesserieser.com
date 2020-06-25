@@ -1,7 +1,7 @@
 +++
 collection_archive = false
 collection_awards = []
-collection_category = ["Still Life + Details", "Sports + Athletes", "Studio ", "Editorial", "Color"]
+collection_category = ["Portraits", "Kids", "Still Life + Details", "Sports + Athletes", "Studio ", "Editorial", "Color"]
 collection_content = "“Disemboweled by an ATV, head butted by a horse: The painful stories behind Donald Cerrone’s injuries.” ⁠⠀  \n⁠⠀  \nAhead of UFC 246 welterweight bout at the T Mobile Arena in Las Vegas, I headed out to Edgewood, NM to visit with Donald “Cowboy” Ceronne at his BMF (Bad Mother Fucker) ranch + gym.  \n⁠⠀  \nAs he faced off against the sport’s most popular and recognizable personality in Conor McGregor, Ceronne is a fighter’s fighter, holding the sports all time record of wins, bouts, and fights finished. He appeared calm, gracious, funny, and at peace with this stage of his career and the “biggest fight of his life.” ⁠⠀  \n⁠⠀  \nConceptually my goal was to create a portfolio of intimate portraits paired with studies of Cowboy’s injuries- tightly framed and appearing larger than life as abstractions of an anatomical landscape. It was an unexpected bonus that his 18 month old son “Danger” wanted to be a part of the project. His involvement and embrace with his father nicely bridges the gap between the landscape-like injury studies and portraits, leaving the viewer with a sense of intimate masculinity.⠀"
 collection_cover = "https://jesserieser.brandlew.co/uploads/cowboy-6.jpg"
 collection_cover_mobile = "https://jesserieser.brandlew.co/uploads/verticalcovers-16.jpg"
@@ -23,7 +23,6 @@ title = "ESPN"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F1B784"
 image = "https://jesserieser.brandlew.co/uploads/cowboy-1.jpg"
 margin_left = "35%"
@@ -34,7 +33,6 @@ width = "60"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FCDDBA"
 image = "https://jesserieser.brandlew.co/uploads/cowboy-2.jpg"
 margin_left = "20%"
@@ -44,7 +42,6 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#DEB08E"
 image = "https://jesserieser.brandlew.co/uploads/cowboy-5.jpg"
 margin_left = "0%"
@@ -55,7 +52,6 @@ width = "25"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#B69565"
 image = "https://jesserieser.brandlew.co/uploads/cowboy-4.jpg"
 margin_left = "10%"
@@ -66,7 +62,6 @@ width = "50"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#B47D64"
 image = "https://jesserieser.brandlew.co/uploads/cowboy-3.jpg"
 margin_left = "25%"
@@ -85,7 +80,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#9F7769"
 image = "https://jesserieser.brandlew.co/uploads/cowboy-6.jpg"
 margin_left = "15%"
@@ -96,7 +90,6 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#663C2B"
 image = "https://jesserieser.brandlew.co/uploads/cowboy-7.jpg"
 margin_left = ""
@@ -111,7 +104,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E98A74"
 image = "https://jesserieser.brandlew.co/uploads/cowboy-8.jpg"
 margin_left = "20%"
@@ -126,7 +118,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#ECBE9C"
 image = "https://jesserieser.brandlew.co/uploads/cowboy-9.jpg"
 margin_left = "5%"
@@ -136,7 +127,6 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#866254"
 image = "https://jesserieser.brandlew.co/uploads/cowboy-10.jpg"
 margin_left = ""
@@ -151,7 +141,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#42312D"
 image = "https://jesserieser.brandlew.co/uploads/cowboy-11.jpg"
 margin_left = "30%"
@@ -165,7 +154,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F1D0B6"
 image = "https://jesserieser.brandlew.co/uploads/cowboy-12.jpg"
 margin_left = "5%"
@@ -176,7 +164,6 @@ width = "50"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#D1513A"
 image = "https://jesserieser.brandlew.co/uploads/cowboy-13.jpg"
 margin_right = "15%"
@@ -186,7 +173,6 @@ width = "20"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#B2805B"
 image = "https://jesserieser.brandlew.co/uploads/cowboy-15.jpg"
 margin_left = "40%"
@@ -197,7 +183,6 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F4DFCC"
 image = "https://jesserieser.brandlew.co/uploads/cowboy-14.jpg"
 margin_left = "30%"
@@ -212,7 +197,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#5A2B21"
 image = "https://jesserieser.brandlew.co/uploads/cowboy-17.jpg"
 margin_left = "10%"
@@ -222,7 +206,6 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#D8875E"
 image = "https://jesserieser.brandlew.co/uploads/cowboy-16.jpg"
 margin_right = "15%"

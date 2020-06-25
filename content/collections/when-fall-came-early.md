@@ -1,6 +1,6 @@
 +++
 collection_archive = true
-collection_category = ["Editorial", "Science", "Reportage", "Travel", "Climate Change", "Color", "Environments", "Color"]
+collection_category = ["Exhibited Works ", "Award Winning", "Editorial", "Science", "Reportage", "Travel", "Climate Change", "Color", "Environments", "Color"]
 collection_content = "Recently the United States experienced its worst drought in more than 50 years. Roughly half the nation, most of the high plains, Midwest and South were in extreme or exceptional drought, the two worst categories. These photographs bear witness to how that drought devastated the Arkansas River Basin.\n\n“This is a study of how climate change is altering the landscape, the backdrop to my childhood, my beloved Ozark Mountains,” Jesse said.\n\nThe drought caused leaves to turn color and drop in mid-July, shriveled corn never to be harvested, and left cattle unable to find food, shade or relief from hot, dusty winds.\n\nThis collection of seven images is poignant, the images simple and stark in their quiet brutality. The photos are a prescient expression of the fear and anger 400,000 people gave voice to in September 2014 during the People’s Climate March in New York City, days before the United Nations climate summit."
 collection_cover = "https://jesserieser.brandlew.co/uploads/fall-2.jpg"
 collection_cover_mobile = "https://jesserieser.brandlew.co/uploads/verticalcovers-31.jpg"
@@ -29,7 +29,6 @@ template = "popup-text-element"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F1CDA5"
 image = "https://jesserieser.brandlew.co/uploads/fall-1.jpg"
 margin_left = "35%"
@@ -44,7 +43,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FF7E69"
 image = "https://jesserieser.brandlew.co/uploads/fall-2.jpg"
 margin_left = "5%"
@@ -54,7 +52,6 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E5F3F0"
 image = "https://jesserieser.brandlew.co/uploads/fall-3.jpg"
 margin_left = ""
@@ -70,7 +67,6 @@ template = "block-media-row"
 align_x = "start"
 align_y = "start"
 block = "media-element"
-
 color = "#EEEBE6"
 image = "https://jesserieser.brandlew.co/uploads/fall-4.jpg"
 margin_left = "30%"
@@ -85,7 +81,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#C6DC87"
 image = "https://jesserieser.brandlew.co/uploads/fall-5.jpg"
 margin_left = "5%"
@@ -96,7 +91,6 @@ width = "45"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FFE29A"
 image = "https://jesserieser.brandlew.co/uploads/fall-6.jpg"
 margin_right = "15%"
@@ -110,7 +104,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F2AE73"
 image = "https://jesserieser.brandlew.co/uploads/fall-7.jpg"
 margin_left = "20%"

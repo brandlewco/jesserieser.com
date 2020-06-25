@@ -2,7 +2,7 @@
 attached_gallery = "gallery/addidas.md"
 collection_archive = true
 collection_awards = []
-collection_category = ["Stock", "Black and White", "Sports + Athletes", "Black and White", "Lifestyle"]
+collection_category = ["Award Winning", "Stock", "Black and White", "Sports + Athletes", "Black and White"]
 collection_content = ""
 collection_cover = "https://jesserieser.brandlew.co/uploads/primeknit-13.jpg"
 collection_cover_mobile = "https://jesserieser.brandlew.co/uploads/verticalcovers-39.jpg"

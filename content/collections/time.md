@@ -2,7 +2,7 @@
 attached_gallery = "gallery/time.md"
 collection_archive = false
 collection_awards = []
-collection_category = ["Workplace", "Travel", "Environments", "Portraits", "Environments", "Travel", "Color", "Reportage", "Editorial"]
+collection_category = ["Exhibited Works ", "Workplace", "Travel", "Environments", "Portraits", "Environments", "Travel", "Color", "Reportage", "Editorial"]
 collection_content = "“_As Grand Canyon National Park Turns 100, Its’ Chief Ranger Plans for the Next Century_.” These new works pay homage to American Romanticism and celebrate the west as I photograph head ranger Mathew Vandzura at Grandeur Point on the South Rim as a nod to Teddy Roosevelt’s legacy of conservation.\n\nVandzura talks at length about modernizing an ancient natural wonder, the park system’s responsibility to the public, the recent government shutdown, and exploring every possible option before limiting visitation to the 6.4 million annual park-goers.\n\nInterview by Lily Rothman, assigned by Kim Bubello."
 collection_cover = "https://jesserieser.brandlew.co/uploads/timeGC-5.jpg"
 collection_cover_mobile = "https://jesserieser.brandlew.co/uploads/verticalcovers-10.jpg"
