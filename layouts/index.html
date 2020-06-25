@@ -18,7 +18,7 @@
   (function(){
     var images = [
       {{- range .Params.selected_works_theme -}}
-      ["{{.image }}?nf_resize=fit&w=1024 1024w, {{.image }}?nf_resize=fit&w=1920 1920w, {{.image }}?nf_resize=fit&w=2560 2560w, {{.image }}","{{.theme_color}}"],
+      ["{{.image_mobile }}?nf_resize=fit&w=1024 1024w, {{.image }}?nf_resize=fit&w=1920 1920w, {{.image }}?nf_resize=fit&w=2560 2560w, {{.image }}","{{.theme_color}}"],
       {{- end -}}
       ]
     var imgCount = images.length;
