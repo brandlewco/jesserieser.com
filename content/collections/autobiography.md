@@ -1,7 +1,7 @@
 +++
 attached_gallery = "gallery/autobiography.md"
 collection_archive = false
-collection_category = ["Still Life + Details", "Black and White", "Lifestyle", "Color", "Reportage", "Portraits", "Environments", "Sports + Athletes"]
+collection_category = ["Award Winning", "Kids", "Black and White", "Lifestyle", "Color", "Reportage", "Portraits", "Environments", "Sports + Athletes"]
 collection_content = "0: The number of times I regret playing high school football.\n\n1: The number of points Sunnyslope High School lost by to keep them from playing in the division III Arizona High School Championship.\n\n2: The approximate number of high school football players who die every year from concussions.\n\n3: The number of years I started varsity football in Missouri.\n\n68: Varsity jersey number.\n\n81: Junior Varsity jersey number.\n\n100: The percent chance my unborn son will not play the game that I miss; the game that I love; the game that made me.\n\nI grew up in Missouri and I was an art-jock. I felt like I was unique—maybe I was—who knows. I received a handful of scholarships, which I considered, but I opted for pursuing my passion for art and photography. I love being a photographer. I still suffer from the effects of playing the game. Some include coping with depression and general panic disorder (my doctor now thinks these are related to my playing days) chronic back and knee pain, two torn thumbs, two torn hamstrings, two shoulder surgeries and a hip surgery. I would never say the pain outweighs the power. The game gave me an understanding of power and restraint.\n\nOver time, I have become more and more leery of passing on my playing legacy, my family’s football heirloom (my grandfather, father, and both my brothers played.) Living with my own physical and mental ailments combined with our better understanding of CTE, my decision to not let my son play the game increasingly crystalized.\n\nAs a farewell, I chose to document the Phoenix based Sunny Slope football program. They are the Sunny Slope Vikings. I was a Parkview Viking. Both mascots depicted with the familiar horns flanking our helmets. We share the same school colors and are nearly identical in socio economic complexion. It was a perfect fit and the closest thing to being home without actually going home.\n\nThere’s a violent beauty at the heart of the sport. These boys wear a costume of manhood, disguised by their strength, speed, and violence which only lasts so long when their childlike joy and rage comes to the surface.\n\nIn New Orleans they have big bands at funerals and in football marching bands announce the euphoria and pain. I imagine football like that: an end, a beginning, and a celebration all wrapped up in the light of my nostalgia. Don’t consider this a eulogy. This is a celebration.\n\nTypography treatment by Patricia Pruiss of Sunday Afternoon, interview excerpts from Ian Reed, the Arizona defensive player of the year, and additional text by Demetrius Burns."
 collection_cover = "https://jesserieser.brandlew.co/uploads/autobiography-3.jpg"
 collection_cover_mobile = "https://jesserieser.brandlew.co/uploads/verticalcovers-7.jpg"
@@ -26,7 +26,6 @@ template = "popup-text-element"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#0B0B09"
 image = "https://jesserieser.brandlew.co/uploads/autobiography-1.jpg"
 margin_left = "20%"
@@ -41,7 +40,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#D1D1D1"
 image = "https://jesserieser.brandlew.co/uploads/autobiography-3.jpg"
 margin_left = "5%"
@@ -52,7 +50,6 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FFFFFF"
 image = "https://jesserieser.brandlew.co/uploads/auto-text-1-1.jpg"
 margin_left = ""
@@ -67,7 +64,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#747474"
 image = "https://jesserieser.brandlew.co/uploads/autobiography-4.jpg"
 margin_left = "35%"
@@ -81,7 +77,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E4DEDC"
 image = "https://jesserieser.brandlew.co/uploads/autobiography-5.jpg"
 margin_left = "10%"
@@ -92,7 +87,6 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#C0C0C0"
 image = "https://jesserieser.brandlew.co/uploads/autobiography-6.jpg"
 margin_right = "5%"
@@ -106,7 +100,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#010101"
 image = "https://jesserieser.brandlew.co/uploads/autobiography-7.jpg"
 margin_left = "25%"
@@ -121,7 +114,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#7F7F7F"
 image = "https://jesserieser.brandlew.co/uploads/autobiography-8.jpg"
 margin_left = "5%"
@@ -136,7 +128,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FFFFFF"
 image = "https://jesserieser.brandlew.co/uploads/auto-text-2.jpg"
 margin_left = ""
@@ -146,7 +137,6 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E9E9E9"
 image = "https://jesserieser.brandlew.co/uploads/autobiography-10.jpg"
 margin_left = ""
@@ -161,7 +151,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#D0D0D0"
 image = "https://jesserieser.brandlew.co/uploads/_T0A5314.jpg"
 margin_left = "15%"
@@ -175,7 +164,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F3F2F0"
 image = "https://jesserieser.brandlew.co/uploads/autobiography-12.jpg"
 margin_left = "35%"
@@ -190,7 +178,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#D3D3D3"
 image = "https://jesserieser.brandlew.co/uploads/autobiography-13.jpg"
 margin_left = "10%"
@@ -201,7 +188,6 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#B1B1B1"
 image = "https://jesserieser.brandlew.co/uploads/autobiography-14.jpg"
 margin_left = ""
@@ -216,7 +202,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#C4C4C4"
 image = "https://jesserieser.brandlew.co/uploads/autobiography-15.jpg"
 margin_left = "5%"
@@ -227,7 +212,6 @@ width = "50"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FFFFFF"
 image = "https://jesserieser.brandlew.co/uploads/autobiography-16.jpg"
 margin_y = "300"
@@ -240,7 +224,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#A5A5A5"
 image = "https://jesserieser.brandlew.co/uploads/autobiography-17.jpg"
 margin_left = "25%"
@@ -255,7 +238,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#CCCCCC"
 image = "https://jesserieser.brandlew.co/uploads/autobiography-18.jpg"
 margin_left = "5%"
@@ -265,7 +247,6 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FCFAFB"
 image = "https://jesserieser.brandlew.co/uploads/autobiography-19.jpg"
 margin_left = ""
@@ -280,7 +261,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E6E6E6"
 image = "https://jesserieser.brandlew.co/uploads/autobiography-20.jpg"
 margin_left = "20%"
@@ -295,7 +275,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#2D2D2D"
 image = "https://jesserieser.brandlew.co/uploads/autobiography-21.jpg"
 margin_y = "100"
@@ -304,7 +283,6 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FFFFFF"
 image = "https://jesserieser.brandlew.co/uploads/autobiography-22.jpg"
 margin_left = ""
@@ -319,7 +297,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FFE1D7"
 image = "https://jesserieser.brandlew.co/uploads/autobiography-23.jpg"
 margin_left = "35%"
@@ -333,7 +310,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#D5DAE0"
 image = "https://jesserieser.brandlew.co/uploads/autobiography-24.jpg"
 margin_left = "5%"
@@ -344,7 +320,6 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F0F0F0"
 image = "https://jesserieser.brandlew.co/uploads/autobiography-25.jpg"
 margin_left = ""
@@ -359,7 +334,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#0F0F0F"
 image = "https://jesserieser.brandlew.co/uploads/autobiography-26.jpg"
 margin_left = "10%"
@@ -370,7 +344,6 @@ width = "50"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FFFFFF"
 image = "https://jesserieser.brandlew.co/uploads/autobiography-27.jpg"
 margin_right = ""
@@ -384,7 +357,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#D2D2D2"
 image = "https://jesserieser.brandlew.co/uploads/autobiography-28.jpg"
 margin_left = "5%"
@@ -395,7 +367,6 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F0ECDD"
 image = "https://jesserieser.brandlew.co/uploads/autobiography-29.jpg"
 margin_y = "400"
@@ -408,7 +379,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#C5C5C5"
 image = "https://jesserieser.brandlew.co/uploads/autobiography-31.jpg"
 margin_left = "5%"
@@ -418,7 +388,6 @@ width = "50"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#AAAAAA"
 image = "https://jesserieser.brandlew.co/uploads/autobiography-30.jpg"
 margin_left = ""
@@ -437,7 +406,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#020202"
 image = "https://jesserieser.brandlew.co/uploads/autobiography-32.jpg"
 margin_left = "15%"
@@ -452,7 +420,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FFFFFF"
 image = "https://jesserieser.brandlew.co/uploads/autobiography-33.jpg"
 margin_left = "5%"
@@ -462,7 +429,6 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#BFBFBF"
 image = "https://jesserieser.brandlew.co/uploads/autobiography-34.jpg"
 margin_y = "100"
@@ -475,7 +441,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#EADFD5"
 image = "https://jesserieser.brandlew.co/uploads/autobiography-35.jpg"
 margin_left = "25%"
@@ -489,7 +454,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#EDEBE9"
 image = "https://jesserieser.brandlew.co/uploads/autobiography-36.jpg"
 margin_left = "5%"
@@ -499,7 +463,6 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FFFFFF"
 image = "https://jesserieser.brandlew.co/uploads/autobiography-37.jpg"
 margin_right = "10%"
@@ -513,7 +476,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#EAF1CA"
 image = "https://jesserieser.brandlew.co/uploads/autobiography-38.jpg"
 margin_left = "40%"
@@ -528,7 +490,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FEECB4"
 image = "https://jesserieser.brandlew.co/uploads/autobiography-39.jpg"
 margin_left = "20%"
@@ -542,7 +503,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FCFBF9"
 image = "https://jesserieser.brandlew.co/uploads/autobiography-40.jpg"
 margin_left = "5%"
@@ -553,7 +513,6 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FFFFFF"
 image = "https://jesserieser.brandlew.co/uploads/autobiography-41.jpg"
 margin_left = ""
@@ -568,7 +527,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#0A0A0A"
 image = "https://jesserieser.brandlew.co/uploads/autobiography-42.jpg"
 margin_left = "20%"
@@ -583,7 +541,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#EDE4E6"
 image = "https://jesserieser.brandlew.co/uploads/autobiography-43.jpg"
 margin_left = "10%"
@@ -594,7 +551,6 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#ABABAB"
 image = "https://jesserieser.brandlew.co/uploads/autobiography-44.jpg"
 margin_right = "5%"
@@ -608,7 +564,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#4F4F4F"
 image = "https://jesserieser.brandlew.co/uploads/autobiography-45.jpg"
 margin_left = "25%"
@@ -622,7 +577,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#0B0B0B"
 image = "https://jesserieser.brandlew.co/uploads/autobiography-46.jpg"
 margin_left = "55%"
@@ -636,7 +590,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#9F9F9F"
 image = "https://jesserieser.brandlew.co/uploads/autobiography-47.jpg"
 margin_left = "20%"
