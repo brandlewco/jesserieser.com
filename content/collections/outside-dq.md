@@ -1,7 +1,7 @@
 +++
 collection_archive = false
 collection_awards = []
-collection_category = ["Portraits", "Environments", "Travel", "Reportage", "Color", "Uniquely American"]
+collection_category = ["Sports + Athletes", "Editorial", "Portraits", "Environments", "Travel", "Reportage", "Color", "Uniquely American"]
 collection_content = "For the latest issue of _Outside Magazine_, I photographed travel, nature, conservation, and science writer David Quammen. Quammen’s 200+ editorial works have appeared in _National Geographic_, _Harper’s_, _The Atlantic_, _Rolling Stone_, _The New York Times_, and for 15 years penned a monthly column “Natural Acts” for _Outside Magazine_. We met up last fall for a round of golf while he was researching for his 16 book.\n\n“Golf is a concept, like death, seldom contemplated by the young” DQ opens with. Here Quammen touches on the beauty and merit of the game, the obvious irony of an environmentalist taking to the links, the history of golf courses in the landscape, and the lengths that contemporary courses are taking to be environmentally mindful.\n\nOn the course we talked about game 7 of the 2019 World Series, our shared love for golf, Bozeman winters, mutual friends at _National Geographic_, both growing up in the Midwest, and my anxieties of what I may see in my lifetime due to climate change. A version of those anxieties are on display today as we navigate a new world and reality. Quammen also specializes in research on animal to human disease transmission and the author of _Spillover: Animal Infections and the Next Human Pandemic_, _Ebola: The Natural and Human History of a Deadly Virus_, and is currently offering his insights on COVID-19 to _NPR_, _Orion_, _The New York Times_, _The Hill_, and _Scientific American_."
 collection_cover = "https://jesserieser.brandlew.co/uploads/dq-outside-3.jpg"
 collection_cover_mobile = "https://jesserieser.brandlew.co/uploads/verticalcovers-30.jpg"
@@ -25,7 +25,6 @@ title = "Outside Magazine"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F6F4EB"
 image = "https://jesserieser.brandlew.co/uploads/dq-outside-1.jpg"
 margin_left = "10%"
@@ -40,7 +39,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FDE1DA"
 image = "https://jesserieser.brandlew.co/uploads/dq-outside-3.jpg"
 margin_left = "10%"
@@ -51,7 +49,6 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E2ECD5"
 image = "https://jesserieser.brandlew.co/uploads/dq-outside-2.jpg"
 margin_left = ""
@@ -66,7 +63,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FFE5D1"
 image = "https://jesserieser.brandlew.co/uploads/dq-outside-4.jpg"
 margin_left = "20%"
@@ -80,7 +76,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E7EBC7"
 image = "https://jesserieser.brandlew.co/uploads/dq-outside-5.jpg"
 margin_left = "10%"
@@ -91,7 +86,6 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E0EAEF"
 image = "https://jesserieser.brandlew.co/uploads/dq-outside-6.jpg"
 margin_right = "20%"
@@ -105,7 +99,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F1E3E4"
 image = "https://jesserieser.brandlew.co/uploads/dq-outside-7.jpg"
 margin_left = "20%"
@@ -120,7 +113,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#EAE2D6"
 image = "https://jesserieser.brandlew.co/uploads/dq-outside-8.jpg"
 margin_left = "30%"
