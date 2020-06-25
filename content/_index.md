@@ -453,8 +453,8 @@ selected_works_theme:
   image: https://jesserieser.brandlew.co/uploads/swchief-8.jpg
   theme_color: "#D7E6ED"
 - template: selected-works-theme
-  image: https://jesserieser.brandlew.co/uploads/xmas-6.jpg
-  theme_color: "#9DE3D9"
+  image: https://jesserieser.brandlew.co/uploads/rieser_phx-HI-1.jpg
+  theme_color: "#FF6766"
 
 ---
 ## Click the collections link above to preview collections.
