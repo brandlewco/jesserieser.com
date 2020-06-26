@@ -1,7 +1,7 @@
 
 {{ $fileName := path.Base .Section.image | replaceRE "(.doc|.jpeg|.jpg)" ""}}
 <!-- <section class="block-media-1 block-hover flex flex-row {{with .Section.row_alignment}}sm:justify-{{.}}{{else}}sm:justify-between{{end}} mx-auto h-auto"> -->
-  <figure class="block-static {{with .Section.width}}sm:w-{{.}}/100{{else}}w-full{{end}} h-auto p-2" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" >
+  <figure class="block-static {{with .Section.width}}w-{{.}}/100{{else}}w-full{{end}} h-auto p-1 smp-2" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" >
     <div class="h-full w-full" {{with .color}}style="background-color: {{.}};"{{end}}>
       <img class="lazyload-delay object-cover h-full" data-src="{{ .Section.image }}?nf_resize=fit&h=1440" alt="{{ .Section.caption }}" />
     </div>
