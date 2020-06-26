@@ -70,11 +70,11 @@
 <!-- https://codepen.io/kimpetersend1/pen/LajgaW -->
 {{$attached := $key.Params.attached_collection}}
 {{with $attached}}
-<section class="mt-16 sm:mt-16" style="color: {{$key.Params.theme_color}};">
+<section class="mt-16 sm:mt-16 text-black">
   <a href="/{{ substr . 0 -3}}" alt="view collection" data-no-swup>
-      <div class="mx-auto w-full mt-32 text-center font-light"  data-sal="slide-down" data-sal-delay="300">
+      <div class="mx-auto w-full mt-16 mb-8 text-center font-light"  data-sal="slide-down" data-sal-delay="300">
           <!-- <p class="text-5xl font-hairline" style="line-height: 0.4;">&#8963;</p> -->
-          <p class="text-md sm:text-xl font-light">View Full Collection</p>
+          <p class="text-md sm:text-xl font-light">View Full Project</p>
       </div>
   </a>
 </section>
