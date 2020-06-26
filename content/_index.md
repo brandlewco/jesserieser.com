@@ -117,7 +117,7 @@ page_sections:
   row_alignment: ''
 - template: block-modal-blog
   block: modal-blog
-  attached_blog: posts/the-changing-landscape-of-american-retail-1.md
+  attached_blog: posts/star-geezers-on-boooooom.md
   width: '20'
   align_y: start
   margin_y: '100'
@@ -449,12 +449,15 @@ selected_works_theme:
 - template: selected-works-theme
   image: https://jesserieser.brandlew.co/uploads/selected_featured-1.jpg
   theme_color: "#F4D8BE"
+  image_mobile: ''
 - template: selected-works-theme
   image: https://jesserieser.brandlew.co/uploads/selected_featured-2.jpg
   theme_color: "#CBEFA7"
+  image_mobile: ''
 - template: selected-works-theme
   image: https://jesserieser.brandlew.co/uploads/selected_featured-3.jpg
   theme_color: "#FF6766"
+  image_mobile: ''
 
 ---
 ## Click the collections link above to preview collections.
