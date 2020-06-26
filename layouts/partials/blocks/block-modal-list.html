@@ -27,7 +27,7 @@
     {{- range .Section.modal_block -}}
       {{if .icon}}
       <article class="w-1/2 h-32 flex sm:w-1/5 px-4 py-3 justify-center">
-        <img src="{{ .icon }}" class="w-full sm:w-66/100 object-contain" alt="{{.content | safeHTMLAttr  }}">
+        <img src="{{ .icon }}" class="w-full sm:w-66/100 object-contain" alt="{{.content | htmlUnescape }}">
       </article>
       {{else}}
       <article class="w-full sm:w-1/3 px-4 py-3">

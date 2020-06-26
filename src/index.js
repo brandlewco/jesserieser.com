@@ -59,6 +59,8 @@ function init() {
   // const documentScrollTop = document.documentElement.scrollTop;
   // console.log(documentScrollTop);
 
+  swup.preloadPages();
+
   function setDocHeight() {
     document.documentElement.style.setProperty("--vh", `${window.innerHeight / 100}px`);
   }
@@ -443,7 +445,6 @@ function init() {
       var gallery_scroller_size = gallery_scroller.clientWidth;
       var gallery_prev = paginatedGallery.querySelector(".prev");
       var gallery_next = paginatedGallery.querySelector(".next");
-      console.log(gallery_scroller_size);
       gallery_prev.addEventListener("click", () => {
         gallery_scroller.scrollBy({
           top: 0,
@@ -498,6 +499,13 @@ function init() {
       popupModal.style.visibility = "hidden";
       popupModal.classList.remove("is--visible");
       scrollUnlock();
+    });
+
+    popupModal.querySelector(".exit-modal").addEventListener("click", () => {
+      navigation.style.opacity = 1;
+      navigation.style.display = "block";
+      scrollUnlock();
+      swup.scrollTo(document.body, 0);
     });
 
     document.addEventListener("keyup", function(event) {

@@ -148,6 +148,10 @@ html.is-animating .transition-nav {
   transition: 0.33s all ease-in-out;
 }
 
+.hue-header-inner {
+  overflow-y: hidden !important;
+}
+
 button:hover {
   text-shadow: 0 0 0.01px black;
 }
