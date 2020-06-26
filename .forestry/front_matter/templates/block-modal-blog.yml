@@ -34,6 +34,8 @@ fields:
     - 16x9
     - 4x3
     - 3x4
+    - 2x3
+    - 3x2
     source:
       type: simple
       section: 
