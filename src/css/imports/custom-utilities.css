@@ -31,6 +31,9 @@ html::-webkit-scrollbar-thumb, .scrollbar::-webkit-scrollbar-thumb {
 p {
   @apply mb-4 !important;
 }
+.figure p {
+  @apply mb-0 !important;
+}
 p:empty {
   margin-bottom: 0px !important;
 }
