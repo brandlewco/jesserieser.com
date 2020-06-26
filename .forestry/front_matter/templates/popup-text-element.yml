@@ -16,8 +16,13 @@ fields:
 - name: icon
   type: file
   config:
-    maxSize: 250
+    maxSize: 64
   label: Icon
+- name: icon_title
+  type: text
+  config:
+    required: false
+  label: Icon Title
 - name: url
   type: text
   config:
