@@ -117,7 +117,7 @@ page_sections:
   row_alignment: ''
 - template: block-modal-blog
   block: modal-blog
-  attached_blog: posts/star-geezers-on-boooooom.md
+  attached_blog: posts/the-changing-landscape-of-american-retail-1.md
   width: '20'
   align_y: start
   margin_y: '100'
