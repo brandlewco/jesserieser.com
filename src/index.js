@@ -280,7 +280,7 @@ function init() {
           fullscreenEl: false,
           zoomEl: false,
           shareEl: false,
-          indexIndicatorSep: " / ",
+          indexIndicatorSep: "/",
           loop: true,
 
         };
