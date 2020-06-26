@@ -25,9 +25,9 @@
   </header>
   <section class="flex flex-wrap mt-32 w-100 overflow-y-scroll scrollbar px-12 sm:px-40">
     {{- range .Section.modal_block -}}
-      {{with .icon}}
+      {{if .icon}}
       <article class="w-1/2 h-32 flex sm:w-1/5 px-4 py-3 justify-center">
-        <img src="{{.}}" class="w-full sm:w-66/100 object-contain">
+        <img src="{{ .icon }}" class="w-full sm:w-66/100 object-contain" alt="{{.content | safeHTMLAttr  }}">
       </article>
       {{else}}
       <article class="w-full sm:w-1/3 px-4 py-3">
