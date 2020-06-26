@@ -295,19 +295,16 @@ a.pswp__share--download:hover {
 }
 
 .info {
-  opacity: 1;
+  opacity: 1 !important;
   transition: opacity 0.1s linear;
 }
 
 .caption:empty + .info {
-  opacity: 0;
+  opacity: 0 !important;
 }
 
-.pswp__caption:hover {
-  /* cursor: help; */
-  .caption {
-    opacity: 1;
-  }
+.pswp__caption:hover .caption {
+    opacity: 1 !important;
 }
 
 /* .pswp__caption small {

@@ -177,14 +177,14 @@
   overflow: hidden;
 }
 
-/* .pswp.pswp--animated-in .pswp__item {
+.pswp.pswp--animated-in .pswp__item {
   opacity: 0;
-  transition: opacity 0.66s ease-in-out;
+  transition: opacity 0.15s ease-in-out;
 }
 
 .pswp.pswp--animated-in .pswp__item.active-wrapper {
   opacity: 1;
-} */
+}
 
 .pswp.pswp--animated-in .pswp__item .pswp__img {
   transition: transform 0.50s ease-in-out;
