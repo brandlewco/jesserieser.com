@@ -34,12 +34,15 @@ fields:
     - 16x9
     - 4x3
     - 3x4
+    - 2x3
+    - 3x2
     source:
       type: simple
       section: 
       file: 
       path: 
   label: Block Aspect Ratio
+  hidden: true
 - name: title
   type: text
   config:

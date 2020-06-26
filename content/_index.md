@@ -449,12 +449,15 @@ selected_works_theme:
 - template: selected-works-theme
   image: https://jesserieser.brandlew.co/uploads/selected_featured-1.jpg
   theme_color: "#F4D8BE"
+  image_mobile: ''
 - template: selected-works-theme
   image: https://jesserieser.brandlew.co/uploads/selected_featured-2.jpg
   theme_color: "#CBEFA7"
+  image_mobile: ''
 - template: selected-works-theme
   image: https://jesserieser.brandlew.co/uploads/selected_featured-3.jpg
   theme_color: "#FF6766"
+  image_mobile: ''
 
 ---
 ## Click the collections link above to preview collections.
