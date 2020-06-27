@@ -433,8 +433,12 @@ figcaption p {
     opacity: 1 !important;
   }
 
-  .figure.figure-blog-cover.dimmed img, .figure.figure-blog-cover.dimmed h1 {
+  .figure.figure-blog-cover.dimmed img {
     opacity: 0 !important;
+  }
+  
+  .figure.figure-blog-cover.dimmed h1,  .figure.figure-blog-cover.dimmed h2 {
+    opacity: 1 !important;
   }
 
   .figure.figure-blog-cover.dimmed:hover img {
