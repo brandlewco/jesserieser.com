@@ -435,32 +435,6 @@ function init() {
   }
   removeActive();
 
-  // Paginated Gallery Function
-  // function initPaginatedGallery(selector) {
-  //   lazyloadToggle();
-  //   var paginatedGallery = selector.querySelector(".paginated_gallery");
-  //   if (paginatedGallery) {
-  //     var gallery_scroller = paginatedGallery.querySelector(".gallery_scroller");
-  //     var gallery_scroller_size = gallery_scroller.clientWidth;
-  //     var gallery_prev = paginatedGallery.querySelector(".prev");
-  //     var gallery_next = paginatedGallery.querySelector(".next");
-  //     gallery_prev.addEventListener("click", () => {
-  //       gallery_scroller.scrollBy({
-  //         top: 0,
-  //         left: -gallery_scroller_size,
-  //         behavior: "smooth"
-  //       });
-  //     });
-  //     gallery_next.addEventListener("click", () => {
-  //       gallery_scroller.scrollBy({
-  //         top: 0,
-  //         left: gallery_scroller_size,
-  //         behavior: "smooth"
-  //       });
-  //     });
-  //   }
-  // }
-
   // Modal
   const modalTriggers = document.querySelectorAll(".popup-trigger");
   modalTriggers.forEach((trigger) => {
@@ -585,8 +559,8 @@ function init() {
   const pageTitle = document.getElementById("page-title");
   const headerOverlay = document.getElementById("header-overlay");
   const featureOverlay = document.getElementById("feature-overlay");
-  // const headerImage = document.getElementById("header-image");
-  // const featureImage = document.getElementById("feature-image");
+  const headerImage = document.getElementById("header-image");
+  const featureImage = document.getElementById("feature-image");
   const height = window.innerHeight;
 
   // Scroll Animations
@@ -596,14 +570,20 @@ function init() {
     // document.documentElement.style.setProperty("--scroll-y", `${window.scrollY}px`);
     var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
     const windowY = window.scrollY;
-
-
-    // if (headerImage) {
-    //   headerImage.style.opacity = value_limit(1 - (scrollTop / (height * 0.35)), 0, 1).toFixed(2);
-    // }
-    // if (featureImage) {
-    //   featureImage.style.opacity = value_limit(1 - (scrollTop / (height * 0.9)), 0, 1).toFixed(2);
-    // }
+    if (headerImage) {
+      if (windowY > (window.innerHeight)) {
+        headerImage.style.opacity = 0;
+      } else {
+        headerImage.style.opacity = 1;
+      }
+    }
+    if (featureImage) {
+      if (windowY > (window.innerHeight)) {
+        featureImage.style.opacity = 0;
+      } else {
+        featureImage.style.opacity = 1;
+      }
+    }
     if (headerOverlay) {
       headerOverlay.style.opacity = value_limit((scrollTop / (height * 0.4)), 0, 1).toFixed(2);
     }

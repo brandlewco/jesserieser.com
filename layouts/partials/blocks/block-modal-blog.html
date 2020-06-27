@@ -26,10 +26,13 @@
           <path d="M254.7 8.1L247 .4 127.5 119.8 8.1.4.4 8.1l119.4 119.4L.4 247l7.7 7.7 119.4-119.5L247 254.7l7.7-7.7-119.5-119.5z" style="fill: #000" class="arrow-down"/>
         </svg>
     </header>
-    <div class="w-full lazyload relative mt-20">
+    <div class="w-full lazy-gallery lazyload-delay relative mt-20">
         <div class="paginated_gallery gallery">
           <div class="gallery_scroller flex flex-row justify-start items-center carousel" style="transform: translate3d(0,0,0);"
           data-flickity='{ "wrapAround": true, "percentPosition": false, "draggable": ">1", "arrowShape": "m77.59 5.06-5.17-5.21-50 50 50 50 5.17-5.21-44.77-44.81z"}'>
+            <svg class="icon pointer h-8 w-8 m-4 opacity-50 absolute spin" style="top: 50%; left: 50%; margin-top: -1rem; margin-left: -1rem; color: {{$key.Params.theme_color}}">
+                <use xlink:href="#spinner"></use>
+            </svg>
             {{- range $key.Params.blog_slider -}}
             <div class="carousel-cell w-full" style="padding-top: 56.25%;">
               <!-- background-color: {{$key.Params.theme_color}}; -->

@@ -243,6 +243,10 @@ header#project-header img.featured.lazyloaded {
   opacity: 0;
 }
 
+.lazy-gallery.lazyloaded .icon{
+  opacity: 0;
+}
+
 @keyframes r-drop {
   0% {
     mask-position: center 40%;
@@ -436,7 +440,7 @@ figcaption p {
   .figure.figure-blog-cover.dimmed img {
     opacity: 0 !important;
   }
-  
+
   .figure.figure-blog-cover.dimmed h1,  .figure.figure-blog-cover.dimmed h2 {
     opacity: 1 !important;
   }

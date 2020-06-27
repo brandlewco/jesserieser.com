@@ -10,6 +10,9 @@
             {{- end -}}
             </section>
         </div>
+        {{ partial "collection_pager" .}}
+    </section>
+    <section class="mx-auto relative z-100 overflow-y-hidden" data-hue="white">
     {{ partial "collection_footer" .}}
     </section>
     {{ partial "gallery" . }}
