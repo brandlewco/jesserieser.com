@@ -475,13 +475,16 @@ function init() {
       popupModal.classList.remove("is--visible");
       scrollUnlock();
     });
-
-    popupModal.querySelector(".exit-modal").addEventListener("click", () => {
-      navigation.style.opacity = 1;
-      navigation.style.display = "block";
-      scrollUnlock();
-      swup.scrollTo(document.body, 0);
-    });
+    
+    if (popupModal.querySelector(".exit-modal")) {
+      console.log("yeah, it's here");
+      popupModal.querySelector(".exit-modal").addEventListener("click", () => {
+        navigation.style.opacity = 1;
+        navigation.style.display = "block";
+        scrollUnlock();
+        swup.scrollTo(document.body, 0);
+      });
+    }
 
     document.addEventListener("keyup", function(event) {
       if (event.defaultPrevented) {
@@ -570,27 +573,12 @@ function init() {
     // document.documentElement.style.setProperty("--scroll-y", `${window.scrollY}px`);
     var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
     const windowY = window.scrollY;
-    if (headerImage) {
-      if (windowY > (window.innerHeight)) {
-        headerImage.style.opacity = 0;
-      } else {
-        headerImage.style.opacity = 1;
-      }
-    }
-    if (featureImage) {
-      if (windowY > (window.innerHeight)) {
-        featureImage.style.opacity = 0;
-      } else {
-        featureImage.style.opacity = 1;
-      }
-    }
     if (headerOverlay) {
       headerOverlay.style.opacity = value_limit((scrollTop / (height * 0.4)), 0, 1).toFixed(2);
     }
     if (featureOverlay) {
       featureOverlay.style.opacity = value_limit((scrollTop / (height * 0.9)), 0, 1).toFixed(2);
     }
-
     if (projectHeader) {
       if (windowY > (window.innerHeight * 0.75)) {
         if (windowY < scrollPos) {
