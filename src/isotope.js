@@ -15,73 +15,34 @@ const filter = document.getElementById("filter");
 const filterLoading = document.getElementById("filter-loading");
 
 function filterCalc() {
-  filterWrapper.style.transform = "translate3d(0, " + navigationHeight + "px, 0)";
+  filterWrapper.style.top = navigationHeight + "px";
   filterWrapper.style.opacity = 1;
-  console.log(navigationHeight);
 }
 
 filterCalc();
 
 
 imagesLoaded(grid, function() {
-
-  // setTimeout(function() {
-
-  // }, 500);
-
   filter.style.opacity = 1;
   filterLoading.style.opacity = 0;
 
-  var isSafari = !!navigator.userAgent.match(/Version\/[\d\.]+.*Safari/);
-  var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-  var filters = document.getElementById("filter-container");
 
   let scrollPos = 0;
   window.onscroll = function() {
     // document.documentElement.style.setProperty("--scroll-y", `${window.scrollY}px`);
     var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
     const windowY = window.scrollY;
-    if (isSafari && iOS) {
-      if (filterContainer) {
-        if ((scrollTop < scrollPos) || scrollPos < 0) {
-          navigation.style.transform = "translate3d(0, 0, 0)";
-          filterContainer.style.transform = "translate3d(0, 0px, 0)";
-        } else {
-          navigation.style.transform = "translate3d(0, -" + navigationHeight + "px, 0)";
-          filterContainer.style.transform = "translate3d(0, -" + navigationHeight + "px, 0)";
-        }
-      }
-      console.log("safari nobile");
-    } else if (isSafari) {
-      // macos safari
-      // ios safari
-      if (filterContainer) {
-        if ((scrollTop < scrollPos) || scrollPos < 0) {
-          navigation.style.transform = "translate3d(0, 0, 0)";
-          filterContainer.style.transform = "translate3d(0, 0px, 0)";
-          filterContainer.style.top = navigationHeight + "px";
-        } else {
-          navigation.style.transform = "translate3d(0, -" + navigationHeight + "px, 0)";
-          filterContainer.style.transform = "translate3d(0, -" + filterContainer + "px, 0)";
-          filterContainer.style.top = "0px";
-        }
-      }
-      console.log("safari");
-    } else {
-      // ios chrome
-      // macos chrome
-      if (filterContainer) {
-        if ((scrollTop < scrollPos) || scrollPos < 0) {
-          navigation.style.transform = "translate3d(0, 0, 0)";
-          filterContainer.style.transform = "translate3d(0, 0px, 0)";
-        } else {
-          navigation.style.transform = "translate3d(0, -" + navigationHeight + "px, 0)";
-          filterContainer.style.transform = "translate3d(0, -" + navigationHeight + "px, 0)";
-        }
-      }
-      console.log("else");
-    };
-    // console.log("scrollTop", scrollTop, "scrollPos", scrollPos);
+    if (window.scrollY === 0) {
+      navigation.style.transform = "translate3d(0, 0, 0)";
+      filterContainer.style.transform = "translate3d(0, 0, 0)";
+    }
+    else if (scrollTop < scrollPos && window.scrollY > 1) {
+      navigation.style.transform = "translate3d(0, 0, 0)";
+      filterContainer.style.transform = "translate3d(0," + navigationHeight + "px, 0)";
+    } else if (window.scrollY > 1) {
+      navigation.style.transform = "translate3d(0, -" + navigationHeight + "px, 0)";
+      filterContainer.style.transform = "translate3d(0, 0, 0)";
+    }
     scrollPos = windowY;
   };
 
@@ -353,8 +314,3 @@ imagesLoaded(grid, function() {
     }
   });
 });
-
-// var isSafari = navigator.vendor && navigator.vendor.indexOf('Apple') > -1 &&
-//                navigator.userAgent &&
-//                navigator.userAgent.indexOf('CriOS') == -1 &&
-//                navigator.userAgent.indexOf('FxiOS') == -1;

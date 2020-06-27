@@ -70,13 +70,13 @@ body {
 }
 
 html.is-animating img {
-  opacity: 0;
+  opacity: 0 !important;
 }
 
 .transition-page {
   transition: 0.33s opacity cubic-bezier(0.55, 0.055, 0.675, 0.19);
   transition-delay: 0.33s;
-  opacity: 1;
+  opacity: 1 !important;
 }
 
 body.page-collections .transition-page {
@@ -84,7 +84,7 @@ body.page-collections .transition-page {
 }
 
 html.is-animating .transition-page {
-  opacity: 0;
+  opacity: 0 !important;
 }
 
 html.is-animating #filters,
@@ -115,7 +115,7 @@ html.is-animating .transition-nav {
 } */
 
 #navigation {
-  transition: 0.33s transform ease-in-out, 0.33s opacity ease-in-out 0.15s, 0.66s height ease-in-out;
+  transition: 0.33s transform ease-in-out, 0.33s opacity cubic-bezier(0.55, 0.055, 0.675, 0.19);
   /* height: 68px !important; */
   /* z-index: 999; */
   .navigation-container {
@@ -157,13 +157,13 @@ button:hover {
 }
 
 #filter-container {
-  transition: 0.33s transform ease-in-out, 0.33s opacity ease-in-out 0.33s;
+  transition: 0.33s transform ease-in-out, 0.33s opacity cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
 #filter {
   /* overflow: hidden; */
   /* margin: 0 -0.5rem 0 -0.5rem; */
-  transition: 0.33s opacity cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition: 0.33s transform ease-in-out, 0.33s opacity cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
 @keyframes loading-pulse {

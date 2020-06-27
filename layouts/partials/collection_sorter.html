@@ -3,10 +3,10 @@
       <button id="catToggle" class="toggle text-left tracking-wide font-semibold active self-start">CATEGORIES</button>
       <div id="categories" class="ui-group collapsible flex flex-wrap pt-6 pb-3 opened">
         <!-- <button id="all" class="ui-check button w-1/6 text-left" alt="clear filters">All</button> -->
-        <div class="ui-group filter-categories pb-4 pl-4 pr-2">
+        <div class="ui-group filter-categories pb-4 pl-4 pr-2 sm:pr-0">
           {{range $.Site.Data.categories}}
           {{range sort .categories "value" "asc"}}
-          <button id="{{. | replaceRE "[\\W]" "" | lower}}" class="bold-hover text-black relative ui-check button w-1/8 italic text-left tracking-wide pl-2" data-filter=".{{. | replaceRE "[\\W]" "" | lower}}">{{.}}</button>
+          <button id="{{. | replaceRE "[\\W]" "" | lower}}" class="bold-hover text-black relative ui-check button w-1/7 italic text-left tracking-wide pl-2" data-filter=".{{. | replaceRE "[\\W]" "" | lower}}">{{.}}</button>
           {{end}}
           {{end}}
         </div>
