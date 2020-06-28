@@ -449,15 +449,15 @@ selected_works_theme:
 - template: selected-works-theme
   image: https://jesserieser.brandlew.co/uploads/selected_featured-1.jpg
   theme_color: "#F4D8BE"
-  image_mobile: ''
+  image_mobile: https://jesserieser.brandlew.co/uploads/vertical_featuredworks-1.jpg
 - template: selected-works-theme
   image: https://jesserieser.brandlew.co/uploads/selected_featured-2.jpg
   theme_color: "#CBEFA7"
-  image_mobile: ''
+  image_mobile: https://jesserieser.brandlew.co/uploads/vertical_featuredworks-2.jpg
 - template: selected-works-theme
   image: https://jesserieser.brandlew.co/uploads/selected_featured-3.jpg
   theme_color: "#FF6766"
-  image_mobile: ''
+  image_mobile: https://jesserieser.brandlew.co/uploads/vertical_featuredworks-3.jpg
 
 ---
 ## Click the collections link above to preview collections.
