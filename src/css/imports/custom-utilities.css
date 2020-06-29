@@ -45,11 +45,6 @@ h3 p {
   @apply mb-0 !important;
 }
 
-body.page-collections #navigation {
-  /* position: relative !important; */
-  background-color: rgba(255, 255, 255, 0.95);
-}
-
 body.page-jesse-rieser #menu #nav-selected, body.page-collections #menu #nav-collections, body.page-say-hello #menu #nav-about{
   @apply font-medium tracking-widest;
 }
@@ -120,7 +115,7 @@ html.is-animating .transition-nav {
   /* z-index: 999; */
   .navigation-container {
     background-color: transparent;
-    transition: background-color 0.33s ease-in-out;
+    transition: background-color 0.33s ease-in-out, height 0.33s ease-in-out;
   }
 }
 
@@ -137,7 +132,7 @@ html.is-animating .transition-nav {
     display: flex !important;
   }
   .navigation-container {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.90);
   }
   .shift {
     color: #000 !important;
@@ -395,15 +390,6 @@ figure:hover img {
 .magnify img:hover {
   cursor: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_2' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='30px' height='30px' viewBox='0 0 256 256' style='enable-background:new 0 0 512 512;' xml:space='preserve'%3E %3Cpath  style='enable-background:new 0 0 256 256;' d='m256.19 242.5-70.73-70.84.78-.93a103.82 103.82 0 1 0 -14.89 15l.63-.52 70.76 70.79zm-150.7-49.24a88 88 0 1 1 88-88 87.94 87.94 0 0 1 -88 88z'/%3E %3C/svg%3E"),
     zoom-in;
-}
-
-.block-hover h6 {
-  opacity: 0;
-  transition: 0.33s opacity cubic-bezier(0.55, 0.055, 0.675, 0.19);
-}
-
-.block-hover:hover h6 {
-  opacity: 1;
 }
 
 .figure.figure-blog-cover h1, .figure.figure-blog-cover h2 {
@@ -732,6 +718,14 @@ a.collection-next .arrow {
 
 
 @responsive {
+  .meta-hover h6 {
+  opacity: 0;
+  transition: 0.33s opacity cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+  .meta-hover:hover h6 {
+    opacity: 1;
+  }
   .grid-padding {
     background-color: #ff0000;
     padding: 0 -1rem;

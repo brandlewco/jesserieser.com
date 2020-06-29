@@ -89,8 +89,8 @@ function init() {
 
   // Sal Animations
   var scrollAnimations = sal({
-    once: true,
-    threshold: 0.2,
+    once: false,
+    threshold: 0.15,
   });
 
   // Parellax

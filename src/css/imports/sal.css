@@ -287,6 +287,16 @@ body.sal-disabled [data-sal|="fade"] {
   opacity: 0;
   transition-property: opacity, transform;
 }
+
+[data-sal|="meta"] {
+  opacity: 0;
+  transition-property: opacity;
+}
+[data-sal|="meta"].sal-animate,
+body.sal-disabled [data-sal|="meta"] {
+  opacity: 1;
+}
+
 [data-sal="slide-up"] {
   transform: translateY(20%);
 }
