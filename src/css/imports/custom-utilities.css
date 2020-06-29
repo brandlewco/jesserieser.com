@@ -719,12 +719,13 @@ a.collection-next .arrow {
 
 @responsive {
   .meta-hover h6 {
-  opacity: 0;
+  opacity: 0 !important;
   transition: 0.33s opacity cubic-bezier(0.55, 0.055, 0.675, 0.19);
-}
+  transition-delay: 0s !important;
+  }
 
   .meta-hover:hover h6 {
-    opacity: 1;
+    opacity: 1 !important;
   }
   .grid-padding {
     background-color: #ff0000;
