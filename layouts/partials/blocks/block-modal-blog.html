@@ -4,10 +4,10 @@
     {{with $key.Params.blog_block_cover }}
       <img 
       data-sizes="auto"
-      data-srcset="{{ . }}?nf_resize=fit&h=1440"
+      data-srcset="{{.}}?nf_resize=fit&w=600 600w, {{.}}?nf_resize=fit&w=800 800w, {{.}}?nf_resize=fit&w=1200 1200w"
       class="lazyload bg-center object-cover hidden sm:absolute inset-0 z-0 h-full w-full"
       data-parent-fit="cover"
-      id="header-image"/>
+      id=""/>
     {{end}}
     <div class="absolute top-0 left-0 h-full w-full flex flex-col justify-center p-4 sm:p-2">
         <h1 class="text-2xl sm:text-lg lg:text-2xl opacity-100 sm:opacity-0 font-bold text-center tracking-widest">{{$key.Params.title}}</h1>
@@ -22,9 +22,7 @@
     <header class="fixed top-0 left-0 w-full px-2 sm:px-40 flex flex-row justify-between py-6 z-100 bg-white">
       <div class="text-xl sm:text-2xl uppercase font-medium text-center text-black">JESSE RIESER</div>
         <div class="text-lg sm:text-xl pr-12 sm:pr-0 uppercase font-medium text-center text-black">NEWS: <span class="italic font-normal">{{range $key.Params.news_category}}{{.}}{{end}}</span></div>
-        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="35" height="35" viewBox="0 0 256 256" class="icon pointer h-6 w-6 mt-6 mr-2 sm:m-6 absolute top-0 right-0 text-white popup-modal__close z-999">
-          <path d="M254.7 8.1L247 .4 127.5 119.8 8.1.4.4 8.1l119.4 119.4L.4 247l7.7 7.7 119.4-119.5L247 254.7l7.7-7.7-119.5-119.5z" style="fill: #000" class="arrow-down"/>
-        </svg>
+          <svg width="35" height="35" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class="hover icon pointer h-6 w-6 mt-6 mr-2 sm:m-6 absolute top-0 right-0 text-white popup-modal__close z-999"><g fill="none" stroke="#000"  stroke-miterlimit="10" stroke-width="10"><path d="m4.7 4.7 246.6 246.6"/><path d="m250.85 4.7-246.6 246.6"/></g></svg>
     </header>
     <div class="w-full lazy-gallery lazyload-delay relative mt-20">
         <div class="paginated_gallery gallery">

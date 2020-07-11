@@ -8,8 +8,10 @@
     {{ if eq .Params.collection_archive true }}
     <a href="{{ .RelPermalink }}" class="hidden first" alt="{{ .Title }}" style="max-width: 45vw;">
         <div class="flex flex-row text-left items-center">
-            <div class="arrow text-6xl font-thin pr-4">
-                &#8249;
+            <div class="arrow text-2xl font-thin pr-4">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="25" height="25" viewBox="0 0 256 150" style="transform: rotate(90deg);">
+                    <path d="M242.4 4.5L255.6 17.8 128 145.5 0.4 17.8 13.6 4.5 128 118.9z" style="fill:#000;"class="arrow-down"/>
+                </svg>
             </div>
             <div class="pager-title">
                 <div class="text-lg sm:text-2xl block font-bold font-light">
@@ -37,8 +39,10 @@
     {{else}}
     <a href="{{ .RelPermalink }}" class="hidden" alt="{{ .Title }}" style="max-width: 45vw;">
         <div class="flex flex-row text-left items-center">
-            <div class="arrow text-6xl font-thin pr-4">
-                &#8249;
+            <div class="arrow text-2xl font-thin pr-4">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="25" height="25" viewBox="0 0 256 150" style="transform: rotate(90deg);">
+                    <path d="M242.4 4.5L255.6 17.8 128 145.5 0.4 17.8 13.6 4.5 128 118.9z" style="fill:#000;"class="arrow-down"/>
+                </svg>
             </div>
             <div class="pager-title">
                 <div class="text-lg sm:text-2xl block font-bold font-light">
@@ -66,8 +70,10 @@
     {{else}}
     <a href="{{ .RelPermalink }}" class="hidden archive" alt="{{ .Title }}" style="max-width: 45vw;">
         <div class="flex flex-row text-left items-center">
-            <div class="arrow text-6xl font-thin pr-4">
-                &#8249;
+            <div class="arrow text-2xl font-thin pr-4">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="25" height="25" viewBox="0 0 256 150" style="transform: rotate(90deg);">
+                    <path d="M242.4 4.5L255.6 17.8 128 145.5 0.4 17.8 13.6 4.5 128 118.9z" style="fill:#000;" class="arrow-down"/>
+                </svg>
             </div>
             <div class="pager-title">
                 <div class="text-lg sm:text-2xl block font-bold font-light">
@@ -93,8 +99,10 @@
     {{ if eq .Params.collection_archive false }}
     <a href="{{ .RelPermalink }}" class="hidden" alt="{{ .Title }}" style="max-width: 45vw;">
         <div class="flex flex-row text-left items-center">
-            <div class="arrow text-6xl font-thin pr-4">
-                &#8249;
+            <div class="arrow text-2xl font-thin pr-4">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="25" height="25" viewBox="0 0 256 150" style="transform: rotate(90deg);">
+                    <path d="M242.4 4.5L255.6 17.8 128 145.5 0.4 17.8 13.6 4.5 128 118.9z" style="fill:#000;" class="arrow-down"/>
+                </svg>
             </div>
             <div class="pager-title">
                 <div class="text-lg sm:text-2xl block font-bold font-light">
@@ -113,8 +121,12 @@
     </nav>
 </section>
 <a href="#project-header" alt="back to top" data-no-swup>
-    <div class="mx-auto w-full mt-32 text-center font-light" style="color: {{.Params.theme_color}};"  data-sal="slide-down" data-sal-delay="300">
-        <p class="text-5xl font-hairline" style="line-height: 0.4;">&#8963;</p>
+    <div class="mx-auto w-full mt-32 text-center font-light text-center" style="color: {{.Params.theme_color}};"  data-sal="slide-down" data-sal-delay="300">
+        <div class="text-5xl font-hairline flex flex-row justify-center" style="line-height: 0.4;">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="50" height="50" viewBox="0 0 256 150" style="transform: rotate(180deg);">
+                <path d="M242.4 4.5L255.6 17.8 128 145.5 0.4 17.8 13.6 4.5 128 118.9z" style="fill:{{.Params.theme_color}} ;" class="arrow-down"/>
+            </svg>
+        </div>
         <p class="text-md sm:text-xl font-light">Back to Top</p>
     </div>
 </a>

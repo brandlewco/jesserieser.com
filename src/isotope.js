@@ -38,7 +38,7 @@ imagesLoaded(grid, function() {
     }
     else if (scrollTop < scrollPos && window.scrollY > 1) {
       navigation.style.transform = "translate3d(0, 0, 0)";
-      filterContainer.style.transform = "translate3d(0," + navigationHeight + "px, 0)";
+      filterContainer.style.transform = "translate3d(0," + (navigationHeight - 1) + "px, 0)";
     } else if (window.scrollY > 1) {
       navigation.style.transform = "translate3d(0, -" + navigationHeight + "px, 0)";
       filterContainer.style.transform = "translate3d(0, 0, 0)";

@@ -1,4 +1,7 @@
 {{if (eq .Params.hide_footer true) }}
+<section id="project-brief" style="background-color:{{.Params.theme_color}};">
+{{ partial "universal-footer" .}}
+</section>
 {{else}}
 <section id="project-brief" style="background-color:{{.Params.theme_color}};">
     <div class="mx-auto w-full">
@@ -52,5 +55,6 @@
         </aside>
         {{end}}
       </section>
+      {{ partial "universal-footer" .}}
 </section>
 {{ end }}
