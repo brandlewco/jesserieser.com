@@ -8,3 +8,8 @@
 
 [context.deploy-preview]
   command = "npm run build:preview"
+
+[[redirects]]
+  from = "/projects"
+  to = "/collections/#filter=.personal"
+  status = 301
