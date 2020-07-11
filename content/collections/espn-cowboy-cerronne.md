@@ -19,6 +19,7 @@ logo = ""
 navigation_theme = "white"
 slug = "collections/espn"
 theme_color = "#161518"
+theme_color_all_works = "#F76969"
 title = "ESPN"
 [[collection_layout_builder]]
 align_x = "start"
