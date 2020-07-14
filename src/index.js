@@ -324,6 +324,7 @@ function init() {
         if (disableAnimation) {
           options.showAnimationDuration = 0;
         }
+        
         const galleryClose = document.getElementById("pswp_close");
         galleryClose.addEventListener("click", () => {
           gallery.close();
