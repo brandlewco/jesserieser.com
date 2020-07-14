@@ -10,10 +10,10 @@
         </svg>
             {{with .Params.collection_preview}}
             {{ range first 1 . }}
-            <img data-sizes="auto" data-srcset="{{.}}?nf_resize=fit&w=600&h=450 600w, {{.}}?nf_resize=fit&w=800&h=600 800w, {{.}}?nf_resize=fit&w=1600&h=1200 1600w" class="lazyload absolute top-0 left-0" style="opacity: 000.1;"/>
+            <img data-sizes="auto" data-srcset="{{.}}?nf_resize=fit&w=400&h=300 400w, {{.}}?nf_resize=fit&w=600&h=450 600w, {{.}}?nf_resize=fit&w=800&h=600 800w, {{.}}?nf_resize=fit&w=1600&h=1200 1600w" class="lazyload absolute top-0 left-0" style="opacity: 000.1;"/>
             {{end}}
             {{ range first 3 (after 1 . )}}
-            <img data-sizes="auto" data-srcset="{{.}}?nf_resize=fit&w=600&h=450 600w, {.}}?nf_resize=fit&w=800&h=600 800w, {{.}}?nf_resize=fit&w=1600&h=1200 1600w" class="lazyload absolute top-0 left-0" style="opacity: 000.1;"/>
+            <img data-sizes="auto" data-srcset="{{.}}?nf_resize=fit&w=400&h=300 400w, {{.}}?nf_resize=fit&w=600&h=450 600w, {.}}?nf_resize=fit&w=800&h=600 800w, {{.}}?nf_resize=fit&w=1600&h=1200 1600w" class="lazyload absolute top-0 left-0" style="opacity: 000.1;"/>
             {{end}}
             {{else}}
             <img data-sizes="auto" data-parent-fit="cover" data-srcset="{{.Params.collection_cover}}?nf_resize=fit&w=600&h=600 800w, {{.Params.collection_cover}}?nf_resize=fit&w=1600&h=1200 1600w" class="lazyload absolute top-0 left-0" alt="{{.Title}}"/>
