@@ -20,9 +20,9 @@
             </div>
             </section>
         </div>
-        <footer class="px-8 xl:px-16 py-12 flex flex-wrap" style="background-color: {{.Params.theme_color}};">
+        <footer class="px-8 xl:px-16 py-10 flex flex-wrap" style="background-color: {{.Params.theme_color}};">
             {{ range .Params.footer_links }}
-                <a href="{{ .link_url }}" class="w-full md:w-1/4 lg:w-1/5 text-white p-1 text-base md:text-lg" alt="link to - {{ .link_title }}">{{ .link_title }}</a>               
+                <a href="{{ .link_url }}" class="w-full md:w-1/4 lg:w-1/5 text-white text-base md:text-lg" alt="link to - {{ .link_title }}">{{ .link_title }}</a>               
             {{ end }}
         </footer>
 </section>
