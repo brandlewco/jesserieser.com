@@ -295,6 +295,10 @@ a.pswp__share--download:hover {
   transition: opacity 0.1s linear;
 }
 
+.caption strong {
+  @apply font-bold;
+}
+
 .info {
   opacity: 1 !important;
   transition: opacity 0.1s linear;
