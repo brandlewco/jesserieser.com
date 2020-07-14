@@ -42,10 +42,10 @@
     </div>
     <section class="py-6 mx-auto">
       <header class="flex flex-col items-start">
-        <div class="text-2xl sm:text-4xl font-bold text-black pb-2">{{$key.Params.title}}</div>
+        <div class="text-2xl sm:text-5xl font-bold text-black pb-2">{{$key.Params.title}}</div>
         <div class="text-lg sm:text-2xl font-medium italic  text-black pb-6">{{$key.Params.caption}}</div>
       </header>
-      <div class="text-lg w-100 h-100 text-black leading-loose pb-16">
+      <div class="text-lg w-100 h-100 text-black leading-tight pb-16">
             {{ $key.Params.content | markdownify }}
       </div>
       <section class="block-media group-hover flex flex-wrap mx-auto h-auto {{with .Params.row_alignment}}sm:justify-{{.}}{{else}}sm:justify-between{{end}}">
