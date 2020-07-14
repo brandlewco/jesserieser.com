@@ -16,7 +16,7 @@ page_sections:
   block: modal-list
   width: '25'
   align_x: start
-  margin_y: '700'
+  margin_y: '500'
   margin_left: 15%
   margin_right: ''
   title_margin_left: "-40%"
