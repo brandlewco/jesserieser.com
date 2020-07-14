@@ -14,7 +14,7 @@ import smoothscroll from "smoothscroll-polyfill";
 import sal from "sal.js";
 import Rellax from "rellax";
 
-lazySizes.cfg.expand = "1000";
+// lazySizes.cfg.expand = "1000";
 
 // Page Loader (SWUP)
 const options = {
@@ -50,6 +50,12 @@ const swup = new Swup(options);
 swup.on("contentReplaced", init);
 
 function init() {
+
+  document.addEventListener("load", function(e) {
+    console.log(e.target.currentSrc || e.target.src, "width", e.target.width);
+  }, true);
+  console.log("expand", lazySizes.cfg);
+
   const body = document.body;
   const navigation = document.getElementById("navigation");
   const navigationHeight = navigation.clientHeight;
