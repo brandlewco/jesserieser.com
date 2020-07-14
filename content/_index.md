@@ -133,7 +133,7 @@ page_sections:
   margin_y: '300'
   margin_left: 0%
   margin_right: 30%
-  title_margin_left: 60%
+  title_margin_left: 50%
   title_margin_right: ''
   meta_align: left
   image: https://jesserieser.brandlew.co/uploads/rieser_phx-HI-22.jpg
@@ -147,7 +147,7 @@ page_sections:
   text_tracking: normal
   font_weight: normal
   line_height: none
-  title_margin_y: 15%
+  title_margin_y: 20%
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -251,7 +251,7 @@ page_sections:
   meta_align: left
   image: https://jesserieser.brandlew.co/uploads/autobiography-23.jpg
   color: "#FAE1D7"
-  title: "Autobiography \n\nof a \n\nContact Sport"
+  title: "Autobiography of \n\na Contact Sport"
   meta: "2016"
   attached_collection: collections/autobiography.md
   text_color: "#FFFFFF"
@@ -292,7 +292,7 @@ page_sections:
   color: "#D1D1D1"
   attached_collection: collections/adidas-golf.md
   title: Adidas Golf
-  meta: 'Adicross: Dustin Johnson, Xander Schaufelle, & Sergio Garcia '
+  meta: 'Dustin Johnson, Xander Schaufelle, & Sergio Garcia '
   text_color: "#FFFFFF"
   text_size: 6xl
   text_alignment: left
@@ -334,13 +334,16 @@ page_sections:
   margin_y: '500'
   margin_left: 0%
   margin_right: 0%
-  title_margin_left: 5%
+  title_margin_left: "-15%"
   title_margin_right: 0%
   meta_align: left
   meta: 'Society Magazine (France) '
   attached_collection: collections/stalking-a-serial-killer.md
   image: https://jesserieser.brandlew.co/uploads/serial-6.jpg
-  title: "Stalking \n\na \n\nSerial Killer"
+  title: |-
+    Stalking a
+
+    Serial Killer
   color: "#C0D0E0"
   text_color: ''
   text_size: 6xl
@@ -348,7 +351,7 @@ page_sections:
   text_tracking: normal
   font_weight: normal
   line_height: none
-  title_margin_y: 15%
+  title_margin_y: 10%
 - template: block-media-row
   block: media-row
   row_alignment: ''
