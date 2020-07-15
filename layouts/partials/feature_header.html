@@ -1,9 +1,10 @@
-<header id="project-header" class="w-full min-h-screen lazyload flex flex-col items-center overflow-hidden relative z-0">
+<header id="project-header" class="w-full h-full min-h-screen lazyload flex flex-col items-center overflow-hidden relative z-100">
     <img data-sizes="auto"
-		 class="featured lazyload bg-center object-cover fixed inset-0 z-0"
+		 class="featured lazyload bg-center h-screen object-cover fixed inset-0 z-0"
          data-parent-fit="cover"
          id="feature-image"
          style="max-width: 100%; max-height: 100%;"/>
+         
     <div id="feature-overlay" class="absolute w-full h-screen inset-auto z-40" style="opacity: 0.01;"></div>
     <div id="header-loading" class="text-center font-semibold absolute inset-x-0 bottom-0 z-50 text-4xl mb-16 sm:mb-0">
     <i class="far fa-spinner-third fa-spin text-{{.Params.navigation_theme}}"></i>
