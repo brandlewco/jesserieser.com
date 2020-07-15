@@ -13,6 +13,7 @@ import Midday from "midday.js";
 import smoothscroll from "smoothscroll-polyfill";
 import sal from "sal.js";
 import Rellax from "rellax";
+import {disablePageScroll, enablePageScroll} from "scroll-lock";
 
 // lazySizes.cfg.expand = "1000";
 
@@ -323,7 +324,7 @@ function init() {
         if (disableAnimation) {
           options.showAnimationDuration = 0;
         }
-        
+
         const galleryClose = document.getElementById("pswp_close");
         galleryClose.addEventListener("click", () => {
           gallery.close();
@@ -412,8 +413,9 @@ function init() {
     initPhotoSwipeFromDOM(".my-gallery");
   }
 
-  var lazydelay = document.getElementsByClassName("lazyload-delay");
-  function lazyloadToggle() {
+  function lazyloadToggle(e) {
+    console.log(e);
+    var lazydelay = e.getElementsByClassName("lazyload-delay");
     for (var i = 0; i < lazydelay.length; i++) {
       lazydelay[i].classList.add("lazyload");
     }
@@ -446,29 +448,21 @@ function init() {
   }
   removeActive();
 
+
   // Modal
   const modalTriggers = document.querySelectorAll(".popup-trigger");
   modalTriggers.forEach((trigger) => {
     const {popupTrigger} = trigger.dataset;
     const popupModal = document.querySelector(`[data-popup-modal="${popupTrigger}"]`);
     trigger.addEventListener("click", () => {
+      disablePageScroll(popupModal);
       navigation.classList.remove("active");
       navigation.style.opacity = 0;
       navigation.style.display = "none";
-      // document.body.style.overflowY = "hidden";
       popupModal.style.opacity = 1;
       popupModal.style.visibility = "visible";
       popupModal.classList.add("is--visible");
-      scrollLock();
-      lazyloadToggle();
-      // setTimeout(function() {
-      //   lazyloadToggle();
-      //   // initPaginatedGallery(popupModal);
-      // }, 150);
-      // bodyPopup.classList.add("is-poped-out");
-      // popupModal.addEventListener("scroll", function() {
-      //   rellax.refresh();
-      // });
+      lazyloadToggle(popupModal);
 
       var navToggle = document.getElementsByClassName("navToggle");
       Array.prototype.forEach.call(navToggle, function(nav) {
@@ -479,20 +473,19 @@ function init() {
 
     // modal close methods
     popupModal.querySelector(".popup-modal__close").addEventListener("click", () => {
+      enablePageScroll(popupModal);
       navigation.style.opacity = 1;
       navigation.style.display = "block";
       popupModal.style.opacity = 0;
       popupModal.style.visibility = "hidden";
       popupModal.classList.remove("is--visible");
-      scrollUnlock();
     });
 
     if (popupModal.querySelector(".exit-modal")) {
-      console.log("yeah, it's here");
+      enablePageScroll(popupModal);
       popupModal.querySelector(".exit-modal").addEventListener("click", () => {
         navigation.style.opacity = 1;
         navigation.style.display = "block";
-        scrollUnlock();
         swup.scrollTo(document.body, 0);
       });
     }
@@ -503,7 +496,7 @@ function init() {
       }
       var key = event.key || event.keyCode;
       if (key === "Escape" || key === "Esc" || key === 27) {
-        scrollUnlock();
+        enablePageScroll(popupModal);
         navigation.style.opacity = 1;
         navigation.style.display = "block";
         popupModal.style.opacity = 0;
@@ -512,25 +505,6 @@ function init() {
       }
     });
   });
-
-  // Inner Modal
-  // const innerModalTriggers = document.querySelectorAll(".inner-popup-trigger");
-  // innerModalTriggers.forEach((trigger) => {
-  //   const {innerPopupTrigger} = trigger.dataset;
-  //   const innerPopupModal = document.querySelector(`[data-inner-popup-modal="${innerPopupTrigger}"]`);
-  //   trigger.addEventListener("click", () => {
-  //     innerPopupModal.classList.add("is--visible");
-  //     innerPopupModal.style.visibility = "visible";
-  //     innerPopupModal.style.opacity = 1;
-  //     scrollLock();
-  //   });
-  //   innerPopupModal.querySelector(".popup-modal__close").addEventListener("click", () => {
-  //     innerPopupModal.classList.remove("is--visible");
-  //     innerPopupModal.style.visibility = "hidden";
-  //     innerPopupModal.style.opacity = 0;
-  //     scrollUnlock();
-  //   });
-  // });
 
   // Generic Button Toggle
   var buttons = document.getElementsByClassName("toggle");

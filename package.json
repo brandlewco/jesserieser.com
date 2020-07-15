@@ -88,6 +88,7 @@
     "postcss-nested": "^4.2.1",
     "rellax": "^1.12.1",
     "sal.js": "^0.7.4",
+    "scroll-lock": "^2.1.4",
     "smoothscroll-polyfill": "^0.4.4",
     "swup": "^2.0.9",
     "swup-gtag-plugin": "0.0.0",
