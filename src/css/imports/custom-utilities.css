@@ -109,8 +109,8 @@ html.is-animating .transition-nav {
   transition-delay: 0.33s;
 } */
 
-body.page-collections #navigation {
-  background: rgba(255, 255, 255, 0.95);
+body.page-collections .navigation-container {
+  background: rgba(255, 255, 255, 0.95) !important;
 }
 
 #navigation {
