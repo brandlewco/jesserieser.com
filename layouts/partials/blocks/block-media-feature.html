@@ -5,7 +5,7 @@
     {{ with .Site.GetPage .Section.attached_collection }}
       <a href="/{{.Params.slug | urlize}}">
     {{end}}
-        <img class="lazyload" src="{{ .Section.image }}?nf_resize=fit&h=1440" data-src="{{ .Section.image }}?nf_resize=fit&h=1440" alt="{{ .Section.caption }}"/>
+        <img class="lazyload blur-up" src="{{ .Section.image }}?nf_resize=fit&h=480" data-srcset="{{ .Section.image }}?nf_resize=fit&h=1440" alt="{{ .Section.caption | htmlUnescape }}"/>
     {{with .Section.attached_collection}}
       </a>
     {{end}}

@@ -18,7 +18,7 @@
   (function(){
     var images = [
       {{- range .Params.selected_works_theme -}}
-      ["{{.image_mobile }}?nf_resize=fit&w=450 450w, {{.image_mobile }}?nf_resize=fit&w=780 780w, {{.image}}?nf_resize=fit&w=1440 1440w, {{.image}}?nf_resize=fit&w=1920 1920w, {{.image}}","{{.theme_color}}"],
+      ["{{.image_mobile }}?nf_resize=fit&w=450 450w, {{.image_mobile }}?nf_resize=fit&w=780 780w, {{.image}}?nf_resize=fit&w=1440 1440w, {{.image}}?nf_resize=fit&w=1920 1920w, {{.image}}?nf_resize=fit&w=2560 2560w","{{.theme_color}}"],
       {{- end -}}
       ]
     var imgCount = images.length;

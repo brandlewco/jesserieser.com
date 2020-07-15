@@ -54,7 +54,6 @@ function init() {
   document.addEventListener("load", function(e) {
     console.log(e.target.currentSrc || e.target.src, "width", e.target.width);
   }, true);
-  console.log("expand", lazySizes.cfg);
 
   const body = document.body;
   const navigation = document.getElementById("navigation");

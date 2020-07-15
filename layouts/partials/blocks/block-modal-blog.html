@@ -4,8 +4,9 @@
     {{with $key.Params.blog_block_cover }}
       <img 
       data-sizes="auto"
+      src="{{.}}?nf_resize=fit&w=600"
       data-srcset="{{.}}?nf_resize=fit&w=600 600w, {{.}}?nf_resize=fit&w=800 800w, {{.}}?nf_resize=fit&w=1200 1200w"
-      class="lazyload bg-center object-cover hidden sm:absolute inset-0 z-0 h-full w-full"
+      class="lazyload blur-up bg-center object-cover hidden sm:absolute inset-0 z-0 h-full w-full"
       data-parent-fit="cover"
       id=""/>
     {{end}}
