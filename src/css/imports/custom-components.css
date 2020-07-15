@@ -4,6 +4,9 @@ html.is-changing #content {
   transform: scale(0.7);
   transition: transform 0.1s ease-in-out;
 } */
+.list-none {
+  list-style: none;
+}
 
 @responsive {
   .translate-0 {
