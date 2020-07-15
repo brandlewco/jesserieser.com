@@ -1,9 +1,18 @@
 
 {{ $fileName := path.Base .Section.image | replaceRE "(.doc|.jpeg|.jpg)" ""}}
 <!-- <section class="block-media-1 block-hover flex flex-row {{with .Section.row_alignment}}sm:justify-{{.}}{{else}}sm:justify-between{{end}} mx-auto h-auto"> -->
-  <figure class="block-static {{with .Section.width}}w-{{.}}/100{{else}}w-full{{end}} h-auto p-1 smp-2" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" >
+  <figure class="block-static {{with .Section.width}}w-{{.}}/100{{else}}w-full{{end}} h-auto p-1 sm:p-2" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" >
     <div class="h-full w-full" {{with .color}}style="background-color: {{.}};"{{end}}>
-      <img class="lazyload-delay blur-up object-cover h-full" src="{{ .Section.image }}?nf_resize=fit&h=480" data-src="{{ .Section.image }}?nf_resize=fit&h=1080" alt="{{ .Section.caption }}" />
+      <img
+      data-sizes="auto"
+      data-src="{{.Section.image }}?nf_resize=fit&w=450"  
+      data-srcset="{{.Section.image}}?nf_resize=fit&w=450 450w,
+      {{.Section.image }}?nf_resize=fit&w=780 780w,
+      {{.Section.image }}?nf_resize=fit&w=1440 1440w,
+      {{.Section.image }}?nf_resize=fit&w=1920 1920w,
+      {{.Section.image }}?nf_resize=fit&w=2560 2560w"
+      class="lazyload-delay h-full object-cover z-0"
+      alt="{{ .Section.caption }}"/>
     </div>
     </figure>  
 <!-- </section> -->
