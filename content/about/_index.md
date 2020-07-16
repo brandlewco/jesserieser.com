@@ -930,7 +930,7 @@ header_col_1: "[Anderson Hopkins ](https://www.andersonhopkins.com)\n\nEcho Hopk
   \ \n[hannah@andersonhopkins.com](mailto:hannah@andersonhopkins.com)  \n  \n70 Lafayette
   Street, 7th Floor  \nNew York, NY 10013  \n212 431 5117"
 header_col_2_title: |-
-  Exhibition, Editorial Syndication,
+  Exhibition, Syndication,
 
   and Press Inquiries
 header_col_2: "Jesse Rieser  \nInstagram [@jesserieser.com](https://www.instagram.com/jesserieser/)
