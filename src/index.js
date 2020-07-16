@@ -52,17 +52,15 @@ swup.on("contentReplaced", init);
 
 function init() {
 
-  document.addEventListener("load", function(e) {
-    console.log(e.target.currentSrc || e.target.src, "width", e.target.width);
-  }, true);
+  // document.addEventListener("load", function(e) {
+  //   console.log(e.target.currentSrc || e.target.src, "width", e.target.width);
+  // }, true);
 
   const body = document.body;
   const navigation = document.getElementById("navigation");
   const navigationHeight = navigation.clientHeight;
   const content = document.getElementById("content");
   const documentWidth = document.documentElement.clientWidth;
-  // const documentScrollTop = document.documentElement.scrollTop;
-  // console.log(documentScrollTop);
 
   swup.preloadPages();
 
@@ -71,12 +69,25 @@ function init() {
   // Then we set the value in the --vh custom property to the root of the document
   document.documentElement.style.setProperty("--vh", `${vh}px`);
 
-  // We listen to the resize event
-  window.addEventListener("resize", () => {
-    // We execute the same script as before
+  function debounce(func, wait, immediate) {
+    var timeout;
+    return function() {
+      var context = this, args = arguments;
+      var later = function() {
+        timeout = null;
+        if (!immediate) func.apply(context, args);
+      };
+      var callNow = immediate && !timeout;
+      clearTimeout(timeout);
+      timeout = setTimeout(later, wait);
+      if (callNow) func.apply(context, args);
+    };
+  }
+  var windowResize = debounce(function() {
     const vh = window.innerHeight * 0.01;
-    document.documentElement.style.setProperty("--vh", `${vh}px`);
-  });
+    document.documentElement.style.setProperty("--vh", `${vh}px`);  }, 250);
+
+  window.addEventListener("resize", windowResize);
 
   const setUp = () => {
     console.log("// built by brett lewis");
@@ -554,12 +565,24 @@ function init() {
   // Scroll Animations
   let scrollPos = 0;
   window.onscroll = function() {
-
-    // document.documentElement.style.setProperty("--scroll-y", `${window.scrollY}px`);
     var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
     const windowY = window.scrollY;
+    if (headerImage) {
+      if (windowY > (window.innerHeight)) {
+        headerImage.style.opacity = 0;
+      } else {
+        headerImage.style.opacity = 1;
+      }
+    }
     if (headerOverlay) {
       headerOverlay.style.opacity = value_limit((scrollTop / (height * 0.4)), 0, 1).toFixed(2);
+    }
+    if (featureImage) {
+      if (windowY > (window.innerHeight)) {
+        featureImage.style.opacity = 0;
+      } else {
+        featureImage.style.opacity = 1;
+      }
     }
     if (featureOverlay) {
       featureOverlay.style.opacity = value_limit((scrollTop / (height * 0.9)), 0, 1).toFixed(2);
@@ -595,18 +618,6 @@ function init() {
         pageTitle.style.transform = "translate3d(0, -50%, 0)";
       }
     }
-    // if (filterContainer) {
-    //   if ((scrollTop < scrollPos) || scrollPos < 0) {
-    //     console.log("filter container");
-    //     navigation.style.transform = "translate3d(0, 0, 0)";
-    //     filterContainer.style.transform = "translate3d(0, " + navigationHeight + "px, 0)";
-    //   } else {
-    //     console.log("filter contain else");
-    //     navigation.style.transform = "translate3d(0, -" + navigationHeight + "px, 0)";
-    //     filterContainer.style.transform = "translate3d(0, -" + navigationHeight + "px, 0)";
-    //   }
-    // }
-    // console.log("scrollTop", scrollTop, "scrollPos", scrollPos);
     scrollPos = windowY;
   };
 
@@ -623,13 +634,6 @@ function init() {
     currentPage.nextElementSibling.classList.remove("hidden");
     currentPage.nextElementSibling.classList.add("visible", "collection-next");
   }
-
-  // setTimeout(function() {
-  //   const popupModal = document.querySelectorAll(".popup-modal");
-  //   popupModal.forEach((element) => {
-  //     element.style.display = "block";
-  //   });
-  // }, 2000);
 
   // Animate Navigaiton on Load
   navigation.style.opacity = "1";
