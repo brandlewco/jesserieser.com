@@ -979,7 +979,7 @@ footer_links:
 - link_title: Twitter
   link_url: https://twitter.com/jesserieser
 - link_title: Photo Politic
-  link_url: https://photopolitic.com
+  link_url: https://photopolitic.com/member/jessie-rieser/
 - link_title: Art Photo Index
   link_url: https://www.artphotoindex.com/api/#photographer/Jesse-Rieser/15804
 - link_title: The One Club Young Guns
