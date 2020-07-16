@@ -929,7 +929,10 @@ header_col_1: "[Anderson Hopkins ](https://www.andersonhopkins.com)\n\nEcho Hopk
   \ \n[echo@andersonhopkins.com](mailto:echo@andersonhopkins.com)\n\nHannah Marchetto
   \ \n[hannah@andersonhopkins.com](mailto:hannah@andersonhopkins.com)  \n  \n70 Lafayette
   Street, 7th Floor  \nNew York, NY 10013  \n212 431 5117"
-header_col_2_title: "Exhibition, Syndication,\n\n& Press "
+header_col_2_title: |-
+  Exhibition, Syndication,
+
+  & Press Inquiries
 header_col_2: "Jesse Rieser  \nInstagram [@jesserieser.com](https://www.instagram.com/jesserieser/)
   \ \n[jesse@jesserieser.com](mailto:jesse@jesserieser.com \"jesse@jesserieser.com\")
   \ \n[310 985 9818](tel:+13109859818 \"310 985 9818\")\n\n124 W. McDowell Rd.  \nPhoenix,
