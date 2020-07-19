@@ -6,8 +6,7 @@ collection_category = ["Exhibited Works ", "Workplace", "Travel", "Environments"
 collection_content = "“_As Grand Canyon National Park Turns 100, Its’ Chief Ranger Plans for the Next Century_.” These new works pay homage to American Romanticism and celebrate the west as I photograph head ranger Mathew Vandzura at Grandeur Point on the South Rim as a nod to Teddy Roosevelt’s legacy of conservation.\n\nVandzura talks at length about modernizing an ancient natural wonder, the park system’s responsibility to the public, the recent government shutdown, and exploring every possible option before limiting visitation to the 6.4 million annual park-goers.\n\nInterview by Lily Rothman, assigned by Kim Bubello."
 collection_cover = "https://jesserieser.brandlew.co/uploads/timeGC-5.jpg"
 collection_cover_mobile = "https://jesserieser.brandlew.co/uploads/verticalcovers-10.jpg"
-collection_description = "_“As Grand Canyon National Park Turns 100, Its’ Chief Ranger Plans for the Next Century.”_ A nod to Teddy Roosevelt’s legacy of conservation, these works pay homage to American Romanticism as I photograph head ranger Mathew Vandzura in the historic Kolb House and South Rim."
-collection_exhibition = []
+collection_description = "_“As Grand Canyon National Park Turns 100, Its’ Chief Ranger Plans for the Next Century.”_ A nod to Teddy Roosevelt’s legacy of conservation, these works pay homage to American Romanticism as I photograph head ranger Mathew Vandzura in the historic Kolb House and South Rim of the Canyon.\n\nShowcased at the _Grand Canyon National Park 100_ exhibition at Etherton Gallery, this work served as a contemporary counterpoint to the historical works of Ansel Adams, Lee Friedlander, William Bell, and Barry Goldwater. "
 collection_filter = "Commissioned + Stock"
 collection_hidden = false
 collection_meta = "Grand Canyon 100th Anniversary "
@@ -19,10 +18,14 @@ hide_footer = false
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
+px_extra = true
 slug = "collections/time-magazine-grand-canyon-100th-anniversary"
 theme_color = "#EEDDDD"
 theme_color_all_works = "#FFBABA"
 title = "Time Magazine"
+[[collection_exhibition]]
+content = "**2019**  \n_Grand Canyon National Park 100_  \nEtherton Gallery  \nTucson, AZ (Group Show)"
+template = "popup-text-element"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
