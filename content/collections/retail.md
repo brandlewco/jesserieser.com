@@ -30,6 +30,9 @@ template = "popup-text-element"
 content = "**2018**  \n_PDN Photo Annual_   \nBest Personal Work Series"
 template = "popup-text-element"
 [[collection_exhibition]]
+content = "**2020**  \n_Fresh 2020_  \nKlompching Gallery. Brooklyn, NY. (Group Show)"
+template = "popup-text-element"
+[[collection_exhibition]]
 content = "**2019 - 2020**  \n_Photoville The Fence:_\n\nBrooklyn Bridge Park. Brooklyn, NY.  \nSanta Fe Railyard Park. Santa Fe, NM.  \nLoDo District. Denver, CO.  \nAtlanta Beltline. Atlanta, GA."
 template = "popup-text-element"
 [[collection_exhibition]]
@@ -37,9 +40,6 @@ content = "**2019**  \n_Standard Vision LA at LA Live_  \nLos Angeles, CA (Solo 
 template = "popup-text-element"
 [[collection_exhibition]]
 content = "**2019**  \n_Camera Work Gallery_  \nPortland, OR (Solo Show)"
-template = "popup-text-element"
-[[collection_exhibition]]
-content = "**2018**  \n_Chaos Theory 18_  \nLegend City Gallery. Phoenix, AZ (Group Show) "
 template = "popup-text-element"
 [[collection_layout_builder]]
 align_x = "start"
