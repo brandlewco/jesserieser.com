@@ -16,6 +16,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
+px_extra = true
 slug = "projects/when-fall-came-early"
 theme_color = "#E1EAED"
 theme_color_all_works = "#B5DFFF"
