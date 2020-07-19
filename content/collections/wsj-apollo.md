@@ -18,6 +18,7 @@ layout = "blocks"
 logo = ""
 navigation_theme = "black"
 page = "/collections/wsj-apollo"
+px_extra = true
 slug = "collections/wall-street-journal"
 theme_color = "#FFD765"
 title = "The Wall Street Journal"
