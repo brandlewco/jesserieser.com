@@ -19,6 +19,7 @@ hide_footer = true
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
+px_extra = true
 slug = "collections/Fred-Kerley "
 theme_color = "#FFC1C7"
 theme_color_all_works = "#FFB5BD"
@@ -26,7 +27,6 @@ title = "Nike Running’s "
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#A0ECEC"
 image = "https://jesserieser.brandlew.co/uploads/fred-1.jpg"
 margin_left = "35%"
@@ -41,7 +41,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FBF0DD"
 image = "https://jesserieser.brandlew.co/uploads/fred-2.jpg"
 margin_left = "10%"
@@ -51,7 +50,6 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#D3E7AF"
 image = "https://jesserieser.brandlew.co/uploads/fred-3.jpg"
 margin_right = "5%"
@@ -65,7 +63,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FFD5DD"
 image = "https://jesserieser.brandlew.co/uploads/fred-4.jpg"
 margin_left = "35%"
@@ -79,7 +76,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FBECE4"
 image = "https://jesserieser.brandlew.co/uploads/fred-5.jpg"
 margin_left = "5%"
@@ -90,7 +86,6 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#C5E4F2"
 image = "https://jesserieser.brandlew.co/uploads/fred-6.jpg"
 margin_right = "5%"
