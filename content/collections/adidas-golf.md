@@ -15,6 +15,7 @@ hide_footer = true
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
+px_extra = true
 slug = "collections/adidas-golf-adicross"
 theme_color = "#B8EEBC"
 theme_color_all_works = "#9DFBA4"
