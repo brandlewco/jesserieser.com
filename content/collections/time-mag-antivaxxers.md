@@ -17,6 +17,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
+px_extra = true
 slug = "collections/time-magazine-ii"
 theme_color = "#4DC4D1"
 theme_color_all_works = "#25CBDD"
