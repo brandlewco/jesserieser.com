@@ -18,6 +18,7 @@ hide_footer = true
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
+px_extra = true
 slug = "collections/Arizona-Lottery"
 theme_color = "#CFE7DF"
 theme_color_all_works = "#A8EFDB"
