@@ -6,7 +6,7 @@ collection_category = ["Conceptual", "Editorial", "Portraits", "Environments", "
 collection_content = "This is a story about “Sky Village,” an astronomy centric retirement community and their founders, the self appointed “Star Geezers,” Jack and Alice Newton. Located in Arizona near the New Mexico and Mexico border, the remoteness (closest grocery store is 3 hours away) is a gift as this is one of the darkest places on the North American light pollution map. Couple this with the clear air of the desert, this was how the Newtons selected and purchased several hundred acres of land and divided them into 22 distinct lots.\n\nEasily one of the most interesting places I have visited in recent memory. A close-knit community bonded by their love of the celestial, the remoteness, and the darkness….. so dark that on a new moon you can no longer see your feet. So dark you never knew so many stars existed- appearing dizzying, textural, and 3-dimensional. So dark as your eyes adjust, you can see your shadow cast by the stars overhead."
 collection_cover = "https://jesserieser.brandlew.co/uploads/stargeezers-6.jpg"
 collection_cover_mobile = "https://jesserieser.brandlew.co/uploads/verticalcovers-4.jpg"
-collection_description = "This is a story about “Sky Village,” an astronomy centric retirement community and their founders Jack and Alice Newton, known as the “Star Geezers.” Sky Village is one of the most remote and darkest places in North America. So dark you never knew so many stars existed- appearing dizzying, textural, and 3-dimensional.\n\nFeatured on _Vice_, Fish _Eye Magazine_ and _Booooooom._"
+collection_description = "This is a story about “Sky Village,” an astronomy centric retirement community and their founders Jack and Alice Newton, also known as the “Star Geezers.” Sky Village is one of the most remote and darkest places in North America. So dark you never knew so many stars existed- appearing dizzying, textural, and 3-dimensional.\n\nFeatured on _Vice_, _Fish_ _Eye Magazine_ and _Booooooom._"
 collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_hidden = false
@@ -17,6 +17,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
+px_extra = true
 slug = "collections/star-geezers"
 theme_color = "#FCE4D0"
 theme_color_all_works = "#FFC795"
@@ -357,6 +358,9 @@ content = "[**_VICE_**](https://www.vice.com/en_us/article/wjv3m5/50-stellar-pho
 template = "popup-text-element"
 [[collection_press]]
 content = "[**_BOOOOOOOM_**](https://www.booooooom.com/2020/02/11/the-star-stargeezers-by-photographer-jesse-rieser/)"
+template = "popup-text-element"
+[[collection_press]]
+content = "[**_Fish Eye Magazine_**](https://www.fisheyemagazine.fr/decouvertes/images/the-star-geezers-a-la-belle-etoile/)"
 template = "popup-text-element"
 
 +++
