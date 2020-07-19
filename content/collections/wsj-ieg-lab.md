@@ -6,6 +6,7 @@ collection_content = "Inventor Dennis Danzik (first frame left) claims to have i
 collection_cover = "https://jesserieser.brandlew.co/uploads/ieg-10.jpg"
 collection_cover_mobile = "https://jesserieser.brandlew.co/uploads/verticalcovers-22.jpg"
 collection_description = "*One Man’s Unlikely Quest To Power The World With Magnets*⁠ \n\nInventor Dennis Danzik claims to have invented a self-propelled generator which if checks out would shatter our current understanding of physics. Danzik gave us a sneak peak of the “Earth Engine Generator” and the IEC lab in which it was created."
+collection_description_alignment = "left"
 collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_hidden = false
@@ -17,6 +18,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
+px_extra = true
 slug = "collections/wall-street-journal-2"
 theme_color = "#E2EADE"
 theme_color_all_works = "#BCF6A6"
@@ -24,7 +26,6 @@ title = "The Wall Street Journal"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FFF0AE"
 image = "https://jesserieser.brandlew.co/uploads/ieg-1.jpg"
 margin_left = "35%"
@@ -63,7 +64,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FFE9E6"
 image = "https://jesserieser.brandlew.co/uploads/ieg-3.jpg"
 margin_left = "5%"
@@ -74,7 +74,6 @@ width = "60"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#EEFBFC"
 image = "https://jesserieser.brandlew.co/uploads/ieg-4.jpg"
 margin_right = "5%"
@@ -88,7 +87,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#EAF6E6"
 image = "https://jesserieser.brandlew.co/uploads/ieg-5.jpg"
 margin_left = "30%"
@@ -103,7 +101,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E5FAF5"
 image = "https://jesserieser.brandlew.co/uploads/ieg-6.jpg"
 margin_left = "5%"
@@ -114,7 +111,6 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FDF3CA"
 image = "https://jesserieser.brandlew.co/uploads/ieg-7.jpg"
 margin_left = ""
@@ -129,7 +125,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E4F4F8"
 image = "https://jesserieser.brandlew.co/uploads/ieg-8.jpg"
 margin_left = "30%"
@@ -144,7 +139,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F5EEEA"
 image = "https://jesserieser.brandlew.co/uploads/ieg-9.jpg"
 margin_left = "15%"
@@ -155,7 +149,6 @@ width = "25"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F1F8EE"
 image = "https://jesserieser.brandlew.co/uploads/ieg-10.jpg"
 margin_right = "10%"
