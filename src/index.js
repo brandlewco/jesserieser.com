@@ -425,7 +425,7 @@ function init() {
   }
 
   function lazyloadToggle(e) {
-    console.log(e);
+    // console.log(e);
     var lazydelay = e.getElementsByClassName("lazyload-delay");
     for (var i = 0; i < lazydelay.length; i++) {
       lazydelay[i].classList.add("lazyload");
@@ -465,15 +465,26 @@ function init() {
   modalTriggers.forEach((trigger) => {
     const {popupTrigger} = trigger.dataset;
     const popupModal = document.querySelector(`[data-popup-modal="${popupTrigger}"]`);
+    const popupGalleryInit = popupModal.querySelector(".gallery_scroller");
     trigger.addEventListener("click", () => {
       disablePageScroll(popupModal);
+      lazyloadToggle(popupModal);
+      if (popupGalleryInit) {
+        var flkty = new Flickity(popupGalleryInit, {
+          wrapAround: true,
+          percentPosition: false,
+          draggable: ">1",
+          arrowShape: "m77.59 5.06-5.17-5.21-50 50 50 50 5.17-5.21-44.77-44.81z"
+        });
+        // console.log("fired", flkty);
+
+      }
       navigation.classList.remove("active");
       navigation.style.opacity = 0;
       navigation.style.display = "none";
       popupModal.style.opacity = 1;
       popupModal.style.visibility = "visible";
       popupModal.classList.add("is--visible");
-      lazyloadToggle(popupModal);
 
       var navToggle = document.getElementsByClassName("navToggle");
       Array.prototype.forEach.call(navToggle, function(nav) {
@@ -485,6 +496,7 @@ function init() {
     // modal close methods
     popupModal.querySelector(".popup-modal__close").addEventListener("click", () => {
       enablePageScroll(popupModal);
+      // flkty.destroy();
       navigation.style.opacity = 1;
       navigation.style.display = "block";
       popupModal.style.opacity = 0;
@@ -493,8 +505,10 @@ function init() {
     });
 
     if (popupModal.querySelector(".exit-modal")) {
-      enablePageScroll(popupModal);
       popupModal.querySelector(".exit-modal").addEventListener("click", () => {
+        enablePageScroll(popupModal);
+        // flkty.destroy();
+
         navigation.style.opacity = 1;
         navigation.style.display = "block";
         swup.scrollTo(document.body, 0);
@@ -508,6 +522,8 @@ function init() {
       var key = event.key || event.keyCode;
       if (key === "Escape" || key === "Esc" || key === 27) {
         enablePageScroll(popupModal);
+        // flkty.destroy();
+
         navigation.style.opacity = 1;
         navigation.style.display = "block";
         popupModal.style.opacity = 0;
