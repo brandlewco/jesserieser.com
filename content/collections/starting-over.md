@@ -15,6 +15,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
+px_extra = true
 slug = "projects/starting-over"
 theme_color = "#E0CBC6"
 theme_color_all_works = "#F9917C"
