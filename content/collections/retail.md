@@ -30,7 +30,7 @@ template = "popup-text-element"
 content = "**2018**  \n_PDN Photo Annual_   \nBest Personal Work Series"
 template = "popup-text-element"
 [[collection_exhibition]]
-content = "**2020**  \n_Fresh 2020_  \nKlompching Gallery. Brooklyn, NY. (Group Show)"
+content = "**2020**  \n_Fresh 2020_  \nKlompching Gallery.  \nBrooklyn, NY. (Group Show)"
 template = "popup-text-element"
 [[collection_exhibition]]
 content = "**2019 - 2020**  \n_Photoville The Fence:_\n\nBrooklyn Bridge Park. Brooklyn, NY.  \nSanta Fe Railyard Park. Santa Fe, NM.  \nLoDo District. Denver, CO.  \nAtlanta Beltline. Atlanta, GA."
