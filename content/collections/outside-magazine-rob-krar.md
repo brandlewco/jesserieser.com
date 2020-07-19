@@ -2,7 +2,7 @@
 collection_archive = false
 collection_awards = []
 collection_category = ["Still Life + Details", "Editorial", "Travel", "Reportage", "Sports + Athletes", "Portraits", "Color"]
-collection_content = "“_Rob Krar had to embrace incredible physical pain to win iconic ultramarathons like the Leadville Traill 100 and the Western States Endurance Run. But that’s a form suffering he can control- unlike his decades-long struggle with depression._”⁠\n\nThis past fall my brother Shea and I visited their 5th annual camp in Flagstaff, AZ. It was the perfect time of year- the air cool and crisp as fall approached and the aspens golden in color illuminated Locket Meadow. As someone who copes with clinical depression and anxiety disorder, we loved our time with Rob, Christina, campers, and volunteers…. even being pushed beyond our comfort zone climbing SP Crater.\n\nArticle by former editor at Runner’s World Christine Fennessy- Krar opens up about his battle with depression, the balance of his personal life and life a professional athlete, what he means to the running community, and how is running camp has “saved lives.” Hit the link in bio to see a newly posted portfolio on my site.\n\nIf you or someone you know is having thoughts of suicide or self-harm, call the National Suicide Prevention Lifeline toll-free from anywhere in the U.S. at 1-800-273-8255."
+collection_content = "“_Rob Krar had to embrace incredible physical pain to win iconic ultramarathons like the Leadville Traill 100 and the Western States Endurance Run. But that’s a form suffering he can control- unlike his decades-long struggle with depression._”⁠\n\nThis past fall my brother Shea and I visited the 5th annual _Rob Krar Running Camp_ in Flagstaff, AZ. It was the perfect time of year- the air cool and crisp as fall approached and the aspens golden in color illuminated Locket Meadow. As someone who copes with clinical depression and anxiety disorder, we loved our time with Rob, Christina, campers, and volunteers.\n\nArticle by former _Runner’s World_ editor Christine Fennessy, Krar opens up about his battle with depression, the balance of his personal life and life a professional athlete, what he means to the running community, and how his running camp has “saved lives.\"\n\nIf you or someone you know is having thoughts of suicide or self-harm, call the National Suicide Prevention Lifeline toll-free from anywhere in the U.S. at 1-800-273-8255."
 collection_cover = "https://jesserieser.brandlew.co/uploads/robkrar-2.jpg"
 collection_cover_mobile = "https://jesserieser.brandlew.co/uploads/verticalcovers-9.jpg"
 collection_description = "Rob Krar had to embrace incredible physical pain to win iconic ultramarathons like the Leadville Traill 100 and the Western States Endurance Run. But that’s a form suffering he can control- unlike his decades-long struggle with depression.⁠ Krar opens up about his battle with depression, the balance of his personal life and life as a professional athlete, what he means to the running community, and how his running camp has “saved lives.”"
@@ -17,6 +17,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
+px_extra = true
 slug = "collections/rob-krar-outside-magazine"
 theme_color = "#F1D7D5"
 theme_color_all_works = "#FFC0BC"
