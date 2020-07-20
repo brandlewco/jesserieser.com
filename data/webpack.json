@@ -1,10 +1,10 @@
 {
   "filter": {
-    "js": "filter.eaf25.js"
+    "js": "filter.js"
   },
   "main": {
-    "css": "main.eaf25.css",
-    "js": "main.eaf25.js"
+    "css": "main.css",
+    "js": "main.js"
   },
   "": {
     "keep": "fonts/.keep"

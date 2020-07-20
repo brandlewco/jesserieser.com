@@ -45,7 +45,7 @@ h3 p {
   @apply mb-0 !important;
 }
 
-body.page-jesse-rieser #menu #nav-selected, body.page-collections #menu #nav-collections, body.page-say-hello #menu #nav-about{
+body.page-jesse-rieser .menu .nav-selected, body.page-collections .menu .nav-collections, body.page-say-hello .menu .nav-about{
   @apply font-medium tracking-widest;
 }
 
