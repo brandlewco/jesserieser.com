@@ -213,6 +213,16 @@ page_sections:
   color: "#9DC2BE"
   modal_block:
   - template: popup-text-element
+    content: "**2020**  \nAP 36: American Photography Annual 36  \nBest Editorial
+      Series:  \n_Wired_ \"The Internet Giant That Went Too Far\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
     content: "**2019**  \n_AP 35: American Photography Annual 35_  \nBest Personal
       Work Series:  \n_A Dystopian Legoland That Tastes Like Candy_"
     url: ''
