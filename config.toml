@@ -3,7 +3,7 @@ languageCode = "en-us"
 languageLang = "en"
 title = "Jesse Reiser"
 
-googleAnalytics = "UA-126263795-4"
+# googleAnalytics = "UA-126263795-4"
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
 # Enable this to have links relativized by Hugo
