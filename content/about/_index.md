@@ -213,13 +213,13 @@ page_sections:
   color: "#9DC2BE"
   modal_block:
   - template: popup-text-element
-    content: "**2020**  \nAP 36: American Photography Annual 36  \nBest Editorial
-      Series:  \n_Wired_ \"The Internet Giant That Went Too Far\""
+    content: "**2020**  \nKlompching Gallery Fresh 2020   \nWinning Exhibitor  \n\"The
+      Changing Landscape of American Retail\""
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    content: "**2020**  \nAP 36: American Photography Annual 36  \nBest Editorial
+      Series:  \n_Wired_ \"The Internet Giant That Went Too Far\""
     icon: ''
     url: ''
   - template: popup-text-element
