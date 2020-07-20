@@ -213,8 +213,8 @@ page_sections:
   color: "#9DC2BE"
   modal_block:
   - template: popup-text-element
-    content: "**2020**  \nKlompching Gallery Fresh 2020   \nWinning Exhibitor  \n\"The
-      Changing Landscape of American Retail\""
+    content: "**2020**  \nKlompching Gallery Fresh 2020   \nWinning Exhibitor  \n_The
+      Changing Landscape of American Retail_"
     icon: ''
     url: ''
   - template: popup-text-element
