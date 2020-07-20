@@ -218,7 +218,7 @@ page_sections:
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2020**  \nAP 36: American Photography Annual 36  \nBest Editorial
+    content: "**2020**  \n_AP 36: American Photography Annual 36_  \nBest Editorial
       Series:  \n_Wired_ \"The Internet Giant That Went Too Far\""
     icon: ''
     url: ''
