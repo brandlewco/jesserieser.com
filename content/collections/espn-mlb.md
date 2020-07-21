@@ -20,6 +20,7 @@ logo = ""
 navigation_theme = "white"
 slug = "collections/personalities-of-the-mlb"
 theme_color = "#ADCCFF"
+theme_color_all_works = "#67E170"
 title = "ESPN The Magazine"
 [[collection_layout_builder]]
 block = "media-row"
@@ -28,7 +29,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F6F0EA"
 image = "https://jesserieser.brandlew.co/uploads/espn_mlb-2.jpg"
 margin_left = "10%"
@@ -39,7 +39,6 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F1EAEA"
 image = "https://jesserieser.brandlew.co/uploads/espn_mlb-3.jpg"
 margin_left = "0%"
@@ -54,7 +53,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E4F1F3"
 image = "https://jesserieser.brandlew.co/uploads/espn_mlb-4.jpg"
 margin_left = "35%"
@@ -64,7 +62,6 @@ width = "20"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F2E1E1"
 image = "https://jesserieser.brandlew.co/uploads/espn_mlb-5.jpg"
 margin_left = ""
@@ -79,7 +76,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F2BAB6"
 image = "https://jesserieser.brandlew.co/uploads/espn_mlb-6.jpg"
 margin_left = "5%"
@@ -90,7 +86,6 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E2ECFC"
 image = "https://jesserieser.brandlew.co/uploads/espn_mlb-7.jpg"
 margin_left = "0%"
@@ -105,7 +100,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E9E8F2"
 image = "https://jesserieser.brandlew.co/uploads/espn_mlb-8.jpg"
 margin_left = "30%"
@@ -116,7 +110,6 @@ width = "25"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F9F6DB"
 image = "https://jesserieser.brandlew.co/uploads/espn_mlb-9.jpg"
 margin_left = "0%"
@@ -131,7 +124,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#D9E6F4"
 image = "https://jesserieser.brandlew.co/uploads/espn_mlb-10.jpg"
 margin_left = "35%"
@@ -146,7 +138,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E6F2E2"
 image = "https://jesserieser.brandlew.co/uploads/espn_mlb-11.jpg"
 margin_left = "20%"
@@ -156,7 +147,6 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F7ECEC"
 image = "https://jesserieser.brandlew.co/uploads/espn_mlb-12.jpg"
 margin_left = ""
@@ -171,7 +161,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F2EEE6"
 image = "https://jesserieser.brandlew.co/uploads/espn_mlb-13.jpg"
 margin_left = "5%"
@@ -186,7 +175,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#DDE5F2"
 image = "https://jesserieser.brandlew.co/uploads/espn_mlb-14.jpg"
 margin_left = "25%"
@@ -200,7 +188,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E5F2F0"
 image = "https://jesserieser.brandlew.co/uploads/espn_mlb-15.jpg"
 margin_left = "15%"
@@ -211,7 +198,6 @@ width = "25"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F2DFDF"
 image = "https://jesserieser.brandlew.co/uploads/espn_mlb-16.jpg"
 margin_right = "15%"
@@ -225,7 +211,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F0EEF3"
 image = "https://jesserieser.brandlew.co/uploads/espn_mlb-17.jpg"
 margin_left = "25%"
@@ -240,7 +225,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F1EEE0"
 image = "https://jesserieser.brandlew.co/uploads/espn_mlb-18.jpg"
 margin_left = "5%"
@@ -251,7 +235,6 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E1F0F3"
 image = "https://jesserieser.brandlew.co/uploads/espn_mlb-19.jpg"
 margin_left = "0%"
@@ -266,7 +249,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F4E0E0"
 image = "https://jesserieser.brandlew.co/uploads/espn_mlb-20.jpg"
 margin_left = "30%"
@@ -281,7 +263,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F3DFD1"
 image = "https://jesserieser.brandlew.co/uploads/espn_mlb-21.jpg"
 margin_left = "50%"
@@ -295,7 +276,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FEF3D8"
 image = "https://jesserieser.brandlew.co/uploads/espn_mlb-22.jpg"
 margin_left = "5%"
@@ -306,7 +286,6 @@ width = "25"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#EADEF1"
 image = "https://jesserieser.brandlew.co/uploads/espn_mlb-23.jpg"
 margin_left = "0%"
@@ -321,7 +300,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#DAEAF8"
 image = "https://jesserieser.brandlew.co/uploads/espn_mlb-24.jpg"
 margin_left = "15%"
@@ -332,7 +310,6 @@ width = "45"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F5E3E3"
 image = "https://jesserieser.brandlew.co/uploads/espn_mlb-25.jpg"
 margin_right = "10%"
@@ -346,7 +323,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E0F6F2"
 image = "https://jesserieser.brandlew.co/uploads/espn_mlb-26.jpg"
 margin_left = "45%"
@@ -361,7 +337,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#DBE2F4"
 image = "https://jesserieser.brandlew.co/uploads/espn_mlb-27.jpg"
 margin_left = "15%"
@@ -372,7 +347,6 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F9DDDE"
 image = "https://jesserieser.brandlew.co/uploads/espn_mlb-28.jpg"
 margin_left = "0%"
@@ -387,7 +361,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#EBFBFF"
 image = "https://jesserieser.brandlew.co/uploads/espn_mlb-29.jpg"
 margin_left = "30%"
@@ -397,7 +370,6 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#EDF0F2"
 image = "https://jesserieser.brandlew.co/uploads/espn_mlb-1.jpg"
 margin_left = "40%"
