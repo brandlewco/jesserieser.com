@@ -29,8 +29,8 @@ page_sections:
   color: "#F7BD1E"
   modal_block:
   - template: popup-text-element
-    content: "**2020**  \n_The Changing Landscape of American Retail_  \nKlompching
-      Gallery Fresh Exhibiting Artist  \nBrooklyn, NY (Group Show) "
+    content: "**2020**  \n_The Changing Landscape of American Retail_  \nFresh Exhibiting
+      Artist  \nKlompching Gallery  \nBrooklyn, NY (Group Show)"
     icon: ''
     url: ''
   - template: popup-text-element
