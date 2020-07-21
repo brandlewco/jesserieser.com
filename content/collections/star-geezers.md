@@ -20,7 +20,7 @@ navigation_theme = "white"
 px_extra = true
 slug = "collections/star-geezers"
 theme_color = "#FCE4D0"
-theme_color_all_works = "#FFC795"
+theme_color_all_works = "#FF9595"
 title = "Condor Airlines "
 [[collection_layout_builder]]
 align_x = "start"
