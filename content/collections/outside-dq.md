@@ -21,7 +21,7 @@ page = "/collections/outside-dq"
 px_extra = true
 slug = "collections/outside-magazine-dq"
 theme_color = "#CFDDE5"
-theme_color_all_works = "#9BDDFF"
+theme_color_all_works = "#9BFFA2"
 title = "Outside Magazine"
 [[collection_layout_builder]]
 align_x = "start"
