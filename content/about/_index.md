@@ -133,6 +133,16 @@ page_sections:
     icon: ''
     url: ''
   - template: popup-text-element
+    content: "**2014**  \nOFFF Barcelona: A Post Digital Culture Festival  \nBarcelona,
+      Spain (Group Show)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
     content: "**2013**  \n_The Wallow Fire_  \nMonorchid Gallery. Phoenix, AZ (Group
       Show)  \nThe Forty Eighth: Contemporary Photography at Arizona’s Centennial"
     icon: ''
