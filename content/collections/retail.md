@@ -18,7 +18,7 @@ navigation_theme = "white"
 px_extra = true
 slug = "projects/changing-landscape-american-retail"
 theme_color = "#E9DCD0"
-theme_color_all_works = "#FFD0A4"
+theme_color_all_works = "#F1A4FF"
 title = "The Changing Landscape of American Retail"
 [[collection_awards]]
 content = "**2020**  \nKlompching Gallery 2020 Fresh  \nOne of five winning exhibitions"
