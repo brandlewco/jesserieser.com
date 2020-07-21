@@ -21,6 +21,7 @@ navigation_theme = "black"
 px_extra = true
 slug = "collections/cactus-league"
 theme_color = "#FDE583"
+theme_color_all_works = "#FB548C"
 title = "ESPN the Magazine"
 [[collection_layout_builder]]
 align_x = "start"
