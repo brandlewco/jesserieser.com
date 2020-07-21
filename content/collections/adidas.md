@@ -24,7 +24,7 @@ page = "/collections/addidas"
 row_alignment = ""
 slug = "collections/adidas-basketball"
 theme_color = "#F4E9A8"
-theme_color_all_works = "#FDE686"
+theme_color_all_works = "#FFE05A"
 title = "Adidas Basketball"
 [[collection_layout_builder]]
 align_x = "start"
