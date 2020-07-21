@@ -604,13 +604,14 @@ footer a {
 }
 
 /**** disabling Isotope CSS3 transitions ****/
-.collection-preview.lazyload svg, .collection-preview.lazyloading svg {
+.collection-preview svg {
   opacity: 1;
   transition: opacity 0.33s ease-in-out;
 }
 
+
 .collection-preview.lazyloaded svg {
-  opacity: 0 !important;
+  opacity: 0;
 }
 
 

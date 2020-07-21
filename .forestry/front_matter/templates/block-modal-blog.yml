@@ -48,6 +48,27 @@ fields:
   config:
     required: false
   label: Title
+- type: select
+  name: text_size
+  config:
+    source:
+      type: simple
+      section: ''
+      path: ''
+    options:
+    - xs
+    - sm
+    - base
+    - lg
+    - 2xl
+    - 4xl
+    - 6xl
+    - 7xl
+    - 8xl
+    - 9xl
+    - 10xl
+  label: Text Size
+  default: 2xl
 - type: color
   config:
     color_format: Hex
