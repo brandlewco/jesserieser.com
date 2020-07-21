@@ -17,7 +17,7 @@ navigation_theme = "white"
 px_extra = true
 slug = "projects/the-class-of-99-turns-30"
 theme_color = "#D4725F"
-theme_color_all_works = "#FF8E75"
+theme_color_all_works = "#BC75FF"
 title = "The Class of 99 Turns 30"
 [[collection_awards]]
 content = "**2011**  \n**_Center's Review Santa Fe 100_**  \nTop 100 International Project"
