@@ -19,7 +19,7 @@ navigation_theme = "white"
 px_extra = true
 slug = "projects/when-fall-came-early"
 theme_color = "#E1EAED"
-theme_color_all_works = "#B5DFFF"
+theme_color_all_works = "#7BC8FF"
 title = "When Fall Came Early:"
 [[collection_awards]]
 content = "**2015**  \n**_PDN Photo Annual_**  \nBest Editorial Series: _When Fall Came Early_ published by MSNBC"
