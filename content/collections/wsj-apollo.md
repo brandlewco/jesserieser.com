@@ -21,6 +21,7 @@ page = "/collections/wsj-apollo"
 px_extra = true
 slug = "collections/wall-street-journal"
 theme_color = "#FFD765"
+theme_color_all_works = "#6BCCFF"
 title = "The Wall Street Journal"
 [[collection_layout_builder]]
 align_x = "start"
