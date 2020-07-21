@@ -20,7 +20,7 @@ navigation_theme = "white"
 px_extra = true
 slug = "collections/rob-krar-outside-magazine"
 theme_color = "#F1D7D5"
-theme_color_all_works = "#FFC0BC"
+theme_color_all_works = "#B1EEBB"
 title = "Outside Magazine "
 [[collection_layout_builder]]
 align_x = "start"
