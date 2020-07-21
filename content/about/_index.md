@@ -29,6 +29,11 @@ page_sections:
   color: "#F7BD1E"
   modal_block:
   - template: popup-text-element
+    content: "**2020**  \n_The Changing Landscape of American Retail_  \nKlompching
+      Gallery Fresh Exhibiting Artist  \nBrooklyn, NY (Group Show) "
+    icon: ''
+    url: ''
+  - template: popup-text-element
     content: "**2019**  \n_The Changing Landscape of American Retail_\n\nPhotoville
       The Fence:\n\n* Brooklyn Bridge Park. Brooklyn, NY.\n* Santa Fe Railyard Park.
       Santa Fe, NM.\n* LoDo District. Denver, CO.\n* Atlanta Beltline. Atlanta, GA.\n*
