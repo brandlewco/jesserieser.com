@@ -466,8 +466,12 @@ function init() {
     const {popupTrigger} = trigger.dataset;
     const popupModal = document.querySelector(`[data-popup-modal="${popupTrigger}"]`);
     const popupGalleryInit = popupModal.querySelector(".gallery_scroller");
+    const popupList = popupModal.querySelector(".scrollbar");
     trigger.addEventListener("click", () => {
       disablePageScroll(popupModal);
+      if (popupList) {
+        disablePageScroll(popupList);
+      }
       lazyloadToggle(popupModal);
       if (popupGalleryInit) {
         var flkty = new Flickity(popupGalleryInit, {
@@ -496,7 +500,9 @@ function init() {
     // modal close methods
     popupModal.querySelector(".popup-modal__close").addEventListener("click", () => {
       enablePageScroll(popupModal);
-      // flkty.destroy();
+      if (popupList) {
+        enablePageScroll(popupList);
+      }
       navigation.style.opacity = 1;
       navigation.style.display = "block";
       popupModal.style.opacity = 0;
@@ -507,7 +513,9 @@ function init() {
     if (popupModal.querySelector(".exit-modal")) {
       popupModal.querySelector(".exit-modal").addEventListener("click", () => {
         enablePageScroll(popupModal);
-        // flkty.destroy();
+        if (popupList) {
+          enablePageScroll(popupList);
+        }
 
         navigation.style.opacity = 1;
         navigation.style.display = "block";
@@ -522,8 +530,9 @@ function init() {
       var key = event.key || event.keyCode;
       if (key === "Escape" || key === "Esc" || key === 27) {
         enablePageScroll(popupModal);
-        // flkty.destroy();
-
+        if (popupList) {
+          enablePageScroll(popupList);
+        }
         navigation.style.opacity = 1;
         navigation.style.display = "block";
         popupModal.style.opacity = 0;

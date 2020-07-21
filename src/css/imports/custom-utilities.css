@@ -422,12 +422,12 @@ a:hover, button:hover {
 
 .figure.figure-blog-cover h1, .figure.figure-blog-cover h2 {
   opacity: 0;
-  transition: 0.33s opacity cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition: 0.33s opacity ease-in-out;
 }
 
 .figure.figure-blog-text h1, .figure.figure-blog-text h2 {
   opacity: 1;
-  transition: 0.33s opacity cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition: 0.33s opacity  ease-in-out;
 }
 
 .figure.figure-blog-text.dimmed h1, .figure.figure-blog-text.dimmed h2 {
