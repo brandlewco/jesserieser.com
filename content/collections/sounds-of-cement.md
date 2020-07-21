@@ -20,7 +20,7 @@ navigation_theme = "black"
 px_extra = true
 slug = "collections/sounds-of-cement"
 theme_color = "#CDCDCD"
-theme_color_all_works = "#8DFBC6"
+theme_color_all_works = "#FBB58D"
 title = "Sounds of Cement"
 [[collection_awards]]
 content = "**2016**  \n**_PDN Photo Annual_**   \nBest Stock Photography"
