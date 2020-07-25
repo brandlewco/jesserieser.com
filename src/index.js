@@ -426,15 +426,13 @@ function init() {
 
       var figureClick = document.querySelectorAll(".figure a");
       figureClick.forEach((trigger) => {
-        trigger.addEventListener("mouseenter", () => {
-          setTimeout(function() {
-            console.log("delay enter");
-            var preloadURL = trigger.getAttribute("href");
-            var preloadIMG = new Image();
-            preloadIMG.src = preloadURL;
-          }, 500);
-          // console.log(trigger.getAttribute("href"));
-        });
+        // trigger.addEventListener("mouseenter", () => {
+        //   setTimeout(function() {
+        //     var preloadURL = trigger.getAttribute("href");
+        //     var preloadIMG = new Image();
+        //     preloadIMG.src = preloadURL;
+        //   }, 500);
+        // });
         trigger.addEventListener("click", () => {
           galleryUiLaunch();
         });
