@@ -193,8 +193,11 @@ function init() {
       };
 
       // triggers when user clicks on thumbnail
-      var onThumbnailsClick = function(e) {
-        // UI pre-gallery launch
+      var onThumbnailsHover = function(e) {
+        console.log("hover:", "srcElement", e.srcElement, "target", e.target);
+      };
+
+      function galleryUiLaunch() {
         navigation.style.zIndex = 0;
         navigation.style.opacity = 0;
         navigation.style.display = "hidden";
@@ -203,6 +206,11 @@ function init() {
           // console.log(element);
           element.style.opacity = 0;
         });
+      }
+
+      // triggers when user clicks on thumbnail
+      var onThumbnailsClick = function(e) {
+        // UI pre-gallery launch
 
         // launch gallery
         e = e || window.event;
@@ -290,7 +298,7 @@ function init() {
           bgOpacity: 0.15,
           closeOnScroll: false,
           closeOnVerticalDrag: false,
-          preload: [2, 2],
+          preload: [2, 3],
           loadingIndicatorDelay: 100,
           getThumbBoundsFn: function(index) {
             // See Options -> getThumbBoundsFn section of documentation for more info
@@ -305,7 +313,6 @@ function init() {
           shareEl: false,
           indexIndicatorSep: "/",
           loop: true,
-
         };
 
         // PhotoSwipe opened from URL
@@ -411,8 +418,24 @@ function init() {
 
       for (var i = 0, l = galleryElements.length; i < l; i++) {
         galleryElements[i].setAttribute("data-pswp-uid", i + 1);
+        // galleryElements[i].querySelectorAll("a").onclick = onThumbnailsClick;
+        // console.log("link", link);
         galleryElements[i].onclick = onThumbnailsClick;
+        // galleryElements[i].onmouseover = onThumbnailsHover;
       }
+
+      var figureClick = document.querySelectorAll(".figure a");
+      figureClick.forEach((trigger) => {
+        trigger.addEventListener("mouseenter", () => {
+          var preloadURL = trigger.getAttribute("href");
+          var preloadIMG = new Image();
+          preloadIMG.src = preloadURL;
+          // console.log(trigger.getAttribute("href"));
+        });
+        trigger.addEventListener("click", () => {
+          galleryUiLaunch();
+        });
+      });
 
       // Parse URL and open gallery if it contains #&pid=3&gid=1
       var hashData = photoswipeParseHash();
