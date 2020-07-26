@@ -14,9 +14,9 @@ navigation_theme: white
 page_sections:
 - template: block-modal-list
   block: modal-list
-  width: '25'
+  width: '30'
   align_x: start
-  margin_y: '500'
+  margin_y: '800'
   margin_left: 15%
   margin_right: ''
   title_margin_left: "-40%"
@@ -205,15 +205,15 @@ page_sections:
       York, NY (Group Show)"
     icon: ''
     url: ''
-  meta: My father and I. Rob Rieser, 2019.
-  title_margin_y: 65%
+  meta: My father and I. By Rob Rieser, 2019.
+  title_margin_y: 25%
   text_color: ''
   text_size: 7xl
   line_height: ''
   text_alignment: ''
   text_tracking: ''
   font_weight: ''
-  meta_align: ''
+  meta_align: left
   modal_color: ''
 - template: block-modal-list
   block: modal-list
