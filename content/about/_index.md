@@ -26,7 +26,7 @@ page_sections:
   title_margin_right: ''
   image: https://jesserieser.brandlew.co/uploads/bio_final-11.jpg
   title: Exhibitions
-  color: "#F7BD1E"
+  color: "#77DDD4"
   modal_block:
   - template: popup-text-element
     content: "**2020**  \n_The Changing Landscape of American Retail_  \nFresh Exhibiting
@@ -214,7 +214,7 @@ page_sections:
   text_tracking: ''
   font_weight: ''
   meta_align: left
-  modal_color: ''
+  modal_color: "#77DDD4"
 - template: block-modal-list
   block: modal-list
   width: '40'
