@@ -447,7 +447,7 @@ page_sections:
   title_margin_right: ''
   title: Press & Interviews
   image: https://jesserieser.brandlew.co/uploads/bio_final-10.jpg
-  color: "#FE9A8E"
+  color: "#DDC4E7"
   modal_block:
   - template: popup-text-element
     content: "[_The New York Times Lens Blog_](https://lens.blogs.nytimes.com/2015/12/24/christmas-in-america-over-the-top-close-to-the-heart/?_r=1)"
@@ -753,7 +753,7 @@ page_sections:
     content: _JAVA Magazine_
     icon: ''
     url: ''
-  meta: Nicky Hedyatzadeh
+  meta: Polaroid Snap by Nicky Hedyatzadeh.
   title_margin_y: 30%
   text_color: ''
   text_size: ''
@@ -761,8 +761,8 @@ page_sections:
   text_alignment: ''
   text_tracking: ''
   font_weight: normal
-  meta_align: ''
-  modal_color: ''
+  meta_align: left
+  modal_color: "#DDC4E7"
 - template: block-modal-list
   block: modal-list
   width: '40'
