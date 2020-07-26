@@ -438,7 +438,7 @@ page_sections:
   width: '25'
   align_x: start
   margin_y: '50'
-  margin_left: 25%
+  margin_left: 20%
   margin_right: ''
   title_margin_left: "-75%"
   margin_x: 5%
