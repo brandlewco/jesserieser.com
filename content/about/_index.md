@@ -225,7 +225,7 @@ page_sections:
   title_margin_left: "-25%"
   image: https://jesserieser.brandlew.co/uploads/bio_final-9.jpg
   title: Awards
-  color: "#9DC2BE"
+  color: "#FF5B3F"
   modal_block:
   - template: popup-text-element
     content: "**2020**  \nKlompching Gallery Fresh 2020   \nWinning Exhibitor  \n_The
@@ -397,7 +397,7 @@ page_sections:
   text_tracking: ''
   font_weight: ''
   meta_align: right
-  modal_color: ''
+  modal_color: "#FF5B3F"
 - template: block-media-row
   block: media-row
   row_alignment: between
