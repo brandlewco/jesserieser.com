@@ -388,7 +388,7 @@ page_sections:
   block-list: ''
   align_y: ''
   title_margin_right: ''
-  meta: Me and my big wheel,1984.
+  meta: 'Me and my big wheel, 1984. Top: Tin Type Portrait by Mike Lundgren, 2020.'
   title_margin_y: 15%
   text_color: ''
   text_size: 8xl
