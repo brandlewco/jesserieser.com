@@ -941,7 +941,7 @@ page_sections:
   text_color: ''
   text_size: 7xl
   line_height: ''
-  text_alignment: ''
+  text_alignment: right
   text_tracking: ''
   font_weight: ''
   meta_align: ''
