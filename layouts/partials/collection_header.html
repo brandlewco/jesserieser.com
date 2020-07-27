@@ -7,11 +7,11 @@
         {{.Params.collection_cover }}?nf_resize=fit&w=1920 1920w,
         {{.Params.collection_cover }}?nf_resize=fit&w=2560 2560w"
         data-sizes="auto"
-		class="featured lazyload bg-center h-screen object-cover fixed inset-0 z-0"
+		class="featured lazyload bg-center h-screen object-cover absolute inset-0 z-0"
         data-parent-fit="cover"
         id="header-image"
-        style="max-width: 100%; max-height: 100%;"/>
-    <div id="header-overlay" class="absolute w-full h-full inset-auto z-40" style="background-color: {{.Params.theme_color}}; opacity: 0.01;" ></div>
+        style="max-width: 100%; max-height: 100%; opacity: 1;"/>
+    <!-- <div id="header-overlay" class="absolute w-full h-full inset-auto z-40" style="background-color: {{.Params.theme_color}}; opacity: 0.01;" ></div> -->
     <div id="header-loading" class="text-center font-semibold absolute inset-x-0 bottom-0 z-50 text-4xl mb-16 sm:mb-0">
         <i class="far fa-spinner-third fa-spin text-{{.Params.navigation_theme}}"></i>
     </div>

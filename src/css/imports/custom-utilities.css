@@ -184,7 +184,8 @@ header#project-header img.featured {
   mask-position: center 40%;
   mask-size: 25% auto;
   opacity: 0;
-  transition: opacity 0.33s ease-in-out 0.33s;
+  transition: opacity 0.33s ease-in-out;
+  /* transition: opacity 0.33s ease-in-out 0.33s; */
 }
 
 header#project-header img.featured.lazyloaded {
@@ -234,13 +235,23 @@ header#project-header img.featured.lazyloaded {
   opacity: 1;
 }
 
-#project-header img.lazyloaded + #header-overlay + #header-loading + #header-pointer,
+/* #project-header img.lazyloaded + #header-overlay + #header-loading + #header-pointer,
 #project-header img.lazyloaded + #feature-overlay + #header-loading + #header-pointer {
   opacity: 1;
 }
 
 #project-header img.lazyloaded + #header-overlay + #header-loading,
 #project-header img.lazyloaded + #feature-overlay + #header-loading {
+  opacity: 0;
+} */
+
+#project-header img.lazyloaded + #header-loading + #header-pointer,
+#project-header img.lazyloaded + #header-loading + #header-pointer {
+  opacity: 1;
+}
+
+#project-header img.lazyloaded + #header-loading,
+#project-header img.lazyloaded + #header-loading {
   opacity: 0;
 }
 

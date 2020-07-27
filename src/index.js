@@ -15,7 +15,7 @@ import sal from "sal.js";
 import Rellax from "rellax";
 import {disablePageScroll, enablePageScroll} from "scroll-lock";
 
-// lazySizes.cfg.expand = "1000";
+lazySizes.cfg.expand = "1000";
 
 // Page Loader (SWUP)
 const options = {
@@ -52,17 +52,15 @@ swup.on("contentReplaced", init);
 
 function init() {
 
-  document.addEventListener("load", function(e) {
-    console.log(e.target.currentSrc || e.target.src, e.target.width, "w", e.target.height, "h");
-  }, true);
+  // document.addEventListener("load", function(e) {
+  //   console.log(e.target.currentSrc || e.target.src, e.target.width, "w", e.target.height, "h");
+  // }, true);
 
   const body = document.body;
   const navigation = document.getElementById("navigation");
   const navigationHeight = navigation.clientHeight;
-  const content = document.getElementById("content");
-  const documentWidth = document.documentElement.clientWidth;
 
-  swup.preloadPages();
+  // swup.preloadPages();
 
   // First we get the viewport height and we multiple it by 1% to get a value for a vh unit
   const vh = window.innerHeight * 0.01;
@@ -102,11 +100,9 @@ function init() {
     sectionSelector: "hue"
   });
 
-  // middayNav.refresh();
-
   // Sal Animations
   var scrollAnimations = sal({
-    once: false,
+    once: true,
     threshold: 0.15,
   });
 
@@ -193,9 +189,9 @@ function init() {
       };
 
       // triggers when user clicks on thumbnail
-      var onThumbnailsHover = function(e) {
-        console.log("hover:", "srcElement", e.srcElement, "target", e.target);
-      };
+      // var onThumbnailsHover = function(e) {
+      //   console.log("hover:", "srcElement", e.srcElement, "target", e.target);
+      // };
 
       function galleryUiLaunch() {
         navigation.style.zIndex = 0;
@@ -350,12 +346,6 @@ function init() {
 
         // Pass data to PhotoSwipe and initialize it
         gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
-        // gallery.listen("imageLoadComplete", function() {
-        //   const imgItem = document.querySelectorAll(".pswp__img");
-        //   imgItem.forEach(function(element) {
-        //     element.style.opacity = null;
-        //   });
-        // });
         gallery.listen("beforeChange", function() {
           var activeSlide = document.getElementsByClassName("active-slide");
           var activeWrapper = document.getElementsByClassName("active-wrapper");
@@ -418,21 +408,31 @@ function init() {
 
       for (var i = 0, l = galleryElements.length; i < l; i++) {
         galleryElements[i].setAttribute("data-pswp-uid", i + 1);
-        // galleryElements[i].querySelectorAll("a").onclick = onThumbnailsClick;
-        // console.log("link", link);
         galleryElements[i].onclick = onThumbnailsClick;
-        // galleryElements[i].onmouseover = onThumbnailsHover;
       }
 
       var figureClick = document.querySelectorAll(".figure a");
+      // for (var j = 0, k = figureClick.length; j < k; j++) {
+      //   figureClick[j].addEventListener("mouseenter", (att) => {
+      //     setTimeout(function() {
+      //       var preloadURL = att.getAttribute("href");
+      //       var preloadIMG = new Image();
+      //       preloadIMG.src = preloadURL;
+      //     }, 500);
+      //   });
+      //   figureClick[j].addEventListener("click", () => {
+      //     galleryUiLaunch();
+      //     console.log("launch");
+      //   });
+      // }
       figureClick.forEach((trigger) => {
-        // trigger.addEventListener("mouseenter", () => {
-        //   setTimeout(function() {
-        //     var preloadURL = trigger.getAttribute("href");
-        //     var preloadIMG = new Image();
-        //     preloadIMG.src = preloadURL;
-        //   }, 500);
-        // });
+        trigger.addEventListener("mouseenter", () => {
+          setTimeout(function() {
+            var preloadURL = trigger.getAttribute("href");
+            var preloadIMG = new Image();
+            preloadIMG.src = preloadURL;
+          }, 500);
+        });
         trigger.addEventListener("click", () => {
           galleryUiLaunch();
         });
@@ -504,7 +504,6 @@ function init() {
           draggable: ">1",
           arrowShape: "m77.59 5.06-5.17-5.21-50 50 50 50 5.17-5.21-44.77-44.81z"
         });
-        // console.log("fired", flkty);
 
       }
       navigation.classList.remove("active");
@@ -590,13 +589,6 @@ function init() {
     });
   });
 
-  // Scroll Lock / Unlock
-  const scrollLock = () => {
-    body.style.overflowY = "hidden";
-  };
-  const scrollUnlock = () => {
-    body.style.overflowY = "scroll";
-  };
   function value_limit(val, min, max) {
     return val < min ? min : (val > max ? max : val);
   }
@@ -617,25 +609,31 @@ function init() {
     var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
     const windowY = window.scrollY;
     if (headerImage) {
-      if (windowY > (window.innerHeight)) {
-        headerImage.style.opacity = 0;
-      } else {
-        headerImage.style.opacity = 1;
-      }
-    }
-    if (headerOverlay) {
-      headerOverlay.style.opacity = value_limit((scrollTop / (height * 0.4)), 0, 1).toFixed(2);
+      headerImage.style.opacity = value_limit(1 - (scrollTop / (height * 0.4)), 0, 1).toFixed(2);
     }
     if (featureImage) {
-      if (windowY > (window.innerHeight)) {
-        featureImage.style.opacity = 0;
-      } else {
-        featureImage.style.opacity = 1;
-      }
+      featureImage.style.opacity = value_limit(1 - (scrollTop / (height * 0.9)), 0, 1).toFixed(2);
     }
-    if (featureOverlay) {
-      featureOverlay.style.opacity = value_limit((scrollTop / (height * 0.9)), 0, 1).toFixed(2);
-    }
+    // if (headerOverlay) {
+    //   headerOverlay.style.opacity = value_limit((scrollTop / (height * 0.4)), 0, 1).toFixed(2);
+    // }
+    // if (featureOverlay) {
+    //   featureOverlay.style.opacity = value_limit((scrollTop / (height * 0.9)), 0, 1).toFixed(2);
+    // }
+    // if (headerImage) {
+    //   if (windowY > (window.innerHeight)) {
+    //     headerImage.style.opacity = 0;
+    //   } else {
+    //     headerImage.style.opacity = 1;
+    //   }
+    // }
+    // if (featureImage) {
+    //   if (windowY > (window.innerHeight)) {
+    //     featureImage.style.opacity = 0;
+    //   } else {
+    //     featureImage.style.opacity = 1;
+    //   }
+    // }
     if (projectHeader) {
       if (windowY > (window.innerHeight * 0.75)) {
         if (windowY < scrollPos) {
