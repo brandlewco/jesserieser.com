@@ -765,15 +765,15 @@ page_sections:
   modal_color: "#DDC4E7"
 - template: block-modal-list
   block: modal-list
-  width: '40'
+  width: '45'
   align_y: start
-  margin_y: '700'
+  margin_y: '600'
   margin_left: 0%
   margin_right: 0%
   title_margin_left: "-20%"
   title_margin_right: 0%
   title: Clients
-  color: "#9DC2BE"
+  color: "#D5E3F6"
   modal_block:
   - template: popup-text-element
     icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__aarp.png
@@ -936,7 +936,7 @@ page_sections:
     icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__wired.png
     url: ''
   image: https://jesserieser.brandlew.co/uploads/bio_final-13.jpg
-  meta: ''
+  meta: 'Wrap photo by Dayvid Lemmon. Ben Simmons for Smartwater / Anomaly NY. '
   title_margin_y: 10%
   text_color: ''
   text_size: 7xl
@@ -945,7 +945,7 @@ page_sections:
   text_tracking: ''
   font_weight: ''
   meta_align: ''
-  modal_color: ''
+  modal_color: "#D5E3F6"
 header_col_1_title: |-
   Advertising & Editorial
 
