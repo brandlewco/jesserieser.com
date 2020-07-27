@@ -944,7 +944,7 @@ page_sections:
   text_alignment: right
   text_tracking: ''
   font_weight: ''
-  meta_align: ''
+  meta_align: right
   modal_color: "#D5E3F6"
 header_col_1_title: |-
   Advertising & Editorial
