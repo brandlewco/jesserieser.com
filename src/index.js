@@ -15,7 +15,7 @@ import sal from "sal.js";
 import Rellax from "rellax";
 import {disablePageScroll, enablePageScroll} from "scroll-lock";
 
-lazySizes.cfg.expand = "1000";
+// lazySizes.cfg.expand = "1000";
 
 // Page Loader (SWUP)
 const options = {
@@ -52,9 +52,9 @@ swup.on("contentReplaced", init);
 
 function init() {
 
-  // document.addEventListener("load", function(e) {
-  //   console.log(e.target.currentSrc || e.target.src, e.target.width, "w", e.target.height, "h");
-  // }, true);
+  document.addEventListener("load", function(e) {
+    console.log(e.target.currentSrc || e.target.src, e.target.width, "w", e.target.height, "h");
+  }, true);
 
   const body = document.body;
   const navigation = document.getElementById("navigation");
@@ -160,8 +160,6 @@ function init() {
             src: linkEl.getAttribute("href"),
             w: imgEl.naturalWidth * 2,
             h: imgEl.naturalHeight * 2,
-            // w: imgEl.naturalWidth,
-            // h: imgEl.naturalHeight,
             pid: linkEl.getAttribute("pid")
           };
 
@@ -294,7 +292,7 @@ function init() {
           bgOpacity: 0.15,
           closeOnScroll: false,
           closeOnVerticalDrag: false,
-          preload: [2, 3],
+          preload: [2, 2],
           loadingIndicatorDelay: 100,
           getThumbBoundsFn: function(index) {
             // See Options -> getThumbBoundsFn section of documentation for more info
@@ -412,26 +410,13 @@ function init() {
       }
 
       var figureClick = document.querySelectorAll(".figure a");
-      // for (var j = 0, k = figureClick.length; j < k; j++) {
-      //   figureClick[j].addEventListener("mouseenter", (att) => {
-      //     setTimeout(function() {
-      //       var preloadURL = att.getAttribute("href");
-      //       var preloadIMG = new Image();
-      //       preloadIMG.src = preloadURL;
-      //     }, 500);
-      //   });
-      //   figureClick[j].addEventListener("click", () => {
-      //     galleryUiLaunch();
-      //     console.log("launch");
-      //   });
-      // }
       figureClick.forEach((trigger) => {
         trigger.addEventListener("mouseenter", () => {
           setTimeout(function() {
             var preloadURL = trigger.getAttribute("href");
             var preloadIMG = new Image();
             preloadIMG.src = preloadURL;
-          }, 500);
+          }, 50);
         });
         trigger.addEventListener("click", () => {
           galleryUiLaunch();
@@ -597,8 +582,8 @@ function init() {
   // const filterContainer = document.getElementById("filters");
   const headerPointer = document.getElementById("header-pointer");
   const pageTitle = document.getElementById("page-title");
-  const headerOverlay = document.getElementById("header-overlay");
-  const featureOverlay = document.getElementById("feature-overlay");
+  // const headerOverlay = document.getElementById("header-overlay");
+  // const featureOverlay = document.getElementById("feature-overlay");
   const headerImage = document.getElementById("header-image");
   const featureImage = document.getElementById("feature-image");
   const height = window.innerHeight;

@@ -225,10 +225,11 @@
   height: auto !important;
 }
 
+
 .pswp img {
   max-width: none;
   object-fit: contain;
-} */
+} 
 /* end added */
 /*
 	stretched thumbnail or div placeholder element (see below)
