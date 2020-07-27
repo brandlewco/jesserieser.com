@@ -52,9 +52,9 @@ swup.on("contentReplaced", init);
 
 function init() {
 
-  document.addEventListener("load", function(e) {
-    console.log(e.target.currentSrc || e.target.src, e.target.width, "w", e.target.height, "h");
-  }, true);
+  // document.addEventListener("load", function(e) {
+  //   console.log(e.target.currentSrc || e.target.src, e.target.width, "w", e.target.height, "h");
+  // }, true);
 
   const body = document.body;
   const navigation = document.getElementById("navigation");
