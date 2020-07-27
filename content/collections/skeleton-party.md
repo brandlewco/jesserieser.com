@@ -737,5 +737,15 @@ margin_left = "50%"
 margin_y = "100"
 template = "block-media-element"
 width = "40"
+[[collection_layout_builder]]
+align_y = "start"
+block = "media-element"
+caption = "<p>ATT</p>"
+image = "https://jesserieser.brandlew.co/uploads/skeleton-57.jpg"
+margin_left = "0%"
+margin_right = "0%"
+margin_y = "50"
+template = "block-media-element"
+width = "33"
 
 +++
