@@ -936,7 +936,7 @@ page_sections:
     icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__wired.png
     url: ''
   image: https://jesserieser.brandlew.co/uploads/bio_final-13.jpg
-  meta: 'Wrap photo by Dayvid Lemmon. Ben Simmons for Smartwater / Anomaly NY. '
+  meta: 'Wrap photo by Dayvid Lemmon. Ben Simmons for Smartwater & Anomaly NY. '
   title_margin_y: 10%
   text_color: ''
   text_size: 7xl
