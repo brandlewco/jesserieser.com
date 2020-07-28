@@ -18,11 +18,11 @@
 </section>
 
 <article class="popup-modal scrollbar flex flex-col fixed z-999 text-black bg-white overflow-y-scroll overflow-x-hidden h-full w-full inset-0" data-popup-modal="{{$key.Params.title | lower | urlize}}" style="visibility: hidden; opacity: 0;" role="dialog" aria-modal="true">
-  <div class="w-full px-2 sm:px-40">
-    <header class="fixed top-0 left-0 w-full px-2 sm:px-20 flex flex-row justify-between py-6 z-100 bg-white items-center">
+  <div class="w-full px-4 sm:px-40">
+    <header class="fixed top-0 left-0 w-full px-4 sm:px-20 flex flex-row justify-between py-6 z-100 bg-white items-center">
       <div class="text-xl sm:text-2xl uppercase font-medium text-center text-black">JESSE RIESER</div>
         <div class="text-lg sm:text-xl pr-12 sm:pr-0 uppercase font-medium text-center text-black">NEWS: <span class="italic font-light">{{range $key.Params.news_category}}{{.}}{{end}}</span></div>
-          <svg width="35" height="35" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class="hover icon pointer h-6 w-6 mr-2 sm:mr-6 absolute top-0 right-0 text-white popup-modal__close z-999" style="margin-top:1.8rem;"><g fill="none" stroke="#000"  stroke-miterlimit="10" stroke-width="10"><path d="m4.7 4.7 246.6 246.6"/><path d="m250.85 4.7-246.6 246.6"/></g></svg>
+          <svg width="35" height="35" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class="hover icon pointer h-6 w-6 mr-2 sm:mr-6 absolute top-0 right-0 text-white popup-modal__close z-999" style="margin-top:1.6rem;"><g fill="none" stroke="#000"  stroke-miterlimit="10" stroke-width="10"><path d="m4.7 4.7 246.6 246.6"/><path d="m250.85 4.7-246.6 246.6"/></g></svg>
     </header>
     <div class="w-full lazy-gallery lazyload-delay relative mt-20">
         <div class="paginated_gallery gallery">
