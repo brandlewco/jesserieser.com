@@ -1009,7 +1009,7 @@ footer_links:
   link_url: https://www.artphotoindex.com/api/#photographer/Jesse-Rieser/15804
 - link_title: The One Club Young Guns
   link_url: https://www.oneclub.org/awards/youngguns/9/-bio/yg9-2545-jesse-rieser
-about_bio_image_credit: credit name
+about_bio_image_credit: Portrait by Brad Reed. 2019
 cv: ''
 
 ---
