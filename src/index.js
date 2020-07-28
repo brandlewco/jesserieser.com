@@ -56,18 +56,9 @@ const swup = new Swup(options);
 swup.on("contentReplaced", init);
 
 function init() {
-
-  window.lazySizesConfig = window.lazySizesConfig || {};
-  window.lazySizesConfig.customMedia = {
-    "--mobile": "(orientation: portrait) and (max-width: 688px)",
-    "--tablet": "(orientation: portrait) and (max-width: 922px)",
-    "--medium": "(max-width: 1312px)",
-    "--large": "(min-width: 1313px)"
-  };
-
-  document.addEventListener("load", function(e) {
-    console.log(e.target.currentSrc || e.target.src, e.target.width, "w", e.target.height, "h", "width", body.clientWidth);
-  }, true);
+  // document.addEventListener("load", function(e) {
+  //   console.log(e.target.currentSrc || e.target.src, e.target.width, "w", e.target.height, "h", "width", body.clientWidth);
+  // }, true);
 
   const body = document.body;
   const navigation = document.getElementById("navigation");
@@ -103,7 +94,6 @@ function init() {
   const setUp = () => {
     console.log("// built by brett lewis");
     console.log("// hello@brandlew.co");
-    console.log(window.lazySizes.cfg);
   };
   setUp();
 
