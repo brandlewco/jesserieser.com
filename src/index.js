@@ -6,6 +6,7 @@ import SwupScriptsPlugin from "@swup/scripts-plugin";
 import SwupPreloadPlugin from "@swup/preload-plugin";
 import lazySizes from "lazysizes";
 import "lazysizes/plugins/parent-fit/ls.parent-fit";
+// import "lazysizes/plugins/respimg/ls.respimg";
 import * as PhotoSwipe from "photoswipe";
 import * as PhotoSwipeUI_Default from "photoswipe/dist/photoswipe-ui-default";
 import Flickity from "flickity";
@@ -14,6 +15,10 @@ import smoothscroll from "smoothscroll-polyfill";
 import sal from "sal.js";
 import Rellax from "rellax";
 import {disablePageScroll, enablePageScroll} from "scroll-lock";
+
+// if (!("object-fit" in document.createElement("a").style)) {
+//   require("lazysizes/plugins/object-fit/ls.object-fit");
+// }
 
 // lazySizes.cfg.expand = "1000";
 
