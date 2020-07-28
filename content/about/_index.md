@@ -753,7 +753,7 @@ page_sections:
     content: _JAVA Magazine_
     icon: ''
     url: ''
-  meta: Polaroid Snap by Nicky Hedyatzadeh.
+  meta: Nicky Hedyatzadeh
   title_margin_y: 30%
   text_color: ''
   text_size: ''
