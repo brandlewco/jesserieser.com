@@ -388,7 +388,7 @@ page_sections:
   block-list: ''
   align_y: ''
   title_margin_right: ''
-  meta: 'Me and my big wheel. '
+  meta: 1984. Rob Rieser
   title_margin_y: 15%
   text_color: ''
   text_size: 8xl
