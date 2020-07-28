@@ -205,7 +205,7 @@ page_sections:
       York, NY (Group Show)"
     icon: ''
     url: ''
-  meta: My dad and I, Rob Rieser. Header by Mike Lundgren
+  meta: My dad & I, Rob Rieser. Header by Mike Lundgren
   title_margin_y: 25%
   text_color: ''
   text_size: 7xl
