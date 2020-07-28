@@ -6,7 +6,7 @@ import SwupScriptsPlugin from "@swup/scripts-plugin";
 import SwupPreloadPlugin from "@swup/preload-plugin";
 import lazySizes from "lazysizes";
 import "lazysizes/plugins/parent-fit/ls.parent-fit";
-// import "lazysizes/plugins/respimg/ls.respimg";
+import "lazysizes/plugins/respimg/ls.respimg";
 import * as PhotoSwipe from "photoswipe";
 import * as PhotoSwipeUI_Default from "photoswipe/dist/photoswipe-ui-default";
 import Flickity from "flickity";
@@ -57,9 +57,17 @@ swup.on("contentReplaced", init);
 
 function init() {
 
-  // document.addEventListener("load", function(e) {
-  //   console.log(e.target.currentSrc || e.target.src, e.target.width, "w", e.target.height, "h");
-  // }, true);
+  window.lazySizesConfig = window.lazySizesConfig || {};
+  window.lazySizesConfig.customMedia = {
+    "--mobile": "(orientation: portrait) and (max-width: 688px)",
+    "--tablet": "(orientation: portrait) and (max-width: 922px)",
+    "--medium": "(max-width: 1312px)",
+    "--large": "(min-width: 1313px)"
+  };
+
+  document.addEventListener("load", function(e) {
+    console.log(e.target.currentSrc || e.target.src, e.target.width, "w", e.target.height, "h", "width", body.clientWidth);
+  }, true);
 
   const body = document.body;
   const navigation = document.getElementById("navigation");
@@ -95,6 +103,7 @@ function init() {
   const setUp = () => {
     console.log("// built by brett lewis");
     console.log("// hello@brandlew.co");
+    console.log(window.lazySizes.cfg);
   };
   setUp();
 

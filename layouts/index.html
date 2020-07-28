@@ -18,7 +18,8 @@
   (function(){
     var images = [
       {{- range .Params.selected_works_theme -}}
-      ["{{.image_mobile }}?nf_resize=fit&w=450 450w, {{.image_mobile }}?nf_resize=fit&w=780 780w, {{.image}}?nf_resize=fit&w=1440 1440w, {{.image}}?nf_resize=fit&w=1920 1920w, {{.image}}?nf_resize=fit&w=2560 2560w","{{.theme_color}}"],
+      // ["{{.image_mobile }}?nf_resize=fit&w=450 450w, {{.image_mobile }}?nf_resize=fit&w=780 780w, {{.image}}?nf_resize=fit&w=1440 1440w, {{.image}}?nf_resize=fit&w=1920 1920w, {{.image}}?nf_resize=fit&w=2560 2560w","{{.theme_color}}"],
+      ["<source data-srcset='{{.image_mobile }}?nf_resize=fit&w=720' media='(orientation: portrait) and (max-width: 688px)' /><source data-srcset='{{.image_mobile }}?nf_resize=fit&w=1040' media='(orientation: portrait) and (max-width: 1024px)' /><source data-srcset='{{.image}}?nf_resize=fit&w=1040' media='(max-width: 1024px)' /><source data-srcset='{{.image}}?nf_resize=fit&w=1500' media='(max-width: 1440px)'  /><source data-srcset='{{.image}}?nf_resize=fit&w=2560' media='(max-width: 2560px)'  /><img id='feature-image' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' class='featured bg-center lazyload h-screen object-cover absolute inset-0 z-0' data-sizes='auto'/>","{{.theme_color}}"],
       {{- end -}}
       ]
     var imgCount = images.length;
@@ -27,7 +28,8 @@
     imgURL = images[randNumber-1];
 
     const content = document.getElementById("content");
-    const featureImage = document.getElementById("feature-image");
+    // const featureImage = document.getElementById("feature-image");
+    const featurePicture = document.getElementById("feature-picture");
     const hueHeaderShift = document.querySelectorAll(".hue-header.page .shift");
     const projectHeader = document.getElementById("project-header");
     const projectDescription = document.getElementById("project-description");
@@ -44,15 +46,12 @@
     document.querySelectorAll(".bun").forEach(function(bunLine) {
       bunLine.style.backgroundColor = imgURL[1];
     });
-    featureImage.setAttribute("data-srcset", imgURL[0]);
-    featureImage.classList.add("lazyload");
+    featurePicture.innerHTML = imgURL[0] + featurePicture.innerHTML;
+    // featureImage.setAttribute("data-srcset", imgURL[0]);
+    // featureImage.classList.add("lazyload");
     // featureOverlay.style.backgroundColor = imgURL[1];
     // toTop.style.color = imgURL[1];
     featureFooter.style.backgroundColor = imgURL[1];
-
-    // setTimeout(function(){
-    //   content.style.opacity = 1;
-    // }, 1500);
   }());
 </script>
 {{- end -}}
