@@ -8,7 +8,7 @@
         </figcaption>
       </div>
       {{else}}
-      <figcaption class="relative break-words {{with .Section.font_weight }}font-{{.}} {{end}} text-lg {{with .Section.text_size }}md:text-{{.}} {{end}}{{with .Section.text_tracking}}tracking-{{.}} {{end}}{{with .Section.text_alignment }}text-{{.}} {{end}}{{with .Section.parallax}}rellax rellax-off{{end}} {{with .Section.background_color}} p-4 sm:pt-16 sm:pl-20 sm:pr-16 sm:pb-16 {{end}} leading-tight" {{with .Section.parallax}}data-rellax-speed="4" data-rellax-xs-speed="1"{{end}} style="{{with .Section.text_color}}color:{{.}}; {{end}}{{with .Section.background_color}}background-color:{{.}};{{end}} {{with .Section.caption_css | safeCSS}}{{.}}{{end}}">
+      <figcaption class="relative break-words {{with .Section.font_weight }}font-{{.}} {{end}} text-sm {{with .Section.text_size }}md:text-{{.}} {{end}}{{with .Section.text_tracking}}tracking-{{.}} {{end}}{{with .Section.text_alignment }}text-{{.}} {{end}}{{with .Section.parallax}}rellax rellax-off{{end}} {{with .Section.background_color}} p-4 sm:pt-16 sm:pl-20 sm:pr-16 sm:pb-16 {{end}} leading-tight" {{with .Section.parallax}}data-rellax-speed="4" data-rellax-xs-speed="1"{{end}} style="{{with .Section.text_color}}color:{{.}}; {{end}}{{with .Section.background_color}}background-color:{{.}};{{end}} {{with .Section.caption_css | safeCSS}}{{.}}{{end}}">
         {{ .Section.text | markdownify }}
       </figcaption>
       {{end}}
