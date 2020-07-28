@@ -205,7 +205,7 @@ page_sections:
       York, NY (Group Show)"
     icon: ''
     url: ''
-  meta: My dad and I by Rob Rieser
+  meta: My dad and I, Rob Rieser. Header by Mike Lundgren
   title_margin_y: 25%
   text_color: ''
   text_size: 7xl
@@ -1009,7 +1009,7 @@ footer_links:
   link_url: https://www.artphotoindex.com/api/#photographer/Jesse-Rieser/15804
 - link_title: The One Club Young Guns
   link_url: https://www.oneclub.org/awards/youngguns/9/-bio/yg9-2545-jesse-rieser
-about_bio_image_credit: Brad Reed & Header by Mike Lundgren
+about_bio_image_credit: Brad Reed
 cv: ''
 about_bio_doodle_credit: Doodle Credit
 
