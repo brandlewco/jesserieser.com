@@ -28,7 +28,7 @@
     </div>
     <!-- <div id="loading-overlay" class="absolute w-full h-screen inset-auto z-10" style="background-color: {{.Params.theme_color}};"></div> -->
 </header>
-<article id="project-description" class="w-full py-8 px-4 sm:px-32 lg:px-64 text-lg text-{{.Params.navigation_theme}} items-center leading-tight relative z-100"  style="background-color: {{.Params.theme_color}}; backface-visibility: hidden; {{with .Params.collection_description}}{{else}}display: none;{{end}}">
+<article id="project-description" class="w-full py-8 px-4 sm:px-32 lg:px-64 text-sm sm:text-lg text-{{.Params.navigation_theme}} items-center leading-tight relative z-100"  style="background-color: {{.Params.theme_color}}; backface-visibility: hidden; {{with .Params.collection_description}}{{else}}display: none;{{end}}">
     <div class="flex flex-col justify-center mx-auto {{if (eq .Params.px_extra true) }}xl:px-40{{else}}{{end}} text-left {{with .Params.collection_description_alignment}}md:text-{{.}}{{end}}" data-sal="slide-up" data-sal-delay="100">
     <p>
         {{ .Params.collection_description | markdownify }}
