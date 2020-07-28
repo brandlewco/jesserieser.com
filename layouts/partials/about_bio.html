@@ -1,12 +1,13 @@
 <section class="block-media group-hover flex flex-wrap mx-auto h-auto sm:justify-between">
     <figure class="relative w-full sm:self-start sm:w-50 lg:w-50 mt-0 ml-0 sm:ml-15% sm:mr-15% mr-0 sm:mr-0% highlight rellax-wrapper relative sm:mb-100 lg:mb-200  xl:mb-500" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject">
         <div class="flex flex-col sm:flex-row md:relative md:flex-none flex-row-reverse">
-          <img class="relative right-0 sm:absolute z-0 rellax rellax-off lazyload opacity-100 sm:opacity-50 w-full sm:w-60/100 lg:w-40/100" data-src="{{.Params.about_bio_image}}" alt="" data-rellax-speed="2" data-rellax-xs-speed="1" style="top: 35%; transform: translate3d(0px, 0px, 0px);">
-          <h6 class="w-full mb-0 ml-0 text-black font-normal text-xs sm:text-base tracking-widest text-right leading-tight mt-1 sm:mt-0" data-sal="slide-down" data-sal-delay="600">{{.Params.about_bio_image_credit}}</h6>
+          <div class="relative right-0 sm:absolute z-0 rellax rellax-off lazyload w-full sm:w-60/100 lg:w-40/100" style="top: 35%; transform: translate3d(0px, 0px, 0px);">
+            <img class="lazyload opacity-100 sm:opacity-50" data-src="{{.Params.about_bio_image}}" alt="" data-rellax-speed="2" data-rellax-xs-speed="1">
+                <h6 class="w-full mb-0 ml-0 text-black font-normal text-xs sm:text-base tracking-widest text-right leading-tight mt-1 sm:mt-0" data-sal="slide-down" data-sal-delay="600">{{.Params.about_bio_image_credit}}</h6>
+          </div>
           <figcaption class="z-10 mt-4 sm:mt-32 w-full sm:w-75/100 ml-0 break-words leading-tight text-sm sm:text-xl tracking-wide " style="color:#000000; ">
             {{.Params.about_bio | markdownify}}
-        </figcaption>
-
+          </figcaption>
         </div>
         
     </figure>
