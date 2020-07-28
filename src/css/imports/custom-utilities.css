@@ -468,6 +468,11 @@ a:hover, button:hover {
   transition: 0.33s opacity  ease-in-out;
 }
 
+.figure.figure-blog-cover.dimmed h1,  .figure.figure-blog-cover.dimmed h2 {
+  opacity: 1;
+}
+
+
 .figure.figure-blog-text.dimmed h1, .figure.figure-blog-text.dimmed h2 {
   opacity: 0;
 }
