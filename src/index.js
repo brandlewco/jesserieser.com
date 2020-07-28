@@ -490,6 +490,7 @@ function init() {
       if (popupGalleryInit) {
         var flkty = new Flickity(popupGalleryInit, {
           wrapAround: true,
+          adaptiveHeight: true,
           percentPosition: false,
           draggable: ">1",
           accessibility: false,
