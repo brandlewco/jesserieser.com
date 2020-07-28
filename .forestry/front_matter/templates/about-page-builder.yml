@@ -173,5 +173,10 @@ fields:
     max: 
     labelField: 
   label: Footer Links
+- name: about_bio_doodle_credit
+  type: text
+  config:
+    required: false
+  label: Bio Doodle Credit
 pages:
 - content/about/_index.md
