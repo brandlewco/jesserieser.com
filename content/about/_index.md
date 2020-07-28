@@ -1009,6 +1009,8 @@ footer_links:
   link_url: https://www.artphotoindex.com/api/#photographer/Jesse-Rieser/15804
 - link_title: The One Club Young Guns
   link_url: https://www.oneclub.org/awards/youngguns/9/-bio/yg9-2545-jesse-rieser
+about_bio_image_credit: credit name
+cv: ''
 
 ---
 ## Click the collections link above to preview collections.
