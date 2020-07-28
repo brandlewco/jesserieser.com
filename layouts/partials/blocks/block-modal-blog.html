@@ -46,7 +46,7 @@
         <div class="text-xl sm:text-5xl font-medium text-black pb-4">{{$key.Params.title}}</div>
         <div class="text-base sm:text-2xl font-medium italic text-black">{{$key.Params.caption}}</div>
       </header>
-      <div class="text-sm w-100 h-100 text-black leading-tight pb-16">
+      <div class="text-sm w-100 h-100 text-black leading-tight pb-8">
             {{ $key.Params.content | markdownify }}
       </div>
       <section class="block-media group-hover flex flex-wrap mx-auto h-auto {{with .Params.row_alignment}}sm:justify-{{.}}{{else}}sm:justify-between{{end}}">
