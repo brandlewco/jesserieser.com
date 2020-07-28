@@ -109,9 +109,9 @@ html.is-animating .transition-nav {
   transition-delay: 0.33s;
 } */
 
-body.page-collections .navigation-container {
+/* body.page-collections .navigation-container {
   background: rgba(255, 255, 255, 0.95) !important;
-}
+} */
 
 #navigation {
   transition: 0.33s transform ease-in-out, 0.33s opacity cubic-bezier(0.55, 0.055, 0.675, 0.19);
@@ -163,6 +163,16 @@ button:hover {
   transition: 0.33s transform ease-in-out, 0.33s opacity cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
+#filters::before {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255,255,255,.95);
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
 #filter {
   /* overflow: hidden; */
   /* margin: 0 -0.5rem 0 -0.5rem; */
