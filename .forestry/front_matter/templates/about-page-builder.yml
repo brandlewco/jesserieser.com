@@ -120,6 +120,11 @@ fields:
   config:
     required: false
   label: Bio Image Credit
+- name: about_bio_doodle_credit
+  type: text
+  config:
+    required: false
+  label: Bio Doodle Credit
 - name: row_alignment
   type: select
   default: between
@@ -173,10 +178,5 @@ fields:
     max: 
     labelField: 
   label: Footer Links
-- name: about_bio_doodle_credit
-  type: text
-  config:
-    required: false
-  label: Bio Doodle Credit
 pages:
 - content/about/_index.md

@@ -1011,6 +1011,7 @@ footer_links:
   link_url: https://www.oneclub.org/awards/youngguns/9/-bio/yg9-2545-jesse-rieser
 about_bio_image_credit: Portrait by Brad Reed. 2019
 cv: ''
+about_bio_doodle_credit: Doodle Credit
 
 ---
 ## Click the collections link above to preview collections.
