@@ -1010,7 +1010,7 @@ footer_links:
 - link_title: The One Club Young Guns
   link_url: https://www.oneclub.org/awards/youngguns/9/-bio/yg9-2545-jesse-rieser
 about_bio_image_credit: Brad Reed
-cv: ''
+cv: https://jesserieser.brandlew.co/uploads/202007_cv-jesserieser-www-2.pdf
 about_bio_doodle_credit: Portrait by Lapo
 
 ---
