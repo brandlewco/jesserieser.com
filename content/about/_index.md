@@ -205,7 +205,7 @@ page_sections:
       York, NY (Group Show)"
     icon: ''
     url: ''
-  meta: My father and I. By Rob Rieser, 2019.
+  meta: My dad & I, Rob Rieser. Header by Mike Lundgren
   title_margin_y: 25%
   text_color: ''
   text_size: 7xl
@@ -388,7 +388,7 @@ page_sections:
   block-list: ''
   align_y: ''
   title_margin_right: ''
-  meta: 'Me and my big wheel, 1984. Top: Tin Type Portrait by Mike Lundgren, 2020.'
+  meta: 1984. Rob Rieser
   title_margin_y: 15%
   text_color: ''
   text_size: 8xl
@@ -753,7 +753,7 @@ page_sections:
     content: _JAVA Magazine_
     icon: ''
     url: ''
-  meta: Polaroid Snap by Nicky Hedyatzadeh.
+  meta: Nicky Hedyatzadeh
   title_margin_y: 30%
   text_color: ''
   text_size: ''
@@ -936,7 +936,7 @@ page_sections:
     icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__wired.png
     url: ''
   image: https://jesserieser.brandlew.co/uploads/bio_final-13.jpg
-  meta: 'Wrap photo by Dayvid Lemmon. Ben Simmons for Smartwater & Anomaly NY. '
+  meta: 'Ben Simmons for Smartwater & Anomaly NY. Dayvid Lemmon '
   title_margin_y: 10%
   text_color: ''
   text_size: 7xl
@@ -1009,9 +1009,9 @@ footer_links:
   link_url: https://www.artphotoindex.com/api/#photographer/Jesse-Rieser/15804
 - link_title: The One Club Young Guns
   link_url: https://www.oneclub.org/awards/youngguns/9/-bio/yg9-2545-jesse-rieser
-about_bio_image_credit: Portrait by Brad Reed. 2019
-cv: ''
-about_bio_doodle_credit: Doodle Credit
+about_bio_image_credit: Brad Reed
+cv: https://jesserieser.brandlew.co/uploads/202007_cv-jesserieser-www-2.pdf
+about_bio_doodle_credit: Portrait by Lapo
 
 ---
 ## Click the collections link above to preview collections.
