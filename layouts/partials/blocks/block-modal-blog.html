@@ -1,5 +1,5 @@
 {{ $key := .Site.GetPage .Section.attached_blog }}
-<section class="figure block-hover lg:meta-hover {{with $key.Params.blog_block_cover }}figure-blog-cover{{else}}figure-blog-text{{end}} block-hover self-start {{with .Section.align_y}}sm:self-{{.}}{{end}} w-full {{with .Section.width}}sm:w-{{.}}/100{{end}} mt-4 {{with .Section.margin_y}}sm:mt-{{.}}{{end}} ml-0 {{with .Section.margin_left}}sm:ml-{{.}}{{end}} mr-0 {{with .Section.margin_right}}sm:mr-{{.}}{{end}} highlight rellax" data-rellax-speed="2" data-rellax-xs-speed="0">
+<section class="figure block-hover lg:meta-hover {{with $key.Params.blog_block_cover }}figure-blog-cover{{else}}figure-blog-text{{end}} block-hover self-start {{with .Section.align_y}}sm:self-{{.}}{{end}} w-full {{with .Section.width}}sm:w-{{.}}/100{{end}} py-4 sm:py-0 mt-0 {{with .Section.margin_y}}sm:mt-{{.}}{{end}} ml-0 {{with .Section.margin_left}}sm:ml-{{.}}{{end}} mr-0 {{with .Section.margin_right}}sm:mr-{{.}}{{end}} highlight rellax" data-rellax-speed="2" data-rellax-xs-speed="0">
   <button type="button" class="popup-trigger relative w-full flex flex-col h-auto sm:h-0 justify-end sm:justify-between items-start sm:items-center overflow-hidden {{with $key.Params.block_aspect_ratio }}sm:{{.}}{{else}}sm:aspect-ratio-4/3{{end}}" style="background-color: {{$key.Params.theme_color}}" data-popup-trigger="{{$key.Params.title | lower | urlize}}">
     {{with $key.Params.blog_block_cover }}
       <img 
@@ -14,7 +14,7 @@
         <h2 class="text-base opacity-100 lg:opacity-0 font-semibold text-center tracking-widest">{{$key.Params.caption}}</h2>
     </div>
   </button>
-  <h6 class="mb-0 ml-0 text-black tracking-widest" data-sal="slide-down" data-sal-delay="600">{{range $key.Params.news_category}}{{. | replaceRE "[\\W]" "" | lower}} {{end}}</h6>
+  <h6 class="mb-0 ml-0 text-black font-normal text-xs sm:text-base tracking-widest" data-sal="slide-down" data-sal-delay="600">{{range $key.Params.news_category}}{{. | replaceRE "[\\W]" "" | lower}} {{end}}</h6>
 </section>
 
 <article class="popup-modal scrollbar flex flex-col fixed z-999 text-black bg-white overflow-y-scroll overflow-x-hidden h-full w-full inset-0" data-popup-modal="{{$key.Params.title | lower | urlize}}" style="visibility: hidden; opacity: 0;" role="dialog" aria-modal="true">

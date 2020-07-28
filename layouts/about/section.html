@@ -3,7 +3,7 @@
     {{ partial "about_header" .}}
     </section>
     <section data-hue="page" class="pt-8 mx-auto bg-white relative z-100 overflow-y-hidden" style="backface-visibility: hidden;">
-        <div class="px-3 xl:px-16">
+        <div class="px-4 xl:px-16">
             <section class="block-media group-hover flex flex-wrap mx-auto h-auto {{with .Params.row_alignment}}sm:justify-{{.}}{{else}}sm:justify-between{{end}}">
                 {{ partial "about_bio" .}}
                 {{- range .Params.page_sections -}}
@@ -22,7 +22,7 @@
             </div>
             </section>
         </div>
-        <footer class="px-3 xl:px-16 py-10 flex flex-wrap" style="background-color: {{.Params.theme_color}};">
+        <footer class="px-4 xl:px-16 py-10 flex flex-wrap" style="background-color: {{.Params.theme_color}};">
             {{ range .Params.footer_links }}
                 <a href="{{ .link_url }}" class="w-full md:w-1/4 lg:w-1/5 text-white text-base md:text-lg" alt="link to - {{ .link_title }}">{{ .link_title }}</a>               
             {{ end }}
