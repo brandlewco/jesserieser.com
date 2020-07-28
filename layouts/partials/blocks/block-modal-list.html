@@ -11,7 +11,7 @@
     {{ end }}
   </figure>
   {{ if .Section.meta }}
-  <h6 class="w-full mb-0 ml-0 text-black font-normal text-xs sm:text-base tracking-widest leading-none sm:leading-normal {{with .Section.meta_align}}text-{{.}}{{end}}" data-sal="slide-down" data-sal-delay="600">{{ .Section.meta }}</h6>
+  <h6 class="w-full mb-0 ml-0 text-black font-normal text-xs sm:text-base tracking-widest leading-tight mt-1 sm:mt-0 {{with .Section.meta_align}}text-{{.}}{{end}}" data-sal="slide-down" data-sal-delay="600">{{ .Section.meta }}</h6>
   {{ end }}
   </button>
 </article>
