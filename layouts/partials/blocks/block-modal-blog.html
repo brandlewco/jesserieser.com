@@ -14,7 +14,7 @@
         <h2 class="text-base opacity-100 lg:opacity-0 font-semibold text-center tracking-widest">{{$key.Params.caption}}</h2>
     </div>
   </button>
-  <h6 class="mb-0 ml-0 text-black font-normal text-xs sm:text-base tracking-widest" data-sal="slide-down" data-sal-delay="600">{{range $key.Params.news_category}}{{. | replaceRE "[\\W]" "" | lower}} {{end}}</h6>
+  <h6 class="mb-0 ml-0 text-black font-normal text-xs sm:text-base tracking-widest leading-tight" data-sal="slide-down" data-sal-delay="600">{{range $key.Params.news_category}}{{. | replaceRE "[\\W]" "" | lower}} {{end}}</h6>
 </section>
 
 <article class="popup-modal scrollbar flex flex-col fixed z-999 text-black bg-white overflow-y-scroll overflow-x-hidden h-full w-full inset-0" data-popup-modal="{{$key.Params.title | lower | urlize}}" style="visibility: hidden; opacity: 0;" role="dialog" aria-modal="true">
