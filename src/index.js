@@ -107,7 +107,7 @@ function init() {
 
   // Sal Animations
   var scrollAnimations = sal({
-    once: true,
+    once: false,
     threshold: 0.15,
   });
 
