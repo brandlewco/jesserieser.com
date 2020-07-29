@@ -441,6 +441,7 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
+caption = "<p><strong>2. </strong><em>Phoenix Home &amp; Garden: Unbridled Spirit</em></p>"
 color = "#E3DCED"
 image = "https://jesserieser.brandlew.co/uploads/skeleton-31.jpg"
 margin_left = "0%"
