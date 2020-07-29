@@ -296,7 +296,7 @@ function init() {
           bgOpacity: 0.15,
           closeOnScroll: false,
           closeOnVerticalDrag: false,
-          preload: [3, 3],
+          preload: [2, 4],
           loadingIndicatorDelay: 100,
           getThumbBoundsFn: function(index) {
             // See Options -> getThumbBoundsFn section of documentation for more info
