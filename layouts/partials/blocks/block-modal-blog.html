@@ -4,7 +4,11 @@
     {{with $key.Params.blog_block_cover }}
       <img 
       data-sizes="auto"
-      data-srcset="{{.}}?nf_resize=fit&w=600 600w, {{.}}?nf_resize=fit&w=800 800w, {{.}}?nf_resize=fit&w=1200 1200w"
+      src="{{ . }}?nf_resize=fit&w=300"
+      data-srcset="{{ . }}?nf_resize=fit&w=300 300w,
+      {{ . }}?nf_resize=fit&w=600 600w,
+      {{ . }}?nf_resize=fit&w=900 900w,
+      {{ . }}?nf_resize=fit&w=1200 1200w"
       class="lazyload bg-center object-cover absolute p-5 inset-0 z-0 h-full w-full"
       data-parent-fit="cover"/>
     {{end}}
@@ -58,7 +62,7 @@
 {{$attached := $key.Params.attached_collection}}
 {{ with .Site.GetPage $attached }}
 <section class="mt-4 sm:mt-16 text-black">
-  <a href="/{{.Params.slug}}" alt="view collection" class="exit-modal" data-swup-preload>
+  <a href="/{{.Params.slug}}" alt="view collection" class="exit-modal">
       <div class="mx-auto w-full mb-8 text-center font-light"  data-sal="slide-down" data-sal-delay="300">
           <!-- <p class="text-5xl font-hairline" style="line-height: 0.4;">&#8963;</p> -->
           <p class="text-md sm:text-xl font-light">View Full Project</p>
