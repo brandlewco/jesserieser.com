@@ -13,15 +13,12 @@
     {{end}}
         <img class="lazyload"
         data-sizes="auto"
-        src="{{ .Section.image }}?nf_resize=fit&w=300"
+        src="{{ .Section.image }}?nf_resize=fit&w=150"
         data-srcset="{{ .Section.image }}?nf_resize=fit&w=300 300w,
         {{ .Section.image }}?nf_resize=fit&w=600 600w,
         {{ .Section.image }}?nf_resize=fit&w=900 900w,
         {{ .Section.image }}?nf_resize=fit&w=1200 1200w"
         alt="{{ .Section.caption | htmlUnescape }}"/>
-      <script>
-      var width = {{ .Section.image }}.width;
-      console.log("width", {{.Section.width}}, {{ .Section.image }}, 1440 * "0.{{.Section.width}}", {{ $imgFull }}, {{ $imgLow}})</script>
     {{with .Section.attached_collection}}
       </a>
     {{end}}

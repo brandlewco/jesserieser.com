@@ -389,7 +389,7 @@ img {
   display: block;
 }
 
-img.lazyload, img.lazyload-delay {
+img.lazyload, img.lazyloading, img.lazyload-delay {
   opacity: 0;
 }
 
