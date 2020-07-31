@@ -390,7 +390,7 @@ img {
 }
 
 img.lazyload, img.lazyloading, img.lazyload-delay {
-  opacity: 0 !important;
+  opacity: 0;
 }
 
 .blur-up {
