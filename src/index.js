@@ -33,7 +33,7 @@ const options = {
       doScrollingRightAway: false
     }),
     new SwupGtmPlugin(),
-    new SwupPreloadPlugin(),
+    // new SwupPreloadPlugin(),
     new SwupBodyClassPlugin(),
     new SwupScriptsPlugin({
       head: false,

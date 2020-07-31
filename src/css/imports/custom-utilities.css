@@ -390,7 +390,7 @@ img {
 }
 
 img.lazyload, img.lazyloading, img.lazyload-delay {
-  opacity: 0;
+  opacity: 0 !important;
 }
 
 .blur-up {
@@ -487,27 +487,27 @@ figcaption p {
 
 @media (pointer: fine) {
   .figure.dimmed img {
-    opacity: 0 !important;
+    opacity: 0;
   }
 
   .figure.dimmed:hover img {
-    opacity: 1 !important;
+    opacity: 1;
   }
 
   .figure.figure-blog-cover.dimmed img {
-    opacity: 0 !important;
+    opacity: 0;
   }
 
   .figure.figure-blog-cover.dimmed h1,  .figure.figure-blog-cover.dimmed h2 {
-    opacity: 1 !important;
+    opacity: 1;
   }
 
   .figure.figure-blog-cover.dimmed:hover img {
-    opacity: 0 !important;
+    opacity: 0;
   }
 
   .figure.figure-blog-cover.dimmed:hover h1, .figure.figure-blog-cover.dimmed:hover h2 {
-    opacity: 1 !important;
+    opacity: 1;
   }
 }
 
