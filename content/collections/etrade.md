@@ -5,7 +5,7 @@ collection_category = ["Advertising", "Tech", "Workplace", "Lifestyle", "Still L
 collection_content = ""
 collection_cover = "https://jesserieser.brandlew.co/uploads/etrade-12.jpg"
 collection_cover_mobile = "https://jesserieser.brandlew.co/uploads/verticalcovers-18.jpg"
-collection_description = ""
+collection_description = "Image library showcasing E*Trade’s mobile and desktop app for investing on the go, at home, and in the office."
 collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_hidden = false
@@ -18,6 +18,7 @@ hide_footer = true
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
+px_extra = true
 slug = "collections/etrade"
 theme_color = "#D7C6AD"
 theme_color_all_works = "#FFD5A0"
@@ -25,7 +26,6 @@ title = "E*Trade"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E4BDA2"
 image = "https://jesserieser.brandlew.co/uploads/etrade-1.jpg"
 margin_left = "30%"
@@ -40,7 +40,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#C7DCF4"
 image = "https://jesserieser.brandlew.co/uploads/etrade-2.jpg"
 margin_left = "10%"
@@ -50,7 +49,6 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F3E3DF"
 image = "https://jesserieser.brandlew.co/uploads/etrade-3.jpg"
 margin_left = "0%"
@@ -65,7 +63,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F5D6BF"
 image = "https://jesserieser.brandlew.co/uploads/etrade-4.jpg"
 margin_left = "20%"
@@ -79,7 +76,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#D3E5AF"
 image = "https://jesserieser.brandlew.co/uploads/etrade-5.jpg"
 margin_left = "5%"
@@ -90,7 +86,6 @@ width = "33"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FAEEC0"
 image = "https://jesserieser.brandlew.co/uploads/etrade-6.jpg"
 margin_right = "15%"
@@ -104,7 +99,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#43C6CF"
 image = "https://jesserieser.brandlew.co/uploads/etrade-7.jpg"
 margin_left = "20%"
@@ -119,7 +113,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#FFC777"
 image = "https://jesserieser.brandlew.co/uploads/etrade-9.jpg"
 margin_left = "5%"
@@ -130,7 +123,6 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F0E3D6"
 image = "https://jesserieser.brandlew.co/uploads/etrade-8.jpg"
 margin_left = ""
@@ -145,7 +137,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#D7CAD7"
 image = "https://jesserieser.brandlew.co/uploads/etrade-10.jpg"
 margin_left = "25%"
@@ -160,7 +151,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#E7DED9"
 image = "https://jesserieser.brandlew.co/uploads/etrade-11.jpg"
 margin_left = "35%"
@@ -175,7 +165,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#F0C19F"
 image = "https://jesserieser.brandlew.co/uploads/etrade-13.jpg"
 margin_left = "5%"
@@ -186,7 +175,6 @@ width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#D4E4F0"
 image = "https://jesserieser.brandlew.co/uploads/etrade-12.jpg"
 margin_left = ""
@@ -201,7 +189,6 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-
 color = "#C9BBCC"
 image = "https://jesserieser.brandlew.co/uploads/etrade-14.jpg"
 margin_left = "20%"
