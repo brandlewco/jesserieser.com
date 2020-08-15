@@ -6,6 +6,7 @@ collection_content = ""
 collection_cover = "https://jesserieser.brandlew.co/uploads/espn_mlb_covers-5.jpg"
 collection_cover_mobile = "https://jesserieser.brandlew.co/uploads/verticalcovers-36.jpg"
 collection_description = "Cover story celebrating the personalities of both players and coaches in Major League Baseball."
+collection_description_alignment = "center"
 collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_hidden = false
