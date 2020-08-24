@@ -367,8 +367,9 @@ header img.lazyloaded {
 }
 
 #project-header {
-  height: 100vh;
-  height: calc(var(--vh, 1vh) * 100);
+  min-height: -webkit-fill-available;;
+  min-height: 100vh;
+  /* height: calc(var(--vh, 1vh) * 100); */
 }
 
 #project-header img.lazyloaded #loading-overlay {

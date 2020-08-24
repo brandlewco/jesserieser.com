@@ -8,7 +8,7 @@
         <aside class="mx-4 lg:mx-16 xl:mx-32 py-12 {{with .Params.navigation_theme}}text-{{.}}{{end}}">
             <h1 class="text-lg sm:text-2xl font-bold font-light leading-tight">{{.Params.title}}</h1>
             {{with .Params.collection_meta}}<h2 class="mb-6 text-base sm:text-xl font-normal leading-tight">{{.}}</h2>{{end}}
-            {{with .Params.collection_content}}<article class="text-lg leading-tight">{{ . | markdownify }}</article>{{end}}
+            {{with .Params.collection_content}}<article class="text-sm sm:text-lg leading-tight">{{ . | markdownify }}</article>{{end}}
         </aside>
     </div>
     <section class="flex flex-wrap mx-4 lg:mx-16 xl:mx-32 py-16 leading-tight {{with .Params.navigation_theme}}text-{{.}}{{end}} empty" {{with .Params.navigation_theme}}style="border-top: 2px solid {{.}}"{{end}}>
