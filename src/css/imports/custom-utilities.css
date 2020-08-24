@@ -156,7 +156,7 @@ svg.hover:hover path {
 }
 
 button:hover {
-  text-shadow: 0 0 0.01px black;
+  /* text-shadow: 0 0 0.01px black; */
 }
 
 #filter-container {
