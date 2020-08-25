@@ -715,4 +715,11 @@ function init() {
 // intit code on each page load
 init();
 
+document.addEventListener("visibilitychange", function() {
+  if (document.visibilityState === "visible") {
+    init();
+    console.log("reloaded on change");
+  }
+});
+
 import "./css/main.css";
