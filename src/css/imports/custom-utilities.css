@@ -520,18 +520,18 @@ figcaption p {
   opacity: 1;
 } */
 
-a.collection-next div {
+li.collection-next div {
   flex-direction: row-reverse;
   text-align: right;
 }
 
-a.collection-next .pager-title {
+li.collection-next .pager-title {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
 }
 
-a.collection-next .arrow {
+li.collection-next .arrow {
   transform: scaleX(-1);
 }
 

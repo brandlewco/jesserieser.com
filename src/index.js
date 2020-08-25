@@ -668,9 +668,11 @@ function init() {
 
     currentPage.previousElementSibling.classList.remove("hidden");
     currentPage.previousElementSibling.classList.add("visible", "collection-prev");
+    currentPage.previousElementSibling.querySelector(".mobile").innerHTML = "Prev";
 
     currentPage.nextElementSibling.classList.remove("hidden");
     currentPage.nextElementSibling.classList.add("visible", "collection-next");
+    currentPage.nextElementSibling.querySelector(".mobile").innerHTML = "Next";
   }
 
   // Animate Navigaiton on Load
