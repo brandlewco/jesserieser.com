@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  height: -webkit-fill-available;
 }
 
 *, body, button, input, textarea, select {
@@ -62,6 +63,9 @@ body {
   transition: 0.33s background-color cubic-bezier(0.55, 0.055, 0.675, 0.19);
   transition-delay: 0.15s;
   scrollbar-width: none;
+  min-height: 100vh;
+  /* mobile viewport bug fix */
+  min-height: -webkit-fill-available;
 }
 
 html.is-animating img {
