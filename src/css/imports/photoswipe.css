@@ -185,27 +185,27 @@
 .pswp.pswp--animated-in .pswp__item.active-wrapper {
   opacity: 1;
 } */
-@media (hover: none) and (pointer: fine) {
+@media (pointer: fine) {
   .pswp.pswp--animated-in .pswp__item .pswp__img {
-    transition: transform 0.8s ease-out, opacity 0.50s ease-out;
-    transform: translate3d(-100px, 0px, 0);
-    opacity: 0.8 !important;
+    transition: transform 0.8s ease-out, opacity 0.5s ease-out;
+    transform: translate3d(-50px, 0px, 0);
+    opacity: 0.0 !important;
   }
   
   
   .pswp.pswp--animated-in .pswp__item:first-child .pswp__img {
-    transform: translate3d(100px, 0px, 0);
-    opacity: 0.8 !important;
+    transform: translate3d(50px, 0px, 0);
+    opacity: 0.0 !important;
   }
   
   .pswp.pswp--animated-in .pswp__item.active-before .pswp__img {
-    transform: translate3d(-100px,0,0) !important;
-    opacity: 0.8 !important;
+    transform: translate3d(-50px,0,0) !important;
+    opacity: 0.0 !important;
   }
   
   .pswp.pswp--animated-in .pswp__item.active-wrapper + .pswp__item .pswp__img {
-    transform: translate3d(100px,0,0);
-    opacity: 0.8 !important;
+    transform: translate3d(50px,0,0);
+    opacity: 0.0 !important;
   }
   
   .pswp.pswp--animated-in .pswp__item.active-wrapper .pswp__img {
@@ -215,28 +215,10 @@
 }
 
 /* smartphones, touchscreens */
-@media (hover: none) and (pointer: coarse) {
-  /* .pswp.pswp--animated-in .pswp__item .pswp__img {
-    transition:  opacity 0.50s ease-out;
-    opacity: 0.8 !important;
+@media (pointer: coarse) {
+  .pswp.pswp--animated-in .pswp__item .pswp__img {
+        transition: transform 0.8s ease-out;
   }
-  
-  
-  .pswp.pswp--animated-in .pswp__item:first-child .pswp__img {
-    opacity: 0.8 !important;
-  }
-  
-  .pswp.pswp--animated-in .pswp__item.active-before .pswp__img {
-    opacity: 0.8 !important;
-  }
-  
-  .pswp.pswp--animated-in .pswp__item.active-wrapper + .pswp__item .pswp__img {
-    opacity: 0.8 !important;
-  }
-  
-  .pswp.pswp--animated-in .pswp__item.active-wrapper .pswp__img {
-    opacity: 1 !important;
-  } */
 }
 
 

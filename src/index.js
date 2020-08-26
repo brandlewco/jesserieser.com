@@ -554,6 +554,14 @@ function init() {
         closeModal();
       }
     });
+
+
+    function locationHashChanged() {
+      if (location.hash === popupTrigger) {
+        console.log("confirmed", popupTrigger);
+      }
+    }
+    window.onhashchange = locationHashChanged;
   });
 
   // Generic Button Toggle
