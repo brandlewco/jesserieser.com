@@ -480,7 +480,10 @@ function init() {
     const popupModal = document.querySelector(`[data-popup-modal="${popupTrigger}"]`);
     const popupGalleryInit = popupModal.querySelector(".gallery_scroller");
     const popupList = popupModal.querySelector(".scrollbar");
-    trigger.addEventListener("click", () => {
+
+    // launch modal function
+    function launchModal() {
+      window.location.hash = popupTrigger;
       disablePageScroll(popupModal);
       if (popupList) {
         disablePageScroll(popupList);
@@ -495,7 +498,6 @@ function init() {
           accessibility: false,
           arrowShape: "m77.59 5.06-5.17-5.21-50 50 50 50 5.17-5.21-44.77-44.81z"
         });
-
       }
       navigation.classList.remove("active");
       navigation.style.opacity = 0;
@@ -508,11 +510,12 @@ function init() {
       Array.prototype.forEach.call(navToggle, function(nav) {
         nav.classList.remove("toggle-active");
       });
-    });
+    }
 
-
-    // modal close methods
-    popupModal.querySelector(".popup-modal__close").addEventListener("click", () => {
+    // close modal function
+    function closeModal() {
+      console.log(event);
+      history.replaceState(null, null, "");
       enablePageScroll(popupModal);
       if (popupList) {
         enablePageScroll(popupList);
@@ -522,36 +525,33 @@ function init() {
       popupModal.style.opacity = 0;
       popupModal.style.visibility = "hidden";
       popupModal.classList.remove("is--visible");
+    }
+
+    // modal open method
+    trigger.addEventListener("click", () => {
+      launchModal();
     });
 
+    // modal close methods
+    // close on close click
+    popupModal.querySelector(".popup-modal__close").addEventListener("click", () => {
+      closeModal();
+    });
+    // close on collection click-through
     if (popupModal.querySelector(".exit-modal")) {
       popupModal.querySelector(".exit-modal").addEventListener("click", () => {
-        enablePageScroll(popupModal);
-        if (popupList) {
-          enablePageScroll(popupList);
-        }
-
-        navigation.style.opacity = 1;
-        navigation.style.display = "block";
+        closeModal();
         swup.scrollTo(document.body, 0);
       });
     }
-
+    // close on esc key click
     document.addEventListener("keyup", function(event) {
       if (event.defaultPrevented) {
         return;
       }
       var key = event.key || event.keyCode;
       if (key === "Escape" || key === "Esc" || key === 27) {
-        enablePageScroll(popupModal);
-        if (popupList) {
-          enablePageScroll(popupList);
-        }
-        navigation.style.opacity = 1;
-        navigation.style.display = "block";
-        popupModal.style.opacity = 0;
-        popupModal.style.visibility = "hidden";
-        popupModal.classList.remove("is--visible");
+        closeModal();
       }
     });
   });
