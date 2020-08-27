@@ -514,7 +514,7 @@ function init() {
 
     // close modal function
     function closeModal() {
-      console.log(event);
+      // console.log(event);
       history.replaceState(null, null, "");
       enablePageScroll(popupModal);
       if (popupList) {
@@ -554,15 +554,19 @@ function init() {
         closeModal();
       }
     });
-
-
-    function locationHashChanged() {
-      if (location.hash === popupTrigger) {
-        console.log("confirmed", popupTrigger);
-      }
-    }
-    window.onhashchange = locationHashChanged;
   });
+
+  if(window.location.hash) {
+    var locHash = window.location.hash;
+    if(locHash) {
+      locHash = locHash.substring(1);
+      document.getElementById(locHash).click();
+    };
+    // console.log(locHash);
+  }
+  // window.addEventListener("hashchange", function() {
+  //   console.log(window.location.hash);
+  // });
 
   // Generic Button Toggle
   var buttons = document.getElementsByClassName("toggle");
@@ -726,7 +730,7 @@ init();
 document.addEventListener("visibilitychange", function() {
   if (document.visibilityState === "visible") {
     init();
-    console.log("reloaded on change");
+    // console.log("reloaded on change");
   }
 });
 
