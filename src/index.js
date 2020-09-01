@@ -556,17 +556,13 @@ function init() {
     });
   });
 
-  if(window.location.hash) {
+  if (window.location.hash) {
     var locHash = window.location.hash;
-    if(locHash) {
+    if (locHash) {
       locHash = locHash.substring(1);
       document.getElementById(locHash).click();
-    };
-    // console.log(locHash);
+    }
   }
-  // window.addEventListener("hashchange", function() {
-  //   console.log(window.location.hash);
-  // });
 
   // Generic Button Toggle
   var buttons = document.getElementsByClassName("toggle");

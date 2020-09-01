@@ -50,7 +50,7 @@
         <div class="text-base sm:text-2xl font-medium italic text-black">{{$key.Params.caption}}</div>
       </header>
       <div class="text-sm sm:text-base w-100 h-100 text-black leading-tight pb-8">
-            {{ $key.Params.content | markdownify }}
+        {{ $key.Params.content | markdownify }}
       </div>
       <section class="block-media group-hover flex flex-wrap mx-auto h-auto {{with .Params.row_alignment}}sm:justify-{{.}}{{else}}sm:justify-between{{end}}">
         {{- range $key.Params.blog_builder -}}
