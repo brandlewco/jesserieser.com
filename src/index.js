@@ -558,10 +558,8 @@ function init() {
 
   if (window.location.hash) {
     var locHash = window.location.hash;
-    if (locHash) {
       locHash = locHash.substring(1);
       document.getElementById(locHash).click();
-    }
   }
 
   // Generic Button Toggle
