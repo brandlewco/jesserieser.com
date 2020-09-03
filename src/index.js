@@ -558,8 +558,13 @@ function init() {
 
   if (window.location.hash) {
     var locHash = window.location.hash;
-      locHash = locHash.substring(1);
-      document.getElementById(locHash).click();
+    var locPop = locHash.substring(1);
+    var locButton = document.getElementById(locPop);
+    // var topButton = document.getElementById(locPop).documentOffsetTop() - (window.innerHeight / 2);
+    if (locButton) {
+      locButton.scrollIntoView();
+      locButton.click();
+    }
   }
 
   // Generic Button Toggle
