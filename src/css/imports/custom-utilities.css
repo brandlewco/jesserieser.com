@@ -373,6 +373,7 @@ header img.lazyloaded {
 #project-header {
   height: 100vh;
   height: calc(var(--vh, 1vh) * 100);
+  transition: 0.5s height ease-out;
 }
 
 #project-header img.lazyloaded #loading-overlay {
