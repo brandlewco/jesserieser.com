@@ -16,11 +16,6 @@ import sal from "sal.js";
 import Rellax from "rellax";
 import {disablePageScroll, enablePageScroll} from "scroll-lock";
 
-// if (!("object-fit" in document.createElement("a").style)) {
-//   require("lazysizes/plugins/object-fit/ls.object-fit");
-// }
-
-// lazySizes.cfg.expand = "1000";
 
 // Page Loader (SWUP)
 const options = {
@@ -52,6 +47,8 @@ const options = {
   }
 };
 const swup = new Swup(options);
+
+
 
 swup.on("contentReplaced", init);
 
@@ -108,42 +105,6 @@ function init() {
   var scrollAnimations = sal({
     once: false,
     threshold: 0.15,
-  });
-
-  // Parallax
-  // var rellax = new Rellax(".rellax", {
-  //   speed: 4,
-  //   center: true,
-  //   // relativeToWrapper: true,
-  //   // wrapper: ".rellax-wrapper",
-  //   round: true,
-  //   vertical: true,
-  //   horizontal: false,
-  //   breakpoints: [1200, 1600, 2000]
-  // });
-
-  // if (document.querySelector(".rellax")) {
-  //   rellax.refresh();
-  //   window.addEventListener("scroll", function() {
-  //     rellax.refresh();
-  //   });
-  // }
-
-  const rellaxin = document.querySelectorAll(".rellax");
-  rellaxin.forEach((el) => {
-    const rellax = new Rellax(el, {
-      speed: 4,
-      center: true,
-      relativeToWrapper: true,
-      wrapper: el.parentElement,
-      round: true,
-      vertical: true,
-      horizontal: false,
-      breakpoints: [1200, 1600, 2000]
-    });
-    window.addEventListener("scroll", () => { // fix to init
-      rellax.refresh();
-    });
   });
 
   // PhotoSwipe
@@ -636,7 +597,6 @@ function init() {
   // Scroll Animations
   let scrollPos = 0;
   window.onscroll = function() {
-    // rellax.refresh();
     var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
     const windowY = window.scrollY;
     if (headerImage) {
@@ -645,26 +605,6 @@ function init() {
     if (featureImage) {
       featureImage.style.opacity = value_limit(1 - (scrollTop / (height * 0.9)), 0, 1).toFixed(2);
     }
-    // if (headerOverlay) {
-    //   headerOverlay.style.opacity = value_limit((scrollTop / (height * 0.4)), 0, 1).toFixed(2);
-    // }
-    // if (featureOverlay) {
-    //   featureOverlay.style.opacity = value_limit((scrollTop / (height * 0.9)), 0, 1).toFixed(2);
-    // }
-    // if (headerImage) {
-    //   if (windowY > (window.innerHeight)) {
-    //     headerImage.style.opacity = 0;
-    //   } else {
-    //     headerImage.style.opacity = 1;
-    //   }
-    // }
-    // if (featureImage) {
-    //   if (windowY > (window.innerHeight)) {
-    //     featureImage.style.opacity = 0;
-    //   } else {
-    //     featureImage.style.opacity = 1;
-    //   }
-    // }
     if (projectHeader) {
       if (windowY > (window.innerHeight * 0.75)) {
         if (windowY < scrollPos) {
@@ -750,6 +690,23 @@ function init() {
 
     unfocus();
   })(document, window);
+
+  const rellaxIn = document.querySelectorAll(".rellax");
+  rellaxIn.forEach((el) => {
+    const rellax = new Rellax(el, {
+      speed: 4,
+      center: true,
+      relativeToWrapper: true,
+      wrapper: el.parentElement,
+      round: true,
+      vertical: true,
+      horizontal: false,
+      breakpoints: [1200, 1600, 2000]
+    });
+    window.addEventListener("scroll", () => { // fix to init
+      rellax.refresh();
+    });
+  });
 }
 
 // intit code on each page load
