@@ -110,24 +110,41 @@ function init() {
     threshold: 0.15,
   });
 
-  // Parellax
-  var rellax = new Rellax(".rellax", {
-    speed: 4,
-    center: true,
-    relativeToWrapper: true,
-    wrapper: ".rellax-wrapper",
-    round: true,
-    vertical: true,
-    horizontal: false,
-    breakpoints: [1200, 1600, 2000]
-  });
+  // Parallax
+  // var rellax = new Rellax(".rellax", {
+  //   speed: 4,
+  //   center: true,
+  //   // relativeToWrapper: true,
+  //   // wrapper: ".rellax-wrapper",
+  //   round: true,
+  //   vertical: true,
+  //   horizontal: false,
+  //   breakpoints: [1200, 1600, 2000]
+  // });
 
-  if (document.querySelector(".rellax")) {
-    rellax.refresh();
-    window.addEventListener("scroll", function() {
+  // if (document.querySelector(".rellax")) {
+  //   rellax.refresh();
+  //   window.addEventListener("scroll", function() {
+  //     rellax.refresh();
+  //   });
+  // }
+
+  const rellaxin = document.querySelectorAll(".rellax");
+  rellaxin.forEach((el) => {
+    const rellax = new Rellax(el, {
+      speed: 4,
+      center: true,
+      relativeToWrapper: true,
+      wrapper: el.parentElement,
+      round: true,
+      vertical: true,
+      horizontal: false,
+      breakpoints: [1200, 1600, 2000]
+    });
+    window.addEventListener("scroll", () => { // fix to init
       rellax.refresh();
     });
-  }
+  });
 
   // PhotoSwipe
   if (document.querySelector("#gallery")) {
@@ -352,15 +369,23 @@ function init() {
           var activeSlide = document.getElementsByClassName("active-slide");
           var activeWrapper = document.getElementsByClassName("active-wrapper");
           var activeBefore = document.getElementsByClassName("active-before");
+          var activeAfter = document.getElementsByClassName("active-after");
           function removeActiveSlide() {
             while (activeSlide[0]) {
+              // activeSlide[0].style.opacity = "1";
               activeSlide[0].classList.remove("active-slide");
             }
             while (activeWrapper[0]) {
+              // activeWrapper[0].style.opacity = "1";
               activeWrapper[0].classList.remove("active-wrapper");
             }
             while (activeBefore[0]) {
+              // activeBefore[0].style.transitionDelay = "0s";
               activeBefore[0].classList.remove("active-before");
+            }
+            while (activeAfter[0]) {
+              // activeAfter[0].style.transitionDelay = "0s";
+              activeAfter[0].classList.remove("active-after");
             }
           }
           removeActiveSlide();
@@ -374,7 +399,10 @@ function init() {
           if (currentItemParent.previousElementSibling) {
             currentItemParent.previousElementSibling.classList.add("active-before");
           }
-          // currentItemParent.nextElementSibling.classList.add("active-after");
+          if (currentItemParent.nextElementSibling) {
+            currentItemParent.nextElementSibling.classList.add("active-after");
+          }
+          if (currentItemParent.nextElementSibling) {}
           Element.prototype.documentOffsetTop = function() {
             return this.offsetTop + (this.offsetParent ? this.offsetParent.documentOffsetTop() : 0);
           };
@@ -420,7 +448,7 @@ function init() {
             var preloadURL = trigger.getAttribute("href");
             var preloadIMG = new Image();
             preloadIMG.src = preloadURL;
-          }, 50);
+          }, 20);
         });
         trigger.addEventListener("click", () => {
           galleryUiLaunch();
@@ -608,6 +636,7 @@ function init() {
   // Scroll Animations
   let scrollPos = 0;
   window.onscroll = function() {
+    // rellax.refresh();
     var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
     const windowY = window.scrollY;
     if (headerImage) {

@@ -189,23 +189,23 @@
   .pswp.pswp--animated-in .pswp__item .pswp__img {
     transition: transform 0.8s ease-out, opacity 0.5s ease-out;
     transform: translate3d(-50px, 0px, 0);
-    opacity: 0.0 !important;
+    opacity: 0 !important;
   }
   
   
   .pswp.pswp--animated-in .pswp__item:first-child .pswp__img {
     transform: translate3d(50px, 0px, 0);
-    opacity: 0.0 !important;
+    opacity: 0 !important;
   }
   
   .pswp.pswp--animated-in .pswp__item.active-before .pswp__img {
     transform: translate3d(-50px,0,0) !important;
-    opacity: 0.0 !important;
+    opacity: 0 !important;
   }
   
   .pswp.pswp--animated-in .pswp__item.active-wrapper + .pswp__item .pswp__img {
     transform: translate3d(50px,0,0);
-    opacity: 0.0 !important;
+    opacity: 0 !important;
   }
   
   .pswp.pswp--animated-in .pswp__item.active-wrapper .pswp__img {
