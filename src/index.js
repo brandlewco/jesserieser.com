@@ -7,15 +7,15 @@ import SwupPreloadPlugin from "@swup/preload-plugin";
 import lazySizes from "lazysizes";
 import "lazysizes/plugins/parent-fit/ls.parent-fit";
 import "lazysizes/plugins/respimg/ls.respimg";
-import * as PhotoSwipe from "photoswipe";
-import * as PhotoSwipeUI_Default from "photoswipe/dist/photoswipe-ui-default";
-import Flickity from "flickity";
-import Midday from "midday.js";
-import smoothscroll from "smoothscroll-polyfill";
+import imagesLoaded from "imagesloaded";
 import sal from "sal.js";
 import Rellax from "rellax";
+import Flickity from "flickity";
+import Midday from "midday.js";
+import * as PhotoSwipe from "photoswipe";
+import * as PhotoSwipeUI_Default from "photoswipe/dist/photoswipe-ui-default";
+import smoothscroll from "smoothscroll-polyfill";
 import {disablePageScroll, enablePageScroll} from "scroll-lock";
-
 
 // Page Loader (SWUP)
 const options = {
@@ -47,8 +47,6 @@ const options = {
   }
 };
 const swup = new Swup(options);
-
-
 
 swup.on("contentReplaced", init);
 
@@ -105,6 +103,27 @@ function init() {
   var scrollAnimations = sal({
     once: false,
     threshold: 0.15,
+  });
+
+  // Rellax Animation with content loaded detection
+  const content = document.getElementById("content");
+  imagesLoaded(content, function() {
+    const rellaxIn = document.querySelectorAll(".rellax");
+    rellaxIn.forEach((el) => {
+      const rellax = new Rellax(el, {
+        speed: 4,
+        center: true,
+        relativeToWrapper: true,
+        wrapper: el.parentElement,
+        round: true,
+        vertical: true,
+        horizontal: false,
+        breakpoints: [1200, 1600, 2000]
+      });
+      window.addEventListener("scroll", () => { // fix to init
+        rellax.refresh();
+      });
+    });
   });
 
   // PhotoSwipe
@@ -690,23 +709,6 @@ function init() {
 
     unfocus();
   })(document, window);
-
-  const rellaxIn = document.querySelectorAll(".rellax");
-  rellaxIn.forEach((el) => {
-    const rellax = new Rellax(el, {
-      speed: 4,
-      center: true,
-      relativeToWrapper: true,
-      wrapper: el.parentElement,
-      round: true,
-      vertical: true,
-      horizontal: false,
-      breakpoints: [1200, 1600, 2000]
-    });
-    window.addEventListener("scroll", () => { // fix to init
-      rellax.refresh();
-    });
-  });
 }
 
 // intit code on each page load
