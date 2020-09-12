@@ -106,23 +106,40 @@ function init() {
   });
 
   // Rellax Animation with content loaded detection
-  const content = document.getElementById("content");
-  imagesLoaded(content, function() {
-    const rellaxIn = document.querySelectorAll(".rellax");
-    rellaxIn.forEach((el) => {
-      const rellax = new Rellax(el, {
-        speed: 4,
-        center: true,
-        relativeToWrapper: true,
-        wrapper: el.parentElement,
-        round: true,
-        vertical: true,
-        horizontal: false,
-        breakpoints: [1200, 1600, 2000]
-      });
-      window.addEventListener("scroll", () => { // fix to init
-        rellax.refresh();
-      });
+  // const content = document.getElementById("content");
+  // imagesLoaded(content, function() {
+  //   const rellaxIn = document.querySelectorAll(".rellax");
+  //   rellaxIn.forEach((el) => {
+  //     const rellax = new Rellax(el, {
+  //       speed: 4,
+  //       center: true,
+  //       relativeToWrapper: true,
+  //       wrapper: el.parentElement,
+  //       round: true,
+  //       vertical: true,
+  //       horizontal: false,
+  //       breakpoints: [1200, 1600, 2000]
+  //     });
+  //     window.addEventListener("scroll", () => { // fix to init
+  //       rellax.refresh();
+  //     });
+  //   });
+  // });
+
+  const rellaxIn = document.querySelectorAll(".rellax");
+  rellaxIn.forEach((el) => {
+    const rellax = new Rellax(el, {
+      speed: 4,
+      center: true,
+      relativeToWrapper: true,
+      wrapper: el.parentElement,
+      round: true,
+      vertical: true,
+      horizontal: false,
+      breakpoints: [1200, 1600, 2000]
+    });
+    window.addEventListener("scroll", () => { // fix to init
+      rellax.refresh();
     });
   });
 
@@ -714,11 +731,11 @@ function init() {
 // intit code on each page load
 init();
 
-document.addEventListener("visibilitychange", function() {
-  if (document.visibilityState === "visible") {
-    init();
-    // console.log("reloaded on change");
-  }
-});
+// document.addEventListener("visibilitychange", function() {
+//   if (document.visibilityState === "visible") {
+//     init();
+//     // console.log("reloaded on change");
+//   }
+// });
 
 import "./css/main.css";
