@@ -3,7 +3,7 @@ collection_archive = false
 collection_awards = []
 collection_category = ["Advertising", "Color", "Lifestyle", "Sports + Athletes", "Portraits", "Advertising"]
 collection_content = ""
-collection_cover = ""
+collection_cover = "https://jesserieser.brandlew.co/uploads/sw-5.jpg"
 collection_cover_mobile = ""
 collection_description = ""
 collection_description_alignment = "left"
@@ -20,12 +20,12 @@ date = ""
 draft = true
 hide_footer = true
 layout = "blocks"
-navigation_theme = "white"
+navigation_theme = "black"
 px_extra = false
 row_alignment = "between"
-slug = "simmonssmartwater "
-theme_color = ""
+slug = "bensimmonssmartwater "
+theme_color = "#FAF8C8"
 theme_color_all_works = ""
-title = "smartwater "
+title = "Ben Simmons For Smartwater "
 
 +++
