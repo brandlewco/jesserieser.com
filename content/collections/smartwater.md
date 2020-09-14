@@ -16,7 +16,6 @@ collection_press = []
 collection_preview = []
 cover_image = ""
 date = ""
-draft = true
 hide_footer = true
 layout = "blocks"
 navigation_theme = "black"
