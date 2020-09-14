@@ -24,7 +24,7 @@ row_alignment = "between"
 slug = "collections/ben-simmons-smart-water"
 theme_color = "#FAF8C8"
 theme_color_all_works = ""
-title = "Ben Simmons For Smartwater "
+title = "Ben Simmons"
 [[collection_layout_builder]]
 align_y = "start"
 block = "media-element"
