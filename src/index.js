@@ -3,11 +3,11 @@ import SwupScrollPlugin from "@swup/scroll-plugin";
 import SwupGtmPlugin from "@swup/gtm-plugin";
 import SwupBodyClassPlugin from "@swup/body-class-plugin";
 import SwupScriptsPlugin from "@swup/scripts-plugin";
-import SwupPreloadPlugin from "@swup/preload-plugin";
+// import SwupPreloadPlugin from "@swup/preload-plugin";
 import lazySizes from "lazysizes";
 import "lazysizes/plugins/parent-fit/ls.parent-fit";
 import "lazysizes/plugins/respimg/ls.respimg";
-import imagesLoaded from "imagesloaded";
+// import imagesLoaded from "imagesloaded";
 import sal from "sal.js";
 import Rellax from "rellax";
 import Flickity from "flickity";
@@ -731,11 +731,10 @@ function init() {
 // intit code on each page load
 init();
 
-// document.addEventListener("visibilitychange", function() {
-//   if (document.visibilityState === "visible") {
-//     init();
-//     // console.log("reloaded on change");
-//   }
-// });
+document.addEventListener("visibilitychange", function() {
+  if (document.visibilityState === "visible") {
+    console.time("visible");
+  }
+});
 
 import "./css/main.css";
