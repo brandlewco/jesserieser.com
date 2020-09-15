@@ -147,10 +147,10 @@ block = "media-element"
 caption = ""
 color = "#C4D8EB"
 image = "https://jesserieser.brandlew.co/uploads/sw-10.jpg"
-margin_left = "0%"
+margin_left = "10%"
 margin_right = "0%"
-margin_y = "200"
+margin_y = "100"
 template = "block-media-element"
-width = "100"
+width = "80"
 
 +++
