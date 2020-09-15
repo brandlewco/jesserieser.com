@@ -441,7 +441,7 @@ page_sections:
   text_size: ''
 - template: block-modal-blog
   block: modal-blog
-  attached_blog: posts/test-blog-posts.md
+  attached_blog: posts/the-changing-landscape-of-american-retail.md
   block_aspect_ratio: []
   text_size: 2xl
   width: '33'
