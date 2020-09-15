@@ -62,7 +62,7 @@
 {{$attached := $key.Params.attached_collection}}
 {{ with .Site.GetPage $attached }}
 <section class="mt-4 sm:mt-16 text-black">
-  <a href="/{{.Params.slug}}" alt="view collection" class="exit-modal">
+  <a href="/{{.Params.slug}}" alt="view collection" class="exit-modal" data-no-swup>
       <div class="mx-auto w-full mb-8 text-center font-light"  data-sal="slide-down" data-sal-delay="300">
           <!-- <p class="text-5xl font-hairline" style="line-height: 0.4;">&#8963;</p> -->
           <p class="text-md sm:text-xl font-light">View Full Project</p>
