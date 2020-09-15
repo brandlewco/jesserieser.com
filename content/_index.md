@@ -36,6 +36,7 @@ page_sections:
   title: AP 35
   color: "#D8EBEE"
   block_aspect_ratio: 11x8.5
+  text_size: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -126,6 +127,7 @@ page_sections:
   title: 'The Fence '
   color: "#EED2D2"
   block_aspect_ratio: ''
+  text_size: ''
 - template: block-media-feature
   block: media-feature
   width: '45'
@@ -211,6 +213,7 @@ page_sections:
   title: Star Geezers on BOOOOOOM!
   color: "#FFE7C3"
   block_aspect_ratio: ''
+  text_size: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -275,6 +278,7 @@ page_sections:
   margin_left: 0%
   margin_right: 15%
   block_aspect_ratio: ''
+  text_size: ''
 - template: block-media-row
   block: media-row
   row_alignment: between
@@ -366,6 +370,7 @@ page_sections:
   title: AP 35
   color: "#F0B7B7"
   block_aspect_ratio: ''
+  text_size: ''
 - template: block-media-row
   block: media-row
   row_alignment: between
@@ -433,19 +438,26 @@ page_sections:
   title: Xmas Roundup
   color: "#C5C458"
   block_aspect_ratio: 11x8.5
+  text_size: ''
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/test-blog-posts.md
+  block_aspect_ratio: []
+  text_size: 2xl
+  width: '33'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  title: ''
+  color: ''
 home_theme_color: "#EDDDDE"
 collection_description: ''
 collection_content: ''
 cover_image: ''
 feature_logo: https://jesserieser.brandlew.co/uploads/logo-amtrak-8.png
 feature_cover: https://jesserieser.brandlew.co/uploads/timeGC-5.jpg
-feature_description: "Welcome!  \nHere in _Selected Works_ you will find a brief yet
-  representative experience of my personal photographic art works and client commissions.
-  It reflects both my unique style of light and color as I explore themes of the uniquely
-  American experience.\n\nA bit about navigation: If you aren’t in a rush, head over
-  to _All Works;_ if looking for something specific, give the category filter a spin.
-  I hope you enjoy your time and I am excited to share my photographic world with
-  you."
+feature_description: ''
 navigation_theme: white
 row_alignment: between
 selected_works_theme:
