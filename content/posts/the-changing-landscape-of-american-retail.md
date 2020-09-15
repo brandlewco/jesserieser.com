@@ -14,7 +14,7 @@ block = "media-element-static"
 caption = ""
 image = "https://jesserieser.brandlew.co/uploads/retail_fresh-blog-3.jpg"
 template = "block-media-element-static"
-width = "50"
+width = "100"
 [[blog_builder]]
 block = "media-row-static"
 template = "block-media-row-static"
