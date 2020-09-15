@@ -121,7 +121,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-color = "#EDEDED"
+color = "#D1C0DF"
 image = "https://jesserieser.brandlew.co/uploads/barron-3.jpg"
 margin_left = "30%"
 margin_right = ""
