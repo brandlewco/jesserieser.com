@@ -8,7 +8,7 @@ content = "[_The_](https://jesserieser.com/collections/wired-magazine/) _Changin
 date = ""
 news_category = ["exhibition"]
 theme_color = "#D8F1AE"
-title = "The Changing Landscape of American Retail "
+title = "The Changing Landscape of American Retail Fresh"
 [[blog_builder]]
 block = "media-element-static"
 caption = ""
