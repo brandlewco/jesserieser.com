@@ -42,9 +42,9 @@ width = "50"
 [[blog_builder]]
 block = "media-element-static"
 caption = ""
-image = "https://jesserieser.brandlew.co/uploads/retail_fresh-blog-7.jpg"
+image = "https://jesserieser.brandlew.co/uploads/retail-15.jpg"
 template = "block-media-element-static"
-width = "60"
+width = "50"
 [[blog_builder]]
 block = "media-row-static"
 template = "block-media-row-static"
