@@ -449,11 +449,11 @@ page_sections:
   text_size: 2xl
   width: '33'
   align_y: start
-  margin_y: '50'
+  margin_y: '100'
   margin_left: 0%
   margin_right: 0%
   title: ''
-  color: ''
+  color: "#DFEFC2"
 home_theme_color: "#EDDDDE"
 collection_description: ''
 collection_content: ''
