@@ -1,6 +1,6 @@
 +++
 collection_archive = false
-collection_category = ["Still Life + Details", "Advertising", "Reportage", "Black and White", "Sports + Athletes", "Still Life + Details", "Environments", "Portraits"]
+collection_category = ["Editorial", "Science", "Tech", "Climate Change", "Color", "Conceptual", "Environments"]
 collection_content = ""
 collection_cover = "https://jesserieser.brandlew.co/uploads/barron-6.jpg"
 collection_cover_mobile = "https://jesserieser.brandlew.co/uploads/verticalcovers-8.jpg"
