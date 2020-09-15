@@ -452,7 +452,7 @@ page_sections:
   margin_y: '100'
   margin_left: 0%
   margin_right: 0%
-  title: ''
+  title: Fresh
   color: "#DFEFC2"
 home_theme_color: "#EDDDDE"
 collection_description: ''
