@@ -165,7 +165,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-color = "#282828"
+color = "#170F0C"
 image = "https://jesserieser.brandlew.co/uploads/wsj_robot-12.jpg"
 margin_left = "5%"
 margin_right = ""
