@@ -10,7 +10,7 @@ collection_description_alignment = "left"
 collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_hidden = false
-collection_meta = "Smart Water Essentialism Campaign"
+collection_meta = "Featuring Ben Simmons For Anomaly NY"
 collection_meta_2 = ""
 collection_press = []
 collection_preview = ["https://jesserieser.brandlew.co/uploads/sw-1.jpg", "https://jesserieser.brandlew.co/uploads/smartwater-7.jpg", "https://jesserieser.brandlew.co/uploads/smartwater-4.jpg", "https://jesserieser.brandlew.co/uploads/smartwater-6.jpg"]
@@ -24,7 +24,7 @@ row_alignment = "between"
 slug = "collections/ben-simmons-smart-water"
 theme_color = "#FAF8C8"
 theme_color_all_works = ""
-title = "Ben Simmons"
+title = "Smart Water: Essentialism "
 [[collection_layout_builder]]
 align_y = "start"
 block = "media-element"
