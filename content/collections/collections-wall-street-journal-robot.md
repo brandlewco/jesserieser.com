@@ -50,7 +50,7 @@ width = "55"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-color = "#D0E3C0"
+color = "#D4E3C8"
 image = "https://jesserieser.brandlew.co/uploads/wsj_robot-3.jpg"
 margin_left = "0%"
 margin_right = ""
