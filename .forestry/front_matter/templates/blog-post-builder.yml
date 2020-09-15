@@ -65,6 +65,7 @@ fields:
     - ratio-4x3
     - ratio-3x2
     - ratio-2x3
+    - ratio-1x1
     source:
       type: simple
       section: 

@@ -508,7 +508,7 @@ function init() {
 
     // launch modal function
     function launchModal() {
-      window.location.hash = popupTrigger;
+      window.location.hash = "blog-" + popupTrigger;
       disablePageScroll(popupModal);
       if (popupList) {
         disablePageScroll(popupList);
@@ -584,7 +584,8 @@ function init() {
   if (window.location.hash) {
     var locHash = window.location.hash;
     var locPop = locHash.substring(1);
-    var locButton = document.getElementById(locPop);
+    var locSlide = locPop.slice(5);
+    var locButton = document.getElementById(locSlide);
     // var topButton = document.getElementById(locPop).documentOffsetTop() - (window.innerHeight / 2);
     if (locButton) {
       locButton.scrollIntoView();

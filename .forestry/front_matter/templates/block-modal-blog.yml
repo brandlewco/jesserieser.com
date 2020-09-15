@@ -36,6 +36,7 @@ fields:
     - 3x4
     - 2x3
     - 3x2
+    - 1x2
     source:
       type: simple
       section: 

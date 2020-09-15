@@ -5,8 +5,14 @@
 <section data-hue="page" class="pt-8 mx-auto bg-white relative z-100 overflow-y-hidden" style="backface-visibility: hidden;">
   <div class="px-4 xl:px-16">
     <section class="flex flex-wrap mx-auto h-auto {{with .Params.row_alignment}}sm:justify-{{.}}{{else}}sm:justify-between{{end}}">
+    <!-- blog id counter -->
+    {{ $counter := 0 }}
+    <!-- blog id counter -->
     {{- range .Params.page_sections -}}
-    {{ partial (printf "blocks/block-%s.html" .block) (dict "Section" . "Page" $ "Site" $.Site) }}
+    {{if eq .block "modal-blog"}}
+      {{ $counter = add $counter 1 }}
+    {{end}}
+    {{ partial (printf "blocks/block-%s.html" .block) (dict "Section" . "Page" $ "Site" $.Site "id" $counter) }}
     {{- end -}}
     </section>
   </div>
