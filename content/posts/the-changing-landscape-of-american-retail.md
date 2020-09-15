@@ -1,6 +1,6 @@
 +++
 attached_collection = "collections/retail.md"
-block_aspect_ratio = ""
+block_aspect_ratio = "ratio-8-5x11"
 blog_block_cover = "https://jesserieser.brandlew.co/uploads/retail_fresh-blog-1.jpg"
 blog_header = ""
 caption = "Klompching Gallery Fresh 2020"
