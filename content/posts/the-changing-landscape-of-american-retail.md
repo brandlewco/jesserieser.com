@@ -13,7 +13,52 @@ title = "The Changing Landscape of American Retail "
 [[blog_builder]]
 block = "media-element-static"
 caption = ""
-image = ""
+image = "https://jesserieser.brandlew.co/uploads/retail_fresh-blog-3.jpg"
+template = "block-media-element-static"
+width = "50"
+[[blog_builder]]
+block = "media-row-static"
+template = "block-media-row-static"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = "https://jesserieser.brandlew.co/uploads/retail_fresh-blog-5.jpg"
+template = "block-media-element-static"
+width = "50"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = "https://jesserieser.brandlew.co/uploads/retail_fresh-blog-4.jpg"
+template = "block-media-element-static"
+width = "50"
+[[blog_builder]]
+block = "media-row-static"
+template = "block-media-row-static"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = "https://jesserieser.brandlew.co/uploads/retail_fresh-blog-6.jpg"
+template = "block-media-element-static"
+width = "50"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = "https://jesserieser.brandlew.co/uploads/retail_fresh-blog-7.jpg"
+template = "block-media-element-static"
+width = "60"
+[[blog_builder]]
+block = "media-row-static"
+template = "block-media-row-static"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = "https://jesserieser.brandlew.co/uploads/retail_fresh-blog-1.jpg"
+template = "block-media-element-static"
+width = "50"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = "https://jesserieser.brandlew.co/uploads/retail_fresh-blog-2.jpg"
 template = "block-media-element-static"
 width = "50"
 [[blog_slider]]
