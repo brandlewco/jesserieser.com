@@ -21,7 +21,7 @@ navigation_theme = "white"
 px_extra = true
 slug = "collections/wall-street-journal-robot"
 theme_color = "#B8EEBC"
-theme_color_all_works = "#E69DFB"
+theme_color_all_works = "#6D94FF"
 title = "The Wall Street Journal"
 [[collection_layout_builder]]
 align_x = "start"
