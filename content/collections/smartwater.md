@@ -22,7 +22,7 @@ navigation_theme = "black"
 px_extra = true
 row_alignment = "between"
 slug = "collections/ben-simmons-smart-water"
-theme_color = "#F8E549"
+theme_color = "#FAEA72"
 theme_color_all_works = "#FFE767"
 title = "Smart Water: Essentialism "
 [[collection_layout_builder]]
