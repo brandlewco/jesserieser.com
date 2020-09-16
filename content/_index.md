@@ -160,21 +160,21 @@ page_sections:
   margin_y: '100'
   margin_left: 60%
   margin_right: 0%
-  title_margin_y: 10%
-  title_margin_left: 5%
+  title_margin_y: 5%
+  title_margin_left: "-10%"
   title_margin_right: 0%
   text_size: 6xl
   line_height: normal
   text_alignment: left
   text_tracking: normal
-  meta_align: left
+  meta_align: right
   attached_collection: collections/smartwater.md
   image: https://jesserieser.brandlew.co/uploads/smartwater-3.jpg
   color: "#D4DEE7"
-  title: ''
-  meta: ''
+  title: Smart Water
+  meta: Ben Simmons for Anomaly
   text_color: "#000000"
-  font_weight: ''
+  font_weight: normal
 - template: block-media-row
   block: media-row
   row_alignment: ''
