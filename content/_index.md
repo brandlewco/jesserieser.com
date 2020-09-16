@@ -389,7 +389,7 @@ page_sections:
   width: '40'
   align_y: start
   margin_y: '100'
-  margin_left: 25%
+  margin_left: 30%
   margin_right: 0%
   title_margin_y: 10%
   title_margin_left: 20%
@@ -415,7 +415,7 @@ page_sections:
   width: '30'
   align_y: start
   margin_y: '100'
-  margin_left: 35%
+  margin_left: 10%
   margin_right: 0%
   title: AP 35
   color: "#F0B7B7"
