@@ -14,10 +14,10 @@ date = ""
 hide_footer = true
 layout = "blocks"
 logo = ""
-navigation_theme = "white"
+navigation_theme = "black"
 px_extra = true
 slug = "collections/barrons-cover"
-theme_color = "#B8EEBC"
+theme_color = "#F7E998"
 theme_color_all_works = "#E69DFB"
 title = "Barron's "
 [[collection_awards]]
