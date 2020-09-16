@@ -152,6 +152,31 @@ page_sections:
   title_margin_y: 20%
 - template: block-media-row
   block: media-row
+  row_alignment: between
+- template: block-media-feature
+  block: media-feature
+  width: '33'
+  align_y: start
+  margin_y: '100'
+  margin_left: 60%
+  margin_right: 0%
+  title_margin_y: 35%
+  title_margin_left: 0%
+  title_margin_right: 0%
+  text_size: 2xl
+  line_height: normal
+  text_alignment: left
+  text_tracking: normal
+  meta_align: left
+  attached_collection: collections/smartwater.md
+  image: https://jesserieser.brandlew.co/uploads/smartwater-3.jpg
+  color: "#D4DEE7"
+  title: ''
+  meta: ''
+  text_color: ''
+  font_weight: ''
+- template: block-media-row
+  block: media-row
   row_alignment: ''
 - template: block-media-feature
   block: media-feature
@@ -454,28 +479,9 @@ page_sections:
   color: "#EED2D2"
   block_aspect_ratio: ''
   text_size: ''
-- template: block-media-feature
-  block: media-feature
-  width: '33'
-  align_y: start
-  margin_y: '50'
-  margin_left: 0%
-  margin_right: 0%
-  title_margin_y: 35%
-  title_margin_left: 0%
-  title_margin_right: 0%
-  text_size: 2xl
-  line_height: normal
-  text_alignment: left
-  text_tracking: normal
-  meta_align: left
-  attached_collection: collections/smartwater.md
-  image: https://jesserieser.brandlew.co/uploads/smartwater-3.jpg
-  color: "#D4DEE7"
-  title: ''
-  meta: ''
-  text_color: ''
-  font_weight: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: between
 home_theme_color: "#EDDDDE"
 collection_description: ''
 collection_content: ''
