@@ -516,9 +516,8 @@ feature_cover: https://jesserieser.brandlew.co/uploads/timeGC-5.jpg
 feature_description: "Welcome!  \nHere in _Selected Works_ you will find a brief yet
   representative experience of my personal photographic art works and client commissions.
   It reflects both my unique style of light and color as I explore themes of the uniquely
-  American experience.   \n  \nA bit about navigation: If you aren’t in a rush, head
-  over to _All Works;_ if looking for something specific, give the category filter
-  a spin."
+  American experience. A bit about navigation: If you aren’t in a rush, head over
+  to _All Works;_ if looking for something specific, give the category filter a spin."
 navigation_theme: white
 row_alignment: between
 selected_works_theme:
