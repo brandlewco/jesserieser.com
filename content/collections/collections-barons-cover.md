@@ -2,8 +2,8 @@
 collection_archive = false
 collection_category = ["Editorial", "Science", "Tech", "Climate Change", "Color", "Conceptual", "Environments"]
 collection_content = ""
-collection_cover = "https://jesserieser.brandlew.co/uploads/verticalcovers-43.jpg"
-collection_cover_mobile = ""
+collection_cover = "https://jesserieser.brandlew.co/uploads/barrons_header-cover-1.jpg"
+collection_cover_mobile = "https://jesserieser.brandlew.co/uploads/verticalcovers-43.jpg"
 collection_description = "This recent cover for Barron’s I had [**_Shane Griffin_**](http://www.shanegriffin.nyc) lend a chromatic helping-hand to better illustrate “the truck of future.” Featured is the the Nikola Two, a class 8 hydrogen-electric truck with more than 1,000 horsepower and 2,000 ft. lbs. of torque – nearly double the horsepower of any semi-truck on the road. Photographed at the future site of the Nikola Motor Company’s1 million square foot factory in Coolidge, AZ.⁠"
 collection_filter = "Commissioned + Stock"
 collection_hidden = false
