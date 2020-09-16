@@ -34,7 +34,7 @@ page_sections:
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2019**  \n_The Changing Landscape of American Retail_\n\nPhotoville
+    content: "**2020 - 2019**  \n_The Changing Landscape of American Retail_\n\nPhotoville
       The Fence:\n\n* Brooklyn Bridge Park. Brooklyn, NY.\n* Santa Fe Railyard Park.
       Santa Fe, NM.\n* LoDo District. Denver, CO.\n* Atlanta Beltline. Atlanta, GA.\n*
       City Hall Plaza. Durham, NC.\n* SoWa Southie Plaza. Boston, MA.\n* Fourth Ward.
