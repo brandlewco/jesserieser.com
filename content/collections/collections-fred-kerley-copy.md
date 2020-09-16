@@ -1,11 +1,11 @@
 +++
 collection_archive = false
 collection_awards = []
-collection_category = ["Portraits", "Stock", "Sports + Athletes", "Color"]
+collection_category = ["Studio", "Advertising", "Workplace", "Conceptual", "Portraits", "Color"]
 collection_content = ""
 collection_cover = "https://jesserieser.brandlew.co/uploads/banner_header-cover-1.jpg"
 collection_cover_mobile = "https://jesserieser.brandlew.co/uploads/verticalcovers-47.jpg"
-collection_description = "These works celebrate Banner Hospital’s recent recruits who are all-stars in the medical field. The concept was to use a medical diagram to help tell each subject’s story and accomplishments while overlaid a conceptual “banner-blue” doctor’s office. Commissioned by Mullen Lowe NY & Boston."
+collection_description = "These works celebrate Banner Health's recent hi-profile hires. The concept was to use a medical diagram to help tell each subject’s story and accomplishments while overlaid on a conceptual “banner-blue” doctor’s office. Commissioned by Mullen Lowe NY & Boston."
 collection_description_alignment = "center"
 collection_exhibition = []
 collection_filter = "Commissioned + Stock"
