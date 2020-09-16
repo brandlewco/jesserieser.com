@@ -160,10 +160,10 @@ page_sections:
   margin_y: '100'
   margin_left: 60%
   margin_right: 0%
-  title_margin_y: 35%
-  title_margin_left: 0%
+  title_margin_y: 10%
+  title_margin_left: 5%
   title_margin_right: 0%
-  text_size: 2xl
+  text_size: 6xl
   line_height: normal
   text_alignment: left
   text_tracking: normal
@@ -173,7 +173,7 @@ page_sections:
   color: "#D4DEE7"
   title: ''
   meta: ''
-  text_color: ''
+  text_color: "#000000"
   font_weight: ''
 - template: block-media-row
   block: media-row
