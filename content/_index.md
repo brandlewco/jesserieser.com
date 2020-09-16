@@ -30,11 +30,11 @@ page_sections:
   attached_blog: posts/the-changing-landscape-of-american-retail.md
   block_aspect_ratio: []
   text_size: 2xl
-  width: '25'
+  width: '20'
   align_y: start
-  margin_y: '100'
+  margin_y: '700'
   margin_left: 0%
-  margin_right: 5%
+  margin_right: 20%
   title: Fresh
   color: "#DFEFC2"
 - template: block-media-row
