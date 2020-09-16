@@ -27,16 +27,16 @@ page_sections:
   text_color: "#FFFFFF"
 - template: block-modal-blog
   block: modal-blog
-  attached_blog: posts/wired-the-internet-giant-that-went-too-far.md
-  width: '20'
+  attached_blog: posts/the-changing-landscape-of-american-retail.md
+  block_aspect_ratio: []
+  text_size: 2xl
+  width: '25'
   align_y: start
-  margin_y: '700'
+  margin_y: '100'
   margin_left: 0%
-  margin_right: 15%
-  title: AP 35
-  color: "#D8EBEE"
-  block_aspect_ratio: 11x8.5
-  text_size: ''
+  margin_right: 5%
+  title: Fresh
+  color: "#DFEFC2"
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -118,15 +118,15 @@ page_sections:
   row_alignment: ''
 - template: block-modal-blog
   block: modal-blog
-  attached_blog: posts/the-changing-landscape-of-american-retail-1.md
+  attached_blog: posts/wired-the-internet-giant-that-went-too-far.md
   width: '20'
   align_y: start
-  margin_y: '100'
+  margin_y: '700'
   margin_left: 0%
-  margin_right: 0%
-  title: 'The Fence '
-  color: "#EED2D2"
-  block_aspect_ratio: ''
+  margin_right: 15%
+  title: AP 35
+  color: "#D8EBEE"
+  block_aspect_ratio: 11x8.5
   text_size: ''
 - template: block-media-feature
   block: media-feature
@@ -444,16 +444,16 @@ page_sections:
   row_alignment: between
 - template: block-modal-blog
   block: modal-blog
-  attached_blog: posts/the-changing-landscape-of-american-retail.md
-  block_aspect_ratio: []
-  text_size: 2xl
-  width: '33'
+  attached_blog: posts/the-changing-landscape-of-american-retail-1.md
+  width: '20'
   align_y: start
   margin_y: '100'
   margin_left: 0%
   margin_right: 0%
-  title: Fresh
-  color: "#DFEFC2"
+  title: 'The Fence '
+  color: "#EED2D2"
+  block_aspect_ratio: ''
+  text_size: ''
 home_theme_color: "#EDDDDE"
 collection_description: ''
 collection_content: ''
