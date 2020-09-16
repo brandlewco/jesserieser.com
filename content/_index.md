@@ -474,6 +474,18 @@ page_sections:
   font_weight: normal
   line_height: none
   title_margin_y: 20%
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/the-changing-landscape-of-american-retail-1.md
+  width: '20'
+  align_y: start
+  margin_y: '400'
+  margin_left: 0%
+  margin_right: 25%
+  title: 'The Fence '
+  color: "#EED2D2"
+  block_aspect_ratio: ''
+  text_size: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -492,18 +504,6 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: between
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/the-changing-landscape-of-american-retail-1.md
-  width: '20'
-  align_y: start
-  margin_y: '100'
-  margin_left: 0%
-  margin_right: 0%
-  title: 'The Fence '
-  color: "#EED2D2"
-  block_aspect_ratio: ''
-  text_size: ''
 - template: block-media-row
   block: media-row
   row_alignment: between
