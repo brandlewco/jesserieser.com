@@ -121,7 +121,7 @@ page_sections:
   attached_blog: posts/wired-the-internet-giant-that-went-too-far.md
   width: '20'
   align_y: start
-  margin_y: '700'
+  margin_y: '100'
   margin_left: 0%
   margin_right: 15%
   title: AP 35
