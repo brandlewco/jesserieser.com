@@ -29,7 +29,7 @@ page_sections:
   block: modal-blog
   attached_blog: posts/the-changing-landscape-of-american-retail.md
   block_aspect_ratio: []
-  text_size: 2xl
+  text_size: base
   width: '20'
   align_y: start
   margin_y: '700'
