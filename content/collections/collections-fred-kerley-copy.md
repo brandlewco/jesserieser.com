@@ -22,7 +22,7 @@ navigation_theme = "white"
 px_extra = true
 slug = "collections/Banner-Mullen"
 theme_color = "#FFB5BD"
-theme_color_all_works = "#FFB5BD"
+theme_color_all_works = "#9FF4B8"
 title = "Banner Health"
 [[collection_layout_builder]]
 align_x = "start"
