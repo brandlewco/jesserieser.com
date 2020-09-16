@@ -4,7 +4,7 @@ collection_awards = []
 collection_category = ["Portraits", "Stock", "Sports + Athletes", "Color"]
 collection_content = ""
 collection_cover = "https://jesserieser.brandlew.co/uploads/banner-mullen-5.jpg"
-collection_cover_mobile = "https://jesserieser.brandlew.co/uploads/verticalcovers-29.jpg"
+collection_cover_mobile = "https://jesserieser.brandlew.co/uploads/verticalcovers-47.jpg"
 collection_description = "These works celebrate Banner Hospital’s recent recruits who are all-stars in the medical field. The concept was to use a medical diagram to help tell each subject’s story and accomplishments while overlaid a conceptual “banner-blue” doctor’s office. Commissioned by Mullen Lowe NY & Boston."
 collection_description_alignment = "center"
 collection_exhibition = []
@@ -21,7 +21,7 @@ logo = ""
 navigation_theme = "white"
 px_extra = true
 slug = "collections/Banner-Mullen"
-theme_color = "#FFC1C7"
+theme_color = "#FFB5BD"
 theme_color_all_works = "#FFB5BD"
 title = "Banner Hospitals Significance Campaign"
 [[collection_layout_builder]]
