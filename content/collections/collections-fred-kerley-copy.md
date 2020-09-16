@@ -117,11 +117,12 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_y = "start"
 block = "media-element"
+color = "#CFE0F2"
 image = "https://jesserieser.brandlew.co/uploads/banner-mullen-8.jpg"
-margin_left = "0%"
+margin_left = "5%"
 margin_right = "0%"
-margin_y = "50"
+margin_y = "100"
 template = "block-media-element"
-width = "33"
+width = "90"
 
 +++
