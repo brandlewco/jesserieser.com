@@ -15,7 +15,6 @@ collection_press = []
 collection_preview = ["https://jesserieser.brandlew.co/uploads/banner-mullen_horizontalcover-1.jpg", "https://jesserieser.brandlew.co/uploads/banner-mullen_horizontalcover-2.jpg", "https://jesserieser.brandlew.co/uploads/banner-mullen_horizontalcover-3.jpg", "https://jesserieser.brandlew.co/uploads/banner-mullen_horizontalcover-4.jpg"]
 cover_image = ""
 date = ""
-draft = true
 hide_footer = true
 layout = "blocks"
 logo = ""
