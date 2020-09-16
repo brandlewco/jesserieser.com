@@ -384,6 +384,31 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: ''
+- template: block-media-feature
+  block: media-feature
+  width: '33'
+  align_y: start
+  margin_y: '100'
+  margin_left: 60%
+  margin_right: 0%
+  title_margin_y: 35%
+  title_margin_left: 5%
+  title_margin_right: 0%
+  text_size: 7xl
+  line_height: normal
+  text_alignment: left
+  text_tracking: normal
+  meta_align: left
+  image: https://jesserieser.brandlew.co/uploads/wsj_robot-1.jpg
+  color: "#EF7484"
+  meta: The Scanalyzer
+  title: The Wall Street Journal
+  attached_collection: collections/collections-wall-street-journal-robot.md
+  font_weight: normal
+  text_color: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: between
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/phoenix-a-dystopian-legoland-that-tastes-like-candy.md
