@@ -513,7 +513,10 @@ collection_content: ''
 cover_image: ''
 feature_logo: https://jesserieser.brandlew.co/uploads/logo-amtrak-8.png
 feature_cover: https://jesserieser.brandlew.co/uploads/timeGC-5.jpg
-feature_description: ''
+feature_description: Here in _Selected Works_ you will find a brief yet representative
+  experience of my personal photographic art works and client commissions. It reflects
+  both my unique style of light and color as I explore themes of the uniquely American
+  experience.
 navigation_theme: white
 row_alignment: between
 selected_works_theme:
