@@ -22,7 +22,7 @@ page = "/collections/amtrak-sunset-limited"
 px_extra = true
 slug = "collections/sunsetlimited"
 theme_color = "#E3E7EB"
-theme_color_all_works = "#AED0FF"
+theme_color_all_works = "#FF7572"
 title = "Amtrak The National"
 [[collection_layout_builder]]
 align_x = "start"
