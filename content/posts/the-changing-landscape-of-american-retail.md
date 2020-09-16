@@ -1,6 +1,6 @@
 +++
 attached_collection = "collections/retail.md"
-block_aspect_ratio = "ratio-4x3"
+block_aspect_ratio = "ratio-1x1"
 blog_block_cover = "https://jesserieser.brandlew.co/uploads/retail_fresh-blog-1.jpg"
 blog_header = ""
 caption = "The Changing Landscape of American Retail Fresh"
