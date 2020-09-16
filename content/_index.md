@@ -395,7 +395,7 @@ page_sections:
   title_margin_left: 20%
   title_margin_right: 0%
   text_size: 6xl
-  line_height: snug
+  line_height: none
   text_alignment: left
   text_tracking: normal
   meta_align: left
