@@ -6,7 +6,11 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N2ZVNND"
       height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    {{ partial "header" .}}
+    {{ if .Params.projects }}
+      {{ partial "header_projects" .}}
+    {{else}}
+      {{ partial "header" .}}
+    {{end}}
     <main id="content" class="transition-page">
       {{ block "main" .}}
       {{ end }}

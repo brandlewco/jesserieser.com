@@ -1,0 +1,40 @@
+<nav id="navigation" class="fixed top-0 inset-x-0 transition-nav mx-auto" style="z-index: 110; transform: translate3d(0px, 0px, 0px); opacity: 0;">
+  <!-- logo -->
+  <div class="navigation-container flex flex-wrap items-center justify-between py-4 px-4 sm:px-8 border-box">
+    <!-- <div class="sm:hidden w-1/5 sm:w-1/4">
+        <h1 class="text-3xl shift font-bold">R</h1>
+    </div> -->
+    <div class="w-5/6 sm:w-1/2 text-left">
+        <h1 class="flex flex-row sm:flex-row items-start text-2xl sm:text-28 font-medium tracking-widest shift">
+          <a href="/" alt="{{.Site.Title}}">
+            JESSE RIESER 
+          </a>
+          <div class="text-xs sm:text-sm font-normal pl-2 pb-1 tracking-looser self-end italic">projects</div>
+            {{if (eq .Params.collection_archive true) }}
+            <div class="text-xs sm:text-sm font-normal pl-2 pb-1 tracking-looser self-end italic">archive</div>
+            {{end}}
+        </h1>
+    </div>
+    <!-- mobile menu button -->
+    <div class="navToggle sm:hidden w-1/6 sm:w-1/4 flex justify-end">
+      <button class="text-black target-burger">
+        <ul class="buns">
+          <li class="shift bun"></li>
+          <li class="shift bun"></li>
+        </ul>
+      </button>
+    </div>
+    <!-- navigation -->
+    <section role="menu" class="menu translate-neg sm:translate-0 menu w-full sm:w-1/2 sm:flex flex-col sm:flex-row items-center sm:justify-end z-0 hidden mt-3 sm:mt-0">
+        <a href="/" class="nav-selected mt-3 sm:mt-0 sm:mr-4 text-base font-normal sm:font-light no-underline sm:pr-4  btn-underline shift">
+          selected projects
+        </a>
+        <a href="/about/" class="nav-about mt-3 sm:mt-0 text-base sm:font-light no-underline btn-underline shift">
+          about
+        </a>
+        <!-- <a id="nav-about" class="popup-trigger cursor-pointer mt-4 sm:mt-0 text-xl sm:text-base sm:font-light no-underline btn-underline shift" data-popup-trigger="modal-about" data-no-swup>
+          about
+        </a> -->
+    </section>
+  </div> 
+</nav>

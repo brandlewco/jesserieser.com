@@ -1,0 +1,63 @@
+{{- define "main" -}}
+<section data-hue="{{with .Params.navigation_theme}}{{.}}{{else}}white{{end}}" class="relative z-0">
+  {{ partial "feature_header" .}}
+</section>
+<section data-hue="page" class="pt-8 mx-auto bg-white relative z-100 overflow-y-hidden" style="backface-visibility: hidden;">
+  <div class="px-4 xl:px-16">
+    <section class="flex flex-wrap mx-auto h-auto {{with .Params.row_alignment}}sm:justify-{{.}}{{else}}sm:justify-between{{end}}">
+    <!-- blog id counter -->
+    {{ $counter := 0 }}
+    <!-- blog id counter -->
+    {{- range .Params.page_sections -}}
+    {{if eq .block "modal-blog"}}
+      {{ $counter = add $counter 1 }}
+    {{end}}
+    {{ partial (printf "blocks/block-%s.html" .block) (dict "Section" . "Page" $ "Site" $.Site "id" $counter) }}
+    {{- end -}}
+    </section>
+  </div>
+  {{ partial "feature_footer" .}}
+</section>
+{{- end -}}
+{{- define "attached" -}}
+<script>
+  (function(){
+    var images = [
+      {{- range .Params.selected_works_theme -}}
+      // ["{{.image_mobile }}?nf_resize=fit&w=450 450w, {{.image_mobile }}?nf_resize=fit&w=780 780w, {{.image}}?nf_resize=fit&w=1440 1440w, {{.image}}?nf_resize=fit&w=1920 1920w, {{.image}}?nf_resize=fit&w=2560 2560w","{{.theme_color}}"],
+      ["<source data-srcset='{{.image_mobile }}?nf_resize=fit&w=720' media='(orientation: portrait) and (max-width: 688px)' /><source data-srcset='{{.image_mobile }}?nf_resize=fit&w=1040' media='(orientation: portrait) and (max-width: 1024px)' /><source data-srcset='{{.image}}?nf_resize=fit&w=1040' media='(max-width: 1024px)' /><source data-srcset='{{.image}}?nf_resize=fit&w=1500' media='(max-width: 1440px)'  /><source data-srcset='{{.image}}?nf_resize=fit&w=2560' media='(max-width: 2560px)'  /><img id='feature-image' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' class='featured bg-center lazyload h-full object-cover absolute inset-0 z-0' data-sizes='auto' alt='Jesse Rieser Featured Collection Image'/>","{{.theme_color}}"],
+      {{- end -}}
+      ]
+    var imgCount = images.length;
+  
+    var randNumber=Math.floor((Math.random() * imgCount) + 1);
+    imgURL = images[randNumber-1];
+
+    const content = document.getElementById("content");
+    // const featureImage = document.getElementById("feature-image");
+    const featurePicture = document.getElementById("feature-picture");
+    const hueHeaderShift = document.querySelectorAll(".hue-header.page .shift");
+    const projectHeader = document.getElementById("project-header");
+    const projectDescription = document.getElementById("project-description");
+    const toTop = document.getElementById("to-top");
+    // const featureOverlay = document.getElementById("feature-overlay");
+    const featureFooter = document.getElementById("feature-footer");
+
+
+    projectHeader.style.backgroundColor = imgURL[1];
+    projectDescription.style.backgroundColor = imgURL[1];
+    document.querySelectorAll(".shift").forEach(function(button) {
+      button.style.color = imgURL[1];
+    });
+    document.querySelectorAll(".bun").forEach(function(bunLine) {
+      bunLine.style.backgroundColor = imgURL[1];
+    });
+    featurePicture.innerHTML = imgURL[0] + featurePicture.innerHTML;
+    // featureImage.setAttribute("data-srcset", imgURL[0]);
+    // featureImage.classList.add("lazyload");
+    // featureOverlay.style.backgroundColor = imgURL[1];
+    // toTop.style.color = imgURL[1];
+    featureFooter.style.backgroundColor = imgURL[1];
+  }());
+</script>
+{{- end -}}
