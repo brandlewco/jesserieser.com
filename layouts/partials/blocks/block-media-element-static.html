@@ -10,7 +10,7 @@
       {{.Section.image }}?nf_resize=fit&w=1440 1440w,
       {{.Section.image }}?nf_resize=fit&w=1920 1920w,
       {{.Section.image }}?nf_resize=fit&w=2560 2560w"
-      class="lazyload-delay h-full object-cover z-0"
+      class="{{with .delay }}{{.}}{{else}}lazyload-delay{{end}} h-full object-cover z-0"
       alt="{{ .Section.caption }}"/>
     </div>
     </figure>  
