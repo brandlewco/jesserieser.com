@@ -192,6 +192,7 @@ fields:
   name: date
   label: Publish Date
   hidden: true
+  default: now
 - name: collection_hidden
   type: boolean
   label: Hide Collection
