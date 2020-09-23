@@ -27,7 +27,7 @@ page_sections:
   text_color: "#FFFFFF"
 - template: block-modal-blog
   block: modal-blog
-  attached_blog: posts/the-changing-landscape-of-american-retail.md
+  attached_blog: posts/klompching-gallery-fresh.md
   block_aspect_ratio: []
   text_size: base
   width: '20'
@@ -118,7 +118,7 @@ page_sections:
   row_alignment: ''
 - template: block-modal-blog
   block: modal-blog
-  attached_blog: posts/wired-the-internet-giant-that-went-too-far.md
+  attached_blog: posts/ap-36-american-photography-annual.md
   width: '20'
   align_y: start
   margin_y: '100'
@@ -298,7 +298,7 @@ page_sections:
   title: WaPo
   image: ''
   color: "#fde25e"
-  attached_blog: posts/test-blog-posts.md
+  attached_blog: posts/the-changing-landscape-of-america-retail.md
   align_y: ''
   margin_left: 0%
   margin_right: 15%
