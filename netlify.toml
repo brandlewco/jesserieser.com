@@ -13,8 +13,8 @@
   from = "/projects"
   to = "/collections/#filter=.personal"
   status = 301
-  
+
 [[redirects]]
   from = "/posts/*"
-  to = "/#:splat"
+  to = "/#blog-:splat"
   status = 301
