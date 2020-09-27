@@ -24,8 +24,8 @@
   (function(){
     var images = [
       {{- range .Params.selected_works_theme -}}
-      // ["{{.image_mobile }}?nf_resize=fit&w=450 450w, {{.image_mobile }}?nf_resize=fit&w=780 780w, {{.image}}?nf_resize=fit&w=1440 1440w, {{.image}}?nf_resize=fit&w=1920 1920w, {{.image}}?nf_resize=fit&w=2560 2560w","{{.theme_color}}"],
-      ["<source data-srcset='{{.image_mobile }}?nf_resize=fit&w=720' media='(orientation: portrait) and (max-width: 688px)' /><source data-srcset='{{.image_mobile }}?nf_resize=fit&w=1040' media='(orientation: portrait) and (max-width: 1024px)' /><source data-srcset='{{.image}}?nf_resize=fit&w=1040' media='(max-width: 1024px)' /><source data-srcset='{{.image}}?nf_resize=fit&w=1500' media='(max-width: 1440px)'  /><source data-srcset='{{.image}}?nf_resize=fit&w=2560' media='(max-width: 2560px)'  /><img id='feature-image' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' class='featured bg-center lazyload h-full object-cover absolute inset-0 z-0' data-sizes='auto' alt='Jesse Rieser Featured Collection Image'/>","{{.theme_color}}"],
+      // ["{{.image_mobile }}?width=450 450w, {{.image_mobile }}?width=780 780w, {{.image}}?width=1440 1440w, {{.image}}?width=1920 1920w, {{.image}}?width=2560 2560w","{{.theme_color}}"],
+      ["<source data-srcset='{{.image_mobile }}?width=720' media='(orientation: portrait) and (max-width: 688px)' /><source data-srcset='{{.image_mobile }}?width=1040' media='(orientation: portrait) and (max-width: 1024px)' /><source data-srcset='{{.image}}?width=1040' media='(max-width: 1024px)' /><source data-srcset='{{.image}}?width=1500' media='(max-width: 1440px)'  /><source data-srcset='{{.image}}?width=2560' media='(max-width: 2560px)'  /><img id='feature-image' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' class='featured bg-center lazyload h-full object-cover absolute inset-0 z-0' data-sizes='auto' alt='Jesse Rieser Featured Collection Image'/>","{{.theme_color}}"],
       {{- end -}}
       ]
     var imgCount = images.length;

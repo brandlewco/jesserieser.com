@@ -1,15 +1,15 @@
 <!-- 
-<img class="lazyload-delay block h-full w-full object-contain absolute top-0 left-0" data-src="{{ .Section.image }}?nf_resize=fit&h=1080" data-srcset="{{ .Section.image }}?nf_resize=fit&h=1080"/>
+<img class="lazyload-delay block h-full w-full object-contain absolute top-0 left-0" data-src="{{ .Section.image }}?height=1080" data-srcset="{{ .Section.image }}?height=1080"/>
  -->
 
 <figure class="block h-full w-full absolute top-0 left-0" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" >
       <img
       data-sizes="auto"
-      data-srcset="{{.Section.image}}?nf_resize=fit&w=450 450w,
-      {{.Section.image }}?nf_resize=fit&w=780 780w,
-      {{.Section.image }}?nf_resize=fit&w=1440 1440w,
-      {{.Section.image }}?nf_resize=fit&w=1920 1920w,
-      {{.Section.image }}?nf_resize=fit&w=2560 2560w"
+      data-srcset="{{.Section.image}}?width=450 450w,
+      {{.Section.image }}?width=780 780w,
+      {{.Section.image }}?width=1440 1440w,
+      {{.Section.image }}?width=1920 1920w,
+      {{.Section.image }}?width=2560 2560w"
       class="{{with .delay }}{{.}}{{else}}lazyload-delay{{end}} h-full object-contain z-0"
       alt="{{ .Section.caption }}"/>
 </figure>  

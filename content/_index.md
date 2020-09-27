@@ -16,7 +16,7 @@ page_sections:
   meta_align: left
   attached_collection: collections/phoenix.md
   meta: 2018 - 2020
-  image: https://jesserieser.brandlew.co/uploads/rieser_phx-HI-2.jpg
+  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser_phx-HI-2.jpg
   color: "#D0F4F2"
   text_size: 7xl
   font_weight: normal
@@ -50,7 +50,7 @@ page_sections:
   title_margin_left: "-30%"
   title_margin_right: 0%
   meta_align: left
-  image: https://jesserieser.brandlew.co/uploads/retail-cover-1.jpg
+  image: https://d1sf55qlb7p6hz.cloudfront.net/retail-cover-1.jpg
   color: "#F2ECDF"
   attached_collection: collections/retail.md
   meta: 2015 - 2018
@@ -70,7 +70,7 @@ page_sections:
   width: '30'
   align_x: end
   margin_y: '700'
-  image: https://jesserieser.brandlew.co/uploads/stargeezers-1.jpg
+  image: https://d1sf55qlb7p6hz.cloudfront.net/stargeezers-1.jpg
   attached_collection: collections/star-geezers.md
   title: The Star Geezers
   color: "#9bbad5"
@@ -94,7 +94,7 @@ page_sections:
   width: '45'
   align_x: start
   margin_y: '100'
-  image: https://jesserieser.brandlew.co/uploads/xmas-1.jpg
+  image: https://d1sf55qlb7p6hz.cloudfront.net/xmas-1.jpg
   attached_collection: collections/xmas-in-america.md
   title: Christmas in America
   color: "#F0DADA"
@@ -138,7 +138,7 @@ page_sections:
   title_margin_left: 50%
   title_margin_right: ''
   meta_align: left
-  image: https://jesserieser.brandlew.co/uploads/rieser_phx-HI-22.jpg
+  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser_phx-HI-22.jpg
   color: "#CBEEE5"
   title: 'Skeleton Party '
   meta: Portfolio Overview of Work Made with Skeleton Crews
@@ -169,7 +169,7 @@ page_sections:
   text_tracking: normal
   meta_align: right
   attached_collection: collections/smartwater.md
-  image: https://jesserieser.brandlew.co/uploads/smartwater-3.jpg
+  image: https://d1sf55qlb7p6hz.cloudfront.net/smartwater-3.jpg
   color: "#D4DEE7"
   title: Smart Water
   meta: Ben Simmons for Anomaly
@@ -188,7 +188,7 @@ page_sections:
   title_margin_left: 5%
   title_margin_right: 0%
   meta_align: left
-  image: https://jesserieser.brandlew.co/uploads/bitmain-19.jpg
+  image: https://d1sf55qlb7p6hz.cloudfront.net/bitmain-19.jpg
   title: Wired
   color: "#FFE087"
   meta: 'The Hard Luck Texas Town That Bet on Bitcoin and Lost '
@@ -205,7 +205,7 @@ page_sections:
   width: '30'
   align_x: end
   margin_y: '600'
-  image: https://jesserieser.brandlew.co/uploads/timeGC-5.jpg
+  image: https://d1sf55qlb7p6hz.cloudfront.net/timeGC-5.jpg
   title: 'Time '
   color: "#fdcfb1"
   attached_collection: collections/time.md
@@ -253,7 +253,7 @@ page_sections:
   title_margin_right: 0%
   meta_align: left
   title: Amtrak the National
-  image: https://jesserieser.brandlew.co/uploads/sunset-limited-28.jpg
+  image: https://d1sf55qlb7p6hz.cloudfront.net/sunset-limited-28.jpg
   color: "#D7F3E6"
   meta: Palm Springs to Yuma on the Sunset Limited
   attached_collection: collections/amtrak-sunset-limited.md
@@ -277,7 +277,7 @@ page_sections:
   title_margin_left: 5%
   title_margin_right: 0%
   meta_align: left
-  image: https://jesserieser.brandlew.co/uploads/autobiography-23.jpg
+  image: https://d1sf55qlb7p6hz.cloudfront.net/autobiography-23.jpg
   color: "#FAE1D7"
   title: "Autobiography of \n\na Contact Sport"
   meta: "2016"
@@ -317,7 +317,7 @@ page_sections:
   title_margin_left: 5%
   title_margin_right: ''
   meta_align: right
-  image: https://jesserieser.brandlew.co/uploads/adicross-12.jpg
+  image: https://d1sf55qlb7p6hz.cloudfront.net/adicross-12.jpg
   color: "#D1D1D1"
   attached_collection: collections/adidas-golf.md
   title: Adidas Golf
@@ -336,7 +336,7 @@ page_sections:
   block: media-feature
   width: '30'
   align_x: start
-  image: https://jesserieser.brandlew.co/uploads/backpage-3.jpg
+  image: https://d1sf55qlb7p6hz.cloudfront.net/backpage-3.jpg
   title: 'Wired '
   color: "#b9a49e"
   margin_y: '200'
@@ -368,7 +368,7 @@ page_sections:
   meta_align: left
   meta: 'Society Magazine (France) '
   attached_collection: collections/stalking-a-serial-killer.md
-  image: https://jesserieser.brandlew.co/uploads/serial-6.jpg
+  image: https://d1sf55qlb7p6hz.cloudfront.net/serial-6.jpg
   title: |-
     Stalking a
 
@@ -399,7 +399,7 @@ page_sections:
   text_alignment: left
   text_tracking: normal
   meta_align: left
-  image: https://jesserieser.brandlew.co/uploads/wsj_robot-1.jpg
+  image: https://d1sf55qlb7p6hz.cloudfront.net/wsj_robot-1.jpg
   color: "#EF7484"
   meta: The Scanalyzer
   title: The Wall Street Journal
@@ -435,7 +435,7 @@ page_sections:
   title_margin_right: 0%
   meta_align: left
   attached_collection: collections/amtrak-southwest-chief.md
-  image: https://jesserieser.brandlew.co/uploads/swchief-8.jpg
+  image: https://d1sf55qlb7p6hz.cloudfront.net/swchief-8.jpg
   meta: On the Southwest Chief
   title: Amtrak the National
   color: "#F5ECE3"
@@ -459,7 +459,7 @@ page_sections:
   title_margin_left: 5%
   title_margin_right: 0%
   meta_align: left
-  image: https://jesserieser.brandlew.co/uploads/_JR_8055.jpg
+  image: https://d1sf55qlb7p6hz.cloudfront.net/_JR_8055.jpg
   title: |-
     Outside
 
@@ -511,8 +511,8 @@ home_theme_color: "#EDDDDE"
 collection_description: ''
 collection_content: ''
 cover_image: ''
-feature_logo: https://jesserieser.brandlew.co/uploads/logo-amtrak-8.png
-feature_cover: https://jesserieser.brandlew.co/uploads/timeGC-5.jpg
+feature_logo: https://d1sf55qlb7p6hz.cloudfront.net/logo-amtrak-8.png
+feature_cover: https://d1sf55qlb7p6hz.cloudfront.net/timeGC-5.jpg
 feature_description: "Welcome!  \nHere in _Selected Works_ you will find a brief yet
   representative experience of my personal photographic art works and client commissions.
   It reflects both my unique style of light and color as I explore themes of the uniquely
@@ -522,17 +522,17 @@ navigation_theme: white
 row_alignment: between
 selected_works_theme:
 - template: selected-works-theme
-  image: https://jesserieser.brandlew.co/uploads/selected_featured-1.jpg
+  image: https://d1sf55qlb7p6hz.cloudfront.net/selected_featured-1.jpg
   theme_color: "#F4D8BE"
-  image_mobile: https://jesserieser.brandlew.co/uploads/vertical_featuredworks-1.jpg
+  image_mobile: https://d1sf55qlb7p6hz.cloudfront.net/vertical_featuredworks-1.jpg
 - template: selected-works-theme
-  image: https://jesserieser.brandlew.co/uploads/selected_featured-2.jpg
+  image: https://d1sf55qlb7p6hz.cloudfront.net/selected_featured-2.jpg
   theme_color: "#CBEFA7"
-  image_mobile: https://jesserieser.brandlew.co/uploads/vertical_featuredworks-2.jpg
+  image_mobile: https://d1sf55qlb7p6hz.cloudfront.net/vertical_featuredworks-2.jpg
 - template: selected-works-theme
-  image: https://jesserieser.brandlew.co/uploads/selected_featured-3.jpg
+  image: https://d1sf55qlb7p6hz.cloudfront.net/selected_featured-3.jpg
   theme_color: "#FF6766"
-  image_mobile: https://jesserieser.brandlew.co/uploads/vertical_featuredworks-3.jpg
+  image_mobile: https://d1sf55qlb7p6hz.cloudfront.net/vertical_featuredworks-3.jpg
 
 ---
 ## Click the collections link above to preview collections.

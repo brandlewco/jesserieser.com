@@ -2,9 +2,9 @@
 layout: blocks
 title: Say Hello
 date: 2017-11-02T23:00:00.000+00:00
-cover_image: https://jesserieser.brandlew.co/uploads/bio_final-5.jpg
+cover_image: https://d1sf55qlb7p6hz.cloudfront.net/bio_final-5.jpg
 collection_logo: ''
-collection_cover: https://jesserieser.brandlew.co/uploads/bio_final-7.jpg
+collection_cover: https://d1sf55qlb7p6hz.cloudfront.net/bio_final-7.jpg
 collection_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
   hendrerit quam dapibus sem porttitor convallis. Integer convallis arcu non lectus
   facilisis dapibus. Aenean commodo magna at laoreet tempor. Phasellus lorem lorem,
@@ -24,7 +24,7 @@ page_sections:
   block-list: ''
   align_y: ''
   title_margin_right: ''
-  image: https://jesserieser.brandlew.co/uploads/bio_final-11.jpg
+  image: https://d1sf55qlb7p6hz.cloudfront.net/bio_final-11.jpg
   title: Exhibitions
   color: "#77DDD4"
   modal_block:
@@ -223,7 +223,7 @@ page_sections:
   margin_left: 0%
   margin_right: 0%
   title_margin_left: "-25%"
-  image: https://jesserieser.brandlew.co/uploads/bio_final-9.jpg
+  image: https://d1sf55qlb7p6hz.cloudfront.net/bio_final-9.jpg
   title: Awards
   color: "#FFDA8A"
   modal_block:
@@ -446,7 +446,7 @@ page_sections:
   align_y: ''
   title_margin_right: ''
   title: Press & Interviews
-  image: https://jesserieser.brandlew.co/uploads/bio_final-10.jpg
+  image: https://d1sf55qlb7p6hz.cloudfront.net/bio_final-10.jpg
   color: "#DDC4E7"
   modal_block:
   - template: popup-text-element
@@ -776,166 +776,166 @@ page_sections:
   color: "#D5E3F6"
   modal_block:
   - template: popup-text-element
-    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__aarp.png
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__aarp.png
     content: "**AARP**"
     url: ''
   - template: popup-text-element
     content: "**Adidas**"
-    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__adidas.png
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__adidas.png
     url: ''
   - template: popup-text-element
     content: "**Amtrak**"
-    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__amtrak.png
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__amtrak.png
     url: ''
   - template: popup-text-element
     content: Anomaly
-    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__anomoly.png
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__anomoly.png
     url: ''
   - template: popup-text-element
     content: ATT
-    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__at-t.png
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__at-t.png
     url: ''
   - template: popup-text-element
     content: "**AZ Lottery**"
-    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__az-lottery.png
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__az-lottery.png
     url: ''
   - template: popup-text-element
     content: "**Banner Health**"
-    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__banner-health.png
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__banner-health.png
     url: ''
   - template: popup-text-element
     content: "**BBDO**"
-    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__bbdo.png
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__bbdo.png
     url: ''
   - template: popup-text-element
     content: "**Best Buy**"
-    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__bestbuy.png
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__bestbuy.png
     url: ''
   - template: popup-text-element
     content: "**Coca Cola**"
-    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__cococola.png
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__cococola.png
     url: ''
   - template: popup-text-element
     content: "**Conde naste**"
-    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__condenast.png
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__condenast.png
     url: ''
   - template: popup-text-element
     content: "**Disney**"
-    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__disney.png
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__disney.png
     url: ''
   - template: popup-text-element
     content: "**ESPN**"
-    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__espn.png
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__espn.png
     url: ''
   - template: popup-text-element
     content: "**Esquire**"
-    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__esquire.png
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__esquire.png
     url: ''
   - template: popup-text-element
     content: "**E Trade**"
-    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__etrade.png
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__etrade.png
     url: ''
   - template: popup-text-element
     content: "**Fast Co**"
-    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__fastcompany.png
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__fastcompany.png
     url: ''
   - template: popup-text-element
     content: "**Fisher Price**"
-    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__fisherprice.png
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__fisherprice.png
     url: ''
   - template: popup-text-element
     content: "**Ford**"
-    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__ford.png
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__ford.png
     url: ''
   - template: popup-text-element
     content: "**Getty Museum**"
-    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__getty.png
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__getty.png
     url: ''
   - template: popup-text-element
     content: "**Inc Mag**"
-    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__inc.png
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__inc.png
     url: ''
   - template: popup-text-element
     content: "**Elli Lilly**"
-    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__lilly.png
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__lilly.png
     url: ''
   - template: popup-text-element
     content: "**MC Saatchi**"
-    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__m-saatchi.png
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__m-saatchi.png
     url: ''
   - template: popup-text-element
     content: "**McCann**"
-    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__mccann.png
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__mccann.png
     url: ''
   - template: popup-text-element
     content: "**MGM**"
-    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__mgm.png
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__mgm.png
     url: ''
   - template: popup-text-element
     content: "**Mullen Lowe**"
-    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__mullenlowe.png
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__mullenlowe.png
     url: ''
   - template: popup-text-element
     content: "**NBA**"
-    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__nba.png
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__nba.png
     url: ''
   - template: popup-text-element
     content: "**NFL**"
-    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__nfl.png
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__nfl.png
     url: ''
   - template: popup-text-element
     content: "**Outside**"
-    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__outside.png
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__outside.png
     url: ''
   - template: popup-text-element
     content: "**P&G**"
-    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__p-g.png
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__p-g.png
     url: ''
   - template: popup-text-element
     content: "**Publicis**"
-    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__publicis.png
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__publicis.png
     url: ''
   - template: popup-text-element
     content: "**Smart Water**"
-    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__smartwater.png
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__smartwater.png
     url: ''
   - template: popup-text-element
     content: "**This American Life**"
-    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__thisamerican.png
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__thisamerican.png
     url: ''
   - template: popup-text-element
     content: "**Time**"
-    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__time.png
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__time.png
     url: ''
   - template: popup-text-element
     content: "**United Airlines**"
-    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__united.png
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__united.png
     url: ''
   - template: popup-text-element
     content: "**Visa**"
-    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__visa.png
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__visa.png
     url: ''
   - template: popup-text-element
     content: "**WSJ**"
-    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__wallstreet.png
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__wallstreet.png
     url: ''
   - template: popup-text-element
     content: "**Warner Bros**"
-    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__warnerbrothers.png
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__warnerbrothers.png
     url: ''
   - template: popup-text-element
     content: "**WaPo**"
-    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__washingtonpost.png
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__washingtonpost.png
     url: ''
   - template: popup-text-element
     content: "**WK**"
-    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__wiedenkennedy.png
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__wiedenkennedy.png
     url: ''
   - template: popup-text-element
     content: "**Wired**"
-    icon: https://jesserieser.brandlew.co/uploads/logo_vectors_v3__wired.png
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__wired.png
     url: ''
-  image: https://jesserieser.brandlew.co/uploads/bio_final-13.jpg
+  image: https://d1sf55qlb7p6hz.cloudfront.net/bio_final-13.jpg
   meta: 'Ben Simmons for Smart Water & Anomaly NY. © Dayvid Lemmon '
   title_margin_y: 10%
   text_color: ''
@@ -968,7 +968,7 @@ header_col_3: "[Gallery Stock](https://www.gallerystock.com)  \n190 Bowery  \nNe
   \"newyork@gallerystock.com\")\n\n[Paris](mailto:PARIS@GALLERYSTOCK.COM)  \n[Munich](mailto:MUNICH@GALLERYSTOCK.COM)
   \ \n[Sydney](mailto:HELLO@SNAPPERIMAGES.COM)"
 row_alignment: between
-collection_cover_mobile: https://jesserieser.brandlew.co/uploads/bio_final-5.jpg
+collection_cover_mobile: https://d1sf55qlb7p6hz.cloudfront.net/bio_final-5.jpg
 about_bio: |-
   **Bio**
 
@@ -977,7 +977,7 @@ about_bio: |-
   For the past decade Jesse has carefully constructed a photographic world built on the foundation of celebrating the mundane and humorous elements that often go overlooked in our day-to-day American experience. His use of light and bleached color, leaves the viewer with the illusion that our existence is equally beautiful as it is fleeting. In this world you will find one-time paradisal places and memories framed by our modern anxieties about the past, present, and future — examining our rituals and the artifacts left behind. If these earlier works were more documentary in nature, his latest work _Phoenix A Dystopian Lego Land_ blurs the lines of fact and fiction — the real dancing joyfully with the surreal and constructed.
 
   Clients find him as a creative additive to the collaborative process not only with his technical expertise but also in the ideation phase. He feels his greatest currency is how he communicates and sees the world. Some call it empathy. Some call it charm. His mom just says he’s a nice young man.
-about_bio_image: https://jesserieser.brandlew.co/uploads/bio_final-3.jpg
+about_bio_image: https://d1sf55qlb7p6hz.cloudfront.net/bio_final-3.jpg
 footer_links:
 - link_title: Instagram
   link_url: https://www.instagram.com/jesserieser/
@@ -1010,7 +1010,7 @@ footer_links:
 - link_title: The One Club Young Guns
   link_url: https://www.oneclub.org/awards/youngguns/9/-bio/yg9-2545-jesse-rieser
 about_bio_image_credit: "© Brad Reed"
-cv: https://jesserieser.brandlew.co/uploads/202007_cv-jesserieser-www-2.pdf
+cv: https://d1sf55qlb7p6hz.cloudfront.net/202007_cv-jesserieser-www-2.pdf
 about_bio_doodle_credit: Portrait by © Lapo
 
 ---

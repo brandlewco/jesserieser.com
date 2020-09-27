@@ -4,11 +4,11 @@
     {{with $key.Params.blog_block_cover }}
       <img 
       data-sizes="auto"
-      src="{{ . }}?nf_resize=fit&w=300"
-      data-srcset="{{ . }}?nf_resize=fit&w=300 300w,
-      {{ . }}?nf_resize=fit&w=600 600w,
-      {{ . }}?nf_resize=fit&w=900 900w,
-      {{ . }}?nf_resize=fit&w=1200 1200w"
+      src="{{ . }}?width=300"
+      data-srcset="{{ . }}?width=300 300w,
+      {{ . }}?width=600 600w,
+      {{ . }}?width=900 900w,
+      {{ . }}?width=1200 1200w"
       class="lazyload bg-center object-cover absolute p-5 sm:p-0 inset-0 z-0 h-full w-full"
       data-parent-fit="cover" alt="{{$key.Params.title }} - blog post cover image"/>
     {{end}}

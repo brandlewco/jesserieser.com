@@ -1,30 +1,30 @@
 <header id="project-header" class="w-full h-full lazyload flex flex-col items-center overflow-hidden relative z-0" style="background-color: {{.Params.theme_color}};">
     <!-- <img
-        data-src="{{.Params.collection_cover }}?nf_resize=fit&w=1440"  
-        data-srcset="{{.Params.collection_cover_mobile }}?nf_resize=fit&w=450 450w,
-        {{.Params.collection_cover_mobile }}?nf_resize=fit&w=780 780w,
-        {{.Params.collection_cover }}?nf_resize=fit&w=1440 1440w,
-        {{.Params.collection_cover }}?nf_resize=fit&w=1920 1920w,
-        {{.Params.collection_cover }}?nf_resize=fit&w=2560 2560w"
+        data-src="{{.Params.collection_cover }}?width=1440"  
+        data-srcset="{{.Params.collection_cover_mobile }}?width=450 450w,
+        {{.Params.collection_cover_mobile }}?width=780 780w,
+        {{.Params.collection_cover }}?width=1440 1440w,
+        {{.Params.collection_cover }}?width=1920 1920w,
+        {{.Params.collection_cover }}?width=2560 2560w"
         class="featured lazyload bg-center h-screen object-cover absolute inset-0 z-0"
         data-parent-fit="cover"
         id="header-image"
         style="max-width: 100%; max-height: 100%;"/> -->
         <picture class="flex justify-center">
             <source
-                data-srcset="{{.Params.collection_cover_mobile }}?nf_resize=fit&w=720"
+                data-srcset="{{.Params.collection_cover_mobile }}?width=720"
                 media="(orientation: portrait) and (max-width: 688px)" />
             <source
-                data-srcset="{{.Params.collection_cover_mobile }}?nf_resize=fit&w=1040"
+                data-srcset="{{.Params.collection_cover_mobile }}?width=1040"
                 media="(orientation: portrait) and (max-width: 1024px)" />
             <source
-                data-srcset="{{.Params.collection_cover }}?nf_resize=fit&w=1040"
+                data-srcset="{{.Params.collection_cover }}?width=1040"
                 media="(max-width: 1024px)" />
             <source
-                data-srcset="{{.Params.collection_cover }}?nf_resize=fit&w=1500"
+                data-srcset="{{.Params.collection_cover }}?width=1500"
                 media="(max-width: 1440px)"  />
                 <source
-                data-srcset="{{.Params.collection_cover }}?nf_resize=fit&w=2560"
+                data-srcset="{{.Params.collection_cover }}?width=2560"
                 media="(max-width: 2560px)"  />
             <img
                 id="header-image"
