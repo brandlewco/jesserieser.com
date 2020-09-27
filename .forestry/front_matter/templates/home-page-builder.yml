@@ -55,6 +55,9 @@ fields:
     schema:
       format: markdown
   description: Used for the top of the collection, and google meta data. (300 characters)
+- name: px_extra
+  type: boolean
+  label: Extra Padding on Descriptions On Large Screens
 - name: row_alignment
   type: select
   default: between
