@@ -506,7 +506,8 @@ function init() {
 
     // launch modal function
     function launchModal() {
-      window.location.hash = "blog-" + popupTrigger;
+      // window.location.hash = "blog-" + popupTrigger;
+      history.replaceState("", "", "#blog-" + popupTrigger);
       disablePageScroll(popupModal);
       if (popupList) {
         disablePageScroll(popupList);
