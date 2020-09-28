@@ -1,5 +1,5 @@
 <article class="block-hover sm:meta-hover relative self-start {{with .Section.align_y}}sm:self-{{.}}{{end}} w-full {{with .Section.width}}sm:w-{{.}}/100{{end}} py-4 sm:py-0 mt-0 {{with .Section.margin_y}}sm:mt-{{.}}{{end}} ml-0 {{with .Section.margin_left}}sm:ml-{{.}}{{end}} mr-0 {{with .Section.margin_right}}sm:mr-{{.}}{{end}} highlight rellax-wrapper">
-  <button type="button" class="popup-trigger flex flex-col relative w-full" data-popup-trigger="{{.Section.title | lower}}">
+  <button type="button" id="{{.Section.title | lower | urlize}}" class="popup-trigger flex flex-col relative w-full" data-popup-trigger="{{.Section.title | lower}}">
   <figure class="figure relative" style="background: {{with .Section.color}}{{.}}{{else}}{{.Page.Params.theme_color}}{{end}};" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" data-sal="image">
         <img class="lazyload" src="{{ .Section.image }}?height=1080" data-srcset="{{ .Section.image }}?height=1080" alt="{{ .Section.caption | htmlUnescape }}"/>
     {{ if .Section.title }}
@@ -16,7 +16,7 @@
   </button>
 </article>
 
-<div class="popup-modal fixed z-999 text-white flex flex-col overflow-y-hidden h-full w-full inset-0 " style="visibility: hidden; opacity: 0; {{with .Section.modal_color }}background: {{.}};{{else}} background-color: #ccc;{{end}}" data-popup-modal="{{.Section.title | lower}}">
+<div id="popup-{{.Section.title | lower}}" class="popup-modal fixed z-999 text-white flex flex-col overflow-y-hidden h-full w-full inset-0 " style="visibility: hidden; opacity: 0; {{with .Section.modal_color }}background: {{.}};{{else}} background-color: #ccc;{{end}}" data-popup-modal="{{.Section.title | lower}}">
   <svg width="35" height="35" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class="hover icon pointer h-8 w-8 m-8 absolute top-0 right-0 text-white popup-modal__close z-999"><g fill="none" stroke="#fff"  stroke-miterlimit="10" stroke-width="10"><path d="m4.7 4.7 246.6 246.6"/><path d="m250.85 4.7-246.6 246.6"/></g></svg>
   <header class="fixed top-0 left-0 w-full flex flex-row justify-between pt-12 pb-4 px-2 sm:px-4" style="{{with .Section.modal_color }}background: {{.}};{{else}} background-color: #ccc;{{end}}">
     <div class="text-xl sm:text-2xl  font-medium mx-2 sm:mx-40 pb-4 w-full"  style="border-bottom: 2px solid #fff">{{ .Section.title }}</div>
