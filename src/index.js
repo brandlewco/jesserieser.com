@@ -506,8 +506,8 @@ function init() {
 
     // launch modal function
     function launchModal() {
-      // window.location.hash = "blog-" + popupTrigger;
-      history.replaceState("", "", "#blog-" + popupTrigger);
+      history.pushState("", document.title, window.location.pathname + "#" + popupTrigger);
+      // window.location.hash = popupTrigger;
       disablePageScroll(popupModal);
       if (popupList) {
         disablePageScroll(popupList);
@@ -539,7 +539,7 @@ function init() {
     // close modal function
     function closeModal() {
       // console.log(event);
-      history.replaceState(null, null, "");
+      history.pushState("", document.title, window.location.pathname + window.location.search);
       enablePageScroll(popupModal);
       if (popupList) {
         enablePageScroll(popupList);
@@ -583,8 +583,8 @@ function init() {
   if (window.location.hash) {
     var locHash = window.location.hash;
     var locPop = locHash.substring(1);
-    var locSlide = locPop.slice(5);
-    var locButton = document.getElementById(locSlide);
+    // var locSlide = locPop.slice(5);
+    var locButton = document.getElementById(locPop);
     // var topButton = document.getElementById(locPop).documentOffsetTop() - (window.innerHeight / 2);
     if (locButton) {
       locButton.scrollIntoView();
