@@ -305,7 +305,7 @@ imagesLoaded(grid, function() {
       catToggle.classList.remove("active");
       catToggle.classList.add("is-checked");
       categories.classList.remove("opened");
-    };
+    }
 
 
     const filterError = document.getElementById("filter-error");
