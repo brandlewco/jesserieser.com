@@ -301,7 +301,7 @@ imagesLoaded(grid, function() {
     });
 
     const windowHeight = window.innerHeight;
-    if (windowHeight < 600) {
+    if (windowHeight < 700) {
       catToggle.classList.remove("active");
       catToggle.classList.add("is-checked");
       categories.classList.remove("opened");
