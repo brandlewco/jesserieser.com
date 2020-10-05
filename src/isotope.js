@@ -300,6 +300,14 @@ imagesLoaded(grid, function() {
       }
     });
 
+    const windowHeight = window.innerHeight;
+    if (windowHeight < 600) {
+      catToggle.classList.remove("active");
+      catToggle.classList.add("is-checked");
+      categories.classList.remove("opened");
+    };
+
+
     const filterError = document.getElementById("filter-error");
     const filterArchive = document.getElementById("filter-archive");
 

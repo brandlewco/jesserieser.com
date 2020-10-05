@@ -3,12 +3,12 @@
     {{if (eq .Section.background_image_toggle true) }}
       <figure class="flex flex-col sm:flex-row md:relative md:flex-none flex-row-reverse">
         <img class="relative sm:absolute z-0 lazyload {{with .Section.parallax}}rellax rellax-off{{end}}" src="{{ .Section.image }}?width=1024" data-src="{{ .Section.image  }}" alt="{{ .Section.caption }}" {{with .Section.parallax}}data-rellax-speed="2" data-rellax-xs-speed="1"{{end}} style="{{with .Section.image_css | safeCSS }}{{.}}{{end}}; top: 15%;"/>
-        <figcaption class="z-10 mt-8 sm:mt-32 w-full sm:w-115 ml-0 sm:ml-neg break-words leading-tight text-lg {{with .Section.text_size }}md:text-{{.}}{{end}} {{with .Section.text_tracking}}tracking-{{.}}{{end}} {{with .Section.background_color}} p-4{{end}}" style="{{with .Section.text_color}}color:{{.}}; {{end}}{{with .Section.background_color}}background-color:{{.}}; {{end}}{{with .Section.caption_css | safeCSS}}{{.}}{{end}}">
+        <figcaption class="z-10 mt-8 sm:mt-32 w-full sm:w-115 ml-0 sm:ml-neg break-words leading-tight text-lg {{with .Section.text_size }}md:text-{{.}}{{end}} {{with .Section.text_tracking}}tracking-{{.}}{{end}} {{with .Section.background_color}} p-4{{end}}" style="{{with .Section.text_color}}color:{{.}}; {{end}}{{with .Section.background_color}}background-color:{{.}}; {{end}}{{with .Section.caption_css | safeCSS}}{{.}}{{end}} whitespace-no-wrap">
           {{ .Section.text | markdownify }}
         </figcaption>
       </figure>
       {{else}}
-      <h1 class="relative break-words {{with .Section.font_weight }}font-{{.}} {{end}} text-sm {{with .Section.text_size }}md:text-{{.}} {{end}}{{with .Section.text_tracking}}tracking-{{.}} {{end}}{{with .Section.text_alignment }}text-{{.}} {{end}}{{with .Section.parallax}}rellax rellax-off{{end}} {{with .Section.background_color}}p-4 sm:pt-16 sm:pl-20 sm:pr-16 sm:pb-16 {{end}} leading-tight" {{with .Section.parallax}}data-rellax-speed="4" data-rellax-xs-speed="1"{{end}} style="{{with .Section.text_color}}color:{{.}}; {{end}}{{with .Section.background_color}}background-color:{{.}};{{end}} {{with .Section.caption_css | safeCSS}}{{.}}{{end}}">
+      <h1 class="relative break-words {{with .Section.font_weight }}font-{{.}} {{end}} text-4xl {{with .Section.text_size }}md:text-{{.}} {{end}}{{with .Section.text_tracking}}tracking-{{.}} {{end}}{{with .Section.text_alignment }}text-{{.}} {{end}}{{with .Section.parallax}}rellax rellax-off{{end}} {{with .Section.background_color}}p-4 sm:pt-16 pl-0 sm:pl-20 pr-0 sm:pr-16 sm:pb-16 {{end}} leading-tight whitespace-no-wrap" {{with .Section.parallax}}data-rellax-speed="4" data-rellax-xs-speed="1"{{end}} style="{{with .Section.text_color}}color:{{.}}; {{end}}{{with .Section.background_color}}background-color:{{.}};{{end}} {{with .Section.caption_css | safeCSS}}{{.}}{{end}}">
         {{ .Section.text | markdownify }}
       </h1>
       {{end}}
