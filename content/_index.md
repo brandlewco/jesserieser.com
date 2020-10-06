@@ -501,34 +501,6 @@ page_sections:
   color: "#C5C458"
   block_aspect_ratio: 11x8.5
   text_size: ''
-- template: block-media-row
-  block: media-row
-  row_alignment: between
-- template: block-media-row
-  block: media-row
-  row_alignment: between
-- template: block-media-feature
-  block: media-feature
-  width: '40'
-  align_y: start
-  margin_y: '100'
-  margin_left: 0%
-  margin_right: 0%
-  title_margin_y: 35%
-  title_margin_left: 0%
-  title_margin_right: 0%
-  text_size: 6xl
-  line_height: normal
-  text_alignment: left
-  text_tracking: normal
-  meta_align: left
-  image: https://d1sf55qlb7p6hz.cloudfront.net/_MG_4004.jpg
-  font_weight: normal
-  title: A Vanishing American Folklore
-  meta: Coming Soon
-  color: ''
-  attached_collection: ''
-  text_color: ''
 home_theme_color: "#EDDDDE"
 collection_description: ''
 collection_content: ''
