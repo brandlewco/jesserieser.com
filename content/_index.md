@@ -501,12 +501,6 @@ page_sections:
   color: "#C5C458"
   block_aspect_ratio: 11x8.5
   text_size: ''
-- template: block-media-row
-  block: media-row
-  row_alignment: between
-- template: block-media-row
-  block: media-row
-  row_alignment: between
 home_theme_color: "#EDDDDE"
 collection_description: ''
 collection_content: ''
@@ -533,6 +527,7 @@ selected_works_theme:
   image: https://d1sf55qlb7p6hz.cloudfront.net/selected_featured-3.jpg
   theme_color: "#FF6766"
   image_mobile: https://d1sf55qlb7p6hz.cloudfront.net/vertical_featuredworks-3.jpg
+px_extra: false
 
 ---
 ## Click the collections link above to preview collections.
