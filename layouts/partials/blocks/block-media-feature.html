@@ -19,7 +19,7 @@
         {{ .Section.image }}?width=900 900w,
         {{ .Section.image }}?width=1200 1200w"
         alt="{{ .Section.caption | htmlUnescape }} - featured collection cover image"/>
-    {{with .Section.attached_collection}}
+    {{with .Site.GetPage .Section.attached_collection}}
       </a>
     {{end}}
     {{ if .Section.title }}

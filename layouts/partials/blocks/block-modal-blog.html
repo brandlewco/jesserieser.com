@@ -1,6 +1,7 @@
 {{ $key := .Site.GetPage .Section.attached_blog }}
 <section class="figure block-hover lg:meta-hover {{with $key.Params.blog_block_cover }}figure-blog-cover{{else}}figure-blog-text{{end}} block-hover self-start {{with .Section.align_y}}sm:self-{{.}}{{end}} w-full {{with .Section.width}}sm:w-{{.}}/100{{end}} py-4 sm:py-0 mt-0 {{with .Section.margin_y}}sm:mt-{{.}}{{end}} ml-0 {{with .Section.margin_left}}sm:ml-{{.}}{{end}} mr-0 {{with .Section.margin_right}}sm:mr-{{.}}{{end}} highlight rellax-wrapper">
-  <button type="button" id="blog-{{$key.Params.title | lower | urlize}}" class="popup-trigger relative w-full flex flex-col h-auto sm:h-0 justify-between items-start items-center overflow-hidden {{with $key.Params.block_aspect_ratio }}{{.}}{{else}}sm:aspect-ratio-4/3{{end}} rellax" data-blog-id="{{.id}}" data-rellax-speed="2" data-rellax-xs-speed="0" style="background-color: {{$key.Params.theme_color}}" data-popup-trigger="blog-{{$key.Params.title | lower | urlize}}" name="View Blog - {{$key.Params.title}} - Jesse Rieser">
+  <div class="rellax"  data-rellax-speed="2" data-rellax-xs-speed="0" >
+  <button type="button" id="blog-{{$key.Params.title | lower | urlize}}" class="popup-trigger relative w-full flex flex-col h-auto sm:h-0 justify-between items-start items-center overflow-hidden {{with $key.Params.block_aspect_ratio }}{{.}}{{else}}sm:aspect-ratio-4/3{{end}}" data-blog-id="{{.id}}" style="background-color: {{$key.Params.theme_color}}" data-popup-trigger="blog-{{$key.Params.title | lower | urlize}}" name="View Blog - {{$key.Params.title}} - Jesse Rieser">
     {{with $key.Params.blog_block_cover }}
       <img 
       data-sizes="auto"
@@ -18,6 +19,7 @@
     </div>
   </button>
   <h6 class="mb-0 ml-0 text-black font-normal text-xs sm:text-base tracking-widest leading-tight mt-1 sm:mt-0" data-sal="slide-down" data-sal-delay="600">{{range $key.Params.news_category}}{{. | replaceRE "[\\W]" ""}} {{end}}</h6>
+  </div>
 </section>
 
 <article id="popup-{{$key.Params.title | lower | urlize}}" class="popup-modal scrollbar block fixed z-999 text-black bg-white overflow-y-scroll overflow-x-hidden h-full w-full inset-0" data-popup-modal="blog-{{$key.Params.title | lower | urlize}}" style="visibility: hidden; opacity: 0;" role="dialog" aria-modal="true">
