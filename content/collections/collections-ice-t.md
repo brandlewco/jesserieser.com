@@ -1,17 +1,20 @@
 +++
 collection_archive = false
+collection_awards = []
 collection_category = ["Studio", "Editorial", "Black and White", "Portraits"]
 collection_content = ""
 collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/ice-7.jpg"
 collection_cover_mobile = "https://d1sf55qlb7p6hz.cloudfront.net/verticalcovers-44.jpg"
 collection_description = "Ice T featured in Zeit's reoccurring celebrity column \"Ich Habe Einen Traum” where the subject shares their dreams, hopes, visions, and nightmares."
+collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_hidden = false
 collection_meta = "Ice T Ich Habe Einen Traum"
+collection_press = []
 collection_preview = ["https://d1sf55qlb7p6hz.cloudfront.net/icet-zeit_covers-1.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/icet-zeit_covers-4.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/icet-zeit_covers-3.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/icet-zeit_covers-2.jpg"]
 cover_image = "https://d1sf55qlb7p6hz.cloudfront.net/ice-1.jpg"
 date = ""
-hide_footer = false
+hide_footer = true
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
@@ -20,12 +23,6 @@ slug = "collections/ice-t"
 theme_color = "#B8EEBC"
 theme_color_all_works = "#E69DFB"
 title = "ZeitMagazin"
-[[collection_awards]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-template = "popup-text-element"
-[[collection_exhibition]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-template = "popup-text-element"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
@@ -110,8 +107,5 @@ margin_right = ""
 margin_y = "100"
 template = "block-media-element"
 width = "55"
-[[collection_press]]
-content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-template = "popup-text-element"
 
 +++
