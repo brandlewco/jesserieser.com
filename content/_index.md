@@ -437,10 +437,10 @@ page_sections:
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/phoenix-a-dystopian-legoland-that-tastes-like-candy.md
-  width: '30'
+  width: '25'
   align_y: start
   margin_y: '100'
-  margin_left: 10%
+  margin_left: 35%
   margin_right: 0%
   title: AP 35
   color: "#F0B7B7"
