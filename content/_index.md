@@ -334,13 +334,13 @@ page_sections:
   row_alignment: ''
 - template: block-media-feature
   block: media-feature
-  width: '33'
+  width: '45'
   align_y: start
   margin_y: '100'
   margin_left: 10%
   margin_right: 0%
-  title_margin_y: 35%
-  title_margin_left: 0%
+  title_margin_y: 45%
+  title_margin_left: 5%
   title_margin_right: 0%
   text_size: 6xl
   line_height: none
@@ -353,7 +353,7 @@ page_sections:
   meta: Ice T Ich Habe Einen Traum
   title: ZeitMagazin
   attached_collection: ''
-  text_color: ''
+  text_color: "#FFFFFF"
 - template: block-media-row
   block: media-row
   row_alignment: ''
