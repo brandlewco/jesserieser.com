@@ -383,12 +383,12 @@ page_sections:
   row_alignment: ''
 - template: block-media-feature
   block: media-feature
-  width: '55'
+  width: '50'
   align_y: start
   margin_y: '100'
-  margin_left: 30%
+  margin_left: 25%
   margin_right: 0%
-  title_margin_left: "-15%"
+  title_margin_left: 5%
   title_margin_right: 0%
   meta_align: left
   meta: 'Society Magazine (France) '
@@ -405,7 +405,7 @@ page_sections:
   text_tracking: normal
   font_weight: normal
   line_height: none
-  title_margin_y: 10%
+  title_margin_y: 15%
 - template: block-media-row
   block: media-row
   row_alignment: between
