@@ -411,13 +411,13 @@ page_sections:
   row_alignment: between
 - template: block-media-feature
   block: media-feature
-  width: '40'
+  width: '33'
   align_y: start
   margin_y: '100'
-  margin_left: 30%
+  margin_left: 10%
   margin_right: 0%
   title_margin_y: 10%
-  title_margin_left: 20%
+  title_margin_left: 5%
   title_margin_right: 0%
   text_size: 6xl
   line_height: none
