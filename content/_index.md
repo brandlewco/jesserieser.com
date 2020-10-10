@@ -354,9 +354,6 @@ page_sections:
   title: ZeitMagazin
   attached_collection: ''
   text_color: "#FFFFFF"
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
 - template: block-media-feature
   block: media-feature
   width: '30'
@@ -364,16 +361,16 @@ page_sections:
   image: https://d1sf55qlb7p6hz.cloudfront.net/backpage-3.jpg
   title: 'Wired '
   color: "#b9a49e"
-  margin_y: '200'
+  margin_y: '700'
   attached_collection: collections/wired.md
   meta: Backpage.com Cover Story
   margin_x: ''
   align_y: ''
-  margin_left: 15%
-  margin_right: ''
+  margin_left: 0%
+  margin_right: 10%
   title_margin_left: 35%
   title_margin_right: ''
-  meta_align: left
+  meta_align: right
   text_color: ''
   text_size: 6xl
   text_alignment: left
@@ -381,6 +378,9 @@ page_sections:
   font_weight: normal
   line_height: none
   title_margin_y: 5%
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
 - template: block-media-feature
   block: media-feature
   width: '50'
