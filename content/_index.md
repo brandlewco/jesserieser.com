@@ -352,7 +352,7 @@ page_sections:
   color: "#BFBFBF"
   meta: Ice T Ich Habe Einen Traum
   title: ZeitMagazin
-  attached_collection: ''
+  attached_collection: collections/collections-ice-t.md
   text_color: "#FFFFFF"
 - template: block-media-feature
   block: media-feature
