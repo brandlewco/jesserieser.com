@@ -2,7 +2,7 @@
 collection_archive = false
 collection_category = ["Studio", "Editorial", "Black and White", "Portraits"]
 collection_content = ""
-collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/ice-1.jpg"
+collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/ice-7.jpg"
 collection_cover_mobile = "https://d1sf55qlb7p6hz.cloudfront.net/verticalcovers-44.jpg"
 collection_description = "Ice T featured in Zeit's reoccurring celebrity column \"Ich Habe Einen Traum” where the subject shares their dreams, hopes, visions, and nightmares."
 collection_filter = "Commissioned + Stock"
@@ -31,7 +31,7 @@ align_x = "start"
 block = "media-element"
 color = "#D4D4D4"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/ice-1.jpg"
-margin_left = "30%"
+margin_left = "10%"
 margin_right = ""
 margin_y = "100"
 template = "block-media-element"
