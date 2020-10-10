@@ -334,6 +334,31 @@ page_sections:
   row_alignment: ''
 - template: block-media-feature
   block: media-feature
+  width: '33'
+  align_y: start
+  margin_y: '100'
+  margin_left: 10%
+  margin_right: 0%
+  title_margin_y: 35%
+  title_margin_left: 0%
+  title_margin_right: 0%
+  text_size: 6xl
+  line_height: none
+  text_alignment: left
+  text_tracking: normal
+  font_weight: normal
+  meta_align: left
+  image: https://d1sf55qlb7p6hz.cloudfront.net/ice-1.jpg
+  color: "#BFBFBF"
+  meta: Ice T Ich Habe Einen Traum
+  title: ZeitMagazin
+  attached_collection: ''
+  text_color: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
+- template: block-media-feature
+  block: media-feature
   width: '30'
   align_x: start
   image: https://d1sf55qlb7p6hz.cloudfront.net/backpage-3.jpg
@@ -383,7 +408,7 @@ page_sections:
   title_margin_y: 10%
 - template: block-media-row
   block: media-row
-  row_alignment: ''
+  row_alignment: between
 - template: block-media-feature
   block: media-feature
   width: '40'
