@@ -18,3 +18,8 @@
   from = "/posts/*"
   to = "/#blog-:splat"
   status = 301
+
+  [[redirects]]
+  from = "/portfolio"
+  to = "/collections/"
+  status = 301
