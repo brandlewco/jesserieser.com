@@ -2,7 +2,7 @@
 collection_archive = false
 collection_category = ["Still Life + Details", "Advertising", "Reportage", "Black and White", "Sports + Athletes", "Still Life + Details", "Environments", "Portraits"]
 collection_content = ""
-collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/adicross-12.jpg"
+collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/wk-fisherprice-11.jpg"
 collection_cover_mobile = "https://d1sf55qlb7p6hz.cloudfront.net/verticalcovers-8.jpg"
 collection_description = "Adicross is a marriage of Adidas street wear and golf attire and in their words “Always On Because The Game Never Stops.” Due to the narrative quality in my work, I was asked to tell each golfer’s “Monday - Wednesday” story on and off the course.\n\nThe campaign features the [#1](https://www.instagram.com/explore/tags/1/) ranked player in the world Dustin Johnson, rising star Xander Schauffele (he became the first ever rookie to win the tour championship in 2017) and long time tour favorite and 2017 Masters Champion, Sergio Garcia."
 collection_filter = "Commissioned + Stock"
@@ -17,10 +17,10 @@ layout = "blocks"
 logo = ""
 navigation_theme = "white"
 px_extra = true
-slug = "collections/adidas-golf-adicross"
+slug = "collections/fisher-price"
 theme_color = "#B8EEBC"
 theme_color_all_works = "#E69DFB"
-title = "collections/fisher-price"
+title = "Fisher Price"
 [[collection_awards]]
 content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
 template = "popup-text-element"
