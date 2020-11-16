@@ -32,6 +32,10 @@ fields:
   name: color
   description: Player Control / Titles Color (defaults to page theme color if not
     set)
+- name: show_controls
+  type: boolean
+  label: Show Controls
+  description: show vimeo controls
 - type: select
   name: width
   config:
