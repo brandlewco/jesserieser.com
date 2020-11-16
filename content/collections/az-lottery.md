@@ -56,6 +56,7 @@ block = "media-motion"
 caption = "Lottery Promo"
 color = "#CFE7DF"
 margin_y = "100"
+show_controls = true
 template = "block-media-motion"
 vimeo_id = 216270338
 width = "66"
