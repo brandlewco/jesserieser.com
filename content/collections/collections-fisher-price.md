@@ -18,7 +18,7 @@ logo = ""
 navigation_theme = "white"
 px_extra = true
 slug = "collections/fisher-price"
-theme_color = "#8ECFE8"
+theme_color = "#E0AADC"
 theme_color_all_works = "#FFE27A"
 title = "Fisher Price: Play is a Place "
 [[collection_awards]]
