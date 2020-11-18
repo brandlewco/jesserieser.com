@@ -2,7 +2,7 @@
 collection_archive = false
 collection_category = ["Still Life + Details", "Advertising", "Reportage", "Black and White", "Sports + Athletes", "Still Life + Details", "Environments", "Portraits"]
 collection_content = ""
-collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/wk-fisherprice-11.jpg"
+collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/wk_fisher-horizontalthumbs-1.jpg"
 collection_cover_mobile = "https://d1sf55qlb7p6hz.cloudfront.net/verticalcovers-47.jpg"
 collection_description = "John Goodman as the classic Fisher Price farmer for Wieden Kennedy. Sometimes great projects are executed but never seen to completion. \n\nScroll for scenes around set and the Ringan Ledwidge directed :60. You will also find the additional component of the commission where I capture classic fisher price toys juxtaposed around set and the Universal Studio Lot. "
 collection_description_alignment = "center"
@@ -18,7 +18,7 @@ logo = ""
 navigation_theme = "white"
 px_extra = true
 slug = "collections/fisher-price"
-theme_color = "#B8EEBC"
+theme_color = "#FF9D55"
 theme_color_all_works = "#E69DFB"
 title = "Fisher Price: Play is a Place "
 [[collection_awards]]
@@ -30,7 +30,7 @@ template = "popup-text-element"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-color = "#D4D4D4"
+color = "#D3CAF2"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/wk-fisherprice-1.jpg"
 margin_left = "35%"
 margin_right = ""
