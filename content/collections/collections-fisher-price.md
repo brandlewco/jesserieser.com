@@ -19,7 +19,7 @@ navigation_theme = "white"
 px_extra = true
 slug = "collections/fisher-price"
 theme_color = "#8ECFE8"
-theme_color_all_works = "#E69DFB"
+theme_color_all_works = "#FFE27A"
 title = "Fisher Price: Play is a Place "
 [[collection_awards]]
 content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
