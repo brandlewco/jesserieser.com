@@ -155,7 +155,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-color = "#F5C0AF"
+color = "#F5BBAF"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/wk-fisherprice-13.jpg"
 margin_left = "20%"
 margin_right = ""
