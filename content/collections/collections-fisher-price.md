@@ -1,6 +1,6 @@
 +++
 collection_archive = false
-collection_category = ["Still Life + Details", "Advertising", "Reportage", "Black and White", "Sports + Athletes", "Still Life + Details", "Environments", "Portraits"]
+collection_category = ["Still Life + Details", "Advertising", "Reportage", "Still Life + Details", "Environments", "Portraits"]
 collection_content = ""
 collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/wk_fisher-horizontalthumbs-1.jpg"
 collection_cover_mobile = "https://d1sf55qlb7p6hz.cloudfront.net/verticalcovers-47.jpg"
@@ -9,7 +9,7 @@ collection_description_alignment = "center"
 collection_filter = "Commissioned + Stock"
 collection_hidden = false
 collection_meta = "Featuring John Goodman for Wieden Kennedy Portland "
-collection_preview = ["https://d1sf55qlb7p6hz.cloudfront.net/wk_fisher-horizontalthumbs-5.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/wk_fisher-horizontalthumbs-1.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/wk_fisher-horizontalthumbs-3.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/wk_fisher-horizontalthumbs-2.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/wk_fisher-horizontalthumbs-4.jpg"]
+collection_preview = ["https://d1sf55qlb7p6hz.cloudfront.net/wk_fisher-horizontalthumbs-1.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/wk_fisher-horizontalthumbs-3.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/wk_fisher-horizontalthumbs-5.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/wk_fisher-horizontalthumbs-2.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/wk_fisher-horizontalthumbs-4.jpg"]
 cover_image = "https://d1sf55qlb7p6hz.cloudfront.net/social-9.jpg"
 date = ""
 hide_footer = true
