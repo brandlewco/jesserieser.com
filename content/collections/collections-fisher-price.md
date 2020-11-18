@@ -40,7 +40,7 @@ width = "30"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
-color = "#4D4D4D"
+color = "#F2DECC"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/wk-fisherprice-2.jpg"
 margin_left = ""
 margin_right = "5%"
