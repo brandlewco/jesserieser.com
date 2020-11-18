@@ -326,6 +326,16 @@ margin_right = ""
 margin_y = "100"
 template = "block-media-element"
 width = "50"
+[[collection_layout_builder]]
+align_y = "start"
+block = "media-motion"
+margin_left = "0%"
+margin_right = "0%"
+margin_y = "50"
+show_controls = true
+template = "block-media-motion"
+vimeo_id = 480559052
+width = "33"
 [[collection_press]]
 content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
 template = "popup-text-element"
