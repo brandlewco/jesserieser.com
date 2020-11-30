@@ -1,128 +1,204 @@
 ---
 label: Shop
 hide_body: true
+display_field: slug
 fields:
 - type: text
-  name: attached_gallery
-  label: attached_gallery
-- type: boolean
-  name: collection_archive
-  label: collection_archive
-- type: list
-  name: collection_awards
-  label: collection_awards
-- type: list
-  name: collection_category
-  label: collection_category
+  name: layout
+  label: Layout
+  hidden: true
+  default: blocks
 - type: text
-  name: collection_content
-  label: collection_content
+  label: Title
+  name: title
+- name: slug
+  type: text
+  config:
+    required: true
+  label: Slug
+  description: the last part of the url<br>e.g. collections/work-title
+  default: ''
+- name: collection_meta
+  type: text
+  config:
+    required: false
+  label: Collection Meta
+  description: Project year, or one line description
+- name: collection_meta_2
+  type: text
+  config:
+    required: false
+  label: Collection Meta 2
+  description: secondary meta
 - type: file
   name: collection_cover
-  label: collection_cover
-- type: file
-  name: collection_cover_mobile
-  label: collection_cover_mobile
-- type: text
+  label: Cover Image
+- name: collection_cover_mobile
+  type: file
+  config:
+    maxSize: 64
+  label: Cover Image Mobile
+- type: color
+  name: theme_color
+  config:
+    color_format: Hex
+  label: Theme Color
+- type: color
+  name: theme_color_all_works
+  config:
+    color_format: Hex
+  label: Theme Color (All Works Highlight)
+- type: select
+  name: navigation_theme
+  config:
+    source:
+      type: simple
+    options:
+    - white
+    - black
+    required: true
+  label: Navigation Theme
+  default: white
+- type: textarea
   name: collection_description
-  label: collection_description
-- type: text
-  name: collection_description_alignment
-  label: collection_description_alignment
-- type: list
-  name: collection_exhibition
-  label: collection_exhibition
-- type: text
-  name: collection_filter
-  label: collection_filter
-- type: boolean
-  name: collection_hidden
-  label: collection_hidden
-- type: text
-  name: collection_meta
-  label: collection_meta
-- type: text
-  name: collection_meta_2
-  label: collection_meta_2
-- type: list
-  name: collection_press
-  label: collection_press
-- type: image_gallery
-  name: collection_preview
-  label: collection_preview
+  label: Collection Description
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+  description: Used for the collection header, and google meta data. (300 characters)
+- name: px_extra
+  type: boolean
+  label: Extra Padding on Descriptions On Large Screens
+- name: collection_description_alignment
+  type: select
+  default: left
+  config:
+    required: false
+    options:
+    - left
+    - center
+    - right
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Collection Description Alignment
+- name: row_alignment
+  type: select
+  default: between
+  config:
+    required: false
+    options:
+    - start
+    - center
+    - end
+    - between
+    - around
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: First Row Justification
+  description: start (left) / center (center) / end (right) / between (even space     between
+    media) / around (even space outside media)
+- name: collection_layout_builder
+  type: blocks
+  label: Layout Builder
+  template_types:
+  - block-media-element
+  - block-media-text
+  - block-media-motion
+  - block-media-row
+  config:
+    min: 
+    max: 
+- name: collection_filter
+  type: select
+  default: Personal
+  config:
+    required: false
+    options: []
+    source:
+      type: documents
+      section: collection-categories-b99848d2-f046-4ce8-b54c-5ae03cdbdc4b
+      file: data/categories/categories.toml
+      path: filter
+  label: Work Type
+- name: collection_category
+  type: list
+  config:
+    use_select: true
+    min: '1'
+    max: 
+    source:
+      type: documents
+      file: data/categories/categories.toml
+      path: categories
+      section: ''
+  label: Collection Category
+- name: collection_preview
+  type: image_gallery
+  config: {}
+  label: Collection Preview
+  description: Preview images used on all work page
 - type: file
   name: cover_image
-  label: cover_image
+  label: Social Media Card
+  description: This image is what appears in OpenGraph previews and image masks
+- type: textarea
+  name: collection_content
+  label: Collection Brief
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+  description: Project brief at footer of collection
+- name: collection_awards
+  type: blocks
+  label: Collection Awards
+  template_types:
+  - popup-text-element
+  config:
+    min: 
+    max: 
+- name: collection_exhibition
+  type: blocks
+  label: Collection Exhibition
+  template_types:
+  - popup-text-element
+  config:
+    min: 
+    max: 
+- name: collection_press
+  type: blocks
+  label: Collection Press
+  template_types:
+  - popup-text-element
+  config:
+    min: 
+    max: 
+- name: hide_footer
+  type: boolean
+  label: Hide Footer
+  description: hide footer / more button
+- name: collection_archive
+  type: boolean
+  label: Archive
+  description: Archive Collection to remove it from the flow of featured collections
 - type: datetime
   name: date
-  label: date
-- type: boolean
-  name: hide_footer
-  label: hide_footer
-- type: text
-  name: layout
-  label: layout
-- type: file
-  name: logo
-  label: logo
-- type: text
-  name: navigation_theme
-  label: navigation_theme
-- type: text
-  name: page
-  label: page
-- type: boolean
-  name: px_extra
-  label: px_extra
-- type: text
-  name: row_alignment
-  label: row_alignment
-- type: text
-  name: slug
-  label: slug
-- type: text
-  name: theme_color
-  label: theme_color
-- type: text
-  name: theme_color_all_works
-  label: theme_color_all_works
-- type: text
-  name: title
-  label: title
-- type: field_group_list
-  name: collection_layout_builder
-  label: collection_layout_builder
-  fields:
-  - type: text
-    name: align_x
-    label: align_x
-  - type: text
-    name: align_y
-    label: align_y
-  - type: text
-    name: block
-    label: block
-  - type: text
-    name: caption
-    label: caption
-  - type: text
-    name: color
-    label: color
-  - type: file
-    name: image
-    label: image
-  - type: text
-    name: margin_left
-    label: margin_left
-  - type: text
-    name: margin_right
-    label: margin_right
-  - type: text
-    name: margin_y
-    label: margin_y
-  - type: text
-    name: template
-    label: template
-  - type: text
-    name: width
-    label: width
+  label: Publish Date
+  hidden: true
+  default: now
+- name: collection_hidden
+  type: boolean
+  label: Hide Collection
+  description: Don't show this collection in the all works sorter, accessible only
+    through direct link.
+  hidden: true
+pages:
+- content/collections/smartwater.md
+- content/collections/xmas-in-america.md

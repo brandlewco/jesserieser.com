@@ -1,0 +1,57 @@
+{{- define "main" -}}
+<article id="filter-container" class="relative" style="transform: translate3d(0px, 0px, 0px); opacity: 0;">
+    {{partial "collection_sorter" .}}
+    <section class="overflow-x-hidden content mx-auto">
+        <!-- <div id="filter-loading" class="fixed mt-24" style="left: 50%; margin-left: -1rem;">
+            <svg id="filter-loading" class="text-4xl icon h-8 w-8 text-black spin">
+                <use xlink:href="#spinner"></use>
+            </svg>
+        </div>
+        <div id="filter-error" class="text-center text-xl font-semibold fixed inset-x-0 mt-24">
+            <h1>NO RESULTS.</h1>
+            <h2>TRY REMOVING SOME OF THE SELECTED CATEGORIES ABOVE.</h2>
+        </div> -->
+        <!-- {{ range (readDir "content/collections/") }}"/collections/{{ .Name }}", {{ end }} -->
+        <section id="filter" class="flex flex-wrap overflow-hidden filter-container z-10 mx-auto relative pl-0 sm:pl-5 md:pl-6" style="opacity: 0;">
+            {{ range .Site.Data.categories}}
+            {{ range .collection_sorter}}
+            {{ with $.Site.GetPage . }}
+                {{ if eq .Params.collection_archive false }}
+                    {{ partial "collection_sorter_item" . }}
+                {{ end }}
+            {{ end }}
+            {{ end }}
+            {{ end }}
+            <div id="filter-archive" class="filter-item w-screen filter-archive mt-20 {{range $.Site.Data.categories.categories.categories}}{{. | replaceRE "[\\W]" "" | lower}} {{end}} personal commissionedstock all active"  data-filter="{{range $.Site.Data.categories.categories.categories}}{{. | replaceRE "[\\W]" ""| lower}},{{end}},all,personal,commissionedstock">
+                <h1 class="pl-4 sm:pl-8 pt-14 pb-12 text-lg text-white font-bold">Archive</h1>
+            </div>
+            {{ range .Site.Data.categories}}
+            {{ range .collection_sorter}}
+            {{ with $.Site.GetPage . }}
+                {{ if eq .Params.collection_archive true }}
+                    {{ partial "collection_sorter_item" . }}
+                {{ end }}
+            {{ end }}
+            {{ end }}
+            {{ end }}
+        </section>
+        <a href="#filter-container" alt="back to top" class="bg-black" data-no-swup>
+            <div class="mx-auto w-full pt-16 text-center font-light bg-black pb-16 text-white">
+                <div class="text-5xl font-hairline flex flex-row justify-center" style="line-height: 0.4;">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="50" height="50" viewBox="0 0 256 150" style="transform: rotate(180deg);">
+                        <path d="M242.4 4.5L255.6 17.8 128 145.5 0.4 17.8 13.6 4.5 128 118.9z" style="fill: #fff" class="arrow-down"/>
+                    </svg>
+                </div>
+                <p class="text-md sm:text-xl font-light">Back to Top</p>
+            </div>
+        </a>
+    </section>
+</article>
+{{- end -}}
+
+<!-- {{- define "attached" -}}
+{{ $filter := .Site.Data.webpack.filter }}
+{{ with $filter.js }} -->
+<script src="{{ . | relURL }}" async></script>
+{{ end }}
+{{- end -}}
