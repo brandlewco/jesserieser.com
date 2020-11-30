@@ -19,6 +19,13 @@ sections:
   match: "**/*"
   templates:
   - collection-page-builder
+- type: directory
+  path: content/shop
+  label: Shop
+  create: all
+  match: "**/*"
+  templates:
+  - shop
 - type: heading
   label: CONTENT
 - type: directory
