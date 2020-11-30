@@ -1,0 +1,128 @@
+---
+label: Shop
+hide_body: true
+fields:
+- type: text
+  name: attached_gallery
+  label: attached_gallery
+- type: boolean
+  name: collection_archive
+  label: collection_archive
+- type: list
+  name: collection_awards
+  label: collection_awards
+- type: list
+  name: collection_category
+  label: collection_category
+- type: text
+  name: collection_content
+  label: collection_content
+- type: file
+  name: collection_cover
+  label: collection_cover
+- type: file
+  name: collection_cover_mobile
+  label: collection_cover_mobile
+- type: text
+  name: collection_description
+  label: collection_description
+- type: text
+  name: collection_description_alignment
+  label: collection_description_alignment
+- type: list
+  name: collection_exhibition
+  label: collection_exhibition
+- type: text
+  name: collection_filter
+  label: collection_filter
+- type: boolean
+  name: collection_hidden
+  label: collection_hidden
+- type: text
+  name: collection_meta
+  label: collection_meta
+- type: text
+  name: collection_meta_2
+  label: collection_meta_2
+- type: list
+  name: collection_press
+  label: collection_press
+- type: image_gallery
+  name: collection_preview
+  label: collection_preview
+- type: file
+  name: cover_image
+  label: cover_image
+- type: datetime
+  name: date
+  label: date
+- type: boolean
+  name: hide_footer
+  label: hide_footer
+- type: text
+  name: layout
+  label: layout
+- type: file
+  name: logo
+  label: logo
+- type: text
+  name: navigation_theme
+  label: navigation_theme
+- type: text
+  name: page
+  label: page
+- type: boolean
+  name: px_extra
+  label: px_extra
+- type: text
+  name: row_alignment
+  label: row_alignment
+- type: text
+  name: slug
+  label: slug
+- type: text
+  name: theme_color
+  label: theme_color
+- type: text
+  name: theme_color_all_works
+  label: theme_color_all_works
+- type: text
+  name: title
+  label: title
+- type: field_group_list
+  name: collection_layout_builder
+  label: collection_layout_builder
+  fields:
+  - type: text
+    name: align_x
+    label: align_x
+  - type: text
+    name: align_y
+    label: align_y
+  - type: text
+    name: block
+    label: block
+  - type: text
+    name: caption
+    label: caption
+  - type: text
+    name: color
+    label: color
+  - type: file
+    name: image
+    label: image
+  - type: text
+    name: margin_left
+    label: margin_left
+  - type: text
+    name: margin_right
+    label: margin_right
+  - type: text
+    name: margin_y
+    label: margin_y
+  - type: text
+    name: template
+    label: template
+  - type: text
+    name: width
+    label: width
