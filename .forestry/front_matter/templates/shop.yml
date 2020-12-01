@@ -11,6 +11,11 @@ fields:
 - type: text
   label: Title
   name: title
+- name: gumroad_id
+  type: text
+  config:
+    required: false
+  label: GumRoad ID
 - name: collection_meta
   type: text
   config:
