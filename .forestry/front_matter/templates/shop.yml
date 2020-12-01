@@ -9,8 +9,46 @@ fields:
   hidden: true
   default: blocks
 - type: text
-  label: Title
+  label: Item Title
   name: title
+- name: collection_meta
+  type: text
+  config:
+    required: false
+  label: Item Meta
+  description: Project year, or one line description
+- name: collection_meta_2
+  type: text
+  config:
+    required: false
+  label: Item Meta 2
+  description: secondary meta (optional)
+- name: price
+  type: number
+  label: Item Price
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: sale
+  type: boolean
+  label: On Sale
+- name: sale_discount
+  type: number
+  label: Discount Amount
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+  showOnly:
+    field: sale
+    value: true
 - name: gumroad_id
   type: text
   config:
@@ -21,18 +59,6 @@ fields:
   config: {}
   label: Collection Preview
   description: Preview images used on all work page
-- name: collection_meta
-  type: text
-  config:
-    required: false
-  label: Collection Meta
-  description: Project year, or one line description
-- name: collection_meta_2
-  type: text
-  config:
-    required: false
-  label: Collection Meta 2
-  description: secondary meta
 - type: color
   name: theme_color
   config:
