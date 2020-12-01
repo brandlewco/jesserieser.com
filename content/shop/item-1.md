@@ -11,6 +11,7 @@ collection_meta = "Dustin Johnson, Xander Schaufelle, & Sergio Garcia"
 collection_preview = ["https://d1sf55qlb7p6hz.cloudfront.net/adicross_Covers-1.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/adicross_Covers-2.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/adicross_Covers-3.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/adicross_Covers-4.jpg"]
 cover_image = "https://d1sf55qlb7p6hz.cloudfront.net/social-9.jpg"
 date = ""
+gumroad_id = "DGIbD"
 hide_footer = true
 layout = "blocks"
 logo = ""
