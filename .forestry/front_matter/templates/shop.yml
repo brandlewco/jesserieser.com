@@ -36,9 +36,9 @@ fields:
 - name: sale
   type: boolean
   label: On Sale
-- name: sale_discount
+- name: sale_price
   type: number
-  label: Discount Amount
+  label: Sale Price
   description: ''
   default: 0
   required: true
