@@ -16,6 +16,11 @@ fields:
   config:
     required: false
   label: GumRoad ID
+- name: collection_preview
+  type: image_gallery
+  config: {}
+  label: Collection Preview
+  description: Preview images used on all work page
 - name: collection_meta
   type: text
   config:
@@ -38,14 +43,6 @@ fields:
   config:
     color_format: Hex
   label: Theme Color (All Works Highlight)
-- type: textarea
-  name: collection_description
-  label: Collection Description
-  config:
-    wysiwyg: true
-    schema:
-      format: markdown
-  description: Used for the collection header, and google meta data. (300 characters)
 - name: collection_category
   type: list
   config:
@@ -58,11 +55,6 @@ fields:
       path: categories
       section: ''
   label: Collection Category
-- name: collection_preview
-  type: image_gallery
-  config: {}
-  label: Collection Preview
-  description: Preview images used on all work page
 - type: datetime
   name: date
   label: Publish Date
