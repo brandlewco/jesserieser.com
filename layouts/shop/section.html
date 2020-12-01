@@ -1,8 +1,8 @@
 {{- define "main" -}}
 <article id="filter-container" class="relative" style="transform: translate3d(0px, 0px, 0px); opacity: 0;">
-    {{partial "collection_sorter" .}}
+    <div class="hidden">{{partial "collection_sorter" .}}</div>
     <section class="overflow-x-hidden content mx-auto">
-        <!-- <div id="filter-loading" class="fixed mt-24" style="left: 50%; margin-left: -1rem;">
+        <div id="filter-loading" class="fixed mt-24" style="left: 50%; margin-left: -1rem;">
             <svg id="filter-loading" class="text-4xl icon h-8 w-8 text-black spin">
                 <use xlink:href="#spinner"></use>
             </svg>
@@ -10,29 +10,10 @@
         <div id="filter-error" class="text-center text-xl font-semibold fixed inset-x-0 mt-24">
             <h1>NO RESULTS.</h1>
             <h2>TRY REMOVING SOME OF THE SELECTED CATEGORIES ABOVE.</h2>
-        </div> -->
-        <!-- {{ range (readDir "content/collections/") }}"/collections/{{ .Name }}", {{ end }} -->
+        </div>
         <section id="filter" class="flex flex-wrap overflow-hidden filter-container z-10 mx-auto relative pl-0 sm:pl-5 md:pl-6" style="opacity: 0;">
-            {{ range .Site.Data.categories}}
-            {{ range .collection_sorter}}
-            {{ with $.Site.GetPage . }}
-                {{ if eq .Params.collection_archive false }}
-                    {{ partial "collection_sorter_item" . }}
-                {{ end }}
-            {{ end }}
-            {{ end }}
-            {{ end }}
-            <div id="filter-archive" class="filter-item w-screen filter-archive mt-20 {{range $.Site.Data.categories.categories.categories}}{{. | replaceRE "[\\W]" "" | lower}} {{end}} personal commissionedstock all active"  data-filter="{{range $.Site.Data.categories.categories.categories}}{{. | replaceRE "[\\W]" ""| lower}},{{end}},all,personal,commissionedstock">
-                <h1 class="pl-4 sm:pl-8 pt-14 pb-12 text-lg text-white font-bold">Archive</h1>
-            </div>
-            {{ range .Site.Data.categories}}
-            {{ range .collection_sorter}}
-            {{ with $.Site.GetPage . }}
-                {{ if eq .Params.collection_archive true }}
-                    {{ partial "collection_sorter_item" . }}
-                {{ end }}
-            {{ end }}
-            {{ end }}
+            {{ range .Paginator.Pages }}
+                {{ partial "collection_shop_item" .}}
             {{ end }}
         </section>
         <a href="#filter-container" alt="back to top" class="bg-black" data-no-swup>
@@ -49,9 +30,10 @@
 </article>
 {{- end -}}
 
-<!-- {{- define "attached" -}}
+
+{{- define "attached" -}}
 {{ $filter := .Site.Data.webpack.filter }}
-{{ with $filter.js }} -->
+{{ with $filter.js }}
 <script src="{{ . | relURL }}" async></script>
 {{ end }}
 {{- end -}}
