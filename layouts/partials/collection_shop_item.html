@@ -1,5 +1,5 @@
 <figure class="filter-item h-auto py-4 pr-4 sm:pr-0 pl-4 lg:w-grid-four sm:w-grid-three w-full overflow-hidden all active" data-theme="{{with .Params.theme_color_all_works}}{{.}}{{else}}{{.Params.theme_color}}{{end}}">
-    <a href="#">
+    <a href="{{with .Params.gumroad_id}} https://gum.co/{{.}}?wanted=true{{else}}#{{end}}" style="text-decoration: none;" data-no-swup> 
         {{if .Params.collection_preview }}
         <div class="collection-preview relative lazyload" style="padding-top:75%; background-color:{{.Params.theme_color}};">
         {{else}}
@@ -21,16 +21,13 @@
 
         </div>
         
-        {{ if eq .Params.collection_archive true }}
-        <figcaption class="text-white bg-black text-base">
-        {{else}}
+
         <figcaption class="flex flex-col text-black text-base">
-        {{end}}
-        <div class="flex flex-row justify-between w-full">
-            <h1 class="font-medium italic block pt-1 tracking-wide leading-tight">{{.Title}}</h1>
-            <h2>$59.99</h2>
+        <div class="flex flex-row justify-between items-center w-full pt-1">
+            <h1 class="font-medium italic block tracking-wide leading-tight">{{.Title}}</h1>
+            <h3 class="text-xl font-bold tracking-wide leading-tight flex flex-row items-center"><span class="{{if eq .Params.sale true}}line-through text-base font-normal{{end}}">${{.Params.price}}</span>{{if eq .Params.sale true}}<span>&nbsp;${{.Params.sale_price}}</span>{{end}}</h3>
         </div>
-        <h3 class="font-normal block text-xs pt-1 tracking-widest leading-tight">{{.Params.collection_meta}} {{with .Params.collection_meta_2}} - {{.}}{{end}}</h3>
+        <h2 class="font-normal block text-xs pt-1 tracking-widest leading-tight">{{.Params.collection_meta}} {{with .Params.collection_meta_2}} - {{.}}{{end}}</h2>
         </figcaption>
     </a>
 </figure>

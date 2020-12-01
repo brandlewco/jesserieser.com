@@ -16,7 +16,7 @@
                 {{ partial "collection_shop_item" .}}
             {{ end }}
         </section>
-        <a href="#filter-container" alt="back to top" class="bg-black" data-no-swup>
+        <!-- <a href="#filter-container" alt="back to top" class="bg-black" data-no-swup>
             <div class="mx-auto w-full pt-16 text-center font-light bg-black pb-16 text-white">
                 <div class="text-5xl font-hairline flex flex-row justify-center" style="line-height: 0.4;">
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="50" height="50" viewBox="0 0 256 150" style="transform: rotate(180deg);">
@@ -25,7 +25,7 @@
                 </div>
                 <p class="text-md sm:text-xl font-light">Back to Top</p>
             </div>
-        </a>
+        </a> -->
     </section>
 </article>
 {{- end -}}
@@ -35,5 +35,6 @@
 {{ $filter := .Site.Data.webpack.filter }}
 {{ with $filter.js }}
 <script src="{{ . | relURL }}" async></script>
+<script src="https://gumroad.com/js/gumroad.js"></script>
 {{ end }}
 {{- end -}}
