@@ -13,6 +13,7 @@ const filterContainer = document.getElementById("filters");
 const filterContainerHeight = filterContainer.clientHeight;
 const filter = document.getElementById("filter");
 const filterLoading = document.getElementById("filter-loading");
+const gumroadContainer = document.querySelector(".gumroad-scroll-container");
 
 function filterCalc() {
   filterWrapper.style.top = navigationHeight + "px";
