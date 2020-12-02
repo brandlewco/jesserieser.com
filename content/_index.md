@@ -3,24 +3,12 @@ layout: blocks
 title: Jesse Rieser
 date: 2017-11-01T23:00:00.000+00:00
 page_sections:
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/sunset-spot.md
-  block_aspect_ratio: []
-  text_size: 2xl
-  width: '33'
-  align_y: start
-  margin_y: '50'
-  margin_left: 0%
-  margin_right: 0%
-  title: Sunset Spot
-  color: "#F9EB49"
 - template: block-media-feature
   block: media-feature
   width: '40'
   align_y: start
   margin_y: '100'
-  margin_left: 10%
+  margin_left: 5%
   margin_right: 0%
   title_margin_left: 5%
   title_margin_right: 0%
@@ -39,16 +27,16 @@ page_sections:
   text_color: "#FFFFFF"
 - template: block-modal-blog
   block: modal-blog
-  attached_blog: posts/klompching-gallery-fresh.md
+  attached_blog: posts/sunset-spot.md
   block_aspect_ratio: []
   text_size: base
-  width: '20'
+  width: '25'
   align_y: start
-  margin_y: '700'
+  margin_y: '1000'
   margin_left: 0%
-  margin_right: 20%
-  title: Fresh
-  color: "#DFEFC2"
+  margin_right: 25%
+  title: Sunset Spot
+  color: "#DACEEA"
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -76,6 +64,60 @@ page_sections:
   title_margin_y: 10%
 - template: block-media-row
   block: media-row
+  row_alignment: between
+- template: block-media-feature
+  block: media-feature
+  width: '45'
+  align_x: start
+  margin_y: '600'
+  image: https://d1sf55qlb7p6hz.cloudfront.net/xmas-1.jpg
+  attached_collection: collections/xmas-in-america.md
+  title: Christmas in America
+  color: "#F0DADA"
+  meta: 2010 -  2019
+  margin_x: ''
+  align_y: ''
+  margin_left: ''
+  margin_right: 0%
+  title_margin_left: 5%
+  title_margin_right: ''
+  meta_align: left
+  text_color: "#060606"
+  text_size: 6xl
+  text_alignment: left
+  text_tracking: normal
+  font_weight: normal
+  line_height: none
+  title_margin_y: 20%
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/klompching-gallery-fresh.md
+  block_aspect_ratio: []
+  text_size: base
+  width: '25'
+  align_y: start
+  margin_y: '100'
+  margin_left: 70%
+  margin_right: 0%
+  title: Fresh
+  color: "#DFEFC2"
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/christmas-in-america-happy-birthday-jesus.md
+  width: '30'
+  align_y: start
+  margin_y: '100'
+  margin_left: 35%
+  margin_right: 0%
+  title: Xmas Roundup
+  color: "#C5C458"
+  block_aspect_ratio: 11x8.5
+  text_size: ''
+- template: block-media-row
+  block: media-row
   row_alignment: ''
 - template: block-media-feature
   block: media-feature
@@ -95,30 +137,6 @@ page_sections:
   title_margin_right: ''
   meta_align: left
   text_color: ''
-  text_size: 6xl
-  text_alignment: left
-  text_tracking: normal
-  font_weight: normal
-  line_height: none
-  title_margin_y: 20%
-- template: block-media-feature
-  block: media-feature
-  width: '45'
-  align_x: start
-  margin_y: '100'
-  image: https://d1sf55qlb7p6hz.cloudfront.net/xmas-1.jpg
-  attached_collection: collections/xmas-in-america.md
-  title: Christmas in America
-  color: "#F0DADA"
-  meta: 2010 -  2019
-  margin_x: ''
-  align_y: ''
-  margin_left: ''
-  margin_right: 5%
-  title_margin_left: 5%
-  title_margin_right: ''
-  meta_align: left
-  text_color: "#060606"
   text_size: 6xl
   text_alignment: left
   text_tracking: normal
@@ -522,21 +540,6 @@ page_sections:
   title: 'The Fence '
   color: "#EED2D2"
   block_aspect_ratio: ''
-  text_size: ''
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/christmas-in-america-happy-birthday-jesus.md
-  width: '30'
-  align_y: start
-  margin_y: '100'
-  margin_left: 35%
-  margin_right: 0%
-  title: Xmas Roundup
-  color: "#C5C458"
-  block_aspect_ratio: 11x8.5
   text_size: ''
 home_theme_color: "#EDDDDE"
 collection_description: ''

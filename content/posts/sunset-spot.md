@@ -8,7 +8,7 @@ caption = ""
 content = ""
 date = ""
 news_category = ["exhibition"]
-theme_color = ""
+theme_color = "#C8B3EB"
 title = "Sunset Spot"
 [[blog_slider]]
 block = "media-motion-id"
