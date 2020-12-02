@@ -30,11 +30,11 @@ page_sections:
   attached_blog: posts/sunset-spot.md
   block_aspect_ratio: []
   text_size: base
-  width: '25'
+  width: '30'
   align_y: start
   margin_y: '1000'
   margin_left: 0%
-  margin_right: 15%
+  margin_right: 10%
   title: Sunset Spot
   color: "#DACEEA"
 - template: block-media-row
