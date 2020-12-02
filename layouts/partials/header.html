@@ -12,6 +12,10 @@
       <div class="flex flex-row justify-between text-xs sm:text-sm font-normal pl-2 pb-1 tracking-looser self-end italic whitespace-no-wrap" style="margin-bottom: 2px;">archive
       </div>
       {{end}}
+      {{if (eq .Params.shop true) }} 
+      <div class="flex flex-row justify-between text-xs sm:text-sm font-normal pl-2 pb-1 tracking-looser self-end italic whitespace-no-wrap" style="margin-bottom: 2px;">shop
+      </div>
+      {{end}}
   </div>
     <!-- mobile menu button -->
     <div class="navToggle sm:hidden w-1/6 sm:w-1/4 flex justify-end">

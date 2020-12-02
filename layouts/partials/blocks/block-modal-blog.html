@@ -61,7 +61,7 @@
       </section>
     </section>
   </div>
-{{$attached := $key.Params.attached_collection}}
+{{ $attached := $key.Params.attached_collection }}
 {{ with .Site.GetPage $attached }}
 <section class="mt-4 sm:mt-16 text-black">
   <a href="/{{.Params.slug}}" alt="view collection" class="exit-modal">
@@ -71,7 +71,8 @@
       </div>
   </a>
 </section>
+{{else}}
 {{end}}
 
-
+q
 </article>
