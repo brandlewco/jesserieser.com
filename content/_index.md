@@ -45,7 +45,7 @@ page_sections:
   width: '55'
   align_y: start
   margin_y: '100'
-  margin_left: 15%
+  margin_left: 30%
   margin_right: 0%
   title_margin_left: "-30%"
   title_margin_right: 0%
@@ -61,7 +61,7 @@ page_sections:
   text_tracking: widest
   font_weight: normal
   line_height: none
-  title_margin_y: 10%
+  title_margin_y: 25%
 - template: block-media-row
   block: media-row
   row_alignment: between
