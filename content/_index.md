@@ -5,10 +5,10 @@ date: 2017-11-01T23:00:00.000+00:00
 page_sections:
 - template: block-media-feature
   block: media-feature
-  width: '40'
+  width: '33'
   align_y: start
   margin_y: '200'
-  margin_left: 5%
+  margin_left: 10%
   margin_right: 0%
   title_margin_left: 5%
   title_margin_right: 0%
@@ -18,11 +18,11 @@ page_sections:
   meta: 2018 - 2020
   image: https://d1sf55qlb7p6hz.cloudfront.net/rieser_phx-HI-2.jpg
   color: "#D0F4F2"
-  text_size: 7xl
-  font_weight: normal
+  text_size: 6xl
+  font_weight: semibold
   text_tracking: normal
   text_alignment: left
-  line_height: none
+  line_height: normal
   title: "Phoenix: \n\nA Dystopian Legoland\n\nThat Tastes Like Candy"
   text_color: "#FFFFFF"
 - template: block-modal-blog
@@ -107,7 +107,7 @@ page_sections:
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/christmas-in-america-happy-birthday-jesus.md
-  width: '30'
+  width: '33'
   align_y: start
   margin_y: '100'
   margin_left: 35%
@@ -123,7 +123,7 @@ page_sections:
   block: media-feature
   width: '30'
   align_x: end
-  margin_y: '700'
+  margin_y: '100'
   image: https://d1sf55qlb7p6hz.cloudfront.net/stargeezers-1.jpg
   attached_collection: collections/star-geezers.md
   title: The Star Geezers
