@@ -70,11 +70,11 @@ page_sections:
   attached_blog: posts/klompching-gallery-fresh.md
   block_aspect_ratio: []
   text_size: base
-  width: '20'
+  width: '25'
   align_y: start
   margin_y: '100'
-  margin_left: 0%
-  margin_right: 20%
+  margin_left: 85%
+  margin_right: 0%
   title: Fresh
   color: "#DFEFC2"
 - template: block-media-row
