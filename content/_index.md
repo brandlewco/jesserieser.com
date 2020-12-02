@@ -5,7 +5,7 @@ date: 2017-11-01T23:00:00.000+00:00
 page_sections:
 - template: block-modal-blog
   block: modal-blog
-  attached_blog: posts/test-blog-posts.md
+  attached_blog: posts/sunset-spot.md
   block_aspect_ratio: []
   text_size: 2xl
   width: '33'
