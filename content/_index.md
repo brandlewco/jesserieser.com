@@ -69,7 +69,7 @@ page_sections:
   block: media-feature
   width: '45'
   align_x: start
-  margin_y: '600'
+  margin_y: '400'
   image: https://d1sf55qlb7p6hz.cloudfront.net/xmas-1.jpg
   attached_collection: collections/xmas-in-america.md
   title: Christmas in America
@@ -77,7 +77,7 @@ page_sections:
   meta: 2010 -  2019
   margin_x: ''
   align_y: ''
-  margin_left: ''
+  margin_left: 10%
   margin_right: 0%
   title_margin_left: 5%
   title_margin_right: ''
@@ -97,8 +97,8 @@ page_sections:
   width: '25'
   align_y: start
   margin_y: '100'
-  margin_left: 70%
-  margin_right: 0%
+  margin_left: 0%
+  margin_right: 5%
   title: Fresh
   color: "#DFEFC2"
 - template: block-media-row
