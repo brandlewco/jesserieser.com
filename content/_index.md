@@ -3,18 +3,6 @@ layout: blocks
 title: Jesse Rieser
 date: 2017-11-01T23:00:00.000+00:00
 page_sections:
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/sunset-spot.md
-  block_aspect_ratio: []
-  text_size: 2xl
-  width: '33'
-  align_y: start
-  margin_y: '50'
-  margin_left: 0%
-  margin_right: 0%
-  title: Sunset Spot
-  color: "#F9EB49"
 - template: block-media-feature
   block: media-feature
   width: '40'
@@ -39,6 +27,21 @@ page_sections:
   text_color: "#FFFFFF"
 - template: block-modal-blog
   block: modal-blog
+  attached_blog: posts/sunset-spot.md
+  block_aspect_ratio: []
+  text_size: base
+  width: '33'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  title: Sunset Spot
+  color: "#C8B3EB"
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
+- template: block-modal-blog
+  block: modal-blog
   attached_blog: posts/klompching-gallery-fresh.md
   block_aspect_ratio: []
   text_size: base
@@ -51,7 +54,7 @@ page_sections:
   color: "#DFEFC2"
 - template: block-media-row
   block: media-row
-  row_alignment: ''
+  row_alignment: between
 - template: block-media-feature
   block: media-feature
   width: '60'
