@@ -32,7 +32,7 @@ page_sections:
   text_size: base
   width: '25'
   align_y: start
-  margin_y: '700'
+  margin_y: '1000'
   margin_left: 0%
   margin_right: 15%
   title: Sunset Spot
