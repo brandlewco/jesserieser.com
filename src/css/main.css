@@ -6,6 +6,7 @@
 @tailwind utilities;
 
 @import "imports/sal.css";
+@import "imports/gumroad.css";
 @import "imports/custom-utilities.css";
 @import "imports/custom-components.css";
 @import "imports/photoswipe.css";
