@@ -73,7 +73,7 @@ page_sections:
   width: '25'
   align_y: start
   margin_y: '100'
-  margin_left: 85%
+  margin_left: 70%
   margin_right: 0%
   title: Fresh
   color: "#DFEFC2"
