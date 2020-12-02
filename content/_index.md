@@ -40,21 +40,6 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: ''
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/klompching-gallery-fresh.md
-  block_aspect_ratio: []
-  text_size: base
-  width: '20'
-  align_y: start
-  margin_y: '100'
-  margin_left: 0%
-  margin_right: 20%
-  title: Fresh
-  color: "#DFEFC2"
-- template: block-media-row
-  block: media-row
-  row_alignment: between
 - template: block-media-feature
   block: media-feature
   width: '60'
@@ -77,6 +62,21 @@ page_sections:
   font_weight: normal
   line_height: none
   title_margin_y: 10%
+- template: block-media-row
+  block: media-row
+  row_alignment: between
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/klompching-gallery-fresh.md
+  block_aspect_ratio: []
+  text_size: base
+  width: '20'
+  align_y: start
+  margin_y: '100'
+  margin_left: 0%
+  margin_right: 20%
+  title: Fresh
+  color: "#DFEFC2"
 - template: block-media-row
   block: media-row
   row_alignment: ''
