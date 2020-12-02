@@ -42,7 +42,7 @@ page_sections:
   row_alignment: ''
 - template: block-media-feature
   block: media-feature
-  width: '60'
+  width: '55'
   align_y: start
   margin_y: '100'
   margin_left: 20%
