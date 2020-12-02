@@ -47,7 +47,7 @@ page_sections:
   text_size: base
   width: '20'
   align_y: start
-  margin_y: '700'
+  margin_y: '100'
   margin_left: 0%
   margin_right: 20%
   title: Fresh
