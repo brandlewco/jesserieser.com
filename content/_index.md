@@ -3,6 +3,18 @@ layout: blocks
 title: Jesse Rieser
 date: 2017-11-01T23:00:00.000+00:00
 page_sections:
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/test-blog-posts.md
+  block_aspect_ratio: []
+  text_size: 2xl
+  width: '33'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  title: Sunset Spot
+  color: ''
 - template: block-media-feature
   block: media-feature
   width: '40'
