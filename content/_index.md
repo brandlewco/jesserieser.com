@@ -14,7 +14,7 @@ page_sections:
   margin_left: 0%
   margin_right: 0%
   title: Sunset Spot
-  color: ''
+  color: "#F9EB49"
 - template: block-media-feature
   block: media-feature
   width: '40'
