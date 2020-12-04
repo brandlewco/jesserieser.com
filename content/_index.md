@@ -25,18 +25,6 @@ page_sections:
   line_height: normal
   title: "Phoenix: \n\nA Dystopian Legoland\n\nThat Tastes Like Candy"
   text_color: "#FFFFFF"
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/sunset-spot.md
-  block_aspect_ratio: []
-  text_size: base
-  width: '25'
-  align_y: start
-  margin_y: '1000'
-  margin_left: 0%
-  margin_right: 25%
-  title: Sunset Spot
-  color: "#DACEEA"
 - template: block-media-row
   block: media-row
   row_alignment: ''
