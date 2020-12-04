@@ -7,6 +7,7 @@ blog_header = ""
 caption = ""
 content = ""
 date = ""
+draft = true
 news_category = ["exhibition"]
 theme_color = "#C8B3EB"
 title = "Sunset Spot"
