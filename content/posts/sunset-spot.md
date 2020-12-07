@@ -81,13 +81,13 @@ width = "25"
 [[blog_builder]]
 block = "media-element-static"
 caption = ""
-image = ""
+image = "https://d1sf55qlb7p6hz.cloudfront.net/sunsetspot-10.jpg"
 template = "block-media-element-static"
-width = "50"
+width = "25"
 [[blog_builder]]
 block = "media-element-static"
 caption = ""
-image = ""
+image = "https://d1sf55qlb7p6hz.cloudfront.net/sunsetspot-9.jpg"
 template = "block-media-element-static"
 width = "50"
 [[blog_slider]]
