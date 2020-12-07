@@ -14,5 +14,17 @@ title = "The Sunset Spot at Red Modern"
 block = "media-motion-id"
 template = "block-media-motion-id"
 vimeo_id = 486529863
+[[blog_slider]]
+block = "media-element-url"
+image = "https://d1sf55qlb7p6hz.cloudfront.net/sunsetspot-2.jpg"
+template = "block-media-element-url"
+[[blog_slider]]
+block = "media-element-url"
+image = "https://d1sf55qlb7p6hz.cloudfront.net/sunsetspot-14.jpg"
+template = "block-media-element-url"
+[[blog_slider]]
+block = "media-element-url"
+image = "https://d1sf55qlb7p6hz.cloudfront.net/sunsetspot-20.jpg"
+template = "block-media-element-url"
 
 +++
