@@ -36,6 +36,27 @@ caption = ""
 image = "https://d1sf55qlb7p6hz.cloudfront.net/sunsetspot-4.jpg"
 template = "block-media-element-static"
 width = "66"
+[[blog_builder]]
+block = "media-row-static"
+template = "block-media-row-static"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = "https://d1sf55qlb7p6hz.cloudfront.net/sunsetspot-6.jpg"
+template = "block-media-element-static"
+width = "33"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = "https://d1sf55qlb7p6hz.cloudfront.net/sunsetspot-5.jpg"
+template = "block-media-element-static"
+width = "33"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = "https://d1sf55qlb7p6hz.cloudfront.net/sunsetspot-7.jpg"
+template = "block-media-element-static"
+width = "33"
 [[blog_slider]]
 block = "media-motion-id"
 template = "block-media-motion-id"
