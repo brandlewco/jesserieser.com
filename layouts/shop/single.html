@@ -1,0 +1,19 @@
+{{- define "main" -}}
+    <section data-hue="{{with .Params.navigation_theme}}{{.}}{{end}}" class="relative z-0">
+    {{ partial "collection_header" .}}
+    </section>
+    <section data-hue="page" class="mx-auto bg-white relative z-100 overflow-y-hidden" style="backface-visibility: hidden;">
+        <div class="my-gallery px-4 xl:px-16" itemscope itemtype="http://schema.org/ImageGallery">
+            <section class="block-media group-hover flex flex-wrap mx-auto h-auto {{with .Params.row_alignment}}sm:justify-{{.}}{{else}}sm:justify-between{{end}}">
+            {{- range .Params.collection_layout_builder -}}
+            {{ partial (printf "blocks/block-%s.html" .block) (dict "Section" . "Page" $ "Site" $.Site) }}
+            {{- end -}}
+            </section>
+        </div>
+        {{ partial "collection_pager" .}}
+    </section>
+    <section class="mx-auto relative z-100 overflow-y-hidden" data-hue="white">
+    {{ partial "collection_footer" .}}
+    </section>
+    {{ partial "gallery" . }}
+{{- end -}}
