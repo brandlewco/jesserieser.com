@@ -29,7 +29,7 @@ block = "media-element-static"
 caption = ""
 image = "https://d1sf55qlb7p6hz.cloudfront.net/sunsetspot-18.jpg"
 template = "block-media-element-static"
-width = "33"
+width = "25"
 [[blog_builder]]
 block = "media-element-static"
 caption = ""
