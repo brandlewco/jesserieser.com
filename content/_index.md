@@ -25,6 +25,18 @@ page_sections:
   line_height: normal
   title: "Phoenix: \n\nA Dystopian Legoland\n\nThat Tastes Like Candy"
   text_color: "#FFFFFF"
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/sunset-spot.md
+  block_aspect_ratio: ''
+  text_size: 2xl
+  width: '25'
+  align_y: start
+  margin_y: '1000'
+  margin_left: 0%
+  margin_right: 25%
+  color: "#DACEEA"
+  title: The Sunset Spot at Red Modern
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -529,18 +541,6 @@ page_sections:
   color: "#EED2D2"
   block_aspect_ratio: ''
   text_size: ''
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/sunset-spot.md
-  block_aspect_ratio: ''
-  text_size: 2xl
-  width: '25'
-  align_y: start
-  margin_y: '1000'
-  margin_left: 0%
-  margin_right: 25%
-  color: "#DACEEA"
-  title: ''
 home_theme_color: "#EDDDDE"
 collection_description: ''
 collection_content: ''
