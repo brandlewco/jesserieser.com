@@ -48,25 +48,19 @@ template = "block-media-row-static"
 [[blog_builder]]
 block = "media-element-static"
 caption = ""
-image = "https://d1sf55qlb7p6hz.cloudfront.net/sunsetspot-6.jpg"
-template = "block-media-element-static"
-width = "33"
-[[blog_builder]]
-block = "media-element-static"
-caption = ""
 image = "https://d1sf55qlb7p6hz.cloudfront.net/sunsetspot-15.jpg"
 template = "block-media-element-static"
-width = "25"
+width = "33"
 [[blog_builder]]
 block = "media-element-static"
 caption = ""
-image = "https://d1sf55qlb7p6hz.cloudfront.net/sunsetspot-5.jpg"
+image = "https://d1sf55qlb7p6hz.cloudfront.net/sunsetspot-22.jpg"
 template = "block-media-element-static"
 width = "33"
 [[blog_builder]]
 block = "media-element-static"
 caption = ""
-image = "https://d1sf55qlb7p6hz.cloudfront.net/sunsetspot-7.jpg"
+image = "https://d1sf55qlb7p6hz.cloudfront.net/sunsetspot-3.jpg"
 template = "block-media-element-static"
 width = "33"
 [[blog_slider]]
