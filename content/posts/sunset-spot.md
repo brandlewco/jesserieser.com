@@ -89,7 +89,7 @@ block = "media-element-static"
 caption = ""
 image = "https://d1sf55qlb7p6hz.cloudfront.net/sunsetspot-9.jpg"
 template = "block-media-element-static"
-width = "50"
+width = "25"
 [[blog_slider]]
 block = "media-motion-id"
 template = "block-media-motion-id"
