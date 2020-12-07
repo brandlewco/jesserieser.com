@@ -33,9 +33,9 @@ width = "33"
 [[blog_builder]]
 block = "media-element-static"
 caption = ""
-image = ""
+image = "https://d1sf55qlb7p6hz.cloudfront.net/sunsetspot-4.jpg"
 template = "block-media-element-static"
-width = "50"
+width = "66"
 [[blog_slider]]
 block = "media-motion-id"
 template = "block-media-motion-id"
