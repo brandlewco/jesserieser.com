@@ -153,10 +153,10 @@ align_x = "start"
 block = "media-element"
 color = "#E4F4F8"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/atlantic-33.jpg"
-margin_left = "20%"
+margin_left = "15%"
 margin_right = ""
 margin_y = "100"
 template = "block-media-element"
-width = "66"
+width = "70"
 
 +++
