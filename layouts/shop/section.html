@@ -35,7 +35,7 @@
 {{ $filter := .Site.Data.webpack.filter }}
 {{ with $filter.js }}
 <script src="{{ . | relURL }}" async></script>
-<script src="https://gumroad.com/js/gumroad.js"></script>
 {{ end }}
+<script src="https://gumroad.com/js/gumroad.js"></script>
 
 {{- end -}}
