@@ -5,7 +5,7 @@ collection_category = ["Editorial", "Editorial", "Reportage", "Color", "Still Li
 collection_content = "Republican women in America’s suburbs helped make Joe Biden president, Elaine Godfrey reports. Are they Democrats now?⁠⠀⁠⠀  \n⁠⠀  \nIn Arizona, a key battleground state for the presidency, these Republican women—all white, all from the greater Phoenix area—had been repelled by Donald Trump in 2016. But none of them voted for Hillary Clinton. Over the past four years, as they watched their party fall to Trumpism, their disgust sent them all in the same direction: the Democratic Party, Godfrey reports.⁠⠀  \n⁠⠀  \n“If you pointed to any of us and asked if we’re Republican … It just doesn’t fit anymore,” Jane Andersen, a disillusioned Maricopa County Republican who voted for Biden, told Godfrey. ⁠⠀  \n⁠⠀  \nBiden is currently leading Trump in both Maricopa County and Arizona overall. Fox News and the AP called the state for Biden, though the major news networks have yet to make a call. But for Andersen, Fox’s decision to call her state for Biden was like “walking toward a new nation, I’m walking through the wilderness, but I feel okay with that.” ⁠"
 collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/atlantic-33.jpg"
 collection_cover_mobile = "https://d1sf55qlb7p6hz.cloudfront.net/atlantic-23.jpg"
-collection_description = "*One Man’s Unlikely Quest To Power The World With Magnets*⁠ \n\nInventor Dennis Danzik claims to have invented a self-propelled generator which if checks out would shatter our current understanding of physics. Danzik gave us a sneak peak of the “Earth Engine Generator” and the IEC lab in which it was created."
+collection_description = "Republican women in America’s suburbs helped make Joe Biden president, Elaine Godfrey reports. Are they Democrats now?⁠"
 collection_description_alignment = "center"
 collection_exhibition = []
 collection_filter = "Commissioned + Stock"
@@ -152,10 +152,10 @@ align_x = "start"
 block = "media-element"
 color = "#E4F4F8"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/atlantic-33.jpg"
-margin_left = "20%"
+margin_left = "25%"
 margin_right = ""
 margin_y = "100"
 template = "block-media-element"
-width = "70"
+width = "60"
 
 +++
