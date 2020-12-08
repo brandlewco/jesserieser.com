@@ -17,10 +17,10 @@ cover_image = "https://d1sf55qlb7p6hz.cloudfront.net/social-31.jpg"
 date = ""
 layout = "blocks"
 logo = ""
-navigation_theme = "white"
+navigation_theme = "black"
 px_extra = true
 slug = "collections/the-atlantic-election"
-theme_color = "#F3EEA5"
+theme_color = "#EFE786"
 theme_color_all_works = "#BCF6A6"
 title = "The Atlantic"
 [[collection_layout_builder]]
