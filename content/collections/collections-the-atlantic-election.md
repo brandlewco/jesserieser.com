@@ -20,7 +20,7 @@ logo = ""
 navigation_theme = "white"
 px_extra = true
 slug = "collections/the-atlantic-election"
-theme_color = "#E2EADE"
+theme_color = "#F3EEA5"
 theme_color_all_works = "#BCF6A6"
 title = "The Atlantic"
 [[collection_layout_builder]]
