@@ -10,7 +10,7 @@ layout = "blocks"
 price = 1350.0
 sale = false
 sale_price = 0
-theme_color = "#4F4F4F"
+theme_color = "#38DBA4"
 title = "Merry Monster Truck. New Braunfels, TX. 2016"
 
 +++
