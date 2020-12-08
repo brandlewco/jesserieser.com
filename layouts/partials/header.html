@@ -4,8 +4,8 @@
     <!-- <div class="sm:hidden w-1/5 sm:w-1/4">
         <h1 class="text-3xl shift font-bold">R</h1>
     </div> -->
-    <div class="w-5/6 sm:w-1/2 text-left flex sm:flex-row items-start text-2xl sm:text-28 font-medium tracking-widest shift">
-      <h1 href="/" alt="{{.Site.Title}}" class="whitespace-no-wrap">
+    <a href="{{.Site.BaseURL}}" class="w-5/6 sm:w-1/2 text-left flex sm:flex-row items-start text-2xl sm:text-28 font-medium tracking-widest shift">
+      <h1 class="whitespace-no-wrap">
         JESSE RIESER 
       </h1>
       {{if (eq .Params.collection_archive true) }} 
@@ -16,7 +16,7 @@
       <div class="flex flex-row justify-between text-xs sm:text-sm font-normal pl-2 pb-1 tracking-looser self-end italic whitespace-no-wrap" style="margin-bottom: 2px;">shop
       </div>
       {{end}}
-  </div>
+    </a>
     <!-- mobile menu button -->
     <div class="navToggle sm:hidden w-1/6 sm:w-1/4 flex justify-end">
       <button class="text-black target-burger" name="Mobile Site Navigation">
