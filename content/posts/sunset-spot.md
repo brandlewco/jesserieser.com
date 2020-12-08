@@ -84,6 +84,45 @@ caption = ""
 image = "https://d1sf55qlb7p6hz.cloudfront.net/sunsetspot-9.jpg"
 template = "block-media-element-static"
 width = "33"
+[[blog_builder]]
+block = "media-row-static"
+template = "block-media-row-static"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = "https://d1sf55qlb7p6hz.cloudfront.net/sunsetspot-5.jpg"
+template = "block-media-element-static"
+width = "50"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = "https://d1sf55qlb7p6hz.cloudfront.net/sunsetspot-19.jpg"
+template = "block-media-element-static"
+width = "50"
+[[blog_builder]]
+block = "media-row-static"
+template = "block-media-row-static"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = "https://d1sf55qlb7p6hz.cloudfront.net/sunsetspot-17.jpg"
+template = "block-media-element-static"
+width = "50"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = "https://d1sf55qlb7p6hz.cloudfront.net/sunsetspot-16.jpg"
+template = "block-media-element-static"
+width = "50"
+[[blog_builder]]
+block = "media-row-static"
+template = "block-media-row-static"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = "https://d1sf55qlb7p6hz.cloudfront.net/sunsetspot-20.jpg"
+template = "block-media-element-static"
+width = "100"
 [[blog_slider]]
 block = "media-motion-id"
 template = "block-media-motion-id"
