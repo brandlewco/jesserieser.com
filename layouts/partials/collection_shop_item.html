@@ -25,7 +25,10 @@
         <figcaption class="flex flex-col text-black text-base">
         <div class="flex flex-row justify-between items-center w-full pt-1">
             <h1 class="font-medium italic block tracking-wide leading-tight">{{.Title}}</h1>
-            <h3 class="text-xl font-bold tracking-wide leading-tight flex flex-row items-center"><span class="{{if eq .Params.sale true}}line-through text-base font-normal{{end}}">${{.Params.price}}</span>{{if eq .Params.sale true}}<span>&nbsp;${{.Params.sale_price}}</span>{{end}}</h3>
+            <h3 class="text-xl font-medium tracking-wide leading-tight flex flex-row items-center border border-solid px-2 justify-between">
+                <span class="font-normal text-xs tracking-widest leading-tight pr-1">STARTING FROM</span>
+                <span class="{{if eq .Params.sale true}}line-through text-base text-gray-600 font-normal{{end}}">${{.Params.price}}</span>
+                {{if eq .Params.sale true}}<span>&nbsp;${{.Params.sale_price}}</span>{{end}}</h3>
         </div>
         <h2 class="font-normal block text-xs pt-1 tracking-widest leading-tight">{{.Params.collection_meta}} {{with .Params.collection_meta_2}} - {{.}}{{end}}</h2>
         </figcaption>
