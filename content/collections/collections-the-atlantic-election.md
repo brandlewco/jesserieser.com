@@ -153,14 +153,10 @@ align_x = "start"
 block = "media-element"
 color = "#E4F4F8"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/atlantic-33.jpg"
-margin_left = "30%"
+margin_left = "20%"
 margin_right = ""
 margin_y = "100"
 template = "block-media-element"
-width = "33"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
+width = "60"
 
 +++
