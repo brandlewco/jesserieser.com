@@ -11,6 +11,6 @@ price = 89
 sale = true
 sale_price = 79
 theme_color = "#B8EEBC"
-title = "Cindy-Lou Who Meets Jesus. Scottsdale, AZ. 2015"
+title = "Cindy-Lou Who & Jesus Christ. Scottsdale, AZ. 2015"
 
 +++
