@@ -199,3 +199,5 @@ fields:
   description: Don't show this collection in the all works sorter, accessible only
     through direct link.
   hidden: true
+pages:
+- content/collections/smartwater.md
