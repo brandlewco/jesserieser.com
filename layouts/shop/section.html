@@ -16,26 +16,15 @@
                 {{ partial "collection_shop_item" .}}
             {{ end }}
         </section>
-        <!-- <a href="#filter-container" alt="back to top" class="bg-black" data-no-swup>
-            <div class="mx-auto w-full pt-16 text-center font-light bg-black pb-16 text-white">
-                <div class="text-5xl font-hairline flex flex-row justify-center" style="line-height: 0.4;">
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="50" height="50" viewBox="0 0 256 150" style="transform: rotate(180deg);">
-                        <path d="M242.4 4.5L255.6 17.8 128 145.5 0.4 17.8 13.6 4.5 128 118.9z" style="fill: #fff" class="arrow-down"/>
-                    </svg>
-                </div>
-                <p class="text-md sm:text-xl font-light">Back to Top</p>
-            </div>
-        </a> -->
     </section>
 </article>
 {{- end -}}
 
 
 {{- define "attached" -}}
+<script src="https://gumroad.com/js/gumroad.js"></script>
 {{ $filter := .Site.Data.webpack.filter }}
 {{ with $filter.js }}
 <script src="{{ . | relURL }}" async></script>
 {{ end }}
-<script src="https://gumroad.com/js/gumroad.js"></script>
-
 {{- end -}}
