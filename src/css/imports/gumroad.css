@@ -1,4 +1,101 @@
-.page-shops .gumroad-scroll-container {
-    width: 100% !important;
-    top: 60px !important;
+
+body .gumroad-scroll-container {
+    width: calc(100% - 2rem) !important;
+    top: 50px !important;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    right: auto !important;
+    left: auto !important;
+}
+
+
+@media (min-width: 768px) {
+    body .gumroad-scroll-container {
+        width: calc(100% - 4rem) !important;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}
+
+
+/* STYLES TO PASTE INTO GUMRAOD CMS */
+body#overlay-page .bundle-container .icn-cart-black {
+    background: url(https://jesserieser.com/shopping-cart-light.svg) 50% no-repeat;
+    padding: 0px;
+    border-radius: 0px;
+    background-color: transparent;
+    height: 15px;
+    width: 15px;
+}
+body#overlay-page .bundle-trigger {
+    /* display:none; */
+}
+body#overlay-page  .bundle-container {
+    left: 0;
+    top: -0px;
+    max-width: 100%;
+    right: 0;
+}
+
+body#overlay-page  .bundle-trigger, #user_page .bundle-trigger {
+    width: calc(100% - 26px);
+}
+
+body#overlay-page  .button.button-primary,  body#overlay-page button.button-primary {
+    background: #000;
+}
+
+body#overlay-page  .powered-by-footer-holder {
+    display:none !important;
+}
+
+body#overlay-page  .bundle-circle-link {
+    right:0px; 
+    font-size: 1.5rem;
+}
+
+
+body#overlay-page  .author-byline {
+    display:none;
+}
+
+body#overlay-page  .bundle-tool-tip {   
+    width: 90%;
+    margin: 60px auto 10px auto;
+    right: 0;
+    left: 0;
+    top: 0;
+    box-shadow: 0px 6px 10px rgba(0,0,0,.15);
+}
+
+
+body#overlay-page  .overlay-blocker {
+    background: rgba(255,255,255,0.6)
+}
+
+body#overlay-page  .product-display .product-row.showing {
+    box-shadow: 0px 30px 10px rgba(0,0,0,0.5);
+}
+
+body#overlay-page  .bundle-tool-tip:after, body#overlay-page  .bundle-tool-tip:before, #user_page .bundle-tool-tip:after, #user_page .bundle-tool-tip:before {
+    right: 0;
+    border: 0;
+}
+
+body#overlay-page  .bundle-circle-link .bundle-circle {
+    background: transparent;
+    color: #000;
+    font-size: 1rem;
+    border:0;
+    border-radius: 0;
+    box-shadow:0 0 0 0 black;
+    line-height:1;
+    font-weight: 600
+}
+
+body#overlay-page .preview-container .image-preview-container img {
+    width: 70%;
+    left: 15%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
