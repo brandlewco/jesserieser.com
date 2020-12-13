@@ -12,6 +12,6 @@ sale = false
 sale_price = ""
 shop = false
 theme_color = "#F1D6D6"
-title = "Jennifer Houghton. Dallas, TX. 2016"
+title = "Jennifer Houghton. 2016"
 
 +++
