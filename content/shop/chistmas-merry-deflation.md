@@ -11,6 +11,6 @@ price = 1350
 sale = false
 sale_price = 0
 theme_color = "#C3D5E5"
-title = "Deflation. Tempe, AZ. 2017 "
+title = "Deflation. 2017 "
 
 +++
