@@ -8,8 +8,8 @@ date = 2020-12-01T00:28:34Z
 gumroad_id = "DGIbD"
 layout = "blocks"
 price = 1375
-sale = false
-sale_price = 0
+sale = true
+sale_price = 325
 theme_color = "#C3D5E5"
 title = "Deflation. 2017 "
 
