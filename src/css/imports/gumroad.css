@@ -1,20 +1,29 @@
-
 body .gumroad-scroll-container {
-    width: calc(100% - 2rem) !important;
-    top: 50px !important;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    right: auto !important;
-    left: auto !important;
+    display: none;
+    right: auto!important;
+    left: auto!important;
 }
 
+body.page-shop .gumroad-scroll-container {
+    display: block;
+    width: calc(100% - 2rem)!important;
+    top: 60px!important;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    transition: 2s opacity ease-in-out;
+}
 
 @media (min-width: 768px) {
-    body .gumroad-scroll-container {
+    body.page-shop .gumroad-scroll-container {
         width: calc(100% - 4rem) !important;
         margin-left: 2rem;
         margin-right: 2rem;
     }
+}
+
+html.is-animation body .gumroad-scroll-container {
+    background-color: transparent !important;
+    opacity: 0 !important;
 }
 
 
@@ -61,7 +70,7 @@ body#overlay-page  .author-byline {
 
 body#overlay-page  .bundle-tool-tip {   
     width: 90%;
-    margin: 60px auto 10px auto;
+    margin: 45px auto 0px auto;
     right: 0;
     left: 0;
     top: 0;
