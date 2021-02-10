@@ -1,19 +1,19 @@
 +++
 collection_archive = false
-collection_category = ["Editorial"]
+collection_category = ["Tech", "Reportage", "Color", "Environments", "Editorial"]
 collection_content = ""
 collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/nytimes_metro-29.jpg"
 collection_cover_mobile = ""
 collection_description = ""
 collection_description_alignment = "left"
-collection_filter = "Personal"
+collection_filter = "Commissioned + Stock"
 collection_hidden = false
 collection_meta = "Auctioning Off A Dead Mall"
 collection_meta_2 = ""
 collection_preview = []
 cover_image = ""
 date = 2021-02-08T06:23:01Z
-hide_footer = false
+hide_footer = true
 layout = "blocks"
 navigation_theme = "white"
 px_extra = false
