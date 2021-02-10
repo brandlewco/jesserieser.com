@@ -85,7 +85,7 @@ color = "#F3CECE"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/nytimes_metro-4.jpg"
 margin_left = "10%"
 margin_right = ""
-margin_y = "100"
+margin_y = "200"
 template = "block-media-element"
 width = "66"
 [[collection_layout_builder]]
