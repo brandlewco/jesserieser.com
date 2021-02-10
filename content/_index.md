@@ -8,7 +8,7 @@ page_sections:
   width: '40'
   align_y: start
   margin_y: '100'
-  margin_left: 0%
+  margin_left: 45%
   margin_right: 0%
   title_margin_y: 35%
   title_margin_left: 0%
@@ -25,6 +25,9 @@ page_sections:
   meta: 'Devin Booker: Becoming Legendary '
   attached_collection: collections/espn-devin-booker-cover-story.md
   text_color: "#000000"
+- template: block-media-row
+  block: media-row
+  row_alignment: between
 - template: block-media-feature
   block: media-feature
   width: '33'
@@ -47,6 +50,9 @@ page_sections:
   meta: ''
   attached_collection: ''
   text_color: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
 - template: block-media-feature
   block: media-feature
   width: '33'
@@ -454,7 +460,7 @@ page_sections:
   title_margin_y: 5%
 - template: block-media-row
   block: media-row
-  row_alignment: ''
+  row_alignment: between
 - template: block-media-feature
   block: media-feature
   width: '50'
