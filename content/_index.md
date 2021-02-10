@@ -11,9 +11,9 @@ page_sections:
   margin_left: 50%
   margin_right: 0%
   title_margin_y: 50%
-  title_margin_left: "-45%"
+  title_margin_left: 15%
   title_margin_right: 0%
-  text_size: 7xl
+  text_size: 6xl
   line_height: normal
   text_alignment: left
   text_tracking: normal
@@ -24,7 +24,7 @@ page_sections:
   title: ESPN Cover Story
   meta: 'Devin Booker: Becoming Legendary '
   attached_collection: collections/espn-devin-booker-cover-story.md
-  text_color: "#000000"
+  text_color: "#FFFFFF"
 - template: block-media-row
   block: media-row
   row_alignment: between
