@@ -15,11 +15,11 @@ cover_image = ""
 date = 2021-02-10T03:16:07Z
 hide_footer = false
 layout = "blocks"
-navigation_theme = "black"
+navigation_theme = "white"
 px_extra = false
 row_alignment = "between"
 slug = "collections/espn-booker"
-theme_color = "#DDC7DE"
+theme_color = "#DC4029"
 theme_color_all_works = ""
 title = "ESPN Devin Booker Cover Story"
 [[collection_awards]]
