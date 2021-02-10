@@ -44,7 +44,7 @@ margin_y = "100"
 show_controls = false
 template = "block-media-motion"
 vimeo_id = "0510464600"
-width = "100"
+width = "80"
 [[collection_layout_builder]]
 align_x = "start"
 align_y = ""
