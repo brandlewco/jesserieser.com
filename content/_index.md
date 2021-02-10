@@ -42,10 +42,10 @@ page_sections:
   line_height: normal
   text_alignment: left
   text_tracking: normal
-  font_weight: []
+  font_weight: ''
   meta_align: left
-  image: ''
-  color: ''
+  image: https://d1sf55qlb7p6hz.cloudfront.net/nytimes_metro-29.jpg
+  color: "#FF7F50"
   title: ''
   meta: ''
   attached_collection: ''
