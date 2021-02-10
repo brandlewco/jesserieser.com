@@ -35,21 +35,21 @@ page_sections:
   margin_y: '200'
   margin_left: 25%
   margin_right: 0%
-  title_margin_y: 35%
-  title_margin_left: 0%
+  title_margin_y: 70%
+  title_margin_left: 5%
   title_margin_right: 0%
-  text_size: 2xl
+  text_size: 7xl
   line_height: normal
   text_alignment: left
   text_tracking: normal
-  font_weight: ''
+  font_weight: semibold
   meta_align: left
   image: https://d1sf55qlb7p6hz.cloudfront.net/nytimes_metro-29.jpg
   color: "#FF7F50"
   title: 'The New York Times '
   meta: 'Auctioning Off A Dead Mall '
   attached_collection: ''
-  text_color: ''
+  text_color: "#FFFFFF"
 - template: block-media-row
   block: media-row
   row_alignment: ''
