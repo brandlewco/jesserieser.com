@@ -21,7 +21,7 @@ row_alignment = "between"
 slug = "collections/espn-booker"
 theme_color = "#DC4029"
 theme_color_all_works = ""
-title = "ESPN: Becoming A Legend"
+title = "ESPN: Becoming Legendary"
 [[collection_awards]]
 content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
 icon = ""
