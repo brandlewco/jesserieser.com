@@ -48,7 +48,7 @@ page_sections:
   color: "#FF7F50"
   title: 'The New York Times '
   meta: 'Auctioning Off A Dead Mall '
-  attached_collection: ''
+  attached_collection: collections/the-new-york-times.md
   text_color: "#FFFFFF"
 - template: block-media-row
   block: media-row
