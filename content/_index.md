@@ -17,14 +17,14 @@ page_sections:
   line_height: normal
   text_alignment: left
   text_tracking: normal
-  font_weight: ''
-  meta_align: left
+  font_weight: semibold
+  meta_align: right
   image: https://d1sf55qlb7p6hz.cloudfront.net/espn_booker-18.jpg
   color: "#B8DFF6"
-  title: ''
-  meta: ''
+  title: ESPN
+  meta: Becoming A Legend
   attached_collection: collections/espn-devin-booker-cover-story.md
-  text_color: ''
+  text_color: "#000000"
 - template: block-media-feature
   block: media-feature
   width: '33'
