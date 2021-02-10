@@ -5,9 +5,9 @@ date: 2017-11-01T23:00:00.000+00:00
 page_sections:
 - template: block-media-feature
   block: media-feature
-  width: '33'
+  width: '40'
   align_y: start
-  margin_y: '50'
+  margin_y: '100'
   margin_left: 0%
   margin_right: 0%
   title_margin_y: 35%
@@ -23,7 +23,7 @@ page_sections:
   color: "#B8DFF6"
   title: ''
   meta: ''
-  attached_collection: ''
+  attached_collection: collections/espn-devin-booker-cover-story.md
   text_color: ''
 - template: block-media-feature
   block: media-feature
