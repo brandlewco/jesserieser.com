@@ -7,6 +7,50 @@ page_sections:
   block: media-feature
   width: '33'
   align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  title_margin_y: 35%
+  title_margin_left: 0%
+  title_margin_right: 0%
+  text_size: 2xl
+  line_height: normal
+  text_alignment: left
+  text_tracking: normal
+  font_weight: ''
+  meta_align: left
+  image: https://d1sf55qlb7p6hz.cloudfront.net/espn_booker-18.jpg
+  color: "#B8DFF6"
+  title: ''
+  meta: ''
+  attached_collection: ''
+  text_color: ''
+- template: block-media-feature
+  block: media-feature
+  width: '33'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  title_margin_y: 35%
+  title_margin_left: 0%
+  title_margin_right: 0%
+  text_size: 2xl
+  line_height: normal
+  text_alignment: left
+  text_tracking: normal
+  font_weight: []
+  meta_align: left
+  image: ''
+  color: ''
+  title: ''
+  meta: ''
+  attached_collection: ''
+  text_color: ''
+- template: block-media-feature
+  block: media-feature
+  width: '33'
+  align_y: start
   margin_y: '200'
   margin_left: 10%
   margin_right: 0%
