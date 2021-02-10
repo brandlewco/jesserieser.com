@@ -1,10 +1,10 @@
 +++
 collection_archive = false
-collection_category = ["Portraits", "Environments"]
+collection_category = ["Studio", "Editorial", "Motion", "Lifestyle", "Conceptual", "Sports + Athletes", "Portraits"]
 collection_content = ""
 collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/espn-booker_cover-1.jpg"
 collection_cover_mobile = "https://d1sf55qlb7p6hz.cloudfront.net/verticalcover-49.jpg"
-collection_description = "a;dklfj;adlskfj "
+collection_description = ""
 collection_description_alignment = "left"
 collection_filter = "Personal"
 collection_hidden = false
@@ -13,7 +13,7 @@ collection_meta_2 = ""
 collection_preview = ["https://d1sf55qlb7p6hz.cloudfront.net/booke-thumb-cover-2.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/booke-thumb-cover-1.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/booke-thumb-cover-3.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/booke-thumb-cover-4.jpg"]
 cover_image = ""
 date = 2021-02-10T03:16:07Z
-hide_footer = false
+hide_footer = true
 layout = "blocks"
 navigation_theme = "white"
 px_extra = true
