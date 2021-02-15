@@ -1,5 +1,5 @@
 
-  <article class="figure block-hover lg:meta-hover block-hover self-start {{with .Section.align_y}}sm:self-{{.}}{{end}} w-full {{with .Section.width}}sm:w-{{.}}/100{{end}} py-4 sm:py-0 mt-0 {{with .Section.margin_y}}sm:mt-{{.}}{{end}} ml-0 {{with .Section.margin_left}}sm:ml-{{.}}{{end}} mr-0 {{with .Section.margin_right}}sm:mr-{{.}}{{end}}" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+  <article class="block-hover lg:meta-hover block-hover self-start {{with .Section.align_y}}sm:self-{{.}}{{end}} w-full {{with .Section.width}}sm:w-{{.}}/100{{end}} py-4 sm:py-0 mt-0 {{with .Section.margin_y}}sm:mt-{{.}}{{end}} ml-0 {{with .Section.margin_left}}sm:ml-{{.}}{{end}} mr-0 {{with .Section.margin_right}}sm:mr-{{.}}{{end}}">
     {{if (eq .Section.background_image_toggle true) }}
       <figure class="flex flex-col sm:flex-row md:relative md:flex-none flex-row-reverse">
         <img class="relative sm:absolute z-0 lazyload {{with .Section.parallax}}rellax rellax-off{{end}}" src="{{ .Section.image }}?width=1024" data-src="{{ .Section.image  }}" alt="{{ .Section.caption }}" {{with .Section.parallax}}data-rellax-speed="2" data-rellax-xs-speed="1"{{end}} style="{{with .Section.image_css | safeCSS }}{{.}}{{end}}; top: 15%;"/>
