@@ -1,12 +1,12 @@
 +++
 collection_archive = false
-collection_category = ["Studio", "Editorial", "Motion", "Lifestyle", "Conceptual", "Sports + Athletes", "Portraits"]
+collection_category = ["Studio", "Editorial", "Motion", "Lifestyle", "Sports + Athletes", "Portraits"]
 collection_content = ""
 collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/espn-booker_cover-1.jpg"
 collection_cover_mobile = "https://d1sf55qlb7p6hz.cloudfront.net/verticalcover-49.jpg"
 collection_description = "_The Rise of Devin Booker: Kobe mentored him. Chris Paul challenged him. Now the Phoenix Suns Guard is on a quest to become legendary._ Go [here](https://www.espn.com/espn/feature/story/_/id/30800991/the-rise-devin-booker) to read Michael Willbon's profile on Devin Booker. "
 collection_description_alignment = "left"
-collection_filter = "Personal"
+collection_filter = "Commissioned + Stock"
 collection_hidden = false
 collection_meta = "Devin Booker Cover Story"
 collection_meta_2 = ""
