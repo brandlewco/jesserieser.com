@@ -315,6 +315,19 @@ row_alignment = "between"
 template = "block-media-row"
 [[collection_layout_builder]]
 align_y = "start"
+block = "media-motion"
+caption = ""
+color = ""
+image = ""
+margin_left = "10%"
+margin_right = "0%"
+margin_y = "100"
+show_controls = false
+template = "block-media-motion"
+vimeo_id = 515559208
+width = "80"
+[[collection_layout_builder]]
+align_y = "start"
 background_color = ""
 background_image_toggle = false
 block = "media-text"
