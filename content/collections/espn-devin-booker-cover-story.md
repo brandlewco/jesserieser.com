@@ -344,6 +344,26 @@ template = "block-media-motion"
 vimeo_id = 515559208
 width = "80"
 [[collection_layout_builder]]
+align_y = "start"
+background_color = ""
+background_image_toggle = false
+block = "media-text"
+caption_css = ""
+font_weight = "light"
+image = ""
+image_css = ""
+margin_left = "30%"
+margin_right = "0%"
+margin_y = "100"
+parallax = true
+template = "block-media-text"
+text = "Written By Michael Wilbon"
+text_alignment = "left"
+text_color = ""
+text_size = "6xl"
+text_tracking = "normal"
+width = "50"
+[[collection_layout_builder]]
 align_x = "start"
 align_y = ""
 block = "media-element"
