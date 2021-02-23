@@ -19,7 +19,7 @@ navigation_theme = "white"
 px_extra = true
 row_alignment = "between"
 slug = "collections/espn-booker"
-theme_color = "#DC4029"
+theme_color = "#EAC5BF"
 theme_color_all_works = ""
 title = "ESPN: Becoming Legendary"
 [[collection_awards]]
@@ -265,7 +265,7 @@ margin_left = "20%"
 margin_right = ""
 margin_y = "100"
 template = "block-media-element"
-width = "50"
+width = "45"
 [[collection_layout_builder]]
 block = "media-row"
 row_alignment = "between"
