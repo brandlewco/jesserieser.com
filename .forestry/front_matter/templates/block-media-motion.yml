@@ -36,6 +36,28 @@ fields:
   type: boolean
   label: Show Controls
   description: show vimeo controls
+- name: block_aspect_ratio
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - 8.5:11
+    - 11x8.5
+    - 9x16
+    - 16x9
+    - 4x3
+    - 3x4
+    - 2x3
+    - 3x2
+    - 1x2
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Video Aspect Ratio
+  hidden: true
 - type: select
   name: width
   config:
