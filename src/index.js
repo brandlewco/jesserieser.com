@@ -153,7 +153,7 @@ function init() {
           items = [],
           figureEl,
           linkEl,
-          size,
+          frameEl,
           imgEl,
           item;
 
@@ -172,13 +172,20 @@ function init() {
           // size = linkEl.getAttribute("data-size").split("x");
 
           // create slide object
-          item = {
-            src: linkEl.getAttribute("href"),
-            w: imgEl.naturalWidth * 2,
-            h: imgEl.naturalHeight * 2,
-            pid: linkEl.getAttribute("pid")
-          };
-
+          if (linkEl.classList.contains("video")) {
+            var videoID = linkEl.getAttribute("pid");
+            item = {
+              html: "<iframe src='https://player.vimeo.com/video/" + videoID + "?title=0&amp;byline=0&amp;portrait=0&amp;loop=1&amp;background=1' style='position:absolute;top:5%;left:0;width:100%;height:90%;' frameborder='0' allow='autoplay; fullscreen' allowfullscreen=''></iframe>",
+              pid: linkEl.getAttribute("pid"),
+            };
+          } else {
+            item = {
+              src: linkEl.getAttribute("href"),
+              w: imgEl.naturalWidth * 2,
+              h: imgEl.naturalHeight * 2,
+              pid: linkEl.getAttribute("pid")
+            };
+          }
 
           if (figureEl.children.length > 1) {
             // <figcaption> content
@@ -312,7 +319,7 @@ function init() {
           loadingIndicatorDelay: 100,
           getThumbBoundsFn: function(index) {
             // See Options -> getThumbBoundsFn section of documentation for more info
-            var thumbnail = items[index].el.getElementsByTagName("img")[0], // find thumbnail
+            var thumbnail = items[index].el.getElementsByTagName("a")[0], // find thumbnail
               pageYScroll = window.pageYOffset || document.documentElement.scrollTop,
               rect = thumbnail.getBoundingClientRect();
 
@@ -386,6 +393,7 @@ function init() {
           removeActiveSlide();
         });
         gallery.listen("afterChange", function() {
+          console.log("h", gallery.currItem);
           // console.log("h", gallery.currItem.h, "w", gallery.currItem.w);
           var currentItem = gallery.currItem.container;
           var currentItemParent = gallery.currItem.container.parentNode;
@@ -410,6 +418,7 @@ function init() {
           // document.getElementById(gallery.currItem.el.id).scrollIntoView({behavior: "smooth", block: "nearest", inline: "start"});
         });
         gallery.listen("close", function() {
+          console.log("close", gallery.currItem.el.id);
           var topPos = document.getElementById(gallery.currItem.el.id).documentOffsetTop() - (window.innerHeight / 2);
           window.scrollTo({
             top: topPos,
