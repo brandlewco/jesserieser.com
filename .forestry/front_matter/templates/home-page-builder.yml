@@ -82,6 +82,7 @@ fields:
   label: Page Sections
   template_types:
   - block-media-feature
+  - block-media-feature-vimeo
   - block-modal-blog
   - block-media-text
   - block-media-row
