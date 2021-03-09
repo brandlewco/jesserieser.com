@@ -1,0 +1,30 @@
+
+{{ $fileName := path.Base .Section.image | replaceRE "(.doc|.jpeg|.jpg)" ""}}
+{{ $screen := 1440 }}
+{{ $img :=  (float .Section.width) }}
+{{ $div := (div 100 $img) }}
+{{ $imgFull := (div $screen $div) }}
+{{ $imgLow := (div $imgFull 4) }}
+
+<article class="block-hover sm:meta-hover relative self-start {{with .Section.align_y}}sm:self-{{.}}{{end}} w-full {{with .Section.width}}sm:w-{{.}}/100{{end}} py-4 sm:py-0 mt-0 {{with .Section.margin_y}}sm:mt-{{.}}{{end}} ml-0 {{with .Section.margin_left}}sm:ml-{{.}}{{end}} mr-0 {{with .Section.margin_right}}sm:mr-{{.}}{{end}} highlight rellax-wrapper">
+  <figure class="figure relative " style="background: {{with .Section.color}}{{.}}{{else}}{{.Page.Params.theme_color}}{{end}};" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" id="{{ $fileName }}" data-sal="image">
+    {{ with .Site.GetPage .Section.attached_collection }}
+      <a href="/{{.Params.slug | urlize}}" alt="View Collection - {{ .Params.title | markdownify}} - Jesse Rieser">
+    {{end}}
+    <iframe src="https://player.vimeo.com/video/{{.Section.vimeo_id}}?title=0&byline=0&portrait=0&background=1&loop=1" style="position:absolute;top:0;left:0;height:100%;width:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    {{with .Site.GetPage .Section.attached_collection}}
+      </a>
+    {{end}}
+    {{ if .Section.title }}
+    <figcaption class="absolute w-100 z-10 rellax px-4 sm:px-auto sm:ml-0 mb-0 text-left {{with .Section.text_alignment}}sm:text-{{.}}{{end}}" style="pointer-events:none; {{with .Section.title_margin_y}}top:{{.}};{{else}}top: 35%;{{end}} {{with .Section.title_margin_left}}margin-left:{{.}};{{end}} {{with .Section.title_margin_right}}margin-right:{{.}};{{end}}" data-rellax-speed="4" data-rellax-xs-speed="1">
+      <h2 class="text-4xl {{with .Section.text_size }}md:text-{{.}}{{else}}md:text-6xl{{end}} {{with .Section.text_tracking }}tracking-{{.}}{{end}} {{with .Section.font_weight }}font-{{.}}{{end}} {{with .Section.line_height }}leading-{{.}}{{else}}leading-normal{{end}} text-white sm:text-black" style="color:{{with .Section.text_color }}{{.}}{{end}}">
+        {{ .Section.title | markdownify}}
+      </h2>
+      <!-- style="color:{{with .Section.text_color }}{{.}}{{else}}#000;{{end}}" -->
+    </figcaption>
+    {{ end }}
+  </figure>
+  {{ if .Section.meta }}
+  <h6 class="mb-0 ml-0 text-black font-normal text-xs sm:text-base tracking-widest leading-tight mt-1 sm:mt-0 {{with .Section.meta_align}}text-{{.}}{{end}}" data-sal="slide-down" data-sal-delay="600">{{ .Section.meta }}</h6>
+  {{ end }}
+</article>
