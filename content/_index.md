@@ -593,28 +593,28 @@ page_sections:
   text_size: ''
 - template: block-media-feature-vimeo
   block: media-feature-vimeo
-  vimeo_id: '0510464600'
+  vimeo_id: '0515559092'
   width: '60'
   align_y: start
   margin_y: '50'
-  margin_left: 0%
+  margin_left: 10%
   margin_right: 0%
-  title_margin_y: 35%
   title_margin_left: 0%
   title_margin_right: 0%
   text_size: 6xl
-  line_height: normal
-  text_alignment: center
+  text_alignment: left
   text_tracking: normal
+  font_weight: normal
+  line_height: none
+  title_margin_y: 20%
   meta_align: left
   meta: Meta Title
   title: Title
   attached_collection: collections/espn-devin-booker-cover-story.md
   image: ''
-  color: ''
+  color: '#EED2D2'
   show_controls: false
   text_color: ''
-  font_weight: ''
 home_theme_color: "#EDDDDE"
 collection_description: ''
 collection_content: ''

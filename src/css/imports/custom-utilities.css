@@ -486,16 +486,22 @@ a:hover, button:hover {
   opacity: 1;
 }
 
+.figure iframe {
+  will-change: opacity;
+  transition: opacity 0.33s ease-in-out;
+}
+
 figcaption p {
   @apply mb-4;
 }
 
 @media (pointer: fine) {
-  .figure.dimmed img {
+  .figure.dimmed img, .figure.dimmed iframe {
     opacity: 0;
   }
 
-  .figure.dimmed:hover img {
+
+  .figure.dimmed:hover img, .figure.dimmed:hover iframe  {
     opacity: 1;
   }
 

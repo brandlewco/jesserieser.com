@@ -18,9 +18,6 @@ fields:
     min: 
     max: 
     step: 
-- type: file
-  name: image
-  label: Image
 - type: color
   config:
     color_format: Hex
