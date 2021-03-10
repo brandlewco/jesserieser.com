@@ -18,11 +18,11 @@ cover_image = ""
 date = 2021-03-10T20:44:01Z
 hide_footer = true
 layout = "blocks"
-navigation_theme = "white"
+navigation_theme = "black"
 px_extra = true
 row_alignment = "between"
 slug = "collections/runnersworld-halls"
-theme_color = ""
+theme_color = "#E4D1EB"
 theme_color_all_works = ""
 title = "Runner's World "
 [[collection_layout_builder]]
