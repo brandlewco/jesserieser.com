@@ -5,18 +5,42 @@
     <base href="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}">
 
     {{ if eq (relURL .URL) ("/" | safeHTML) }}
-    {{- with .Title | default .Site.Title -}}
-    <title>Jesse Rieser</title>
-    <meta property="og:title" content="{{ . }}" />
-    <meta name="twitter:title" content="{{ . | truncate 70 }}" />
+    {{- with .Title | default .Site.Title  -}}
+    <title>Jesse Rieser Photography</title>
+    <meta property="og:title" content="Jesse Rieser Photography. Phoenix, Arizona." />
+    <meta name="twitter:title" content="Jesse Rieser Photography. Phoenix, Arizona." />
     {{- end -}}
     {{ else }}
-    {{- with .Title | default .Site.Title -}}
-    <title>{{ . }} - Jesse Rieser</title>
-    <meta property="og:title" content="{{ . }}" />
-    <meta name="twitter:title" content="{{ . | truncate 70 }}" />
-    {{- end -}}
+    <title>{{ with .Params.Title }}{{.}}{{end}}{{with .Params.collection_meta}}. {{.}}.{{end}} | Jesse Rieser</title>
+    <meta property="og:title" content="{{ with .Params.Title }}{{.}}{{end}}{{with .Params.collection_meta}}. {{.}}{{end}} | Jesse Rieser" />
+    <meta name="twitter:title" content="{{ with .Params.Title }}{{.}}{{end}}{{with .Params.collection_meta}}. {{.}}{{end}} | Jesse Rieser" />
     {{ end }}
+        
+
+    {{ with .Params.forestry_instant_preview_id }}
+        {{- safeHTML (printf "<meta property='forestry_instant_preview_id' content='%s'>" .) -}}
+    {{ end -}}
+    
+    {{- with .Params.collection_description | default .Site.Title -}}
+    <meta name="description" content="{{. | markdownify}}">
+    <meta property="og:description" content="{{. | markdownify}}">
+    <meta name="twitter:description" content="{{ . | markdownify }}">
+    {{end}}
+
+    {{with .Params.collection_cover }}
+    <meta property="og:image" content="{{.}}?width=1200" />
+    {{end}}
+    {{with .Params.cover_image }}
+    <meta property="og:image" content="{{.}}?width=1200" />
+    {{end}}
+
+
+    <meta name="author" content="{{ .Site.Title }}"/>
+    <!-- <link href='{{ "" | absLangURL }}/favicon.ico' rel='icon' type='image/x-icon'/> -->
+
+    <meta property="og:url" content="{{ .Permalink | absLangURL }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="{{ .Site.Title }}" />
 
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -25,22 +49,7 @@
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-N2ZVNND');</script>
         <!-- End Google Tag Manager -->
-        
 
-    {{ with .Params.forestry_instant_preview_id }}
-        {{- safeHTML (printf "<meta property='forestry_instant_preview_id' content='%s'>" .) -}}
-    {{ end -}}
-    {{- with .Description | default .Params.subtitle | default .Summary -}}
-    <meta name="description" content="{{ . }}">
-    <meta property="og:description" content="{{ . }}">
-    <meta name="twitter:description" content="{{ . | truncate 200 }}">
-    {{- end -}}
-    <meta name="author" content="{{ .Site.Author.name }}"/>
-    <!-- <link href='{{ "" | absLangURL }}/favicon.ico' rel='icon' type='image/x-icon'/> -->
-
-    <meta property="og:url" content="{{ .Permalink | absLangURL }}" />
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="{{ .Site.Title }}" />
     <link rel="canonical" href="{{ .Permalink | absLangURL }}" />
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">

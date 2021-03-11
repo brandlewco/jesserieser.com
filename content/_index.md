@@ -617,7 +617,7 @@ page_sections:
   block_aspect_ratio: ''
   text_size: ''
 home_theme_color: "#EDDDDE"
-collection_description: ''
+collection_description: 'A student of subtleties.'
 collection_content: ''
 cover_image: https://d1sf55qlb7p6hz.cloudfront.net/phoenix-cover-3.jpg
 feature_logo: https://d1sf55qlb7p6hz.cloudfront.net/logo-amtrak-8.png
@@ -645,4 +645,3 @@ selected_works_theme:
 px_extra: false
 
 ---
-## Click the collections link above to preview collections.

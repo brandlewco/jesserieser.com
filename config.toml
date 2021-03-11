@@ -3,6 +3,8 @@ languageCode = "en-us"
 languageLang = "en"
 title = "Jesse Reiser"
 
+description = "A STUDENT OF SUBTLETIES."
+
 # googleAnalytics = "UA-126263795-4"
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
