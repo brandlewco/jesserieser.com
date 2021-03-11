@@ -19,6 +19,19 @@ fields:
   name: feature_cover
   label: Feature Cover Image
   hidden: true
+- name: collection_meta
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: SEO Description
+- type: file
+  name: cover_image
+  label: SEO Cover Image
+  description: This image is what appears in OpenGraph previews and image masks
 - name: selected_works_theme
   type: blocks
   label: Random Featured Image
@@ -86,9 +99,5 @@ fields:
   - block-modal-blog
   - block-media-text
   - block-media-row
-- type: file
-  name: cover_image
-  label: Social Media Card
-  description: This image is what appears in OpenGraph previews and image masks
 pages:
 - content/_index.md
