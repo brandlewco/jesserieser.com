@@ -619,7 +619,7 @@ page_sections:
 home_theme_color: "#EDDDDE"
 collection_description: ''
 collection_content: ''
-cover_image: ''
+cover_image: https://d1sf55qlb7p6hz.cloudfront.net/phoenix-cover-3.jpg
 feature_logo: https://d1sf55qlb7p6hz.cloudfront.net/logo-amtrak-8.png
 feature_cover: https://d1sf55qlb7p6hz.cloudfront.net/timeGC-5.jpg
 feature_description: "Welcome!  \nHere in _Selected Works_ you will find a brief yet
