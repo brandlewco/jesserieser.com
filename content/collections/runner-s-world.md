@@ -290,7 +290,7 @@ margin_y = "100"
 show_controls = false
 template = "block-media-motion"
 vimeo_id = 522112869
-width = "33"
+width = "50"
 [[collection_layout_builder]]
 align_y = "start"
 block = "media-motion"
@@ -300,11 +300,11 @@ color = ""
 image = ""
 margin_left = "0%"
 margin_right = "0%"
-margin_y = "50"
+margin_y = "100"
 show_controls = false
 template = "block-media-motion"
-vimeo_id = 0
-width = "33"
+vimeo_id = "0522113804"
+width = "50"
 [[collection_layout_builder]]
 align_y = "start"
 block = "media-motion"
