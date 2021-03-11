@@ -529,31 +529,6 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: between
-- template: block-media-feature-vimeo
-  block: media-feature-vimeo
-  vimeo_id: '0515559092'
-  width: '20'
-  align_y: start
-  margin_y: '600'
-  margin_left: 10%
-  margin_right: 0%
-  title_margin_left: 0%
-  title_margin_right: 0%
-  text_size: 4xl
-  text_alignment: left
-  text_tracking: normal
-  font_weight: normal
-  line_height: none
-  title_margin_y: 0%
-  meta_align: right
-  meta: a;ldskfj
-  title: Test DB
-  attached_collection: collections/espn-devin-booker-cover-story.md
-  image: ''
-  color: "#EEECD2"
-  show_controls: false
-  text_color: "#85D3A1"
-  block_aspect_ratio: ''
 - template: block-media-feature
   block: media-feature
   width: '60'
@@ -617,7 +592,7 @@ page_sections:
   block_aspect_ratio: ''
   text_size: ''
 home_theme_color: "#EDDDDE"
-collection_description: 'A student of subtleties.'
+collection_description: A student of subtleties.
 collection_content: ''
 cover_image: https://d1sf55qlb7p6hz.cloudfront.net/phoenix-cover-3.jpg
 feature_logo: https://d1sf55qlb7p6hz.cloudfront.net/logo-amtrak-8.png
@@ -643,5 +618,6 @@ selected_works_theme:
   theme_color: "#FF6766"
   image_mobile: https://d1sf55qlb7p6hz.cloudfront.net/vertical_featuredworks-3.jpg
 px_extra: false
+collection_meta: ''
 
 ---
