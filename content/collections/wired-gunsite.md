@@ -71,6 +71,26 @@ row_alignment = "between"
 template = "block-media-row"
 [[collection_layout_builder]]
 align_y = "start"
+background_color = ""
+background_image_toggle = false
+block = "media-text"
+caption_css = ""
+font_weight = "normal"
+image = ""
+image_css = ""
+margin_left = "20%"
+margin_right = "0%"
+margin_y = "50"
+parallax = true
+template = "block-media-text"
+text = "_“You ask yourself, Is my world safe?’_"
+text_alignment = "left"
+text_color = "#000000"
+text_size = "4xl"
+text_tracking = "normal"
+width = "60"
+[[collection_layout_builder]]
+align_y = "start"
 background_color = "#FFFFFF"
 background_image_toggle = false
 block = "media-text"
