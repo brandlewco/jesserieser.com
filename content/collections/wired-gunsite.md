@@ -383,7 +383,7 @@ row_alignment = "between"
 template = "block-media-row"
 [[collection_layout_builder]]
 align_y = "start"
-background_color = "#EACEEF"
+background_color = "#FFFFFF"
 background_image_toggle = false
 block = "media-text"
 caption_css = ""
