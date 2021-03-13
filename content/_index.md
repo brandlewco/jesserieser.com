@@ -5,7 +5,7 @@ date: 2017-11-01T23:00:00.000+00:00
 page_sections:
 - template: block-modal-blog
   block: modal-blog
-  attached_blog: posts/test-blog-posts.md
+  attached_blog: posts/the-photo-banter.md
   block_aspect_ratio: []
   text_size: 2xl
   width: '33'
@@ -14,7 +14,7 @@ page_sections:
   margin_left: 0%
   margin_right: 0%
   title: The Photo Banter
-  color: ''
+  color: "#9DCEE8"
 - template: block-media-row
   block: media-row
   row_alignment: ''
