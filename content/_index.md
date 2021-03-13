@@ -627,13 +627,13 @@ page_sections:
   line_height: normal
   text_alignment: left
   text_tracking: normal
-  font_weight: []
+  font_weight: ''
   meta_align: left
-  image: ''
-  color: ''
+  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-runnersworld-4.jpg
+  color: "#EFD4D4"
   title: ''
   meta: ''
-  attached_collection: ''
+  attached_collection: collections/runner-s-world.md
   text_color: ''
 home_theme_color: "#EDDDDE"
 collection_description: A student of subtleties.
