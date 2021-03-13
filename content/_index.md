@@ -608,7 +608,7 @@ page_sections:
   meta_align: left
   image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-gunsite-34.jpg
   attached_collection: collections/wired-gunsite.md
-  color: ''
+  color: "#EFE7A8"
   title: ''
   meta: ''
   text_color: ''
