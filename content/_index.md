@@ -11,10 +11,10 @@ page_sections:
   width: '40'
   align_y: start
   margin_y: '100'
-  margin_left: 50%
-  margin_right: 0%
+  margin_left: 10%
+  margin_right: 10%
   title_margin_y: 50%
-  title_margin_left: 15%
+  title_margin_left: 10%
   title_margin_right: 0%
   text_size: 6xl
   line_height: normal
@@ -32,10 +32,10 @@ page_sections:
   block: modal-blog
   attached_blog: posts/the-photo-banter.md
   block_aspect_ratio: []
-  text_size: 2xl
+  text_size: 4xl
   width: '25'
   align_y: start
-  margin_y: '50'
+  margin_y: '500'
   margin_left: 0%
   margin_right: 0%
   title: The Photo Banter
