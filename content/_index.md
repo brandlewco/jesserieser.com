@@ -8,6 +8,68 @@ page_sections:
   row_alignment: ''
 - template: block-media-feature
   block: media-feature
+  width: '40'
+  align_y: start
+  margin_y: '100'
+  margin_left: 50%
+  margin_right: 0%
+  title_margin_y: 50%
+  title_margin_left: 15%
+  title_margin_right: 0%
+  text_size: 6xl
+  line_height: normal
+  text_alignment: left
+  text_tracking: normal
+  font_weight: semibold
+  meta_align: right
+  image: https://d1sf55qlb7p6hz.cloudfront.net/espn_booker-18.jpg
+  color: "#B8DFF6"
+  title: ''
+  meta: 'Devin Booker: Becoming Legendary '
+  attached_collection: collections/espn-devin-booker-cover-story.md
+  text_color: "#FFFFFF"
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/the-photo-banter.md
+  block_aspect_ratio: []
+  text_size: 2xl
+  width: '25'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  title: The Photo Banter
+  color: "#E8E09D"
+- template: block-media-row
+  block: media-row
+  row_alignment: between
+- template: block-media-feature
+  block: media-feature
+  width: '60'
+  align_y: start
+  margin_y: '200'
+  margin_left: 25%
+  margin_right: 0%
+  title_margin_y: 70%
+  title_margin_left: 5%
+  title_margin_right: 0%
+  text_size: 7xl
+  line_height: normal
+  text_alignment: left
+  text_tracking: normal
+  font_weight: semibold
+  meta_align: left
+  image: https://d1sf55qlb7p6hz.cloudfront.net/nytimes_metro-29.jpg
+  color: "#FF7F50"
+  title: 'The New York Times '
+  meta: 'Auctioning Off A Dead Mall '
+  attached_collection: collections/the-new-york-times.md
+  text_color: "#FFFFFF"
+- template: block-media-row
+  block: media-row
+  row_alignment: between
+- template: block-media-feature
+  block: media-feature
   width: '33'
   align_y: start
   margin_y: '50'
@@ -43,75 +105,13 @@ page_sections:
   text_alignment: left
   text_tracking: normal
   meta_align: left
-  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-gunsite-10.jpg
+  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-gunsite-27.jpg
   attached_collection: collections/wired-gunsite.md
   color: "#EFE7A8"
   title: ''
   meta: ''
   text_color: ''
   font_weight: ''
-- template: block-media-row
-  block: media-row
-  row_alignment: between
-- template: block-media-feature
-  block: media-feature
-  width: '40'
-  align_y: start
-  margin_y: '100'
-  margin_left: 50%
-  margin_right: 0%
-  title_margin_y: 50%
-  title_margin_left: 15%
-  title_margin_right: 0%
-  text_size: 6xl
-  line_height: normal
-  text_alignment: left
-  text_tracking: normal
-  font_weight: semibold
-  meta_align: right
-  image: https://d1sf55qlb7p6hz.cloudfront.net/espn_booker-18.jpg
-  color: "#B8DFF6"
-  title: ''
-  meta: 'Devin Booker: Becoming Legendary '
-  attached_collection: collections/espn-devin-booker-cover-story.md
-  text_color: "#FFFFFF"
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/the-photo-banter.md
-  block_aspect_ratio: []
-  text_size: 2xl
-  width: '33'
-  align_y: start
-  margin_y: '50'
-  margin_left: 0%
-  margin_right: 0%
-  title: The Photo Banter
-  color: "#9DCEE8"
-- template: block-media-row
-  block: media-row
-  row_alignment: between
-- template: block-media-feature
-  block: media-feature
-  width: '60'
-  align_y: start
-  margin_y: '200'
-  margin_left: 25%
-  margin_right: 0%
-  title_margin_y: 70%
-  title_margin_left: 5%
-  title_margin_right: 0%
-  text_size: 7xl
-  line_height: normal
-  text_alignment: left
-  text_tracking: normal
-  font_weight: semibold
-  meta_align: left
-  image: https://d1sf55qlb7p6hz.cloudfront.net/nytimes_metro-29.jpg
-  color: "#FF7F50"
-  title: 'The New York Times '
-  meta: 'Auctioning Off A Dead Mall '
-  attached_collection: collections/the-new-york-times.md
-  text_color: "#FFFFFF"
 - template: block-media-row
   block: media-row
   row_alignment: ''
