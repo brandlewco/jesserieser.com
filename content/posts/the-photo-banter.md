@@ -9,7 +9,7 @@ caption = ""
 content = ""
 date = ""
 news_category = ["press"]
-theme_color = ""
+theme_color = "#A6D5EE"
 title = "The Photo Banter"
 
 +++
