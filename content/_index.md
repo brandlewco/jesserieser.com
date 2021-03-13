@@ -3,6 +3,68 @@ layout: blocks
 title: Jesse Rieser
 date: 2017-11-01T23:00:00.000+00:00
 page_sections:
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/test-blog-posts.md
+  block_aspect_ratio: []
+  text_size: 2xl
+  width: '33'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  title: The Photo Banter
+  color: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
+- template: block-media-feature
+  block: media-feature
+  width: '33'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  title_margin_y: 35%
+  title_margin_left: 0%
+  title_margin_right: 0%
+  text_size: 2xl
+  line_height: normal
+  text_alignment: left
+  text_tracking: normal
+  font_weight: ''
+  meta_align: left
+  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-runnersworld-4.jpg
+  color: "#EFD4D4"
+  title: ''
+  meta: ''
+  attached_collection: collections/runner-s-world.md
+  text_color: ''
+- template: block-media-feature
+  block: media-feature
+  width: '33'
+  align_y: start
+  margin_y: '100'
+  margin_left: 0%
+  margin_right: 0%
+  title_margin_y: 35%
+  title_margin_left: 0%
+  title_margin_right: 0%
+  text_size: 2xl
+  line_height: normal
+  text_alignment: left
+  text_tracking: normal
+  meta_align: left
+  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-gunsite-10.jpg
+  attached_collection: collections/wired-gunsite.md
+  color: "#EFE7A8"
+  title: ''
+  meta: ''
+  text_color: ''
+  font_weight: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: between
 - template: block-media-feature
   block: media-feature
   width: '40'
@@ -195,7 +257,7 @@ page_sections:
   title_margin_y: 20%
 - template: block-media-row
   block: media-row
-  row_alignment: ''
+  row_alignment: between
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/ap-36-american-photography-annual.md
@@ -591,50 +653,6 @@ page_sections:
   color: "#EED2D2"
   block_aspect_ratio: ''
   text_size: ''
-- template: block-media-feature
-  block: media-feature
-  width: '33'
-  align_y: start
-  margin_y: '100'
-  margin_left: 0%
-  margin_right: 0%
-  title_margin_y: 35%
-  title_margin_left: 0%
-  title_margin_right: 0%
-  text_size: 2xl
-  line_height: normal
-  text_alignment: left
-  text_tracking: normal
-  meta_align: left
-  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-gunsite-34.jpg
-  attached_collection: collections/wired-gunsite.md
-  color: "#EFE7A8"
-  title: ''
-  meta: ''
-  text_color: ''
-  font_weight: ''
-- template: block-media-feature
-  block: media-feature
-  width: '33'
-  align_y: start
-  margin_y: '50'
-  margin_left: 0%
-  margin_right: 0%
-  title_margin_y: 35%
-  title_margin_left: 0%
-  title_margin_right: 0%
-  text_size: 2xl
-  line_height: normal
-  text_alignment: left
-  text_tracking: normal
-  font_weight: ''
-  meta_align: left
-  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-runnersworld-4.jpg
-  color: "#EFD4D4"
-  title: ''
-  meta: ''
-  attached_collection: collections/runner-s-world.md
-  text_color: ''
 home_theme_color: "#EDDDDE"
 collection_description: A student of subtleties.
 collection_content: ''
@@ -661,7 +679,7 @@ selected_works_theme:
   image: https://d1sf55qlb7p6hz.cloudfront.net/selected_featured-3.jpg
   theme_color: "#FF6766"
   image_mobile: https://d1sf55qlb7p6hz.cloudfront.net/vertical_featuredworks-3.jpg
-px_extra: false
+px_extra: true
 collection_meta: ''
 
 ---
