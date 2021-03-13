@@ -1,0 +1,15 @@
++++
+attached_collection = []
+block_aspect_ratio = "ratio-1x1"
+blog_block_cover = "https://d1sf55qlb7p6hz.cloudfront.net/photobanter_JR copy.jpg"
+blog_builder = []
+blog_header = ""
+blog_slider = []
+caption = ""
+content = ""
+date = ""
+news_category = ["press"]
+theme_color = ""
+title = "The Photo Banter"
+
++++
