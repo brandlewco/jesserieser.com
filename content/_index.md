@@ -194,7 +194,7 @@ page_sections:
   title_margin_left: 5%
   title_margin_right: ''
   meta_align: left
-  text_color: "#060606"
+  text_color: "#F781EF"
   text_size: 6xl
   text_alignment: left
   text_tracking: normal
@@ -216,18 +216,6 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: ''
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/christmas-in-america-happy-birthday-jesus.md
-  width: '33'
-  align_y: start
-  margin_y: '100'
-  margin_left: 35%
-  margin_right: 0%
-  title: Xmas Roundup
-  color: "#C5C458"
-  block_aspect_ratio: 11x8.5
-  text_size: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -652,6 +640,18 @@ page_sections:
   title: 'The Fence '
   color: "#EED2D2"
   block_aspect_ratio: ''
+  text_size: ''
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/christmas-in-america-happy-birthday-jesus.md
+  width: '33'
+  align_y: start
+  margin_y: '100'
+  margin_left: 35%
+  margin_right: 0%
+  title: Xmas Roundup
+  color: "#C5C458"
+  block_aspect_ratio: 11x8.5
   text_size: ''
 home_theme_color: "#EDDDDE"
 collection_description: A student of subtleties.
