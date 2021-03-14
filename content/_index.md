@@ -359,7 +359,7 @@ page_sections:
   margin_right: 0%
   title_margin_left: 5%
   title_margin_right: 0%
-  meta_align: left
+  meta_align: right
   title: Amtrak the National
   image: https://d1sf55qlb7p6hz.cloudfront.net/sunset-limited-28.jpg
   color: "#D7F3E6"
@@ -379,8 +379,8 @@ page_sections:
   block: media-feature
   width: '50'
   align_y: start
-  margin_y: '100'
-  margin_left: 5%
+  margin_y: '400'
+  margin_left: 10%
   margin_right: 0%
   title_margin_left: 5%
   title_margin_right: 0%
@@ -390,26 +390,26 @@ page_sections:
   title: "Autobiography of \n\na Contact Sport"
   meta: "2016"
   attached_collection: collections/autobiography.md
-  text_color: "#FFFFFF"
+  text_color: "#ADFBC5"
   text_size: 6xl
   text_alignment: left
   text_tracking: normal
-  font_weight: normal
+  font_weight: semibold
   line_height: none
-  title_margin_y: 20%
+  title_margin_y: 15%
 - template: block-modal-blog
   block: modal-blog
   width: '20'
   align_x: start
   margin_x: '0'
-  margin_y: '200'
+  margin_y: '100'
   title: WaPo
   image: ''
   color: "#fde25e"
   attached_blog: posts/the-changing-landscape-of-america-retail.md
   align_y: ''
   margin_left: 0%
-  margin_right: 15%
+  margin_right: 5%
   block_aspect_ratio: ''
   text_size: ''
 - template: block-media-row
