@@ -198,7 +198,7 @@ page_sections:
   text_size: 6xl
   text_alignment: left
   text_tracking: normal
-  font_weight: normal
+  font_weight: semibold
   line_height: none
   title_margin_y: 15%
 - template: block-modal-blog
@@ -260,7 +260,7 @@ page_sections:
   text_size: ''
 - template: block-media-feature
   block: media-feature
-  width: '45'
+  width: '50'
   align_x: end
   margin_y: '200'
   image: https://d1sf55qlb7p6hz.cloudfront.net/timeGC-5.jpg
@@ -271,77 +271,77 @@ page_sections:
   margin_x: ''
   align_y: ''
   margin_left: 0%
-  margin_right: 25%
-  title_margin_left: 65%
+  margin_right: 20%
+  title_margin_left: 20%
   title_margin_right: ''
   meta_align: right
-  text_color: "#76F498"
+  text_color: "#CEE8D5"
   text_size: 6xl
   text_alignment: left
   text_tracking: ''
   font_weight: semibold
   line_height: none
-  title_margin_y: 20%
+  title_margin_y: 50%
 - template: block-media-row
   block: media-row
   row_alignment: between
 - template: block-media-feature
   block: media-feature
-  width: '33'
+  width: '30'
   align_y: start
-  margin_y: '100'
-  margin_left: 60%
+  margin_y: '400'
+  margin_left: 10%
   margin_right: 0%
-  title_margin_y: 5%
-  title_margin_left: "-10%"
+  title_margin_y: 0%
+  title_margin_left: 5%
   title_margin_right: 0%
   text_size: 6xl
   line_height: normal
   text_alignment: left
   text_tracking: normal
-  meta_align: right
+  meta_align: left
   attached_collection: collections/smartwater.md
   image: https://d1sf55qlb7p6hz.cloudfront.net/smartwater-3.jpg
   color: "#D4DEE7"
   title: Smart Water
   meta: Ben Simmons for Anomaly
-  text_color: "#000000"
-  font_weight: normal
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
+  text_color: "#D9B2E8"
+  font_weight: semibold
 - template: block-media-feature
   block: media-feature
   width: '40'
   align_y: start
   margin_y: '100'
-  margin_left: 15%
-  margin_right: 0%
+  margin_left: 0%
+  margin_right: 5%
   title_margin_left: 5%
   title_margin_right: 0%
-  meta_align: left
+  meta_align: right
   image: https://d1sf55qlb7p6hz.cloudfront.net/bitmain-19.jpg
   title: Wired
   color: "#FFE087"
   meta: 'The Hard Luck Texas Town That Bet on Bitcoin and Lost '
   attached_collection: collections/wired-bitmain.md
-  text_color: "#FFFFFF"
-  text_size: 7xl
+  text_color: "#F8F1BC"
+  text_size: 6xl
   text_alignment: left
   text_tracking: normal
-  font_weight: normal
+  font_weight: semibold
   line_height: none
-  title_margin_y: 10%
+  title_margin_y: 15%
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/star-geezers-on-boooooom.md
-  width: '20'
+  width: '25'
   align_y: start
   margin_y: '50'
-  margin_left: 55%
+  margin_left: 30%
   margin_right: 0%
   title: Star Geezers on BOOOOOOM!
   color: "#FFE7C3"
@@ -355,7 +355,7 @@ page_sections:
   width: '45'
   align_y: start
   margin_y: '100'
-  margin_left: 20%
+  margin_left: 40%
   margin_right: 0%
   title_margin_left: 5%
   title_margin_right: 0%
@@ -365,11 +365,11 @@ page_sections:
   color: "#D7F3E6"
   meta: Palm Springs to Yuma on the Sunset Limited
   attached_collection: collections/amtrak-sunset-limited.md
-  text_color: ''
+  text_color: "#7FF0FF"
   text_size: 6xl
   text_alignment: ''
   text_tracking: normal
-  font_weight: normal
+  font_weight: semibold
   line_height: none
   title_margin_y: 20%
 - template: block-media-row
@@ -440,28 +440,6 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: ''
-- template: block-media-feature
-  block: media-feature
-  width: '45'
-  align_y: start
-  margin_y: '100'
-  margin_left: 10%
-  margin_right: 0%
-  title_margin_y: 45%
-  title_margin_left: 5%
-  title_margin_right: 0%
-  text_size: 6xl
-  line_height: none
-  text_alignment: left
-  text_tracking: normal
-  font_weight: normal
-  meta_align: left
-  image: https://d1sf55qlb7p6hz.cloudfront.net/ice-1.jpg
-  color: "#BFBFBF"
-  meta: Ice T Ich Habe Einen Traum
-  title: ZeitMagazin
-  attached_collection: collections/collections-ice-t.md
-  text_color: "#FFFFFF"
 - template: block-media-feature
   block: media-feature
   width: '30'
@@ -631,6 +609,9 @@ page_sections:
   color: "#C5C458"
   block_aspect_ratio: 11x8.5
   text_size: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: between
 - template: block-media-feature
   block: media-feature
   width: '45'
@@ -653,6 +634,28 @@ page_sections:
   font_weight: normal
   line_height: none
   title_margin_y: 20%
+- template: block-media-feature
+  block: media-feature
+  width: '45'
+  align_y: start
+  margin_y: '100'
+  margin_left: 10%
+  margin_right: 0%
+  title_margin_y: 45%
+  title_margin_left: 5%
+  title_margin_right: 0%
+  text_size: 6xl
+  line_height: none
+  text_alignment: left
+  text_tracking: normal
+  font_weight: normal
+  meta_align: left
+  image: https://d1sf55qlb7p6hz.cloudfront.net/ice-1.jpg
+  color: "#BFBFBF"
+  meta: Ice T Ich Habe Einen Traum
+  title: ZeitMagazin
+  attached_collection: collections/collections-ice-t.md
+  text_color: "#FFFFFF"
 home_theme_color: "#EDDDDE"
 collection_description: A student of subtleties.
 collection_content: ''
