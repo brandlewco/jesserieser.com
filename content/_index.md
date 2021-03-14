@@ -8,7 +8,7 @@ page_sections:
   width: '40'
   align_y: start
   margin_y: '100'
-  margin_left: 30%
+  margin_left: 50%
   margin_right: 0%
   title_margin_y: 50%
   title_margin_left: 10%
@@ -33,7 +33,7 @@ page_sections:
   width: '60'
   align_y: start
   margin_y: '100'
-  margin_left: 25%
+  margin_left: 20%
   margin_right: 0%
   title_margin_y: 70%
   title_margin_left: 5%
@@ -55,7 +55,7 @@ page_sections:
   row_alignment: between
 - template: block-media-feature
   block: media-feature
-  width: '55'
+  width: '50'
   align_y: start
   margin_y: '100'
   margin_left: 10%
