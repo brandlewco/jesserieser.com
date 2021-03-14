@@ -379,8 +379,8 @@ page_sections:
   block: media-feature
   width: '50'
   align_y: start
-  margin_y: '400'
-  margin_left: 10%
+  margin_y: '500'
+  margin_left: 15%
   margin_right: 0%
   title_margin_left: 5%
   title_margin_right: 0%
@@ -420,7 +420,7 @@ page_sections:
   width: '40'
   align_y: ''
   margin_y: '100'
-  margin_left: 40%
+  margin_left: 0%
   margin_right: ''
   title_margin_left: 5%
   title_margin_right: ''
@@ -437,23 +437,20 @@ page_sections:
   font_weight: semibold
   line_height: none
   title_margin_y: 20%
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
 - template: block-media-feature
   block: media-feature
-  width: '30'
+  width: '25'
   align_x: start
   image: https://d1sf55qlb7p6hz.cloudfront.net/backpage-3.jpg
   title: 'Wired '
-  color: "#F9DAD0"
-  margin_y: '100'
+  color: "#F1D0F9"
+  margin_y: '500'
   attached_collection: collections/wired.md
   meta: Backpage.com Cover Story
   margin_x: ''
   align_y: ''
-  margin_left: 70%
-  margin_right: 10%
+  margin_left: 0%
+  margin_right: 25%
   title_margin_left: 30%
   title_margin_right: ''
   meta_align: right
@@ -464,6 +461,9 @@ page_sections:
   font_weight: semibold
   line_height: none
   title_margin_y: 5%
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
 - template: block-media-row
   block: media-row
   row_alignment: between
