@@ -8,7 +8,7 @@ caption = ""
 content = "Podcast"
 date = ""
 news_category = ["press"]
-theme_color = "#A6D5EE"
+theme_color = "#FFCF85"
 title = "The Photo Banter"
 [[blog_slider]]
 block = "media-element-url"
