@@ -159,14 +159,14 @@ page_sections:
   margin_y: '100'
   margin_left: 30%
   margin_right: 0%
-  title_margin_left: 5%
+  title_margin_left: "-75%"
   title_margin_right: 0%
-  meta_align: left
+  meta_align: right
   image: https://d1sf55qlb7p6hz.cloudfront.net/retail-cover-1.jpg
   color: "#F2ECDF"
   attached_collection: collections/retail.md
   meta: 2015 - 2018
-  title: "The Changing Landscape \n\nof American Retail"
+  title: "The Changing \n\nLandscape of \n\nAmerican Retail"
   text_color: "#B7FEAE"
   text_size: 6xl
   text_alignment: left
