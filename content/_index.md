@@ -159,20 +159,20 @@ page_sections:
   margin_y: '100'
   margin_left: 30%
   margin_right: 0%
-  title_margin_left: "-30%"
+  title_margin_left: "-5%"
   title_margin_right: 0%
   meta_align: left
   image: https://d1sf55qlb7p6hz.cloudfront.net/retail-cover-1.jpg
   color: "#F2ECDF"
   attached_collection: collections/retail.md
   meta: 2015 - 2018
-  title: "The Changing \n\nLandscape of \n\nAmerican Retail"
+  title: "The Changing Landscape \n\nof American Retail"
   text_color: "#B7FEAE"
-  text_size: 7xl
+  text_size: 6xl
   text_alignment: left
   text_tracking: widest
-  font_weight: normal
-  line_height: none
+  font_weight: semibold
+  line_height: tight
   title_margin_y: 10%
 - template: block-media-row
   block: media-row
@@ -191,7 +191,7 @@ page_sections:
   align_y: ''
   margin_left: 20%
   margin_right: 0%
-  title_margin_left: 0%
+  title_margin_left: 5%
   title_margin_right: ''
   meta_align: left
   text_color: "#F7EE81"
@@ -236,11 +236,11 @@ page_sections:
   title_margin_left: 70%
   title_margin_right: ''
   meta_align: left
-  text_color: ''
+  text_color: "#F38EFF"
   text_size: 6xl
   text_alignment: left
   text_tracking: normal
-  font_weight: normal
+  font_weight: semibold
   line_height: none
   title_margin_y: 20%
 - template: block-media-row
