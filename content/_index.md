@@ -159,7 +159,7 @@ page_sections:
   margin_y: '100'
   margin_left: 30%
   margin_right: 0%
-  title_margin_left: "-75%"
+  title_margin_left: "-20%"
   title_margin_right: 0%
   meta_align: right
   image: https://d1sf55qlb7p6hz.cloudfront.net/retail-cover-1.jpg
@@ -262,7 +262,7 @@ page_sections:
   block: media-feature
   width: '45'
   align_x: end
-  margin_y: '300'
+  margin_y: '200'
   image: https://d1sf55qlb7p6hz.cloudfront.net/timeGC-5.jpg
   title: 'Time '
   color: "#fdcfb1"
@@ -271,17 +271,17 @@ page_sections:
   margin_x: ''
   align_y: ''
   margin_left: 0%
-  margin_right: 5%
+  margin_right: 25%
   title_margin_left: 65%
   title_margin_right: ''
-  meta_align: left
-  text_color: ''
+  meta_align: right
+  text_color: "#76F498"
   text_size: 6xl
   text_alignment: left
   text_tracking: ''
-  font_weight: normal
+  font_weight: semibold
   line_height: none
-  title_margin_y: 45%
+  title_margin_y: 20%
 - template: block-media-row
   block: media-row
   row_alignment: between
