@@ -159,7 +159,7 @@ page_sections:
   margin_y: '100'
   margin_left: 30%
   margin_right: 0%
-  title_margin_left: "-5%"
+  title_margin_left: 5%
   title_margin_right: 0%
   meta_align: left
   image: https://d1sf55qlb7p6hz.cloudfront.net/retail-cover-1.jpg
