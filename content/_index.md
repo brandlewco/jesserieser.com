@@ -428,13 +428,13 @@ page_sections:
   image: https://d1sf55qlb7p6hz.cloudfront.net/adicross-12.jpg
   color: "#D1D1D1"
   attached_collection: collections/adidas-golf.md
-  title: Adidas Golf
+  title: adidas Golf
   meta: 'Dustin Johnson, Xander Schaufelle, & Sergio Garcia '
-  text_color: "#FFFFFF"
+  text_color: "#FFE6A8"
   text_size: 6xl
   text_alignment: left
   text_tracking: normal
-  font_weight: normal
+  font_weight: semibold
   line_height: none
   title_margin_y: 20%
 - template: block-media-row
