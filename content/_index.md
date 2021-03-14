@@ -49,7 +49,7 @@ page_sections:
   title: 'The New York Times '
   meta: 'Auctioning Off A Dead Mall '
   attached_collection: collections/the-new-york-times.md
-  text_color: "#FFA759"
+  text_color: "#FFFFFF"
 - template: block-media-row
   block: media-row
   row_alignment: between
@@ -60,10 +60,10 @@ page_sections:
   margin_y: '100'
   margin_left: 5%
   margin_right: 0%
-  title_margin_y: 35%
-  title_margin_left: 0%
+  title_margin_y: 25%
+  title_margin_left: 5%
   title_margin_right: 0%
-  text_size: 2xl
+  text_size: 6xl
   line_height: normal
   text_alignment: left
   text_tracking: normal
@@ -71,9 +71,9 @@ page_sections:
   image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-gunsite-27.jpg
   attached_collection: collections/wired-gunsite.md
   color: "#EFE7A8"
-  title: ''
-  meta: ''
-  text_color: ''
+  title: 'Wired '
+  meta: I Am Not a Soldier but I Have Been Trained to Kill
+  text_color: "#FFB8FE"
   font_weight: ''
 - template: block-modal-blog
   block: modal-blog
@@ -97,10 +97,10 @@ page_sections:
   margin_y: '100'
   margin_left: 35%
   margin_right: 0%
-  title_margin_y: 50%
-  title_margin_left: 0%
+  title_margin_y: 35%
+  title_margin_left: "-70%"
   title_margin_right: 0%
-  text_size: 2xl
+  text_size: 6xl
   line_height: normal
   text_alignment: left
   text_tracking: normal
@@ -108,10 +108,10 @@ page_sections:
   meta_align: left
   image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-runnersworld-4.jpg
   color: "#EFD4D4"
-  title: ''
-  meta: ''
+  title: 'Runner''s World '
+  meta: The Reinvention of Ryan and Sara Hall
   attached_collection: collections/runner-s-world.md
-  text_color: ''
+  text_color: "#FFCD50"
 - template: block-media-row
   block: media-row
   row_alignment: ''
