@@ -469,10 +469,10 @@ page_sections:
   row_alignment: between
 - template: block-media-feature
   block: media-feature
-  width: '50'
+  width: '45'
   align_y: start
   margin_y: '100'
-  margin_left: 25%
+  margin_left: 20%
   margin_right: 0%
   title_margin_left: 5%
   title_margin_right: 0%
@@ -485,13 +485,53 @@ page_sections:
 
     Serial Killer
   color: "#C0D0E0"
-  text_color: ''
+  text_color: "#FFE762"
   text_size: 6xl
   text_alignment: left
   text_tracking: normal
-  font_weight: normal
+  font_weight: semibold
+  line_height: tight
+  title_margin_y: 10%
+- template: block-media-row
+  block: media-row
+  row_alignment: between
+- template: block-media-feature
+  block: media-feature
+  width: '40'
+  align_y: start
+  margin_y: '100'
+  margin_left: 5%
+  margin_right: 0%
+  title_margin_left: 5%
+  title_margin_right: 0%
+  meta_align: left
+  image: https://d1sf55qlb7p6hz.cloudfront.net/_JR_8055.jpg
+  title: |-
+    Outside
+
+    Magazine
+  color: "#FFB4B4"
+  attached_collection: collections/outside-magazine-rob-krar.md
+  meta: Rob Krar Running in the Dark
+  text_color: "#93EDC9"
+  text_size: 6xl
+  text_alignment: left
+  text_tracking: normal
+  font_weight: semibold
   line_height: none
-  title_margin_y: 15%
+  title_margin_y: 20%
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/the-changing-landscape-of-american-retail-1.md
+  width: '20'
+  align_y: start
+  margin_y: '400'
+  margin_left: 0%
+  margin_right: 25%
+  title: 'The Fence '
+  color: "#EED2D2"
+  block_aspect_ratio: ''
+  text_size: ''
 - template: block-media-row
   block: media-row
   row_alignment: between
@@ -513,10 +553,10 @@ page_sections:
   image: https://d1sf55qlb7p6hz.cloudfront.net/wsj_robot-1.jpg
   color: "#EF7484"
   meta: The Scanalyzer
-  title: The Wall Street Journal
+  title: WSJ
   attached_collection: collections/collections-wall-street-journal-robot.md
-  font_weight: normal
-  text_color: "#FFFFFF"
+  font_weight: semibold
+  text_color: "#B7FFC0"
 - template: block-media-row
   block: media-row
   row_alignment: between
@@ -534,69 +574,10 @@ page_sections:
   text_size: ''
 - template: block-media-row
   block: media-row
-  row_alignment: between
-- template: block-media-feature
-  block: media-feature
-  width: '60'
-  align_y: start
-  margin_y: '100'
-  margin_left: 20%
-  margin_right: 0%
-  title_margin_left: 50%
-  title_margin_right: 0%
-  meta_align: left
-  attached_collection: collections/amtrak-southwest-chief.md
-  image: https://d1sf55qlb7p6hz.cloudfront.net/swchief-8.jpg
-  meta: On the Southwest Chief
-  title: Amtrak the National
-  color: "#F5ECE3"
-  text_color: ''
-  text_size: 6xl
-  text_alignment: left
-  text_tracking: normal
-  font_weight: normal
-  line_height: none
-  title_margin_y: 25%
+  row_alignment: ''
 - template: block-media-row
   block: media-row
-  row_alignment: ''
-- template: block-media-feature
-  block: media-feature
-  width: '40'
-  align_y: start
-  margin_y: '100'
-  margin_left: 5%
-  margin_right: 0%
-  title_margin_left: 5%
-  title_margin_right: 0%
-  meta_align: left
-  image: https://d1sf55qlb7p6hz.cloudfront.net/_JR_8055.jpg
-  title: |-
-    Outside
-
-    Magazine
-  color: "#FFB4B4"
-  attached_collection: collections/outside-magazine-rob-krar.md
-  meta: Rob Krar Running in the Dark
-  text_color: ''
-  text_size: 6xl
-  text_alignment: left
-  text_tracking: normal
-  font_weight: normal
-  line_height: none
-  title_margin_y: 20%
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/the-changing-landscape-of-american-retail-1.md
-  width: '20'
-  align_y: start
-  margin_y: '400'
-  margin_left: 0%
-  margin_right: 25%
-  title: 'The Fence '
-  color: "#EED2D2"
-  block_aspect_ratio: ''
-  text_size: ''
+  row_alignment: between
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/christmas-in-america-happy-birthday-jesus.md
@@ -656,6 +637,28 @@ page_sections:
   title: ZeitMagazin
   attached_collection: collections/collections-ice-t.md
   text_color: "#FFFFFF"
+- template: block-media-feature
+  block: media-feature
+  width: '60'
+  align_y: start
+  margin_y: '100'
+  margin_left: 20%
+  margin_right: 0%
+  title_margin_left: 50%
+  title_margin_right: 0%
+  meta_align: left
+  attached_collection: collections/amtrak-southwest-chief.md
+  image: https://d1sf55qlb7p6hz.cloudfront.net/swchief-8.jpg
+  meta: On the Southwest Chief
+  title: Amtrak the National
+  color: "#F5ECE3"
+  text_color: ''
+  text_size: 6xl
+  text_alignment: left
+  text_tracking: normal
+  font_weight: normal
+  line_height: none
+  title_margin_y: 25%
 home_theme_color: "#EDDDDE"
 collection_description: A student of subtleties.
 collection_content: ''
