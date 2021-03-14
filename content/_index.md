@@ -98,20 +98,20 @@ page_sections:
   margin_left: 35%
   margin_right: 0%
   title_margin_y: 35%
-  title_margin_left: "-70%"
+  title_margin_left: "-40%"
   title_margin_right: 0%
   text_size: 6xl
   line_height: normal
   text_alignment: left
   text_tracking: normal
   font_weight: ''
-  meta_align: left
+  meta_align: right
   image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-runnersworld-4.jpg
   color: "#EFD4D4"
   title: 'Runner''s World '
   meta: The Reinvention of Ryan and Sara Hall
   attached_collection: collections/runner-s-world.md
-  text_color: "#FFCD50"
+  text_color: "#FFC150"
 - template: block-media-row
   block: media-row
   row_alignment: ''
