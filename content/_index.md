@@ -420,7 +420,7 @@ page_sections:
   width: '40'
   align_y: ''
   margin_y: '100'
-  margin_left: 35%
+  margin_left: 40%
   margin_right: ''
   title_margin_left: 5%
   title_margin_right: ''
@@ -430,7 +430,7 @@ page_sections:
   attached_collection: collections/adidas-golf.md
   title: adidas Golf
   meta: 'Dustin Johnson, Xander Schaufelle, & Sergio Garcia '
-  text_color: "#FFE6A8"
+  text_color: "#FDABAB"
   text_size: 6xl
   text_alignment: left
   text_tracking: normal
@@ -446,22 +446,22 @@ page_sections:
   align_x: start
   image: https://d1sf55qlb7p6hz.cloudfront.net/backpage-3.jpg
   title: 'Wired '
-  color: "#b9a49e"
-  margin_y: '700'
+  color: "#F9DAD0"
+  margin_y: '100'
   attached_collection: collections/wired.md
   meta: Backpage.com Cover Story
   margin_x: ''
   align_y: ''
-  margin_left: 0%
+  margin_left: 70%
   margin_right: 10%
-  title_margin_left: 35%
+  title_margin_left: 30%
   title_margin_right: ''
   meta_align: right
-  text_color: ''
+  text_color: "#FF5676"
   text_size: 6xl
   text_alignment: left
   text_tracking: normal
-  font_weight: normal
+  font_weight: semibold
   line_height: none
   title_margin_y: 5%
 - template: block-media-row
