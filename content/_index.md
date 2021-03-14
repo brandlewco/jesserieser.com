@@ -21,7 +21,7 @@ page_sections:
   meta_align: right
   image: https://d1sf55qlb7p6hz.cloudfront.net/espn_booker-18.jpg
   color: "#B8DFF6"
-  title: 'ESPN Cover Story '
+  title: ''
   meta: 'Devin Booker: Becoming Legendary '
   attached_collection: collections/espn-devin-booker-cover-story.md
   text_color: "#E4CAFA"
@@ -424,7 +424,7 @@ page_sections:
   margin_right: ''
   title_margin_left: 5%
   title_margin_right: ''
-  meta_align: right
+  meta_align: left
   image: https://d1sf55qlb7p6hz.cloudfront.net/adicross-12.jpg
   color: "#CAFBD6"
   attached_collection: collections/adidas-golf.md
