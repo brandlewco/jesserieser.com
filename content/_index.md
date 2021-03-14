@@ -189,18 +189,18 @@ page_sections:
   meta: 2010 -  2019
   margin_x: ''
   align_y: ''
-  margin_left: 10%
+  margin_left: 20%
   margin_right: 0%
-  title_margin_left: 5%
+  title_margin_left: 0%
   title_margin_right: ''
   meta_align: left
-  text_color: "#F781EF"
+  text_color: "#F7EE81"
   text_size: 6xl
   text_alignment: left
   text_tracking: normal
   font_weight: normal
   line_height: none
-  title_margin_y: 20%
+  title_margin_y: 15%
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/klompching-gallery-fresh.md
@@ -261,25 +261,27 @@ page_sections:
 - template: block-media-feature
   block: media-feature
   width: '45'
-  align_y: start
+  align_x: end
   margin_y: '300'
+  image: https://d1sf55qlb7p6hz.cloudfront.net/timeGC-5.jpg
+  title: 'Time '
+  color: "#fdcfb1"
+  attached_collection: collections/time.md
+  meta: Grand Canyon 100th Anniversary 
+  margin_x: ''
+  align_y: ''
   margin_left: 0%
-  margin_right: 25%
-  title_margin_left: 50%
+  margin_right: 5%
+  title_margin_left: 65%
   title_margin_right: ''
   meta_align: left
-  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser_phx-HI-22.jpg
-  color: "#CBEEE5"
-  title: 'Skeleton Party '
-  meta: Portfolio Overview of Work Made with Skeleton Crews
-  attached_collection: collections/skeleton-party.md
-  text_color: "#FFFFFF"
+  text_color: ''
   text_size: 6xl
-  text_alignment: center
-  text_tracking: normal
+  text_alignment: left
+  text_tracking: ''
   font_weight: normal
   line_height: none
-  title_margin_y: 20%
+  title_margin_y: 45%
 - template: block-media-row
   block: media-row
   row_alignment: between
@@ -330,30 +332,6 @@ page_sections:
   font_weight: normal
   line_height: none
   title_margin_y: 10%
-- template: block-media-feature
-  block: media-feature
-  width: '30'
-  align_x: end
-  margin_y: '600'
-  image: https://d1sf55qlb7p6hz.cloudfront.net/timeGC-5.jpg
-  title: 'Time '
-  color: "#fdcfb1"
-  attached_collection: collections/time.md
-  meta: Grand Canyon 100th Anniversary 
-  margin_x: ''
-  align_y: ''
-  margin_left: 0%
-  margin_right: 5%
-  title_margin_left: 65%
-  title_margin_right: ''
-  meta_align: left
-  text_color: ''
-  text_size: 6xl
-  text_alignment: left
-  text_tracking: ''
-  font_weight: normal
-  line_height: none
-  title_margin_y: 45%
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -653,6 +631,28 @@ page_sections:
   color: "#C5C458"
   block_aspect_ratio: 11x8.5
   text_size: ''
+- template: block-media-feature
+  block: media-feature
+  width: '45'
+  align_y: start
+  margin_y: '300'
+  margin_left: 0%
+  margin_right: 25%
+  title_margin_left: 50%
+  title_margin_right: ''
+  meta_align: left
+  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser_phx-HI-22.jpg
+  color: "#CBEEE5"
+  title: 'Skeleton Party '
+  meta: Portfolio Overview of Work Made with Skeleton Crews
+  attached_collection: collections/skeleton-party.md
+  text_color: "#FFFFFF"
+  text_size: 6xl
+  text_alignment: center
+  text_tracking: normal
+  font_weight: normal
+  line_height: none
+  title_margin_y: 20%
 home_theme_color: "#EDDDDE"
 collection_description: A student of subtleties.
 collection_content: ''
