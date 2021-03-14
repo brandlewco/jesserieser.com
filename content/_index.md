@@ -35,21 +35,21 @@ page_sections:
   margin_y: '100'
   margin_left: 20%
   margin_right: 0%
-  title_margin_y: 70%
+  title_margin_y: 40%
   title_margin_left: 5%
   title_margin_right: 0%
   text_size: 6xl
   line_height: normal
   text_alignment: left
   text_tracking: normal
-  font_weight: normal
+  font_weight: semibold
   meta_align: left
   image: https://d1sf55qlb7p6hz.cloudfront.net/nytimes_metro-29.jpg
   color: "#FFB697"
   title: 'The New York Times '
   meta: 'Auctioning Off A Dead Mall '
   attached_collection: collections/the-new-york-times.md
-  text_color: "#FFFFFF"
+  text_color: "#FF602D"
 - template: block-media-row
   block: media-row
   row_alignment: between
@@ -74,7 +74,7 @@ page_sections:
   title: 'Wired '
   meta: I Am Not a Soldier but I Have Been Trained to Kill
   text_color: "#FFB8FE"
-  font_weight: ''
+  font_weight: semibold
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/the-photo-banter.md
@@ -136,7 +136,7 @@ page_sections:
   text_alignment: left
   line_height: normal
   title: "Phoenix: \n\nA Dystopian Legoland\n\nThat Tastes Like Candy"
-  text_color: "#FFFFFF"
+  text_color: "#FFFA8A"
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/sunset-spot.md
@@ -167,7 +167,7 @@ page_sections:
   attached_collection: collections/retail.md
   meta: 2015 - 2018
   title: "The Changing \n\nLandscape of \n\nAmerican Retail"
-  text_color: "#BFF5B9"
+  text_color: "#B7FEAE"
   text_size: 7xl
   text_alignment: left
   text_tracking: widest
