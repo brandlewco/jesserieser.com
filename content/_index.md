@@ -7,11 +7,11 @@ page_sections:
   block: media-feature
   width: '40'
   align_y: start
-  margin_y: '100'
+  margin_y: '200'
   margin_left: 50%
   margin_right: 0%
   title_margin_y: 50%
-  title_margin_left: 10%
+  title_margin_left: "-100%"
   title_margin_right: 0%
   text_size: 6xl
   line_height: normal
@@ -21,19 +21,19 @@ page_sections:
   meta_align: right
   image: https://d1sf55qlb7p6hz.cloudfront.net/espn_booker-18.jpg
   color: "#B8DFF6"
-  title: ''
+  title: 'ESPN Cover Story '
   meta: 'Devin Booker: Becoming Legendary '
   attached_collection: collections/espn-devin-booker-cover-story.md
-  text_color: "#FFFFFF"
+  text_color: "#B3F1BF"
 - template: block-media-row
   block: media-row
   row_alignment: between
 - template: block-media-feature
   block: media-feature
-  width: '60'
+  width: '55'
   align_y: start
   margin_y: '100'
-  margin_left: 15%
+  margin_left: 20%
   margin_right: 0%
   title_margin_y: 70%
   title_margin_left: 5%
@@ -92,10 +92,10 @@ page_sections:
   row_alignment: ''
 - template: block-media-feature
   block: media-feature
-  width: '40'
+  width: '33'
   align_y: start
   margin_y: '100'
-  margin_left: 45%
+  margin_left: 35%
   margin_right: 0%
   title_margin_y: 50%
   title_margin_left: 0%
