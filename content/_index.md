@@ -11,13 +11,13 @@ page_sections:
   margin_left: 50%
   margin_right: 0%
   title_margin_y: 50%
-  title_margin_left: "-100%"
+  title_margin_left: "-80%"
   title_margin_right: 0%
   text_size: 6xl
   line_height: ''
   text_alignment: left
   text_tracking: normal
-  font_weight: normal
+  font_weight: semibold
   meta_align: right
   image: https://d1sf55qlb7p6hz.cloudfront.net/espn_booker-18.jpg
   color: "#B8DFF6"
@@ -38,18 +38,18 @@ page_sections:
   title_margin_y: 70%
   title_margin_left: 5%
   title_margin_right: 0%
-  text_size: 7xl
+  text_size: 6xl
   line_height: normal
   text_alignment: left
   text_tracking: normal
-  font_weight: semibold
+  font_weight: normal
   meta_align: left
   image: https://d1sf55qlb7p6hz.cloudfront.net/nytimes_metro-29.jpg
   color: "#FFB697"
   title: 'The New York Times '
   meta: 'Auctioning Off A Dead Mall '
   attached_collection: collections/the-new-york-times.md
-  text_color: "#FFFFFF"
+  text_color: "#ED6699"
 - template: block-media-row
   block: media-row
   row_alignment: between
