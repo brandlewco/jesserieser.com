@@ -97,7 +97,7 @@ page_sections:
   margin_y: '100'
   margin_left: 35%
   margin_right: 0%
-  title_margin_y: 15%
+  title_margin_y: 5%
   title_margin_left: "-40%"
   title_margin_right: 0%
   text_size: 6xl
@@ -119,7 +119,7 @@ page_sections:
   block: media-feature
   width: '33'
   align_y: start
-  margin_y: '200'
+  margin_y: '100'
   margin_left: 10%
   margin_right: 0%
   title_margin_left: 5%
