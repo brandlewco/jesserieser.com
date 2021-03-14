@@ -167,13 +167,13 @@ page_sections:
   attached_collection: collections/retail.md
   meta: 2015 - 2018
   title: "The Changing \n\nLandscape of \n\nAmerican Retail"
-  text_color: "#000000"
+  text_color: "#BFF5B9"
   text_size: 7xl
   text_alignment: left
   text_tracking: widest
   font_weight: normal
   line_height: none
-  title_margin_y: 25%
+  title_margin_y: 10%
 - template: block-media-row
   block: media-row
   row_alignment: between
