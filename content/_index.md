@@ -511,7 +511,7 @@ page_sections:
   block: media-feature
   width: '25'
   align_y: start
-  margin_y: '200'
+  margin_y: '100'
   margin_left: 0%
   margin_right: 20%
   title_margin_y: 10%
@@ -521,14 +521,14 @@ page_sections:
   line_height: none
   text_alignment: left
   text_tracking: normal
-  meta_align: left
+  meta_align: right
   image: https://d1sf55qlb7p6hz.cloudfront.net/wsj_robot-1.jpg
   color: "#F7F094"
   meta: The Scanalyzer
   title: WSJ
   attached_collection: collections/collections-wall-street-journal-robot.md
   font_weight: semibold
-  text_color: "#B7FFC0"
+  text_color: "#B7FFEF"
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -537,7 +537,7 @@ page_sections:
   width: '40'
   align_y: start
   margin_y: '100'
-  margin_left: 5%
+  margin_left: 0%
   margin_right: 0%
   title_margin_left: 5%
   title_margin_right: 0%
@@ -564,7 +564,7 @@ page_sections:
   align_y: start
   margin_y: '400'
   margin_left: 0%
-  margin_right: 25%
+  margin_right: 35%
   title: 'The Fence '
   color: "#EED2D2"
   block_aspect_ratio: ''
@@ -572,19 +572,13 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: between
-- template: block-media-row
-  block: media-row
-  row_alignment: between
-- template: block-media-row
-  block: media-row
-  row_alignment: between
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/christmas-in-america-happy-birthday-jesus.md
-  width: '33'
+  width: '30'
   align_y: start
   margin_y: '100'
-  margin_left: 35%
+  margin_left: 30%
   margin_right: 0%
   title: Xmas Roundup
   color: "#C5C458"
@@ -593,72 +587,12 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: between
-- template: block-media-feature
-  block: media-feature
-  width: '45'
-  align_y: start
-  margin_y: '300'
-  margin_left: 0%
-  margin_right: 25%
-  title_margin_left: 50%
-  title_margin_right: ''
-  meta_align: left
-  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser_phx-HI-22.jpg
-  color: "#CBEEE5"
-  title: 'Skeleton Party '
-  meta: Portfolio Overview of Work Made with Skeleton Crews
-  attached_collection: collections/skeleton-party.md
-  text_color: "#FFFFFF"
-  text_size: 6xl
-  text_alignment: center
-  text_tracking: normal
-  font_weight: normal
-  line_height: none
-  title_margin_y: 20%
-- template: block-media-feature
-  block: media-feature
-  width: '45'
-  align_y: start
-  margin_y: '100'
-  margin_left: 10%
-  margin_right: 0%
-  title_margin_y: 45%
-  title_margin_left: 5%
-  title_margin_right: 0%
-  text_size: 6xl
-  line_height: none
-  text_alignment: left
-  text_tracking: normal
-  font_weight: normal
-  meta_align: left
-  image: https://d1sf55qlb7p6hz.cloudfront.net/ice-1.jpg
-  color: "#BFBFBF"
-  meta: Ice T Ich Habe Einen Traum
-  title: ZeitMagazin
-  attached_collection: collections/collections-ice-t.md
-  text_color: "#FFFFFF"
-- template: block-media-feature
-  block: media-feature
-  width: '60'
-  align_y: start
-  margin_y: '100'
-  margin_left: 20%
-  margin_right: 0%
-  title_margin_left: 50%
-  title_margin_right: 0%
-  meta_align: left
-  attached_collection: collections/amtrak-southwest-chief.md
-  image: https://d1sf55qlb7p6hz.cloudfront.net/swchief-8.jpg
-  meta: On the Southwest Chief
-  title: Amtrak the National
-  color: "#F5ECE3"
-  text_color: ''
-  text_size: 6xl
-  text_alignment: left
-  text_tracking: normal
-  font_weight: normal
-  line_height: none
-  title_margin_y: 25%
+- template: block-media-row
+  block: media-row
+  row_alignment: between
+- template: block-media-row
+  block: media-row
+  row_alignment: between
 home_theme_color: "#EDDDDE"
 collection_description: A student of subtleties.
 collection_content: ''
