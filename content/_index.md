@@ -10,8 +10,8 @@ page_sections:
   margin_y: '200'
   margin_left: 50%
   margin_right: 0%
-  title_margin_y: 50%
-  title_margin_left: "-80%"
+  title_margin_y: 30%
+  title_margin_left: "-75%"
   title_margin_right: 0%
   text_size: 6xl
   line_height: ''
@@ -24,7 +24,7 @@ page_sections:
   title: 'ESPN Cover Story '
   meta: 'Devin Booker: Becoming Legendary '
   attached_collection: collections/espn-devin-booker-cover-story.md
-  text_color: "#97EC95"
+  text_color: "#E4CAFA"
 - template: block-media-row
   block: media-row
   row_alignment: between
@@ -35,7 +35,7 @@ page_sections:
   margin_y: '100'
   margin_left: 20%
   margin_right: 0%
-  title_margin_y: 40%
+  title_margin_y: 75%
   title_margin_left: 5%
   title_margin_right: 0%
   text_size: 6xl
@@ -49,7 +49,7 @@ page_sections:
   title: 'The New York Times '
   meta: 'Auctioning Off A Dead Mall '
   attached_collection: collections/the-new-york-times.md
-  text_color: "#FF602D"
+  text_color: "#CFF9BE"
 - template: block-media-row
   block: media-row
   row_alignment: between
@@ -104,14 +104,14 @@ page_sections:
   line_height: normal
   text_alignment: left
   text_tracking: normal
-  font_weight: ''
+  font_weight: semibold
   meta_align: right
   image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-runnersworld-4.jpg
   color: "#EFD4D4"
   title: 'Runner''s World '
   meta: The Reinvention of Ryan and Sara Hall
   attached_collection: collections/runner-s-world.md
-  text_color: "#FFC150"
+  text_color: "#FDDA70"
 - template: block-media-row
   block: media-row
   row_alignment: ''
