@@ -33,7 +33,7 @@ page_sections:
   width: '60'
   align_y: start
   margin_y: '100'
-  margin_left: 40%
+  margin_left: 25%
   margin_right: 0%
   title_margin_y: 70%
   title_margin_left: 5%
@@ -55,7 +55,7 @@ page_sections:
   row_alignment: between
 - template: block-media-feature
   block: media-feature
-  width: '50'
+  width: '55'
   align_y: start
   margin_y: '100'
   margin_left: 10%
@@ -79,7 +79,7 @@ page_sections:
   block: modal-blog
   attached_blog: posts/the-photo-banter.md
   block_aspect_ratio: []
-  text_size: 4xl
+  text_size: 6xl
   width: '20'
   align_y: start
   margin_y: '200'
@@ -92,12 +92,12 @@ page_sections:
   row_alignment: ''
 - template: block-media-feature
   block: media-feature
-  width: '33'
+  width: '40'
   align_y: start
-  margin_y: '50'
-  margin_left: 0%
+  margin_y: '100'
+  margin_left: 45%
   margin_right: 0%
-  title_margin_y: 35%
+  title_margin_y: 50%
   title_margin_left: 0%
   title_margin_right: 0%
   text_size: 2xl
