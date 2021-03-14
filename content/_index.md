@@ -3,16 +3,13 @@ layout: blocks
 title: Jesse Rieser
 date: 2017-11-01T23:00:00.000+00:00
 page_sections:
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
 - template: block-media-feature
   block: media-feature
   width: '40'
   align_y: start
   margin_y: '100'
-  margin_left: 10%
-  margin_right: 10%
+  margin_left: 30%
+  margin_right: 0%
   title_margin_y: 50%
   title_margin_left: 10%
   title_margin_right: 0%
@@ -28,18 +25,6 @@ page_sections:
   meta: 'Devin Booker: Becoming Legendary '
   attached_collection: collections/espn-devin-booker-cover-story.md
   text_color: "#FFFFFF"
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/the-photo-banter.md
-  block_aspect_ratio: []
-  text_size: 4xl
-  width: '25'
-  align_y: start
-  margin_y: '500'
-  margin_left: 0%
-  margin_right: 0%
-  title: The Photo Banter
-  color: "#E8E09D"
 - template: block-media-row
   block: media-row
   row_alignment: between
@@ -47,8 +32,8 @@ page_sections:
   block: media-feature
   width: '60'
   align_y: start
-  margin_y: '200'
-  margin_left: 25%
+  margin_y: '100'
+  margin_left: 40%
   margin_right: 0%
   title_margin_y: 70%
   title_margin_left: 5%
@@ -60,7 +45,7 @@ page_sections:
   font_weight: semibold
   meta_align: left
   image: https://d1sf55qlb7p6hz.cloudfront.net/nytimes_metro-29.jpg
-  color: "#FF7F50"
+  color: "#FFB697"
   title: 'The New York Times '
   meta: 'Auctioning Off A Dead Mall '
   attached_collection: collections/the-new-york-times.md
@@ -68,6 +53,43 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: between
+- template: block-media-feature
+  block: media-feature
+  width: '50'
+  align_y: start
+  margin_y: '100'
+  margin_left: 10%
+  margin_right: 0%
+  title_margin_y: 35%
+  title_margin_left: 0%
+  title_margin_right: 0%
+  text_size: 2xl
+  line_height: normal
+  text_alignment: left
+  text_tracking: normal
+  meta_align: left
+  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-gunsite-27.jpg
+  attached_collection: collections/wired-gunsite.md
+  color: "#EFE7A8"
+  title: ''
+  meta: ''
+  text_color: ''
+  font_weight: ''
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/the-photo-banter.md
+  block_aspect_ratio: []
+  text_size: 4xl
+  width: '20'
+  align_y: start
+  margin_y: '200'
+  margin_left: 0%
+  margin_right: 5%
+  title: The Photo Banter
+  color: "#E8E09D"
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
 - template: block-media-feature
   block: media-feature
   width: '33'
@@ -90,28 +112,6 @@ page_sections:
   meta: ''
   attached_collection: collections/runner-s-world.md
   text_color: ''
-- template: block-media-feature
-  block: media-feature
-  width: '33'
-  align_y: start
-  margin_y: '100'
-  margin_left: 0%
-  margin_right: 0%
-  title_margin_y: 35%
-  title_margin_left: 0%
-  title_margin_right: 0%
-  text_size: 2xl
-  line_height: normal
-  text_alignment: left
-  text_tracking: normal
-  meta_align: left
-  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-gunsite-27.jpg
-  attached_collection: collections/wired-gunsite.md
-  color: "#EFE7A8"
-  title: ''
-  meta: ''
-  text_color: ''
-  font_weight: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
