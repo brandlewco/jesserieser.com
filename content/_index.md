@@ -495,6 +495,43 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: between
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/phoenix-a-dystopian-legoland-that-tastes-like-candy.md
+  width: '20'
+  align_y: start
+  margin_y: '400'
+  margin_left: 30%
+  margin_right: 0%
+  title: AP 35
+  color: "#F0B7B7"
+  block_aspect_ratio: ''
+  text_size: ''
+- template: block-media-feature
+  block: media-feature
+  width: '25'
+  align_y: start
+  margin_y: '200'
+  margin_left: 0%
+  margin_right: 20%
+  title_margin_y: 10%
+  title_margin_left: 5%
+  title_margin_right: 0%
+  text_size: 6xl
+  line_height: none
+  text_alignment: left
+  text_tracking: normal
+  meta_align: left
+  image: https://d1sf55qlb7p6hz.cloudfront.net/wsj_robot-1.jpg
+  color: "#F7F094"
+  meta: The Scanalyzer
+  title: WSJ
+  attached_collection: collections/collections-wall-street-journal-robot.md
+  font_weight: semibold
+  text_color: "#B7FFC0"
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
 - template: block-media-feature
   block: media-feature
   width: '40'
@@ -513,13 +550,13 @@ page_sections:
   color: "#FFB4B4"
   attached_collection: collections/outside-magazine-rob-krar.md
   meta: Rob Krar Running in the Dark
-  text_color: "#93EDC9"
+  text_color: "#93EDBF"
   text_size: 6xl
   text_alignment: left
   text_tracking: normal
   font_weight: semibold
-  line_height: none
-  title_margin_y: 20%
+  line_height: tight
+  title_margin_y: 15%
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/the-changing-landscape-of-american-retail-1.md
@@ -535,46 +572,9 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: between
-- template: block-media-feature
-  block: media-feature
-  width: '33'
-  align_y: start
-  margin_y: '100'
-  margin_left: 10%
-  margin_right: 0%
-  title_margin_y: 10%
-  title_margin_left: 5%
-  title_margin_right: 0%
-  text_size: 6xl
-  line_height: none
-  text_alignment: left
-  text_tracking: normal
-  meta_align: left
-  image: https://d1sf55qlb7p6hz.cloudfront.net/wsj_robot-1.jpg
-  color: "#EF7484"
-  meta: The Scanalyzer
-  title: WSJ
-  attached_collection: collections/collections-wall-street-journal-robot.md
-  font_weight: semibold
-  text_color: "#B7FFC0"
 - template: block-media-row
   block: media-row
   row_alignment: between
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/phoenix-a-dystopian-legoland-that-tastes-like-candy.md
-  width: '25'
-  align_y: start
-  margin_y: '100'
-  margin_left: 35%
-  margin_right: 0%
-  title: AP 35
-  color: "#F0B7B7"
-  block_aspect_ratio: ''
-  text_size: ''
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
 - template: block-media-row
   block: media-row
   row_alignment: between
