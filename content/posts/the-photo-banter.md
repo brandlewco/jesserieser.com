@@ -15,9 +15,5 @@ title = "The Photo Banter"
 block = "media-motion-id"
 template = "block-media-motion-id"
 vimeo_id = 523950651
-[[blog_slider]]
-block = "media-element-url"
-image = "https://d1sf55qlb7p6hz.cloudfront.net/photobanter.jpg"
-template = "block-media-element-url"
 
 +++
