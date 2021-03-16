@@ -46,6 +46,16 @@ fields:
       file: 
       path: 
   label: Attached Collection
+- name: attached_link
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Attached Link
+  description: link outside the site.
 - name: blog_block_cover
   type: file
   config:
