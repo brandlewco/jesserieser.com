@@ -496,12 +496,11 @@ figcaption p {
 }
 
 @media (pointer: fine) {
-  .figure.dimmed img, .figure.dimmed iframe {
+  .figure.dimmed img {
     opacity: 0;
   }
 
-
-  .figure.dimmed:hover img, .figure.dimmed:hover iframe  {
+  .figure.dimmed:hover img  {
     opacity: 1;
   }
 
