@@ -32,6 +32,7 @@ fields:
   name: color
   description: Player Control / Titles Color (defaults to page theme color if not
     set)
+  hidden: true
 - name: show_controls
   type: boolean
   label: Show Controls
@@ -57,7 +58,7 @@ fields:
       file: 
       path: 
   label: Video Aspect Ratio
-  hidden: true
+  hidden: false
 - type: select
   name: width
   config:
