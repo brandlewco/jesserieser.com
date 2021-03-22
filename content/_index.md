@@ -3,6 +3,30 @@ layout: blocks
 title: Jesse Rieser
 date: 2017-11-01T23:00:00.000+00:00
 page_sections:
+- template: block-media-feature-vimeo
+  block: media-feature-vimeo
+  vimeo_id: 527057630
+  block_aspect_ratio: []
+  width: '40'
+  align_y: start
+  margin_y: '200'
+  margin_left: 50%
+  margin_right: 0%
+  title_margin_y: 35%
+  title_margin_left: 0%
+  title_margin_right: 0%
+  text_size: 2xl
+  line_height: normal
+  text_alignment: left
+  text_tracking: normal
+  font_weight: ''
+  meta_align: right
+  color: "#DAC9E3"
+  attached_collection: collections/espn-devin-booker-cover-story.md
+  meta: 'Devin Booker: Becoming Legendary'
+  show_controls: false
+  title: ''
+  text_color: ''
 - template: block-media-feature
   block: media-feature
   width: '40'
