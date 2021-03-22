@@ -27,6 +27,9 @@ page_sections:
   show_controls: false
   title: ''
   text_color: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: between
 - template: block-media-feature
   block: media-feature
   width: '40'
@@ -76,7 +79,7 @@ page_sections:
   text_color: "#CFF9BE"
 - template: block-media-row
   block: media-row
-  row_alignment: between
+  row_alignment: ''
 - template: block-media-feature
   block: media-feature
   width: '50'
@@ -237,9 +240,6 @@ page_sections:
   margin_right: 5%
   title: Fresh
   color: "#DFEFC2"
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -608,6 +608,9 @@ page_sections:
   color: "#C5C458"
   block_aspect_ratio: 11x8.5
   text_size: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: between
 - template: block-media-row
   block: media-row
   row_alignment: between
