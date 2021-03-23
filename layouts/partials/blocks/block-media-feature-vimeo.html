@@ -6,7 +6,7 @@
 {{ $imgLow := (div $imgFull 4) }}
 
 <article class="block-hover sm:meta-hover relative self-start {{with .Section.align_y}}sm:self-{{.}}{{end}} w-full {{with .Section.width}}sm:w-{{.}}/100{{end}} py-4 sm:py-0 mt-0 {{with .Section.margin_y}}sm:mt-{{.}}{{end}} ml-0 {{with .Section.margin_left}}sm:ml-{{.}}{{end}} mr-0 {{with .Section.margin_right}}sm:mr-{{.}}{{end}} highlight rellax-wrapper">
-  <figure class="figure relative " style="background: {{with .Section.color}}{{.}}{{else}}{{.Page.Params.theme_color}}{{end}};" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" id="{{ $fileName }}" data-sal="image">
+  <figure class="figure relative " itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" id="{{ $fileName }}" data-sal="image">
     {{ with .Site.GetPage .Section.attached_collection }}
       <a href="/{{.Params.slug | urlize}}" alt="View Collection - {{ .Params.title | markdownify}} - Jesse Rieser">
       <div class="absolute inset-auto w-full h-full z-10 bg-transparent"></div>
