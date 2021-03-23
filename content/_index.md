@@ -6,7 +6,7 @@ page_sections:
 - template: block-media-feature-vimeo
   block: media-feature-vimeo
   vimeo_id: 527057630
-  block_aspect_ratio:
+  block_aspect_ratio: 4x3
   width: '40'
   align_y: start
   margin_y: '200'
