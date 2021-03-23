@@ -404,7 +404,7 @@ width = "40"
 [[collection_layout_builder]]
 align_y = "start"
 block = "media-motion"
-block_aspect_ratio = []
+block_aspect_ratio = "3x2"
 caption = ""
 color = "#E8D6F1"
 image = ""
