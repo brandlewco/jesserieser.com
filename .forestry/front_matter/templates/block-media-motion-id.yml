@@ -18,3 +18,7 @@ fields:
     min: 
     max: 
     step: 
+- name: show_controls
+  type: boolean
+  label: Show Controls
+  description: show vimeo controls

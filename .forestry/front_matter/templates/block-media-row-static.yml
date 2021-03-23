@@ -7,7 +7,3 @@ fields:
   label: block
   name: block
   default: media-row-static
-- name: show_controls
-  type: boolean
-  label: Show Controls
-  description: show vimeo controls
