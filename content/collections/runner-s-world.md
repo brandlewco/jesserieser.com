@@ -222,7 +222,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_y = "start"
 block = "media-motion"
-block_aspect_ratio = []
+block_aspect_ratio = "9x16"
 caption = ""
 color = ""
 image = ""
