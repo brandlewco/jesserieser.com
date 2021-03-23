@@ -6,7 +6,7 @@ page_sections:
 - template: block-media-feature-vimeo
   block: media-feature-vimeo
   vimeo_id: 527057630
-  block_aspect_ratio: []
+  block_aspect_ratio:
   width: '40'
   align_y: start
   margin_y: '200'
@@ -24,7 +24,7 @@ page_sections:
   color: "#DAC9E3"
   attached_collection: collections/espn-devin-booker-cover-story.md
   meta: 'Devin Booker: Becoming Legendary'
-  show_controls: false
+  show_controls: true
   title: ''
   text_color: ''
 - template: block-media-row

@@ -39,7 +39,7 @@ fields:
       file: 
       path: 
   label: Video Aspect Ratio
-  hidden: true
+  hidden: false
 - type: color
   config:
     color_format: Hex
