@@ -24,7 +24,7 @@ page_sections:
   color: "#DAC9E3"
   attached_collection: collections/espn-devin-booker-cover-story.md
   meta: 'Devin Booker: Becoming Legendary'
-  show_controls: true
+  show_controls: false
   title: ''
   text_color: ''
 - template: block-media-row
