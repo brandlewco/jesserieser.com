@@ -13,6 +13,7 @@ theme_color = "#FFCF85"
 title = "The Photo Banter"
 [[blog_slider]]
 block = "media-motion-id"
+show_controls = true
 template = "block-media-motion-id"
 vimeo_id = 523950651
 
