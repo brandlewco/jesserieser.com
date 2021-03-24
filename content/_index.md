@@ -589,37 +589,6 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: between
-- template: block-media-row
-  block: media-row
-  row_alignment: between
-- template: block-media-row
-  block: media-row
-  row_alignment: between
-- template: block-media-row
-  block: media-row
-  row_alignment: between
-- template: block-media-feature
-  block: media-feature
-  width: '40'
-  align_y: start
-  margin_y: '200'
-  margin_left: 50%
-  margin_right: 0%
-  title_margin_y: 30%
-  title_margin_left: "-75%"
-  title_margin_right: 0%
-  text_size: 6xl
-  line_height: ''
-  text_alignment: left
-  text_tracking: normal
-  font_weight: semibold
-  meta_align: right
-  image: https://d1sf55qlb7p6hz.cloudfront.net/espn_booker-18.jpg
-  color: "#B8DFF6"
-  title: ''
-  meta: 'Devin Booker: Becoming Legendary '
-  attached_collection: collections/espn-devin-booker-cover-story.md
-  text_color: "#E4CAFA"
 home_theme_color: "#EDDDDE"
 collection_description: A student of subtleties.
 collection_content: ''
