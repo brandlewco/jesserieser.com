@@ -9,7 +9,7 @@ caption = "Podcast"
 content = "Podcast"
 date = ""
 news_category = ["press"]
-theme_color = "#FFCF85"
+theme_color = "#8ACFEE"
 title = "The Photo Banter"
 [[blog_slider]]
 block = "media-motion-id"
