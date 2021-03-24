@@ -91,7 +91,7 @@ page_sections:
   margin_left: 0%
   margin_right: 15%
   title: The Photo Banter
-  color: "#E8E09D"
+  color: "#0CA5E5"
 - template: block-media-row
   block: media-row
   row_alignment: ''
