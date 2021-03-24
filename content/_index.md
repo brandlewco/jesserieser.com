@@ -9,24 +9,24 @@ page_sections:
   block_aspect_ratio: 3x4
   width: '40'
   align_y: start
-  margin_y: '200'
+  margin_y: '100'
   margin_left: 50%
   margin_right: 0%
   title_margin_y: 35%
-  title_margin_left: 0%
+  title_margin_left: "-85%"
   title_margin_right: 0%
-  text_size: 2xl
+  text_size: 7xl
   line_height: normal
   text_alignment: left
   text_tracking: normal
-  font_weight: ''
+  font_weight: semibold
   meta_align: right
   color: "#DAC9E3"
   attached_collection: collections/espn-devin-booker-cover-story.md
   meta: 'Devin Booker: Becoming Legendary'
   show_controls: false
-  title: ''
-  text_color: ''
+  title: ESPN Cover Story
+  text_color: "#FFC681"
 - template: block-media-row
   block: media-row
   row_alignment: between
