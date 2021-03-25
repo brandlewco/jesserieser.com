@@ -314,9 +314,9 @@ function init() {
           history: false,
           bgOpacity: 0.15,
           closeOnScroll: false,
-          closeOnVerticalDrag: false,
-          preload: [2, 4],
-          loadingIndicatorDelay: 100,
+          closeOnVerticalDrag: true,
+          preload: [2, 3],
+          loadingIndicatorDelay: 0,
           getThumbBoundsFn: function(index) {
             // See Options -> getThumbBoundsFn section of documentation for more info
             var thumbnail = items[index].el.getElementsByTagName("a")[0], // find thumbnail
