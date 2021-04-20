@@ -390,7 +390,7 @@ page_sections:
   title_margin_right: ''
   meta: 1984. © Rob Rieser
   title_margin_y: 15%
-  text_color: ''
+  text_color: "#FFBE77"
   text_size: 8xl
   line_height: ''
   text_alignment: ''
