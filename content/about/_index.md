@@ -755,7 +755,7 @@ page_sections:
     url: ''
   meta: "© Nicky Hedyatzadeh"
   title_margin_y: 30%
-  text_color: "#FFCE7C"
+  text_color: "#FDC25F"
   text_size: ''
   line_height: ''
   text_alignment: ''
