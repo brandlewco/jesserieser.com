@@ -205,9 +205,9 @@ page_sections:
       York, NY (Group Show)"
     icon: ''
     url: ''
-  meta: My dad & I, © Rob Rieser. Header © Mike Lundgren
+  meta: My dad & I, © Rob Rieser.
   title_margin_y: 25%
-  text_color: ''
+  text_color: "#CF4BFD"
   text_size: 7xl
   line_height: ''
   text_alignment: ''
@@ -390,7 +390,7 @@ page_sections:
   title_margin_right: ''
   meta: 1984. © Rob Rieser
   title_margin_y: 15%
-  text_color: "#FFBE77"
+  text_color: "#79B3FF"
   text_size: 8xl
   line_height: ''
   text_alignment: ''
@@ -1009,7 +1009,7 @@ footer_links:
   link_url: https://www.artphotoindex.com/api/#photographer/Jesse-Rieser/15804
 - link_title: The One Club Young Guns
   link_url: https://www.oneclub.org/awards/youngguns/9/-bio/yg9-2545-jesse-rieser
-about_bio_image_credit: "© Brad Reed"
+about_bio_image_credit: "© Brad Reed. Header © Mike Lundgren"
 cv: https://s3.us-east-2.amazonaws.com/jesserieserphoto.brandlew.co/202007_cv-jesserieser-www-2.pdf
 about_bio_doodle_credit: Portrait by © Lapo
 
