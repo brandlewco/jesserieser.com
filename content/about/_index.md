@@ -205,7 +205,7 @@ page_sections:
       York, NY (Group Show)"
     icon: ''
     url: ''
-  meta: My dad & I, © Rob Rieser.
+  meta: My dad & I, © Rob Rieser
   title_margin_y: 25%
   text_color: "#CF4BFD"
   text_size: 7xl
