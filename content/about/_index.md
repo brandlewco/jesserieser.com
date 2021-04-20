@@ -19,7 +19,7 @@ page_sections:
   margin_y: '800'
   margin_left: 15%
   margin_right: ''
-  title_margin_left: "-40%"
+  title_margin_left: "-30%"
   margin_x: 5%
   block-list: ''
   align_y: ''
@@ -206,8 +206,8 @@ page_sections:
     icon: ''
     url: ''
   meta: My dad & I, © Rob Rieser
-  title_margin_y: 25%
-  text_color: "#CF4BFD"
+  title_margin_y: 15%
+  text_color: "#FFE42D"
   text_size: 7xl
   line_height: ''
   text_alignment: ''
@@ -389,7 +389,7 @@ page_sections:
   align_y: ''
   title_margin_right: ''
   meta: 1984. © Rob Rieser
-  title_margin_y: 15%
+  title_margin_y: 35%
   text_color: "#79B3FF"
   text_size: 8xl
   line_height: ''
@@ -440,7 +440,7 @@ page_sections:
   margin_y: '50'
   margin_left: 20%
   margin_right: ''
-  title_margin_left: "-75%"
+  title_margin_left: "-35%"
   margin_x: 5%
   block-list: ''
   align_y: ''
@@ -755,7 +755,7 @@ page_sections:
     url: ''
   meta: "© Nicky Hedyatzadeh"
   title_margin_y: 30%
-  text_color: "#FDC25F"
+  text_color: "#9DFD7C"
   text_size: ''
   line_height: ''
   text_alignment: ''
@@ -770,7 +770,7 @@ page_sections:
   margin_y: '600'
   margin_left: 0%
   margin_right: 0%
-  title_margin_left: "-20%"
+  title_margin_left: 5%
   title_margin_right: 0%
   title: Clients
   color: "#D5E3F6"
@@ -938,7 +938,7 @@ page_sections:
   image: https://d1sf55qlb7p6hz.cloudfront.net/bio_final-13.jpg
   meta: 'Ben Simmons for Smart Water & Anomaly NY. © Dayvid Lemmon '
   title_margin_y: 10%
-  text_color: ''
+  text_color: "#FAB7ED"
   text_size: 7xl
   line_height: ''
   text_alignment: right
