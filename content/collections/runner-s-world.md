@@ -232,7 +232,7 @@ margin_y = "100"
 show_controls = false
 template = "block-media-motion"
 vimeo_id = 522114803
-width = "33"
+width = "40"
 [[collection_layout_builder]]
 block = "media-row"
 row_alignment = "between"
@@ -268,7 +268,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_y = "start"
 block = "media-motion"
-block_aspect_ratio = "2x3"
+block_aspect_ratio = "16x9"
 caption = ""
 color = ""
 image = ""
