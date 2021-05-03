@@ -222,13 +222,13 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_y = "start"
 block = "media-motion"
-block_aspect_ratio = "9x16"
+block_aspect_ratio = "2x3"
 caption = ""
 color = ""
 image = ""
 margin_left = "25%"
 margin_right = "0%"
-margin_y = "50"
+margin_y = "100"
 show_controls = false
 template = "block-media-motion"
 vimeo_id = 522114803
