@@ -784,12 +784,20 @@ page_sections:
     icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__adidas.png
     url: ''
   - template: popup-text-element
+    content: "**Adobe**"
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/Logo_Vectors_V5__Adobe.png
+    url: ''
+  - template: popup-text-element
     content: "**Amtrak**"
     icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__amtrak.png
     url: ''
   - template: popup-text-element
     content: Anomaly
     icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__anomoly.png
+    url: ''
+  - template: popup-text-element
+    content: "**Atlantic**"
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/Logo_Vectors_V5__Atlantic.png
     url: ''
   - template: popup-text-element
     content: ATT
@@ -824,6 +832,10 @@ page_sections:
     icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__disney.png
     url: ''
   - template: popup-text-element
+    content: "**Emporio Armani**"
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/Logo_Vectors_V5__Emporio.png
+    url: ''
+  - template: popup-text-element
     content: "**ESPN**"
     icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__espn.png
     url: ''
@@ -852,6 +864,18 @@ page_sections:
     icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__getty.png
     url: ''
   - template: popup-text-element
+    content: "**Golf Digest**"
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/Logo_Vectors_V5__GolfDigest.png
+    url: ''
+  - template: popup-text-element
+    content: "**Harpers**"
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/Logo_Vectors_V5__Harpers.png
+    url: ''
+  - template: popup-text-element
+    content: "**Hearst**"
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/Logo_Vectors_V5__Hearst.png
+    url: ''
+  - template: popup-text-element
     content: "**Inc Mag**"
     icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__inc.png
     url: ''
@@ -876,6 +900,14 @@ page_sections:
     icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__mullenlowe.png
     url: ''
   - template: popup-text-element
+    content: "**NatGeo**"
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/Logo_Vectors_V5__NatGeo.png
+    url: ''
+  - template: popup-text-element
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/Logo_Vectors_V5__NYTimes.png
+    content: "**The New York Times**"
+    url: ''
+  - template: popup-text-element
     content: "**NBA**"
     icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__nba.png
     url: ''
@@ -888,12 +920,20 @@ page_sections:
     icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__outside.png
     url: ''
   - template: popup-text-element
+    content: "**Popular Mechanics**"
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/Logo_Vectors_V5__PopularMechanics.png
+    url: ''
+  - template: popup-text-element
     content: "**P&G**"
     icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__p-g.png
     url: ''
   - template: popup-text-element
     content: "**Publicis**"
     icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__publicis.png
+    url: ''
+  - template: popup-text-element
+    content: "**Runners World**"
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/Logo_Vectors_V5__RunnersWorld.png
     url: ''
   - template: popup-text-element
     content: "**Smart Water**"
@@ -910,6 +950,10 @@ page_sections:
   - template: popup-text-element
     content: "**United Airlines**"
     icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__united.png
+    url: ''
+  - template: popup-text-element
+    content: "**V Magazine**"
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/Logo_Vectors_V5__VMagazine.png
     url: ''
   - template: popup-text-element
     content: "**Visa**"
@@ -934,50 +978,6 @@ page_sections:
   - template: popup-text-element
     content: "**Wired**"
     icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__wired.png
-    url: ''
-  - template: popup-text-element
-    icon: https://d1sf55qlb7p6hz.cloudfront.net/Logo_Vectors_V5__NYTimes.png
-    content: "**The New York Times**"
-    url: ''
-  - template: popup-text-element
-    content: "**Adobe**"
-    icon: https://d1sf55qlb7p6hz.cloudfront.net/Logo_Vectors_V5__Adobe.png
-    url: ''
-  - template: popup-text-element
-    content: "**Atlantic**"
-    icon: https://d1sf55qlb7p6hz.cloudfront.net/Logo_Vectors_V5__Atlantic.png
-    url: ''
-  - template: popup-text-element
-    content: "**Emporio Armani**"
-    icon: https://d1sf55qlb7p6hz.cloudfront.net/Logo_Vectors_V5__Emporio.png
-    url: ''
-  - template: popup-text-element
-    content: "**Golf Digest**"
-    icon: https://d1sf55qlb7p6hz.cloudfront.net/Logo_Vectors_V5__GolfDigest.png
-    url: ''
-  - template: popup-text-element
-    content: "**Harpers**"
-    icon: https://d1sf55qlb7p6hz.cloudfront.net/Logo_Vectors_V5__Harpers.png
-    url: ''
-  - template: popup-text-element
-    content: "**Hearst**"
-    icon: https://d1sf55qlb7p6hz.cloudfront.net/Logo_Vectors_V5__Hearst.png
-    url: ''
-  - template: popup-text-element
-    content: "**NatGeo**"
-    icon: https://d1sf55qlb7p6hz.cloudfront.net/Logo_Vectors_V5__NatGeo.png
-    url: ''
-  - template: popup-text-element
-    content: "**Popular Mechanics**"
-    icon: https://d1sf55qlb7p6hz.cloudfront.net/Logo_Vectors_V5__PopularMechanics.png
-    url: ''
-  - template: popup-text-element
-    content: "**Runners World**"
-    icon: https://d1sf55qlb7p6hz.cloudfront.net/Logo_Vectors_V5__RunnersWorld.png
-    url: ''
-  - template: popup-text-element
-    content: "**V Magazine**"
-    icon: https://d1sf55qlb7p6hz.cloudfront.net/Logo_Vectors_V5__VMagazine.png
     url: ''
   image: https://d1sf55qlb7p6hz.cloudfront.net/bio_final-13.jpg
   meta: 'Ben Simmons for Smart Water & Anomaly NY. © Dayvid Lemmon '
