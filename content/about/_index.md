@@ -936,7 +936,7 @@ page_sections:
     icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__wired.png
     url: ''
   - template: popup-text-element
-    icon: https://d1sf55qlb7p6hz.cloudfront.net/Logo_Vectors_V4__NYTimes copy.png
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/Logo_Vectors_V4__NYTimes.png
     content: "**The New York Times**"
     url: ''
   image: https://d1sf55qlb7p6hz.cloudfront.net/bio_final-13.jpg
