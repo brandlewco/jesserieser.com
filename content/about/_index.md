@@ -944,9 +944,8 @@ page_sections:
     icon: https://d1sf55qlb7p6hz.cloudfront.net/Logo_Vectors_V5__Adobe.png
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-    icon: ''
+    content: "**Atlantic**"
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/Logo_Vectors_V5__Atlantic.png
     url: ''
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
