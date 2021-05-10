@@ -979,21 +979,6 @@ page_sections:
     content: "**V Magazine**"
     icon: https://d1sf55qlb7p6hz.cloudfront.net/Logo_Vectors_V5__VMagazine.png
     url: ''
-  - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-    icon: ''
-    url: ''
   image: https://d1sf55qlb7p6hz.cloudfront.net/bio_final-13.jpg
   meta: 'Ben Simmons for Smart Water & Anomaly NY. © Dayvid Lemmon '
   title_margin_y: 10%
