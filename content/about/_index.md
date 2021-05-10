@@ -935,6 +935,10 @@ page_sections:
     content: "**Wired**"
     icon: https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__wired.png
     url: ''
+  - template: popup-text-element
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/Logo_Vectors_V4__NYTimes copy.png
+    content: The New York Times
+    url: ''
   image: https://d1sf55qlb7p6hz.cloudfront.net/bio_final-13.jpg
   meta: 'Ben Simmons for Smart Water & Anomaly NY. © Dayvid Lemmon '
   title_margin_y: 10%
