@@ -785,7 +785,7 @@ page_sections:
     url: ''
   - template: popup-text-element
     content: "**Adobe**"
-    icon: https://d1sf55qlb7p6hz.cloudfront.net/Logo_Vectors_V5__Adobe.png
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/Logo_Vectors_V6__Adobe.png
     url: ''
   - template: popup-text-element
     content: "**Amtrak**"
