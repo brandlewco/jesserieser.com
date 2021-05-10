@@ -960,9 +960,8 @@ page_sections:
     icon: https://d1sf55qlb7p6hz.cloudfront.net/Logo_Vectors_V5__Harpers.png
     url: ''
   - template: popup-text-element
-    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
-      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
-    icon: ''
+    content: "**Hearst**"
+    icon: https://d1sf55qlb7p6hz.cloudfront.net/Logo_Vectors_V5__Hearst.png
     url: ''
   - template: popup-text-element
     content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
