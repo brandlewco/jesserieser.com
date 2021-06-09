@@ -200,6 +200,7 @@ fields:
     through direct link.
   hidden: true
 pages:
+- content/collections/barron-s-las-vegas-reopenning.md
 - content/collections/espn-devin-booker-cover-story.md
 - content/collections/runner-s-world.md
 - content/collections/smartwater.md
