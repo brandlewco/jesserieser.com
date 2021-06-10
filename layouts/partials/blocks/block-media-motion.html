@@ -9,7 +9,7 @@
       <div class="block">
         <div class="absolute inset-auto w-full h-full z-10 bg-transparent"></div>
           <div class="iframe-frame {{with .Section.block_aspect_ratio }}ratio-{{.}}{{else}}ratio-16x9{{end}}" style="position:relative;">
-              <iframe src="https://player.vimeo.com/video/{{.Section.vimeo_id}}?color={{with .Section.color}}{{. | replaceRE "#" "" }}{{else}}{{.Page.Params.theme_color}}{{end}}&title=0&byline=0&portrait=0&loop=1{{if eq .Section.show_controls true}}&background=0{{else}}&background=1{{end}}" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+              <iframe src="https://player.vimeo.com/video/{{.Section.vimeo_id}}?color={{with .Section.color}}{{. | replaceRE "#" "" }}{{else}}{{.Page.Params.theme_color}}{{end}}&title=0&byline=0&portrait=0&loop=1{{if eq .Section.show_controls true}}&background=0{{else}}&background=1&autoplay=1&loop=1&autopause=0{{end}}" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
           </div>
       </div>
     </a>
