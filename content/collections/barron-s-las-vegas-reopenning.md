@@ -392,7 +392,7 @@ template = "block-media-text"
 text = "The New Las Vegas Convention Center"
 text_alignment = ""
 text_color = ""
-text_size = "6xl"
+text_size = "4xl"
 text_tracking = "normal"
 width = "50"
 [[collection_layout_builder]]
