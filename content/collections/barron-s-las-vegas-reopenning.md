@@ -18,11 +18,11 @@ cover_image = ""
 date = 2021-06-09T21:54:21Z
 hide_footer = true
 layout = "blocks"
-navigation_theme = "white"
+navigation_theme = "black"
 px_extra = true
 row_alignment = "between"
 slug = "collections/barrons-lasvegas"
-theme_color = "#ADF3D1"
+theme_color = "#FFE49D"
 theme_color_all_works = ""
 title = "Barron's "
 [[collection_layout_builder]]
