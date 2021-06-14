@@ -1,19 +1,19 @@
 +++
 collection_archive = false
 collection_awards = []
-collection_category = ["Editorial"]
+collection_category = ["Editorial", "Reportage", "Travel", "Color", "Humor", "Still Life + Details", "Portraits", "Editorial"]
 collection_content = ""
 collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/barrons-lv-banners-1.jpg"
 collection_cover_mobile = ""
 collection_description = ""
 collection_description_alignment = "left"
 collection_exhibition = []
-collection_filter = "Personal"
+collection_filter = "Commissioned + Stock"
 collection_hidden = false
 collection_meta = "Cover: Las Vegas Reopening"
 collection_meta_2 = ""
 collection_press = []
-collection_preview = []
+collection_preview = ["https://d1sf55qlb7p6hz.cloudfront.net/barrons-lv-4x3-1.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/barrons-lv-4x3-3.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/barrons-lv-4x3-4.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/barrons-lv-4x3-1.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/barrons-lv-4x3-2.jpg"]
 cover_image = ""
 date = 2021-06-09T21:54:21Z
 hide_footer = false
