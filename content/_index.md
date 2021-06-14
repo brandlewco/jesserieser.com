@@ -60,10 +60,10 @@ page_sections:
   width: '45'
   align_y: start
   margin_y: '100'
-  margin_left: 0%
+  margin_left: 5%
   margin_right: 0%
   title_margin_y: 35%
-  title_margin_left: 0%
+  title_margin_left: 45%
   title_margin_right: 0%
   text_size: 6xl
   line_height: normal
@@ -73,9 +73,9 @@ page_sections:
   image: https://d1sf55qlb7p6hz.cloudfront.net/barrons-lv-reopen-1.jpg
   color: "#DBF8F0"
   meta: Las Vegas Presses It's Luck in the Postpandemic Era
-  title: Barron's Cover Story
+  title: Barron's Cover
   attached_collection: collections/barron-s-las-vegas-reopenning.md
-  text_color: "#F6E292"
+  text_color: "#FF9696"
   font_weight: semibold
 - template: block-media-row
   block: media-row
