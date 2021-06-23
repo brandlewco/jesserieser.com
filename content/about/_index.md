@@ -1056,6 +1056,7 @@ footer_links:
 about_bio_image_credit: "© Brad Reed. Header © Mike Lundgren"
 cv: https://s3.us-east-2.amazonaws.com/jesserieserphoto.brandlew.co/202007_cv-jesserieser-www-2.pdf
 about_bio_doodle_credit: Portrait by © Lapo
+cv_color: "#BDE6C5"
 
 ---
 ## Click the collections link above to preview collections.
