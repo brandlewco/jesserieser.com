@@ -25,6 +25,16 @@ fields:
       type: pages
       section: collections
   label: All Works Sorter
+- name: shop_sorter
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: pages
+      section: shop
+  label: Shop Sorter
 - name: collection_pager
   type: list
   config:
