@@ -12,8 +12,12 @@
             <h2>TRY REMOVING SOME OF THE SELECTED CATEGORIES ABOVE.</h2>
         </div>
         <section id="filter" class="flex flex-wrap overflow-hidden filter-container z-10 mx-auto relative pl-0 sm:pl-5 md:pl-6" style="opacity: 0;">
-            {{ range .Paginator.Pages }}
+            {{ range .Site.Data.categories}}
+            {{ range .shop_sorter}}
+            {{ with $.Site.GetPage . }}
                 {{ partial "collection_shop_item" .}}
+            {{ end }}
+            {{ end }}
             {{ end }}
         </section>
     </section>
