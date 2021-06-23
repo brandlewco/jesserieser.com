@@ -497,11 +497,11 @@ figcaption p {
 
 @media (pointer: fine) {
   .figure.dimmed img {
-    opacity: 0;
+    opacity: 0 !important;
   }
 
   .figure.dimmed:hover img  {
-    opacity: 1;
+    opacity: 1 !important;
   }
 
   .figure.figure-blog-cover.dimmed img {
