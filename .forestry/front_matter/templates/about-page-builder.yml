@@ -159,7 +159,13 @@ fields:
   type: file
   config:
     maxSize: 64
-  label: cv
+  label: CV
+- name: cv_color
+  type: color
+  config:
+    required: false
+    color_format: Hex
+  label: CV Color
 - name: footer_links
   type: field_group_list
   fields:
