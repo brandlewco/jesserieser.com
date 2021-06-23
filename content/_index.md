@@ -30,9 +30,6 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: between
-- template: block-media-row
-  block: media-row
-  row_alignment: between
 - template: block-media-feature
   block: media-feature
   width: '55'
@@ -57,13 +54,38 @@ page_sections:
   text_color: "#CFF9BE"
 - template: block-media-row
   block: media-row
-  row_alignment: ''
+  row_alignment: between
 - template: block-media-feature
   block: media-feature
-  width: '50'
+  width: '45'
   align_y: start
   margin_y: '100'
   margin_left: 5%
+  margin_right: 0%
+  title_margin_y: 80%
+  title_margin_left: 0%
+  title_margin_right: 0%
+  text_size: 6xl
+  line_height: normal
+  text_alignment: left
+  text_tracking: normal
+  meta_align: left
+  image: https://d1sf55qlb7p6hz.cloudfront.net/barrons-lv-reopen-1.jpg
+  color: "#DBF8F0"
+  meta: Las Vegas Presses It's Luck in the Postpandemic Era
+  title: Barron's Cover
+  attached_collection: collections/barron-s-las-vegas-reopenning.md
+  text_color: "#FF6060"
+  font_weight: semibold
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
+- template: block-media-feature
+  block: media-feature
+  width: '55'
+  align_y: start
+  margin_y: '100'
+  margin_left: 10%
   margin_right: 0%
   title_margin_y: 25%
   title_margin_left: 5%
@@ -89,7 +111,7 @@ page_sections:
   align_y: start
   margin_y: '200'
   margin_left: 0%
-  margin_right: 15%
+  margin_right: 10%
   title: The Photo Banter
   color: "#0CA5E5"
 - template: block-media-row
