@@ -18,11 +18,11 @@ cover_image = ""
 date = 2021-06-26T06:00:05Z
 hide_footer = false
 layout = "blocks"
-navigation_theme = "white"
+navigation_theme = "black"
 px_extra = true
 row_alignment = "between"
 slug = "collections/nytimes-reopen"
-theme_color = "#FFF3BA"
+theme_color = "#F8E691"
 theme_color_all_works = ""
 title = "The New York Times"
 [[collection_layout_builder]]
