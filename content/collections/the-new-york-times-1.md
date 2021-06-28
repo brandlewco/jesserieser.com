@@ -1,28 +1,28 @@
 +++
 collection_archive = false
 collection_awards = []
-collection_category = ["Reportage"]
+collection_category = ["Kids", "Editorial", "Travel", "Color", "Humor", "Environments", "Portraits", "Reportage"]
 collection_content = ""
 collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/nyt_reopen-9.jpg"
 collection_cover_mobile = ""
 collection_description = ""
 collection_description_alignment = "left"
 collection_exhibition = []
-collection_filter = "Personal"
+collection_filter = "Commissioned + Stock"
 collection_hidden = false
-collection_meta = "America Reopens "
+collection_meta = "America is Reopening. Here's What it Looks like"
 collection_meta_2 = ""
 collection_press = []
-collection_preview = []
+collection_preview = ["https://d1sf55qlb7p6hz.cloudfront.net/nyt_reopen-4x3-3.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/nyt_reopen-4x3-4.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/nyt_reopen-4x3-2.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/nyt_reopen-4x3-1.jpg"]
 cover_image = ""
 date = 2021-06-26T06:00:05Z
 hide_footer = false
 layout = "blocks"
 navigation_theme = "white"
-px_extra = false
+px_extra = true
 row_alignment = "between"
 slug = "collections/nytimes-reopen"
-theme_color = ""
+theme_color = "#FFF3BA"
 theme_color_all_works = ""
 title = "The New York Times"
 [[collection_layout_builder]]
