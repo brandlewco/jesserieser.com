@@ -1,6 +1,6 @@
 +++
 collection_archive = false
-collection_category = ["Tech", "Reportage", "Color", "Environments", "Editorial"]
+collection_category = ["Award Winning", "Tech", "Reportage", "Color", "Environments", "Editorial"]
 collection_content = ""
 collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/nytimes_metro-29.jpg"
 collection_cover_mobile = "https://d1sf55qlb7p6hz.cloudfront.net/verticalcovers-40.jpg"
