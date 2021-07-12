@@ -23,7 +23,7 @@ page_sections:
   meta_align: right
   color: "#DAC9E3"
   attached_collection: collections/espn-devin-booker-cover-story.md
-  meta: 'Devin Booker: Becoming Legendary'
+  meta: 'Devin Booker: Becoming Legendary Cover Story'
   show_controls: false
   title: ''
   text_color: "#FFC681"
@@ -37,7 +37,7 @@ page_sections:
   margin_y: '100'
   margin_left: 20%
   margin_right: 0%
-  title_margin_y: 75%
+  title_margin_y: 25%
   title_margin_left: 5%
   title_margin_right: 0%
   text_size: 6xl
@@ -72,7 +72,7 @@ page_sections:
   meta_align: left
   image: https://d1sf55qlb7p6hz.cloudfront.net/barrons-lv-reopen-1.jpg
   color: "#DBF8F0"
-  meta: Las Vegas Presses It's Luck in the Postpandemic Era
+  meta: Vegas Presses It's Luck in the Postpandemic Era Cover Story
   title: Barron's Cover
   attached_collection: collections/barron-s-las-vegas-reopenning.md
   text_color: "#FF6060"
