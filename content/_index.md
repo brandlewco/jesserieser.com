@@ -37,7 +37,7 @@ page_sections:
   margin_y: '100'
   margin_left: 20%
   margin_right: 0%
-  title_margin_y: 25%
+  title_margin_y: 40%
   title_margin_left: 5%
   title_margin_right: 0%
   text_size: 6xl
@@ -51,18 +51,18 @@ page_sections:
   title: 'The New York Times '
   meta: 'Auctioning Off A Dead Mall '
   attached_collection: collections/the-new-york-times.md
-  text_color: "#CFF9BE"
+  text_color: "#FFFFFF"
 - template: block-media-row
   block: media-row
   row_alignment: between
 - template: block-media-feature
   block: media-feature
-  width: '45'
+  width: '50'
   align_y: start
   margin_y: '100'
   margin_left: 5%
   margin_right: 0%
-  title_margin_y: 80%
+  title_margin_y: 65%
   title_margin_left: 0%
   title_margin_right: 0%
   text_size: 6xl
@@ -73,7 +73,7 @@ page_sections:
   image: https://d1sf55qlb7p6hz.cloudfront.net/barrons-lv-reopen-1.jpg
   color: "#DBF8F0"
   meta: Vegas Presses It's Luck in the Postpandemic Era Cover Story
-  title: Barron's Cover
+  title: Barron's
   attached_collection: collections/barron-s-las-vegas-reopenning.md
   text_color: "#FF6060"
   font_weight: semibold
