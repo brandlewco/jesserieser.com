@@ -23,9 +23,9 @@ page_sections:
   meta_align: right
   color: "#DAC9E3"
   attached_collection: collections/espn-devin-booker-cover-story.md
-  meta: 'Devin Booker: Becoming Legendary'
+  meta: 'Devin Booker: Becoming Legendary Cover Story'
   show_controls: false
-  title: ESPN Cover Story
+  title: ''
   text_color: "#FFC681"
 - template: block-media-row
   block: media-row
@@ -37,7 +37,7 @@ page_sections:
   margin_y: '100'
   margin_left: 20%
   margin_right: 0%
-  title_margin_y: 75%
+  title_margin_y: 40%
   title_margin_left: 5%
   title_margin_right: 0%
   text_size: 6xl
@@ -51,18 +51,18 @@ page_sections:
   title: 'The New York Times '
   meta: 'Auctioning Off A Dead Mall '
   attached_collection: collections/the-new-york-times.md
-  text_color: "#CFF9BE"
+  text_color: "#FFFFFF"
 - template: block-media-row
   block: media-row
   row_alignment: between
 - template: block-media-feature
   block: media-feature
-  width: '45'
+  width: '50'
   align_y: start
   margin_y: '100'
   margin_left: 5%
   margin_right: 0%
-  title_margin_y: 80%
+  title_margin_y: 65%
   title_margin_left: 0%
   title_margin_right: 0%
   text_size: 6xl
@@ -72,8 +72,8 @@ page_sections:
   meta_align: left
   image: https://d1sf55qlb7p6hz.cloudfront.net/barrons-lv-reopen-1.jpg
   color: "#DBF8F0"
-  meta: Las Vegas Presses It's Luck in the Postpandemic Era
-  title: Barron's Cover
+  meta: Vegas Presses It's Luck in the Postpandemic Era Cover Story
+  title: Barron's
   attached_collection: collections/barron-s-las-vegas-reopenning.md
   text_color: "#FF6060"
   font_weight: semibold
