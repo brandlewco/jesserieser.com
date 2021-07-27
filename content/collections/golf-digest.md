@@ -238,9 +238,49 @@ block = "media-row"
 row_alignment = "between"
 template = "block-media-row"
 [[collection_layout_builder]]
+align_y = "start"
+background_color = ""
+background_image_toggle = false
+block = "media-text"
+caption_css = ""
+font_weight = "normal"
+image = ""
+image_css = ""
+margin_left = "0%"
+margin_right = "0%"
+margin_y = "100"
+parallax = true
+template = "block-media-text"
+text = "_One shot off the course record._"
+text_alignment = "left"
+text_color = "#000000"
+text_size = "4xl"
+text_tracking = "normal"
+width = "50"
+[[collection_layout_builder]]
 block = "media-row"
 row_alignment = "between"
 template = "block-media-row"
+[[collection_layout_builder]]
+align_y = "start"
+background_color = ""
+background_image_toggle = false
+block = "media-text"
+caption_css = ""
+font_weight = []
+image = ""
+image_css = ""
+margin_left = "0%"
+margin_right = "0%"
+margin_y = "50"
+parallax = false
+template = "block-media-text"
+text = ""
+text_alignment = "left"
+text_color = ""
+text_size = "2xl"
+text_tracking = "normal"
+width = "50"
 [[collection_layout_builder]]
 align_x = "start"
 align_y = ""
@@ -250,9 +290,13 @@ color = "#E8ECF1"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/golfdigest-15.jpg"
 margin_left = "0%"
 margin_right = ""
-margin_y = "200"
+margin_y = "400"
 template = "block-media-element"
 width = "55"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
 [[collection_layout_builder]]
 align_y = "start"
 block = "media-motion"
@@ -267,10 +311,6 @@ show_controls = false
 template = "block-media-motion"
 vimeo_id = 579676885
 width = "30"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
 [[collection_layout_builder]]
 block = "media-row"
 row_alignment = "between"
