@@ -22,7 +22,7 @@ navigation_theme = "white"
 px_extra = true
 row_alignment = "between"
 slug = "collections/popular-mechanics-longevity"
-theme_color = "#FF0628"
+theme_color = "#A3A7F3"
 theme_color_all_works = ""
 title = "Popular Mechanics"
 [[collection_layout_builder]]
