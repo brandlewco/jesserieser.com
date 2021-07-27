@@ -23,7 +23,7 @@ px_extra = true
 row_alignment = "between"
 slug = "collections/golf-digest-bubba"
 theme_color = "#FFC7C7"
-theme_color_all_works = "#000000"
+theme_color_all_works = "#E77B7B"
 title = "Golf Digest "
 [[collection_layout_builder]]
 align_y = "start"
