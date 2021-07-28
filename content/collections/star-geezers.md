@@ -183,6 +183,7 @@ color = "#FCE4D0"
 margin_left = "5%"
 margin_right = "0%"
 margin_y = "300"
+show_controls = false
 template = "block-media-motion"
 vimeo_id = 414925506
 width = "40"
