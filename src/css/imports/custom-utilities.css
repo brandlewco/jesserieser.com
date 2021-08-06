@@ -73,7 +73,7 @@ html.is-animating img {
 }
 
 .transition-page {
-  transition: 0.33s opacity cubic-bezier(0.600, 0.040, 0.980, 0.335);
+  transition: 0.4s opacity cubic-bezier(0.550, 0.085, 0.680, 0.530);
   transition-delay: 0.33s;
   opacity: 1 !important;
 }
@@ -118,7 +118,7 @@ html.is-animating .transition-nav {
 } */
 
 #navigation {
-  transition: 0.33s transform ease-in-out, 0.33s opacity cubic-bezier(0.600, 0.040, 0.980, 0.335);
+  transition: 0.33s transform ease-in-out, 0.4s opacity cubic-bezier(0.550, 0.085, 0.680, 0.530);
   /* height: 68px !important; */
   /* z-index: 999; */
   .navigation-container {
@@ -164,13 +164,13 @@ button:hover {
 }
 
 #filter-container {
-  transition: 0.33s transform ease-in-out, 0.33s opacity cubic-bezier(0.600, 0.040, 0.980, 0.335);
+  transition: 0.33s transform ease-in-out, 0.4s opacity cubic-bezier(0.550, 0.085, 0.680, 0.530);
 }
 
 #filter {
   /* overflow: hidden; */
   /* margin: 0 -0.5rem 0 -0.5rem; */
-  transition: 0.33s transform ease-in-out, 0.33s opacity cubic-bezier(0.600, 0.040, 0.980, 0.335);
+  transition: 0.33s transform ease-in-out, 0.4s opacity cubic-bezier(0.550, 0.085, 0.680, 0.530);
 }
 
 @keyframes loading-pulse {
@@ -386,7 +386,7 @@ img[data-sizes="auto"] {
 }
 
 img {
-  transition: 0.33s opacity cubic-bezier(0.600, 0.040, 0.980, 0.335);
+  transition: 0.4s opacity cubic-bezier(0.550, 0.085, 0.680, 0.530);
   transition-delay: 0.33s;
   opacity: 1;
   width: 100%;
@@ -441,7 +441,7 @@ figure:hover img {
 
 /* .block-hover figcaption {
   opacity: 0;
-  transition: 0.33s opacity cubic-bezier(0.600, 0.040, 0.980, 0.335);
+  transition: 0.4s opacity cubic-bezier(0.550, 0.085, 0.680, 0.530);
 }
 .block-hover article:hover figcaption {
   opacity: 1;
@@ -465,12 +465,12 @@ a:hover, button:hover {
 
 .figure.figure-blog-cover h1, .figure.figure-blog-cover h2 {
   opacity: 0;
-  transition: 0.33s opacity ease-in-out;
+  transition: 0.4s opacity cubic-bezier(0.550, 0.085, 0.680, 0.530);
 }
 
 .figure.figure-blog-text h1, .figure.figure-blog-text h2 {
   opacity: 1;
-  transition: 0.33s opacity  ease-in-out;
+  transition: 0.4s opacity  cubic-bezier(0.550, 0.085, 0.680, 0.530);
 }
 
 .figure.figure-blog-cover.dimmed h1,  .figure.figure-blog-cover.dimmed h2 {
@@ -488,7 +488,7 @@ a:hover, button:hover {
 
 .figure iframe {
   will-change: opacity;
-  transition: opacity 0.33s ease-in-out;
+  transition: opacity 0.4s cubic-bezier(0.550, 0.085, 0.680, 0.530);
 }
 
 figcaption p {
@@ -796,7 +796,7 @@ footer a {
 
 .popup-trigger img {
   opacity: 1;
-  transition: 0.33s opacity ease-in-out;
+  transition: 0.4s opacity cubic-bezier(0.550, 0.085, 0.680, 0.530);
 }
 
 .popup-trigger:hover img {
@@ -807,7 +807,7 @@ footer a {
   will-change: opacity;
   opacity: 0;
   pointer-events: none;
-  transition: all 300ms ease-in-out;
+  transition: 0.4s all cubic-bezier(0.550, 0.085, 0.680, 0.530);
   backface-visibility: hidden;
 
   &.is--visible {
@@ -820,7 +820,7 @@ footer a {
 @responsive {
   .meta-hover h6 {
   opacity: 0 !important;
-  transition: 0.33s opacity cubic-bezier(0.600, 0.040, 0.980, 0.335);
+  transition: 0.4s opacity cubic-bezier(0.550, 0.085, 0.680, 0.530);
   transition-delay: 0s !important;
   }
 
