@@ -355,7 +355,7 @@ body.sal-disabled [data-sal|="flip"] {
 [data-sal|="image"] img, [data-sal|="image"] figcaption {
   opacity: 0;
   transition-property: opacity;
-  transition-duration: 0.33s;
+  transition-duration: 0.4s;
 }
 
 [data-sal|="image"] figcaption { 
