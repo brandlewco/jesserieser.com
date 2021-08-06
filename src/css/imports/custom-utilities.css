@@ -60,7 +60,7 @@ a[target=_blank], a[href^="mailto:"], a[href^="tel:"] {
 
 body {
   background-color: #fff;
-  transition: 0.33s background-color cubic-bezier(0.550, 0.085, 0.680, 0.530);
+  transition: 0.33s background-color cubic-bezier(0.775, 0.100, 0.785, 0.485);
   transition-delay: 0.15s;
   scrollbar-width: none;
   min-height: 100vh;
@@ -73,7 +73,7 @@ html.is-animating img {
 }
 
 .transition-page {
-  transition: 0.33s opacity cubic-bezier(0.550, 0.085, 0.680, 0.530);
+  transition: 0.33s opacity cubic-bezier(0.775, 0.100, 0.785, 0.485);
   transition-delay: 0.33s;
   opacity: 1 !important;
 }
@@ -118,7 +118,7 @@ html.is-animating .transition-nav {
 } */
 
 #navigation {
-  transition: 0.33s transform ease-in-out, 0.33s opacity cubic-bezier(0.550, 0.085, 0.680, 0.530);
+  transition: 0.33s transform ease-in-out, 0.33s opacity cubic-bezier(0.775, 0.100, 0.785, 0.485);
   /* height: 68px !important; */
   /* z-index: 999; */
   .navigation-container {
@@ -164,13 +164,13 @@ button:hover {
 }
 
 #filter-container {
-  transition: 0.33s transform ease-in-out, 0.33s opacity cubic-bezier(0.550, 0.085, 0.680, 0.530);
+  transition: 0.33s transform ease-in-out, 0.33s opacity cubic-bezier(0.775, 0.100, 0.785, 0.485);
 }
 
 #filter {
   /* overflow: hidden; */
   /* margin: 0 -0.5rem 0 -0.5rem; */
-  transition: 0.33s transform ease-in-out, 0.33s opacity cubic-bezier(0.550, 0.085, 0.680, 0.530);
+  transition: 0.33s transform ease-in-out, 0.33s opacity cubic-bezier(0.775, 0.100, 0.785, 0.485);
 }
 
 @keyframes loading-pulse {
@@ -386,7 +386,7 @@ img[data-sizes="auto"] {
 }
 
 img {
-  transition: 0.33s opacity cubic-bezier(0.550, 0.085, 0.680, 0.530);
+  transition: 0.33s opacity cubic-bezier(0.775, 0.100, 0.785, 0.485);
   transition-delay: 0.33s;
   opacity: 1;
   width: 100%;
@@ -441,7 +441,7 @@ figure:hover img {
 
 /* .block-hover figcaption {
   opacity: 0;
-  transition: 0.33s opacity cubic-bezier(0.550, 0.085, 0.680, 0.530);
+  transition: 0.33s opacity cubic-bezier(0.775, 0.100, 0.785, 0.485);
 }
 .block-hover article:hover figcaption {
   opacity: 1;
@@ -820,7 +820,7 @@ footer a {
 @responsive {
   .meta-hover h6 {
   opacity: 0 !important;
-  transition: 0.33s opacity cubic-bezier(0.550, 0.085, 0.680, 0.530);
+  transition: 0.33s opacity cubic-bezier(0.775, 0.100, 0.785, 0.485);
   transition-delay: 0s !important;
   }
 
