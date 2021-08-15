@@ -3,14 +3,14 @@ collection_archive = false
 collection_awards = []
 collection_category = ["Editorial", "Science", "Tech", "Reportage", "Color", "Still Life + Details", "Environments"]
 collection_content = ""
-collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/alcor-1.jpg"
+collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/alcor-7.jpg"
 collection_cover_mobile = ""
-collection_description = ""
-collection_description_alignment = "left"
+collection_description = "The business of cryopreservation — storing bodies at deep freeze (minus 320 degrees Fahrenheit) until well into the future — got a lot more complicated during the pandemic. \n\nAs it turns out, the pandemic that has affected billions of lives around the world has also had an impact on the nonliving"
+collection_description_alignment = "center"
 collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_hidden = false
-collection_meta = "Cryogenics"
+collection_meta = "After Death, The Big Chill"
 collection_meta_2 = ""
 collection_press = []
 collection_preview = []
@@ -18,11 +18,11 @@ cover_image = ""
 date = 2021-08-11T22:46:00Z
 hide_footer = false
 layout = "blocks"
-navigation_theme = "white"
-px_extra = false
+navigation_theme = "black"
+px_extra = true
 row_alignment = "between"
 slug = "collections/nytimes-cryogenics"
-theme_color = ""
+theme_color = "#E5FDB3"
 theme_color_all_works = ""
 title = "The New York Times "
 [[collection_layout_builder]]
@@ -31,12 +31,12 @@ align_y = ""
 block = "media-element"
 caption = ""
 color = "#DDF3F3"
-image = "https://d1sf55qlb7p6hz.cloudfront.net/alcor-1.jpg"
+image = "https://d1sf55qlb7p6hz.cloudfront.net/alcor-b-1.jpg"
 margin_left = "20%"
 margin_right = ""
 margin_y = "100"
 template = "block-media-element"
-width = "70"
+width = "66"
 [[collection_layout_builder]]
 block = "media-row"
 row_alignment = "between"
@@ -52,7 +52,7 @@ margin_left = "5%"
 margin_right = ""
 margin_y = "100"
 template = "block-media-element"
-width = "45"
+width = "50"
 [[collection_layout_builder]]
 align_x = "start"
 align_y = ""
@@ -61,10 +61,10 @@ caption = ""
 color = "#FBE3E5"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/alcor-3.jpg"
 margin_left = "0%"
-margin_right = "20%"
-margin_y = "500"
+margin_right = "5%"
+margin_y = "600"
 template = "block-media-element"
-width = "20"
+width = "33"
 [[collection_layout_builder]]
 block = "media-row"
 row_alignment = "between"
@@ -251,4 +251,32 @@ margin_right = ""
 margin_y = "200"
 template = "block-media-element"
 width = "45"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_y = "start"
+block = "media-element"
+caption = ""
+color = ""
+image = "https://d1sf55qlb7p6hz.cloudfront.net/alcor-b-2.jpg"
+margin_left = "0%"
+margin_right = "0%"
+margin_y = "50"
+template = "block-media-element"
+width = "33"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+
 +++
