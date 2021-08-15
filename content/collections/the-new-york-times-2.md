@@ -224,7 +224,7 @@ color = "#F4E2FC"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/alcor-14.jpg"
 margin_left = "0%"
 margin_right = "5%"
-margin_y = "300"
+margin_y = "400"
 template = "block-media-element"
 width = "50"
 [[collection_layout_builder]]
