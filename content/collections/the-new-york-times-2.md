@@ -138,7 +138,7 @@ color = "#F7E0FF"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/alcor-8.jpg"
 margin_left = "0%"
 margin_right = "0%"
-margin_y = "200"
+margin_y = "100"
 template = "block-media-element"
 width = "30"
 [[collection_layout_builder]]
