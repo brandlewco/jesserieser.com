@@ -168,7 +168,7 @@ margin_left = "0%"
 margin_right = "0%"
 margin_y = "800"
 template = "block-media-element"
-width = ""
+width = "33"
 [[collection_layout_builder]]
 block = "media-row"
 row_alignment = "between"
