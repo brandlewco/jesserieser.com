@@ -1,6 +1,5 @@
 <figure class="filter-item h-auto py-4 pr-4 sm:pr-0 pl-4 lg:w-grid-four sm:w-grid-three w-full overflow-hidden {{range .Params.collection_category }}{{. | replaceRE "[\\W]" "" | lower}} {{end}}{{with .Params.collection_filter}}{{. | replaceRE "[\\W]" "" | lower}}{{end}} all active" data-theme="{{with .Params.theme_color_all_works}}{{.}}{{else}}{{.Params.theme_color}}{{end}}" data-filter="{{range .Params.collection_category}}{{. | replaceRE "[\\W]" "" | lower}},{{end}}{{with .Params.collection_filter}}{{. | replaceRE "[\\W]" "" | lower}}{{end}}">
     <a href="{{substr .Permalink 0 -1}}">
-        
         {{if .Params.collection_preview }}
         <div class="collection-preview relative lazyload" style="padding-top:75%; background-color:{{.Params.theme_color}};">
         {{else}}
@@ -27,8 +26,8 @@
         {{else}}
         <figcaption class="text-black text-base">
         {{end}}
-        <span class="font-medium italic block pt-1 tracking-wide leading-tight">{{.Title}}</span>
-        <span class="font-normal block text-xs pt-1 tracking-widest leading-tight">{{.Params.collection_meta}} {{with .Params.collection_meta_2}} - {{.}}{{end}}</span>
+        <span class="font-medium italic block pt-1 tracking-wide leading-tight no-underline">{{.Title}}</span>
+        <span class="font-normal block text-xs pt-1 tracking-widest leading-tight no-underline">{{.Params.collection_meta}} {{with .Params.collection_meta_2}} - {{.}}{{end}}</span>
         </figcaption>
     </a>
 </figure>
