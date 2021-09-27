@@ -50,7 +50,7 @@ body.page-jesse-rieser .menu .nav-selected, body.page-collections .menu .nav-col
   @apply font-medium tracking-widest;
 }
 
-a[target=_blank], a[href^="mailto:"], a[href^="tel:"] {
+a[href^="mailto:"], a[href^="tel:"] {
   @apply underline;
 }
 
