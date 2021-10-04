@@ -30,6 +30,11 @@ fields:
     required: false
   label: Collection Meta 2
   description: secondary meta
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
 - type: file
   name: collection_cover
   label: Cover Image
