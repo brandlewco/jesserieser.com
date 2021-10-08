@@ -11,7 +11,7 @@ page_sections:
   width: '33'
   align_y: start
   margin_y: '800'
-  margin_left: 5%
+  margin_left: 10%
   margin_right: 0%
   title: AP 37
   color: "#F6F9AD"
@@ -47,7 +47,7 @@ page_sections:
   width: '55'
   align_y: start
   margin_y: '100'
-  margin_left: 20%
+  margin_left: 25%
   margin_right: 0%
   title_margin_y: 40%
   title_margin_left: 5%
@@ -72,10 +72,10 @@ page_sections:
   attached_blog: posts/young-guns-19.md
   block_aspect_ratio: []
   text_size: 2xl
-  width: '33'
+  width: '50'
   align_y: start
   margin_y: '100'
-  margin_left: 30%
+  margin_left: 5%
   margin_right: 0%
   title: YG 19
   color: "#FFE6E6"
@@ -84,12 +84,12 @@ page_sections:
   row_alignment: between
 - template: block-media-feature
   block: media-feature
-  width: '50'
+  width: '45'
   align_y: start
   margin_y: '100'
-  margin_left: 5%
+  margin_left: 35%
   margin_right: 0%
-  title_margin_y: 65%
+  title_margin_y: 80%
   title_margin_left: 0%
   title_margin_right: 0%
   text_size: 6xl
