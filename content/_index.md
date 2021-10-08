@@ -149,7 +149,7 @@ page_sections:
   width: '40'
   align_y: start
   margin_y: '100'
-  margin_left: 50%
+  margin_left: 45%
   margin_right: 0%
   title_margin_y: 5%
   title_margin_left: "-40%"
@@ -174,7 +174,7 @@ page_sections:
   width: '33'
   align_y: start
   margin_y: '100'
-  margin_left: 30%
+  margin_left: 25%
   margin_right: 0%
   title_margin_left: 5%
   title_margin_right: 0%
@@ -198,9 +198,9 @@ page_sections:
   text_size: 2xl
   width: '25'
   align_y: start
-  margin_y: '1000'
+  margin_y: '900'
   margin_left: 0%
-  margin_right: 25%
+  margin_right: 5%
   color: "#DACEEA"
   title: The Sunset Spot at Red Modern
 - template: block-media-row
