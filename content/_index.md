@@ -78,7 +78,7 @@ page_sections:
   margin_left: 30%
   margin_right: 0%
   title: YG 19
-  color: ''
+  color: "#FFE6E6"
 - template: block-media-row
   block: media-row
   row_alignment: between
