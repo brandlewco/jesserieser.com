@@ -2,7 +2,7 @@
 attached_collection = "collections/the-new-york-times.md"
 attached_link = ""
 block_aspect_ratio = ""
-blog_block_cover = ""
+blog_block_cover = "https://d1sf55qlb7p6hz.cloudfront.net/nyt-ap_blog_cover-1.jpg"
 blog_builder = []
 blog_header = ""
 blog_slider = []
