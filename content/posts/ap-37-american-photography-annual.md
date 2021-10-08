@@ -18,7 +18,7 @@ image = "https://d1sf55qlb7p6hz.cloudfront.net/nyt-ap_blog-2.jpg"
 template = "block-media-element-url"
 [[blog_slider]]
 block = "media-element-url"
-image = ""
+image = "https://d1sf55qlb7p6hz.cloudfront.net/nyt-ap_blog-1.jpg"
 template = "block-media-element-url"
 
 +++
