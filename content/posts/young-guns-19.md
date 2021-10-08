@@ -6,11 +6,11 @@ blog_block_cover = ""
 blog_builder = []
 blog_header = ""
 blog_slider = []
-caption = "Juror &"
+caption = "Juror for the 2021 Class "
 content = ""
 date = ""
 draft = true
-news_category = []
+news_category = ["press"]
 theme_color = ""
 title = "Young Guns 19"
 
