@@ -25,9 +25,9 @@ width = "33"
 [[blog_builder]]
 block = "media-element-static"
 caption = ""
-image = ""
+image = "https://d1sf55qlb7p6hz.cloudfront.net/nyt-ap_blog-24.jpg"
 template = "block-media-element-static"
-width = "50"
+width = "33"
 [[blog_builder]]
 block = "media-row-static"
 template = "block-media-row-static"
