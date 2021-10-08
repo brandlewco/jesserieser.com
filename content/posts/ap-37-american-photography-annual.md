@@ -109,18 +109,9 @@ template = "block-media-row-static"
 [[blog_builder]]
 block = "media-element-static"
 caption = ""
-image = "https://d1sf55qlb7p6hz.cloudfront.net/nyt-ap_blog-23.jpg"
-template = "block-media-element-static"
-width = "50"
-[[blog_builder]]
-block = "media-row-static"
-template = "block-media-row-static"
-[[blog_builder]]
-block = "media-element-static"
-caption = ""
 image = "https://d1sf55qlb7p6hz.cloudfront.net/nyt-ap_blog-25.jpg"
 template = "block-media-element-static"
-width = "50"
+width = "100"
 [[blog_slider]]
 block = "media-element-url"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/nyt-ap_blog-2.jpg"
