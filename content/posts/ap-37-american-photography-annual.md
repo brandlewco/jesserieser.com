@@ -8,7 +8,7 @@ caption = "The New York Times: Auctioning off a Dead Mall"
 content = "I am honored to share that [**_Auctioning off a Dead Mall _**](https://jesserieser.com/collections/nytimes-metrocenter)for _The New York Times_ has been named one of the year’s best by the [**_American Photography 37 Photo Annual _**](https://www.ai-ap.com/slideshow/AP/36/?status=selected%22%20%5Cl%20%22267)for editorial photography.\n\nHow will the pandemic accelerate the retail apocalypse? When a mall closes, where does all of it’s stuff go? I set out to answer these questions at the recently shuttered Metrocenter mall in Phoenix, AZ.\n\nCongratulations to all the winners and thank you to this year’s judges:  \nArem Duplessis, Jury Chair, Group Creative Director, Apple Inc.  \nBrian Bantog, Art Director, Nike  \nStella Blackmon, Photo Editor, _New York Magazine_  \nJane Clark, Photography Director, _AARP Media_  \nVida Cornelious, Executive Creative Director, T Brand Studio/_New York Times_  \nLeslie dela Vega, Director of Visuals, OZY MEDIA  \nNatalia Jiménez, Picture Editor, _The Washington Post_  \nGianmaria Schonlieb, Creative Director, Lyft  \nPhilip Brian Tabuas, Photo Editor, _Bloomberg News_  \nRonda Thompson, Web Design Consultant, Bed Bath & Beyond"
 date = ""
 news_category = ["awards"]
-theme_color = ""
+theme_color = "#ECAFAF"
 title = "AP 37: American Photography Annual "
 [[blog_builder]]
 block = "media-element-static"
