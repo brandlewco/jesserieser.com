@@ -1,5 +1,5 @@
 +++
-attached_collection = []
+attached_collection = "collections/the-new-york-times.md"
 attached_link = ""
 block_aspect_ratio = ""
 blog_block_cover = ""
