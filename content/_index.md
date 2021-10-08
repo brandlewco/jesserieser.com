@@ -8,10 +8,10 @@ page_sections:
   attached_blog: posts/ap-37-american-photography-annual.md
   block_aspect_ratio: []
   text_size: 2xl
-  width: '25'
+  width: '33'
   align_y: start
-  margin_y: '600'
-  margin_left: 0%
+  margin_y: '800'
+  margin_left: 5%
   margin_right: 0%
   title: AP 37
   color: "#F6F9AD"
@@ -21,9 +21,9 @@ page_sections:
   block_aspect_ratio: 3x4
   width: '40'
   align_y: start
-  margin_y: '100'
-  margin_left: 50%
-  margin_right: 0%
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 10%
   title_margin_y: 40%
   title_margin_left: "-100%"
   title_margin_right: 0%
