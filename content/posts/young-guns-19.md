@@ -44,9 +44,10 @@ image = "https://d1sf55qlb7p6hz.cloudfront.net/02_jury.jpg"
 template = "block-media-element-static"
 width = "100"
 [[blog_slider]]
-block = "media-element-url"
-image = "https://d1sf55qlb7p6hz.cloudfront.net/01a.jpg"
-template = "block-media-element-url"
+block = "media-motion-id"
+show_controls = false
+template = "block-media-motion-id"
+vimeo_id = 618420931
 [[blog_slider]]
 block = "media-element-url"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/01_article.jpg"
