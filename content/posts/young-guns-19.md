@@ -41,9 +41,9 @@ template = "block-media-row-static"
 [[blog_builder]]
 block = "media-element-static"
 caption = ""
-image = ""
+image = "https://d1sf55qlb7p6hz.cloudfront.net/02_jury.jpg"
 template = "block-media-element-static"
-width = "50"
+width = "100"
 [[blog_slider]]
 block = "media-element-url"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/01a.jpg"
