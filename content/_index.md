@@ -72,7 +72,7 @@ page_sections:
   attached_blog: posts/young-guns-19.md
   block_aspect_ratio: []
   text_size: 2xl
-  width: '50'
+  width: '45'
   align_y: start
   margin_y: '100'
   margin_left: 5%
