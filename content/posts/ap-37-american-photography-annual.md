@@ -112,7 +112,7 @@ width = "50"
 [[blog_builder]]
 block = "media-element-static"
 caption = ""
-image = ""
+image = "https://d1sf55qlb7p6hz.cloudfront.net/nyt-ap_blog-25.jpg"
 template = "block-media-element-static"
 width = "50"
 [[blog_slider]]
