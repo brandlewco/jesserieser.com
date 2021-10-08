@@ -1,5 +1,5 @@
 +++
-attached_collection = []
+attached_collection = "collections/wired-gunsite.md"
 attached_link = ""
 block_aspect_ratio = "ratio-16x9"
 blog_block_cover = "https://d1sf55qlb7p6hz.cloudfront.net/01a.jpg"
