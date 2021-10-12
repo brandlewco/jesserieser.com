@@ -228,6 +228,11 @@ page_sections:
   color: "#FFDA8A"
   modal_block:
   - template: popup-text-element
+    content: "**2021**  \n_AP 37: American Photography Annual 37_  \nBest Editorial
+      Series:  \n_The New York Times_ \"Auctioning Off a Dead Mall\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
     content: "**2020**  \nKlompching Gallery Fresh 2020   \nWinning Exhibitor  \n_The
       Changing Landscape of American Retail_"
     icon: ''
@@ -382,11 +387,6 @@ page_sections:
   - template: popup-text-element
     content: "**2008**  \n_PDN Photography Annual_  \nBest Personal Work Series:  \n_Spaceman
       & Baby_"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "**2021**  \n_AP 37: American Photography Annual 37_  \nBest Editorial
-      Series:  \n_The New York Times_ \"Auctioning Off a Dead Mall\""
     icon: ''
     url: ''
   margin_x: 5%
