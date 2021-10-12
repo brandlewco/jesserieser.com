@@ -89,10 +89,10 @@ page_sections:
   margin_y: '100'
   margin_left: 40%
   margin_right: 0%
-  title_margin_y: 10%
-  title_margin_left: 80%
+  title_margin_y: 70%
+  title_margin_left: 5%
   title_margin_right: 0%
-  text_size: 6xl
+  text_size: 7xl
   line_height: normal
   text_alignment: left
   text_tracking: normal
@@ -102,7 +102,7 @@ page_sections:
   meta: Vegas Presses It's Luck in the Postpandemic Era Cover Story
   title: Barron's
   attached_collection: collections/barron-s-las-vegas-reopenning.md
-  text_color: "#FF9FB3"
+  text_color: "#FF6585"
   font_weight: semibold
 - template: block-media-row
   block: media-row
@@ -117,7 +117,7 @@ page_sections:
   title_margin_y: 25%
   title_margin_left: 5%
   title_margin_right: 0%
-  text_size: 6xl
+  text_size: 7xl
   line_height: normal
   text_alignment: left
   text_tracking: normal
@@ -184,7 +184,7 @@ page_sections:
   meta: 2018 - 2020
   image: https://d1sf55qlb7p6hz.cloudfront.net/rieser_phx-HI-2.jpg
   color: "#D0F4F2"
-  text_size: 6xl
+  text_size: 5xl
   font_weight: semibold
   text_tracking: normal
   text_alignment: left
@@ -653,13 +653,13 @@ navigation_theme: white
 row_alignment: between
 selected_works_theme:
 - template: selected-works-theme
-  image: https://d1sf55qlb7p6hz.cloudfront.net/selected_featured-1.jpg
+  image: https://d1sf55qlb7p6hz.cloudfront.net/selectedworks_2021-horizontal-1.jpg
   theme_color: "#F4D8BE"
-  image_mobile: https://d1sf55qlb7p6hz.cloudfront.net/vertical_featuredworks-1.jpg
+  image_mobile: https://d1sf55qlb7p6hz.cloudfront.net/selectedworks_2021-vertical-1.jpg
 - template: selected-works-theme
-  image: https://d1sf55qlb7p6hz.cloudfront.net/selected_featured-2.jpg
+  image: https://d1sf55qlb7p6hz.cloudfront.net/selectedworks_2021-horizontal-2.jpg
   theme_color: "#CBEFA7"
-  image_mobile: https://d1sf55qlb7p6hz.cloudfront.net/vertical_featuredworks-2.jpg
+  image_mobile: https://d1sf55qlb7p6hz.cloudfront.net/selectedworks_2021-vertical-2.jpg
 - template: selected-works-theme
   image: https://d1sf55qlb7p6hz.cloudfront.net/selected_featured-3.jpg
   theme_color: "#FF6766"
