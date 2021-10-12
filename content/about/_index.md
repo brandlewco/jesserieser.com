@@ -384,6 +384,11 @@ page_sections:
       & Baby_"
     icon: ''
     url: ''
+  - template: popup-text-element
+    content: "**2021**  \n_AP 37: American Photography Annual 37_  \nBest Editorial
+      Series:  \n_The New York Times_ \"Auctioning Off a Dead Mall\""
+    icon: ''
+    url: ''
   margin_x: 5%
   block-list: ''
   align_y: ''
