@@ -661,9 +661,9 @@ selected_works_theme:
   theme_color: "#CBEFA7"
   image_mobile: https://d1sf55qlb7p6hz.cloudfront.net/selectedworks_2021-vertical-2.jpg
 - template: selected-works-theme
-  image: https://d1sf55qlb7p6hz.cloudfront.net/selected_featured-3.jpg
-  theme_color: "#FF6766"
-  image_mobile: https://d1sf55qlb7p6hz.cloudfront.net/vertical_featuredworks-3.jpg
+  image: https://d1sf55qlb7p6hz.cloudfront.net/selectedworks_2021-horizontal-3.jpg
+  theme_color: "#FF002C"
+  image_mobile: https://d1sf55qlb7p6hz.cloudfront.net/selectedworks_2021-vertical-3.jpg
 px_extra: true
 collection_meta: ''
 
