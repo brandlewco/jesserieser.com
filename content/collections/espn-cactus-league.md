@@ -1,5 +1,5 @@
 +++
-collection_archive = false
+collection_archive = true
 collection_awards = []
 collection_category = ["Editorial", "Reportage", "Humor", "Sports + Athletes", "Still Life + Details", "Environments", "Portraits", "Color"]
 collection_content = ""
