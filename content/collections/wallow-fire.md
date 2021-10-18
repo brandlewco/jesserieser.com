@@ -1,5 +1,5 @@
 +++
-collection_archive = false
+collection_archive = true
 collection_category = ["Award Winning", "Exhibited Works ", "Reportage", "Travel", "Climate Change", "Color", "Environments", "Color"]
 collection_content = "In Eastern Arizona, near the border with New Mexico, is a land of dirt roads stretching out to white-washed horizons. Here, ranches are carved out of the scrub and pine-dotted landscapes and grazing cattle are the only living things for miles.\n\nThe area’s beauty comes from its pervasive remoteness.\n\nBut from late May to early June in 2011, the land in and surrounding the Bear Wallow Wilderness Area in the White Mountains was remade with a terrible, devastating kind of beauty. One that turned the landscape lunar and the air yellowed and hazy. A campfire sparked a conflagration that charred 841 miles across Arizona and New Mexico, destroying 72 buildings, 32 of them homes.\n\nAs I traveled across the western United States in late May 2011, I saw the Wallow Fire, as it was named, and I was mesmerized by the towering smoke plumes and expanses of blackened earth. I stopped to stay, to photograph the fire, its effects, and the international community of men and women assembled to fight and eventually extinguish the blaze.\n\nI was drawn by the way the Wallow Fire, reshaped the landscape and the atmosphere, making it a surreal, deadly place where playgrounds stood empty, where tree bark turned to ash scales, where grazing land was charred to cinder, where the air swirled thick with smoke and heat. It quickly became the largest fire in Arizona’s history, forcing everyone to evacuate.\n\nSadly, due to man made climate change, this was the first of many historic fires that has severely impacted the land and residents of Colorado, California, New Mexico, Texas, and again Arizona. This project is dedicated to the families of the 19 fallen firefighters of the Granite Mountain Hotshot Crew of Arizona who lost their lives in the Yarnell Hill Fire on June 30, 2013. The deadliest day for United States firefighters since September 11, 2001."
 collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/wallow-15.jpg"
@@ -14,7 +14,7 @@ date = ""
 layout = "blocks"
 logo = ""
 navigation_theme = "white"
-px_extra = false
+px_extra = true
 slug = "projects/the-wallow-fire"
 theme_color = "#D8E1E1"
 theme_color_all_works = "#ED5C5C"
