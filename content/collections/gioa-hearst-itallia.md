@@ -1,5 +1,5 @@
 +++
-collection_archive = false
+collection_archive = true
 collection_category = ["Award Winning", "Award Winning", "Portraits", "Lifestyle", "Color", "Sports + Athletes", "Editorial"]
 collection_content = ""
 collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/hearst-5.jpg"
