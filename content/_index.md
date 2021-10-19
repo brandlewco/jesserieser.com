@@ -341,7 +341,7 @@ page_sections:
   width: '45'
   align_y: start
   margin_y: '100'
-  margin_left: 35%
+  margin_left: 25%
   margin_right: 0%
   title_margin_y: 5%
   title_margin_left: "-40%"
