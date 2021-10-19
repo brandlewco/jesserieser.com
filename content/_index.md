@@ -488,30 +488,6 @@ page_sections:
   font_weight: semibold
   line_height: none
   title_margin_y: 20%
-- template: block-media-feature
-  block: media-feature
-  width: '25'
-  align_x: start
-  image: https://d1sf55qlb7p6hz.cloudfront.net/backpage-3.jpg
-  title: 'Wired '
-  color: "#F1D0F9"
-  margin_y: '500'
-  attached_collection: collections/wired.md
-  meta: Backpage.com Cover Story
-  margin_x: ''
-  align_y: ''
-  margin_left: 0%
-  margin_right: 25%
-  title_margin_left: 30%
-  title_margin_right: ''
-  meta_align: right
-  text_color: "#FF5676"
-  text_size: 6xl
-  text_alignment: left
-  text_tracking: normal
-  font_weight: semibold
-  line_height: none
-  title_margin_y: 5%
 - template: block-media-row
   block: media-row
   row_alignment: between
