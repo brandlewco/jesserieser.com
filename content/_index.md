@@ -146,10 +146,10 @@ page_sections:
   row_alignment: ''
 - template: block-media-feature
   block: media-feature
-  width: '55'
+  width: '50'
   align_y: start
   margin_y: '300'
-  margin_left: 10%
+  margin_left: 15%
   margin_right: 0%
   title_margin_y: 25%
   title_margin_left: 5%
@@ -181,11 +181,23 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: between
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/klompching-gallery-fresh.md
+  block_aspect_ratio: []
+  text_size: base
+  width: '20'
+  align_y: start
+  margin_y: '100'
+  margin_left: 5%
+  margin_right: 0%
+  title: Fresh
+  color: "#DFEFC2"
 - template: block-media-feature
   block: media-feature
-  width: '45'
+  width: '50'
   align_x: start
-  margin_y: '400'
+  margin_y: '300'
   image: https://d1sf55qlb7p6hz.cloudfront.net/xmas-1.jpg
   attached_collection: collections/xmas-in-america.md
   title: Christmas in America
@@ -193,8 +205,8 @@ page_sections:
   meta: 2010 -  2019
   margin_x: ''
   align_y: ''
-  margin_left: 20%
-  margin_right: 0%
+  margin_left: 0%
+  margin_right: 15%
   title_margin_left: 5%
   title_margin_right: ''
   meta_align: left
@@ -205,24 +217,12 @@ page_sections:
   font_weight: semibold
   line_height: none
   title_margin_y: 15%
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/klompching-gallery-fresh.md
-  block_aspect_ratio: []
-  text_size: base
-  width: '25'
-  align_y: start
-  margin_y: '100'
-  margin_left: 0%
-  margin_right: 5%
-  title: Fresh
-  color: "#DFEFC2"
 - template: block-media-row
   block: media-row
   row_alignment: between
 - template: block-media-feature
   block: media-feature
-  width: '30'
+  width: '33'
   align_x: end
   margin_y: '100'
   image: https://d1sf55qlb7p6hz.cloudfront.net/stargeezers-1.jpg
@@ -232,9 +232,9 @@ page_sections:
   meta: Condor Airlines (Germany)
   margin_x: ''
   align_y: ''
-  margin_left: 10%
+  margin_left: 25%
   margin_right: ''
-  title_margin_left: 70%
+  title_margin_left: 75%
   title_margin_right: ''
   meta_align: left
   text_color: "#F38EFF"
@@ -243,27 +243,27 @@ page_sections:
   text_tracking: normal
   font_weight: semibold
   line_height: none
-  title_margin_y: 20%
+  title_margin_y: 15%
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/ap-36-american-photography-annual.md
   width: '20'
   align_y: start
-  margin_y: '300'
-  margin_left: 0%
-  margin_right: 15%
+  margin_y: '100'
+  margin_left: 10%
+  margin_right: 0%
   title: AP 35
   color: "#D8EBEE"
   block_aspect_ratio: 11x8.5
   text_size: ''
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
 - template: block-media-feature
   block: media-feature
   width: '50'
   align_x: end
-  margin_y: '200'
+  margin_y: '300'
   image: https://d1sf55qlb7p6hz.cloudfront.net/timeGC-5.jpg
   title: 'Time '
   color: "#fdcfb1"
@@ -272,17 +272,17 @@ page_sections:
   margin_x: ''
   align_y: ''
   margin_left: 0%
-  margin_right: 20%
-  title_margin_left: 20%
+  margin_right: 10%
+  title_margin_left: 70%
   title_margin_right: ''
   meta_align: right
-  text_color: "#CEE8D5"
+  text_color: "#A1F6B4"
   text_size: 6xl
   text_alignment: left
   text_tracking: ''
   font_weight: semibold
   line_height: none
-  title_margin_y: 50%
+  title_margin_y: 15%
 - template: block-media-row
   block: media-row
   row_alignment: ''
