@@ -144,9 +144,6 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: ''
-- template: block-media-row
-  block: media-row
-  row_alignment: between
 - template: block-media-feature
   block: media-feature
   width: '55'
@@ -184,6 +181,72 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: between
+- template: block-media-feature
+  block: media-feature
+  width: '45'
+  align_x: start
+  margin_y: '400'
+  image: https://d1sf55qlb7p6hz.cloudfront.net/xmas-1.jpg
+  attached_collection: collections/xmas-in-america.md
+  title: Christmas in America
+  color: "#F0DADA"
+  meta: 2010 -  2019
+  margin_x: ''
+  align_y: ''
+  margin_left: 20%
+  margin_right: 0%
+  title_margin_left: 5%
+  title_margin_right: ''
+  meta_align: left
+  text_color: "#F7EE81"
+  text_size: 6xl
+  text_alignment: left
+  text_tracking: normal
+  font_weight: semibold
+  line_height: none
+  title_margin_y: 15%
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/klompching-gallery-fresh.md
+  block_aspect_ratio: []
+  text_size: base
+  width: '25'
+  align_y: start
+  margin_y: '100'
+  margin_left: 0%
+  margin_right: 5%
+  title: Fresh
+  color: "#DFEFC2"
+- template: block-media-row
+  block: media-row
+  row_alignment: between
+- template: block-media-feature
+  block: media-feature
+  width: '30'
+  align_x: end
+  margin_y: '100'
+  image: https://d1sf55qlb7p6hz.cloudfront.net/stargeezers-1.jpg
+  attached_collection: collections/star-geezers.md
+  title: The Star Geezers
+  color: "#9bbad5"
+  meta: Condor Airlines (Germany)
+  margin_x: ''
+  align_y: ''
+  margin_left: 10%
+  margin_right: ''
+  title_margin_left: 70%
+  title_margin_right: ''
+  meta_align: left
+  text_color: "#F38EFF"
+  text_size: 6xl
+  text_alignment: left
+  text_tracking: normal
+  font_weight: semibold
+  line_height: none
+  title_margin_y: 20%
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
 - template: block-media-feature
   block: media-feature
   width: '45'
@@ -234,69 +297,6 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: ''
-- template: block-media-feature
-  block: media-feature
-  width: '45'
-  align_x: start
-  margin_y: '400'
-  image: https://d1sf55qlb7p6hz.cloudfront.net/xmas-1.jpg
-  attached_collection: collections/xmas-in-america.md
-  title: Christmas in America
-  color: "#F0DADA"
-  meta: 2010 -  2019
-  margin_x: ''
-  align_y: ''
-  margin_left: 20%
-  margin_right: 0%
-  title_margin_left: 5%
-  title_margin_right: ''
-  meta_align: left
-  text_color: "#F7EE81"
-  text_size: 6xl
-  text_alignment: left
-  text_tracking: normal
-  font_weight: semibold
-  line_height: none
-  title_margin_y: 15%
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/klompching-gallery-fresh.md
-  block_aspect_ratio: []
-  text_size: base
-  width: '25'
-  align_y: start
-  margin_y: '100'
-  margin_left: 0%
-  margin_right: 5%
-  title: Fresh
-  color: "#DFEFC2"
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
-- template: block-media-feature
-  block: media-feature
-  width: '30'
-  align_x: end
-  margin_y: '100'
-  image: https://d1sf55qlb7p6hz.cloudfront.net/stargeezers-1.jpg
-  attached_collection: collections/star-geezers.md
-  title: The Star Geezers
-  color: "#9bbad5"
-  meta: Condor Airlines (Germany)
-  margin_x: ''
-  align_y: ''
-  margin_left: 10%
-  margin_right: ''
-  title_margin_left: 70%
-  title_margin_right: ''
-  meta_align: left
-  text_color: "#F38EFF"
-  text_size: 6xl
-  text_alignment: left
-  text_tracking: normal
-  font_weight: semibold
-  line_height: none
-  title_margin_y: 20%
 - template: block-media-row
   block: media-row
   row_alignment: ''
