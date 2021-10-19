@@ -244,6 +244,45 @@ page_sections:
   font_weight: semibold
   line_height: none
   title_margin_y: 20%
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/ap-36-american-photography-annual.md
+  width: '20'
+  align_y: start
+  margin_y: '300'
+  margin_left: 0%
+  margin_right: 15%
+  title: AP 35
+  color: "#D8EBEE"
+  block_aspect_ratio: 11x8.5
+  text_size: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
+- template: block-media-feature
+  block: media-feature
+  width: '50'
+  align_x: end
+  margin_y: '200'
+  image: https://d1sf55qlb7p6hz.cloudfront.net/timeGC-5.jpg
+  title: 'Time '
+  color: "#fdcfb1"
+  attached_collection: collections/time.md
+  meta: Grand Canyon 100th Anniversary 
+  margin_x: ''
+  align_y: ''
+  margin_left: 0%
+  margin_right: 20%
+  title_margin_left: 20%
+  title_margin_right: ''
+  meta_align: right
+  text_color: "#CEE8D5"
+  text_size: 6xl
+  text_alignment: left
+  text_tracking: ''
+  font_weight: semibold
+  line_height: none
+  title_margin_y: 50%
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -297,45 +336,6 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: ''
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/ap-36-american-photography-annual.md
-  width: '20'
-  align_y: start
-  margin_y: '100'
-  margin_left: 5%
-  margin_right: 0%
-  title: AP 35
-  color: "#D8EBEE"
-  block_aspect_ratio: 11x8.5
-  text_size: ''
-- template: block-media-feature
-  block: media-feature
-  width: '50'
-  align_x: end
-  margin_y: '200'
-  image: https://d1sf55qlb7p6hz.cloudfront.net/timeGC-5.jpg
-  title: 'Time '
-  color: "#fdcfb1"
-  attached_collection: collections/time.md
-  meta: Grand Canyon 100th Anniversary 
-  margin_x: ''
-  align_y: ''
-  margin_left: 0%
-  margin_right: 20%
-  title_margin_left: 20%
-  title_margin_right: ''
-  meta_align: right
-  text_color: "#CEE8D5"
-  text_size: 6xl
-  text_alignment: left
-  text_tracking: ''
-  font_weight: semibold
-  line_height: none
-  title_margin_y: 50%
 - template: block-media-row
   block: media-row
   row_alignment: between
