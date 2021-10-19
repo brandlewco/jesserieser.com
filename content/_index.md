@@ -344,7 +344,7 @@ page_sections:
   margin_left: 25%
   margin_right: 0%
   title_margin_y: 5%
-  title_margin_left: "-40%"
+  title_margin_left: "-20%"
   title_margin_right: 0%
   text_size: 6xl
   line_height: normal
