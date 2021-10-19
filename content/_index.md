@@ -195,7 +195,7 @@ page_sections:
   color: "#DFEFC2"
 - template: block-media-feature
   block: media-feature
-  width: '50'
+  width: '55'
   align_x: start
   margin_y: '300'
   image: https://d1sf55qlb7p6hz.cloudfront.net/xmas-1.jpg
@@ -222,9 +222,9 @@ page_sections:
   row_alignment: between
 - template: block-media-feature
   block: media-feature
-  width: '33'
+  width: '45'
   align_x: end
-  margin_y: '100'
+  margin_y: '300'
   image: https://d1sf55qlb7p6hz.cloudfront.net/stargeezers-1.jpg
   attached_collection: collections/star-geezers.md
   title: The Star Geezers
@@ -232,10 +232,10 @@ page_sections:
   meta: Condor Airlines (Germany)
   margin_x: ''
   align_y: ''
-  margin_left: 25%
+  margin_left: 15%
   margin_right: ''
-  title_margin_left: 75%
-  title_margin_right: ''
+  title_margin_left: 70%
+  title_margin_right: 0%
   meta_align: left
   text_color: "#F38EFF"
   text_size: 6xl
@@ -244,21 +244,21 @@ page_sections:
   font_weight: semibold
   line_height: none
   title_margin_y: 15%
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/ap-36-american-photography-annual.md
   width: '20'
   align_y: start
   margin_y: '100'
-  margin_left: 10%
-  margin_right: 0%
+  margin_left: 0%
+  margin_right: 5%
   title: AP 35
   color: "#D8EBEE"
   block_aspect_ratio: 11x8.5
   text_size: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
 - template: block-media-feature
   block: media-feature
   width: '50'
