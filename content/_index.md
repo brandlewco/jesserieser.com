@@ -620,6 +620,28 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: between
+- template: block-media-feature
+  block: media-feature
+  width: '33'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  title_margin_y: 35%
+  title_margin_left: 0%
+  title_margin_right: 0%
+  text_size: 6xl
+  line_height: normal
+  text_alignment: left
+  text_tracking: normal
+  meta_align: left
+  title: 'The New York Times '
+  meta: 'America is Reopening. This is What it Looks Like '
+  attached_collection: collections/the-new-york-times-1.md
+  color: "#F69292"
+  text_color: "#C0FAE9"
+  image: https://d1sf55qlb7p6hz.cloudfront.net/nyt_open-cover-1.jpg
+  font_weight: ''
 home_theme_color: "#EDDDDE"
 collection_description: A student of subtleties.
 collection_content: ''
