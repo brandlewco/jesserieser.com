@@ -294,7 +294,7 @@ page_sections:
   margin_left: 15%
   margin_right: 0%
   title_margin_y: 20%
-  title_margin_left: "-30%"
+  title_margin_left: "-20%"
   title_margin_right: 0%
   text_size: 5xl
   line_height: normal
