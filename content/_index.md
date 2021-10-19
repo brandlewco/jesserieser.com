@@ -3,51 +3,12 @@ layout: blocks
 title: Jesse Rieser
 date: 2017-11-01T23:00:00.000+00:00
 page_sections:
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/ap-37-american-photography-annual.md
-  block_aspect_ratio: []
-  text_size: 2xl
-  width: '33'
-  align_y: start
-  margin_y: '800'
-  margin_left: 10%
-  margin_right: 0%
-  title: AP 37
-  color: "#F6F9AD"
-- template: block-media-feature-vimeo
-  block: media-feature-vimeo
-  vimeo_id: 527057630
-  block_aspect_ratio: 3x4
-  width: '40'
-  align_y: start
-  margin_y: '50'
-  margin_left: 0%
-  margin_right: 10%
-  title_margin_y: 40%
-  title_margin_left: "-100%"
-  title_margin_right: 0%
-  text_size: 7xl
-  line_height: normal
-  text_alignment: left
-  text_tracking: normal
-  font_weight: semibold
-  meta_align: right
-  color: "#DAC9E3"
-  attached_collection: collections/espn-devin-booker-cover-story.md
-  meta: 'Devin Booker: Becoming Legendary Cover Story'
-  show_controls: false
-  title: ''
-  text_color: "#FFC681"
-- template: block-media-row
-  block: media-row
-  row_alignment: between
 - template: block-media-feature
   block: media-feature
-  width: '50'
+  width: '55'
   align_y: start
   margin_y: '100'
-  margin_left: 20%
+  margin_left: 25%
   margin_right: 0%
   title_margin_y: 40%
   title_margin_left: 5%
@@ -66,106 +27,44 @@ page_sections:
   text_color: "#FFFFFF"
 - template: block-media-row
   block: media-row
-  row_alignment: between
+  row_alignment: ''
 - template: block-modal-blog
   block: modal-blog
-  attached_blog: posts/young-guns-19.md
+  attached_blog: posts/ap-37-american-photography-annual.md
   block_aspect_ratio: []
   text_size: 2xl
-  width: '45'
+  width: '30'
   align_y: start
   margin_y: '100'
   margin_left: 5%
   margin_right: 0%
-  title: YG 19
-  color: "#FFE6E6"
-- template: block-media-row
-  block: media-row
-  row_alignment: between
-- template: block-media-feature
-  block: media-feature
-  width: '45'
-  align_y: start
-  margin_y: '100'
-  margin_left: 40%
-  margin_right: 0%
-  title_margin_y: 70%
-  title_margin_left: 5%
-  title_margin_right: 0%
-  text_size: 7xl
-  line_height: normal
-  text_alignment: left
-  text_tracking: normal
-  meta_align: left
-  image: https://d1sf55qlb7p6hz.cloudfront.net/barrons-lv-reopen-1.jpg
-  color: "#DBF8F0"
-  meta: Vegas Presses It's Luck in the Postpandemic Era Cover Story
-  title: Barron's
-  attached_collection: collections/barron-s-las-vegas-reopenning.md
-  text_color: "#FF6585"
-  font_weight: semibold
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
+  title: AP 37
+  color: "#F6F9AD"
 - template: block-media-feature
   block: media-feature
   width: '55'
   align_y: start
-  margin_y: '300'
-  margin_left: 10%
-  margin_right: 0%
-  title_margin_y: 25%
-  title_margin_left: 5%
-  title_margin_right: 0%
-  text_size: 7xl
-  line_height: normal
-  text_alignment: left
-  text_tracking: normal
-  meta_align: left
-  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-gunsite-27.jpg
-  attached_collection: collections/wired-gunsite.md
-  color: "#EFE7A8"
-  title: 'Wired '
-  meta: I Am Not a Soldier but I Have Been Trained to Kill
-  text_color: "#FFB8FE"
-  font_weight: semibold
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/the-photo-banter.md
-  block_aspect_ratio: []
-  text_size: 6xl
-  width: '20'
-  align_y: start
-  margin_y: '100'
+  margin_y: '400'
   margin_left: 0%
-  margin_right: 5%
-  title: The Photo Banter
-  color: "#0CA5E5"
+  margin_right: 0%
+  title_margin_left: "-15%"
+  title_margin_right: 0%
+  meta_align: right
+  image: https://d1sf55qlb7p6hz.cloudfront.net/retail-cover-1.jpg
+  color: "#F2ECDF"
+  attached_collection: collections/retail.md
+  meta: 2015 - 2018
+  title: "The Changing Landscape \n\nof American Retail"
+  text_color: "#9AF98E"
+  text_size: 6xl
+  text_alignment: left
+  text_tracking: widest
+  font_weight: semibold
+  line_height: tight
+  title_margin_y: 10%
 - template: block-media-row
   block: media-row
-  row_alignment: ''
-- template: block-media-feature
-  block: media-feature
-  width: '40'
-  align_y: start
-  margin_y: '100'
-  margin_left: 45%
-  margin_right: 0%
-  title_margin_y: 5%
-  title_margin_left: "-40%"
-  title_margin_right: 0%
-  text_size: 6xl
-  line_height: normal
-  text_alignment: left
-  text_tracking: normal
-  font_weight: semibold
-  meta_align: right
-  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-runnersworld-4.jpg
-  color: "#EFD4D4"
-  title: 'Runner''s World '
-  meta: The Reinvention of Ryan and Sara Hall
-  attached_collection: collections/runner-s-world.md
-  text_color: "#FDDA70"
+  row_alignment: between
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -203,31 +102,132 @@ page_sections:
   margin_right: 5%
   color: "#DACEEA"
   title: The Sunset Spot at Red Modern
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/young-guns-19.md
+  block_aspect_ratio: []
+  text_size: 2xl
+  width: '45'
+  align_y: start
+  margin_y: '100'
+  margin_left: 5%
+  margin_right: 0%
+  title: YG 19
+  color: "#FFE6E6"
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
+- template: block-media-feature-vimeo
+  block: media-feature-vimeo
+  vimeo_id: 527057630
+  block_aspect_ratio: 3x4
+  width: '40'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 10%
+  title_margin_y: 40%
+  title_margin_left: "-100%"
+  title_margin_right: 0%
+  text_size: 7xl
+  line_height: normal
+  text_alignment: left
+  text_tracking: normal
+  font_weight: semibold
+  meta_align: right
+  color: "#DAC9E3"
+  attached_collection: collections/espn-devin-booker-cover-story.md
+  meta: 'Devin Booker: Becoming Legendary Cover Story'
+  show_controls: false
+  title: ''
+  text_color: "#FFC681"
+- template: block-media-row
+  block: media-row
+  row_alignment: between
+- template: block-media-feature
+  block: media-feature
+  width: '55'
+  align_y: start
+  margin_y: '300'
+  margin_left: 10%
+  margin_right: 0%
+  title_margin_y: 25%
+  title_margin_left: 5%
+  title_margin_right: 0%
+  text_size: 7xl
+  line_height: normal
+  text_alignment: left
+  text_tracking: normal
+  meta_align: left
+  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-gunsite-27.jpg
+  attached_collection: collections/wired-gunsite.md
+  color: "#EFE7A8"
+  title: 'Wired '
+  meta: I Am Not a Soldier but I Have Been Trained to Kill
+  text_color: "#FFB8FE"
+  font_weight: semibold
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/the-photo-banter.md
+  block_aspect_ratio: []
+  text_size: 6xl
+  width: '20'
+  align_y: start
+  margin_y: '100'
+  margin_left: 0%
+  margin_right: 5%
+  title: The Photo Banter
+  color: "#0CA5E5"
+- template: block-media-row
+  block: media-row
+  row_alignment: between
+- template: block-media-feature
+  block: media-feature
+  width: '45'
+  align_y: start
+  margin_y: '100'
+  margin_left: 40%
+  margin_right: 0%
+  title_margin_y: 70%
+  title_margin_left: 5%
+  title_margin_right: 0%
+  text_size: 7xl
+  line_height: normal
+  text_alignment: left
+  text_tracking: normal
+  meta_align: left
+  image: https://d1sf55qlb7p6hz.cloudfront.net/barrons-lv-reopen-1.jpg
+  color: "#DBF8F0"
+  meta: Vegas Presses It's Luck in the Postpandemic Era Cover Story
+  title: Barron's
+  attached_collection: collections/barron-s-las-vegas-reopenning.md
+  text_color: "#FF6585"
+  font_weight: semibold
 - template: block-media-row
   block: media-row
   row_alignment: ''
 - template: block-media-feature
   block: media-feature
-  width: '55'
+  width: '40'
   align_y: start
   margin_y: '100'
-  margin_left: 30%
+  margin_left: 45%
   margin_right: 0%
-  title_margin_left: "-20%"
+  title_margin_y: 5%
+  title_margin_left: "-40%"
   title_margin_right: 0%
-  meta_align: right
-  image: https://d1sf55qlb7p6hz.cloudfront.net/retail-cover-1.jpg
-  color: "#F2ECDF"
-  attached_collection: collections/retail.md
-  meta: 2015 - 2018
-  title: "The Changing \n\nLandscape of \n\nAmerican Retail"
-  text_color: "#B7FEAE"
   text_size: 6xl
+  line_height: normal
   text_alignment: left
-  text_tracking: widest
+  text_tracking: normal
   font_weight: semibold
-  line_height: tight
-  title_margin_y: 10%
+  meta_align: right
+  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-runnersworld-4.jpg
+  color: "#EFD4D4"
+  title: 'Runner''s World '
+  meta: The Reinvention of Ryan and Sara Hall
+  attached_collection: collections/runner-s-world.md
+  text_color: "#FDDA70"
 - template: block-media-row
   block: media-row
   row_alignment: ''
