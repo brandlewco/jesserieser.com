@@ -513,7 +513,7 @@ figcaption p {
   }
 
   .figure.figure-blog-cover.dimmed:hover img {
-    opacity: 0;
+    opacity: 0 !important;
   }
 
   .figure.figure-blog-cover.dimmed:hover h1, .figure.figure-blog-cover.dimmed:hover h2 {

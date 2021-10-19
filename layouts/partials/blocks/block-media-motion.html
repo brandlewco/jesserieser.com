@@ -5,7 +5,7 @@
     <!-- <a href="{{ .Section.image }}" itemprop="contentUrl" pid="{{ $fileName }}" data-no-swup>
       <img class="lazyload" src="{{ .Section.image }}?width=1024" data-src="{{ .Section.image }}" alt="{{ .Section.caption }}"/>
     </a> -->
-    <a href="https://player.vimeo.com/video/{{.Section.vimeo_id}}" class="video relative block" itemprop="contentUrl" pid="{{ $fileName }}" data-no-swup>
+    <a href="https://player.vimeo.com/video/{{.Section.vimeo_id}}" class="video relative block" itemprop="contentUrl" pid="{{ $fileName }}" background={{.Section.show_controls}} data-no-swup>
       <div class="block">
         <div class="absolute inset-auto w-full h-full z-10 bg-transparent"></div>
           <div class="iframe-frame {{with .Section.block_aspect_ratio }}ratio-{{.}}{{else}}ratio-16x9{{end}}" style="position:relative;">
