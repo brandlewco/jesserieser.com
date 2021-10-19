@@ -110,10 +110,10 @@ page_sections:
   attached_blog: posts/young-guns-19.md
   block_aspect_ratio: []
   text_size: 2xl
-  width: '40'
+  width: '33'
   align_y: start
   margin_y: '400'
-  margin_left: 5%
+  margin_left: 0%
   margin_right: 0%
   title: YG 19
   color: "#FFE6E6"
@@ -125,7 +125,7 @@ page_sections:
   align_y: start
   margin_y: '50'
   margin_left: 0%
-  margin_right: 10%
+  margin_right: 15%
   title_margin_y: 40%
   title_margin_left: "-100%"
   title_margin_right: 0%
