@@ -291,10 +291,10 @@ page_sections:
   width: '33'
   align_y: start
   margin_y: '50'
-  margin_left: 0%
+  margin_left: 15%
   margin_right: 0%
-  title_margin_y: 35%
-  title_margin_left: 0%
+  title_margin_y: 20%
+  title_margin_left: "-30%"
   title_margin_right: 0%
   text_size: 5xl
   line_height: normal
@@ -305,12 +305,9 @@ page_sections:
   meta: 'America is Reopening. This is What it Looks Like '
   attached_collection: collections/the-new-york-times-1.md
   color: "#F69292"
-  text_color: "#C0FAE9"
+  text_color: "#FFF26E"
   image: https://d1sf55qlb7p6hz.cloudfront.net/nyt_open-cover-1.jpg
   font_weight: semibold
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
 - template: block-media-feature
   block: media-feature
   width: '45'
@@ -333,6 +330,9 @@ page_sections:
   attached_collection: collections/barron-s-las-vegas-reopenning.md
   text_color: "#FF6585"
   font_weight: semibold
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
 - template: block-media-row
   block: media-row
   row_alignment: between
