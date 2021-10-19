@@ -290,11 +290,11 @@ page_sections:
   block: media-feature
   width: '33'
   align_y: start
-  margin_y: '50'
+  margin_y: '100'
   margin_left: 15%
   margin_right: 0%
   title_margin_y: 20%
-  title_margin_left: "-20%"
+  title_margin_left: 0%
   title_margin_right: 0%
   text_size: 5xl
   line_height: normal
@@ -312,17 +312,17 @@ page_sections:
   block: media-feature
   width: '45'
   align_y: start
-  margin_y: '100'
-  margin_left: 40%
+  margin_y: '400'
+  margin_left: 0%
   margin_right: 0%
-  title_margin_y: 70%
+  title_margin_y: 65%
   title_margin_left: 5%
   title_margin_right: 0%
-  text_size: 7xl
+  text_size: 6xl
   line_height: normal
   text_alignment: left
   text_tracking: normal
-  meta_align: left
+  meta_align: right
   image: https://d1sf55qlb7p6hz.cloudfront.net/barrons-lv-reopen-1.jpg
   color: "#DBF8F0"
   meta: Vegas Presses It's Luck in the Postpandemic Era Cover Story
@@ -338,10 +338,10 @@ page_sections:
   row_alignment: between
 - template: block-media-feature
   block: media-feature
-  width: '40'
+  width: '45'
   align_y: start
   margin_y: '100'
-  margin_left: 45%
+  margin_left: 35%
   margin_right: 0%
   title_margin_y: 5%
   title_margin_left: "-40%"
