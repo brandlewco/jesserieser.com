@@ -47,7 +47,7 @@ page_sections:
   margin_y: '400'
   margin_left: 0%
   margin_right: 0%
-  title_margin_left: "-15%"
+  title_margin_left: 5%
   title_margin_right: 0%
   meta_align: right
   image: https://d1sf55qlb7p6hz.cloudfront.net/retail-cover-1.jpg
@@ -55,7 +55,7 @@ page_sections:
   attached_collection: collections/retail.md
   meta: 2015 - 2018
   title: "The Changing Landscape \n\nof American Retail"
-  text_color: "#9AF98E"
+  text_color: "#C0FFB8"
   text_size: 6xl
   text_alignment: left
   text_tracking: widest
@@ -97,26 +97,26 @@ page_sections:
   text_size: 2xl
   width: '25'
   align_y: start
-  margin_y: '900'
+  margin_y: '700'
   margin_left: 0%
   margin_right: 5%
   color: "#DACEEA"
   title: The Sunset Spot at Red Modern
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/young-guns-19.md
   block_aspect_ratio: []
   text_size: 2xl
-  width: '45'
+  width: '40'
   align_y: start
-  margin_y: '100'
+  margin_y: '400'
   margin_left: 5%
   margin_right: 0%
   title: YG 19
   color: "#FFE6E6"
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
 - template: block-media-feature-vimeo
   block: media-feature-vimeo
   vimeo_id: 527057630
@@ -141,6 +141,9 @@ page_sections:
   show_controls: false
   title: ''
   text_color: "#FFC681"
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
 - template: block-media-row
   block: media-row
   row_alignment: between
@@ -205,7 +208,7 @@ page_sections:
   font_weight: semibold
 - template: block-media-row
   block: media-row
-  row_alignment: ''
+  row_alignment: between
 - template: block-media-feature
   block: media-feature
   width: '40'
@@ -296,7 +299,7 @@ page_sections:
   title_margin_y: 20%
 - template: block-media-row
   block: media-row
-  row_alignment: between
+  row_alignment: ''
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/ap-36-american-photography-annual.md
@@ -400,7 +403,7 @@ page_sections:
   text_size: ''
 - template: block-media-row
   block: media-row
-  row_alignment: ''
+  row_alignment: between
 - template: block-media-feature
   block: media-feature
   width: '45'
@@ -611,6 +614,9 @@ page_sections:
   color: "#C5C458"
   block_aspect_ratio: 11x8.5
   text_size: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: between
 - template: block-media-row
   block: media-row
   row_alignment: between
