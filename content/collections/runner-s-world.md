@@ -16,6 +16,7 @@ collection_press = []
 collection_preview = ["https://d1sf55qlb7p6hz.cloudfront.net/runners-thumb-cover-2.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/runners-thumb-cover-3.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/runners-thumb-cover-1.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/runners-thumb-cover-4.jpg"]
 cover_image = ""
 date = 2021-03-10T20:44:01Z
+description = ""
 hide_footer = true
 layout = "blocks"
 navigation_theme = "black"
@@ -56,7 +57,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_y = "start"
 block = "media-motion"
-block_aspect_ratio = []
+block_aspect_ratio = ""
 caption = ""
 color = ""
 image = ""
