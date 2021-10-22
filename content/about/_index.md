@@ -29,6 +29,11 @@ page_sections:
   color: "#77DDD4"
   modal_block:
   - template: popup-text-element
+    content: "**2019**  \n_I am Not a Soldier. But I Have Been Trained to Kill._  \nLegend
+      City Gallery. Phoenix, AZ (Group Show)  \nChaos Theory 21"
+    icon: ''
+    url: ''
+  - template: popup-text-element
     content: "**2020**  \n_The Changing Landscape of American Retail_  \nFresh Exhibiting
       Artist  \nKlompching Gallery  \nBrooklyn, NY (Group Show)"
     icon: ''
@@ -55,7 +60,7 @@ page_sections:
     url: ''
   - template: popup-text-element
     content: "**2019**  \n_Phoenix: A Dystopian Legoland That Tastes Like Candy_  \nLegend
-      City Gallery. Phoenix, AZ (Group Show)  \nChaos Theory 19"
+      City Gallery. Phoenix, AZ (Group Show)  \nChaos Theory 20"
     icon: ''
     url: ''
   - template: popup-text-element
