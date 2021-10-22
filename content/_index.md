@@ -80,10 +80,10 @@ page_sections:
   title_margin_y: 10%
   meta_align: left
   attached_collection: collections/phoenix.md
-  meta: 2018 - 2020
+  meta: Adobe
   image: https://d1sf55qlb7p6hz.cloudfront.net/rieser_phx-HI-2.jpg
   color: "#D0F4F2"
-  text_size: 5xl
+  text_size: 6xl
   font_weight: semibold
   text_tracking: normal
   text_alignment: left
