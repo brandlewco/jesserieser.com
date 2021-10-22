@@ -16,6 +16,7 @@ collection_press = []
 collection_preview = ["https://d1sf55qlb7p6hz.cloudfront.net/gunsite-thumb-cover-1.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/gunsite-thumb-cover-2.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/gunsite-thumb-cover-3.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/gunsite-thumb-cover-4.jpg"]
 cover_image = ""
 date = 2021-03-10T20:34:58Z
+description = ""
 hide_footer = true
 layout = "blocks"
 navigation_theme = "black"
@@ -24,7 +25,7 @@ row_alignment = "between"
 slug = "collections/gunsite"
 theme_color = "#C5EBDB"
 theme_color_all_works = ""
-title = "Wired "
+title = "Wired Magazine"
 [[collection_layout_builder]]
 align_x = "start"
 align_y = ""
