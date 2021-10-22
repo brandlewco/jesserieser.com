@@ -10,7 +10,7 @@ collection_description_alignment = "center"
 collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_hidden = false
-collection_meta = "\"Significance\" for Mullen Lowe Agency NY & Boston"
+collection_meta = "Mullen Lowe Agency NY & Boston"
 collection_press = []
 collection_preview = ["https://d1sf55qlb7p6hz.cloudfront.net/banner-mullen_horizontalcover-1.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/banner-mullen_horizontalcover-2.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/banner-mullen_horizontalcover-3.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/banner-mullen_horizontalcover-4.jpg"]
 cover_image = ""
@@ -23,7 +23,7 @@ px_extra = true
 slug = "collections/Banner-Mullen"
 theme_color = "#FFB5BD"
 theme_color_all_works = "#9FF4B8"
-title = "Banner Health"
+title = "Banner Health: Significance "
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
