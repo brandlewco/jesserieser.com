@@ -9,7 +9,7 @@ collection_description = "A selection of images for Adobe CC consisting of color
 collection_description_alignment = "center"
 collection_filter = "Commissioned + Stock"
 collection_hidden = false
-collection_meta = "Adobe"
+collection_meta = "A Dystopian LegoLand That Tastes Like Candy"
 collection_preview = ["https://d1sf55qlb7p6hz.cloudfront.net/phoenix-cover-1.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/phoenix-cover-2.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/phoenix-cover-3.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/phoenix-cover-4.jpg"]
 cover_image = "https://d1sf55qlb7p6hz.cloudfront.net/social-10.jpg"
 date = ""
@@ -22,7 +22,7 @@ row_alignment = "between"
 slug = "projects/phoenix"
 theme_color = "#FF9758"
 theme_color_all_works = "#FF8F47"
-title = "Phoenix: A Dystopian LegoLand That Tastes Like Candy"
+title = "Adobe"
 [[collection_awards]]
 content = "**2019**  \n_AP 35: American Photography Annual 35_  \nBest Personal Work Series:"
 template = "popup-text-element"
