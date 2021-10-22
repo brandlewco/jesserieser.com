@@ -1009,8 +1009,8 @@ header_col_2_title: |-
   & Press Inquiries
 header_col_2: "Jesse Rieser  \nInstagram [@jesserieser.com](https://www.instagram.com/jesserieser/)
   \ \n[jesse@jesserieser.com](mailto:jesse@jesserieser.com \"jesse@jesserieser.com\")
-  \ \n[310 985 9818](tel:+13109859818 \"310 985 9818\")\n\n124 W. McDowell Rd.  \nPhoenix,
-  AZ 85003\n\n1610 W 7th St. #401  \nLos Angeles, CA 90017"
+  \ \n[310 985 9818](tel:+13109859818 \"310 985 9818\")\n\n2424 1/4 Hyperion Ave.
+  \ \nLos Angeles, CA 90027\n\n124 W. McDowell Rd.  \nPhoenix, AZ 85003"
 header_col_3_title: Stock Licensing
 header_col_3: "[Gallery Stock](https://www.gallerystock.com)  \n190 Bowery  \nNew
   York, NY 10012  \n[212 219 7520](tel:+12122197520 \"212 219 7520\")  \n[newyork@gallerystock.com](mailto:newyork@gallerystock.com
