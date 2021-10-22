@@ -273,7 +273,7 @@ page_sections:
   align_y: ''
   margin_left: 30%
   margin_right: 10%
-  title_margin_left: 60%
+  title_margin_left: 45%
   title_margin_right: ''
   meta_align: right
   text_color: "#A1F6B4"
