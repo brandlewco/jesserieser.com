@@ -53,7 +53,7 @@ page_sections:
   image: https://d1sf55qlb7p6hz.cloudfront.net/retail-cover-1.jpg
   color: "#F2ECDF"
   attached_collection: collections/retail.md
-  meta: 2015 - 2018
+  meta: 2015 - 2021
   title: "The Changing Landscape \n\nof American Retail"
   text_color: "#C0FFB8"
   text_size: 6xl
