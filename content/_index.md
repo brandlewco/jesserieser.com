@@ -88,7 +88,7 @@ page_sections:
   text_tracking: normal
   text_alignment: left
   line_height: normal
-  title: 'Adobe: A Legoland That Tastes Like Candy'
+  title: Adobe
   text_color: "#FFFA8A"
 - template: block-modal-blog
   block: modal-blog
