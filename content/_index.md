@@ -666,7 +666,7 @@ selected_works_theme:
   image_mobile: https://d1sf55qlb7p6hz.cloudfront.net/selectedworks_2021-vertical-2.jpg
 - template: selected-works-theme
   image: https://d1sf55qlb7p6hz.cloudfront.net/horizontals-2.jpg
-  theme_color: "#FF002C"
+  theme_color: "#FFAA61"
   image_mobile: https://d1sf55qlb7p6hz.cloudfront.net/verts-2.jpg
 px_extra: true
 collection_meta: ''
