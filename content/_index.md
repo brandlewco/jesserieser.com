@@ -80,7 +80,7 @@ page_sections:
   title_margin_y: 10%
   meta_align: left
   attached_collection: collections/phoenix.md
-  meta: Adobe
+  meta: A Dystopian Legoland That Tastes Like Candy
   image: https://d1sf55qlb7p6hz.cloudfront.net/rieser_phx-HI-2.jpg
   color: "#D0F4F2"
   text_size: 6xl
@@ -88,7 +88,7 @@ page_sections:
   text_tracking: normal
   text_alignment: left
   line_height: normal
-  title: "Phoenix: \n\nA Dystopian Legoland\n\nThat Tastes Like Candy"
+  title: Adobe
   text_color: "#FFFA8A"
 - template: block-modal-blog
   block: modal-blog
