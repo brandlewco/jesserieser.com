@@ -29,7 +29,7 @@ page_sections:
   color: "#77DDD4"
   modal_block:
   - template: popup-text-element
-    content: "**2019**  \n_I am Not a Soldier. But I Have Been Trained to Kill._  \nLegend
+    content: "**2021**  \n_I am Not a Soldier. But I Have Been Trained to Kill._  \nLegend
       City Gallery. Phoenix, AZ (Group Show)  \nChaos Theory 21"
     icon: ''
     url: ''
