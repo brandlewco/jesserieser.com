@@ -265,7 +265,7 @@ page_sections:
   align_x: end
   margin_y: '100'
   image: https://d1sf55qlb7p6hz.cloudfront.net/timeGC-5.jpg
-  title: 'Time '
+  title: Time Magazine
   color: "#fdcfb1"
   attached_collection: collections/time.md
   meta: Grand Canyon 100th Anniversary 
@@ -273,7 +273,7 @@ page_sections:
   align_y: ''
   margin_left: 30%
   margin_right: 10%
-  title_margin_left: 70%
+  title_margin_left: 60%
   title_margin_right: ''
   meta_align: right
   text_color: "#A1F6B4"
