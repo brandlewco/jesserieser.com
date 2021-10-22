@@ -1,7 +1,7 @@
 +++
 attached_gallery = "gallery/phoenix.md"
 collection_archive = false
-collection_category = ["Award Winning", "Exhibited Works ", "Humor", "Studio ", "Lifestyle", "Color", "Conceptual", "Portraits"]
+collection_category = ["Advertising", "Award Winning", "Exhibited Works ", "Humor", "Studio ", "Lifestyle", "Color", "Conceptual", "Portraits"]
 collection_content = ""
 collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/rieser_phx-HI-4.jpg"
 collection_cover_mobile = "https://d1sf55qlb7p6hz.cloudfront.net/verticalcovers-1.jpg"
