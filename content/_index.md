@@ -657,9 +657,9 @@ navigation_theme: white
 row_alignment: between
 selected_works_theme:
 - template: selected-works-theme
-  image: https://d1sf55qlb7p6hz.cloudfront.net/selectedworks_2021-horizontal-1.jpg
+  image: https://d1sf55qlb7p6hz.cloudfront.net/horizontals-1.jpg
   theme_color: "#F4D8BE"
-  image_mobile: https://d1sf55qlb7p6hz.cloudfront.net/selectedworks_2021-vertical-1.jpg
+  image_mobile: https://d1sf55qlb7p6hz.cloudfront.net/verts-1.jpg
 - template: selected-works-theme
   image: https://d1sf55qlb7p6hz.cloudfront.net/selectedworks_2021-horizontal-2.jpg
   theme_color: "#86D5F3"
