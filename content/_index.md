@@ -658,16 +658,16 @@ row_alignment: between
 selected_works_theme:
 - template: selected-works-theme
   image: https://d1sf55qlb7p6hz.cloudfront.net/horizontals-1.jpg
-  theme_color: "#F4D8BE"
+  theme_color: "#97FFA2"
   image_mobile: https://d1sf55qlb7p6hz.cloudfront.net/verts-1.jpg
 - template: selected-works-theme
   image: https://d1sf55qlb7p6hz.cloudfront.net/selectedworks_2021-horizontal-2.jpg
   theme_color: "#86D5F3"
   image_mobile: https://d1sf55qlb7p6hz.cloudfront.net/selectedworks_2021-vertical-2.jpg
 - template: selected-works-theme
-  image: https://d1sf55qlb7p6hz.cloudfront.net/selectedworks_2021-horizontal-3.jpg
+  image: https://d1sf55qlb7p6hz.cloudfront.net/horizontals-2.jpg
   theme_color: "#FF002C"
-  image_mobile: https://d1sf55qlb7p6hz.cloudfront.net/selectedworks_2021-vertical-3.jpg
+  image_mobile: https://d1sf55qlb7p6hz.cloudfront.net/verts-2.jpg
 px_extra: true
 collection_meta: ''
 
