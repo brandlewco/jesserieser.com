@@ -9,7 +9,7 @@ collection_description = "Arizona first got to know Willie in 1981 as a simple h
 collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_hidden = false
-collection_meta = "Welcome Back Willie For OH Partners"
+collection_meta = "OH Partners"
 collection_press = []
 collection_preview = ["https://d1sf55qlb7p6hz.cloudfront.net/azlottery_covers-1.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/azlottery_covers-2.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/azlottery_covers-3.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/azlottery_covers-4.jpg"]
 cover_image = "https://d1sf55qlb7p6hz.cloudfront.net/social-33.jpg"
@@ -22,7 +22,7 @@ px_extra = true
 slug = "collections/Arizona-Lottery"
 theme_color = "#CFE7DF"
 theme_color_all_works = "#A8EFDB"
-title = "Arizona Lottery"
+title = "Arizona Lottery: Welcome Back Willie"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"
