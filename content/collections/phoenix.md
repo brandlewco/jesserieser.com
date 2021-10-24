@@ -10,6 +10,7 @@ collection_description_alignment = "center"
 collection_filter = "Commissioned + Stock"
 collection_hidden = false
 collection_meta = "Make it pop. Make it louder. Amplify the Mood. "
+collection_meta_2 = "For Torpedo London"
 collection_preview = ["https://d1sf55qlb7p6hz.cloudfront.net/phoenix-cover-1.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/phoenix-cover-2.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/phoenix-cover-3.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/phoenix-cover-4.jpg"]
 cover_image = "https://d1sf55qlb7p6hz.cloudfront.net/social-10.jpg"
 date = ""
@@ -22,7 +23,7 @@ row_alignment = "between"
 slug = "projects/phoenix"
 theme_color = "#FF9758"
 theme_color_all_works = "#FF8F47"
-title = "Adobe: Turn Up the Vibrancy for Torpedo London"
+title = "Adobe: Turn Up the Vibrancy "
 [[collection_awards]]
 content = "**2019**  \n_AP 35: American Photography Annual 35_  \nBest Personal Work Series:"
 template = "popup-text-element"
