@@ -21,13 +21,13 @@ fields:
   config:
     required: false
   label: Collection Description
-  description: Project year, or one line description
+  description: First Line
 - name: collection_meta_2
   type: text
   config:
     required: false
   label: Collection Description 2
-  description: secondary meta
+  description: Second Line
 - name: slug
   type: text
   config:
