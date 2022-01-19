@@ -2,6 +2,11 @@
 label: Home - Page Builder
 hide_body: true
 fields:
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
 - type: text
   label: Title
   name: title
