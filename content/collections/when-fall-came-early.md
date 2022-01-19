@@ -21,6 +21,9 @@ slug = "projects/when-fall-came-early"
 theme_color = "#E1EAED"
 theme_color_all_works = "#7BC8FF"
 title = "When Fall Came Early:"
+[seo]
+meta_description = "This is a study of how climate change is altering the landscape and the backdrop to my childhood, my beloved Ozark Mountains."
+meta_title = "When Fall Came Early: Drought Along the Arkansas River Basin"
 [[collection_awards]]
 content = "**2015**  \n**_PDN Photo Annual_**  \nBest Editorial Series: _When Fall Came Early_ published by MSNBC"
 template = "popup-text-element"
