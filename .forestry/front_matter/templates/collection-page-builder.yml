@@ -16,6 +16,18 @@ fields:
 - type: text
   label: Title
   name: title
+- name: collection_meta
+  type: text
+  config:
+    required: false
+  label: Collection Description
+  description: Project year, or one line description
+- name: collection_meta_2
+  type: text
+  config:
+    required: false
+  label: Collection Description 2
+  description: secondary meta
 - name: slug
   type: text
   config:
@@ -23,18 +35,6 @@ fields:
   label: Slug
   description: the last part of the url<br>e.g. collections/work-title
   default: ''
-- name: collection_meta
-  type: text
-  config:
-    required: false
-  label: Collection Meta
-  description: Project year, or one line description
-- name: collection_meta_2
-  type: text
-  config:
-    required: false
-  label: Collection Meta 2
-  description: secondary meta
 - type: file
   name: collection_cover
   label: Cover Image
