@@ -3,6 +3,11 @@ label: Blog - Post Builder
 hide_body: true
 display_field: title
 fields:
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
 - name: title
   type: text
   config:
