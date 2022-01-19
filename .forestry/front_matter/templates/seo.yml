@@ -2,24 +2,29 @@
 label: SEO
 hide_body: true
 fields:
-- name: title
-  type: text
-  config:
-    required: false
-    max: 60
-    min: 50
-  label: Title
-  description: 50-60 character title of this page.
-- name: description
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-    min: 110
-    max: 160
-  label: Description
-  description: '110-160 character description of this page. Use as many keywords and
-    phrases as possible. '
+- name: seo
+  type: field_group
+  config: {}
+  fields:
+  - name: meta_title
+    type: text
+    config:
+      required: false
+      min: 50
+      max: 60
+    label: Meta Title
+    description: 50-60 character title of this page.
+  - name: meta_description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+      min: 110
+      max: 160
+    label: Meta Description
+    description: 110-160 character description of this page. Use as many keywords
+      and phrases as possible.
+  label: SEO
