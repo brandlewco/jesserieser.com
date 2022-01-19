@@ -10,7 +10,7 @@ fields:
     type: text
     config:
       required: false
-      min: 50
+      min: 
       max: 60
     label: Meta Title
     description: 50-60 character title of this page.
@@ -22,7 +22,7 @@ fields:
       wysiwyg: false
       schema:
         format: markdown
-      min: 110
+      min: 
       max: 160
     label: Meta Description
     description: 110-160 character description of this page. Use as many keywords
