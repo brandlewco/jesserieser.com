@@ -184,5 +184,10 @@ fields:
     max: 
     labelField: 
   label: Footer Links
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
 pages:
 - content/about/_index.md
