@@ -23,7 +23,7 @@ row_alignment = "between"
 slug = "projects/phoenix"
 theme_color = "#FF9758"
 theme_color_all_works = "#FF8F47"
-title = "Adobe: Turn Up the Vibrancy "
+title = "Adobe: Turn Up the Vibrancy"
 [[collection_awards]]
 content = "**2019**  \n_AP 35: American Photography Annual 35_  \nBest Personal Work Series:"
 template = "popup-text-element"
