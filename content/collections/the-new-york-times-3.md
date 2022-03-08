@@ -236,7 +236,7 @@ color = "#FDF9EA"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/minors-15.jpg"
 margin_left = "0%"
 margin_right = "20%"
-margin_y = "800"
+margin_y = "200"
 template = "block-media-element"
 width = "33"
 [[collection_layout_builder]]
