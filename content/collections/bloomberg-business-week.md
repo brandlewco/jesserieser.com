@@ -2,11 +2,11 @@
 collection_archive = false
 collection_awards = []
 collection_category = ["Editorial", "Reportage", "Color", "Environments"]
-collection_content = ""
-collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/rent-1.jpg"
-collection_cover_mobile = ""
-collection_description = ""
-collection_description_alignment = "left"
+collection_content = "Forty years ago, when baby boomers were starting families, Wall Street invented a new field of financial engineering to turn giant pools of capital into loans for consumers. This time around, it was the boomers’ kids who were settling down, but a shortage of housing combined with stagnant wages and more stringent lending standards was pushing ownership out of reach for young families. So Wall Street built a new machine, one that collected rental income and packaged it into a different kind of revenue stream for institutional investors.⁠\n\nIn this version of the story, there aren’t enough rentals for families who want to live in a good neighborhood but can’t afford a down payment.⁠ ⁠ \n\nTenant rights advocates have described Wall Street landlords as mass evictors, and conservative pundits such as Fox News’ Tucker Carlson have blasted them for crowding regular homebuyers out of the market, warning that the very fate of the republic is at stake. Democrats have been in agreement with this sentiment. The Biden administration has argued that big investors are making it hard for families to participate in a crucial part of the American dream.⁠\n\nThese aren’t merely symbolic concerns. Home equity represents a huge portion of wealth in the U.S., especially for moderate-income families that have few other opportunities to use borrowed money to invest in assets that can rise in value over time. Price appreciation lets owners accrue wealth and then tap their equity when they have a large or unexpected expense.”"
+collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/rent_cover-1.jpg"
+collection_cover_mobile = "https://d1sf55qlb7p6hz.cloudfront.net/rent_vertical-cover-1.jpg"
+collection_description = "Wall Street is buying starter homes to quietly become America’s landlord, promoting a new vision of the America dream: paying rent. Pictured is a topographical study of homes from Progress Residential, one of the biggest Wall Street landlords in the country."
+collection_description_alignment = "center"
 collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_hidden = false
@@ -19,10 +19,10 @@ date = 2022-03-07T21:43:40Z
 hide_footer = false
 layout = "blocks"
 navigation_theme = "white"
-px_extra = false
+px_extra = true
 row_alignment = "between"
 slug = "collections/bloomberg-rent"
-theme_color = ""
+theme_color = "#C6E3FF"
 theme_color_all_works = ""
 title = "Bloomberg Business Week"
 [seo]
@@ -236,4 +236,5 @@ margin_right = ""
 margin_y = "300"
 template = "block-media-element"
 width = "50"
+
 +++
