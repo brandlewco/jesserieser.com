@@ -44,24 +44,27 @@ page_sections:
   block: media-feature
   width: '33'
   align_y: start
-  margin_y: '50'
-  margin_left: 0%
+  margin_y: '100'
+  margin_left: 10%
   margin_right: 0%
   title_margin_y: 35%
   title_margin_left: 0%
   title_margin_right: 0%
-  text_size: 2xl
+  text_size: 5xl
   line_height: normal
   text_alignment: left
   text_tracking: normal
-  font_weight: []
+  font_weight: normal
   meta_align: left
-  image: ''
-  color: ''
-  title: ''
+  image: https://d1sf55qlb7p6hz.cloudfront.net/rent-1.jpg
+  color: "#F8E6D1"
+  title: Bloomberg Businessweek
   meta: ''
-  attached_collection: ''
+  attached_collection: collections/bloomberg-business-week.md
   text_color: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
 - template: block-media-feature
   block: media-feature
   width: '55'
@@ -123,7 +126,7 @@ page_sections:
   title_margin_y: 10%
 - template: block-media-row
   block: media-row
-  row_alignment: ''
+  row_alignment: between
 - template: block-media-feature
   block: media-feature
   width: '33'
@@ -275,7 +278,7 @@ page_sections:
   title_margin_y: 15%
 - template: block-media-row
   block: media-row
-  row_alignment: between
+  row_alignment: ''
 - template: block-media-feature
   block: media-feature
   width: '45'
@@ -386,9 +389,6 @@ page_sections:
   attached_collection: collections/barron-s-las-vegas-reopenning.md
   text_color: "#FF6585"
   font_weight: semibold
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
 - template: block-media-row
   block: media-row
   row_alignment: between
