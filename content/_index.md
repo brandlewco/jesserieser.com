@@ -47,7 +47,7 @@ page_sections:
   margin_y: '100'
   margin_left: 35%
   margin_right: 0%
-  title_margin_y: 30%
+  title_margin_y: 90%
   title_margin_left: "-65%"
   title_margin_right: 0%
   text_size: 5xl
