@@ -45,9 +45,9 @@ page_sections:
   width: '33'
   align_y: start
   margin_y: '100'
-  margin_left: 10%
+  margin_left: 35%
   margin_right: 0%
-  title_margin_y: 35%
+  title_margin_y: 50%
   title_margin_left: 0%
   title_margin_right: 0%
   text_size: 5xl
