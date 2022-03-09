@@ -1,11 +1,12 @@
 +++
 align_x = "start"
 attached_collection = "collections/retail.md"
+attached_link = ""
 block_aspect_ratio = "ratio-2x3"
 blog_block_cover = "https://d1sf55qlb7p6hz.cloudfront.net/blog_waporetail-1b-cover.jpg"
 blog_header = "https://d1sf55qlb7p6hz.cloudfront.net/startingover-11.jpg"
 caption = "Featured on Washington Post and Business Insider"
-content = "For the kickoff of the holiday spending season, I talk [**_The Changing Landscape of American Retail_**](https://jesserieser.com/projects/changing-landscape-american-retail/) to The Washington Post. Click [**here**](https://www.washingtonpost.com/photography/2019/11/22/photographing-retail-apocalypse/) to read in full and images bellow from an expanded edit and outtakes for a [**_Business Insider_**](https://www.businessinsider.com/retail-apocalypse-american-landscape-jesse-rieser-photos-2018-12#growing-up-in-the-80s-and-the-90s-theres-a-big-part-of-the-american-experience-as-a-young-person-in-mall-culture-rieser-said-5) feature.\n\nThe Washington Post feature Edited by Karly Domb Sadof and design by Clare Ramirez.  \nBusiness Insider feature edited and interview conducted by Katie Canales"
+content = "For the kickoff of the holiday spending season, I talk [**_Christmas In America: Happy Birthday, Jesus _**](https://jesserieser.com/projects/christmas-in-america)to _The Washington Post_. Click [**here**](https://www.washingtonpost.com/photography/2021/12/20/jesse-rieser-christmas-photos/) to read in full. \n\nFeature edited by Karly Domb Sadof and written by Marisa Lati."
 date = 2020-01-14T07:00:00Z
 margin_x = "5%"
 margin_y = "50"
@@ -13,6 +14,9 @@ news_category = ["Press"]
 theme_color = "#EEEBDC"
 title = "The Changing Landscape of America Retail "
 width = "10"
+[seo]
+meta_description = ""
+meta_title = ""
 [[blog_builder]]
 block = "media-element-static"
 caption = ""
