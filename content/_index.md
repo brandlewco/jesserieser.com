@@ -30,13 +30,13 @@ page_sections:
   attached_blog: posts/christmas-in-america-happy-birthday-jesus-1.md
   block_aspect_ratio: []
   text_size: 2xl
-  width: '20'
+  width: '25'
   align_y: start
-  margin_y: '900'
+  margin_y: '700'
   margin_left: 0%
   margin_right: 0%
   title: xmas
-  color: "#FFC8C8"
+  color: "#FF4B4B"
 - template: block-media-row
   block: media-row
   row_alignment: between
