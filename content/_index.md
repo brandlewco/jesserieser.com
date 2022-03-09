@@ -214,7 +214,7 @@ page_sections:
   line_height: normal
   text_alignment: left
   text_tracking: normal
-  meta_align: left
+  meta_align: right
   image: https://d1sf55qlb7p6hz.cloudfront.net/espn_booker-18.jpg
   color: "#DFE7ED"
   attached_collection: collections/espn-devin-booker-cover-story.md
