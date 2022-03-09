@@ -20,7 +20,7 @@ page_sections:
   font_weight: semibold
   meta_align: left
   image: https://d1sf55qlb7p6hz.cloudfront.net/minors-12.jpg
-  color: "#BAEEF9"
+  color: "#E4ECF7"
   title: 'The New York Times '
   meta: A Minor Leaguer’s Hard Road to the Bigs
   attached_collection: collections/the-new-york-times-3.md
