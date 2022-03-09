@@ -30,7 +30,7 @@ page_sections:
   attached_blog: posts/christmas-in-america-happy-birthday-jesus-1.md
   block_aspect_ratio: []
   text_size: 2xl
-  width: '33'
+  width: '30'
   align_y: start
   margin_y: '400'
   margin_left: 0%
