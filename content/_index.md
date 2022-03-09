@@ -11,7 +11,7 @@ page_sections:
   margin_left: 10%
   margin_right: 0%
   title_margin_y: 25%
-  title_margin_left: 20%
+  title_margin_left: 10%
   title_margin_right: 0%
   text_size: 6xl
   line_height: normal
