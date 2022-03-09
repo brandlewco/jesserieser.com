@@ -11,13 +11,13 @@ page_sections:
   margin_left: 10%
   margin_right: 0%
   title_margin_y: 20%
-  title_margin_left: "-15%"
+  title_margin_left: 75%
   title_margin_right: 0%
   text_size: 5xl
   line_height: normal
   text_alignment: left
   text_tracking: normal
-  font_weight: normal
+  font_weight: semibold
   meta_align: left
   image: https://d1sf55qlb7p6hz.cloudfront.net/minors-12.jpg
   color: "#E4ECF7"
