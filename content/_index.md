@@ -3,6 +3,30 @@ layout: blocks
 title: Jesse Rieser
 date: 2017-11-01T23:00:00.000+00:00
 page_sections:
+- template: block-media-feature-vimeo
+  block: media-feature-vimeo
+  vimeo_id: 527057630
+  block_aspect_ratio: 3x4
+  width: '40'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 15%
+  title_margin_y: 40%
+  title_margin_left: "-100%"
+  title_margin_right: 0%
+  text_size: 7xl
+  line_height: normal
+  text_alignment: left
+  text_tracking: normal
+  font_weight: semibold
+  meta_align: right
+  color: "#DAC9E3"
+  attached_collection: collections/espn-devin-booker-cover-story.md
+  meta: 'Devin Booker: Becoming Legendary Cover Story'
+  show_controls: false
+  title: ''
+  text_color: "#FFC681"
 - template: block-media-feature
   block: media-feature
   width: '40'
@@ -176,30 +200,28 @@ page_sections:
   margin_right: 0%
   title: YG 19
   color: "#FFE6E6"
-- template: block-media-feature-vimeo
-  block: media-feature-vimeo
-  vimeo_id: 527057630
-  block_aspect_ratio: 3x4
+- template: block-media-feature
+  block: media-feature
   width: '40'
   align_y: start
   margin_y: '50'
   margin_left: 0%
   margin_right: 15%
-  title_margin_y: 40%
-  title_margin_left: "-100%"
+  title_margin_y: 35%
+  title_margin_left: 0%
   title_margin_right: 0%
-  text_size: 7xl
+  text_size: 2xl
   line_height: normal
   text_alignment: left
   text_tracking: normal
-  font_weight: semibold
-  meta_align: right
-  color: "#DAC9E3"
+  meta_align: left
+  image: https://d1sf55qlb7p6hz.cloudfront.net/espn_booker-18.jpg
+  color: "#DFE7ED"
   attached_collection: collections/espn-devin-booker-cover-story.md
   meta: 'Devin Booker: Becoming Legendary Cover Story'
-  show_controls: false
   title: ''
-  text_color: "#FFC681"
+  text_color: ''
+  font_weight: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
