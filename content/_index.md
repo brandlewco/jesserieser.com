@@ -10,9 +10,9 @@ page_sections:
   margin_y: '100'
   margin_left: 10%
   margin_right: 0%
-  title_margin_y: 20%
-  title_margin_left: 0%
-  title_margin_right: "-95%"
+  title_margin_y: 10%
+  title_margin_left: "-10%"
+  title_margin_right: ''
   text_size: 5xl
   line_height: normal
   text_alignment: left
