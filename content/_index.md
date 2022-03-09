@@ -5,6 +5,65 @@ date: 2017-11-01T23:00:00.000+00:00
 page_sections:
 - template: block-media-feature
   block: media-feature
+  width: '33'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  title_margin_y: 35%
+  title_margin_left: 0%
+  title_margin_right: 0%
+  text_size: 2xl
+  line_height: normal
+  text_alignment: left
+  text_tracking: normal
+  font_weight: ''
+  meta_align: left
+  image: https://d1sf55qlb7p6hz.cloudfront.net/minors-12.jpg
+  color: "#BAEEF9"
+  title: ''
+  meta: ''
+  attached_collection: ''
+  text_color: ''
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/test-blog-posts.md
+  block_aspect_ratio: []
+  text_size: 2xl
+  width: '33'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  title: ''
+  color: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: between
+- template: block-media-feature
+  block: media-feature
+  width: '33'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  title_margin_y: 35%
+  title_margin_left: 0%
+  title_margin_right: 0%
+  text_size: 2xl
+  line_height: normal
+  text_alignment: left
+  text_tracking: normal
+  font_weight: []
+  meta_align: left
+  image: ''
+  color: ''
+  title: ''
+  meta: ''
+  attached_collection: ''
+  text_color: ''
+- template: block-media-feature
+  block: media-feature
   width: '55'
   align_y: start
   margin_y: '100'
@@ -62,9 +121,6 @@ page_sections:
   font_weight: semibold
   line_height: tight
   title_margin_y: 10%
-- template: block-media-row
-  block: media-row
-  row_alignment: between
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -670,5 +726,8 @@ selected_works_theme:
   image_mobile: https://d1sf55qlb7p6hz.cloudfront.net/verts-2.jpg
 px_extra: true
 collection_meta: ''
+seo:
+  meta_title: ''
+  meta_description: ''
 
 ---
