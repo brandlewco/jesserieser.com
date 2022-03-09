@@ -23,9 +23,12 @@ navigation_theme = "black"
 px_extra = true
 row_alignment = "between"
 slug = "collections/gunsite"
-theme_color = "#C5EBDB"
+theme_color = "#F5F396"
 theme_color_all_works = ""
 title = "Wired Magazine"
+[seo]
+meta_description = ""
+meta_title = ""
 [[collection_layout_builder]]
 align_x = "start"
 align_y = ""
