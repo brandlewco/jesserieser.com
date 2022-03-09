@@ -69,7 +69,7 @@ page_sections:
   block: media-feature
   width: '55'
   align_y: start
-  margin_y: '100'
+  margin_y: '200'
   margin_left: 20%
   margin_right: 0%
   title_margin_y: 40%
