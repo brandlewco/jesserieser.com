@@ -18,11 +18,11 @@ cover_image = ""
 date = 2022-03-07T21:51:48Z
 hide_footer = false
 layout = "blocks"
-navigation_theme = "black"
+navigation_theme = "white"
 px_extra = true
 row_alignment = "between"
 slug = "collections/nytimes-jackkruger"
-theme_color = "#FCF4C6"
+theme_color = "#FFBDD6"
 theme_color_all_works = ""
 title = "The New York Times"
 [seo]
@@ -39,7 +39,7 @@ margin_left = "10%"
 margin_right = ""
 margin_y = "100"
 template = "block-media-element"
-width = "50"
+width = "40"
 [[collection_layout_builder]]
 align_x = "start"
 align_y = ""
