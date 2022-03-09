@@ -34,7 +34,7 @@ page_sections:
   align_y: start
   margin_y: '700'
   margin_left: 0%
-  margin_right: 0%
+  margin_right: 10%
   title: xmas
   color: "#FF4B4B"
 - template: block-media-row
