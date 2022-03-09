@@ -24,7 +24,7 @@ page_sections:
   title: 'The New York Times '
   meta: A Minor Leaguer’s Hard Road to the Bigs
   attached_collection: collections/the-new-york-times-3.md
-  text_color: "#FFB7B9"
+  text_color: "#FF9295"
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/christmas-in-america-happy-birthday-jesus-1.md
