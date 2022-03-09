@@ -17,7 +17,7 @@ page_sections:
   line_height: normal
   text_alignment: left
   text_tracking: normal
-  font_weight: semibold
+  font_weight: normal
   meta_align: left
   image: https://d1sf55qlb7p6hz.cloudfront.net/minors-12.jpg
   color: "#E4ECF7"
