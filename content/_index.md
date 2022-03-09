@@ -7,7 +7,7 @@ page_sections:
   block: media-feature
   width: '33'
   align_y: start
-  margin_y: '50'
+  margin_y: '100'
   margin_left: 0%
   margin_right: 0%
   title_margin_y: 35%
@@ -23,7 +23,7 @@ page_sections:
   color: "#BAEEF9"
   title: ''
   meta: ''
-  attached_collection: ''
+  attached_collection: collections/the-new-york-times-3.md
   text_color: ''
 - template: block-modal-blog
   block: modal-blog
