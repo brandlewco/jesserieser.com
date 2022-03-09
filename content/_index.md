@@ -27,7 +27,7 @@ page_sections:
   text_color: ''
 - template: block-modal-blog
   block: modal-blog
-  attached_blog: posts/christmas-in-america-happy-birthday-jesus.md
+  attached_blog: posts/christmas-in-america-happy-birthday-jesus-1.md
   block_aspect_ratio: []
   text_size: 2xl
   width: '33'
