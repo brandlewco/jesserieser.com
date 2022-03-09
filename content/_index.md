@@ -48,7 +48,7 @@ page_sections:
   margin_left: 35%
   margin_right: 0%
   title_margin_y: 50%
-  title_margin_left: 0%
+  title_margin_left: "-85%"
   title_margin_right: 0%
   text_size: 5xl
   line_height: normal
