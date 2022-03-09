@@ -36,7 +36,7 @@ page_sections:
   margin_left: 0%
   margin_right: 0%
   title: xmas
-  color: ''
+  color: "#FFC8C8"
 - template: block-media-row
   block: media-row
   row_alignment: between
