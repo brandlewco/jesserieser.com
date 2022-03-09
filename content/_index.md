@@ -47,14 +47,14 @@ page_sections:
   margin_y: '100'
   margin_left: 35%
   margin_right: 0%
-  title_margin_y: 50%
+  title_margin_y: 35%
   title_margin_left: "-60%"
   title_margin_right: 0%
   text_size: 5xl
   line_height: normal
   text_alignment: left
   text_tracking: normal
-  font_weight: normal
+  font_weight: semibold
   meta_align: left
   image: https://d1sf55qlb7p6hz.cloudfront.net/rent-1.jpg
   color: "#F8E6D1"
