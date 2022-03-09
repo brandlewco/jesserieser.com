@@ -13,7 +13,7 @@ page_sections:
   title_margin_y: 10%
   title_margin_left: 10%
   title_margin_right: 0%
-  text_size: 6xl
+  text_size: 5xl
   line_height: normal
   text_alignment: left
   text_tracking: normal
