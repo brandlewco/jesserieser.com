@@ -27,7 +27,7 @@ page_sections:
   text_color: ''
 - template: block-modal-blog
   block: modal-blog
-  attached_blog: posts/test-blog-posts.md
+  attached_blog: posts/christmas-in-america-happy-birthday-jesus-1.md
   block_aspect_ratio: []
   text_size: 2xl
   width: '33'
@@ -35,7 +35,7 @@ page_sections:
   margin_y: '50'
   margin_left: 0%
   margin_right: 0%
-  title: ''
+  title: xmas
   color: ''
 - template: block-media-row
   block: media-row
