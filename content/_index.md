@@ -202,7 +202,7 @@ page_sections:
   color: "#FFE6E6"
 - template: block-media-feature
   block: media-feature
-  width: '33'
+  width: '40'
   align_y: start
   margin_y: '50'
   margin_left: 0%
