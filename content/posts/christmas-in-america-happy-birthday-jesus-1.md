@@ -8,7 +8,7 @@ blog_header = ""
 caption = "Washington Post Cover Feature + Interview"
 content = "Honored to be interviewed and have **_Christmas In America: Happy Birthday, Jesus_** featured on the cover of The Washington Post. Head [here](https://www.washingtonpost.com/photography/2019/11/22/photographing-retail-apocalypse/) to read the feature in full.\n\nPhoto edited by Karly Domb Sadof and interview by Marisa Lati."
 date = 2021-12-25T07:00:00Z
-news_category = ["press", "press"]
+news_category = ["press", "press", "press"]
 theme_color = "#FFB4B4"
 title = "Christmas In America: Happy Birthday, Jesus"
 [seo]
