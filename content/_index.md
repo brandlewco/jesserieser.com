@@ -55,7 +55,7 @@ page_sections:
   text_alignment: left
   text_tracking: normal
   font_weight: semibold
-  meta_align: left
+  meta_align: right
   image: https://d1sf55qlb7p6hz.cloudfront.net/rent-1.jpg
   color: "#F8E6D1"
   title: Bloomberg Businessweek
