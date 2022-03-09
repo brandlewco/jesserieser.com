@@ -42,7 +42,7 @@ page_sections:
   row_alignment: between
 - template: block-media-feature
   block: media-feature
-  width: '50'
+  width: '55'
   align_y: start
   margin_y: '100'
   margin_left: 35%
@@ -59,7 +59,7 @@ page_sections:
   image: https://d1sf55qlb7p6hz.cloudfront.net/rent-1.jpg
   color: "#F8E6D1"
   title: Bloomberg Businessweek
-  meta: ''
+  meta: The Rent is too Damn High
   attached_collection: collections/bloomberg-business-week.md
   text_color: ''
 - template: block-media-row
