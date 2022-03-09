@@ -61,7 +61,7 @@ page_sections:
   title: Bloomberg Businessweek
   meta: The Rent is too Damn High
   attached_collection: collections/bloomberg-business-week.md
-  text_color: ''
+  text_color: "#ECDAFA"
 - template: block-media-row
   block: media-row
   row_alignment: ''
