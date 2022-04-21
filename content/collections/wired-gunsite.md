@@ -29,7 +29,7 @@ title = "Wired Magazine"
 meta_description = ""
 meta_title = ""
 [[collection_awards]]
-content = "**2022**  \nAP 38: American Photography Annual 35  \nBest Editorial Series"
+content = "**2022**  \nAP 38: American Photography Annual 38  \nBest Editorial Series"
 icon = ""
 template = "popup-text-element"
 url = ""
