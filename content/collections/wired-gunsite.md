@@ -1,6 +1,6 @@
 +++
 collection_archive = false
-collection_category = ["Editorial", "Reportage", "Color", "Portraits", "Environments"]
+collection_category = ["Award Winning", "Editorial", "Reportage", "Color", "Portraits", "Environments"]
 collection_content = ""
 collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/gunsite_cover-1.jpg"
 collection_cover_mobile = "https://d1sf55qlb7p6hz.cloudfront.net/verticalcovers-50.jpg"
