@@ -1,6 +1,5 @@
 +++
 collection_archive = false
-collection_awards = []
 collection_category = ["Editorial", "Reportage", "Color", "Portraits", "Environments"]
 collection_content = ""
 collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/gunsite_cover-1.jpg"
@@ -29,6 +28,11 @@ title = "Wired Magazine"
 [seo]
 meta_description = ""
 meta_title = ""
+[[collection_awards]]
+content = "**2022**  \nAP 38: American Photography Annual 35  \nBest Editorial Series"
+icon = ""
+template = "popup-text-element"
+url = ""
 [[collection_layout_builder]]
 align_x = "start"
 align_y = ""
