@@ -233,6 +233,21 @@ page_sections:
   color: "#FFDA8A"
   modal_block:
   - template: popup-text-element
+    content: "**2022**  \nCommunication Arts Photography Annual   \nBest \"For Sale\"
+      Series:  \n\"Antoine's Escalaras\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
     content: "**2021**  \n_AP 37: American Photography Annual 37_  \nBest Editorial
       Series:  \n_The New York Times_ \"Auctioning Off a Dead Mall\""
     icon: ''
@@ -1067,6 +1082,9 @@ about_bio_image_credit: "© Brad Reed. Header © Mike Lundgren"
 cv: https://s3.us-east-2.amazonaws.com/jesserieserphoto.brandlew.co/202007_cv-jesserieser-www-2.pdf
 about_bio_doodle_credit: Portrait by © Lapo
 cv_color: "#FF5858"
+seo:
+  meta_title: ''
+  meta_description: ''
 
 ---
 ## Click the collections link above to preview collections.
