@@ -1,7 +1,6 @@
 +++
 collection_archive = false
-collection_awards = []
-collection_category = ["Studio", "Editorial", "Science", "Tech", "Humor", "Portraits", "Color"]
+collection_category = ["Award Winning", "Studio", "Editorial", "Science", "Tech", "Humor", "Portraits", "Color"]
 collection_content = "Pictured is 72 year old James Strohle. Strohle is cofounder of People Unlimited, a community to inspire people to live infinite lifespans, in 1995, then added the nonprofit Coalition for Radical Life Extension (CRLE) in 2016. A major goal of both organizations is to introduce the public to anti-aging developments so that when innovations come, they can be integrated into society as naturally as possible.⁠⁠  \n⁠⁠  \nHe’s bullish on senolytics, drugs that purge the body of deteriorating cells, and exosome treatments, which infuse the body with little packages of extracellular communication materials, usually from immortal stem cells. Neither is approved by the U.S. Food and Drug Administration, but Strole says he feels like a teenager, living and working in the retirement paradise of Scottsdale, Arizona.⁠⁠\n\nWhat happens if Strohle doesn’t make it? If his doctor says he’s got six weeks? “First I’d do everything to turn that around, but I would look then at staying alive on some level. I probably would look at Cryogenic freezing.\"⁠⁠"
 collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/pop%20mech-2.jpg"
 collection_cover_mobile = "https://d1sf55qlb7p6hz.cloudfront.net/verticalcovers-53.jpg"
@@ -25,6 +24,14 @@ slug = "collections/popular-mechanics-longevity"
 theme_color = "#A3A7F3"
 theme_color_all_works = ""
 title = "Popular Mechanics"
+[seo]
+meta_description = ""
+meta_title = ""
+[[collection_awards]]
+content = "**2022**  \nAP 38: American Photography Annual 38  \nBest Editorial Series"
+icon = ""
+template = "popup-text-element"
+url = ""
 [[collection_layout_builder]]
 align_x = "start"
 align_y = ""
