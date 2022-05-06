@@ -35,11 +35,11 @@ block = "media-element"
 caption = ""
 color = "#DDF3F3"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/scheffler_GD-1.jpg"
-margin_left = "20%"
+margin_left = "25%"
 margin_right = ""
 margin_y = "100"
 template = "block-media-element"
-width = "70"
+width = "40"
 [[collection_layout_builder]]
 block = "media-row"
 row_alignment = "between"
@@ -178,4 +178,3 @@ template = "block-media-element"
 width = "30"
 
 +++
-
