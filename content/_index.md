@@ -5,9 +5,9 @@ date: 2017-11-01T23:00:00.000+00:00
 page_sections:
 - template: block-media-feature
   block: media-feature
-  width: '33'
+  width: '40'
   align_y: start
-  margin_y: '50'
+  margin_y: '100'
   margin_left: 0%
   margin_right: 0%
   title_margin_y: 35%
@@ -20,7 +20,7 @@ page_sections:
   meta_align: left
   image: https://d1sf55qlb7p6hz.cloudfront.net/scheffler_GD-1.jpg
   attached_collection: collections/golf-digest-1.md
-  color: ''
+  color: "#FFEAB6"
   title: ''
   meta: ''
   text_color: ''
