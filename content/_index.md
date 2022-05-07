@@ -696,6 +696,28 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: between
+- template: block-media-feature
+  block: media-feature
+  width: '33'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  title_margin_y: 35%
+  title_margin_left: 0%
+  title_margin_right: 0%
+  text_size: 2xl
+  line_height: normal
+  text_alignment: left
+  text_tracking: normal
+  meta_align: left
+  image: https://d1sf55qlb7p6hz.cloudfront.net/scheffler_GD-1.jpg
+  attached_collection: collections/golf-digest-1.md
+  color: ''
+  title: ''
+  meta: ''
+  text_color: ''
+  font_weight: ''
 home_theme_color: "#EDDDDE"
 collection_description: A student of subtleties.
 collection_content: ''
