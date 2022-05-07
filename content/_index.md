@@ -20,7 +20,7 @@ page_sections:
   meta_align: left
   image: https://d1sf55qlb7p6hz.cloudfront.net/scheffler_GD-1.jpg
   attached_collection: collections/golf-digest-1.md
-  color: "#FFEAB6"
+  color: "#FFF57A"
   title: ''
   meta: ''
   text_color: ''
