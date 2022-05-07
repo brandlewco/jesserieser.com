@@ -23,7 +23,7 @@ px_extra = true
 row_alignment = "between"
 slug = "collections/golf-digest-scottie"
 theme_color = "#C1FFD2"
-theme_color_all_works = ""
+theme_color_all_works = "#FF9494"
 title = "Golf Digest "
 [seo]
 meta_description = ""
