@@ -748,7 +748,9 @@ selected_works_theme:
   theme_color: "#FFAA61"
   image_mobile: https://d1sf55qlb7p6hz.cloudfront.net/verts-2.jpg
 px_extra: true
-collection_meta: ''
+collection_meta: 'Award winning Los Angeles and Phoenix Commercial, Editorial, and
+  Fine Art Photographer & Director specializing in portraiture, reportage, sport and
+  conceptual photography and video. Located in the West Coast and Southwestern USA. '
 seo:
   meta_title: ''
   meta_description: ''
