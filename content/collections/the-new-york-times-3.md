@@ -27,7 +27,7 @@ theme_color_all_works = ""
 title = "The New York Times"
 [seo]
 meta_description = ""
-meta_title = ""
+meta_title = "The New York Times. A Minor Leaguer's Hard Road to the Bigs"
 [[collection_layout_builder]]
 align_x = "start"
 align_y = ""
