@@ -25,6 +25,9 @@ slug = "collections/nytimes-reopen"
 theme_color = "#91F8C6"
 theme_color_all_works = ""
 title = "The New York Times"
+[seo]
+meta_description = "Jesse Rieser was commissioned by the NY Times as part of a nationwide project documenting America reopening post Covid. The photographs were made in Phoenix, AZ"
+meta_title = ""
 [[collection_layout_builder]]
 align_x = "start"
 align_y = ""
