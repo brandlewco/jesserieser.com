@@ -24,6 +24,8 @@ slug = "collections/personalities-of-the-mlb"
 theme_color = "#ADCCFF"
 theme_color_all_works = "#67E170"
 title = "ESPN The Magazine"
+[seo]
+meta_description = "Jesse Rieser photographs the biggest names in Baseball for the cover of ESPN. Jesse Rieser made these fun portraits at Spring Training in Phoenix, Arizona. "
 [[collection_layout_builder]]
 block = "media-row"
 row_alignment = "between"
