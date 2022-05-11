@@ -27,7 +27,7 @@ theme_color = "#E4D1EB"
 theme_color_all_works = ""
 title = "Runner's World "
 [seo]
-meta_description = "Jesse Rieser photographs running’s power couple Ryan Hall and Sara Hall in Flagstaff Arizona. Jesse Rieser makes portraits and documents their workouts. "
+meta_description = "Jesse Rieser photographs Ryan Hall and Sara Hall in Flagstaff Arizona. Jesse Rieser makes portraits and documents their workouts for Runner’s World Magazine."
 meta_title = ""
 [[collection_layout_builder]]
 align_x = "start"
