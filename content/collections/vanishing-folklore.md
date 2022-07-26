@@ -381,7 +381,7 @@ color = "#F6F1D0"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser_folklore-24.jpg"
 margin_left = "0%"
 margin_right = "0%"
-margin_y = "700"
+margin_y = "300"
 template = "block-media-element"
 width = "40"
 [[collection_layout_builder]]
