@@ -525,40 +525,40 @@ block = "media-row"
 row_alignment = "between"
 template = "block-media-row"
 [[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
 align_y = "start"
 block = "media-element"
 caption = ""
 color = "#F6F7A0"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser_folklore-34.jpg"
-margin_left = "10%"
+margin_left = "5%"
 margin_right = "0%"
 margin_y = "200"
 template = "block-media-element"
-width = "66"
+width = "55"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 align_y = ""
