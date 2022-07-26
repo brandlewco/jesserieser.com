@@ -371,7 +371,7 @@ margin_left = "20%"
 margin_right = ""
 margin_y = "200"
 template = "block-media-element"
-width = "30"
+width = "25"
 [[collection_layout_builder]]
 align_x = "start"
 align_y = ""
