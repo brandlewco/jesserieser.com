@@ -24,7 +24,7 @@ row_alignment = "between"
 slug = "projects/folklore"
 theme_color = "#C5EAEA"
 theme_color_all_works = ""
-title = "Vanishing Folklore"
+title = "A Vanishing Folklore"
 [seo]
 meta_description = ""
 meta_title = ""
