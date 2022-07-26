@@ -381,29 +381,9 @@ color = "#F6F1D0"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser_folklore-24.jpg"
 margin_left = "0%"
 margin_right = "0%"
-margin_y = "500"
+margin_y = "400"
 template = "block-media-element"
 width = "45"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
 [[collection_layout_builder]]
 block = "media-row"
 row_alignment = "between"
@@ -415,11 +395,31 @@ block = "media-element"
 caption = ""
 color = "#D8E9BA"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser_folklore-25.jpg"
-margin_left = "25%"
+margin_left = "30%"
 margin_right = ""
 margin_y = "100"
 template = "block-media-element"
 width = "40"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
 [[collection_layout_builder]]
 block = "media-row"
 row_alignment = "between"
