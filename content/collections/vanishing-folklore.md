@@ -543,7 +543,7 @@ color = "#DCE3F3"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser_folklore-35.jpg"
 margin_left = "0%"
 margin_right = "20%"
-margin_y = "100"
+margin_y = "300"
 template = "block-media-element"
 width = "33"
 [[collection_layout_builder]]
