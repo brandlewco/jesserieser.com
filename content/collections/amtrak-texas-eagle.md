@@ -1,16 +1,16 @@
 +++
 collection_archive = false
 collection_awards = []
-collection_category = ["Reportage"]
-collection_content = ""
+collection_category = ["Editorial", "Reportage", "Travel", "Color", "Environments", "Portraits", "Reportage"]
+collection_content = "These works showcase the Amtrak Texas Eagle with stops at The Biosphere 2, Saguaro National Park, Titan Missile Silo, San Xavier Mission, The Chiricahuas, The Dragoons, Guadalupe National Park, Roswell, White Sands, Ruidoso, and Carlsbad Caverns.\n\nForgotten and unpublished, I recently revisited these images. Sadly, the National was a casualty of Covid and permanently closed their doors April, 2020 and the images never made it into print. I hope this serves a fitting and surreal farewell to one of my favorite clients."
 collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-amtrak-elpaso-3.jpg"
 collection_cover_mobile = ""
-collection_description = ""
-collection_description_alignment = "left"
+collection_description = "These works showcase the Amtrak Texas Eagle with stops at The Biosphere 2, Saguaro National Park, Titan Missile Silo, San Xavier Mission, The Chiricahuas, The Dragoons, Guadalupe National Park, Roswell, White Sands, Ruidoso, and Carlsbad Caverns."
+collection_description_alignment = "center"
 collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_hidden = false
-collection_meta = ""
+collection_meta = "Tucson to El Paso On the Texas Eagle"
 collection_meta_2 = ""
 collection_press = []
 collection_preview = []
@@ -19,12 +19,12 @@ date = 2022-07-21T01:29:36Z
 hide_footer = false
 layout = "blocks"
 navigation_theme = "white"
-px_extra = false
+px_extra = true
 row_alignment = "between"
 slug = "collections/amtrak-texas-eagle"
-theme_color = ""
+theme_color = "#FFD5D5"
 theme_color_all_works = ""
-title = "Amtrak Texas Eagle"
+title = "Amtrak the National "
 [seo]
 meta_description = ""
 meta_title = ""
@@ -619,6 +619,4 @@ margin_y = "50"
 template = "block-media-element"
 width = "30"
 
-
 +++
-
