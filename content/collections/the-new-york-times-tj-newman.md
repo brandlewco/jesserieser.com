@@ -22,7 +22,7 @@ navigation_theme = "white"
 px_extra = true
 row_alignment = "between"
 slug = "collections/nytimes-tjnewman"
-theme_color = ""
+theme_color = "#D4D2FF"
 theme_color_all_works = ""
 title = "The New York Times "
 [seo]
