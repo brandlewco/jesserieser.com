@@ -1,16 +1,16 @@
 +++
 collection_archive = false
 collection_awards = []
-collection_category = ["Portraits"]
+collection_category = ["Editorial", "Motion", "Black and White", "Sports + Athletes", "Portraits"]
 collection_content = ""
 collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-armani-hopkins-7.jpg"
 collection_cover_mobile = ""
-collection_description = ""
-collection_description_alignment = "left"
+collection_description = "Part of a 12 subject calendar produced by V and V Man celebrating 50 years of Emporio Armani."
+collection_description_alignment = "center"
 collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_hidden = false
-collection_meta = ""
+collection_meta = "Featuring Deandre Hopkins "
 collection_meta_2 = ""
 collection_press = []
 collection_preview = []
@@ -19,12 +19,12 @@ date = 2022-07-21T01:22:09Z
 hide_footer = false
 layout = "blocks"
 navigation_theme = "white"
-px_extra = false
+px_extra = true
 row_alignment = "between"
 slug = "collections/deandrehopkins"
 theme_color = ""
 theme_color_all_works = ""
-title = "Armani Anniversary "
+title = "Emporio Armani’s 50th Anniversary "
 [seo]
 meta_description = ""
 meta_title = ""
@@ -34,7 +34,9 @@ row_alignment = "between"
 template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
+align_y = ""
 block = "media-element"
+caption = ""
 color = "#F6F0EA"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-armani-hopkins-1.jpg"
 margin_left = "10%"
@@ -44,7 +46,9 @@ template = "block-media-element"
 width = "30"
 [[collection_layout_builder]]
 align_x = "start"
+align_y = ""
 block = "media-element"
+caption = ""
 color = "#F1EAEA"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-armani-hopkins-2.jpg"
 margin_left = "0%"
@@ -58,16 +62,21 @@ row_alignment = "between"
 template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
+align_y = ""
 block = "media-element"
+caption = ""
 color = "#E4F1F3"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-armani-hopkins-3.jpg"
 margin_left = "35%"
+margin_right = ""
 margin_y = "300"
 template = "block-media-element"
 width = "20"
 [[collection_layout_builder]]
 align_x = "start"
+align_y = ""
 block = "media-element"
+caption = ""
 color = "#F2E1E1"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-armani-hopkins-4.jpg"
 margin_left = ""
@@ -81,7 +90,9 @@ row_alignment = "between"
 template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
+align_y = ""
 block = "media-element"
+caption = ""
 color = "#F2BAB6"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-armani-hopkins-5.jpg"
 margin_left = "5%"
@@ -91,7 +102,9 @@ template = "block-media-element"
 width = "40"
 [[collection_layout_builder]]
 align_x = "start"
+align_y = ""
 block = "media-element"
+caption = ""
 color = "#E2ECFC"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-armani-hopkins-6.jpg"
 margin_left = "0%"
@@ -105,7 +118,9 @@ row_alignment = "between"
 template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
+align_y = ""
 block = "media-element"
+caption = ""
 color = "#E9E8F2"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-armani-hopkins-7.jpg"
 margin_left = "30%"
@@ -115,7 +130,9 @@ template = "block-media-element"
 width = "25"
 [[collection_layout_builder]]
 align_x = "start"
+align_y = ""
 block = "media-element"
+caption = ""
 color = "#F9F6DB"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-armani-hopkins-8.jpg"
 margin_left = "0%"
@@ -129,7 +146,9 @@ row_alignment = "between"
 template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
+align_y = ""
 block = "media-element"
+caption = ""
 color = "#D9E6F4"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-armani-hopkins-9.jpg"
 margin_left = "35%"
@@ -137,5 +156,5 @@ margin_right = "0%"
 margin_y = "100"
 template = "block-media-element"
 width = "40"
-+++
 
++++
