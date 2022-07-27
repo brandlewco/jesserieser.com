@@ -22,7 +22,7 @@ navigation_theme = "white"
 px_extra = true
 row_alignment = "between"
 slug = "collections/deandrehopkins"
-theme_color = ""
+theme_color = "#FFD0D0"
 theme_color_all_works = ""
 title = "Emporio Armani’s 50th Anniversary "
 [seo]
