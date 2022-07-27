@@ -1,16 +1,16 @@
 +++
 collection_archive = false
 collection_awards = []
-collection_category = ["Portraits"]
+collection_category = ["Editorial", "Color", "Lifestyle", "Workplace", "Sports + Athletes", "Portraits"]
 collection_content = ""
 collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-espn-ryan-1.jpg"
 collection_cover_mobile = ""
-collection_description = ""
+collection_description = "Gay people have made strides in many sectors of American professional life. An openly gay man runs Apple, presides as the governor of Colorado, and an open lesbian runs a Fortune 500 company. But in the highest reaches of men's basketball, gay people are almost invisible."
 collection_description_alignment = "left"
 collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_hidden = false
-collection_meta = ""
+collection_meta = "Ryan Resch: The First Openly Gay NBA Executive "
 collection_meta_2 = ""
 collection_press = []
 collection_preview = []
@@ -19,12 +19,12 @@ date = 2022-07-21T01:26:21Z
 hide_footer = false
 layout = "blocks"
 navigation_theme = "white"
-px_extra = false
+px_extra = true
 row_alignment = "between"
 slug = "collections/espn-Ryan-Resch"
-theme_color = ""
+theme_color = "#ABE3FF"
 theme_color_all_works = ""
-title = "ESPN Ryan Resch"
+title = "ESPN"
 [seo]
 meta_description = ""
 meta_title = ""
