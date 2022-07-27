@@ -22,7 +22,7 @@ navigation_theme = "white"
 px_extra = true
 row_alignment = "between"
 slug = "collections/vox-ghosttowns"
-theme_color = ""
+theme_color = "#FFD0D0"
 theme_color_all_works = ""
 title = "Vox 100 Battles "
 [seo]
