@@ -1,16 +1,16 @@
 +++
 collection_archive = false
 collection_awards = []
-collection_category = ["Reportage"]
-collection_content = ""
+collection_category = ["Editorial", "Reportage", "Travel", "Color", "Environments", "Portraits", "Reportage"]
+collection_content = "Across the West, entrepreneurs are buying up abandoned outposts and transforming them into resorts and tourist photo ops. But how do you rebuild an actual community?\n\nCleator was founded in the late 1800s, after prospectors discovered gold in the sandy soil, and came into its own as a railroad hub at the turn of the century\n\nBy 1949, with only around 60 people living there, James Cleator had put his namesake up for sale. It didn’t take long for him to realize that nobody wanted to pay cash for an abandoned town.\n\nCleator is again up for sale, by James’s descendants, this time for the price of [$999,999](https://www.buycleator.com/). It’s just one of more than 3,800 ghost towns scattered across America in need of new ownership.\n\nAlso pictured is Goldfield Ghost Town and Mine, a reconstructed 1890s western town. Here the remnants of a kitschy Hollywood Western entertain visitors with rides, tours, gun fights, and retail, capitalizing on a place lost to time.\n\nThe power of the American ghost town seems to be existential, with stories of the people who have lived there—stories of drunken fights, guns waved in faces, prison time, personal vendettas, love affairs, mysterious wealth and witchcraft."
 collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-ghosttowns-8.jpg"
 collection_cover_mobile = ""
-collection_description = ""
+collection_description = "Across the West, entrepreneurs are buying up abandoned outposts and transforming them into resorts and tourist photo ops. But how do you rebuild an actual community?"
 collection_description_alignment = "left"
 collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_hidden = false
-collection_meta = ""
+collection_meta = "Summoning the Ghost Town"
 collection_meta_2 = ""
 collection_press = []
 collection_preview = []
@@ -19,12 +19,12 @@ date = 2022-07-21T01:30:55Z
 hide_footer = false
 layout = "blocks"
 navigation_theme = "white"
-px_extra = false
+px_extra = true
 row_alignment = "between"
 slug = "collections/vox-ghosttowns"
 theme_color = ""
 theme_color_all_works = ""
-title = "Vox: 100 Battles Ghost Towns"
+title = "Vox 100 Battles "
 [seo]
 meta_description = ""
 meta_title = ""
