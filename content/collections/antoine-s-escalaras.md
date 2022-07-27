@@ -5,7 +5,7 @@ collection_category = ["Sports + Athletes", "Award Winning", "Stock", "Motion", 
 collection_content = ""
 collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/escalaras-2.jpg"
 collection_cover_mobile = ""
-collection_description = ""
+collection_description = "A photo and film project that marries my environmental architectural sensibilities with my sport photographic works.\n\nCelebrated in the 2022 Communication Arts Photo Annual as one of the year’s best."
 collection_description_alignment = "left"
 collection_exhibition = []
 collection_filter = "Personal"
@@ -18,11 +18,11 @@ cover_image = ""
 date = 2022-05-02T20:40:12Z
 hide_footer = false
 layout = "blocks"
-navigation_theme = "white"
-px_extra = false
+navigation_theme = "black"
+px_extra = true
 row_alignment = "between"
 slug = "collections/escalaras"
-theme_color = ""
+theme_color = "#FFECAA"
 theme_color_all_works = ""
 title = "Antoine's Escalaras"
 [seo]
@@ -350,4 +350,3 @@ row_alignment = "between"
 template = "block-media-row"
 
 +++
-
