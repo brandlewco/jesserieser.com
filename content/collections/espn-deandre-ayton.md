@@ -1,16 +1,16 @@
 +++
 collection_archive = false
 collection_awards = []
-collection_category = ["Portraits"]
-collection_content = ""
+collection_category = ["Studio", "Editorial", "Color", "Conceptual", "Sports + Athletes", "Portraits"]
+collection_content = "Ayton, 23, is a serious gamer. Gaming has always been there for him in any form he needs: a best friend, a therapist, his No. 1 fan. Most of all, gaming provides a virtual community that has helped Ayton navigate the challenges he battles in the physical realm.\n\nPhotographed in the Annexus Social Club, a lounge hidden in plain sight for Phoenix Suns VIP ticket holders to cheer for their favorite team, Ayton stands with his controller in hand, scanning the list of games preloaded to his PlayStation 5: World War Z: Aftermath; Fortnite; Call of Duty: Warzone Season 2; Grand Theft Auto V. The lounge has been transformed into Ayton's personal game room\n\nVideo games have been a refuge for Ayton ever since he was a child growing up in the Bahamas.\n\nAfter immigrating to the US to pursue basketball, Ayton struggled to shake the feeling of being alone in a new country. He says he quickly became the target of bullies who picked on his height and Bahamian accent.\n\nHe became overwhelmed with feelings of loneliness and rejection. While he was unable to express his feelings back then, Ayton now knows he was dealing with bouts of anxiety and depression.\n\n\"That type of stuff builds a hole in your heart. You have a big heart, but nobody sees the heart. You want to give the heart, but nobody wants the heart. And I had that at a young age where I didn't even want to be here. I didn't want to be here.\"\n\n\"Gaming always keeps me level-headed. That's not a thing I'll ever lose. Like on the road right now. ... It's just a load off where I can just play the game and just chill out for a bit and then get back to work,\" Ayton says. \"It's just video games and basketball. That's what keeps my head clear so I can play this sport.\""
 collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-espn-ayton-1.jpg"
 collection_cover_mobile = ""
-collection_description = ""
+collection_description = "Ayton, 23, is a serious gamer. Gaming has always been there for him in any form he needs: a best friend, a therapist, his No. 1 fan. Most of all, gaming provides a virtual community that has helped Ayton navigate the challenges he battles in the physical realm."
 collection_description_alignment = "left"
 collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_hidden = false
-collection_meta = ""
+collection_meta = "Dominayton: Why Deadnre Ayton Cant Live Without Video Games"
 collection_meta_2 = ""
 collection_press = []
 collection_preview = []
@@ -19,12 +19,12 @@ date = 2022-07-21T01:28:24Z
 hide_footer = false
 layout = "blocks"
 navigation_theme = "white"
-px_extra = false
+px_extra = true
 row_alignment = "between"
 slug = "collections/espn-deandre-ayton"
-theme_color = ""
+theme_color = "#FF9CED"
 theme_color_all_works = ""
-title = "ESPN Deandre Ayton"
+title = "ESPN "
 [seo]
 meta_description = ""
 meta_title = ""
