@@ -210,6 +210,11 @@ page_sections:
       York, NY (Group Show)"
     icon: ''
     url: ''
+  - template: popup-text-element
+    content: "**2022**  \nCommunication Arts Photography Annual   \nBest Works For
+      Sale:  \n\"Antoines Escalaras\""
+    icon: ''
+    url: ''
   meta: My dad & I, © Rob Rieser
   title_margin_y: 15%
   text_color: "#FFE42D"
