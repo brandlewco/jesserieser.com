@@ -210,11 +210,6 @@ page_sections:
       York, NY (Group Show)"
     icon: ''
     url: ''
-  - template: popup-text-element
-    content: "**2022**  \n**_Communication Arts Photography Annual_**  \nBest Works
-      For Sale:  \n\"Antoines Escalaras\""
-    icon: ''
-    url: ''
   meta: My dad & I, © Rob Rieser
   title_margin_y: 15%
   text_color: "#FFE42D"
@@ -412,6 +407,16 @@ page_sections:
   - template: popup-text-element
     content: "**2008**  \n_PDN Photography Annual_  \nBest Personal Work Series:  \n_Spaceman
       & Baby_"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2022**  \nSPD Merit Winner  \nVegas Presses It's Luck in the Postpandemic
+      Era Cover Story"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work
+      Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
     icon: ''
     url: ''
   margin_x: 5%
