@@ -248,6 +248,16 @@ page_sections:
     icon: ''
     url: ''
   - template: popup-text-element
+    content: "**2022**  \nSPD Merit Winner  \nVegas Presses It's Luck in the Postpandemic
+      Era Cover Story"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2022**  \nThe Agents Club Awards   \nFinalist \"Poetic Documentary\"
+      \ \n\"America is Reopening\" for _The New York Times_"
+    icon: ''
+    url: ''
+  - template: popup-text-element
     content: "**2021**  \n_AP 37: American Photography Annual 37_  \nBest Editorial
       Series:  \n_The New York Times_ \"Auctioning Off a Dead Mall\""
     icon: ''
@@ -407,16 +417,6 @@ page_sections:
   - template: popup-text-element
     content: "**2008**  \n_PDN Photography Annual_  \nBest Personal Work Series:  \n_Spaceman
       & Baby_"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "**2022**  \nSPD Merit Winner  \nVegas Presses It's Luck in the Postpandemic
-      Era Cover Story"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "**2022**  \nThe Agents Club Awards   \nFinalist \"Poetic Documentary\"
-      \ \n\"America is Reopening\" for _The New York Times_"
     icon: ''
     url: ''
   margin_x: 5%
