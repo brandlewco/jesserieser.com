@@ -211,8 +211,8 @@ page_sections:
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2022**  \nCommunication Arts Photography Annual   \nBest Works For
-      Sale:  \n\"Antoines Escalaras\""
+    content: "**2022**  \n**_Communication Arts Photography Annual_**  \nBest Works
+      For Sale:  \n\"Antoines Escalaras\""
     icon: ''
     url: ''
   meta: My dad & I, © Rob Rieser
