@@ -217,7 +217,7 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_y = "start"
 block = "media-motion"
-block_aspect_ratio = []
+block_aspect_ratio = ""
 caption = ""
 color = ""
 image = ""
@@ -226,7 +226,7 @@ margin_right = "0%"
 margin_y = "50"
 show_controls = false
 template = "block-media-motion"
-vimeo_id = 0
+vimeo_id = 736267612
 width = "33"
 
 +++
