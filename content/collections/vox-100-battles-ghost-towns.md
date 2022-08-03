@@ -6,7 +6,7 @@ collection_content = "Across the West, entrepreneurs are buying up abandoned out
 collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/2022-08_horizontal-covers-1.jpg"
 collection_cover_mobile = "https://d1sf55qlb7p6hz.cloudfront.net/2022-08_vertical-covers-1.jpg"
 collection_description = "Across the West, entrepreneurs are buying up abandoned outposts and transforming them into resorts and tourist photo ops. But how do you rebuild an actual community?"
-collection_description_alignment = "left"
+collection_description_alignment = "center"
 collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_hidden = false
@@ -24,7 +24,7 @@ row_alignment = "between"
 slug = "collections/vox-ghosttowns"
 theme_color = "#FFD0D0"
 theme_color_all_works = ""
-title = "Vox 100 Battles "
+title = "Vox: 100 Battles "
 [seo]
 meta_description = ""
 meta_title = ""
