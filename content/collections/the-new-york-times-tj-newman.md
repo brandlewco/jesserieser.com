@@ -13,7 +13,7 @@ collection_hidden = false
 collection_meta = "Best Selling Author T.J. Newman "
 collection_meta_2 = ""
 collection_press = []
-collection_preview = ["https://d1sf55qlb7p6hz.cloudfront.net/4x3-newman-4.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/4x3-newman-3.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/4x3-newman-2.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/4x3-newman-1.jpg"]
+collection_preview = ["https://d1sf55qlb7p6hz.cloudfront.net/4x3-newman-1.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/4x3-newman-3.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/4x3-newman-2.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/4x3-newman-4.jpg"]
 cover_image = ""
 date = 2022-07-21T01:24:16Z
 hide_footer = false
@@ -127,5 +127,19 @@ margin_right = ""
 margin_y = "100"
 template = "block-media-element"
 width = "25"
+[[collection_layout_builder]]
+align_y = "start"
+block = "media-motion"
+block_aspect_ratio = ""
+caption = ""
+color = ""
+image = ""
+margin_left = "0%"
+margin_right = "0%"
+margin_y = "100"
+show_controls = false
+template = "block-media-motion"
+vimeo_id = 735984980
+width = "50"
 
 +++
