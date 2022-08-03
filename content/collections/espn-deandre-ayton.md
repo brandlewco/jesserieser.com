@@ -294,7 +294,7 @@ margin_y = "100"
 show_controls = false
 template = "block-media-motion"
 vimeo_id = 736015552
-width = "55"
+width = "50"
 [[collection_layout_builder]]
 block = "media-row"
 row_alignment = "between"
