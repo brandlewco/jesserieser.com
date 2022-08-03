@@ -274,17 +274,13 @@ block_aspect_ratio = ""
 caption = ""
 color = ""
 image = ""
-margin_left = "0%"
+margin_left = "10%"
 margin_right = "0%"
-margin_y = "50"
+margin_y = "100"
 show_controls = false
 template = "block-media-motion"
 vimeo_id = 736015552
 width = "33"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
 [[collection_layout_builder]]
 align_y = "start"
 block = "media-motion"
@@ -293,11 +289,15 @@ caption = ""
 color = ""
 image = ""
 margin_left = "0%"
-margin_right = "0%"
-margin_y = "50"
+margin_right = "5%"
+margin_y = "100"
 show_controls = false
 template = "block-media-motion"
 vimeo_id = 736015583
-width = "33"
+width = "50"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
 
 +++
