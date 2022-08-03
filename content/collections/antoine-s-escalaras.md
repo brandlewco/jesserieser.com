@@ -3,26 +3,26 @@ collection_archive = false
 collection_awards = []
 collection_category = ["Sports + Athletes", "Award Winning", "Stock", "Motion", "Color", "Lifestyle", "Environments", "Portraits"]
 collection_content = ""
-collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/escalaras-2.jpg"
-collection_cover_mobile = ""
-collection_description = ""
-collection_description_alignment = "left"
+collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/2022-08_horizontal-covers-14.jpg"
+collection_cover_mobile = "https://d1sf55qlb7p6hz.cloudfront.net/2022-08_vertical-covers-23.jpg"
+collection_description = "A photo and film project that marries my environmental architectural sensibilities with my sport photographic works.\n\nCelebrated in the 2022 Communication Arts Photo Annual as one of the year’s best."
+collection_description_alignment = "center"
 collection_exhibition = []
 collection_filter = "Personal"
 collection_hidden = false
 collection_meta = ""
 collection_meta_2 = ""
 collection_press = []
-collection_preview = []
+collection_preview = ["https://d1sf55qlb7p6hz.cloudfront.net/4x3-esc-1.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/4x3-esc-5.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/4x3-esc-6.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/4x3-esc-4.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/4x3-esc-7.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/4x3-esc-3.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/4x3-esc-2.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/4x3-natgeo-7.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/4x3-natgeo-6.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/4x3-natgeo-5.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/4x3-natgeo-4.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/4x3-natgeo-3.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/4x3-natgeo-2.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/4x3-natgeo-1.jpg"]
 cover_image = ""
 date = 2022-05-02T20:40:12Z
-hide_footer = false
+hide_footer = true
 layout = "blocks"
-navigation_theme = "white"
-px_extra = false
+navigation_theme = "black"
+px_extra = true
 row_alignment = "between"
 slug = "collections/escalaras"
-theme_color = ""
+theme_color = "#FFECAA"
 theme_color_all_works = ""
 title = "Antoine's Escalaras"
 [seo]
@@ -350,4 +350,3 @@ row_alignment = "between"
 template = "block-media-row"
 
 +++
-

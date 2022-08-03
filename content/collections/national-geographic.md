@@ -1,28 +1,28 @@
 +++
 collection_archive = false
 collection_awards = []
-collection_category = ["Portraits"]
+collection_category = ["Editorial", "Science", "Climate Change", "Color", "Still Life + Details", "Environments", "Portraits"]
 collection_content = ""
-collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/rieser_natgeo-marty-1.jpg"
-collection_cover_mobile = ""
-collection_description = ""
-collection_description_alignment = "left"
+collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/2022-08_horizontal-covers-10.jpg"
+collection_cover_mobile = "https://d1sf55qlb7p6hz.cloudfront.net/2022-08_vertical-covers-22.jpg"
+collection_description = "Dr. Ariane Middel and MaRTy (median radiant temperature robot)\n\nDr. Middel is working towards a paper “50 Grades of Shade” exploring how different types of shade impact radiate temps. Does shade of a tree cast a different temperature than the shade from a building? And what does this mean for city planning as we address climate change and rising temps in desert cities? These portraits are part of a larger project exploring climate change and it’s effect on populations around the world."
+collection_description_alignment = "center"
 collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_hidden = false
-collection_meta = ""
+collection_meta = " “50 Grades of Shade” "
 collection_meta_2 = ""
 collection_press = []
-collection_preview = []
-cover_image = ""
+collection_preview = ["https://d1sf55qlb7p6hz.cloudfront.net/4x3-natgeo-9.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/4x3-natgeo-10.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/4x3-natgeo-11.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/4x3-natgeo-8.jpg"]
+cover_image = "https://d1sf55qlb7p6hz.cloudfront.net/2022-08_vertical-covers-22.jpg"
 date = 2022-07-26T00:28:16Z
-hide_footer = false
+hide_footer = true
 layout = "blocks"
-navigation_theme = "white"
-px_extra = false
+navigation_theme = "black"
+px_extra = true
 row_alignment = "between"
 slug = "collections/natgeo-marty"
-theme_color = ""
+theme_color = "#DCB4FF"
 theme_color_all_works = ""
 title = "National Geographic"
 [seo]
@@ -139,4 +139,5 @@ margin_right = "20%"
 margin_y = "300"
 template = "block-media-element"
 width = "20"
+
 +++

@@ -1,5 +1,5 @@
 +++
-collection_archive = false
+collection_archive = true
 collection_category = ["Award Winning", "Exhibited Works ", "Portraits", "Stock", "Motion", "Black and White", "Sports + Athletes"]
 collection_content = ""
 collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/soc-redobw_horizontal-1.jpg"

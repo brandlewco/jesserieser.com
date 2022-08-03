@@ -1,5 +1,5 @@
 +++
-collection_archive = false
+collection_archive = true
 collection_awards = []
 collection_category = ["Exhibited Works ", "Editorial", "Portraits", "Environments", "Travel", "Reportage", "Color", "Uniquely American"]
 collection_content = ""
