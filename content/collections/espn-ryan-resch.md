@@ -6,7 +6,7 @@ collection_content = "Gay people have made strides in many sectors of American p
 collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/2022-08_horizontal-covers-9.jpg"
 collection_cover_mobile = "https://d1sf55qlb7p6hz.cloudfront.net/2022-08_vertical-covers-16.jpg"
 collection_description = "Gay people have made strides in many sectors of American professional life. An openly gay man runs Apple, presides as the governor of Colorado, and an open lesbian runs a Fortune 500 company. But in the highest reaches of men's basketball, gay people are almost invisible."
-collection_description_alignment = "left"
+collection_description_alignment = "center"
 collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_hidden = false
@@ -155,17 +155,5 @@ margin_right = ""
 margin_y = "100"
 template = "block-media-element"
 width = "55"
-[[collection_layout_builder]]
-align_x = "start"
-align_y = ""
-block = "media-element"
-caption = ""
-color = "#D8F9FD"
-image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-espn-ryan-10.jpg"
-margin_left = "0%"
-margin_right = "5%"
-margin_y = "800"
-template = "block-media-element"
-width = "25"
 
 +++
