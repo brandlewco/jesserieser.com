@@ -146,7 +146,7 @@ color = "#F7F7D0"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-nyt-newman-7.jpg"
 margin_left = "15%"
 margin_right = ""
-margin_y = "100"
+margin_y = "200"
 template = "block-media-element"
 width = "70"
 
