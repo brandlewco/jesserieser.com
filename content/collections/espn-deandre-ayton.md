@@ -69,7 +69,7 @@ margin_y = "100"
 show_controls = false
 template = "block-media-motion"
 vimeo_id = 736015233
-width = "70"
+width = "80"
 [[collection_layout_builder]]
 block = "media-row"
 row_alignment = "between"
@@ -81,11 +81,11 @@ block = "media-element"
 caption = ""
 color = "#FBEBD6"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-espn-ayton-3.jpg"
-margin_left = "45%"
+margin_left = "20%"
 margin_right = "0%"
 margin_y = "100"
 template = "block-media-element"
-width = "40"
+width = "60"
 [[collection_layout_builder]]
 block = "media-row"
 row_alignment = "between"
