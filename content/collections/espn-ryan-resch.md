@@ -22,7 +22,7 @@ navigation_theme = "white"
 px_extra = true
 row_alignment = "between"
 slug = "collections/espn-Ryan-Resch"
-theme_color = "#ABE3FF"
+theme_color = "#B2F3A0"
 theme_color_all_works = ""
 title = "ESPN"
 [seo]
@@ -33,13 +33,17 @@ align_x = "start"
 align_y = ""
 block = "media-element"
 caption = ""
-color = "#E1F3DD"
+color = "#F3EEDD"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-espn-ryan-1.jpg"
 margin_left = "20%"
 margin_right = ""
 margin_y = "100"
 template = "block-media-element"
-width = "40"
+width = "55"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 align_y = ""
@@ -155,5 +159,9 @@ margin_right = ""
 margin_y = "100"
 template = "block-media-element"
 width = "55"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
 
 +++
