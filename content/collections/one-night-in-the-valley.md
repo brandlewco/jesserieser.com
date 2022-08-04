@@ -22,9 +22,9 @@ navigation_theme = "white"
 px_extra = true
 row_alignment = "between"
 slug = "collections/valley"
-theme_color = "#D0FDE6"
+theme_color = "#F3CCCC"
 theme_color_all_works = ""
-title = "One Night in the Valley"
+title = "One Night In the Valley"
 [seo]
 meta_description = ""
 meta_title = ""
