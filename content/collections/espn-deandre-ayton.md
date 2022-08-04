@@ -22,7 +22,7 @@ navigation_theme = "white"
 px_extra = true
 row_alignment = "between"
 slug = "collections/espn-deandre-ayton"
-theme_color = "#FF9CED"
+theme_color = "#9CFFA2"
 theme_color_all_works = ""
 title = "ESPN "
 [seo]
