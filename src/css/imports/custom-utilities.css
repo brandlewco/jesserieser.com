@@ -409,9 +409,17 @@ img.lazyload, img.lazyloading, img.lazyload-delay {
   filter: blur(0);
 }
 
-/* body.archive #project-header {
+body.archive #project-header, body.archive #project-description, body.archive section[data-hue="page"], body.archive section[data-hue="white"], body.archive #project-brief {
   background-color: #000 !important;
-} */
+}
+
+body.archive .collection-next, body.archive .collection-prev{
+  color: #fff;
+}
+
+body.archive .arrow path {
+  fill: #fff !important
+}
 
 
 .block-hover img {
@@ -457,6 +465,7 @@ a:hover, button:hover {
   cursor: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_2' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='20px' height='20px' viewBox='0 0 512 512' style='enable-background:new 0 0 512 512;' xml:space='preserve'%3E %3Cpath  style='enable-background:new 0 0 512 512;' d='M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200z'/%3E %3C/svg%3E"),
     zoom-in;
 }
+
 
 .magnify img:hover, .magnify .video:hover {
   cursor: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_2' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='30px' height='30px' viewBox='0 0 256 256' style='enable-background:new 0 0 512 512;' xml:space='preserve'%3E %3Cpath  style='enable-background:new 0 0 256 256;' d='m256.19 242.5-70.73-70.84.78-.93a103.82 103.82 0 1 0 -14.89 15l.63-.52 70.76 70.79zm-150.7-49.24a88 88 0 1 1 88-88 87.94 87.94 0 0 1 -88 88z'/%3E %3C/svg%3E"),
