@@ -30,6 +30,12 @@ html.is-changing #content {
   .ratio-16x9 {
     padding-top: 56.25% !important;
   }
+  .ratio-5x4 {
+    padding-top: 125% !important;
+  }
+  .ratio-4x5 {
+    padding-top: 80% !important;
+  }
   .ratio-4x3 {
     padding-top: 75% !important;
   }
