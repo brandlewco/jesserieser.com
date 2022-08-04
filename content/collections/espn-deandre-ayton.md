@@ -147,7 +147,7 @@ color = "#E0EFFF"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-espn-ayton-8.jpg"
 margin_left = "10%"
 margin_right = "0%"
-margin_y = "400"
+margin_y = "300"
 template = "block-media-element"
 width = "30"
 [[collection_layout_builder]]
