@@ -99,7 +99,7 @@ color = "#E2ECFC"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-armani-hopkins-6.jpg"
 margin_left = "0%"
 margin_right = "0%"
-margin_y = "200"
+margin_y = "300"
 template = "block-media-element"
 width = "30"
 [[collection_layout_builder]]
