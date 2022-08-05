@@ -125,7 +125,7 @@ color = "#F8EBCC"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-amtrak-elpaso-7.jpg"
 margin_left = "0%"
 margin_right = "0%"
-margin_y = "700"
+margin_y = "600"
 template = "block-media-element"
 width = "33"
 [[collection_layout_builder]]
