@@ -99,7 +99,7 @@ color = "#E2ECFC"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-armani-hopkins-6.jpg"
 margin_left = "0%"
 margin_right = "0%"
-margin_y = "100"
+margin_y = "200"
 template = "block-media-element"
 width = "30"
 [[collection_layout_builder]]
@@ -111,11 +111,11 @@ color = ""
 image = ""
 margin_left = "0%"
 margin_right = "35%"
-margin_y = "300"
+margin_y = "100"
 show_controls = false
 template = "block-media-motion"
 vimeo_id = 736267817
-width = "20"
+width = "30"
 [[collection_layout_builder]]
 block = "media-row"
 row_alignment = "between"
