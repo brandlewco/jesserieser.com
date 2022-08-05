@@ -110,12 +110,12 @@ caption = ""
 color = ""
 image = ""
 margin_left = "0%"
-margin_right = "30%"
+margin_right = "35%"
 margin_y = "300"
 show_controls = false
 template = "block-media-motion"
 vimeo_id = 736267817
-width = "30"
+width = "20"
 [[collection_layout_builder]]
 block = "media-row"
 row_alignment = "between"
