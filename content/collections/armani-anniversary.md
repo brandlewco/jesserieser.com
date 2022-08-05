@@ -127,15 +127,11 @@ block = "media-element"
 caption = ""
 color = "#F2BAB6"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-armani-hopkins-5.jpg"
-margin_left = "15%"
+margin_left = "25%"
 margin_right = "0%"
 margin_y = "100"
 template = "block-media-element"
 width = "33"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
 [[collection_layout_builder]]
 block = "media-row"
 row_alignment = "between"
@@ -166,6 +162,10 @@ show_controls = false
 template = "block-media-motion"
 vimeo_id = 736267733
 width = "40"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
 [[collection_layout_builder]]
 block = "media-row"
 row_alignment = "between"
