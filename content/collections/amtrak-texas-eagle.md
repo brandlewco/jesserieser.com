@@ -22,7 +22,7 @@ navigation_theme = "white"
 px_extra = true
 row_alignment = "between"
 slug = "collections/amtrak-texas-eagle"
-theme_color = "#FFD5D5"
+theme_color = "#C7D6EF"
 theme_color_all_works = ""
 title = "Amtrak the National "
 [seo]
