@@ -449,45 +449,17 @@ block = "media-row"
 row_alignment = "between"
 template = "block-media-row"
 [[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
 align_x = "start"
 align_y = ""
 block = "media-element"
 caption = ""
 color = "#ECDDFF"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-vox-guns-30.jpg"
-margin_left = "10%"
+margin_left = "5%"
 margin_right = "0%"
 margin_y = "100"
 template = "block-media-element"
-width = "50"
+width = "45"
 [[collection_layout_builder]]
 block = "media-row"
 row_alignment = "between"
@@ -499,11 +471,39 @@ block = "media-element"
 caption = ""
 color = "#DDF1FF"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-vox-guns-31.jpg"
-margin_left = "20%"
+margin_left = "15%"
 margin_right = ""
 margin_y = "100"
 template = "block-media-element"
 width = "60"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
 [[collection_layout_builder]]
 block = "media-row"
 row_alignment = "between"
