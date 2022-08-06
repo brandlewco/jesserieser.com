@@ -22,7 +22,7 @@ navigation_theme = "white"
 px_extra = true
 row_alignment = "between"
 slug = "collections/gundemic"
-theme_color = "#D1CEF1"
+theme_color = "#CAE8E3"
 theme_color_all_works = ""
 title = "Gunsmoke, Mythology, and the American Gundemic "
 [seo]
