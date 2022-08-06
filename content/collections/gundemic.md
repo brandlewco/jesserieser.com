@@ -620,7 +620,7 @@ color = "#F8EBCC"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-vox-guns-41.jpg"
 margin_left = "0%"
 margin_right = "0%"
-margin_y = "300"
+margin_y = "400"
 template = "block-media-element"
 width = "50"
 [[collection_layout_builder]]
