@@ -201,7 +201,7 @@ color = "#F9D1BC"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-ghosttowns-12.jpg"
 margin_left = "0%"
 margin_right = "30%"
-margin_y = "100"
+margin_y = "500"
 template = "block-media-element"
 width = "25"
 [[collection_layout_builder]]
