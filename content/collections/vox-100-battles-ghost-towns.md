@@ -395,31 +395,7 @@ margin_left = "10%"
 margin_right = ""
 margin_y = "100"
 template = "block-media-element"
-width = "50"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
+width = "55"
 [[collection_layout_builder]]
 block = "media-row"
 row_alignment = "between"
@@ -431,11 +407,35 @@ block = "media-element"
 caption = ""
 color = "#DDEDF6"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-ghosttowns-26.jpg"
-margin_left = "5%"
+margin_left = "45%"
 margin_right = ""
 margin_y = "100"
 template = "block-media-element"
 width = "40"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
 [[collection_layout_builder]]
 block = "media-row"
 row_alignment = "between"
