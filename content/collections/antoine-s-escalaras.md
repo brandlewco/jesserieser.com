@@ -171,17 +171,17 @@ template = "block-media-row"
 [[collection_layout_builder]]
 align_y = "start"
 block = "media-motion"
-block_aspect_ratio = ""
+block_aspect_ratio = "4x3"
 caption = ""
 color = ""
 image = ""
-margin_left = "5%"
+margin_left = "10%"
 margin_right = "0%"
 margin_y = "100"
 show_controls = false
 template = "block-media-motion"
 vimeo_id = 737205681
-width = "30"
+width = "20"
 [[collection_layout_builder]]
 align_y = "start"
 block = "media-motion"
