@@ -125,18 +125,6 @@ align_x = "start"
 align_y = ""
 block = "media-element"
 caption = ""
-color = "#FDF6D3"
-image = "https://d1sf55qlb7p6hz.cloudfront.net/escalaras-5.jpg"
-margin_left = "5%"
-margin_right = ""
-margin_y = "100"
-template = "block-media-element"
-width = "25"
-[[collection_layout_builder]]
-align_x = "start"
-align_y = ""
-block = "media-element"
-caption = ""
 color = "#E3EFF4"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/escalaras-6.jpg"
 margin_left = ""
@@ -189,6 +177,24 @@ margin_y = "50"
 show_controls = false
 template = "block-media-motion"
 vimeo_id = 737205681
+width = "33"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_y = "start"
+block = "media-motion"
+block_aspect_ratio = ""
+caption = ""
+color = ""
+image = ""
+margin_left = "0%"
+margin_right = "0%"
+margin_y = "50"
+show_controls = false
+template = "block-media-motion"
+vimeo_id = 737206761
 width = "33"
 [[collection_layout_builder]]
 block = "media-row"
@@ -266,6 +272,24 @@ margin_right = ""
 margin_y = "200"
 template = "block-media-element"
 width = "45"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_y = "start"
+block = "media-motion"
+block_aspect_ratio = ""
+caption = ""
+color = ""
+image = ""
+margin_left = "0%"
+margin_right = "0%"
+margin_y = "50"
+show_controls = false
+template = "block-media-motion"
+vimeo_id = 737206960
+width = "33"
 [[collection_layout_builder]]
 block = "media-row"
 row_alignment = "between"
@@ -375,6 +399,24 @@ block = "media-row"
 row_alignment = "between"
 template = "block-media-row"
 [[collection_layout_builder]]
+align_y = "start"
+block = "media-motion"
+block_aspect_ratio = ""
+caption = ""
+color = ""
+image = ""
+margin_left = "0%"
+margin_right = "0%"
+margin_y = "50"
+show_controls = false
+template = "block-media-motion"
+vimeo_id = 737207172
+width = "33"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
 block = "media-row"
 row_alignment = "between"
 template = "block-media-row"
@@ -395,12 +437,18 @@ block = "media-row"
 row_alignment = "between"
 template = "block-media-row"
 [[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
+align_y = "start"
+block = "media-motion"
+block_aspect_ratio = ""
+caption = ""
+color = ""
+image = ""
+margin_left = "0%"
+margin_right = "0%"
+margin_y = "50"
+show_controls = false
+template = "block-media-motion"
+vimeo_id = 737207329
+width = "33"
 
 +++
