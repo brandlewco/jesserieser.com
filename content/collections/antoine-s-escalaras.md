@@ -373,7 +373,7 @@ color = "#E5F4FD"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/escalaras-20.jpg"
 margin_left = "0%"
 margin_right = "5%"
-margin_y = "100"
+margin_y = "400"
 template = "block-media-element"
 width = "40"
 [[collection_layout_builder]]
