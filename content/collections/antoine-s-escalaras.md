@@ -299,7 +299,7 @@ color = "#EAEEF6"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/escalaras-15.jpg"
 margin_left = "0%"
 margin_right = "5%"
-margin_y = "400"
+margin_y = "500"
 template = "block-media-element"
 width = "55"
 [[collection_layout_builder]]
