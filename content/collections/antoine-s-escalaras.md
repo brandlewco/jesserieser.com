@@ -273,7 +273,7 @@ margin_y = "100"
 show_controls = false
 template = "block-media-motion"
 vimeo_id = 737206960
-width = "33"
+width = "40"
 [[collection_layout_builder]]
 block = "media-row"
 row_alignment = "between"
@@ -285,7 +285,7 @@ block = "media-element"
 caption = ""
 color = "#EAFDF1"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/escalaras-14.jpg"
-margin_left = "5%"
+margin_left = "0%"
 margin_right = ""
 margin_y = "100"
 template = "block-media-element"
