@@ -51,13 +51,13 @@ block_aspect_ratio = "4x3"
 caption = ""
 color = ""
 image = ""
-margin_left = "40%"
+margin_left = "50%"
 margin_right = "0%"
 margin_y = "100"
 show_controls = false
 template = "block-media-motion"
 vimeo_id = 737204973
-width = "40"
+width = "33"
 [[collection_layout_builder]]
 block = "media-row"
 row_alignment = "between"
