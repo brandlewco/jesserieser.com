@@ -232,7 +232,7 @@ page_sections:
   width: '30'
   align_y: start
   margin_y: '100'
-  margin_left: 30%
+  margin_left: 65%
   margin_right: 0%
   title_margin_y: 40%
   title_margin_left: 0%
