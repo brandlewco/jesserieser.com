@@ -15,7 +15,7 @@ page_sections:
   title_margin_right: 0%
   text_size: 6xl
   line_height: normal
-  text_alignment: left
+  text_alignment: right
   text_tracking: normal
   meta_align: left
   image: https://d1sf55qlb7p6hz.cloudfront.net/escalaras-2.jpg
