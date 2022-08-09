@@ -261,7 +261,7 @@ page_sections:
   margin_right: 0%
   title_margin_left: 5%
   title_margin_right: 0%
-  title_margin_y: 10%
+  title_margin_y: 20%
   meta_align: left
   attached_collection: collections/phoenix.md
   meta: Torpedo London
