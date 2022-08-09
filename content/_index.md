@@ -25,6 +25,34 @@ page_sections:
   meta: ''
   text_color: ''
   font_weight: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
+- template: block-media-feature
+  block: media-feature
+  width: '50'
+  align_y: start
+  margin_y: '100'
+  margin_left: 0%
+  margin_right: 0%
+  title_margin_y: 35%
+  title_margin_left: 0%
+  title_margin_right: 0%
+  text_size: 2xl
+  line_height: normal
+  text_alignment: left
+  text_tracking: normal
+  font_weight: ''
+  meta_align: left
+  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser_folklore-17.jpg
+  color: ''
+  title: ''
+  meta: ''
+  attached_collection: collections/vanishing-folklore.md
+  text_color: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
 - template: block-media-feature
   block: media-feature
   width: '40'
@@ -247,7 +275,7 @@ page_sections:
   font_weight: ''
 - template: block-media-row
   block: media-row
-  row_alignment: ''
+  row_alignment: between
 - template: block-media-feature
   block: media-feature
   width: '50'
@@ -282,9 +310,6 @@ page_sections:
   margin_right: 5%
   title: The Photo Banter
   color: "#0CA5E5"
-- template: block-media-row
-  block: media-row
-  row_alignment: between
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/klompching-gallery-fresh.md
@@ -362,7 +387,7 @@ page_sections:
   text_size: ''
 - template: block-media-row
   block: media-row
-  row_alignment: ''
+  row_alignment: between
 - template: block-media-feature
   block: media-feature
   width: '55'
@@ -434,9 +459,6 @@ page_sections:
   attached_collection: collections/barron-s-las-vegas-reopenning.md
   text_color: "#FF6585"
   font_weight: semibold
-- template: block-media-row
-  block: media-row
-  row_alignment: between
 - template: block-media-feature
   block: media-feature
   width: '45'
@@ -459,6 +481,9 @@ page_sections:
   meta: The Reinvention of Ryan and Sara Hall
   attached_collection: collections/runner-s-world.md
   text_color: "#FDDA70"
+- template: block-media-row
+  block: media-row
+  row_alignment: between
 - template: block-media-row
   block: media-row
   row_alignment: between
@@ -745,28 +770,6 @@ page_sections:
   row_alignment: between
 - template: block-media-feature
   block: media-feature
-  width: '50'
-  align_y: start
-  margin_y: '100'
-  margin_left: 0%
-  margin_right: 0%
-  title_margin_y: 35%
-  title_margin_left: 0%
-  title_margin_right: 0%
-  text_size: 2xl
-  line_height: normal
-  text_alignment: left
-  text_tracking: normal
-  font_weight: ''
-  meta_align: left
-  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser_folklore-17.jpg
-  color: ''
-  title: ''
-  meta: ''
-  attached_collection: collections/vanishing-folklore.md
-  text_color: ''
-- template: block-media-feature
-  block: media-feature
   width: '33'
   align_y: start
   margin_y: '50'
@@ -853,9 +856,6 @@ page_sections:
   meta: ''
   attached_collection: ''
   text_color: ''
-- template: block-media-row
-  block: media-row
-  row_alignment: between
 - template: block-media-row
   block: media-row
   row_alignment: between
