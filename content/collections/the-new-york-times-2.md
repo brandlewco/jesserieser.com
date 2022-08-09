@@ -13,7 +13,7 @@ collection_hidden = false
 collection_meta = "Cover: After Death, The Big Chill"
 collection_meta_2 = ""
 collection_press = []
-collection_preview = ["https://d1sf55qlb7p6hz.cloudfront.net/alcor_4x3-1.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/alcor_4x3-4.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/alcor_4x3-3.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/alcor_4x3-2.jpg"]
+collection_preview = ["https://d1sf55qlb7p6hz.cloudfront.net/alcor_4x3-4.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/alcor_4x3-1.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/alcor_4x3-2.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/alcor_4x3-3.jpg"]
 cover_image = ""
 date = 2021-08-11T22:46:00Z
 hide_footer = true
@@ -25,6 +25,9 @@ slug = "collections/nytimes-cryogenics"
 theme_color = "#E5FDB3"
 theme_color_all_works = "#93F998"
 title = "The New York Times "
+[seo]
+meta_description = ""
+meta_title = ""
 [[collection_layout_builder]]
 align_x = "start"
 align_y = ""
