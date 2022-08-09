@@ -10,8 +10,8 @@ page_sections:
   margin_y: '100'
   margin_left: 20%
   margin_right: 0%
-  title_margin_y: 35%
-  title_margin_left: 0%
+  title_margin_y: 20%
+  title_margin_left: "-25%"
   title_margin_right: 0%
   text_size: 6xl
   line_height: normal
@@ -24,7 +24,7 @@ page_sections:
   title: Antoine's Escalaras
   meta: ''
   text_color: ''
-  font_weight: ''
+  font_weight: semibold
 - template: block-media-row
   block: media-row
   row_alignment: ''
