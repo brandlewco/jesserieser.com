@@ -1,6 +1,6 @@
 +++
 collection_archive = false
-collection_category = ["Award Winning", "Exhibited Works ", "Editorial", "Reportage", "Conceptual", "Still Life + Details", "Environments", "Color"]
+collection_category = ["Award Winning", "Exhibited Works ", "Editorial", "Reportage", "Conceptual", "Still Life + Details", "Color", "Environments"]
 collection_content = "_Stalking A Serial Killer_ is narrated by quotes taken from detectives, residents, family members, witnesses, and survivors as a singular voice of a Phoenix neighborhood terrorized by a serial killer. The “Serial Street Shooter” has gunned down seven and wounded two. The killings are at random from his car and the victims are often in cars, near cars, or exiting their car.\n\nOriginally published during the week of the US election for the French magazine _Society_ for their ‘America’ issue, this photo essay depicts the black and Hispanic neighborhood of Maryvale roamed by the killer, while serving as a metaphor for issues plaguing American policy and politics; a lack of immigration reform, racial inequity, a shrinking middle class, community policing dysfunction, a lack of mental health care and quotidian gun violence.\n\nOriginal interview and reporting by Emmanuelle Andreani-Facchin and typeset by Juan Carlos Pagan.\n\n“_The innovative layout of this story allows for both the strengths and the weaknesses of visual storytelling to be seen. The subject matter itself is shadowy, ephemeral, fitting the form. The images are beautiful, and start to create their own context and narrative when only surrounded by quotes — and nothing else. It’s a striking way to report on a story — one that tantalizes, leading to more questions than answers, and leaves you wanting more._”  \n– Buzzfeed –"
 collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/serial-6.jpg"
 collection_cover_mobile = "https://d1sf55qlb7p6hz.cloudfront.net/verticalcovers-6.jpg"
@@ -8,7 +8,7 @@ collection_description = "Published during the 2016 election for French magazine
 collection_filter = "Commissioned + Stock"
 collection_hidden = false
 collection_meta = "Stalking A Serial Killer"
-collection_preview = ["https://d1sf55qlb7p6hz.cloudfront.net/serial_cover-1-1.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/serial_cover-2.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/serial_cover-3.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/serial_cover-4.jpg"]
+collection_preview = ["https://d1sf55qlb7p6hz.cloudfront.net/serial_cover-2.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/serial_cover-1-1.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/serial_cover-3.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/serial_cover-4.jpg"]
 cover_image = "https://d1sf55qlb7p6hz.cloudfront.net/social-15.jpg"
 date = ""
 layout = "blocks"
