@@ -83,7 +83,7 @@ page_sections:
   width: '40'
   align_y: start
   margin_y: '100'
-  margin_left: 0%
+  margin_left: 55%
   margin_right: 0%
   title_margin_y: 35%
   title_margin_left: 0%
