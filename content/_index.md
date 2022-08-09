@@ -167,35 +167,10 @@ page_sections:
   row_alignment: ''
 - template: block-media-feature
   block: media-feature
-  width: '40'
-  align_y: start
-  margin_y: '100'
-  margin_left: 40%
-  margin_right: 0%
-  title_margin_y: 40%
-  title_margin_left: 0%
-  title_margin_right: 0%
-  text_size: 2xl
-  line_height: normal
-  text_alignment: left
-  text_tracking: normal
-  meta_align: left
-  image: https://d1sf55qlb7p6hz.cloudfront.net/scheffler_GD-1.jpg
-  attached_collection: collections/golf-digest-1.md
-  color: "#FFF57A"
-  title: ''
-  meta: ''
-  text_color: ''
-  font_weight: ''
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
-- template: block-media-feature
-  block: media-feature
   width: '55'
   align_y: start
   margin_y: '200'
-  margin_left: 20%
+  margin_left: 25%
   margin_right: 0%
   title_margin_y: 40%
   title_margin_left: 5%
@@ -252,6 +227,31 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: between
+- template: block-media-feature
+  block: media-feature
+  width: '40'
+  align_y: start
+  margin_y: '100'
+  margin_left: 40%
+  margin_right: 0%
+  title_margin_y: 40%
+  title_margin_left: 0%
+  title_margin_right: 0%
+  text_size: 2xl
+  line_height: normal
+  text_alignment: left
+  text_tracking: normal
+  meta_align: left
+  image: https://d1sf55qlb7p6hz.cloudfront.net/scheffler_GD-1.jpg
+  attached_collection: collections/golf-digest-1.md
+  color: "#FFF57A"
+  title: ''
+  meta: ''
+  text_color: ''
+  font_weight: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
 - template: block-media-feature
   block: media-feature
   width: '33'
