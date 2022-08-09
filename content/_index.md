@@ -87,12 +87,12 @@ page_sections:
   margin_right: 0%
   title_margin_y: 15%
   title_margin_left: 0%
-  title_margin_right: 0%
+  title_margin_right: 10%
   text_size: 8xl
   line_height: normal
   text_alignment: left
   text_tracking: normal
-  font_weight: ''
+  font_weight: bold
   meta_align: left
   image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-armani-hopkins-9.jpg
   color: ''
