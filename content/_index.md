@@ -111,7 +111,7 @@ page_sections:
   margin_left: 15%
   margin_right: 0%
   title_margin_y: 35%
-  title_margin_left: 0%
+  title_margin_left: "-15%"
   title_margin_right: 0%
   text_size: 6xl
   line_height: normal
