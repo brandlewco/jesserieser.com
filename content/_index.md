@@ -8,7 +8,7 @@ page_sections:
   width: '66'
   align_y: start
   margin_y: '100'
-  margin_left: 15%
+  margin_left: 20%
   margin_right: 0%
   title_margin_y: 35%
   title_margin_left: 0%
@@ -21,7 +21,7 @@ page_sections:
   image: https://d1sf55qlb7p6hz.cloudfront.net/escalaras-2.jpg
   attached_collection: collections/antoine-s-escalaras.md
   color: ''
-  title: ''
+  title: Antoine's Escalaras
   meta: ''
   text_color: ''
   font_weight: ''
