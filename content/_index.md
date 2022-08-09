@@ -810,7 +810,7 @@ page_sections:
   color: ''
   title: ''
   meta: ''
-  attached_collection: ''
+  attached_collection: collections/gundemic.md
   text_color: ''
 - template: block-media-feature
   block: media-feature
