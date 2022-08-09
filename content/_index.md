@@ -5,10 +5,10 @@ date: 2017-11-01T23:00:00.000+00:00
 page_sections:
 - template: block-media-feature
   block: media-feature
-  width: '60'
+  width: '66'
   align_y: start
   margin_y: '100'
-  margin_left: 0%
+  margin_left: 15%
   margin_right: 0%
   title_margin_y: 35%
   title_margin_left: 0%
@@ -77,6 +77,31 @@ page_sections:
   text_color: ''
 - template: block-media-row
   block: media-row
+  row_alignment: ''
+- template: block-media-feature
+  block: media-feature
+  width: '33'
+  align_y: start
+  margin_y: '100'
+  margin_left: 0%
+  margin_right: 0%
+  title_margin_y: 35%
+  title_margin_left: 0%
+  title_margin_right: 0%
+  text_size: 2xl
+  line_height: normal
+  text_alignment: left
+  text_tracking: normal
+  font_weight: ''
+  meta_align: left
+  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-armani-hopkins-9.jpg
+  color: ''
+  title: ''
+  meta: ''
+  attached_collection: collections/armani-anniversary.md
+  text_color: ''
+- template: block-media-row
+  block: media-row
   row_alignment: between
 - template: block-media-feature
   block: media-feature
@@ -102,6 +127,31 @@ page_sections:
   text_color: ''
 - template: block-media-row
   block: media-row
+  row_alignment: between
+- template: block-media-feature
+  block: media-feature
+  width: '40'
+  align_y: start
+  margin_y: '100'
+  margin_left: 20%
+  margin_right: 0%
+  title_margin_y: 15%
+  title_margin_left: "-20%"
+  title_margin_right: ''
+  text_size: 5xl
+  line_height: normal
+  text_alignment: left
+  text_tracking: normal
+  font_weight: semibold
+  meta_align: left
+  image: https://d1sf55qlb7p6hz.cloudfront.net/minors-12.jpg
+  color: "#E4ECF7"
+  title: 'The New York Times '
+  meta: A Minor Leaguer’s Hard Road to the Bigs
+  attached_collection: collections/the-new-york-times-3.md
+  text_color: "#FF6065"
+- template: block-media-row
+  block: media-row
   row_alignment: ''
 - template: block-media-feature
   block: media-feature
@@ -125,31 +175,6 @@ page_sections:
   meta: ''
   text_color: ''
   font_weight: ''
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
-- template: block-media-feature
-  block: media-feature
-  width: '40'
-  align_y: start
-  margin_y: '100'
-  margin_left: 20%
-  margin_right: 0%
-  title_margin_y: 15%
-  title_margin_left: "-20%"
-  title_margin_right: ''
-  text_size: 5xl
-  line_height: normal
-  text_alignment: left
-  text_tracking: normal
-  font_weight: semibold
-  meta_align: left
-  image: https://d1sf55qlb7p6hz.cloudfront.net/minors-12.jpg
-  color: "#E4ECF7"
-  title: 'The New York Times '
-  meta: A Minor Leaguer’s Hard Road to the Bigs
-  attached_collection: collections/the-new-york-times-3.md
-  text_color: "#FF6065"
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/christmas-in-america-happy-birthday-jesus-1.md
@@ -162,9 +187,6 @@ page_sections:
   margin_right: 5%
   title: xmas
   color: "#FF4B4B"
-- template: block-media-row
-  block: media-row
-  row_alignment: between
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -793,28 +815,6 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: between
-- template: block-media-feature
-  block: media-feature
-  width: '33'
-  align_y: start
-  margin_y: '100'
-  margin_left: 0%
-  margin_right: 0%
-  title_margin_y: 35%
-  title_margin_left: 0%
-  title_margin_right: 0%
-  text_size: 2xl
-  line_height: normal
-  text_alignment: left
-  text_tracking: normal
-  font_weight: ''
-  meta_align: left
-  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-armani-hopkins-9.jpg
-  color: ''
-  title: ''
-  meta: ''
-  attached_collection: collections/armani-anniversary.md
-  text_color: ''
 - template: block-media-feature
   block: media-feature
   width: '33'
