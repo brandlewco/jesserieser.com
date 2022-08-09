@@ -788,7 +788,7 @@ page_sections:
   color: ''
   title: ''
   meta: ''
-  attached_collection: ''
+  attached_collection: collections/vox-100-battles-ghost-towns.md
   text_color: ''
 - template: block-media-feature
   block: media-feature
