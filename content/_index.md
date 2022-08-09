@@ -95,11 +95,11 @@ page_sections:
   font_weight: normal
   meta_align: right
   image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-armani-hopkins-9.jpg
-  color: ''
+  color: "#A4A4A4"
   title: 'V '
   meta: Armani 50th Anniversary Featuring Deandre Hopkins
   attached_collection: collections/armani-anniversary.md
-  text_color: "#DCDCDC"
+  text_color: "#FFFFFF"
 - template: block-media-row
   block: media-row
   row_alignment: between
