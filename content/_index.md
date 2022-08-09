@@ -15,9 +15,9 @@ page_sections:
   title_margin_right: 0%
   text_size: 6xl
   line_height: normal
-  text_alignment: right
+  text_alignment: left
   text_tracking: normal
-  meta_align: left
+  meta_align: right
   image: https://d1sf55qlb7p6hz.cloudfront.net/escalaras-2.jpg
   attached_collection: collections/antoine-s-escalaras.md
   color: "#F6D5B9"
