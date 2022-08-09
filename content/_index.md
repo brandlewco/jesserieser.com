@@ -32,8 +32,8 @@ page_sections:
   block: media-feature
   width: '50'
   align_y: start
-  margin_y: '300'
-  margin_left: 5%
+  margin_y: '400'
+  margin_left: 0%
   margin_right: 0%
   title_margin_y: 15%
   title_margin_left: "-10%"
@@ -49,7 +49,7 @@ page_sections:
   title: 'A Vanishing Folklore '
   meta: 2012 - 2022
   attached_collection: collections/vanishing-folklore.md
-  text_color: ''
+  text_color: "#FFFFFF"
 - template: block-media-feature
   block: media-feature
   width: '40'
