@@ -115,7 +115,7 @@ page_sections:
   title_margin_right: 60%
   text_size: 6xl
   line_height: normal
-  text_alignment: right
+  text_alignment: left
   text_tracking: normal
   font_weight: ''
   meta_align: left
