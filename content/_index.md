@@ -117,7 +117,7 @@ page_sections:
   line_height: normal
   text_alignment: left
   text_tracking: normal
-  font_weight: ''
+  font_weight: semibold
   meta_align: left
   image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-vox-guns-16.jpg
   color: "#DAF4EA"
