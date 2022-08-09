@@ -10,7 +10,7 @@ collection_filter = "Commissioned + Stock"
 collection_hidden = false
 collection_meta = "Devin Booker Cover Story"
 collection_meta_2 = ""
-collection_preview = ["https://d1sf55qlb7p6hz.cloudfront.net/booke-thumb-cover-1.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/booke-thumb-cover-2.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/booke-thumb-cover-3.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/booke-thumb-cover-4.jpg"]
+collection_preview = ["https://d1sf55qlb7p6hz.cloudfront.net/booke-thumb-cover-3.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/booke-thumb-cover-1.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/booke-thumb-cover-2.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/booke-thumb-cover-4.jpg"]
 cover_image = ""
 date = 2021-02-10T03:16:07Z
 description = ""
@@ -23,6 +23,9 @@ slug = "collections/espn-booker"
 theme_color = "#EAC5BF"
 theme_color_all_works = ""
 title = "ESPN: Becoming Legendary"
+[seo]
+meta_description = ""
+meta_title = ""
 [[collection_awards]]
 content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
 icon = ""
