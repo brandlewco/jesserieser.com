@@ -20,7 +20,7 @@ page_sections:
   meta_align: left
   image: https://d1sf55qlb7p6hz.cloudfront.net/escalaras-2.jpg
   attached_collection: collections/antoine-s-escalaras.md
-  color: ''
+  color: "#F6D5B9"
   title: Antoine's Escalaras
   meta: 2022 Communications Arts Photo Annual
   text_color: ''
