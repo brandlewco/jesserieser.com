@@ -93,7 +93,7 @@ page_sections:
   text_alignment: left
   text_tracking: normal
   font_weight: normal
-  meta_align: left
+  meta_align: right
   image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-armani-hopkins-9.jpg
   color: ''
   title: 'V '
