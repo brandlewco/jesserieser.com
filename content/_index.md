@@ -128,13 +128,25 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: between
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/christmas-in-america-happy-birthday-jesus-1.md
+  block_aspect_ratio: []
+  text_size: 2xl
+  width: '25'
+  align_y: start
+  margin_y: '700'
+  margin_left: 0%
+  margin_right: 5%
+  title: xmas
+  color: "#FF4B4B"
 - template: block-media-feature
   block: media-feature
   width: '40'
   align_y: start
   margin_y: '100'
-  margin_left: 20%
-  margin_right: 0%
+  margin_left: 0%
+  margin_right: 5%
   title_margin_y: 15%
   title_margin_left: "-20%"
   title_margin_right: ''
@@ -175,18 +187,6 @@ page_sections:
   meta: ''
   text_color: ''
   font_weight: ''
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/christmas-in-america-happy-birthday-jesus-1.md
-  block_aspect_ratio: []
-  text_size: 2xl
-  width: '25'
-  align_y: start
-  margin_y: '900'
-  margin_left: 0%
-  margin_right: 5%
-  title: xmas
-  color: "#FF4B4B"
 - template: block-media-row
   block: media-row
   row_alignment: ''
