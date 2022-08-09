@@ -30,10 +30,10 @@ page_sections:
   row_alignment: ''
 - template: block-media-feature
   block: media-feature
-  width: '50'
+  width: '40'
   align_y: start
   margin_y: '100'
-  margin_left: 0%
+  margin_left: 5%
   margin_right: 0%
   title_margin_y: 35%
   title_margin_left: 0%
@@ -50,15 +50,12 @@ page_sections:
   meta: ''
   attached_collection: collections/vanishing-folklore.md
   text_color: ''
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
 - template: block-media-feature
   block: media-feature
-  width: '55'
+  width: '40'
   align_y: start
   margin_y: '100'
-  margin_left: 55%
+  margin_left: 0%
   margin_right: 0%
   title_margin_y: 35%
   title_margin_left: 0%
@@ -75,6 +72,9 @@ page_sections:
   meta: ''
   attached_collection: collections/vox-100-battles-ghost-towns.md
   text_color: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
