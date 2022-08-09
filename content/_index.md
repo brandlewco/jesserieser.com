@@ -252,9 +252,21 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: ''
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/sunset-spot.md
+  block_aspect_ratio: ''
+  text_size: 2xl
+  width: '25'
+  align_y: start
+  margin_y: '700'
+  margin_left: 10%
+  margin_right: 0%
+  color: "#DACEEA"
+  title: The Sunset Spot at Red Modern
 - template: block-media-feature
   block: media-feature
-  width: '33'
+  width: '40'
   align_y: start
   margin_y: '100'
   margin_left: 25%
@@ -274,18 +286,6 @@ page_sections:
   line_height: normal
   title: Adobe
   text_color: "#FFFA8A"
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/sunset-spot.md
-  block_aspect_ratio: ''
-  text_size: 2xl
-  width: '25'
-  align_y: start
-  margin_y: '700'
-  margin_left: 0%
-  margin_right: 5%
-  color: "#DACEEA"
-  title: The Sunset Spot at Red Modern
 - template: block-media-row
   block: media-row
   row_alignment: ''
