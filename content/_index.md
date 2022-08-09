@@ -57,7 +57,7 @@ page_sections:
   margin_y: '100'
   margin_left: 0%
   margin_right: 0%
-  title_margin_y: 35%
+  title_margin_y: 5%
   title_margin_left: 0%
   title_margin_right: 0%
   text_size: 2xl
@@ -65,11 +65,11 @@ page_sections:
   text_alignment: left
   text_tracking: normal
   font_weight: ''
-  meta_align: left
+  meta_align: right
   image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-ghosttowns-31.jpg
-  color: ''
-  title: ''
-  meta: ''
+  color: "#EAF2B5"
+  title: 'Vox: 100 Battles'
+  meta: Summoning the Ghost Town
   attached_collection: collections/vox-100-battles-ghost-towns.md
   text_color: ''
 - template: block-media-row
