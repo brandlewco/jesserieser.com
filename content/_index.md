@@ -281,7 +281,7 @@ page_sections:
   text_size: 2xl
   width: '25'
   align_y: start
-  margin_y: '400'
+  margin_y: '200'
   margin_left: 0%
   margin_right: 10%
   color: "#DACEEA"
