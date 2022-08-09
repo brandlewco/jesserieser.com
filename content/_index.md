@@ -80,7 +80,7 @@ page_sections:
   row_alignment: ''
 - template: block-media-feature
   block: media-feature
-  width: '33'
+  width: '40'
   align_y: start
   margin_y: '100'
   margin_left: 0%
@@ -88,7 +88,7 @@ page_sections:
   title_margin_y: 35%
   title_margin_left: 0%
   title_margin_right: 0%
-  text_size: 2xl
+  text_size: 8xl
   line_height: normal
   text_alignment: left
   text_tracking: normal
@@ -96,10 +96,10 @@ page_sections:
   meta_align: left
   image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-armani-hopkins-9.jpg
   color: ''
-  title: ''
-  meta: ''
+  title: 'V '
+  meta: Armani 50th Anniversary Featuring Deandre Hopkins
   attached_collection: collections/armani-anniversary.md
-  text_color: ''
+  text_color: "#FFFFFF"
 - template: block-media-row
   block: media-row
   row_alignment: between
