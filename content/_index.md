@@ -46,7 +46,7 @@ page_sections:
   meta_align: left
   image: https://d1sf55qlb7p6hz.cloudfront.net/rieser_folklore-17.jpg
   color: "#D0E5EF"
-  title: 'Vanishing Folklore '
+  title: 'A Vanishing Folklore '
   meta: 2012 - 2022
   attached_collection: collections/vanishing-folklore.md
   text_color: ''
