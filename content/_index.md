@@ -5,6 +5,28 @@ date: 2017-11-01T23:00:00.000+00:00
 page_sections:
 - template: block-media-feature
   block: media-feature
+  width: '60'
+  align_y: start
+  margin_y: '100'
+  margin_left: 0%
+  margin_right: 0%
+  title_margin_y: 35%
+  title_margin_left: 0%
+  title_margin_right: 0%
+  text_size: 2xl
+  line_height: normal
+  text_alignment: left
+  text_tracking: normal
+  meta_align: left
+  image: https://d1sf55qlb7p6hz.cloudfront.net/escalaras-2.jpg
+  attached_collection: collections/antoine-s-escalaras.md
+  color: ''
+  title: ''
+  meta: ''
+  text_color: ''
+  font_weight: ''
+- template: block-media-feature
+  block: media-feature
   width: '40'
   align_y: start
   margin_y: '100'
@@ -723,7 +745,7 @@ page_sections:
   row_alignment: between
 - template: block-media-feature
   block: media-feature
-  width: '60'
+  width: '50'
   align_y: start
   margin_y: '100'
   margin_left: 0%
@@ -735,31 +757,9 @@ page_sections:
   line_height: normal
   text_alignment: left
   text_tracking: normal
-  meta_align: left
-  image: https://d1sf55qlb7p6hz.cloudfront.net/escalaras-2.jpg
-  attached_collection: collections/antoine-s-escalaras.md
-  color: ''
-  title: ''
-  meta: ''
-  text_color: ''
   font_weight: ''
-- template: block-media-feature
-  block: media-feature
-  width: '33'
-  align_y: start
-  margin_y: '50'
-  margin_left: 0%
-  margin_right: 0%
-  title_margin_y: 35%
-  title_margin_left: 0%
-  title_margin_right: 0%
-  text_size: 2xl
-  line_height: normal
-  text_alignment: left
-  text_tracking: normal
-  font_weight: []
   meta_align: left
-  image: ''
+  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser_folklore-17.jpg
   color: ''
   title: ''
   meta: ''
