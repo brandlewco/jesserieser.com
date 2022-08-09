@@ -108,20 +108,20 @@ page_sections:
   width: '60'
   align_y: start
   margin_y: '100'
-  margin_left: 0%
+  margin_left: 5%
   margin_right: 0%
   title_margin_y: 35%
   title_margin_left: 0%
   title_margin_right: 0%
-  text_size: 2xl
+  text_size: 6xl
   line_height: normal
-  text_alignment: left
+  text_alignment: right
   text_tracking: normal
   font_weight: ''
   meta_align: left
   image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-vox-guns-16.jpg
   color: "#DAF4EA"
-  title: Gunsmoke, Mythology, and the American Gundemic
+  title: "Gunsmoke, \n\nMythology, and the \n\nAmerican Gundemic"
   meta: 2021 + 2022
   attached_collection: collections/gundemic.md
   text_color: ''
