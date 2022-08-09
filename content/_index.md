@@ -55,6 +55,31 @@ page_sections:
   row_alignment: ''
 - template: block-media-feature
   block: media-feature
+  width: '55'
+  align_y: start
+  margin_y: '100'
+  margin_left: 55%
+  margin_right: 0%
+  title_margin_y: 35%
+  title_margin_left: 0%
+  title_margin_right: 0%
+  text_size: 2xl
+  line_height: normal
+  text_alignment: left
+  text_tracking: normal
+  font_weight: ''
+  meta_align: left
+  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-ghosttowns-31.jpg
+  color: ''
+  title: ''
+  meta: ''
+  attached_collection: collections/vox-100-battles-ghost-towns.md
+  text_color: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: between
+- template: block-media-feature
+  block: media-feature
   width: '40'
   align_y: start
   margin_y: '100'
@@ -484,9 +509,6 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: between
-- template: block-media-row
-  block: media-row
-  row_alignment: between
 - template: block-media-feature
   block: media-feature
   width: '30'
@@ -768,28 +790,6 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: between
-- template: block-media-feature
-  block: media-feature
-  width: '55'
-  align_y: start
-  margin_y: '100'
-  margin_left: 55%
-  margin_right: 0%
-  title_margin_y: 35%
-  title_margin_left: 0%
-  title_margin_right: 0%
-  text_size: 2xl
-  line_height: normal
-  text_alignment: left
-  text_tracking: normal
-  font_weight: ''
-  meta_align: left
-  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-ghosttowns-31.jpg
-  color: ''
-  title: ''
-  meta: ''
-  attached_collection: collections/vox-100-battles-ghost-towns.md
-  text_color: ''
 - template: block-media-feature
   block: media-feature
   width: '33'
