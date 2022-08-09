@@ -86,8 +86,8 @@ page_sections:
   margin_left: 40%
   margin_right: 0%
   title_margin_y: 15%
-  title_margin_left: 0%
-  title_margin_right: 10%
+  title_margin_left: 10%
+  title_margin_right: 0%
   text_size: 8xl
   line_height: normal
   text_alignment: left
