@@ -797,7 +797,7 @@ page_sections:
   block: media-feature
   width: '33'
   align_y: start
-  margin_y: '50'
+  margin_y: '100'
   margin_left: 0%
   margin_right: 0%
   title_margin_y: 35%
@@ -807,13 +807,13 @@ page_sections:
   line_height: normal
   text_alignment: left
   text_tracking: normal
-  font_weight: []
+  font_weight: ''
   meta_align: left
-  image: ''
+  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-armani-hopkins-9.jpg
   color: ''
   title: ''
   meta: ''
-  attached_collection: ''
+  attached_collection: collections/armani-anniversary.md
   text_color: ''
 - template: block-media-feature
   block: media-feature
