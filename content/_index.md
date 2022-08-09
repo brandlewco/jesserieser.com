@@ -770,10 +770,10 @@ page_sections:
   row_alignment: between
 - template: block-media-feature
   block: media-feature
-  width: '33'
+  width: '55'
   align_y: start
-  margin_y: '50'
-  margin_left: 0%
+  margin_y: '100'
+  margin_left: 55%
   margin_right: 0%
   title_margin_y: 35%
   title_margin_left: 0%
@@ -782,9 +782,9 @@ page_sections:
   line_height: normal
   text_alignment: left
   text_tracking: normal
-  font_weight: []
+  font_weight: ''
   meta_align: left
-  image: ''
+  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-ghosttowns-31.jpg
   color: ''
   title: ''
   meta: ''
