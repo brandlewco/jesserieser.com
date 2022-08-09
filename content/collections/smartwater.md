@@ -13,7 +13,7 @@ collection_hidden = false
 collection_meta = "Featuring Ben Simmons For Anomaly NY"
 collection_meta_2 = ""
 collection_press = []
-collection_preview = ["https://d1sf55qlb7p6hz.cloudfront.net/smartwater-simmons_horizontal-1.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/smartwater-simmons_horizontal-2.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/smartwater-simmons_horizontal-3.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/smartwater-simmons_horizontal-4.jpg"]
+collection_preview = ["https://d1sf55qlb7p6hz.cloudfront.net/smartwater-simmons_horizontal-4.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/smartwater-simmons_horizontal-1.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/smartwater-simmons_horizontal-2.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/smartwater-simmons_horizontal-3.jpg"]
 cover_image = ""
 date = 2020-12-08T04:13:30Z
 gumroad_id = ""
@@ -28,6 +28,9 @@ slug = "collections/ben-simmons-smart-water"
 theme_color = "#FAEA72"
 theme_color_all_works = "#FFE767"
 title = "Smart Water: Essentialism "
+[seo]
+meta_description = ""
+meta_title = ""
 [[collection_layout_builder]]
 align_y = "start"
 block = "media-element"
