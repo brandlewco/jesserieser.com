@@ -38,11 +38,11 @@ page_sections:
   title_margin_y: 15%
   title_margin_left: 0%
   title_margin_right: 0%
-  text_size: 6xl
+  text_size: 5xl
   line_height: normal
   text_alignment: left
   text_tracking: normal
-  font_weight: ''
+  font_weight: semibold
   meta_align: left
   image: https://d1sf55qlb7p6hz.cloudfront.net/rieser_folklore-17.jpg
   color: "#D0E5EF"
