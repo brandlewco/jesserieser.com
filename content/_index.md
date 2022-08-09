@@ -68,7 +68,7 @@ page_sections:
   meta_align: right
   image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-ghosttowns-31.jpg
   color: "#EAF2B5"
-  title: 'Vox: 100 Battles'
+  title: 100 Battles
   meta: Summoning the Ghost Town
   attached_collection: collections/vox-100-battles-ghost-towns.md
   text_color: ''
