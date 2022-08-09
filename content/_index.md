@@ -99,7 +99,7 @@ page_sections:
   title: 'V '
   meta: Armani 50th Anniversary Featuring Deandre Hopkins
   attached_collection: collections/armani-anniversary.md
-  text_color: "#FFFFFF"
+  text_color: "#DCDCDC"
 - template: block-media-row
   block: media-row
   row_alignment: between
