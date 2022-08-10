@@ -3,22 +3,197 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/collections/</loc>
+    <lastmod>2022-07-26T00:28:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/collections/natgeo-marty/</loc>
+    <lastmod>2022-07-26T00:28:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/folklore/</loc>
+    <lastmod>2022-07-25T23:56:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/collections/vox-ghosttowns/</loc>
+    <lastmod>2022-07-21T01:30:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/collections/amtrak-texas-eagle/</loc>
+    <lastmod>2022-07-21T01:29:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/collections/espn-deandre-ayton/</loc>
+    <lastmod>2022-07-21T01:28:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/collections/espn-ryan-resch/</loc>
+    <lastmod>2022-07-21T01:26:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/collections/valley/</loc>
+    <lastmod>2022-07-21T01:25:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/collections/nytimes-tjnewman/</loc>
+    <lastmod>2022-07-21T01:24:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/collections/deandrehopkins/</loc>
+    <lastmod>2022-07-21T01:22:09+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/collections/gundemic/</loc>
+    <lastmod>2022-07-21T01:20:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/collections/escalaras/</loc>
+    <lastmod>2022-05-02T20:40:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/collections/golf-digest-scottie/</loc>
+    <lastmod>2022-05-02T20:38:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/collections/nytimes-jackkruger/</loc>
+    <lastmod>2022-03-07T21:51:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/collections/bloomberg-rent/</loc>
+    <lastmod>2022-03-07T21:43:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/christmas-in-america-happy-birthday-jesus-1/</loc>
+    <lastmod>2021-12-25T07:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/posts/</loc>
+    <lastmod>2021-12-25T07:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/collections/nytimes-cryogenics/</loc>
+    <lastmod>2021-08-11T22:46:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/christmas-in-america/</loc>
+    <lastmod>2021-07-28T18:02:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/collections/golf-digest-bubba/</loc>
+    <lastmod>2021-07-25T23:40:26+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/collections/popular-mechanics-longevity/</loc>
+    <lastmod>2021-07-25T23:18:43+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/collections/nytimes-reopen/</loc>
+    <lastmod>2021-06-26T06:00:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/collections/barrons-lasvegas/</loc>
+    <lastmod>2021-06-09T21:54:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/collections/runnersworld-halls/</loc>
+    <lastmod>2021-03-10T20:44:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/collections/gunsite/</loc>
+    <lastmod>2021-03-10T20:34:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/shop/macy-s.2018/</loc>
+    <lastmod>2021-02-10T20:11:04+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/shop/</loc>
+    <lastmod>2021-02-10T20:11:04+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/shop/sears.2015/</loc>
+    <lastmod>2021-02-10T20:05:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/shop/best-buy.2018/</loc>
+    <lastmod>2021-02-10T20:01:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/shop/facility-study-no.5.2016/</loc>
+    <lastmod>2021-02-10T19:51:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/collections/espn-booker/</loc>
+    <lastmod>2021-02-10T03:16:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/collections/nytimes-metrocenter/</loc>
+    <lastmod>2021-02-08T06:23:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/collections/ben-simmons-smart-water/</loc>
+    <lastmod>2020-12-08T04:13:30+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/shop/chistmas-merry-deflation/</loc>
+    <lastmod>2020-12-01T00:28:34+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/shop/chistmas-jennifer-houghton/</loc>
+    <lastmod>2020-12-01T00:28:34+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/shop/christmas-cindy-lou/</loc>
+    <lastmod>2020-12-01T00:27:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/shop/chistmas-merry-monster/</loc>
+    <lastmod>2020-12-01T00:27:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/the-changing-landscape-of-america-retail/</loc>
     <lastmod>2020-01-14T07:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/test-blog-posts/</loc>
-    <lastmod>2020-01-14T07:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/collections/amtrak-southwest-chief/</loc>
-    <lastmod>2019-08-01T07:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/collections/amtrak-sunset-limited/</loc>
+    <loc>/collections/sunsetlimited/</loc>
     <lastmod>2019-08-01T07:00:00+00:00</lastmod>
   </url>
   
@@ -28,42 +203,27 @@
   </url>
   
   <url>
-    <loc>/collections/</loc>
+    <loc>/collections/southwest-chief/</loc>
     <lastmod>2019-08-01T07:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/collections.old/</loc>
-    <lastmod>2019-08-01T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/collections/outside-dq/</loc>
+    <loc>/collections/outside-magazine-dq/</loc>
     <lastmod>2019-08-01T07:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/collections.old/amtrak/</loc>
-    <lastmod>2019-08-01T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/collections/wsj-apollo/</loc>
+    <loc>/collections/wall-street-journal/</loc>
     <lastmod>2019-08-01T07:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/collections/wired-bitmain/</loc>
+    <loc>/collections/wired-magazine-2/</loc>
     <lastmod>2019-06-18T07:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/collections.old/addidas/</loc>
-    <lastmod>2019-05-01T07:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/collections/addidas/</loc>
+    <loc>/collections/adidas-basketball/</loc>
     <lastmod>2019-05-01T07:00:00+00:00</lastmod>
   </url>
   
@@ -88,31 +248,39 @@
   </url>
   
   <url>
-    <loc>/collections/adidas-golf/</loc>
+    <loc>/collections/adidas-golf-adicross/</loc>
   </url>
   
   <url>
-    <loc>/collections/az-lottery/</loc>
+    <loc>/projects/phoenix/</loc>
   </url>
   
   <url>
-    <loc>/collections.old/autobiography/</loc>
+    <loc>/posts/ap-36-american-photography-annual/</loc>
   </url>
   
   <url>
-    <loc>/collections/autobiography/</loc>
+    <loc>/posts/ap-37-american-photography-annual/</loc>
   </url>
   
   <url>
-    <loc>/collections.old/retail/</loc>
+    <loc>/collections/arizona-lottery/</loc>
   </url>
   
   <url>
-    <loc>/collections.old/xmas-in-america/</loc>
+    <loc>/projects/autobiography-contact-sport/</loc>
   </url>
   
   <url>
-    <loc>/collections/xmas-in-america/</loc>
+    <loc>/collections/banner-mullen/</loc>
+  </url>
+  
+  <url>
+    <loc>/collections/barrons-cover/</loc>
+  </url>
+  
+  <url>
+    <loc>/posts/christmas-in-america-happy-birthday-jesus/</loc>
   </url>
   
   <url>
@@ -124,35 +292,43 @@
   </url>
   
   <url>
-    <loc>/collections/espn-cowboy-cerronne/</loc>
+    <loc>/collections/espn/</loc>
   </url>
   
   <url>
-    <loc>/collections/espn-mlb/</loc>
+    <loc>/collections/personalities-of-the-mlb/</loc>
   </url>
   
   <url>
-    <loc>/collections/espn-puig/</loc>
+    <loc>/collections/partying-with-puig/</loc>
   </url>
   
   <url>
-    <loc>/collections/espn-cactus-league/</loc>
+    <loc>/collections/cactus-league/</loc>
   </url>
   
   <url>
-    <loc>/collections/fast-company-waymo/</loc>
+    <loc>/collections/googles-waymo-car/</loc>
   </url>
   
   <url>
-    <loc>/collections/gioa-hearst-itallia/</loc>
+    <loc>/collections/fisher-price/</loc>
   </url>
   
   <url>
-    <loc>/collections/jerry-halls-sad-instgram/</loc>
+    <loc>/collections/paris/</loc>
   </url>
   
   <url>
-    <loc>/collections/macknzie-movement-study/</loc>
+    <loc>/projects/jerry-halls-sad-instagram/</loc>
+  </url>
+  
+  <url>
+    <loc>/posts/klompching-gallery-fresh/</loc>
+  </url>
+  
+  <url>
+    <loc>/collections/mackenzie-gossage/</loc>
   </url>
   
   <url>
@@ -160,7 +336,7 @@
   </url>
   
   <url>
-    <loc>/collections/fred-nike/</loc>
+    <loc>/collections/fred-kerley/</loc>
   </url>
   
   <url>
@@ -168,27 +344,27 @@
   </url>
   
   <url>
-    <loc>/collections/outside-magazine-rob-krar/</loc>
+    <loc>/collections/rob-krar-outside-magazine/</loc>
   </url>
   
   <url>
-    <loc>/collections.old/phoenix/</loc>
+    <loc>/collections/cowboy-curt/</loc>
   </url>
   
   <url>
-    <loc>/collections/unbriddled-spirit/</loc>
+    <loc>/posts/phoenix-a-dystopian-legoland-that-tastes-like-candy/</loc>
   </url>
   
   <url>
-    <loc>/collections/phoenix/</loc>
+    <loc>/projects/photo-studios-extinction/</loc>
   </url>
   
   <url>
-    <loc>/collections/endangered-photo-studios/</loc>
+    <loc>/collections/skeleton-party/</loc>
   </url>
   
   <url>
-    <loc>/collections/stalking-a-serial-killer/</loc>
+    <loc>/collections/stalking-serial-killer/</loc>
   </url>
   
   <url>
@@ -196,59 +372,75 @@
   </url>
   
   <url>
-    <loc>/collections.old/star-geezers/</loc>
+    <loc>/projects/starting-over/</loc>
   </url>
   
   <url>
-    <loc>/collections/starting-over/</loc>
+    <loc>/collections/the-atlantic-election/</loc>
   </url>
   
   <url>
-    <loc>/collections/template/</loc>
+    <loc>/projects/changing-landscape-american-retail/</loc>
   </url>
   
   <url>
-    <loc>/collections/retail/</loc>
+    <loc>/posts/the-changing-landscape-of-american-retail-1/</loc>
   </url>
   
   <url>
-    <loc>/collections/the-class-of-99-turns-30/</loc>
+    <loc>/projects/the-class-of-99-turns-30/</loc>
   </url>
   
   <url>
-    <loc>/collections/wsj-ieg-lab/</loc>
+    <loc>/posts/the-photo-banter/</loc>
   </url>
   
   <url>
-    <loc>/collections/wallow-fire/</loc>
+    <loc>/posts/star-geezers-on-boooooom/</loc>
   </url>
   
   <url>
-    <loc>/collections.old/time/</loc>
+    <loc>/posts/sunset-spot/</loc>
   </url>
   
   <url>
-    <loc>/collections/time-mag-antivaxxers/</loc>
+    <loc>/collections/wall-street-journal-robot/</loc>
   </url>
   
   <url>
-    <loc>/collections/time/</loc>
+    <loc>/collections/wall-street-journal-2/</loc>
   </url>
   
   <url>
-    <loc>/collections/united-airlines/</loc>
+    <loc>/projects/the-wallow-fire/</loc>
   </url>
   
   <url>
-    <loc>/collections/when-fall-came-early/</loc>
+    <loc>/collections/time-magazine-ii/</loc>
   </url>
   
   <url>
-    <loc>/collections.old/wired/</loc>
+    <loc>/collections/time-magazine-grand-canyon-100th-anniversary/</loc>
   </url>
   
   <url>
-    <loc>/collections/wired/</loc>
+    <loc>/collections/united-airlines-rhapsody/</loc>
+  </url>
+  
+  <url>
+    <loc>/projects/when-fall-came-early/</loc>
+  </url>
+  
+  <url>
+    <loc>/collections/wired-magazine/</loc>
+  </url>
+  
+  <url>
+    <loc>/posts/young-guns-19/</loc>
+  </url>
+  
+  <url>
+    <loc>/collections/ice-t/</loc>
   </url>
   
 </urlset>
