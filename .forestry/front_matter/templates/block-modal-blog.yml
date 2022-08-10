@@ -45,7 +45,7 @@ fields:
       file: 
       path: 
   label: Block Aspect Ratio
-  hidden: true
+  hidden: false
 - name: title
   type: text
   config:
