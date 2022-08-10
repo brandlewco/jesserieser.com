@@ -102,7 +102,7 @@ template = "block-media-element-static"
 width = "100"
 [[blog_slider]]
 block = "media-element-url"
-image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-agentsclub_reopen-1.jpg"
+image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-agentsclub_reopen-1-2.jpg"
 template = "block-media-element-url"
 
 +++
