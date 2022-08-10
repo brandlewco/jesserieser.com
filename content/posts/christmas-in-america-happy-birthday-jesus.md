@@ -1,5 +1,6 @@
 +++
 attached_collection = "collections/xmas-in-america.md"
+attached_link = ""
 block_aspect_ratio = "ratio-8-5x11"
 blog_block_cover = "https://d1sf55qlb7p6hz.cloudfront.net/blog_xmaspress-24.jpg"
 blog_header = ""
@@ -8,7 +9,10 @@ content = "Last week I started to see Christmas lights find their way back on to
 date = ""
 news_category = ["Press"]
 theme_color = "#FF0000"
-title = "Christmas In America: Happy Birthday, Jesus "
+title = "Christmas In America"
+[seo]
+meta_description = ""
+meta_title = ""
 [[blog_builder]]
 block = "media-element-static"
 caption = ""
