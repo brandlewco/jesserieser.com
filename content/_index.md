@@ -829,7 +829,7 @@ page_sections:
   line_height: normal
   text_alignment: left
   text_tracking: normal
-  font_weight: []
+  font_weight: ''
   meta_align: left
   image: ''
   color: ''
