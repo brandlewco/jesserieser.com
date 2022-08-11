@@ -370,9 +370,6 @@ page_sections:
   meta: "2022"
   attached_collection: collections/one-night-in-the-valley.md
   text_color: ''
-- template: block-media-row
-  block: media-row
-  row_alignment: between
 - template: block-media-feature
   block: media-feature
   width: '40'
@@ -398,6 +395,9 @@ page_sections:
   font_weight: semibold
   line_height: tight
   title_margin_y: 15%
+- template: block-media-row
+  block: media-row
+  row_alignment: between
 - template: block-media-row
   block: media-row
   row_alignment: ''
