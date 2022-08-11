@@ -720,16 +720,16 @@ page_sections:
   color: "#FFCFCF"
 - template: block-modal-blog
   block: modal-blog
-  attached_blog: posts/test-blog-posts.md
-  block_aspect_ratio: []
+  attached_blog: posts/ap-38-american-photography-annual-1.md
+  block_aspect_ratio: 3x2
   text_size: 2xl
   width: '33'
   align_y: start
   margin_y: '50'
   margin_left: 0%
   margin_right: 0%
-  title: ''
-  color: ''
+  title: 'AP: American Photography Annual Chosen'
+  color: "#FFC2C2"
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/test-blog-posts.md
