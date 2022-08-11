@@ -200,7 +200,7 @@ page_sections:
   color: "#FF4B4B"
 - template: block-media-feature
   block: media-feature
-  width: '50'
+  width: '55'
   align_y: start
   margin_y: '400'
   margin_left: 0%
