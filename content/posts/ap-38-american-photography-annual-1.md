@@ -7,7 +7,6 @@ blog_header = ""
 caption = "Popular Mechanics: Can Science Cure Death? It Sure Looks Like It."
 content = "[**_Can Science Cure Death? It Sure Looks Like It_**](https://jesserieser.com/collections/popular-mechanics-longevity) for _Popular Mechanics_ has been “chosen” by the [**American Photography 38 Photo Annual**](https://www.ai-ap.com/slideshow/AP/38/jesse-rieser/)\n\nPictured is 72 year old James Strohle. Strohle is cofounder of People Unlimited, a community to inspire people to live infinite lifespans and to introduce anti-aging developments to the public.\n\nCongratulations to all the winners and thank you to this year’s judges:\n\nSamir Abady, Photo Editor, _The Wall Street Journal_\n\nDudley M. Brooks, Photo Editor, _The Washington Post Magazine_\n\nShahrzad Elghanayan, Senior Photo Editor, _NBC News_\n\nGail Fletcher, Photo Editor, _The Guardian_\n\nJeanne Graves, Director of Photography, _Fast Company_\n\nWhitney Matewe, Photo Editor, _TIME Magazine_\n\nMichele Romero, Creative Photography Director, PhotoRehab\n\nElijah S Walker, Visual Journalist and Photography Editor, _The New York Times_\n\nAmy Wolff, Photo Director, _Hearst Enthusiast Group_\n\nNili Zadok, Executive Producer"
 date = ""
-draft = true
 news_category = ["awards"]
 theme_color = "#F89A9A"
 title = "AP 38: American Photography Annual "
