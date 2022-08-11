@@ -41,7 +41,7 @@ fields:
     display_utc: false
 - name: attached_collection
   type: select
-  default: []
+  default: collections/star-geezers.md
   config:
     required: false
     options: []
