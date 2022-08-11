@@ -1,7 +1,7 @@
 +++
 attached_collection = "collections/star-geezers.md"
 attached_link = ""
-block_aspect_ratio = "ratio-8-5x11"
+block_aspect_ratio = "ratio-5x4"
 blog_block_cover = "https://d1sf55qlb7p6hz.cloudfront.net/sk-fisheye_review-1-2.jpg"
 blog_header = "https://d1sf55qlb7p6hz.cloudfront.net/stargeezers-1.jpg"
 caption = "Fisheye Photo Review 2021.22"
