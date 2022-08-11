@@ -372,7 +372,7 @@ page_sections:
   text_color: ''
 - template: block-media-feature
   block: media-feature
-  width: '50'
+  width: '45'
   align_y: start
   margin_y: '400'
   margin_left: 0%
