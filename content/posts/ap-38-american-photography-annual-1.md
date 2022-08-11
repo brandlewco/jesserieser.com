@@ -9,7 +9,7 @@ content = "[**_Can Science Cure Death? It Sure Looks Like It_**](https://jesseri
 date = ""
 news_category = ["awards"]
 theme_color = "#F89A9A"
-title = "AP 38: American Photography Annual "
+title = "AP 38: American Photography Annual Chosen"
 [seo]
 meta_description = ""
 meta_title = ""
