@@ -65,21 +65,9 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: ''
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/ap-38-american-photography-annual.md
-  block_aspect_ratio: 8.5:11
-  text_size: 2xl
-  width: '20'
-  align_y: start
-  margin_y: '50'
-  margin_left: 0%
-  margin_right: 0%
-  title: 'AP 38: American Photography Annual'
-  color: "#FFAAAA"
 - template: block-media-feature
   block: media-feature
-  width: '50'
+  width: '25'
   align_y: start
   margin_y: '100'
   margin_left: 0%
@@ -93,12 +81,24 @@ page_sections:
   text_tracking: normal
   font_weight: semibold
   meta_align: left
-  image: https://d1sf55qlb7p6hz.cloudfront.net/nytimes_metro-5.jpg
+  image: https://d1sf55qlb7p6hz.cloudfront.net/nytimes_metro-7.jpg
   color: "#FFB697"
   title: 'The New York Times '
   meta: 'Auctioning Off A Dead Mall '
   attached_collection: collections/the-new-york-times.md
   text_color: "#FFFFFF"
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/ap-38-american-photography-annual.md
+  block_aspect_ratio: 8.5:11
+  text_size: 2xl
+  width: '20'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  title: 'AP 38: American Photography Annual'
+  color: "#FFAAAA"
 - template: block-media-row
   block: media-row
   row_alignment: between
