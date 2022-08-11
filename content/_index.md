@@ -3,18 +3,6 @@ layout: blocks
 title: Jesse Rieser
 date: 2017-11-01T23:00:00.000+00:00
 page_sections:
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/christmas-in-america-happy-birthday-jesus-1.md
-  block_aspect_ratio: ''
-  text_size: 2xl
-  width: '25'
-  align_y: start
-  margin_y: '700'
-  margin_left: 15%
-  margin_right: 5%
-  title: xmas
-  color: "#FF4B4B"
 - template: block-media-feature
   block: media-feature
   width: '66'
@@ -37,6 +25,18 @@ page_sections:
   meta: 2022 Communications Arts Photo Annual
   text_color: ''
   font_weight: normal
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/communication-arts-photography-annual-2022.md
+  text_size: 2xl
+  width: '33'
+  align_y: start
+  margin_y: '100'
+  margin_left: 0%
+  margin_right: 0%
+  block_aspect_ratio: 5x4
+  color: "#FFB9B9"
+  title: '2022 Communication Arts Photo Annual '
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -62,6 +62,18 @@ page_sections:
   title: ''
   text_color: ''
   font_weight: ''
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/ap-38-american-photography-annual.md
+  block_aspect_ratio: 8.5:11
+  text_size: 2xl
+  width: '33'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  title: 'AP 38: American Photography Annual'
+  color: "#FFAAAA"
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -87,6 +99,18 @@ page_sections:
   meta: 'Auctioning Off A Dead Mall '
   attached_collection: collections/the-new-york-times.md
   text_color: "#FFFFFF"
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/christmas-in-america-happy-birthday-jesus-1.md
+  block_aspect_ratio: ''
+  text_size: 2xl
+  width: '25'
+  align_y: start
+  margin_y: '700'
+  margin_left: 15%
+  margin_right: 5%
+  title: xmas
+  color: "#FF4B4B"
 - template: block-media-row
   block: media-row
   row_alignment: between
@@ -115,6 +139,18 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: ''
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/klompching-gallery-fresh.md
+  block_aspect_ratio: []
+  text_size: base
+  width: '20'
+  align_y: start
+  margin_y: '100'
+  margin_left: 5%
+  margin_right: 0%
+  title: Fresh
+  color: "#DFEFC2"
 - template: block-media-feature
   block: media-feature
   width: '40'
@@ -137,6 +173,18 @@ page_sections:
   line_height: normal
   title: Adobe
   text_color: "#FFFA8A"
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/the-photo-banter.md
+  block_aspect_ratio: []
+  text_size: 6xl
+  width: '20'
+  align_y: start
+  margin_y: '100'
+  margin_left: 0%
+  margin_right: 5%
+  title: The Photo Banter
+  color: "#0CA5E5"
 - template: block-media-row
   block: media-row
   row_alignment: between
@@ -586,33 +634,9 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: between
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/the-photo-banter.md
-  block_aspect_ratio: []
-  text_size: 6xl
-  width: '20'
-  align_y: start
-  margin_y: '100'
-  margin_left: 0%
-  margin_right: 5%
-  title: The Photo Banter
-  color: "#0CA5E5"
 - template: block-media-row
   block: media-row
   row_alignment: between
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/klompching-gallery-fresh.md
-  block_aspect_ratio: []
-  text_size: base
-  width: '20'
-  align_y: start
-  margin_y: '100'
-  margin_left: 5%
-  margin_right: 0%
-  title: Fresh
-  color: "#DFEFC2"
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -679,48 +703,12 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: between
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/christmas-in-america-happy-birthday-jesus.md
-  width: '30'
-  align_y: start
-  margin_y: '100'
-  margin_left: 30%
-  margin_right: 0%
-  title: Xmas Roundup
-  color: "#C5C458"
-  block_aspect_ratio: 11x8.5
-  text_size: ''
 - template: block-media-row
   block: media-row
   row_alignment: between
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/communication-arts-photography-annual-2022.md
-  text_size: 2xl
-  width: '33'
-  align_y: start
-  margin_y: '100'
-  margin_left: 0%
-  margin_right: 0%
-  block_aspect_ratio: 5x4
-  color: "#FFB9B9"
-  title: '2022 Communication Arts Photo Annual '
 - template: block-media-row
   block: media-row
   row_alignment: between
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/ap-38-american-photography-annual.md
-  block_aspect_ratio: 8.5:11
-  text_size: 2xl
-  width: '33'
-  align_y: start
-  margin_y: '50'
-  margin_left: 0%
-  margin_right: 0%
-  title: 'AP 38: American Photography Annual'
-  color: "#FFAAAA"
 - template: block-media-row
   block: media-row
   row_alignment: between
@@ -784,6 +772,18 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: between
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/christmas-in-america-happy-birthday-jesus.md
+  width: '30'
+  align_y: start
+  margin_y: '100'
+  margin_left: 30%
+  margin_right: 0%
+  title: Xmas Roundup
+  color: "#C5C458"
+  block_aspect_ratio: 11x8.5
+  text_size: ''
 home_theme_color: "#EDDDDE"
 collection_description: A student of subtleties.
 collection_content: ''
