@@ -67,9 +67,9 @@ page_sections:
   row_alignment: ''
 - template: block-media-feature
   block: media-feature
-  width: '55'
+  width: '50'
   align_y: start
-  margin_y: '200'
+  margin_y: '100'
   margin_left: 20%
   margin_right: 0%
   title_margin_y: 40%
@@ -81,7 +81,7 @@ page_sections:
   text_tracking: normal
   font_weight: semibold
   meta_align: left
-  image: https://d1sf55qlb7p6hz.cloudfront.net/nytimes_metro-29.jpg
+  image: https://d1sf55qlb7p6hz.cloudfront.net/nytimes_metro-5.jpg
   color: "#FFB697"
   title: 'The New York Times '
   meta: 'Auctioning Off A Dead Mall '
