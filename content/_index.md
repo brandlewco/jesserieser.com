@@ -372,11 +372,11 @@ page_sections:
   text_color: ''
 - template: block-media-feature
   block: media-feature
-  width: '45'
+  width: '50'
   align_y: start
   margin_y: '300'
   margin_left: 0%
-  margin_right: 10%
+  margin_right: 5%
   title_margin_left: 5%
   title_margin_right: 0%
   meta_align: left
