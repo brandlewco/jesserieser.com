@@ -782,6 +782,28 @@ page_sections:
   font_weight: semibold
   line_height: tight
   title_margin_y: 15%
+- template: block-media-feature
+  block: media-feature
+  width: '33'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  title_margin_y: 35%
+  title_margin_left: 0%
+  title_margin_right: 0%
+  text_size: 2xl
+  line_height: normal
+  text_alignment: left
+  text_tracking: normal
+  font_weight: ''
+  meta_align: left
+  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-valley-6.jpg
+  color: ''
+  title: One Night In The Valley
+  meta: "2022"
+  attached_collection: collections/one-night-in-the-valley.md
+  text_color: ''
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/the-changing-landscape-of-american-retail-1.md
@@ -815,11 +837,23 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: between
+- template: block-media-row
+  block: media-row
+  row_alignment: between
+- template: block-media-row
+  block: media-row
+  row_alignment: between
+- template: block-media-row
+  block: media-row
+  row_alignment: between
+- template: block-media-row
+  block: media-row
+  row_alignment: between
 - template: block-media-feature
   block: media-feature
   width: '33'
   align_y: start
-  margin_y: '50'
+  margin_y: '100'
   margin_left: 0%
   margin_right: 0%
   title_margin_y: 35%
@@ -829,26 +863,14 @@ page_sections:
   line_height: normal
   text_alignment: left
   text_tracking: normal
-  font_weight: ''
   meta_align: left
-  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-valley-6.jpg
+  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser_natgeo-marty-1.jpg
+  title: 'National Geographic '
+  meta: 'MARTY '
+  attached_collection: collections/national-geographic.md
   color: ''
-  title: One Night In The Valley
-  meta: "2022"
-  attached_collection: collections/one-night-in-the-valley.md
   text_color: ''
-- template: block-media-row
-  block: media-row
-  row_alignment: between
-- template: block-media-row
-  block: media-row
-  row_alignment: between
-- template: block-media-row
-  block: media-row
-  row_alignment: between
-- template: block-media-row
-  block: media-row
-  row_alignment: between
+  font_weight: ''
 home_theme_color: "#EDDDDE"
 collection_description: A student of subtleties.
 collection_content: ''
