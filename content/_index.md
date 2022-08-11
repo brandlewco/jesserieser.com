@@ -295,7 +295,7 @@ page_sections:
   margin_x: ''
   align_y: ''
   margin_left: 0%
-  margin_right: 10%
+  margin_right: 15%
   title_margin_left: 5%
   title_margin_right: ''
   meta_align: left
