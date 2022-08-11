@@ -153,7 +153,7 @@ page_sections:
   block: media-feature
   width: '50'
   align_y: start
-  margin_y: '400'
+  margin_y: '300'
   margin_left: 5%
   margin_right: 0%
   title_margin_y: 10%
