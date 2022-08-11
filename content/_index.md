@@ -25,28 +25,28 @@ page_sections:
   meta: 2022 Communications Arts Photo Annual
   text_color: ''
   font_weight: normal
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/communication-arts-photography-annual-2022.md
   text_size: 2xl
-  width: '33'
+  width: '30'
   align_y: start
-  margin_y: '100'
+  margin_y: '300'
   margin_left: 0%
   margin_right: 0%
   block_aspect_ratio: 5x4
   color: "#FFB9B9"
   title: '2022 Communication Arts Photo Annual '
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
 - template: block-media-feature
   block: media-feature
   width: '40'
   align_y: start
-  margin_y: '50'
+  margin_y: '100'
   margin_left: 0%
-  margin_right: 15%
+  margin_right: 10%
   title_margin_y: 35%
   title_margin_left: 0%
   title_margin_right: 0%
