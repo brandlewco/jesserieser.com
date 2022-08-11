@@ -8,7 +8,7 @@ page_sections:
   width: '66'
   align_y: start
   margin_y: '100'
-  margin_left: 15%
+  margin_left: 10%
   margin_right: 0%
   title_margin_y: 15%
   title_margin_left: "-25%"
@@ -35,7 +35,7 @@ page_sections:
   width: '25'
   align_y: start
   margin_y: '800'
-  margin_left: 0%
+  margin_left: 5%
   margin_right: 0%
   block_aspect_ratio: 5x4
   color: "#FFB9B9"
