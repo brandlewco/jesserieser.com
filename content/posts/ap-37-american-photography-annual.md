@@ -1,7 +1,7 @@
 +++
 attached_collection = "collections/the-new-york-times.md"
 attached_link = ""
-block_aspect_ratio = "ratio-11x8-5"
+block_aspect_ratio = "ratio-5x4"
 blog_block_cover = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-ap_book2021-1.jpg"
 blog_header = ""
 caption = "The New York Times: Auctioning Off a Dead Mall"
