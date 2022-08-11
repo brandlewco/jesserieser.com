@@ -398,15 +398,18 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: between
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
-- template: block-media-row
-  block: media-row
-  row_alignment: between
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/ap-38-american-photography-annual-copy.md
+  block_aspect_ratio: 11x8.5
+  text_size: 2xl
+  width: '33'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  title: BOOOOOOOM Feature
+  color: "#FFCFCF"
 - template: block-media-feature
   block: media-feature
   width: '40'
@@ -429,6 +432,15 @@ page_sections:
   meta: A Minor Leaguer’s Hard Road to the Bigs
   attached_collection: collections/the-new-york-times-3.md
   text_color: "#FF6065"
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: between
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
 - template: block-media-row
   block: media-row
   row_alignment: between
@@ -712,18 +724,6 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: between
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/ap-38-american-photography-annual-copy.md
-  block_aspect_ratio: 11x8.5
-  text_size: 2xl
-  width: '33'
-  align_y: start
-  margin_y: '50'
-  margin_left: 0%
-  margin_right: 0%
-  title: BOOOOOOOM Feature
-  color: "#FFCFCF"
 - template: block-media-row
   block: media-row
   row_alignment: between
@@ -784,6 +784,18 @@ page_sections:
   color: "#C5C458"
   block_aspect_ratio: 11x8.5
   text_size: ''
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/ap-38-american-photography-annual-1.md
+  text_size: 2xl
+  width: '33'
+  align_y: start
+  margin_y: '100'
+  margin_left: 0%
+  margin_right: 0%
+  block_aspect_ratio: 3x2
+  title: AP 38 Chosen Popular Mechanic
+  color: ''
 home_theme_color: "#EDDDDE"
 collection_description: A student of subtleties.
 collection_content: ''
