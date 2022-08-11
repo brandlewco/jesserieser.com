@@ -200,11 +200,11 @@ page_sections:
   color: "#FF4B4B"
 - template: block-media-feature
   block: media-feature
-  width: '40'
+  width: '45'
   align_y: start
   margin_y: '400'
   margin_left: 0%
-  margin_right: 5%
+  margin_right: 15%
   title_margin_y: 15%
   title_margin_left: 0%
   title_margin_right: 0%
