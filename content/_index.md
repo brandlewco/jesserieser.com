@@ -194,8 +194,8 @@ page_sections:
   width: '25'
   align_y: start
   margin_y: '100'
-  margin_left: 5%
-  margin_right: 5%
+  margin_left: 0%
+  margin_right: 0%
   title: xmas
   color: "#FF4B4B"
 - template: block-media-feature
