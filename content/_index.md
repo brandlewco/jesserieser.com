@@ -414,7 +414,7 @@ page_sections:
   block: media-feature
   width: '33'
   align_y: start
-  margin_y: '100'
+  margin_y: '300'
   margin_left: 0%
   margin_right: 5%
   title_margin_y: 15%
@@ -437,7 +437,7 @@ page_sections:
   attached_blog: posts/ap-38-american-photography-annual-copy.md
   block_aspect_ratio: 11x8.5
   text_size: 2xl
-  width: '25'
+  width: '20'
   align_y: start
   margin_y: '100'
   margin_left: 0%
