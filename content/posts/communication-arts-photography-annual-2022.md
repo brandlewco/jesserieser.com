@@ -141,11 +141,11 @@ template = "block-media-element-static"
 width = "60"
 [[blog_slider]]
 block = "media-element-url"
-image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-ca_esc-2.jpg"
+image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-ca_esc-3.jpg"
 template = "block-media-element-url"
 [[blog_slider]]
 block = "media-element-url"
-image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-ca_esc-3.jpg"
+image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-ca_esc-2.jpg"
 template = "block-media-element-url"
 [[blog_slider]]
 block = "media-element-url"
