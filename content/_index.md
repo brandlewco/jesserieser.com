@@ -204,8 +204,8 @@ page_sections:
   align_y: start
   margin_y: '400'
   margin_left: 0%
-  margin_right: 15%
-  title_margin_y: 15%
+  margin_right: 10%
+  title_margin_y: 10%
   title_margin_left: 0%
   title_margin_right: 0%
   text_size: 5xl
