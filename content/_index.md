@@ -225,7 +225,7 @@ page_sections:
   row_alignment: ''
 - template: block-media-feature
   block: media-feature
-  width: '45'
+  width: '50'
   align_y: start
   margin_y: '300'
   margin_left: 10%
