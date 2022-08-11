@@ -696,16 +696,16 @@ page_sections:
   title: '2022 Communication Arts Photo Annual '
 - template: block-modal-blog
   block: modal-blog
-  attached_blog: posts/test-blog-posts.md
-  block_aspect_ratio: []
+  attached_blog: posts/ap-38-american-photography-annual.md
+  block_aspect_ratio: 8.5:11
   text_size: 2xl
   width: '33'
   align_y: start
   margin_y: '50'
   margin_left: 0%
   margin_right: 0%
-  title: ''
-  color: ''
+  title: 'AP 38: American Photography Annual'
+  color: "#FFAAAA"
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/test-blog-posts.md
