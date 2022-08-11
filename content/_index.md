@@ -124,6 +124,28 @@ page_sections:
   margin_right: 0%
   title: 'AP 38: American Photography Annual'
   color: "#FFAAAA"
+- template: block-media-feature
+  block: media-feature
+  width: '33'
+  align_y: start
+  margin_y: '100'
+  margin_left: 15%
+  margin_right: 0%
+  title_margin_left: 5%
+  title_margin_right: 0%
+  title_margin_y: 15%
+  meta_align: left
+  attached_collection: collections/phoenix.md
+  meta: Torpedo London
+  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser_phx-HI-2.jpg
+  color: "#D0F4F2"
+  text_size: 6xl
+  font_weight: semibold
+  text_tracking: normal
+  text_alignment: left
+  line_height: normal
+  title: Adobe
+  text_color: "#FFFA8A"
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -151,28 +173,6 @@ page_sections:
   margin_right: 0%
   title: Fresh
   color: "#DFEFC2"
-- template: block-media-feature
-  block: media-feature
-  width: '40'
-  align_y: start
-  margin_y: '100'
-  margin_left: 5%
-  margin_right: 0%
-  title_margin_left: 5%
-  title_margin_right: 0%
-  title_margin_y: 15%
-  meta_align: left
-  attached_collection: collections/phoenix.md
-  meta: Torpedo London
-  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser_phx-HI-2.jpg
-  color: "#D0F4F2"
-  text_size: 6xl
-  font_weight: semibold
-  text_tracking: normal
-  text_alignment: left
-  line_height: normal
-  title: Adobe
-  text_color: "#FFFA8A"
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/the-photo-banter.md
