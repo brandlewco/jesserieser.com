@@ -70,9 +70,9 @@ page_sections:
   attached_blog: posts/ap-38-american-photography-annual.md
   block_aspect_ratio: 8.5:11
   text_size: 2xl
-  width: '25'
+  width: '20'
   align_y: start
-  margin_y: '100'
+  margin_y: '50'
   margin_left: 0%
   margin_right: 0%
   title: 'AP 38: American Photography Annual'
