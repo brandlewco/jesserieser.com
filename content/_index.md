@@ -732,16 +732,16 @@ page_sections:
   color: "#FFC2C2"
 - template: block-modal-blog
   block: modal-blog
-  attached_blog: posts/test-blog-posts.md
-  block_aspect_ratio: []
+  attached_blog: posts/2022-spd-awards.md
+  block_aspect_ratio: 4x5
   text_size: 2xl
   width: '33'
   align_y: start
   margin_y: '50'
   margin_left: 0%
   margin_right: 0%
-  title: ''
-  color: ''
+  title: 2022 SPD Awards
+  color: "#FF7575"
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/test-blog-posts.md
