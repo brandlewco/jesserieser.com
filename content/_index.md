@@ -286,7 +286,7 @@ page_sections:
   block: media-feature
   width: '50'
   align_x: start
-  margin_y: '400'
+  margin_y: '300'
   image: https://d1sf55qlb7p6hz.cloudfront.net/xmas-1.jpg
   attached_collection: collections/xmas-in-america.md
   title: Christmas in America
