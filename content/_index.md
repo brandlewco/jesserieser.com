@@ -247,11 +247,11 @@ page_sections:
   text_color: ''
 - template: block-media-feature
   block: media-feature
-  width: '40'
+  width: '30'
   align_y: start
-  margin_y: '300'
+  margin_y: '100'
   margin_left: 0%
-  margin_right: 5%
+  margin_right: 0%
   title_margin_y: 25%
   title_margin_left: 5%
   title_margin_right: 0%
