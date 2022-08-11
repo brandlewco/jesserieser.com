@@ -186,13 +186,25 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: between
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/christmas-in-america-happy-birthday-jesus-1.md
+  block_aspect_ratio: ''
+  text_size: 2xl
+  width: '25'
+  align_y: start
+  margin_y: '100'
+  margin_left: 5%
+  margin_right: 5%
+  title: xmas
+  color: "#FF4B4B"
 - template: block-media-feature
   block: media-feature
-  width: '55'
+  width: '40'
   align_y: start
   margin_y: '400'
   margin_left: 0%
-  margin_right: 0%
+  margin_right: 5%
   title_margin_y: 15%
   title_margin_left: 0%
   title_margin_right: 0%
@@ -208,18 +220,6 @@ page_sections:
   meta: 2012 - 2022
   attached_collection: collections/vanishing-folklore.md
   text_color: "#FFFFFF"
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/christmas-in-america-happy-birthday-jesus-1.md
-  block_aspect_ratio: ''
-  text_size: 2xl
-  width: '25'
-  align_y: start
-  margin_y: '700'
-  margin_left: 15%
-  margin_right: 5%
-  title: xmas
-  color: "#FF4B4B"
 - template: block-media-row
   block: media-row
   row_alignment: ''
