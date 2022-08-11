@@ -286,7 +286,7 @@ page_sections:
   block: media-feature
   width: '50'
   align_x: start
-  margin_y: '300'
+  margin_y: '400'
   image: https://d1sf55qlb7p6hz.cloudfront.net/xmas-1.jpg
   attached_collection: collections/xmas-in-america.md
   title: Christmas in America
@@ -311,7 +311,7 @@ page_sections:
   row_alignment: between
 - template: block-media-feature
   block: media-feature
-  width: '45'
+  width: '40'
   align_x: end
   margin_y: '300'
   image: https://d1sf55qlb7p6hz.cloudfront.net/stargeezers-1.jpg
@@ -321,7 +321,7 @@ page_sections:
   meta: Condor Airlines (Germany)
   margin_x: ''
   align_y: ''
-  margin_left: 15%
+  margin_left: 25%
   margin_right: ''
   title_margin_left: 70%
   title_margin_right: 0%
