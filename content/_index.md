@@ -120,7 +120,7 @@ page_sections:
   width: '10'
   align_y: start
   margin_y: '50'
-  margin_left: 0%
+  margin_left: 5%
   margin_right: 0%
   title: 'AP 38: American Photography Annual'
   color: "#FFAAAA"
