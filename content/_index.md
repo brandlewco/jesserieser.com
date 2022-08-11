@@ -547,7 +547,7 @@ page_sections:
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/ap-37-american-photography-annual.md
-  block_aspect_ratio: []
+  block_aspect_ratio: ''
   text_size: 2xl
   width: '30'
   align_y: start
@@ -627,7 +627,7 @@ page_sections:
   title: AP 36
   color: "#D8EBEE"
   block_aspect_ratio: 11x8.5
-  text_size: ''
+  text_size: 4xl
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/star-geezers-on-boooooom.md
@@ -658,6 +658,12 @@ page_sections:
   margin_right: 5%
   block_aspect_ratio: ''
   text_size: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: between
+- template: block-media-row
+  block: media-row
+  row_alignment: between
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/the-changing-landscape-of-american-retail-1.md
@@ -670,6 +676,9 @@ page_sections:
   color: "#EED2D2"
   block_aspect_ratio: ''
   text_size: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: between
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/christmas-in-america-happy-birthday-jesus-1.md
@@ -682,6 +691,9 @@ page_sections:
   color: "#C5C458"
   block_aspect_ratio: 11x8.5
   text_size: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: between
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/communication-arts-photography-annual-2022.md
@@ -694,6 +706,9 @@ page_sections:
   block_aspect_ratio: 5x4
   color: "#FFB9B9"
   title: '2022 Communication Arts Photo Annual '
+- template: block-media-row
+  block: media-row
+  row_alignment: between
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/ap-38-american-photography-annual.md
@@ -706,6 +721,9 @@ page_sections:
   margin_right: 0%
   title: 'AP 38: American Photography Annual'
   color: "#FFAAAA"
+- template: block-media-row
+  block: media-row
+  row_alignment: between
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/ap-38-american-photography-annual-copy.md
@@ -718,6 +736,9 @@ page_sections:
   margin_right: 0%
   title: BOOOOOOOM Feature
   color: "#FFCFCF"
+- template: block-media-row
+  block: media-row
+  row_alignment: between
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/ap-38-american-photography-annual-1.md
@@ -730,6 +751,9 @@ page_sections:
   margin_right: 0%
   title: 'AP: American Photography Annual Chosen'
   color: "#FFC2C2"
+- template: block-media-row
+  block: media-row
+  row_alignment: between
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/2022-spd-awards.md
@@ -742,6 +766,9 @@ page_sections:
   margin_right: 0%
   title: 2022 SPD Awards
   color: "#FF7575"
+- template: block-media-row
+  block: media-row
+  row_alignment: between
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/agents-club-22-awards-poetic-documentary.md
@@ -754,66 +781,9 @@ page_sections:
   margin_right: 0%
   title: Agents Club 22 Awards
   color: ''
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/ap-37-american-photography-annual-copy.md
-  block_aspect_ratio: 1x2
-  text_size: 2xl
-  width: '33'
-  align_y: start
-  margin_y: '50'
-  margin_left: 0%
-  margin_right: 0%
-  title: ''
-  color: "#FFB6B6"
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/test-blog-posts.md
-  block_aspect_ratio: []
-  text_size: 2xl
-  width: '33'
-  align_y: start
-  margin_y: '50'
-  margin_left: 0%
-  margin_right: 0%
-  title: ''
-  color: ''
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/test-blog-posts.md
-  block_aspect_ratio: []
-  text_size: 2xl
-  width: '33'
-  align_y: start
-  margin_y: '50'
-  margin_left: 0%
-  margin_right: 0%
-  title: ''
-  color: ''
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/test-blog-posts.md
-  block_aspect_ratio: []
-  text_size: 2xl
-  width: '33'
-  align_y: start
-  margin_y: '50'
-  margin_left: 0%
-  margin_right: 0%
-  title: ''
-  color: ''
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/test-blog-posts.md
-  block_aspect_ratio: []
-  text_size: 2xl
-  width: '33'
-  align_y: start
-  margin_y: '50'
-  margin_left: 0%
-  margin_right: 0%
-  title: ''
-  color: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: between
 home_theme_color: "#EDDDDE"
 collection_description: A student of subtleties.
 collection_content: ''
