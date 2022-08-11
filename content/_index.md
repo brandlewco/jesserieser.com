@@ -42,7 +42,7 @@ page_sections:
   title: '2022 Communication Arts Photo Annual '
 - template: block-media-feature
   block: media-feature
-  width: '33'
+  width: '40'
   align_y: start
   margin_y: '100'
   margin_left: 0%
