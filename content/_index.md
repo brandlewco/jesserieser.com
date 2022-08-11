@@ -117,16 +117,16 @@ page_sections:
   attached_blog: posts/ap-38-american-photography-annual.md
   block_aspect_ratio: 8.5:11
   text_size: 2xl
-  width: '10'
+  width: '20'
   align_y: start
-  margin_y: '50'
-  margin_left: 5%
+  margin_y: '400'
+  margin_left: 10%
   margin_right: 0%
   title: 'AP 38: American Photography Annual'
   color: "#FFAAAA"
 - template: block-media-feature
   block: media-feature
-  width: '33'
+  width: '40'
   align_y: start
   margin_y: '100'
   margin_left: 0%
