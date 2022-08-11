@@ -34,7 +34,7 @@ page_sections:
   text_size: 2xl
   width: '25'
   align_y: start
-  margin_y: '100'
+  margin_y: '50'
   margin_left: 5%
   margin_right: 0%
   block_aspect_ratio: 5x4
@@ -67,43 +67,6 @@ page_sections:
   row_alignment: ''
 - template: block-media-feature
   block: media-feature
-  width: '25'
-  align_y: start
-  margin_y: '100'
-  margin_left: 0%
-  margin_right: 15%
-  title_margin_y: 40%
-  title_margin_left: 5%
-  title_margin_right: 0%
-  text_size: 6xl
-  line_height: normal
-  text_alignment: left
-  text_tracking: normal
-  font_weight: semibold
-  meta_align: left
-  image: https://d1sf55qlb7p6hz.cloudfront.net/nytimes_metro-7.jpg
-  color: "#FFB697"
-  title: 'The New York Times '
-  meta: 'Auctioning Off A Dead Mall '
-  attached_collection: collections/the-new-york-times.md
-  text_color: "#FFFFFF"
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/ap-38-american-photography-annual.md
-  block_aspect_ratio: 8.5:11
-  text_size: 2xl
-  width: '20'
-  align_y: start
-  margin_y: '50'
-  margin_left: 0%
-  margin_right: 0%
-  title: 'AP 38: American Photography Annual'
-  color: "#FFAAAA"
-- template: block-media-row
-  block: media-row
-  row_alignment: between
-- template: block-media-feature
-  block: media-feature
   width: '55'
   align_y: start
   margin_y: '400'
@@ -124,6 +87,43 @@ page_sections:
   font_weight: semibold
   line_height: tight
   title_margin_y: 10%
+- template: block-media-feature
+  block: media-feature
+  width: '25'
+  align_y: start
+  margin_y: '100'
+  margin_left: 0%
+  margin_right: 0%
+  title_margin_y: 40%
+  title_margin_left: 5%
+  title_margin_right: 0%
+  text_size: 6xl
+  line_height: normal
+  text_alignment: left
+  text_tracking: normal
+  font_weight: semibold
+  meta_align: left
+  image: https://d1sf55qlb7p6hz.cloudfront.net/nytimes_metro-7.jpg
+  color: "#FFB697"
+  title: 'The New York Times '
+  meta: 'Auctioning Off A Dead Mall '
+  attached_collection: collections/the-new-york-times.md
+  text_color: "#FFFFFF"
+- template: block-media-row
+  block: media-row
+  row_alignment: between
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/ap-38-american-photography-annual.md
+  block_aspect_ratio: 8.5:11
+  text_size: 2xl
+  width: '20'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  title: 'AP 38: American Photography Annual'
+  color: "#FFAAAA"
 - template: block-media-row
   block: media-row
   row_alignment: ''
