@@ -756,8 +756,8 @@ page_sections:
   color: ''
 - template: block-modal-blog
   block: modal-blog
-  attached_blog: posts/test-blog-posts.md
-  block_aspect_ratio: []
+  attached_blog: posts/ap-37-american-photography-annual-copy.md
+  block_aspect_ratio: 1x2
   text_size: 2xl
   width: '33'
   align_y: start
@@ -765,7 +765,7 @@ page_sections:
   margin_left: 0%
   margin_right: 0%
   title: ''
-  color: ''
+  color: "#FFB6B6"
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/test-blog-posts.md
