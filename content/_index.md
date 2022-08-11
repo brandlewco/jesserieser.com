@@ -352,7 +352,7 @@ page_sections:
   block: media-feature
   width: '33'
   align_y: start
-  margin_y: '50'
+  margin_y: '100'
   margin_left: 0%
   margin_right: 0%
   title_margin_y: 35%
@@ -364,7 +364,7 @@ page_sections:
   text_tracking: normal
   font_weight: ''
   meta_align: left
-  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-valley-6.jpg
+  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-valley-1.jpg
   color: ''
   title: One Night In The Valley
   meta: "2022"
