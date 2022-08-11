@@ -65,13 +65,25 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: ''
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/ap-38-american-photography-annual.md
+  block_aspect_ratio: 8.5:11
+  text_size: 2xl
+  width: '25'
+  align_y: start
+  margin_y: '100'
+  margin_left: 0%
+  margin_right: 0%
+  title: 'AP 38: American Photography Annual'
+  color: "#FFAAAA"
 - template: block-media-feature
   block: media-feature
   width: '50'
   align_y: start
   margin_y: '100'
-  margin_left: 20%
-  margin_right: 0%
+  margin_left: 0%
+  margin_right: 10%
   title_margin_y: 40%
   title_margin_left: 5%
   title_margin_right: 0%
@@ -112,18 +124,6 @@ page_sections:
   font_weight: semibold
   line_height: tight
   title_margin_y: 10%
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/ap-38-american-photography-annual.md
-  block_aspect_ratio: 8.5:11
-  text_size: 2xl
-  width: '25'
-  align_y: start
-  margin_y: '50'
-  margin_left: 0%
-  margin_right: 0%
-  title: 'AP 38: American Photography Annual'
-  color: "#FFAAAA"
 - template: block-media-row
   block: media-row
   row_alignment: ''
