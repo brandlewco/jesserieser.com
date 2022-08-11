@@ -400,19 +400,19 @@ page_sections:
   row_alignment: between
 - template: block-modal-blog
   block: modal-blog
-  attached_blog: posts/ap-38-american-photography-annual-copy.md
-  block_aspect_ratio: 11x8.5
+  attached_blog: posts/ap-38-american-photography-annual-1.md
   text_size: 2xl
-  width: '33'
+  width: '25'
   align_y: start
-  margin_y: '50'
+  margin_y: '100'
   margin_left: 0%
   margin_right: 0%
-  title: BOOOOOOOM Feature
-  color: "#FFCFCF"
+  block_aspect_ratio: 3x2
+  title: AP 38 Chosen Popular Mechanic
+  color: ''
 - template: block-media-feature
   block: media-feature
-  width: '40'
+  width: '33'
   align_y: start
   margin_y: '100'
   margin_left: 0%
@@ -434,16 +434,16 @@ page_sections:
   text_color: "#FF6065"
 - template: block-modal-blog
   block: modal-blog
-  attached_blog: posts/ap-38-american-photography-annual-1.md
+  attached_blog: posts/ap-38-american-photography-annual-copy.md
+  block_aspect_ratio: 11x8.5
   text_size: 2xl
-  width: '33'
+  width: '25'
   align_y: start
   margin_y: '100'
   margin_left: 0%
   margin_right: 0%
-  block_aspect_ratio: 3x2
-  title: AP 38 Chosen Popular Mechanic
-  color: ''
+  title: BOOOOOOOM Feature
+  color: "#FFCFCF"
 - template: block-media-row
   block: media-row
   row_alignment: ''
