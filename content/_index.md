@@ -272,22 +272,16 @@ page_sections:
   row_alignment: between
 - template: block-modal-blog
   block: modal-blog
-  attached_blog: posts/the-photo-banter.md
-  block_aspect_ratio: []
-  text_size: 6xl
-  width: '20'
+  attached_blog: posts/star-geezers-on-boooooom.md
+  width: '25'
   align_y: start
   margin_y: '100'
-  margin_left: 0%
-  margin_right: 5%
-  title: The Photo Banter
-  color: "#0CA5E5"
-- template: block-media-row
-  block: media-row
-  row_alignment: between
-- template: block-media-row
-  block: media-row
-  row_alignment: between
+  margin_left: 5%
+  margin_right: 0%
+  title: Star Geezers on BOOOOOOM!
+  color: "#FFE7C3"
+  block_aspect_ratio: ''
+  text_size: ''
 - template: block-media-feature
   block: media-feature
   width: '55'
@@ -301,7 +295,7 @@ page_sections:
   margin_x: ''
   align_y: ''
   margin_left: 0%
-  margin_right: 15%
+  margin_right: 5%
   title_margin_left: 5%
   title_margin_right: ''
   meta_align: left
@@ -312,6 +306,24 @@ page_sections:
   font_weight: semibold
   line_height: none
   title_margin_y: 15%
+- template: block-media-row
+  block: media-row
+  row_alignment: between
+- template: block-media-row
+  block: media-row
+  row_alignment: between
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/the-photo-banter.md
+  block_aspect_ratio: []
+  text_size: 6xl
+  width: '20'
+  align_y: start
+  margin_y: '100'
+  margin_left: 0%
+  margin_right: 5%
+  title: The Photo Banter
+  color: "#0CA5E5"
 - template: block-media-row
   block: media-row
   row_alignment: between
@@ -652,18 +664,6 @@ page_sections:
   color: "#D8EBEE"
   block_aspect_ratio: 11x8.5
   text_size: 4xl
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/star-geezers-on-boooooom.md
-  width: '25'
-  align_y: start
-  margin_y: '50'
-  margin_left: 30%
-  margin_right: 0%
-  title: Star Geezers on BOOOOOOM!
-  color: "#FFE7C3"
-  block_aspect_ratio: ''
-  text_size: ''
 - template: block-media-row
   block: media-row
   row_alignment: between
