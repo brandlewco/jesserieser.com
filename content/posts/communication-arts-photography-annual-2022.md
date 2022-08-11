@@ -111,7 +111,7 @@ block = "media-element-static"
 caption = ""
 image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-ca_esc-18.jpg"
 template = "block-media-element-static"
-width = "33"
+width = "66"
 [[blog_builder]]
 block = "media-element-static"
 caption = ""
