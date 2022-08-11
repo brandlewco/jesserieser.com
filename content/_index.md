@@ -62,18 +62,6 @@ page_sections:
   title: ''
   text_color: ''
   font_weight: ''
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/ap-38-american-photography-annual.md
-  block_aspect_ratio: 8.5:11
-  text_size: 2xl
-  width: '33'
-  align_y: start
-  margin_y: '50'
-  margin_left: 0%
-  margin_right: 0%
-  title: 'AP 38: American Photography Annual'
-  color: "#FFAAAA"
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -99,18 +87,6 @@ page_sections:
   meta: 'Auctioning Off A Dead Mall '
   attached_collection: collections/the-new-york-times.md
   text_color: "#FFFFFF"
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/christmas-in-america-happy-birthday-jesus-1.md
-  block_aspect_ratio: ''
-  text_size: 2xl
-  width: '25'
-  align_y: start
-  margin_y: '700'
-  margin_left: 15%
-  margin_right: 5%
-  title: xmas
-  color: "#FF4B4B"
 - template: block-media-row
   block: media-row
   row_alignment: between
@@ -136,9 +112,33 @@ page_sections:
   font_weight: semibold
   line_height: tight
   title_margin_y: 10%
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/ap-38-american-photography-annual.md
+  block_aspect_ratio: 8.5:11
+  text_size: 2xl
+  width: '33'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  title: 'AP 38: American Photography Annual'
+  color: "#FFAAAA"
 - template: block-media-row
   block: media-row
   row_alignment: ''
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/christmas-in-america-happy-birthday-jesus-1.md
+  block_aspect_ratio: ''
+  text_size: 2xl
+  width: '25'
+  align_y: start
+  margin_y: '700'
+  margin_left: 15%
+  margin_right: 5%
+  title: xmas
+  color: "#FF4B4B"
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/klompching-gallery-fresh.md
