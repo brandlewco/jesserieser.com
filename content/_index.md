@@ -439,7 +439,7 @@ page_sections:
   text_size: 2xl
   width: '20'
   align_y: start
-  margin_y: '300'
+  margin_y: '600'
   margin_left: 0%
   margin_right: 0%
   title: BOOOOOOOM Feature
