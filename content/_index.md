@@ -32,7 +32,7 @@ page_sections:
   block: modal-blog
   attached_blog: posts/communication-arts-photography-annual-2022.md
   text_size: 2xl
-  width: '30'
+  width: '25'
   align_y: start
   margin_y: '300'
   margin_left: 0%
