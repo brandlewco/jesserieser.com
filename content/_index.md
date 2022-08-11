@@ -311,7 +311,7 @@ page_sections:
   row_alignment: between
 - template: block-media-feature
   block: media-feature
-  width: '40'
+  width: '45'
   align_x: end
   margin_y: '300'
   image: https://d1sf55qlb7p6hz.cloudfront.net/stargeezers-1.jpg
@@ -321,7 +321,7 @@ page_sections:
   meta: Condor Airlines (Germany)
   margin_x: ''
   align_y: ''
-  margin_left: 25%
+  margin_left: 20%
   margin_right: ''
   title_margin_left: 70%
   title_margin_right: 0%
@@ -348,12 +348,6 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: between
-- template: block-media-row
-  block: media-row
-  row_alignment: between
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
 - template: block-media-feature
   block: media-feature
   width: '33'
@@ -389,7 +383,7 @@ page_sections:
   title_margin_left: 5%
   title_margin_right: 0%
   meta_align: left
-  image: https://d1sf55qlb7p6hz.cloudfront.net/_JR_8055.jpg
+  image: https://d1sf55qlb7p6hz.cloudfront.net/robkrar-5.jpg
   title: |-
     Outside
 
@@ -404,6 +398,12 @@ page_sections:
   font_weight: semibold
   line_height: tight
   title_margin_y: 15%
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: between
 - template: block-media-row
   block: media-row
   row_alignment: ''
