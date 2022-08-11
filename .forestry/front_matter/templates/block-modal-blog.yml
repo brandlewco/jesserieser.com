@@ -24,7 +24,7 @@ fields:
   label: Attached Blog
 - name: block_aspect_ratio
   type: select
-  default: []
+  default: ''
   config:
     required: false
     options:
@@ -45,7 +45,7 @@ fields:
       file: 
       path: 
   label: Block Aspect Ratio
-  hidden: false
+  hidden: true
 - name: title
   type: text
   config:
@@ -87,6 +87,7 @@ fields:
       path: ''
     options:
     - '10'
+    - '15'
     - '20'
     - '25'
     - '30'
