@@ -426,7 +426,7 @@ page_sections:
   text_tracking: normal
   font_weight: semibold
   meta_align: left
-  image: https://d1sf55qlb7p6hz.cloudfront.net/minors-12.jpg
+  image: https://d1sf55qlb7p6hz.cloudfront.net/minors-1.jpg
   color: "#E4ECF7"
   title: 'The New York Times '
   meta: A Minor Leaguer’s Hard Road to the Bigs
@@ -439,9 +439,9 @@ page_sections:
   text_size: 2xl
   width: '20'
   align_y: start
-  margin_y: '600'
+  margin_y: '700'
   margin_left: 0%
-  margin_right: 0%
+  margin_right: 10%
   title: BOOOOOOOM Feature
   color: "#FFCFCF"
 - template: block-media-row
