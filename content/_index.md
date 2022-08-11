@@ -744,15 +744,15 @@ page_sections:
   color: "#FF7575"
 - template: block-modal-blog
   block: modal-blog
-  attached_blog: posts/test-blog-posts.md
-  block_aspect_ratio: []
+  attached_blog: posts/agents-club-22-awards-poetic-documentary.md
+  block_aspect_ratio: 5x4
   text_size: 2xl
   width: '33'
   align_y: start
   margin_y: '50'
   margin_left: 0%
   margin_right: 0%
-  title: ''
+  title: Agents Club 22 Awards
   color: ''
 - template: block-modal-blog
   block: modal-blog
