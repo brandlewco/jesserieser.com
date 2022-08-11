@@ -154,7 +154,7 @@ page_sections:
   width: '55'
   align_y: start
   margin_y: '300'
-  margin_left: 5%
+  margin_left: 10%
   margin_right: 0%
   title_margin_y: 10%
   title_margin_left: 5%
