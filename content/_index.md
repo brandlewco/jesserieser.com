@@ -708,16 +708,16 @@ page_sections:
   color: "#FFAAAA"
 - template: block-modal-blog
   block: modal-blog
-  attached_blog: posts/test-blog-posts.md
-  block_aspect_ratio: []
+  attached_blog: posts/ap-38-american-photography-annual-copy.md
+  block_aspect_ratio: 11x8.5
   text_size: 2xl
   width: '33'
   align_y: start
   margin_y: '50'
   margin_left: 0%
   margin_right: 0%
-  title: ''
-  color: ''
+  title: BOOOOOOOM Feature
+  color: "#FFCFCF"
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/test-blog-posts.md
