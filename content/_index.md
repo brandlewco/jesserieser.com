@@ -402,9 +402,9 @@ page_sections:
   block: modal-blog
   attached_blog: posts/ap-38-american-photography-annual-1.md
   text_size: 2xl
-  width: '25'
+  width: '20'
   align_y: start
-  margin_y: '100'
+  margin_y: '50'
   margin_left: 0%
   margin_right: 0%
   block_aspect_ratio: 3x2
@@ -414,7 +414,7 @@ page_sections:
   block: media-feature
   width: '33'
   align_y: start
-  margin_y: '300'
+  margin_y: '400'
   margin_left: 0%
   margin_right: 5%
   title_margin_y: 15%
