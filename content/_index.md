@@ -376,7 +376,7 @@ page_sections:
   align_y: start
   margin_y: '400'
   margin_left: 0%
-  margin_right: 5%
+  margin_right: 10%
   title_margin_left: 5%
   title_margin_right: 0%
   meta_align: left
