@@ -309,24 +309,6 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: between
-- template: block-media-row
-  block: media-row
-  row_alignment: between
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/the-photo-banter.md
-  block_aspect_ratio: []
-  text_size: 6xl
-  width: '20'
-  align_y: start
-  margin_y: '100'
-  margin_left: 0%
-  margin_right: 5%
-  title: The Photo Banter
-  color: "#0CA5E5"
-- template: block-media-row
-  block: media-row
-  row_alignment: between
 - template: block-media-feature
   block: media-feature
   width: '45'
@@ -351,6 +333,24 @@ page_sections:
   font_weight: semibold
   line_height: none
   title_margin_y: 15%
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/the-photo-banter.md
+  block_aspect_ratio: ''
+  text_size: 6xl
+  width: '20'
+  align_y: start
+  margin_y: '100'
+  margin_left: 0%
+  margin_right: 5%
+  title: The Photo Banter
+  color: "#0CA5E5"
+- template: block-media-row
+  block: media-row
+  row_alignment: between
+- template: block-media-row
+  block: media-row
+  row_alignment: between
 - template: block-media-row
   block: media-row
   row_alignment: ''
