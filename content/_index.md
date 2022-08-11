@@ -414,7 +414,7 @@ page_sections:
   block: media-feature
   width: '33'
   align_y: start
-  margin_y: '400'
+  margin_y: '100'
   margin_left: 0%
   margin_right: 5%
   title_margin_y: 15%
@@ -439,7 +439,7 @@ page_sections:
   text_size: 2xl
   width: '20'
   align_y: start
-  margin_y: '100'
+  margin_y: '300'
   margin_left: 0%
   margin_right: 0%
   title: BOOOOOOOM Feature
