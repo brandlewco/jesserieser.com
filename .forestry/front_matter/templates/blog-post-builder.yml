@@ -76,6 +76,8 @@ fields:
     - ratio-11x8-5
     - ratio-9x16
     - ratio-16x9
+    - ratio-5x4
+    - ratio-4x5
     - ratio-3x4
     - ratio-4x3
     - ratio-3x2

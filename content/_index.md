@@ -131,7 +131,7 @@ page_sections:
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/christmas-in-america-happy-birthday-jesus-1.md
-  block_aspect_ratio: []
+  block_aspect_ratio: ''
   text_size: 2xl
   width: '25'
   align_y: start
@@ -193,7 +193,7 @@ page_sections:
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/ap-37-american-photography-annual.md
-  block_aspect_ratio: []
+  block_aspect_ratio: ''
   text_size: 2xl
   width: '30'
   align_y: start
@@ -292,7 +292,7 @@ page_sections:
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/young-guns-19.md
-  block_aspect_ratio: []
+  block_aspect_ratio: ''
   text_size: 2xl
   width: '33'
   align_y: start
@@ -351,7 +351,7 @@ page_sections:
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/the-photo-banter.md
-  block_aspect_ratio: []
+  block_aspect_ratio: ''
   text_size: 6xl
   width: '20'
   align_y: start
@@ -366,7 +366,7 @@ page_sections:
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/klompching-gallery-fresh.md
-  block_aspect_ratio: []
+  block_aspect_ratio: ''
   text_size: base
   width: '20'
   align_y: start
