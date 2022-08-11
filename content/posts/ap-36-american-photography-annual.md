@@ -1,7 +1,7 @@
 +++
 attached_collection = "collections/wired.md"
 attached_link = ""
-block_aspect_ratio = "ratio-4x5"
+block_aspect_ratio = "ratio-5x4"
 blog_block_cover = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-ap_book2020-1.jpg"
 blog_header = "https://d1sf55qlb7p6hz.cloudfront.net/backpage-3.jpg"
 caption = "Wired: The Internet Giant That Went Too Far"
