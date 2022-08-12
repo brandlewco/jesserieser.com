@@ -727,7 +727,7 @@ page_sections:
   meta: 'America is Reopening. This is What it Looks Like '
   attached_collection: collections/the-new-york-times-1.md
   color: "#F69292"
-  text_color: "#FF6E6E"
+  text_color: "#81FF6E"
   image: https://d1sf55qlb7p6hz.cloudfront.net/nyt_reopen-8.jpg
   font_weight: semibold
 home_theme_color: "#EDDDDE"
