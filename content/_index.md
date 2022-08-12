@@ -537,7 +537,7 @@ page_sections:
   margin_y: '400'
   margin_left: 0%
   margin_right: 5%
-  title_margin_y: 10%
+  title_margin_y: 20%
   title_margin_left: 10%
   title_margin_right: 0%
   text_size: 6xl
@@ -551,7 +551,7 @@ page_sections:
   title: V Man
   meta: Armani 50th Anniversary Featuring Deandre Hopkins
   attached_collection: collections/armani-anniversary.md
-  text_color: "#E086DF"
+  text_color: "#F270F1"
 - template: block-media-row
   block: media-row
   row_alignment: ''
