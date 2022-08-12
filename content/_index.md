@@ -572,11 +572,11 @@ page_sections:
   block_aspect_ratio: ''
 - template: block-media-feature
   block: media-feature
-  width: '45'
+  width: '33'
   align_y: ''
   margin_y: '100'
   margin_left: 0%
-  margin_right: 10%
+  margin_right: 15%
   title_margin_left: 5%
   title_margin_right: ''
   meta_align: left
