@@ -634,9 +634,9 @@ page_sections:
   attached_blog: posts/ap-36-american-photography-annual.md
   width: '15'
   align_y: start
-  margin_y: '400'
+  margin_y: '700'
   margin_left: 0%
-  margin_right: 15%
+  margin_right: 20%
   title: AP 36
   color: "#D8EBEE"
   block_aspect_ratio: 11x8.5
