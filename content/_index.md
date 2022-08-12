@@ -536,7 +536,7 @@ page_sections:
   attached_blog: posts/2022-spd-awards.md
   block_aspect_ratio: 4x5
   text_size: 2xl
-  width: '33'
+  width: '25'
   align_y: start
   margin_y: '50'
   margin_left: 0%
