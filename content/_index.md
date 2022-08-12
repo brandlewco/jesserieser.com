@@ -17,7 +17,7 @@ page_sections:
   line_height: normal
   text_alignment: left
   text_tracking: normal
-  meta_align: right
+  meta_align: left
   image: https://d1sf55qlb7p6hz.cloudfront.net/escalaras-2.jpg
   attached_collection: collections/antoine-s-escalaras.md
   color: "#E5F5B5"
