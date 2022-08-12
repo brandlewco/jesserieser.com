@@ -528,7 +528,7 @@ page_sections:
   color: "#D4DEE7"
   title: Smart Water
   meta: Ben Simmons for Anomaly
-  text_color: "#D9B2E8"
+  text_color: "#FA6461"
   font_weight: semibold
 - template: block-media-feature
   block: media-feature
