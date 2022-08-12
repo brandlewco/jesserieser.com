@@ -259,7 +259,7 @@ page_sections:
   line_height: normal
   text_alignment: left
   text_tracking: normal
-  meta_align: left
+  meta_align: right
   image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-gunsite-27.jpg
   attached_collection: collections/wired-gunsite.md
   color: "#D9F4C3"
@@ -298,7 +298,7 @@ page_sections:
   margin_right: 15%
   title_margin_left: 5%
   title_margin_right: ''
-  meta_align: left
+  meta_align: right
   text_color: "#F7EE81"
   text_size: 6xl
   text_alignment: left
@@ -379,7 +379,7 @@ page_sections:
   margin_right: 10%
   title_margin_left: 5%
   title_margin_right: 0%
-  meta_align: left
+  meta_align: right
   image: https://d1sf55qlb7p6hz.cloudfront.net/robkrar-5.jpg
   title: Outside Magazine
   color: "#F6E9CC"
