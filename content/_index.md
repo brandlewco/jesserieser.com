@@ -449,10 +449,10 @@ page_sections:
   row_alignment: ''
 - template: block-media-feature
   block: media-feature
-  width: '50'
+  width: '45'
   align_y: start
   margin_y: '200'
-  margin_left: 0%
+  margin_left: 5%
   margin_right: 0%
   title_margin_y: 35%
   title_margin_left: 0%
