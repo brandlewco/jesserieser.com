@@ -535,11 +535,11 @@ page_sections:
   font_weight: semibold
 - template: block-media-feature
   block: media-feature
-  width: '40'
+  width: '33'
   align_y: start
   margin_y: '500'
   margin_left: 0%
-  margin_right: 0%
+  margin_right: 5%
   title_margin_y: 10%
   title_margin_left: 10%
   title_margin_right: 0%
