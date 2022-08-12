@@ -531,18 +531,6 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: ''
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/2022-spd-awards.md
-  block_aspect_ratio: 4x5
-  text_size: 2xl
-  width: '25'
-  align_y: start
-  margin_y: '50'
-  margin_left: 0%
-  margin_right: 0%
-  title: 2022 SPD Awards
-  color: "#FF7575"
 - template: block-media-feature
   block: media-feature
   width: '45'
@@ -736,33 +724,6 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: between
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
-- template: block-media-row
-  block: media-row
-  row_alignment: between
-- template: block-media-row
-  block: media-row
-  row_alignment: between
-- template: block-media-row
-  block: media-row
-  row_alignment: between
-- template: block-media-row
-  block: media-row
-  row_alignment: between
-- template: block-media-row
-  block: media-row
-  row_alignment: between
-- template: block-media-row
-  block: media-row
-  row_alignment: between
-- template: block-media-row
-  block: media-row
-  row_alignment: between
-- template: block-media-row
-  block: media-row
-  row_alignment: between
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/ap-38-american-photography-annual-1.md
@@ -796,6 +757,18 @@ page_sections:
   color: "#C5C458"
   block_aspect_ratio: 11x8.5
   text_size: ''
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/2022-spd-awards.md
+  text_size: 2xl
+  width: '25'
+  align_y: start
+  margin_y: '50'
+  margin_left: 15%
+  margin_right: 0%
+  title: SPD 22
+  color: "#D2B9ED"
+  block_aspect_ratio: ''
 home_theme_color: "#EDDDDE"
 collection_description: A student of subtleties.
 collection_content: ''
