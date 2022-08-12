@@ -1,5 +1,5 @@
 +++
-attached_collection = ""
+attached_collection = "collections/barron-s-las-vegas-reopenning.md"
 attached_link = ""
 block_aspect_ratio = ""
 blog_block_cover = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-spd_LV-1.jpg"
