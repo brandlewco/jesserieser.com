@@ -516,7 +516,7 @@ page_sections:
   margin_left: 10%
   margin_right: 0%
   title_margin_y: 20%
-  title_margin_left: "-10%"
+  title_margin_left: "-15%"
   title_margin_right: 0%
   text_size: 6xl
   line_height: normal
@@ -528,7 +528,7 @@ page_sections:
   color: "#D4DEE7"
   title: Smart Water
   meta: Ben Simmons for Anomaly
-  text_color: "#FA6461"
+  text_color: "#FB504B"
   font_weight: semibold
 - template: block-media-feature
   block: media-feature
