@@ -56,7 +56,7 @@ page_sections:
   text_tracking: normal
   meta_align: right
   image: https://d1sf55qlb7p6hz.cloudfront.net/espn_booker-18.jpg
-  color: "#FFC1C1"
+  color: "#D4DEE6"
   attached_collection: collections/espn-devin-booker-cover-story.md
   meta: 'Devin Booker: Becoming Legendary Cover Story'
   title: ''
