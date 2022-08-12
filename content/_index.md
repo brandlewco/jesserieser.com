@@ -611,7 +611,7 @@ page_sections:
   margin_y: '100'
   margin_left: 15%
   margin_right: 0%
-  title_margin_left: 5%
+  title_margin_left: "-20%"
   title_margin_right: 0%
   meta_align: right
   title: Amtrak the National
@@ -625,7 +625,7 @@ page_sections:
   text_tracking: normal
   font_weight: semibold
   line_height: none
-  title_margin_y: 65%
+  title_margin_y: 75%
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/ap-36-american-photography-annual.md
