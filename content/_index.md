@@ -563,7 +563,7 @@ page_sections:
   width: '40'
   align_y: ''
   margin_y: '300'
-  margin_left: 15%
+  margin_left: 25%
   margin_right: 0%
   title_margin_left: 5%
   title_margin_right: ''
