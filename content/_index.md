@@ -714,7 +714,7 @@ page_sections:
   text_size: 2xl
   width: '15'
   align_y: start
-  margin_y: '100'
+  margin_y: '50'
   margin_left: 40%
   margin_right: 0%
   color: "#AAFEBF"
