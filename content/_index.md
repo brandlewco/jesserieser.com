@@ -451,21 +451,21 @@ page_sections:
   margin_y: '200'
   margin_left: 15%
   margin_right: 0%
-  title_margin_y: 35%
-  title_margin_left: 0%
+  title_margin_y: 20%
+  title_margin_left: 5%
   title_margin_right: 0%
-  text_size: 2xl
+  text_size: 6xl
   line_height: normal
   text_alignment: left
   text_tracking: normal
   meta_align: left
   image: https://d1sf55qlb7p6hz.cloudfront.net/rieser_natgeo-marty-1.jpg
   title: 'National Geographic '
-  meta: 'MARTY '
+  meta: 'Marty '
   attached_collection: collections/national-geographic.md
   color: "#A3FFBD"
-  text_color: ''
-  font_weight: ''
+  text_color: "#8DF2AA"
+  font_weight: semibold
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/agents-club-22-awards-poetic-documentary.md
