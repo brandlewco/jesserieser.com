@@ -166,7 +166,7 @@ page_sections:
   font_weight: semibold
   meta_align: left
   image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-vox-guns-16.jpg
-  color: "#DAF4EA"
+  color: "#FAF2EA"
   title: "Gunsmoke, Mythology, and \n\nthe American Gundemic"
   meta: 2021 + 2022
   attached_collection: collections/gundemic.md
