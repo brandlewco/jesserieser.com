@@ -74,7 +74,7 @@ page_sections:
   margin_right: 0%
   title_margin_left: 0%
   title_margin_right: 0%
-  meta_align: right
+  meta_align: left
   image: https://d1sf55qlb7p6hz.cloudfront.net/retail-cover-1.jpg
   color: "#F2ECDF"
   attached_collection: collections/retail.md
@@ -131,9 +131,9 @@ page_sections:
   margin_y: '100'
   margin_left: 0%
   margin_right: 15%
-  title_margin_left: 5%
+  title_margin_left: 55%
   title_margin_right: 0%
-  title_margin_y: 15%
+  title_margin_y: 40%
   meta_align: left
   attached_collection: collections/phoenix.md
   meta: Torpedo London
