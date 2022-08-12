@@ -466,7 +466,7 @@ page_sections:
   title: 'National Geographic '
   meta: 'MARTY '
   attached_collection: collections/national-geographic.md
-  color: ''
+  color: "#A3FFBD"
   text_color: ''
   font_weight: ''
 - template: block-modal-blog
