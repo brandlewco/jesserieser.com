@@ -563,10 +563,10 @@ page_sections:
   attached_blog: posts/sunset-spot.md
   block_aspect_ratio: ''
   text_size: 2xl
-  width: '15'
+  width: '20'
   align_y: start
   margin_y: '700'
-  margin_left: 0%
+  margin_left: 5%
   margin_right: 0%
   color: "#DACEEA"
   title: The Sunset Spot at Red Modern
@@ -575,7 +575,7 @@ page_sections:
   width: '40'
   align_y: ''
   margin_y: '300'
-  margin_left: 0%
+  margin_left: 5%
   margin_right: 0%
   title_margin_left: 5%
   title_margin_right: ''
