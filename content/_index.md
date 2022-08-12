@@ -170,7 +170,7 @@ page_sections:
   title: "Gunsmoke, Mythology, and \n\nthe American Gundemic"
   meta: 2021 + 2022
   attached_collection: collections/gundemic.md
-  text_color: "#C6F0E3"
+  text_color: "#FCCFCF"
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/klompching-gallery-fresh.md
