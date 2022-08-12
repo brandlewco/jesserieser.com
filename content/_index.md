@@ -478,7 +478,7 @@ page_sections:
   align_y: start
   margin_y: '50'
   margin_left: 0%
-  margin_right: 0%
+  margin_right: 10%
   title: Agents Club 22 Awards
   color: "#F9B0B0"
 - template: block-media-row
