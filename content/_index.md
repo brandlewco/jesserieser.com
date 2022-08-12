@@ -451,7 +451,7 @@ page_sections:
   margin_y: '200'
   margin_left: 15%
   margin_right: 0%
-  title_margin_y: 20%
+  title_margin_y: 10%
   title_margin_left: 5%
   title_margin_right: 0%
   text_size: 6xl
@@ -464,7 +464,7 @@ page_sections:
   meta: 'Marty '
   attached_collection: collections/national-geographic.md
   color: "#A3FFBD"
-  text_color: "#8DF2AA"
+  text_color: "#7BE69A"
   font_weight: semibold
 - template: block-modal-blog
   block: modal-blog
