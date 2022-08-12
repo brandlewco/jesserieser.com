@@ -205,21 +205,21 @@ page_sections:
   margin_y: '400'
   margin_left: 0%
   margin_right: 10%
-  title_margin_y: 10%
-  title_margin_left: 0%
+  title_margin_y: 20%
+  title_margin_left: 35%
   title_margin_right: 0%
-  text_size: 5xl
+  text_size: 6xl
   line_height: normal
   text_alignment: left
   text_tracking: normal
   font_weight: semibold
-  meta_align: left
+  meta_align: right
   image: https://d1sf55qlb7p6hz.cloudfront.net/rieser_folklore-17.jpg
   color: "#D0E5EF"
   title: 'A Vanishing Folklore '
   meta: 2012 - 2022
   attached_collection: collections/vanishing-folklore.md
-  text_color: "#FFFFFF"
+  text_color: "#B2FDB2"
 - template: block-media-row
   block: media-row
   row_alignment: ''
