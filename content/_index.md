@@ -491,7 +491,7 @@ page_sections:
   text_size: 2xl
   width: '33'
   align_y: start
-  margin_y: '100'
+  margin_y: '200'
   margin_left: 5%
   margin_right: 0%
   title: AP 37
@@ -503,7 +503,7 @@ page_sections:
   text_size: 2xl
   width: '33'
   align_y: start
-  margin_y: '300'
+  margin_y: '100'
   margin_left: 0%
   margin_right: 15%
   title: YG 19
