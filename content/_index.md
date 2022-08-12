@@ -690,7 +690,7 @@ page_sections:
   width: '25'
   align_y: start
   margin_y: '100'
-  margin_left: 10%
+  margin_left: 15%
   margin_right: 0%
   title: 'The Fence '
   color: "#EED2D2"
@@ -713,7 +713,7 @@ page_sections:
   row_alignment: between
 - template: block-media-feature
   block: media-feature
-  width: '60'
+  width: '66'
   align_y: start
   margin_y: '100'
   margin_left: 10%
