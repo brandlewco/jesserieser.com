@@ -708,6 +708,21 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: between
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/ap-37-american-photography-annual-copy.md
+  text_size: 2xl
+  width: '25'
+  align_y: start
+  margin_y: '100'
+  margin_left: 0%
+  margin_right: 0%
+  color: "#AAFEBF"
+  block_aspect_ratio: ''
+  title: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: between
 - template: block-media-feature
   block: media-feature
   width: '55'
@@ -730,18 +745,6 @@ page_sections:
   text_color: "#81FF6E"
   image: https://d1sf55qlb7p6hz.cloudfront.net/nyt_reopen-8.jpg
   font_weight: semibold
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/ap-37-american-photography-annual-copy.md
-  text_size: 2xl
-  width: '33'
-  align_y: start
-  margin_y: '100'
-  margin_left: 0%
-  margin_right: 0%
-  color: "#AAFEBF"
-  block_aspect_ratio: ''
-  title: ''
 home_theme_color: "#EDDDDE"
 collection_description: A student of subtleties.
 collection_content: ''
