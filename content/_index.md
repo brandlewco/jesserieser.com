@@ -678,7 +678,7 @@ page_sections:
   attached_blog: posts/the-changing-landscape-of-america-retail.md
   align_y: ''
   margin_left: 0%
-  margin_right: 5%
+  margin_right: 0%
   block_aspect_ratio: ''
   text_size: ''
 - template: block-media-row
