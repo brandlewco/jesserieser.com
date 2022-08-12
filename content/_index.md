@@ -484,15 +484,6 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: between
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
-- template: block-media-row
-  block: media-row
-  row_alignment: between
-- template: block-media-row
-  block: media-row
-  row_alignment: between
 - template: block-media-feature
   block: media-feature
   width: '30'
@@ -509,12 +500,21 @@ page_sections:
   text_tracking: normal
   meta_align: left
   attached_collection: collections/smartwater.md
-  image: https://d1sf55qlb7p6hz.cloudfront.net/smartwater-3.jpg
+  image: https://d1sf55qlb7p6hz.cloudfront.net/smartwater-1.jpg
   color: "#D4DEE7"
   title: Smart Water
   meta: Ben Simmons for Anomaly
   text_color: "#D9B2E8"
   font_weight: semibold
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: between
+- template: block-media-row
+  block: media-row
+  row_alignment: between
 - template: block-media-row
   block: media-row
   row_alignment: ''
