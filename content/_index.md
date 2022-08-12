@@ -131,9 +131,9 @@ page_sections:
   margin_y: '100'
   margin_left: 0%
   margin_right: 15%
-  title_margin_left: 55%
+  title_margin_left: 60%
   title_margin_right: 0%
-  title_margin_y: 40%
+  title_margin_y: 30%
   meta_align: left
   attached_collection: collections/phoenix.md
   meta: Torpedo London
