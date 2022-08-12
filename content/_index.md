@@ -577,7 +577,7 @@ page_sections:
   title_margin_left: 5%
   title_margin_right: ''
   meta_align: left
-  image: https://d1sf55qlb7p6hz.cloudfront.net/adicross-12.jpg
+  image: https://d1sf55qlb7p6hz.cloudfront.net/adicross-10.jpg
   color: "#CAFBD6"
   attached_collection: collections/adidas-golf.md
   title: adidas Golf
