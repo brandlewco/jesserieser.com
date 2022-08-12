@@ -461,7 +461,7 @@ page_sections:
   meta_align: left
   image: https://d1sf55qlb7p6hz.cloudfront.net/rieser_natgeo-marty-1.jpg
   title: 'National Geographic '
-  meta: 'Marty '
+  meta: " 50 Grades of Shade"
   attached_collection: collections/national-geographic.md
   color: "#F5E9A3"
   text_color: "#E0CAFB"
