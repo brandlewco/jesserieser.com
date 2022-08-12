@@ -768,9 +768,9 @@ selected_works_theme:
   theme_color: "#BCD3E8"
   image_mobile: ''
 - template: selected-works-theme
-  image: ''
+  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-selected works-3.jpg
   image_mobile: ''
-  theme_color: ''
+  theme_color: "#C5E2D6"
 - template: selected-works-theme
   image: ''
   image_mobile: ''
