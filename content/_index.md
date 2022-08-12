@@ -321,7 +321,7 @@ page_sections:
   meta: Condor Airlines (Germany)
   margin_x: ''
   align_y: ''
-  margin_left: 20%
+  margin_left: 25%
   margin_right: ''
   title_margin_left: 70%
   title_margin_right: 0%
@@ -338,7 +338,7 @@ page_sections:
   attached_blog: posts/the-photo-banter.md
   block_aspect_ratio: ''
   text_size: 6xl
-  width: '20'
+  width: '15'
   align_y: start
   margin_y: '100'
   margin_left: 0%
