@@ -8,7 +8,7 @@ caption = "Wired: I Am Not a Soldier, but I Have Been Trained to Kill"
 content = "[**_I Am Not a Soldier, but I Have Been Trained to Kill_ for _Wired Magazine_**](https://jesserieser.com/collections/gunsite) has been named one of the year’s best in the upcoming [**_American Photography 38 Photo Annual_**](https://www.ai-ap.com/slideshow/AP/38/jesse-rieser/) book.\n\nCommissioned after the insurrection, these works explore the growing tactical industry that teaches American civilians to fight like Special Ops forces. Photographed at Gunsite Academy, the longest running civilian tactical firearm training facility.\n\nCongratulations to all the winners and thank you to this year’s judges:  \nSamir Abady, Photo Editor, The Wall Street Journal  \nDudley M. Brooks, Photo Editor, The Washington Post Magazine  \nShahrzad Elghanayan, Senior Photo Editor, NBC News  \nGail Fletcher, Photo Editor, The Guardian  \nJeanne Graves, Director of Photography, _Fast Company  \nWhitney Matewe, Photo Editor, TIME Magazine  \nMichele Romero, Creative Photography Director, PhotoRehab  \nElijah S Walker, Visual Journalist and Photography Editor, The New York Times  \nAmy Wolff, Photo Director, Hearst Enthusiast Group  \nNili Zadok, Executive Producer"
 date = ""
 news_category = ["awards"]
-theme_color = "#FDC6C6"
+theme_color = "#F8D9D9"
 title = "AP 38: American Photography Annual "
 [seo]
 meta_description = ""
