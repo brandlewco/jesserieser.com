@@ -119,8 +119,8 @@ page_sections:
   text_size: 2xl
   width: '15'
   align_y: start
-  margin_y: '400'
-  margin_left: 10%
+  margin_y: '500'
+  margin_left: 15%
   margin_right: 0%
   title: 'AP 38: American Photography Annual'
   color: "#FFAAAA"
