@@ -23,8 +23,8 @@ page_sections:
   color: "#F6D5B9"
   title: Antoine's Escalaras
   meta: 2022 Communications Arts Photo Annual
-  text_color: ''
-  font_weight: normal
+  text_color: "#B4F0F7"
+  font_weight: semibold
 - template: block-media-row
   block: media-row
   row_alignment: ''
