@@ -474,11 +474,11 @@ page_sections:
   attached_blog: posts/agents-club-22-awards-poetic-documentary.md
   block_aspect_ratio: 5x4
   text_size: 2xl
-  width: '15'
+  width: '10'
   align_y: start
   margin_y: '50'
   margin_left: 0%
-  margin_right: 15%
+  margin_right: 25%
   title: Agents Club 22 Awards
   color: "#F9B0B0"
 - template: block-media-row
