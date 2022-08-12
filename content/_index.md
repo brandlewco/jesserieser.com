@@ -731,7 +731,7 @@ page_sections:
   attached_collection: collections/the-new-york-times-1.md
   color: "#F69292"
   text_color: "#FFF26E"
-  image: https://d1sf55qlb7p6hz.cloudfront.net/nyt_open-cover-1.jpg
+  image: https://d1sf55qlb7p6hz.cloudfront.net/nyt_reopen-8.jpg
   font_weight: semibold
 home_theme_color: "#EDDDDE"
 collection_description: A student of subtleties.
