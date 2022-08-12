@@ -38,7 +38,7 @@ page_sections:
   margin_left: 5%
   margin_right: 0%
   block_aspect_ratio: 5x4
-  color: "#FFB9B9"
+  color: "#FCC8CC"
   title: '2022 Communication Arts Photo Annual '
 - template: block-media-feature
   block: media-feature
