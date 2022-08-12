@@ -94,8 +94,8 @@ page_sections:
   margin_y: '100'
   margin_left: 0%
   margin_right: 0%
-  title_margin_y: 20%
-  title_margin_left: "-30%"
+  title_margin_y: 10%
+  title_margin_left: "-45%"
   title_margin_right: 0%
   text_size: 6xl
   line_height: normal
@@ -108,7 +108,7 @@ page_sections:
   title: 'The New York Times '
   meta: 'Auctioning Off A Dead Mall '
   attached_collection: collections/the-new-york-times.md
-  text_color: "#C2C9FF"
+  text_color: "#E6C2FF"
 - template: block-media-row
   block: media-row
   row_alignment: between
