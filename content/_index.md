@@ -574,7 +574,7 @@ page_sections:
   margin_y: '300'
   margin_left: 5%
   margin_right: 0%
-  title_margin_left: 5%
+  title_margin_left: 30%
   title_margin_right: ''
   meta_align: left
   image: https://d1sf55qlb7p6hz.cloudfront.net/adicross-10.jpg
@@ -588,7 +588,7 @@ page_sections:
   text_tracking: normal
   font_weight: semibold
   line_height: none
-  title_margin_y: 20%
+  title_margin_y: 80%
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/2022-spd-awards.md
