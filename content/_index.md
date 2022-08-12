@@ -79,8 +79,8 @@ page_sections:
   color: "#F2ECDF"
   attached_collection: collections/retail.md
   meta: 2015 - 2022
-  title: "The Changing Landscape \n\nof American Retail"
-  text_color: "#B7F8AE"
+  title: The Changing Landscape of American Retail
+  text_color: "#BDAEF8"
   text_size: 6xl
   text_alignment: left
   text_tracking: widest
