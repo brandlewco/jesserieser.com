@@ -756,7 +756,7 @@ feature_description: "Here in _Selected Works_ you will find handpicked photogra
   style of light and color as I explore themes of the uniquely American experience.
   \n\nA bit about navigation: If you aren’t in a rush, head over to _All Works;_ if
   looking for something specific, give the category filter a spin."
-navigation_theme: black
+navigation_theme: white
 row_alignment: between
 selected_works_theme:
 - template: selected-works-theme
