@@ -313,7 +313,7 @@ page_sections:
   block: media-feature
   width: '45'
   align_x: end
-  margin_y: '300'
+  margin_y: '200'
   image: https://d1sf55qlb7p6hz.cloudfront.net/stargeezers-1.jpg
   attached_collection: collections/star-geezers.md
   title: The Star Geezers
