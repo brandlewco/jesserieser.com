@@ -506,25 +506,13 @@ page_sections:
   meta: Ben Simmons for Anomaly
   text_color: "#D9B2E8"
   font_weight: semibold
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
-- template: block-media-row
-  block: media-row
-  row_alignment: between
-- template: block-media-row
-  block: media-row
-  row_alignment: between
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
 - template: block-media-feature
   block: media-feature
-  width: '40'
+  width: '33'
   align_y: start
   margin_y: '100'
-  margin_left: 40%
-  margin_right: 0%
+  margin_left: 0%
+  margin_right: 5%
   title_margin_y: 10%
   title_margin_left: 10%
   title_margin_right: 0%
@@ -536,10 +524,22 @@ page_sections:
   meta_align: right
   image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-armani-hopkins-9.jpg
   color: "#A4A4A4"
-  title: 'V '
+  title: V Man
   meta: Armani 50th Anniversary Featuring Deandre Hopkins
   attached_collection: collections/armani-anniversary.md
   text_color: "#FFFFFF"
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: between
+- template: block-media-row
+  block: media-row
+  row_alignment: between
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
