@@ -565,7 +565,7 @@ page_sections:
   text_size: 2xl
   width: '15'
   align_y: start
-  margin_y: '300'
+  margin_y: '700'
   margin_left: 0%
   margin_right: 0%
   color: "#DACEEA"
@@ -575,7 +575,7 @@ page_sections:
   width: '40'
   align_y: ''
   margin_y: '300'
-  margin_left: 25%
+  margin_left: 0%
   margin_right: 0%
   title_margin_left: 5%
   title_margin_right: ''
