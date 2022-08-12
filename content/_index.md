@@ -671,7 +671,7 @@ page_sections:
   width: '25'
   align_x: start
   margin_x: '0'
-  margin_y: '100'
+  margin_y: '50'
   title: WaPo
   image: ''
   color: "#fde25e"
