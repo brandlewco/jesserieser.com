@@ -1,14 +1,14 @@
 +++
 collection_archive = false
 collection_awards = []
-collection_category = ["Reportage"]
+collection_category = ["Kids", "Color", "Still Life + Details", "Environments", "Reportage"]
 collection_content = "This work-in progress investigates gun culture not in a singular sense as one belonging to the enthusiast, but one that is synonymous with being an American citizen as we share the land with more guns than citizens. Stories on guns are plenty but none which look at the role firearms have played in the mythology of the American West. From film, music, and literature, the world loves our pop culture exports of the gun carrying character personified as the cowboy, pioneer, soldier, mobster and the gangster. A uniquely American export is now a uniquely American health crisis.\n\nI have a long personal relationship with firearms. Raised in the Ozarks hunting is a way of life yet my brothers and I were not allowed to play with toy guns. In high school I was on a mass shooting kill list. In 2012 my cousin took her land her young children’s lives (11, 10, and 22 months).\n\nHere you will find scenes from civilian tactical training facilities, neighborhoods wracked by gun violence, activists, politicians, wild-west shootouts, “patriots,” and gun safety exercises."
 collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-vox-guns-16.jpg"
 collection_cover_mobile = "https://d1sf55qlb7p6hz.cloudfront.net/2022-08_vertical-covers-18.jpg"
 collection_description = "Firearms are deeply ingrained with what it means to be American and our history of the American West—a history of celebrated individualism paradoxically based on our freedom as the conquering settler and oppressor.\n\nFeatured on Buzzfeed News. "
 collection_description_alignment = "center"
 collection_exhibition = []
-collection_filter = "Commissioned + Stock"
+collection_filter = "Personal"
 collection_hidden = false
 collection_meta = "2021 - 2022"
 collection_meta_2 = ""
