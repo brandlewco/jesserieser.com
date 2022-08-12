@@ -290,7 +290,7 @@ page_sections:
   image: https://d1sf55qlb7p6hz.cloudfront.net/xmas-1.jpg
   attached_collection: collections/xmas-in-america.md
   title: Christmas in America
-  color: "#F0DADA"
+  color: "#F4C8C8"
   meta: 2010 -  2019
   margin_x: ''
   align_y: ''
