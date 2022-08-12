@@ -219,7 +219,7 @@ page_sections:
   title: 'A Vanishing Folklore '
   meta: 2012 - 2022
   attached_collection: collections/vanishing-folklore.md
-  text_color: "#FF5E5E"
+  text_color: "#FF3939"
 - template: block-media-row
   block: media-row
   row_alignment: ''
