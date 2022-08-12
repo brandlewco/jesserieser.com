@@ -515,7 +515,7 @@ page_sections:
   margin_y: '100'
   margin_left: 10%
   margin_right: 0%
-  title_margin_y: 65%
+  title_margin_y: 50%
   title_margin_left: 5%
   title_margin_right: 0%
   text_size: 6xl
