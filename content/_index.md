@@ -104,7 +104,7 @@ page_sections:
   font_weight: semibold
   meta_align: right
   image: https://d1sf55qlb7p6hz.cloudfront.net/nytimes_metro-7.jpg
-  color: "#FFB697"
+  color: "#F8CFBF"
   title: 'The New York Times '
   meta: 'Auctioning Off A Dead Mall '
   attached_collection: collections/the-new-york-times.md
