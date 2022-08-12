@@ -562,7 +562,7 @@ page_sections:
   block: media-feature
   width: '40'
   align_y: ''
-  margin_y: '100'
+  margin_y: '300'
   margin_left: 15%
   margin_right: 0%
   title_margin_left: 5%
@@ -586,9 +586,9 @@ page_sections:
   text_size: 2xl
   width: '15'
   align_y: start
-  margin_y: '50'
+  margin_y: '100'
   margin_left: 0%
-  margin_right: 15%
+  margin_right: 10%
   title: SPD 22
   color: "#D2B9ED"
   block_aspect_ratio: ''
