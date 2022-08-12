@@ -525,7 +525,7 @@ page_sections:
   meta_align: left
   attached_collection: collections/smartwater.md
   image: https://d1sf55qlb7p6hz.cloudfront.net/smartwater-1.jpg
-  color: "#D4DEE7"
+  color: "#DDE2F1"
   title: Smart Water
   meta: Ben Simmons for Anomaly
   text_color: "#FB504B"
