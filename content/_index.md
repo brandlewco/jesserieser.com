@@ -447,15 +447,6 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: ''
-- template: block-media-row
-  block: media-row
-  row_alignment: between
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
-- template: block-media-row
-  block: media-row
-  row_alignment: between
 - template: block-media-feature
   block: media-feature
   width: '33'
@@ -478,6 +469,27 @@ page_sections:
   color: ''
   text_color: ''
   font_weight: ''
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/agents-club-22-awards-poetic-documentary.md
+  block_aspect_ratio: 5x4
+  text_size: 2xl
+  width: '33'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 5%
+  title: Agents Club 22 Awards
+  color: "#F9B0B0"
+- template: block-media-row
+  block: media-row
+  row_alignment: between
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: between
 - template: block-media-row
   block: media-row
   row_alignment: between
@@ -769,18 +781,6 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: between
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/agents-club-22-awards-poetic-documentary.md
-  block_aspect_ratio: 5x4
-  text_size: 2xl
-  width: '33'
-  align_y: start
-  margin_y: '50'
-  margin_left: 0%
-  margin_right: 0%
-  title: Agents Club 22 Awards
-  color: ''
 - template: block-media-row
   block: media-row
   row_alignment: between
