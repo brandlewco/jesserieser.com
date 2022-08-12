@@ -484,6 +484,21 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: between
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/young-guns-19.md
+  block_aspect_ratio: []
+  text_size: 2xl
+  width: '30'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  title: YG 19
+  color: "#FFE6E6"
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
 - template: block-media-feature
   block: media-feature
   width: '40'
@@ -571,9 +586,6 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: between
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -676,18 +688,6 @@ page_sections:
   margin_right: 10%
   color: "#DACEEA"
   title: The Sunset Spot at Red Modern
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/young-guns-19.md
-  block_aspect_ratio: []
-  text_size: 2xl
-  width: '33'
-  align_y: start
-  margin_y: '400'
-  margin_left: 0%
-  margin_right: 0%
-  title: YG 19
-  color: "#FFE6E6"
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/ap-36-american-photography-annual.md
