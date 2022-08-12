@@ -756,7 +756,7 @@ feature_description: "Here in _Selected Works_ you will find handpicked photogra
   style of light and color as I explore themes of the uniquely American experience.
   \n\nA bit about navigation: If you aren’t in a rush, head over to _All Works;_ if
   looking for something specific, give the category filter a spin."
-navigation_theme: white
+navigation_theme: black
 row_alignment: between
 selected_works_theme:
 - template: selected-works-theme
@@ -771,6 +771,22 @@ selected_works_theme:
   image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-selected works-3.jpg
   image_mobile: ''
   theme_color: "#C5E2D6"
+- template: selected-works-theme
+  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-selected works-4.jpg
+  image_mobile: ''
+  theme_color: "#DEE3F9"
+- template: selected-works-theme
+  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-selected works-5.jpg
+  theme_color: "#DDF9D6"
+  image_mobile: ''
+- template: selected-works-theme
+  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-selected works-6.jpg
+  theme_color: "#F3DDC8"
+  image_mobile: ''
+- template: selected-works-theme
+  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-selected works-7.jpg
+  theme_color: "#DEDFF7"
+  image_mobile: ''
 - template: selected-works-theme
   image: ''
   image_mobile: ''
