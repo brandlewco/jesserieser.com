@@ -716,9 +716,9 @@ page_sections:
   margin_left: 20%
   margin_right: 0%
   title_margin_y: 20%
-  title_margin_left: 0%
+  title_margin_left: 5%
   title_margin_right: 0%
-  text_size: 5xl
+  text_size: 6xl
   line_height: normal
   text_alignment: left
   text_tracking: normal
@@ -727,7 +727,7 @@ page_sections:
   meta: 'America is Reopening. This is What it Looks Like '
   attached_collection: collections/the-new-york-times-1.md
   color: "#F69292"
-  text_color: "#FFF26E"
+  text_color: "#FF6E6E"
   image: https://d1sf55qlb7p6hz.cloudfront.net/nyt_reopen-8.jpg
   font_weight: semibold
 home_theme_color: "#EDDDDE"
