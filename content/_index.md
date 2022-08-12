@@ -508,9 +508,9 @@ page_sections:
   font_weight: semibold
 - template: block-media-feature
   block: media-feature
-  width: '33'
+  width: '40'
   align_y: start
-  margin_y: '400'
+  margin_y: '500'
   margin_left: 0%
   margin_right: 10%
   title_margin_y: 10%
