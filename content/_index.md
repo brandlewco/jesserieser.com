@@ -365,7 +365,7 @@ page_sections:
   font_weight: semibold
   meta_align: left
   image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-valley-3.jpg
-  color: ''
+  color: "#D4F2ED"
   title: One Night In The Valley
   meta: "2022"
   attached_collection: collections/one-night-in-the-valley.md
