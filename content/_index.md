@@ -531,25 +531,25 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: ''
-- template: block-media-row
-  block: media-row
-  row_alignment: between
-- template: block-media-row
-  block: media-row
-  row_alignment: between
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/2022-spd-awards.md
+  block_aspect_ratio: 4x5
+  text_size: 2xl
+  width: '33'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  title: 2022 SPD Awards
+  color: "#FF7575"
 - template: block-media-feature
   block: media-feature
-  width: '40'
+  width: '45'
   align_y: ''
   margin_y: '100'
   margin_left: 0%
-  margin_right: ''
+  margin_right: 10%
   title_margin_left: 5%
   title_margin_right: ''
   meta_align: left
@@ -565,6 +565,18 @@ page_sections:
   font_weight: semibold
   line_height: none
   title_margin_y: 20%
+- template: block-media-row
+  block: media-row
+  row_alignment: between
+- template: block-media-row
+  block: media-row
+  row_alignment: between
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
 - template: block-media-row
   block: media-row
   row_alignment: between
@@ -664,9 +676,6 @@ page_sections:
   margin_right: 10%
   color: "#DACEEA"
   title: The Sunset Spot at Red Modern
-- template: block-media-row
-  block: media-row
-  row_alignment: between
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/young-guns-19.md
@@ -679,15 +688,6 @@ page_sections:
   margin_right: 0%
   title: YG 19
   color: "#FFE6E6"
-- template: block-media-row
-  block: media-row
-  row_alignment: between
-- template: block-media-row
-  block: media-row
-  row_alignment: between
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/ap-36-american-photography-annual.md
@@ -700,9 +700,6 @@ page_sections:
   color: "#D8EBEE"
   block_aspect_ratio: 11x8.5
   text_size: 4xl
-- template: block-media-row
-  block: media-row
-  row_alignment: between
 - template: block-modal-blog
   block: modal-blog
   width: '20'
@@ -721,9 +718,6 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: between
-- template: block-media-row
-  block: media-row
-  row_alignment: between
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/the-changing-landscape-of-american-retail-1.md
@@ -736,6 +730,24 @@ page_sections:
   color: "#EED2D2"
   block_aspect_ratio: ''
   text_size: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: between
+- template: block-media-row
+  block: media-row
+  row_alignment: between
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: between
+- template: block-media-row
+  block: media-row
+  row_alignment: between
+- template: block-media-row
+  block: media-row
+  row_alignment: between
 - template: block-media-row
   block: media-row
   row_alignment: between
@@ -766,18 +778,6 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: between
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/2022-spd-awards.md
-  block_aspect_ratio: 4x5
-  text_size: 2xl
-  width: '33'
-  align_y: start
-  margin_y: '50'
-  margin_left: 0%
-  margin_right: 0%
-  title: 2022 SPD Awards
-  color: "#FF7575"
 - template: block-media-row
   block: media-row
   row_alignment: between
