@@ -474,7 +474,7 @@ page_sections:
   attached_blog: posts/agents-club-22-awards-poetic-documentary.md
   block_aspect_ratio: 5x4
   text_size: 2xl
-  width: '33'
+  width: '20'
   align_y: start
   margin_y: '50'
   margin_left: 0%
