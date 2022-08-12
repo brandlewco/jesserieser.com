@@ -616,16 +616,16 @@ page_sections:
   meta_align: right
   title: Amtrak the National
   image: https://d1sf55qlb7p6hz.cloudfront.net/sunset-limited-6.jpg
-  color: "#FF3939"
+  color: "#EEEA91"
   meta: Palm Springs to Yuma on the Sunset Limited
   attached_collection: collections/amtrak-sunset-limited.md
-  text_color: "#7FF0FF"
+  text_color: "#FF3939"
   text_size: 6xl
   text_alignment: ''
   text_tracking: normal
   font_weight: semibold
   line_height: none
-  title_margin_y: 10%
+  title_margin_y: 65%
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/ap-36-american-photography-annual.md
