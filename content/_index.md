@@ -512,7 +512,7 @@ page_sections:
   align_y: start
   margin_y: '500'
   margin_left: 0%
-  margin_right: 10%
+  margin_right: 5%
   title_margin_y: 10%
   title_margin_left: 10%
   title_margin_right: 0%
