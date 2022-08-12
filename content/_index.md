@@ -558,25 +558,13 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: ''
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/2022-spd-awards.md
-  text_size: 2xl
-  width: '15'
-  align_y: start
-  margin_y: '50'
-  margin_left: 15%
-  margin_right: 0%
-  title: SPD 22
-  color: "#D2B9ED"
-  block_aspect_ratio: ''
 - template: block-media-feature
   block: media-feature
   width: '40'
   align_y: ''
   margin_y: '100'
-  margin_left: 0%
-  margin_right: 20%
+  margin_left: 15%
+  margin_right: 0%
   title_margin_left: 5%
   title_margin_right: ''
   meta_align: left
@@ -592,6 +580,18 @@ page_sections:
   font_weight: semibold
   line_height: none
   title_margin_y: 20%
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/2022-spd-awards.md
+  text_size: 2xl
+  width: '15'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 15%
+  title: SPD 22
+  color: "#D2B9ED"
+  block_aspect_ratio: ''
 - template: block-media-row
   block: media-row
   row_alignment: between
