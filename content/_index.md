@@ -72,7 +72,7 @@ page_sections:
   margin_y: '400'
   margin_left: 0%
   margin_right: 0%
-  title_margin_left: 5%
+  title_margin_left: 0%
   title_margin_right: 0%
   meta_align: right
   image: https://d1sf55qlb7p6hz.cloudfront.net/retail-cover-1.jpg
@@ -86,7 +86,7 @@ page_sections:
   text_tracking: widest
   font_weight: semibold
   line_height: tight
-  title_margin_y: 10%
+  title_margin_y: 15%
 - template: block-media-feature
   block: media-feature
   width: '25'
