@@ -715,7 +715,7 @@ page_sections:
   width: '15'
   align_y: start
   margin_y: '50'
-  margin_left: 40%
+  margin_left: 50%
   margin_right: 0%
   color: "#AAFEBF"
   block_aspect_ratio: ''
