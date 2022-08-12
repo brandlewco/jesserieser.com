@@ -612,13 +612,13 @@ page_sections:
   width: '45'
   align_y: start
   margin_y: '100'
-  margin_left: 40%
+  margin_left: 15%
   margin_right: 0%
   title_margin_left: 5%
   title_margin_right: 0%
   meta_align: right
   title: Amtrak the National
-  image: https://d1sf55qlb7p6hz.cloudfront.net/sunset-limited-23.jpg
+  image: https://d1sf55qlb7p6hz.cloudfront.net/sunset-limited-6.jpg
   color: "#D7F3E6"
   meta: Palm Springs to Yuma on the Sunset Limited
   attached_collection: collections/amtrak-sunset-limited.md
