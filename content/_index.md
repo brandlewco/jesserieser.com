@@ -415,9 +415,9 @@ page_sections:
   margin_left: 5%
   margin_right: 5%
   title_margin_y: 15%
-  title_margin_left: "-20%"
+  title_margin_left: 5%
   title_margin_right: ''
-  text_size: 5xl
+  text_size: 6xl
   line_height: normal
   text_alignment: left
   text_tracking: normal
