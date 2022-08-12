@@ -491,11 +491,23 @@ page_sections:
   text_size: 2xl
   width: '30'
   align_y: start
-  margin_y: '50'
+  margin_y: '100'
   margin_left: 0%
   margin_right: 0%
   title: YG 19
   color: "#FFE6E6"
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/ap-37-american-photography-annual.md
+  block_aspect_ratio: ''
+  text_size: 2xl
+  width: '33'
+  align_y: start
+  margin_y: '100'
+  margin_left: 0%
+  margin_right: 15%
+  title: AP 37
+  color: "#F6F9AD"
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -664,18 +676,6 @@ page_sections:
   text_color: "#FFF26E"
   image: https://d1sf55qlb7p6hz.cloudfront.net/nyt_open-cover-1.jpg
   font_weight: semibold
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/ap-37-american-photography-annual.md
-  block_aspect_ratio: ''
-  text_size: 2xl
-  width: '30'
-  align_y: start
-  margin_y: '100'
-  margin_left: 5%
-  margin_right: 0%
-  title: AP 37
-  color: "#F6F9AD"
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/sunset-spot.md
