@@ -766,27 +766,27 @@ selected_works_theme:
 - template: selected-works-theme
   image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-selected works-2.jpg
   theme_color: "#BCD3E8"
-  image_mobile: ''
+  image_mobile: https://d1sf55qlb7p6hz.cloudfront.net/rieser-selected works_verts-2.jpg
 - template: selected-works-theme
   image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-selected works-3.jpg
-  image_mobile: ''
+  image_mobile: https://d1sf55qlb7p6hz.cloudfront.net/rieser-selected works_verts-3.jpg
   theme_color: "#C5E2D6"
 - template: selected-works-theme
   image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-selected works-4.jpg
-  image_mobile: ''
+  image_mobile: https://d1sf55qlb7p6hz.cloudfront.net/rieser-selected works_verts-4.jpg
   theme_color: "#DEE3F9"
 - template: selected-works-theme
   image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-selected works-5.jpg
   theme_color: "#DDF9D6"
-  image_mobile: ''
+  image_mobile: https://d1sf55qlb7p6hz.cloudfront.net/rieser-selected works_verts-5.jpg
 - template: selected-works-theme
   image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-selected works-6.jpg
   theme_color: "#F3DDC8"
-  image_mobile: ''
+  image_mobile: https://d1sf55qlb7p6hz.cloudfront.net/rieser-selected works_verts-6.jpg
 - template: selected-works-theme
   image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-selected works-7.jpg
   theme_color: "#DEDFF7"
-  image_mobile: ''
+  image_mobile: https://d1sf55qlb7p6hz.cloudfront.net/rieser-selected works_verts-7.jpg
 - template: selected-works-theme
   image: ''
   image_mobile: ''
