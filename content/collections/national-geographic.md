@@ -139,9 +139,9 @@ caption = ""
 color = "#E0EFFF"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser_natgeo-marty-8.jpg"
 margin_left = "0%"
-margin_right = "25%"
+margin_right = "15%"
 margin_y = "600"
 template = "block-media-element"
-width = "20"
+width = "30"
 
 +++
