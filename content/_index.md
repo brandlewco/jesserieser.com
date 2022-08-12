@@ -157,9 +157,9 @@ page_sections:
   margin_left: 20%
   margin_right: 0%
   title_margin_y: 10%
-  title_margin_left: 5%
+  title_margin_left: "-30%"
   title_margin_right: 0%
-  text_size: 5xl
+  text_size: 6xl
   line_height: normal
   text_alignment: left
   text_tracking: normal
@@ -170,7 +170,7 @@ page_sections:
   title: Gunsmoke, Mythology, and the American Gundemic
   meta: 2021 + 2022
   attached_collection: collections/gundemic.md
-  text_color: ''
+  text_color: "#FFCE5A"
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/klompching-gallery-fresh.md
