@@ -1,7 +1,7 @@
 +++
 attached_collection = "collections/barron-s-las-vegas-reopenning.md"
 attached_link = ""
-block_aspect_ratio = "ratio-4x5"
+block_aspect_ratio = "ratio-5x4"
 blog_block_cover = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-spd_LV-1.jpg"
 blog_header = ""
 caption = "Barron’s: Las Vegas Presses Its’s Luck in the Postpandemic Era "
