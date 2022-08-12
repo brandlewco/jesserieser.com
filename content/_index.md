@@ -486,28 +486,28 @@ page_sections:
   row_alignment: between
 - template: block-modal-blog
   block: modal-blog
-  attached_blog: posts/young-guns-19.md
-  block_aspect_ratio: []
-  text_size: 2xl
-  width: '33'
-  align_y: start
-  margin_y: '300'
-  margin_left: 10%
-  margin_right: 0%
-  title: YG 19
-  color: "#FFE6E6"
-- template: block-modal-blog
-  block: modal-blog
   attached_blog: posts/ap-37-american-photography-annual.md
   block_aspect_ratio: ''
   text_size: 2xl
   width: '33'
   align_y: start
   margin_y: '100'
-  margin_left: 0%
-  margin_right: 15%
+  margin_left: 5%
+  margin_right: 0%
   title: AP 37
   color: "#F6F9AD"
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/young-guns-19.md
+  block_aspect_ratio: []
+  text_size: 2xl
+  width: '33'
+  align_y: start
+  margin_y: '300'
+  margin_left: 0%
+  margin_right: 15%
+  title: YG 19
+  color: "#FFE6E6"
 - template: block-media-row
   block: media-row
   row_alignment: ''
