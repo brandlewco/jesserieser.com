@@ -134,7 +134,7 @@ page_sections:
   title_margin_left: 60%
   title_margin_right: 0%
   title_margin_y: 30%
-  meta_align: left
+  meta_align: right
   attached_collection: collections/phoenix.md
   meta: Torpedo London
   image: https://d1sf55qlb7p6hz.cloudfront.net/rieser_phx-HI-2.jpg
