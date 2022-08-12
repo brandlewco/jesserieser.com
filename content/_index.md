@@ -262,7 +262,7 @@ page_sections:
   meta_align: left
   image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-gunsite-27.jpg
   attached_collection: collections/wired-gunsite.md
-  color: "#EFE7A8"
+  color: "#D9F4C3"
   title: 'Wired '
   meta: I Am Not a Soldier but I Have Been Trained to Kill
   text_color: "#FFB8FE"
