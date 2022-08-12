@@ -381,10 +381,7 @@ page_sections:
   title_margin_right: 0%
   meta_align: left
   image: https://d1sf55qlb7p6hz.cloudfront.net/robkrar-5.jpg
-  title: |-
-    Outside
-
-    Magazine
+  title: Outside Magazine
   color: "#FFB4B4"
   attached_collection: collections/outside-magazine-rob-krar.md
   meta: Rob Krar Running in the Dark
