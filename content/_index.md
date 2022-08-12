@@ -441,7 +441,7 @@ page_sections:
   align_y: start
   margin_y: '700'
   margin_left: 0%
-  margin_right: 15%
+  margin_right: 25%
   title: BOOOOOOOM Feature
   color: "#FFCFCF"
 - template: block-media-row
