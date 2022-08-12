@@ -501,11 +501,11 @@ page_sections:
   attached_blog: posts/young-guns-19.md
   block_aspect_ratio: []
   text_size: 2xl
-  width: '33'
+  width: '30'
   align_y: start
   margin_y: '100'
   margin_left: 0%
-  margin_right: 15%
+  margin_right: 20%
   title: YG 19
   color: "#FFE6E6"
 - template: block-media-row
