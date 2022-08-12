@@ -563,7 +563,7 @@ page_sections:
   attached_blog: posts/sunset-spot.md
   block_aspect_ratio: ''
   text_size: 2xl
-  width: '20'
+  width: '15'
   align_y: start
   margin_y: '300'
   margin_left: 0%
