@@ -558,6 +558,18 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: ''
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/sunset-spot.md
+  block_aspect_ratio: ''
+  text_size: 2xl
+  width: '20'
+  align_y: start
+  margin_y: '300'
+  margin_left: 0%
+  margin_right: 0%
+  color: "#DACEEA"
+  title: The Sunset Spot at Red Modern
 - template: block-media-feature
   block: media-feature
   width: '40'
@@ -676,18 +688,6 @@ page_sections:
   text_color: "#FFF26E"
   image: https://d1sf55qlb7p6hz.cloudfront.net/nyt_open-cover-1.jpg
   font_weight: semibold
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/sunset-spot.md
-  block_aspect_ratio: ''
-  text_size: 2xl
-  width: '25'
-  align_y: start
-  margin_y: '300'
-  margin_left: 0%
-  margin_right: 10%
-  color: "#DACEEA"
-  title: The Sunset Spot at Red Modern
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/ap-36-american-photography-annual.md
