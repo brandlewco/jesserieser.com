@@ -596,7 +596,7 @@ page_sections:
   block: modal-blog
   attached_blog: posts/2022-spd-awards.md
   text_size: 2xl
-  width: '15'
+  width: '10'
   align_y: start
   margin_y: '100'
   margin_left: 0%
