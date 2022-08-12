@@ -206,7 +206,7 @@ page_sections:
   margin_left: 0%
   margin_right: 10%
   title_margin_y: 30%
-  title_margin_left: 25%
+  title_margin_left: 30%
   title_margin_right: 0%
   text_size: 6xl
   line_height: normal
