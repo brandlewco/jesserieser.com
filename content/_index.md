@@ -646,11 +646,11 @@ page_sections:
   row_alignment: between
 - template: block-media-feature
   block: media-feature
-  width: '40'
+  width: '45'
   align_y: start
-  margin_y: '100'
-  margin_left: 0%
-  margin_right: 5%
+  margin_y: '400'
+  margin_left: 10%
+  margin_right: 0%
   title_margin_left: 5%
   title_margin_right: 0%
   meta_align: right
@@ -684,15 +684,6 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: ''
-- template: block-media-row
-  block: media-row
-  row_alignment: between
-- template: block-media-row
-  block: media-row
-  row_alignment: between
-- template: block-media-row
-  block: media-row
-  row_alignment: between
 - template: block-media-feature
   block: media-feature
   width: '33'
@@ -715,6 +706,15 @@ page_sections:
   text_color: "#FFF26E"
   image: https://d1sf55qlb7p6hz.cloudfront.net/nyt_open-cover-1.jpg
   font_weight: semibold
+- template: block-media-row
+  block: media-row
+  row_alignment: between
+- template: block-media-row
+  block: media-row
+  row_alignment: between
+- template: block-media-row
+  block: media-row
+  row_alignment: between
 - template: block-media-row
   block: media-row
   row_alignment: between
