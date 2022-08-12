@@ -244,7 +244,7 @@ page_sections:
   title: Vox's 100 Battles
   meta: Summoning the Ghost Town
   attached_collection: collections/vox-100-battles-ghost-towns.md
-  text_color: "#BBEFA9"
+  text_color: "#A5F48A"
 - template: block-media-feature
   block: media-feature
   width: '30'
