@@ -629,6 +629,18 @@ page_sections:
   font_weight: semibold
   line_height: none
   title_margin_y: 20%
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/ap-36-american-photography-annual.md
+  width: '15'
+  align_y: start
+  margin_y: '400'
+  margin_left: 0%
+  margin_right: 15%
+  title: AP 36
+  color: "#D8EBEE"
+  block_aspect_ratio: 11x8.5
+  text_size: 4xl
 - template: block-media-row
   block: media-row
   row_alignment: between
@@ -688,18 +700,6 @@ page_sections:
   text_color: "#FFF26E"
   image: https://d1sf55qlb7p6hz.cloudfront.net/nyt_open-cover-1.jpg
   font_weight: semibold
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/ap-36-american-photography-annual.md
-  width: '20'
-  align_y: start
-  margin_y: '100'
-  margin_left: 0%
-  margin_right: 5%
-  title: AP 36
-  color: "#D8EBEE"
-  block_aspect_ratio: 11x8.5
-  text_size: 4xl
 - template: block-modal-blog
   block: modal-blog
   width: '20'
