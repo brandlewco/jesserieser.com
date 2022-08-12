@@ -8,7 +8,7 @@ caption = "I Am Not a Soldier, but I Have Been Trained to Kill"
 content = "[**_I Am Not a Soldier, but I Have Been Trained to Kill_**](https://jesserieser.com/collections/gunsite) has been selected as an editor's pick on [_BOOOOOOOM._](https://www.booooooom.com/2022/06/28/i-am-not-a-soldier-but-i-have-been-trained-to-kill-by-photographer-jesse-rieser/)\n\nPhotographed after the insurrection, these works explore the growing tactical industry that teaches American civilians to fight like Special Ops forces.\n\nPhotographed at Gunsite Academy, the longest running civilian tactical firearm training facility.\n\nWords by Rachel Monroe."
 date = ""
 news_category = ["press"]
-theme_color = "#FDC6C6"
+theme_color = "#F8DDCD"
 title = "BOOOOOOOM Feature"
 [seo]
 meta_description = ""
