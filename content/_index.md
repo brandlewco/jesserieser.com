@@ -231,7 +231,7 @@ page_sections:
   margin_left: 10%
   margin_right: 0%
   title_margin_y: 15%
-  title_margin_left: 0%
+  title_margin_left: 5%
   title_margin_right: 0%
   text_size: 6xl
   line_height: normal
@@ -244,7 +244,7 @@ page_sections:
   title: Vox's 100 Battles
   meta: Summoning the Ghost Town
   attached_collection: collections/vox-100-battles-ghost-towns.md
-  text_color: "#A7FE86"
+  text_color: "#BBEFA9"
 - template: block-media-feature
   block: media-feature
   width: '30'
