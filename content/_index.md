@@ -713,10 +713,10 @@ page_sections:
   row_alignment: between
 - template: block-media-feature
   block: media-feature
-  width: '60'
+  width: '55'
   align_y: start
   margin_y: '100'
-  margin_left: 15%
+  margin_left: 20%
   margin_right: 0%
   title_margin_y: 20%
   title_margin_left: 0%
