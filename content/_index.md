@@ -697,7 +697,7 @@ page_sections:
   block: media-feature
   width: '55'
   align_y: start
-  margin_y: '200'
+  margin_y: '300'
   margin_left: 0%
   margin_right: 10%
   title_margin_y: 20%
@@ -718,21 +718,6 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: between
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/the-changing-landscape-of-american-retail-1.md
-  width: '25'
-  align_y: start
-  margin_y: '100'
-  margin_left: 10%
-  margin_right: 0%
-  title: 'The Fence '
-  color: "#EED2D2"
-  block_aspect_ratio: ''
-  text_size: ''
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/christmas-in-america-happy-birthday-jesus.md
@@ -745,6 +730,21 @@ page_sections:
   color: "#C5C458"
   block_aspect_ratio: 11x8.5
   text_size: ''
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/the-changing-landscape-of-american-retail-1.md
+  width: '25'
+  align_y: start
+  margin_y: '100'
+  margin_left: 10%
+  margin_right: 0%
+  title: 'The Fence '
+  color: "#EED2D2"
+  block_aspect_ratio: ''
+  text_size: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
 home_theme_color: "#EDDDDE"
 collection_description: A student of subtleties.
 collection_content: ''
