@@ -768,10 +768,6 @@ selected_works_theme:
   image_mobile: https://d1sf55qlb7p6hz.cloudfront.net/rieser-selectedworks_verts-3.jpg
   theme_color: "#C5E2D6"
 - template: selected-works-theme
-  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-selectedworks-4.jpg
-  image_mobile: https://d1sf55qlb7p6hz.cloudfront.net/rieser-selectedworks_verts-4.jpg
-  theme_color: "#DEE3F9"
-- template: selected-works-theme
   image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-selectedworks-5.jpg
   theme_color: "#DDF9D6"
   image_mobile: https://d1sf55qlb7p6hz.cloudfront.net/rieser-selectedworks_verts-5.jpg
@@ -784,9 +780,9 @@ selected_works_theme:
   theme_color: "#DEDFF7"
   image_mobile: https://d1sf55qlb7p6hz.cloudfront.net/rieser-selectedworks_verts-7.jpg
 px_extra: true
-collection_meta: 'Award winning Los Angeles and Phoenix Commercial, Editorial, and
-  Fine Art Photographer & Director specializing in portraiture, reportage, sport and
-  conceptual photography and video. Located in the West Coast and Southwestern USA. '
+collection_meta: 'Los Angeles and Phoenix Commercial, Editorial, and Fine Art Photographer
+  & Director specializing in portraiture, reportage, sport and conceptual photography
+  and video. Located in the West Coast and Southwestern USA. '
 seo:
   meta_title: ''
   meta_description: ''
