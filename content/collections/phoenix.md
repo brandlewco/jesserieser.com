@@ -17,11 +17,11 @@ date = ""
 hide_footer = true
 layout = "blocks"
 logo = ""
-navigation_theme = "white"
+navigation_theme = "black"
 px_extra = true
 row_alignment = "between"
 slug = "collections/adobe"
-theme_color = "#F7C5C8"
+theme_color = "#CEF7C5"
 theme_color_all_works = "#FF8F47"
 title = "Adobe: Turn Up the Vibrancy"
 [seo]
