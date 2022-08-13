@@ -22,7 +22,7 @@ navigation_theme = "white"
 px_extra = true
 row_alignment = "between"
 slug = "projects/folklore"
-theme_color = "#C5EAEA"
+theme_color = "#F1DCC4"
 theme_color_all_works = ""
 title = "A Vanishing Folklore"
 [seo]
