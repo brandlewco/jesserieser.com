@@ -707,7 +707,7 @@ page_sections:
   line_height: normal
   text_alignment: left
   text_tracking: normal
-  meta_align: left
+  meta_align: right
   title: 'The New York Times '
   meta: 'America is Reopening. This is What it Looks Like '
   attached_collection: collections/the-new-york-times-1.md
