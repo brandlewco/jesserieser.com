@@ -737,7 +737,7 @@ page_sections:
   align_y: start
   margin_y: '400'
   margin_left: 0%
-  margin_right: 15%
+  margin_right: 20%
   title: 'The Fence '
   color: "#EED2D2"
   block_aspect_ratio: ''
