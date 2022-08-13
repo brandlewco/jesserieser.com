@@ -723,9 +723,9 @@ page_sections:
   attached_blog: posts/christmas-in-america-happy-birthday-jesus.md
   width: '33'
   align_y: start
-  margin_y: '300'
-  margin_left: 0%
-  margin_right: 15%
+  margin_y: '100'
+  margin_left: 15%
+  margin_right: 0%
   title: Xmas Roundup
   color: "#C5C458"
   block_aspect_ratio: 11x8.5
