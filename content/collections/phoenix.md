@@ -21,7 +21,7 @@ navigation_theme = "white"
 px_extra = true
 row_alignment = "between"
 slug = "collections/adobe"
-theme_color = "#FF9758"
+theme_color = "#F7C5C8"
 theme_color_all_works = "#FF8F47"
 title = "Adobe: Turn Up the Vibrancy"
 [seo]
