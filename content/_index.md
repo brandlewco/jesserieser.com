@@ -663,6 +663,21 @@ page_sections:
   font_weight: semibold
   line_height: none
   title_margin_y: 15%
+- template: block-modal-blog
+  block: modal-blog
+  width: '25'
+  align_x: start
+  margin_x: '0'
+  margin_y: '50'
+  title: WaPo
+  image: ''
+  color: "#fde25e"
+  attached_blog: posts/the-changing-landscape-of-america-retail.md
+  align_y: ''
+  margin_left: 0%
+  margin_right: 0%
+  block_aspect_ratio: ''
+  text_size: ''
 - template: block-media-row
   block: media-row
   row_alignment: between
@@ -700,21 +715,9 @@ page_sections:
   text_color: "#81FF6E"
   image: https://d1sf55qlb7p6hz.cloudfront.net/nyt_reopen-8.jpg
   font_weight: semibold
-- template: block-modal-blog
-  block: modal-blog
-  width: '25'
-  align_x: start
-  margin_x: '0'
-  margin_y: '50'
-  title: WaPo
-  image: ''
-  color: "#fde25e"
-  attached_blog: posts/the-changing-landscape-of-america-retail.md
-  align_y: ''
-  margin_left: 0%
-  margin_right: 0%
-  block_aspect_ratio: ''
-  text_size: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: between
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -742,9 +745,6 @@ page_sections:
   color: "#C5C458"
   block_aspect_ratio: 11x8.5
   text_size: ''
-- template: block-media-row
-  block: media-row
-  row_alignment: between
 home_theme_color: "#EDDDDE"
 collection_description: A student of subtleties.
 collection_content: ''
