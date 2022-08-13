@@ -735,9 +735,9 @@ page_sections:
   attached_blog: posts/the-changing-landscape-of-american-retail-1.md
   width: '20'
   align_y: start
-  margin_y: '300'
+  margin_y: '400'
   margin_left: 0%
-  margin_right: 10%
+  margin_right: 15%
   title: 'The Fence '
   color: "#EED2D2"
   block_aspect_ratio: ''
