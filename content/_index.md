@@ -719,7 +719,7 @@ page_sections:
   margin_right: 0%
   color: "#AAFEBF"
   block_aspect_ratio: ''
-  title: ''
+  title: Spotlight Awards
 - template: block-media-row
   block: media-row
   row_alignment: between
