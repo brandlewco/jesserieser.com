@@ -685,7 +685,7 @@ page_sections:
   block: modal-blog
   attached_blog: posts/ap-37-american-photography-annual-copy.md
   text_size: 2xl
-  width: '15'
+  width: '10'
   align_y: start
   margin_y: '50'
   margin_left: 20%
