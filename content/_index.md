@@ -693,6 +693,9 @@ page_sections:
   color: "#AAFEBF"
   block_aspect_ratio: ''
   title: Spotlight Awards
+- template: block-media-row
+  block: media-row
+  row_alignment: between
 - template: block-media-feature
   block: media-feature
   width: '55'
@@ -715,9 +718,6 @@ page_sections:
   text_color: "#81FF6E"
   image: https://d1sf55qlb7p6hz.cloudfront.net/nyt_reopen-8.jpg
   font_weight: semibold
-- template: block-media-row
-  block: media-row
-  row_alignment: between
 - template: block-media-row
   block: media-row
   row_alignment: ''
