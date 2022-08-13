@@ -687,21 +687,18 @@ page_sections:
   text_size: 2xl
   width: '15'
   align_y: start
-  margin_y: '50'
+  margin_y: '100'
   margin_left: 15%
   margin_right: 0%
   color: "#AAFEBF"
   block_aspect_ratio: ''
   title: Spotlight Awards
-- template: block-media-row
-  block: media-row
-  row_alignment: between
 - template: block-media-feature
   block: media-feature
-  width: '55'
+  width: '50'
   align_y: start
   margin_y: '100'
-  margin_left: 20%
+  margin_left: 0%
   margin_right: 0%
   title_margin_y: 20%
   title_margin_left: 5%
@@ -718,6 +715,9 @@ page_sections:
   text_color: "#81FF6E"
   image: https://d1sf55qlb7p6hz.cloudfront.net/nyt_reopen-8.jpg
   font_weight: semibold
+- template: block-media-row
+  block: media-row
+  row_alignment: between
 - template: block-media-row
   block: media-row
   row_alignment: ''
