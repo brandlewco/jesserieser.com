@@ -137,7 +137,7 @@ page_sections:
   meta_align: right
   attached_collection: collections/phoenix.md
   meta: Torpedo London
-  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser_phx-HI-2.jpg
+  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser_phx-recolor-2.jpg
   color: "#D0F4F2"
   text_size: 6xl
   font_weight: semibold
