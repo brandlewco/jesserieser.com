@@ -748,7 +748,7 @@ page_sections:
 home_theme_color: "#EDDDDE"
 collection_description: A student of subtleties.
 collection_content: ''
-cover_image: https://d1sf55qlb7p6hz.cloudfront.net/phoenix-cover-3.jpg
+cover_image: https://d1sf55qlb7p6hz.cloudfront.net/escalaras-2.jpg
 feature_logo: https://d1sf55qlb7p6hz.cloudfront.net/logo-amtrak-8.png
 feature_cover: https://d1sf55qlb7p6hz.cloudfront.net/timeGC-5.jpg
 feature_description: "Here in _Selected Works_ you will find handpicked photographic
@@ -763,10 +763,6 @@ selected_works_theme:
   image: https://d1sf55qlb7p6hz.cloudfront.net/selectedworks_2021-horizontal-2.jpg
   theme_color: "#86D5F3"
   image_mobile: https://d1sf55qlb7p6hz.cloudfront.net/selectedworks_2021-vertical-2.jpg
-- template: selected-works-theme
-  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-selectedworks-2.jpg
-  theme_color: "#BCD3E8"
-  image_mobile: https://d1sf55qlb7p6hz.cloudfront.net/rieser-selectedworks_verts-2.jpg
 - template: selected-works-theme
   image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-selectedworks-3.jpg
   image_mobile: https://d1sf55qlb7p6hz.cloudfront.net/rieser-selectedworks_verts-3.jpg
