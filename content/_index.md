@@ -663,6 +663,43 @@ page_sections:
   font_weight: semibold
   line_height: none
   title_margin_y: 15%
+- template: block-media-row
+  block: media-row
+  row_alignment: between
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/ap-37-american-photography-annual-copy.md
+  text_size: 2xl
+  width: '15'
+  align_y: start
+  margin_y: '50'
+  margin_left: 45%
+  margin_right: 0%
+  color: "#AAFEBF"
+  block_aspect_ratio: ''
+  title: Spotlight Awards
+- template: block-media-feature
+  block: media-feature
+  width: '55'
+  align_y: start
+  margin_y: '100'
+  margin_left: 20%
+  margin_right: 0%
+  title_margin_y: 20%
+  title_margin_left: 5%
+  title_margin_right: 0%
+  text_size: 6xl
+  line_height: normal
+  text_alignment: left
+  text_tracking: normal
+  meta_align: left
+  title: 'The New York Times '
+  meta: 'America is Reopening. This is What it Looks Like '
+  attached_collection: collections/the-new-york-times-1.md
+  color: "#FDD3D3"
+  text_color: "#81FF6E"
+  image: https://d1sf55qlb7p6hz.cloudfront.net/nyt_reopen-8.jpg
+  font_weight: semibold
 - template: block-modal-blog
   block: modal-blog
   width: '25'
@@ -708,43 +745,6 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: between
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/ap-37-american-photography-annual-copy.md
-  text_size: 2xl
-  width: '15'
-  align_y: start
-  margin_y: '50'
-  margin_left: 45%
-  margin_right: 0%
-  color: "#AAFEBF"
-  block_aspect_ratio: ''
-  title: Spotlight Awards
-- template: block-media-row
-  block: media-row
-  row_alignment: between
-- template: block-media-feature
-  block: media-feature
-  width: '55'
-  align_y: start
-  margin_y: '100'
-  margin_left: 20%
-  margin_right: 0%
-  title_margin_y: 20%
-  title_margin_left: 5%
-  title_margin_right: 0%
-  text_size: 6xl
-  line_height: normal
-  text_alignment: left
-  text_tracking: normal
-  meta_align: left
-  title: 'The New York Times '
-  meta: 'America is Reopening. This is What it Looks Like '
-  attached_collection: collections/the-new-york-times-1.md
-  color: "#FDD3D3"
-  text_color: "#81FF6E"
-  image: https://d1sf55qlb7p6hz.cloudfront.net/nyt_reopen-8.jpg
-  font_weight: semibold
 home_theme_color: "#EDDDDE"
 collection_description: A student of subtleties.
 collection_content: ''
