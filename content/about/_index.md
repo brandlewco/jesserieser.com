@@ -248,8 +248,8 @@ page_sections:
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2022**  \nSPD Merit Winner  \nVegas Presses It's Luck in the Postpandemic
-      Era Cover Story"
+    content: "**2022**  \nSPD Merit Winner  \n\"Vegas Presses It's Luck in the Postpandemic
+      Era Cover Story\" for Baron's"
     icon: ''
     url: ''
   - template: popup-text-element
@@ -610,6 +610,10 @@ page_sections:
     url: ''
   - template: popup-text-element
     content: "[_BOOOOOOOM II_](https://www.booooooom.com/2018/09/20/photographer-spotlight-jesse-rieser/)"
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "[_BOOOOOOOM III_](https://www.booooooom.com/2022/06/28/i-am-not-a-soldier-but-i-have-been-trained-to-kill-by-photographer-jesse-rieser/)"
     icon: ''
     url: ''
   - template: popup-text-element
