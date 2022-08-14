@@ -239,22 +239,27 @@ page_sections:
     url: ''
   - template: popup-text-element
     content: "**2022**  \nAP 38: American Photography Annual 38  \nBest Editorial
-      Series:  \nWired “I’m Not a Soldier, but I Have Been Trained to Kill”"
+      Series:  \n_Wired_ “I’m Not a Soldier, but I Have Been Trained to Kill”"
     icon: ''
     url: ''
   - template: popup-text-element
     content: "**2022**  \nAP 38: American Photography Annual 38  \nBest Editorial
-      Series:  \nPopular Mechanics “Can Science Cure Death? It Sure Looks Like It.”"
+      Series:  \n_Popular Mechanics_ “Can Science Cure Death? It Sure Looks Like It.”"
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2022**  \nSPD Merit Winner  \n\"Vegas Presses It's Luck in the Postpandemic
-      Era Cover Story\" for Baron's"
+    content: "**2022**  \nSPD Merit Winner  \n_Baron's_ \"Vegas Presses It's Luck
+      in the Postpandemic Era Cover Story\" for "
     icon: ''
     url: ''
   - template: popup-text-element
-    content: "**2022**  \nThe Agents Club Awards   \nFinalist \"Poetic Documentary\"
-      \ \n\"America is Reopening\" for _The New York Times_"
+    content: "**2022**  \nThe Agents Club Awards  \nFinalist \"Poetic Documentary\"
+      \ \n_The New York Times_ \"America is Reopening\""
+    icon: ''
+    url: ''
+  - template: popup-text-element
+    content: "**2022**  \nSpotlight Awards presented by Production Paradise  \nArchitectural
+      and Interior Finalist:  \n_The New York Times_ \"Auctioning Off a Dead Mall\""
     icon: ''
     url: ''
   - template: popup-text-element
@@ -417,11 +422,6 @@ page_sections:
   - template: popup-text-element
     content: "**2008**  \n_PDN Photography Annual_  \nBest Personal Work Series:  \n_Spaceman
       & Baby_"
-    icon: ''
-    url: ''
-  - template: popup-text-element
-    content: "**2022**  \nSpotlight Awards presented by Production Paradise  \nArchitectural
-      and Interior Finalist:  \n\"The New York Times: Auctioning Off a Dead Mall\""
     icon: ''
     url: ''
   margin_x: 5%
