@@ -751,11 +751,10 @@ collection_content: ''
 cover_image: https://d1sf55qlb7p6hz.cloudfront.net/escalaras-2.jpg
 feature_logo: https://d1sf55qlb7p6hz.cloudfront.net/logo-amtrak-8.png
 feature_cover: https://d1sf55qlb7p6hz.cloudfront.net/timeGC-5.jpg
-feature_description: "Here in _Selected Works_ you will find handpicked photographic
-  art works, client commissions, and recent news. These projects reflect my unique
-  style of light and color as I explore themes of the uniquely American experience.
-  \n\nA bit about navigation: If you aren’t in a rush, head over to _All Works;_ if
-  looking for something specific, give the category filter a spin."
+feature_description: |-
+  Here you will find handpicked photographic art works, client commissions, and recent news. For a more expansive experience please head over to "all works."
+
+  If you are solely interested in the works produced in my personal photographic art practice, please head over to [**_Jesse Rieser Projects_**](https://jesserieserprojects.com/).
 navigation_theme: black
 row_alignment: between
 selected_works_theme:
