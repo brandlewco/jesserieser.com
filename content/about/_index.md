@@ -419,6 +419,11 @@ page_sections:
       & Baby_"
     icon: ''
     url: ''
+  - template: popup-text-element
+    content: "**2022**  \nSpotlight Awards presented by Production Paradise  \nArchitectural
+      and Interior Finalist:  \n\"The New York Times: Auctioning Off a Dead Mall\""
+    icon: ''
+    url: ''
   margin_x: 5%
   block-list: ''
   align_y: ''
