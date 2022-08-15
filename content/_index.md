@@ -767,10 +767,6 @@ selected_works_theme:
   image_mobile: https://d1sf55qlb7p6hz.cloudfront.net/rieser-selectedworks_verts-3.jpg
   theme_color: "#C5E2D6"
 - template: selected-works-theme
-  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-selectedworks-5.jpg
-  theme_color: "#DDF9D6"
-  image_mobile: https://d1sf55qlb7p6hz.cloudfront.net/rieser-selectedworks_verts-5.jpg
-- template: selected-works-theme
   image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-selectedworks-6.jpg
   theme_color: "#F3DDC8"
   image_mobile: https://d1sf55qlb7p6hz.cloudfront.net/rieser-selectedworks_verts-6.jpg
