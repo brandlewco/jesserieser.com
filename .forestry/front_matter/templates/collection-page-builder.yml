@@ -16,10 +16,12 @@ fields:
 - type: text
   label: Title
   name: title
+  config:
+    required: true
 - name: collection_meta
   type: text
   config:
-    required: false
+    required: true
   label: Collection Description
   description: First Line
 - name: collection_meta_2
@@ -47,6 +49,7 @@ fields:
   name: theme_color
   config:
     color_format: Hex
+    required: true
   label: Theme Color
 - type: color
   name: theme_color_all_works
