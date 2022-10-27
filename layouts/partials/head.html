@@ -4,24 +4,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <base href="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}">
 
-    <!-- {{ if eq (relURL .URL) ("/" | safeHTML) }}
-    {{- with .Title | default .Site.Title  -}}
-    <title>Jesse Rieser Photography</title>
-    <meta property="og:title" content="Jesse Rieser Photography. Phoenix, Arizona." />
-    <meta name="twitter:title" content="Jesse Rieser Photography. Phoenix, Arizona." />
-    {{- end -}}
-    {{ else }}
-    <title>{{ with .Params.Title }}{{.}}{{end}}.{{with .Params.collection_meta}} {{.}}.{{end}}</title>
-    <meta property="og:title" content="{{ with .Params.Title }}{{.}}{{end}}{{with .Params.collection_meta}}. {{.}}{{end}} | Jesse Rieser" />
-    <meta name="twitter:title" content="{{ with .Params.Title }}{{.}}{{end}}{{with .Params.collection_meta}}. {{.}}{{end}} | Jesse Rieser" />
-    {{ end }} -->
-
-        <!-- {{- with .Params.collection_description | default .Site.Title -}}
-    <meta name="description" content="{{. | markdownify}}">
-    <meta property="og:description" content="{{. | markdownify}}">
-    <meta name="twitter:description" content="{{ . | markdownify }}">
-    {{end}} -->
-
     <title>{{ if .Params.seo.meta_title }}{{.Params.seo.meta_title}}{{else}}{{.Params.Title}}. {{.Params.collection_meta}}{{end}}</title>
     <meta property="og:title" content="{{ if .Params.seo.meta_title }}{{.Params.seo.meta_title}}{{else}}{{.Params.Title}}. {{.Params.collection_meta}}{{end}}"/>
     <meta name="description" property="og:description"  content="{{if .Params.seo.meta_description}}{{.Params.seo.meta_description}}{{else}}{{.Params.collection_description | markdownify | truncate 150 }}{{end}}">
