@@ -24,7 +24,7 @@ row_alignment = "between"
 slug = "collections/mead-barrons"
 theme_color = ""
 theme_color_all_works = ""
-title = "Barrons Lake Mead Drought "
+title = "Barrons Lake Mead Drought"
 [seo]
 meta_description = ""
 meta_title = ""
