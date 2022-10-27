@@ -42,5 +42,6 @@ module.exports = merge(common, {
       filename: "[name].css",
       chunkFilename: "[id].css"
     })
-  ]
+  ],
+  devtool: "eval-cheap-source-map",
 });
