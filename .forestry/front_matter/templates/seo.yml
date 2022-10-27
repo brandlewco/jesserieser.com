@@ -9,7 +9,7 @@ fields:
   - name: meta_title
     type: text
     config:
-      required: false
+      required: true
       min: 
       max: 60
     label: Meta Title
@@ -18,7 +18,7 @@ fields:
     type: textarea
     default: ''
     config:
-      required: false
+      required: true
       wysiwyg: false
       schema:
         format: markdown
