@@ -10,8 +10,8 @@ collection_description_alignment = "left"
 collection_exhibition = []
 collection_filter = "Personal"
 collection_hidden = false
-collection_meta = ""
-collection_meta_2 = ""
+collection_meta = "Description First Line"
+collection_meta_2 = "Description Second Line"
 collection_press = []
 collection_preview = []
 cover_image = ""
@@ -22,12 +22,12 @@ navigation_theme = "white"
 px_extra = true
 row_alignment = "between"
 slug = "collections/mead-barrons"
-theme_color = ""
+theme_color = "#FDCDCD"
 theme_color_all_works = ""
 title = "Barrons Lake Mead Drought"
 [seo]
-meta_description = ""
-meta_title = ""
+meta_description = "Meta Description"
+meta_title = "Meta Title"
 [[collection_layout_builder]]
 align_x = "start"
 align_y = ""
