@@ -5,6 +5,31 @@ date: 2017-11-01T23:00:00.000+00:00
 page_sections:
 - template: block-media-feature
   block: media-feature
+  width: '50'
+  align_y: start
+  margin_y: '100'
+  margin_left: 40%
+  margin_right: 0%
+  title_margin_y: 35%
+  title_margin_left: 0%
+  title_margin_right: 0%
+  text_size: 6xl
+  line_height: normal
+  text_alignment: left
+  text_tracking: normal
+  meta_align: right
+  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser_mead-15.jpg
+  color: "#D3E8EF"
+  attached_collection: collections/barrons-lake-mead-drought.md
+  font_weight: semibold
+  meta: Beyond the Drought
+  title: Barron's
+  text_color: "#E9FFD8"
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
+- template: block-media-feature
+  block: media-feature
   width: '60'
   align_y: start
   margin_y: '100'
@@ -148,7 +173,7 @@ page_sections:
   text_color: "#FFFA8A"
 - template: block-media-row
   block: media-row
-  row_alignment: ''
+  row_alignment: between
 - template: block-media-feature
   block: media-feature
   width: '45'
@@ -779,7 +804,7 @@ collection_meta: 'Los Angeles and Phoenix Commercial, Editorial, and Fine Art Ph
   & Director specializing in portraiture, reportage, sport and conceptual photography
   and video. Located in the West Coast and Southwestern USA. '
 seo:
-  meta_title: ''
-  meta_description: ''
+  meta_title: 'Selected Works of Photographer Jesse Rieser '
+  meta_description: 'Handpicked portfolios and news by the artist '
 
 ---
