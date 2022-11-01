@@ -341,37 +341,37 @@ block = "media-row"
 row_alignment = "between"
 template = "block-media-row"
 [[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
 align_x = "start"
 align_y = ""
 block = "media-element"
 caption = ""
 color = "#FBC1A2"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser_mead-22.jpg"
-margin_left = "0%"
-margin_right = "5%"
-margin_y = "300"
+margin_left = "5%"
+margin_right = "0%"
+margin_y = "100"
 template = "block-media-element"
-width = "55"
+width = "50"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
 [[collection_layout_builder]]
 block = "media-row"
 row_alignment = "between"
