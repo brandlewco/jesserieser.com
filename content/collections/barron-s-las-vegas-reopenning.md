@@ -10,8 +10,8 @@ collection_description_alignment = "center"
 collection_exhibition = []
 collection_filter = ""
 collection_hidden = false
-collection_meta = "Cover: Las Vegas Presses It's Luck "
-collection_meta_2 = "in the Postpandemic Era"
+collection_meta = "Las Vegas Presses It's Luck in the "
+collection_meta_2 = "Postpandemic Era Cover Story"
 collection_press = []
 collection_preview = ["https://d1sf55qlb7p6hz.cloudfront.net/vegas_4x3-2.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/vegas_4x3-1.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/vegas_4x3-4.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/vegas_4x3-3.jpg"]
 cover_image = ""
@@ -26,8 +26,8 @@ theme_color = "#FFE49D"
 theme_color_all_works = ""
 title = "Barron's "
 [seo]
-meta_description = ""
-meta_title = ""
+meta_description = "Exploring the business of reopening Las Vegas "
+meta_title = "Photographs by Jesse Rieser of Las Vegas Reopening"
 [[collection_layout_builder]]
 align_x = "start"
 align_y = ""
