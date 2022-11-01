@@ -125,7 +125,7 @@ color = "#F4DFE7"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser_mead-7.jpg"
 margin_left = "30%"
 margin_right = "0%"
-margin_y = "200"
+margin_y = "300"
 template = "block-media-element"
 width = "40"
 [[collection_layout_builder]]
