@@ -22,7 +22,7 @@ page_sections:
   color: "#D3E8EF"
   attached_collection: collections/barrons-lake-mead-drought.md
   font_weight: semibold
-  meta: 'Cover: Beyond the Drought'
+  meta: Beyond the Drought Cover Story
   title: Barron's
   text_color: "#FFE9D8"
 - template: block-media-row
