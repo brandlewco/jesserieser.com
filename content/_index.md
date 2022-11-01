@@ -11,7 +11,7 @@ page_sections:
   margin_left: 45%
   margin_right: 0%
   title_margin_y: 15%
-  title_margin_left: 15%
+  title_margin_left: 10%
   title_margin_right: 0%
   text_size: 8xl
   line_height: normal
@@ -22,9 +22,9 @@ page_sections:
   color: "#D3E8EF"
   attached_collection: collections/barrons-lake-mead-drought.md
   font_weight: semibold
-  meta: Beyond the Drought
+  meta: 'Cover: Beyond the Drought'
   title: Barron's
-  text_color: "#E9FFD8"
+  text_color: "#FFE9D8"
 - template: block-media-row
   block: media-row
   row_alignment: ''
