@@ -315,35 +315,11 @@ block = "media-element"
 caption = ""
 color = "#CCE1F3"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser_mead-20.jpg"
-margin_left = "45%"
+margin_left = "40%"
 margin_right = ""
-margin_y = "100"
+margin_y = "200"
 template = "block-media-element"
-width = "55"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
-[[collection_layout_builder]]
-block = "media-row"
-row_alignment = "between"
-template = "block-media-row"
+width = "50"
 [[collection_layout_builder]]
 block = "media-row"
 row_alignment = "between"
@@ -360,6 +336,30 @@ margin_right = ""
 margin_y = "100"
 template = "block-media-element"
 width = "25"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
 [[collection_layout_builder]]
 align_x = "start"
 align_y = ""
