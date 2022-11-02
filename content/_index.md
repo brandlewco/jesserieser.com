@@ -44,9 +44,9 @@ page_sections:
   block: media-feature
   width: '55'
   align_y: start
-  margin_y: '100'
+  margin_y: '300'
   margin_left: 0%
-  margin_right: 0%
+  margin_right: 5%
   title_margin_y: 15%
   title_margin_left: 10%
   title_margin_right: 0%
