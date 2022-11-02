@@ -10,7 +10,7 @@ collection_description_alignment = "center"
 collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_hidden = false
-collection_meta = ""
+collection_meta = "2022 Communication Arts Photo Annual"
 collection_meta_2 = ""
 collection_press = []
 collection_preview = ["https://d1sf55qlb7p6hz.cloudfront.net/4x3-esc-1.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/4x3-esc-5.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/4x3-esc-6.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/4x3-esc-4.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/4x3-esc-7.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/4x3-esc-3.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/4x3-esc-2.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/4x3-natgeo-7.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/4x3-natgeo-6.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/4x3-natgeo-5.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/4x3-natgeo-4.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/4x3-natgeo-3.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/4x3-natgeo-2.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/4x3-natgeo-1.jpg"]
@@ -26,8 +26,8 @@ theme_color = "#FFECAA"
 theme_color_all_works = ""
 title = "Antoine's Escalaras"
 [seo]
-meta_description = ""
-meta_title = ""
+meta_description = "A film and photographic project combining architectural, portraiture and sport"
+meta_title = "Antoines Escalaras selected by Communication Arts "
 [[collection_layout_builder]]
 align_x = "start"
 align_y = ""
