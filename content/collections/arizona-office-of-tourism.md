@@ -16,7 +16,6 @@ collection_press = []
 collection_preview = []
 cover_image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-aot-1.jpg"
 date = 2022-10-31T23:17:19Z
-draft = false
 hide_footer = false
 layout = "blocks"
 navigation_theme = "white"
@@ -139,7 +138,7 @@ align_y = ""
 block = "media-element"
 caption = ""
 color = "#DCEDF8"
-image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-aot-8.jpg"
+image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-aot-25.jpg"
 margin_left = "0%"
 margin_right = ""
 margin_y = "200"
@@ -381,5 +380,5 @@ margin_right = "25%"
 margin_y = "400"
 template = "block-media-element"
 width = "40"
-+++
 
++++
