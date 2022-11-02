@@ -3,20 +3,20 @@ collection_archive = false
 collection_awards = []
 collection_category = ["Studio", "Editorial", "Color", "Portraits"]
 collection_content = ""
-collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-time-lake-1.jpg"
-collection_cover_mobile = ""
+collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-lake_covers-8.jpg"
+collection_cover_mobile = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-lake_covers-9.jpg"
 collection_description = ""
 collection_description_alignment = "left"
 collection_exhibition = []
-collection_filter = "Personal"
+collection_filter = "Commissioned + Stock"
 collection_hidden = false
 collection_meta = "How Kari Lake Went From Local Anchor"
 collection_meta_2 = "to New Face of the Maga Right "
 collection_press = []
-collection_preview = []
+collection_preview = ["https://d1sf55qlb7p6hz.cloudfront.net/rieser-lake_covers-1.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/rieser-lake_covers-5.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/rieser-lake_covers-3.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/rieser-lake_covers-4.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/rieser-lake_covers-2.jpg"]
 cover_image = ""
 date = 2022-10-31T23:20:53Z
-hide_footer = false
+hide_footer = true
 layout = "blocks"
 navigation_theme = "white"
 px_extra = true
@@ -41,17 +41,21 @@ margin_y = "100"
 template = "block-media-element"
 width = "40"
 [[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
 align_x = "start"
 align_y = ""
 block = "media-element"
 caption = ""
 color = "#E1F9FB"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-lake-time-1.jpg"
-margin_left = "0%"
-margin_right = "5%"
-margin_y = "900"
+margin_left = "40%"
+margin_right = "0%"
+margin_y = "100"
 template = "block-media-element"
-width = "20"
+width = "40"
 [[collection_layout_builder]]
 block = "media-row"
 row_alignment = "between"
@@ -239,5 +243,13 @@ margin_right = "25%"
 margin_y = "300"
 template = "block-media-element"
 width = "30"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
 
 +++
