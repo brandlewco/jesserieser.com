@@ -164,7 +164,7 @@ color = "#D8F9FD"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-time-lake-10.jpg"
 margin_left = "0%"
 margin_right = "30%"
-margin_y = "400"
+margin_y = "800"
 template = "block-media-element"
 width = "25"
 [[collection_layout_builder]]
