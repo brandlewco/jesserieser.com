@@ -18,13 +18,13 @@ page_sections:
   text_alignment: left
   text_tracking: normal
   meta_align: left
-  color: "#D5C7EB"
-  meta: Kari Lake the Face of the New Maga Right
+  color: "#CDF0D6"
+  meta: 'Kari Lake: Face of the New Maga Right'
   attached_collection: collections/time-kari-lake.md
   text_color: "#FFD49B"
   font_weight: semibold
   image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-lake_covers-10.jpg
-  title: ''
+  title: TIME
 - template: block-media-row
   block: media-row
   row_alignment: ''
