@@ -383,6 +383,6 @@ margin_left = "15%"
 margin_right = "0%"
 margin_y = "100"
 template = "block-media-element"
-width = "66"
+width = "70"
 
 +++
