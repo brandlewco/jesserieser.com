@@ -24,7 +24,7 @@ row_alignment = "between"
 slug = "collections/time-lake"
 theme_color = "#CEFAE5"
 theme_color_all_works = ""
-title = "Time "
+title = "Time Magazine"
 [seo]
 meta_description = "Portraits of Arizona Governor Candidate Kari Lake"
 meta_title = "Time Kari Lake"
