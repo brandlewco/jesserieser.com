@@ -28,6 +28,18 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: ''
+- template: block-modal-blog
+  block: modal-blog
+  attached_blog: posts/Souvenirs From Paradise.md
+  text_size: 2xl
+  width: '30'
+  align_y: start
+  margin_y: '100'
+  margin_left: 5%
+  margin_right: 0%
+  block_aspect_ratio: ''
+  title: Souvenirs From Paradise Exhibgion
+  color: "#F3D7D7"
 - template: block-media-feature
   block: media-feature
   width: '55'
@@ -795,18 +807,6 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: between
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/Souvenirs From Paradise.md
-  text_size: 2xl
-  width: '33'
-  align_y: start
-  margin_y: '100'
-  margin_left: 0%
-  margin_right: 0%
-  block_aspect_ratio: ''
-  title: Souvenirs From Paradise Exhibgion
-  color: "#F3D7D7"
 home_theme_color: "#EDDDDE"
 collection_description: A student of subtleties.
 collection_content: ''
