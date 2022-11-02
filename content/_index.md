@@ -5,6 +5,31 @@ date: 2017-11-01T23:00:00.000+00:00
 page_sections:
 - template: block-media-feature
   block: media-feature
+  width: '33'
+  align_y: start
+  margin_y: '100'
+  margin_left: 10%
+  margin_right: 0%
+  title_margin_y: 35%
+  title_margin_left: 0%
+  title_margin_right: 0%
+  text_size: 8xl
+  line_height: normal
+  text_alignment: left
+  text_tracking: normal
+  meta_align: left
+  color: "#D5C7EB"
+  meta: Kari Lake the Face of the New Maga Right
+  attached_collection: collections/time-kari-lake.md
+  text_color: "#FFD49B"
+  font_weight: semibold
+  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-lake_covers-10.jpg
+  title: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
+- template: block-media-feature
+  block: media-feature
   width: '55'
   align_y: start
   margin_y: '100'
@@ -769,7 +794,7 @@ page_sections:
   text_size: ''
 - template: block-media-row
   block: media-row
-  row_alignment: ''
+  row_alignment: between
 home_theme_color: "#EDDDDE"
 collection_description: A student of subtleties.
 collection_content: ''
