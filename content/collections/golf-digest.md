@@ -10,7 +10,7 @@ collection_description_alignment = "center"
 collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_hidden = false
-collection_meta = "Cover: Bubba Watson Visits Your Home Course"
+collection_meta = "Bubba Watson Visits Your Home Course Cover Story"
 collection_meta_2 = ""
 collection_press = []
 collection_preview = ["https://d1sf55qlb7p6hz.cloudfront.net/golfdigest_4x3-1.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/golfdigest_4x3-2.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/golfdigest_4x3-3.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/golfdigest_4x3-4.jpg"]
@@ -25,6 +25,9 @@ slug = "collections/golf-digest-bubba"
 theme_color = "#FFCBBE"
 theme_color_all_works = "#E77B7B"
 title = "Golf Digest "
+[seo]
+meta_description = "Bubba Watson photographed in Scottsdale Arizona by west coast photographer Jesse Rieser "
+meta_title = "Photographs by Jesse Rieser of golf star Bubba Watson "
 [[collection_layout_builder]]
 align_x = "start"
 align_y = ""
