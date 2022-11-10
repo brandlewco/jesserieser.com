@@ -294,7 +294,7 @@ page_sections:
   margin_y: '300'
   margin_left: 10%
   margin_right: 0%
-  title_margin_y: 50%
+  title_margin_y: 55%
   title_margin_left: "-20%"
   title_margin_right: 0%
   text_size: 6xl
@@ -308,7 +308,7 @@ page_sections:
   title: "Gunsmoke, Mythology, and \n\nthe American Gundemic"
   meta: 2021 + 2022
   attached_collection: collections/gundemic.md
-  text_color: "#84D6E6"
+  text_color: "#A8EFFD"
 - template: block-media-feature
   block: media-feature
   width: '30'
