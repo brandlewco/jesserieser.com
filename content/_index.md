@@ -218,21 +218,21 @@ page_sections:
   margin_y: '300'
   margin_left: 20%
   margin_right: 0%
-  title_margin_y: 10%
-  title_margin_left: "-40%"
+  title_margin_y: 40%
+  title_margin_left: 20%
   title_margin_right: 0%
   text_size: 6xl
   line_height: normal
   text_alignment: left
   text_tracking: normal
   font_weight: semibold
-  meta_align: left
-  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-vox-guns-16.jpg
-  color: "#FAF2EA"
-  title: "Gunsmoke, Mythology, and \n\nthe American Gundemic"
-  meta: 2021 + 2022
-  attached_collection: collections/gundemic.md
-  text_color: "#FECAF6"
+  meta_align: right
+  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser_folklore-17.jpg
+  color: "#D0E5EF"
+  title: 'A Vanishing Folklore '
+  meta: 2012 - 2022
+  attached_collection: collections/vanishing-folklore.md
+  text_color: "#FF3939"
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/klompching-gallery-fresh.md
@@ -263,25 +263,27 @@ page_sections:
 - template: block-media-feature
   block: media-feature
   width: '50'
-  align_y: start
+  align_x: start
   margin_y: '400'
+  image: https://d1sf55qlb7p6hz.cloudfront.net/xmas-1.jpg
+  attached_collection: collections/xmas-in-america.md
+  title: Christmas in America
+  color: "#F4C8C8"
+  meta: 2010 -  2019
+  margin_x: ''
+  align_y: ''
   margin_left: 0%
   margin_right: 10%
-  title_margin_y: 40%
-  title_margin_left: 20%
-  title_margin_right: 0%
+  title_margin_left: 5%
+  title_margin_right: ''
+  meta_align: right
+  text_color: "#F7EE81"
   text_size: 6xl
-  line_height: normal
   text_alignment: left
   text_tracking: normal
   font_weight: semibold
-  meta_align: right
-  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser_folklore-17.jpg
-  color: "#D0E5EF"
-  title: 'A Vanishing Folklore '
-  meta: 2012 - 2022
-  attached_collection: collections/vanishing-folklore.md
-  text_color: "#FF3939"
+  line_height: none
+  title_margin_y: 15%
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -292,8 +294,8 @@ page_sections:
   margin_y: '300'
   margin_left: 10%
   margin_right: 0%
-  title_margin_y: 15%
-  title_margin_left: 5%
+  title_margin_y: 45%
+  title_margin_left: "-20%"
   title_margin_right: 0%
   text_size: 6xl
   line_height: normal
@@ -301,12 +303,12 @@ page_sections:
   text_tracking: normal
   font_weight: semibold
   meta_align: left
-  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-ghosttowns-31.jpg
-  color: "#F8E4D0"
-  title: Vox's 100 Battles
-  meta: Summoning the Ghost Town
-  attached_collection: collections/vox-100-battles-ghost-towns.md
-  text_color: "#A5F48A"
+  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-vox-guns-16.jpg
+  color: "#FAF2EA"
+  title: "Gunsmoke, Mythology, and \n\nthe American Gundemic"
+  meta: 2021 + 2022
+  attached_collection: collections/gundemic.md
+  text_color: "#A9ECEE"
 - template: block-media-feature
   block: media-feature
   width: '30'
@@ -347,27 +349,25 @@ page_sections:
 - template: block-media-feature
   block: media-feature
   width: '50'
-  align_x: start
+  align_y: start
   margin_y: '400'
-  image: https://d1sf55qlb7p6hz.cloudfront.net/xmas-1.jpg
-  attached_collection: collections/xmas-in-america.md
-  title: Christmas in America
-  color: "#F4C8C8"
-  meta: 2010 -  2019
-  margin_x: ''
-  align_y: ''
   margin_left: 0%
   margin_right: 15%
+  title_margin_y: 15%
   title_margin_left: 5%
-  title_margin_right: ''
-  meta_align: right
-  text_color: "#F7EE81"
+  title_margin_right: 0%
   text_size: 6xl
+  line_height: normal
   text_alignment: left
   text_tracking: normal
   font_weight: semibold
-  line_height: none
-  title_margin_y: 15%
+  meta_align: left
+  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-ghosttowns-31.jpg
+  color: "#F8E4D0"
+  title: Vox's 100 Battles
+  meta: Summoning the Ghost Town
+  attached_collection: collections/vox-100-battles-ghost-towns.md
+  text_color: "#A5F48A"
 - template: block-media-row
   block: media-row
   row_alignment: between
