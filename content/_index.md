@@ -32,10 +32,10 @@ page_sections:
   block: modal-blog
   attached_blog: posts/Souvenirs From Paradise.md
   text_size: 2xl
-  width: '30'
+  width: '33'
   align_y: start
   margin_y: '100'
-  margin_left: 5%
+  margin_left: 0%
   margin_right: 0%
   block_aspect_ratio: ''
   title: Souvenirs From Paradise Exhibgion
@@ -44,7 +44,7 @@ page_sections:
   block: media-feature
   width: '55'
   align_y: start
-  margin_y: '300'
+  margin_y: '400'
   margin_left: 0%
   margin_right: 5%
   title_margin_y: 15%
