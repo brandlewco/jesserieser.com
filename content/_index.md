@@ -17,7 +17,7 @@ page_sections:
   line_height: normal
   text_alignment: left
   text_tracking: normal
-  meta_align: left
+  meta_align: right
   color: "#CDF0D6"
   meta: 'Kari Lake: Face of the New Maga Right'
   attached_collection: collections/time-kari-lake.md
