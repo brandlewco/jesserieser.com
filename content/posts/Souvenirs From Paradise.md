@@ -16,7 +16,7 @@ meta_description = "36 Images on Display from A Vanishing Folklore and The Chang
 meta_title = "Souvenirs From Paradise at the Gallery at Mountain Shadows"
 [[blog_slider]]
 block = "media-motion-id"
-show_controls = false
+show_controls = true
 template = "block-media-motion-id"
 vimeo_id = 769252337
 [[blog_slider]]
