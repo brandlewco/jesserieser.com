@@ -1034,6 +1034,25 @@ page_sections:
   font_weight: ''
   meta_align: right
   modal_color: "#D5E3F6"
+- template: block-media-text
+  block: media-text
+  text_size: 2xl
+  text_alignment: left
+  text_tracking: normal
+  font_weight: []
+  width: '50'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  text: ''
+  background_color: ''
+  background_image_toggle: false
+  image: ''
+  text_color: ''
+  parallax: false
+  image_css: ''
+  caption_css: ''
 header_col_1_title: |-
   Advertising & Editorial
 
@@ -1102,8 +1121,9 @@ cv: https://s3.us-east-2.amazonaws.com/jesserieserphoto.brandlew.co/202007_cv-je
 about_bio_doodle_credit: Portrait by © Lapo
 cv_color: "#FF5858"
 seo:
-  meta_title: ''
-  meta_description: ''
+  meta_title: 'Photographer Jesse Rieser''s Bio and Information '
+  meta_description: 'Awards, Exhibitions, and Biography of West Coast Photographic
+    Artist Jesse Rieser '
 
 ---
 ## Click the collections link above to preview collections.
