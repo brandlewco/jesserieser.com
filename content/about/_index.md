@@ -1083,6 +1083,8 @@ footer_links:
   link_url: https://www.behance.net/jesserieser
 - link_title: 'Gallery Stock '
   link_url: https://www.gallerystock.com/CS.aspx?VP3=SearchResult&VBID=2P0UBHSGBWW77&SMLS=1&RW=1852&RH=1237
+- link_title: Production Paradise
+  link_url: https://www.productionparadise.com/member/los_angeles/jesse-rieser.html
 - link_title: LensCulture
   link_url: https://www.lensculture.com/jesse-rieser
 - link_title: Facebook
