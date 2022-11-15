@@ -1034,25 +1034,6 @@ page_sections:
   font_weight: ''
   meta_align: right
   modal_color: "#D5E3F6"
-- template: block-media-text
-  block: media-text
-  text_size: 2xl
-  text_alignment: left
-  text_tracking: normal
-  font_weight: []
-  width: '50'
-  align_y: start
-  margin_y: '50'
-  margin_left: 0%
-  margin_right: 0%
-  text: ''
-  background_color: ''
-  background_image_toggle: false
-  image: ''
-  text_color: ''
-  parallax: false
-  image_css: ''
-  caption_css: ''
 header_col_1_title: |-
   Advertising & Editorial
 
@@ -1088,8 +1069,8 @@ about_bio_image: https://d1sf55qlb7p6hz.cloudfront.net/bio_final-3.jpg
 footer_links:
 - link_title: Instagram
   link_url: https://www.instagram.com/jesserieser/
-- link_title: Behance
-  link_url: https://www.behance.net/jesserieser
+- link_title: Twitter
+  link_url: https://twitter.com/jesserieser
 - link_title: Anderson Hopkins
   link_url: https://www.andersonhopkins.com/artists/118/Jesse-Rieser/images/680/Overview
 - link_title: Le Book
@@ -1098,18 +1079,16 @@ footer_links:
   link_url: https://theagents.club/jesse-rieser/
 - link_title: LinkedIn
   link_url: https://www.linkedin.com/in/jesserieser/
-- link_title: Tumblr
-  link_url: https://artfairkegger.tumblr.com
+- link_title: Behance
+  link_url: https://www.behance.net/jesserieser
 - link_title: 'Gallery Stock '
   link_url: https://www.gallerystock.com/CS.aspx?VP3=SearchResult&VBID=2P0UBHSGBWW77&SMLS=1&RW=1852&RH=1237
 - link_title: LensCulture
   link_url: https://www.lensculture.com/jesse-rieser
-- link_title: Working NotWorking
-  link_url: https://workingnotworking.com/6282-jesse
 - link_title: Facebook
   link_url: https://www.facebook.com/jesse.rieser
-- link_title: Twitter
-  link_url: https://twitter.com/jesserieser
+- link_title: Working NotWorking
+  link_url: https://workingnotworking.com/6282-jesse
 - link_title: Photo Politic
   link_url: https://photopolitic.com/member/jessie-rieser/
 - link_title: Art Photo Index
