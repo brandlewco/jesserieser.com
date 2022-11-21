@@ -120,7 +120,7 @@ block = "media-row-static"
 template = "block-media-row-static"
 [[blog_slider]]
 block = "media-motion-id"
-show_controls = true
+show_controls = false
 template = "block-media-motion-id"
 vimeo_id = 769252337
 [[blog_slider]]
