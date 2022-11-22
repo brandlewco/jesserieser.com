@@ -250,6 +250,120 @@ caption = ""
 image = "https://d1sf55qlb7p6hz.cloudfront.net/souvenirs-18.jpg"
 template = "block-media-element-static"
 width = "33"
+[[blog_builder]]
+block = "media-row-static"
+template = "block-media-row-static"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = "https://d1sf55qlb7p6hz.cloudfront.net/souvenirs-19.jpg"
+template = "block-media-element-static"
+width = "25"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = "https://d1sf55qlb7p6hz.cloudfront.net/souvenirs-21.jpg"
+template = "block-media-element-static"
+width = "25"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = "https://d1sf55qlb7p6hz.cloudfront.net/souvenirs-22.jpg"
+template = "block-media-element-static"
+width = "25"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = "https://d1sf55qlb7p6hz.cloudfront.net/souvenirs-20.jpg"
+template = "block-media-element-static"
+width = "25"
+[[blog_builder]]
+block = "media-row-static"
+template = "block-media-row-static"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = "https://d1sf55qlb7p6hz.cloudfront.net/souvenirs-23.jpg"
+template = "block-media-element-static"
+width = "33"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = "https://d1sf55qlb7p6hz.cloudfront.net/souvenirs-24.jpg"
+template = "block-media-element-static"
+width = "66"
+[[blog_builder]]
+block = "media-row-static"
+template = "block-media-row-static"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = "https://d1sf55qlb7p6hz.cloudfront.net/souvenirs-25.jpg"
+template = "block-media-element-static"
+width = "25"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = "https://d1sf55qlb7p6hz.cloudfront.net/souvenirs-26.jpg"
+template = "block-media-element-static"
+width = "25"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = "https://d1sf55qlb7p6hz.cloudfront.net/souvenirs-27.jpg"
+template = "block-media-element-static"
+width = "25"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = "https://d1sf55qlb7p6hz.cloudfront.net/souvenirs-28.jpg"
+template = "block-media-element-static"
+width = "25"
+[[blog_builder]]
+block = "media-row-static"
+template = "block-media-row-static"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = "https://d1sf55qlb7p6hz.cloudfront.net/souvenirs-29.jpg"
+template = "block-media-element-static"
+width = "50"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = "https://d1sf55qlb7p6hz.cloudfront.net/souvenirs-30.jpg"
+template = "block-media-element-static"
+width = "50"
+[[blog_builder]]
+block = "media-row-static"
+template = "block-media-row-static"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = "https://d1sf55qlb7p6hz.cloudfront.net/souvenirs-31.jpg"
+template = "block-media-element-static"
+width = "33"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = "https://d1sf55qlb7p6hz.cloudfront.net/souvenirs-32.jpg"
+template = "block-media-element-static"
+width = "33"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = "https://d1sf55qlb7p6hz.cloudfront.net/souvenirs-33.jpg"
+template = "block-media-element-static"
+width = "33"
+[[blog_builder]]
+block = "media-row-static"
+template = "block-media-row-static"
+[[blog_builder]]
+block = "media-element-static"
+caption = ""
+image = "https://d1sf55qlb7p6hz.cloudfront.net/souvenirs-34.jpg"
+template = "block-media-element-static"
+width = "100"
 [[blog_slider]]
 block = "media-motion-id"
 show_controls = false
