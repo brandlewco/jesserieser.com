@@ -7,10 +7,10 @@ blog_builder = []
 blog_header = ""
 blog_slider = []
 caption = ""
-content = "Click below to request a pdf"
+content = "Info About Requesting Apple Gallery"
 date = ""
 news_category = ["exhibition"]
-theme_color = ""
+theme_color = "#000000"
 title = "Apple Test Post"
 [seo]
 meta_description = "Apple Meta"
