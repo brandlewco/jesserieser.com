@@ -1,6 +1,6 @@
 +++
 attached_collection = ""
-attached_link = "mailto:jesse@jesserieser.com?subject=Testing out mailto!"
+attached_link = ""
 attached_link_text = "Email For Work"
 block_aspect_ratio = "ratio-1x1"
 blog_block_cover = "https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__adidas.png"

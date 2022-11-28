@@ -30,6 +30,18 @@ page_sections:
   row_alignment: ''
 - template: block-modal-blog
   block: modal-blog
+  attached_blog: posts/apple-test-post.md
+  text_size: 2xl
+  width: '33'
+  align_y: start
+  margin_y: '100'
+  margin_left: 0%
+  margin_right: 0%
+  block_aspect_ratio: ''
+  title: Apple
+  color: "#F3D7D7"
+- template: block-modal-blog
+  block: modal-blog
   attached_blog: posts/Souvenirs From Paradise.md
   text_size: 2xl
   width: '33'
