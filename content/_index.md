@@ -28,18 +28,6 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: ''
-- template: block-modal-blog
-  block: modal-blog
-  attached_blog: posts/apple-work-title.md
-  text_size: 2xl
-  width: '25'
-  align_y: start
-  margin_y: '50'
-  margin_left: 25%
-  margin_right: 0%
-  block_aspect_ratio: 1x1
-  color: "#FFFFFF"
-  title: 'Apple Work'
 - template: block-media-row
   block: media-row
   row_alignment: ''
