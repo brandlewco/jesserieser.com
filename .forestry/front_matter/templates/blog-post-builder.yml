@@ -61,6 +61,12 @@ fields:
       format: markdown
   label: Attached Link
   description: link outside the site.
+- name: attached_link_text
+  type: text
+  config:
+    required: false
+  label: Attached Link Text
+  default: View Full Project
 - name: blog_block_cover
   type: file
   config:
