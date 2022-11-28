@@ -1,0 +1,23 @@
++++
+attached_collection = ""
+attached_link = ""
+attached_link_text = "View Full Project"
+block_aspect_ratio = "ratio-1x1"
+blog_block_cover = "https://d1sf55qlb7p6hz.cloudfront.net/213588.jpg"
+blog_builder = []
+blog_header = ""
+caption = "Apple Work Caption"
+content = "Info About Requesting Apple Gallery.  \n[Request Work](mailto:jesse@jesserieser.com?subject=Testing out mailto! \"Request Work >\")"
+date = ""
+news_category = ["exhibition"]
+theme_color = "#000000"
+title = "Apple Work Title"
+[seo]
+meta_description = "Apple Post Meta"
+meta_title = "Apple Post Title"
+[[blog_slider]]
+block = "media-element-url"
+image = "https://d1sf55qlb7p6hz.cloudfront.net/2022-08_horizontal-covers-12.jpg"
+template = "block-media-element-url"
+
++++
