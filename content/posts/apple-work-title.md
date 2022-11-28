@@ -7,7 +7,7 @@ blog_block_cover = "https://d1sf55qlb7p6hz.cloudfront.net/213588.jpg"
 blog_builder = []
 blog_header = ""
 caption = "Apple Work Caption"
-content = "Info About Requesting Apple Gallery.  \n[Request Work](mailto:jesse@jesserieser.com?subject=Testing out mailto! \"Request Work >\")"
+content = "Info About Requesting Apple Gallery."
 date = ""
 news_category = ["exhibition"]
 theme_color = "#FFFFFF"
