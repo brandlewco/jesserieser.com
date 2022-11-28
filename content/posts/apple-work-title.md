@@ -10,7 +10,7 @@ caption = "Apple Work Caption"
 content = "Info About Requesting Apple Gallery.  \n[Request Work](mailto:jesse@jesserieser.com?subject=Testing out mailto! \"Request Work >\")"
 date = ""
 news_category = ["exhibition"]
-theme_color = "#000000"
+theme_color = "#FFFFFF"
 title = "Apple Work Title"
 [seo]
 meta_description = "Apple Post Meta"
