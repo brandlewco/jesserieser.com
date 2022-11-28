@@ -7,7 +7,7 @@ blog_block_cover = "https://d1sf55qlb7p6hz.cloudfront.net/logo_vectors_v3__adida
 blog_builder = []
 blog_header = ""
 caption = ""
-content = "Info About Requesting Apple Gallery"
+content = "Info About Requesting Apple Gallery.  \n[Request Work](mailto:jesse@jesserieser.com?subject=Testing out mailto!)"
 date = ""
 news_category = ["exhibition"]
 theme_color = "#000000"
