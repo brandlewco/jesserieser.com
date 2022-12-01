@@ -9,19 +9,7 @@ fields:
     required: false
   label: block
   hidden: true
-  default: modal-blog
-- name: attached_blog
-  type: select
-  default: posts/test-blog-posts.md
-  config:
-    required: true
-    options: []
-    source:
-      type: pages
-      section: blog-posts
-      file: 
-      path: 
-  label: Attached Blog
+  default: media-link
 - name: block_aspect_ratio
   type: select
   default: ''
