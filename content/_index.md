@@ -820,8 +820,8 @@ page_sections:
   margin_right: 0%
   media: https://d1sf55qlb7p6hz.cloudfront.net/213588.jpg
   title: Apple Work Title
-  link: mailto:jesse@jessreiser.com
-  color: "#9B9B9B"
+  link: mailto:jesse@jesserieser.com?subject=I'd%20Like%20To%20See%20Your%20Work%20With%20Apple&body=Simply%20send%20this%20message%20and%20I'll%20send%20you%20a%20direct%20link%20to%20my%20exclusive%20work%20with%20Apple.
+  color: "#000000"
   block_aspect_ratio: ''
   text_color: "#FFFFFF"
 home_theme_color: "#EDDDDE"
