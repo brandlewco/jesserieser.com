@@ -823,6 +823,7 @@ page_sections:
   link: mailto:jesse@jessreiser.com
   color: "#9B9B9B"
   block_aspect_ratio: ''
+  text_color: "#FFFFFF"
 home_theme_color: "#EDDDDE"
 collection_description: A student of subtleties.
 collection_content: ''
