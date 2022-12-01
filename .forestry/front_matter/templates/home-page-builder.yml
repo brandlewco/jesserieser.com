@@ -104,5 +104,6 @@ fields:
   - block-modal-blog
   - block-media-text
   - block-media-row
+  - block-media-link
 pages:
 - content/_index.md
