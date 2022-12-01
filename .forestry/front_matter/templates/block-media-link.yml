@@ -73,9 +73,15 @@ fields:
 - type: color
   config:
     color_format: Hex
-  label: Color
+  label: Background Color
   name: color
   description: Background color show on image hover
+- name: text_color
+  type: color
+  label: Text Color
+  config:
+    required: false
+    color_format: Hex
 - type: select
   name: width
   config:
