@@ -810,6 +810,19 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: between
+- template: block-media-link
+  block: media-link
+  text_size: 2xl
+  width: '33'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  media: https://d1sf55qlb7p6hz.cloudfront.net/213588.jpg
+  title: Apple Work Title
+  link: mailto:jesse@jessreiser.com
+  color: "#FFFFFF"
+  block_aspect_ratio: ''
 home_theme_color: "#EDDDDE"
 collection_description: A student of subtleties.
 collection_content: ''
