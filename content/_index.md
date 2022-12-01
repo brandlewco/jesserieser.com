@@ -821,7 +821,7 @@ page_sections:
   media: https://d1sf55qlb7p6hz.cloudfront.net/213588.jpg
   title: Apple Work Title
   link: mailto:jesse@jessreiser.com
-  color: "#FFFFFF"
+  color: "#9B9B9B"
   block_aspect_ratio: ''
 home_theme_color: "#EDDDDE"
 collection_description: A student of subtleties.
