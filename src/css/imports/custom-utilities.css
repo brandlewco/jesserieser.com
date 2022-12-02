@@ -46,7 +46,7 @@ h3 p {
   @apply mb-0 !important;
 }
 
-body.page-jesse-rieser .menu .nav-selected, body.page-collections .menu .nav-collections, body.page-say-hello .menu .nav-about, body.page-shop .menu .nav-shop{
+body.page-jesse-rieser .menu .nav-selected, body.page-collections .menu .nav-collections, body.page-say-hello .menu .nav-about, body.page-shop .menu .nav-shop, body.page-jesse-rieser-all-work-portfolio .menu .nav-collections {
   @apply font-medium tracking-widest;
 }
 
@@ -505,15 +505,15 @@ figcaption p {
 }
 
 @media (pointer: fine) {
-  .figure.dimmed img {
+  .figure.dimmed img,   .figure.dimmed iframe {
     opacity: 0 !important;
   }
 
-  .figure.dimmed:hover img  {
+  .figure.dimmed:hover img, .figure.dimmed:hover iframe  {
     opacity: 1 !important;
   }
 
-  .figure.figure-blog-cover.dimmed img {
+  .figure.figure-blog-cover.dimmed img, .figure.figure-blog-cover.dimmed iframe {
     opacity: 0;
   }
 
@@ -521,7 +521,7 @@ figcaption p {
     opacity: 1;
   }
 
-  .figure.figure-blog-cover.dimmed:hover img {
+  .figure.figure-blog-cover.dimmed:hover img,  .figure.figure-blog-cover.dimmed:hover iframe {
     opacity: 0 !important;
   }
 

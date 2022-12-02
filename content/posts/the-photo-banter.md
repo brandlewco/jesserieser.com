@@ -11,7 +11,6 @@ date = ""
 news_category = ["press"]
 theme_color = "#FFD595"
 title = "The Photo Banter"
-vimeo_block_cover = nil
 [seo]
 meta_description = "Watch this podcast interview with Jesse Rieser for Photo Banter. "
 meta_title = "Jesse Rieser Photo Banter Podcast Interview"
