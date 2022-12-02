@@ -1,7 +1,7 @@
 +++
 attached_collection = ""
 attached_link = ""
-block_aspect_ratio = "ratio-16x9"
+block_aspect_ratio = "ratio-1x1"
 blog_block_cover = "https://d1sf55qlb7p6hz.cloudfront.net/photobanter_JR_copy.jpg"
 blog_builder = []
 blog_header = ""
@@ -11,7 +11,7 @@ date = ""
 news_category = ["press"]
 theme_color = "#FFD595"
 title = "The Photo Banter"
-vimeo_block_cover = 523950651
+vimeo_block_cover = nil
 [seo]
 meta_description = "Watch this podcast interview with Jesse Rieser for Photo Banter. "
 meta_title = "Jesse Rieser Photo Banter Podcast Interview"
