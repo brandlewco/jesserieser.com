@@ -66,11 +66,6 @@ fields:
   config:
     maxSize: 64
   label: Blog Block Cover
-- name: vimeo_block_cover
-  type: include
-  config: {}
-  template: block-media-motion
-  label: Vimeo Block Cover
 - name: block_aspect_ratio
   type: select
   default: []
@@ -94,6 +89,16 @@ fields:
       file: 
       path: 
   label: Blog Block Aspect Ratio
+- name: vimeo_block_cover
+  type: number
+  label: Vimeo Block Cover
+  description: Vimeo Video ID
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 - name: blog_slider
   type: blocks
   label: Blog Slider
