@@ -11,9 +11,10 @@ date = ""
 news_category = ["press"]
 theme_color = "#FFD595"
 title = "The Photo Banter"
+vimeo_block_cover = 523950651
 [seo]
-meta_description = ""
-meta_title = ""
+meta_description = "Watch this podcast interview with Jesse Rieser for Photo Banter. "
+meta_title = "Jesse Rieser Photo Banter Podcast Interview"
 [[blog_slider]]
 block = "media-motion-id"
 show_controls = true
