@@ -1,7 +1,7 @@
 +++
 attached_collection = ""
 attached_link = ""
-block_aspect_ratio = "ratio-1x1"
+block_aspect_ratio = "ratio-16x9"
 blog_block_cover = "https://d1sf55qlb7p6hz.cloudfront.net/photobanter_JR_copy.jpg"
 blog_builder = []
 blog_header = ""
