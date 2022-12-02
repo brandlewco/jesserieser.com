@@ -507,12 +507,6 @@ function init() {
   }
   removeActive();
   
-  //pause video
-  var iframe = document.querySelector('iframe');
-  var player = new Vimeo.Player(iframe);
-  function pause() {
-    player.pause();
-  }
   // Modal
   const modalTriggers = document.querySelectorAll(".popup-trigger");
   modalTriggers.forEach((trigger) => {
@@ -568,7 +562,7 @@ function init() {
       popupModal.classList.remove("is--visible");
       
       // search for all video and pause
-      document.querySelectorAll("iframe").forEach((iframe) => {
+      document.querySelectorAll(".modal-video").forEach((iframe) => {
         var player = new Vimeo.Player(iframe);
         player.pause();
       });
