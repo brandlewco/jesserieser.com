@@ -1,7 +1,7 @@
 +++
 attached_collection = "collections/vanishing-folklore.md"
 attached_link = ""
-block_aspect_ratio = "ratio-4x3"
+block_aspect_ratio = "ratio-16x9"
 blog_block_cover = "https://d1sf55qlb7p6hz.cloudfront.net/SOP_ClosingInvite.jpg"
 blog_header = ""
 caption = "The Gallery at Mountain Shadows"
@@ -10,6 +10,7 @@ date = ""
 news_category = ["exhibition"]
 theme_color = "#F6E7D1"
 title = "Souvenirs From Paradise Exhibition "
+vimeo_block_cover = 769252337
 [seo]
 meta_description = "36 Images on Display from A Vanishing Folklore and The Changing Landscape of American Retail"
 meta_title = "Souvenirs From Paradise at the Gallery at Mountain Shadows"
