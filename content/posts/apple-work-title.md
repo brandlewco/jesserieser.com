@@ -12,7 +12,7 @@ date = ""
 news_category = []
 theme_color = "#FFFFFF"
 title = "Apple Work Title"
-vimeo_block_cover = nil
+vimeo_block_cover = ''
 [seo]
 meta_description = "Apple Post Meta"
 meta_title = "Apple Post Title"
