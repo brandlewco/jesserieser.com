@@ -810,6 +810,20 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: between
+- template: block-media-link
+  block: media-link
+  text_size: 2xl
+  width: '33'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  block_aspect_ratio: ''
+  media: ''
+  title: ''
+  link: ''
+  color: ''
+  text_color: ''
 home_theme_color: "#EDDDDE"
 collection_description: A student of subtleties.
 collection_content: ''
