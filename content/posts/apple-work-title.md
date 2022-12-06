@@ -9,9 +9,10 @@ blog_header = ""
 caption = "Apple Work Caption"
 content = "Info About Requesting Apple Gallery.\n\n[Request Gallery](mailto:jesse@jesserieser.com?subject=test)"
 date = ""
-news_category = ["exhibition"]
+news_category = []
 theme_color = "#FFFFFF"
 title = "Apple Work Title"
+vimeo_block_cover = nil
 [seo]
 meta_description = "Apple Post Meta"
 meta_title = "Apple Post Title"
