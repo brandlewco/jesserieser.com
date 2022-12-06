@@ -77,7 +77,7 @@
     "@swup/preload-plugin": "^1.0.3",
     "@swup/scripts-plugin": "^1.1.0",
     "@swup/scroll-plugin": "^1.0.6",
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.27.10",
     "flickity": "^2.2.1",
     "gulp": "^4.0.2",
     "imagesloaded": "^4.1.4",
