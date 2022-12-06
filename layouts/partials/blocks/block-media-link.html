@@ -1,6 +1,6 @@
 <section class="figure figure-blog-cover block-hover lg:meta-hover  block-hover self-start {{with .Section.align_y}}sm:self-{{.}}{{end}} w-full {{with .Section.width}}sm:w-{{.}}/100{{end}} py-4 sm:py-0 mt-0 {{with .Section.margin_y}}sm:mt-{{.}}{{end}} ml-0 {{with .Section.margin_left}}sm:ml-{{.}}{{end}} mr-0 {{with .Section.margin_right}}sm:mr-{{.}}{{end}} highlight rellax-wrapper">
   <div class="rellax"  data-rellax-speed="2" data-rellax-xs-speed="0" >
-  <a target="_top" href="{{.Section.link}}" id="blog-{{.Section.title | lower | urlize}}" class=" relative w-full flex flex-col h-auto sm:h-0 justify-between items-start items-center overflow-hidden {{with .Section.block_aspect_ratio }}{{.}}{{else}}sm:aspect-ratio-4/3{{end}}" style="background-color: {{.Section.color}}" data-no-swup>
+  <a target="_top" href="{{.Section.link}}" id="blog-{{.Section.title | lower | urlize}}" class=" relative w-full flex flex-col h-auto sm:h-0 justify-between items-start items-center overflow-hidden {{with .Section.block_aspect_ratio }}ratio-{{.}}{{else}}sm:ratio-1/1{{end}}" style="background-color: {{.Section.color}}" data-no-swup>
     {{if .Section.media }}
       <img 
       data-sizes="auto"
@@ -14,7 +14,7 @@
     {{end}}
     <div class="absolute top-0 left-0 h-full w-full flex flex-col justify-center p-4 sm:p-2">
         <h1 class="text-lg {{with .Section.text_size}}lg:text-{{.}}{{else}}lg:text-2xl{{end}} opacity-100 lg:opacity-0 font-bold text-center tracking-widest" style="{{with .Section.text_color}}color:{{.}};{{else}}color:#000000{{end}}">{{.Section.title}}</h1>
-        <h2 class="text-base opacity-100 lg:opacity-0 font-semibold text-center tracking-widest">{{.Section.meta}}</h2>
+        <h2 class="text-base opacity-100 lg:opacity-0 font-semibold text-center tracking-widest"  style="{{with .Section.text_color}}color:{{.}};{{else}}color:#000000{{end}}">{{.Section.meta}}</h2>
     </div>
   </a>
   </div>
