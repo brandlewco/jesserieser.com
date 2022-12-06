@@ -33,7 +33,7 @@ fields:
       file: 
       path: 
   label: Block Aspect Ratio
-  hidden: true
+  hidden: false
 - name: media
   type: file
   config:
@@ -44,6 +44,11 @@ fields:
   config:
     required: false
   label: Title
+- name: meta
+  type: text
+  config:
+    required: false
+  label: Meta Title
 - name: link
   type: text
   config:
