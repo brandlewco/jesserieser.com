@@ -27,6 +27,7 @@ fields:
     - 2x3
     - 3x2
     - 1x2
+    - 1x1
     source:
       type: simple
       section: 
