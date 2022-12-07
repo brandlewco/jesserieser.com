@@ -43,8 +43,8 @@ fields:
   config:
     required: false
     options:
-    - 8.5:11
-    - 11x8.5
+    - 8-5:11
+    - 11x8-5
     - 9x16
     - 16x9
     - 5x4
