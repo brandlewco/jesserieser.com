@@ -67,6 +67,24 @@ page_sections:
   text_color: "#FFE9D8"
 - template: block-media-row
   block: media-row
+  row_alignment: between
+- template: block-media-link
+  block: media-link
+  text_size: lg
+  width: '33'
+  align_y: start
+  margin_y: '100'
+  margin_left: 25%
+  margin_right: 0%
+  block_aspect_ratio: 3x2
+  media: https://d1sf55qlb7p6hz.cloudfront.net/Untitled-1.jpg
+  title: 'Request a Pdf '
+  link: mailto:jesse@jesserieser.com?subject=Apple%20Work%20&body=Hello%2C%20%0AI%20am%20interested%20in%20receiving%20a%20pdf%20of%20the%20work%20you%20executed%20for%20Apple's%20Silver%20Sneakers%20Apple%20Fitness%20%2B%20campaign.%0A%0AThank%20you%2C%0A
+  color: "#FFC8C8"
+  text_color: "#FFFFFF"
+  meta: 'Silver Sneakers & Apple Fitness + '
+- template: block-media-row
+  block: media-row
   row_alignment: ''
 - template: block-media-feature
   block: media-feature
@@ -545,7 +563,7 @@ page_sections:
   color: "#F9B0B0"
 - template: block-media-row
   block: media-row
-  row_alignment: between
+  row_alignment: ''
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/ap-37-american-photography-annual.md
@@ -619,7 +637,7 @@ page_sections:
   text_color: "#F270F1"
 - template: block-media-row
   block: media-row
-  row_alignment: ''
+  row_alignment: between
 - template: block-modal-blog
   block: modal-blog
   attached_blog: posts/sunset-spot.md
@@ -810,21 +828,6 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: between
-- template: block-media-link
-  block: media-link
-  text_size: 2xl
-  width: '33'
-  align_y: start
-  margin_y: '100'
-  margin_left: 0%
-  margin_right: 0%
-  block_aspect_ratio: 3x2
-  media: https://d1sf55qlb7p6hz.cloudfront.net/Untitled-1.jpg
-  title: 'Request a Pdf '
-  link: mailto:jesse@jesserieser.com?subject=Apple%20Work%20&body=Hello%2C%20%0AI%20am%20interested%20in%20receiving%20a%20pdf%20of%20the%20work%20you%20executed%20for%20Apple's%20Silver%20Sneakers%20Apple%20Fitness%20%2B%20campaign.%0A%0AThank%20you%2C%0A
-  color: "#FFC8C8"
-  text_color: "#FFFFFF"
-  meta: 'Silver Sneakers & Apple Fitness + '
 home_theme_color: "#EDDDDE"
 collection_description: A student of subtleties.
 collection_content: ''
