@@ -70,7 +70,7 @@ page_sections:
   row_alignment: between
 - template: block-media-link
   block: media-link
-  text_size: lg
+  text_size: 2xl
   width: '33'
   align_y: start
   margin_y: '100'
