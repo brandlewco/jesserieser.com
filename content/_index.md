@@ -80,7 +80,7 @@ page_sections:
   media: https://d1sf55qlb7p6hz.cloudfront.net/Untitled-1.jpg
   title: 'Request a Pdf '
   link: mailto:jesse@jesserieser.com?subject=Apple%20Work%20&body=Hello%2C%20%0AI%20am%20interested%20in%20receiving%20a%20pdf%20of%20the%20work%20you%20executed%20for%20Apple's%20Silver%20Sneakers%20Apple%20Fitness%20%2B%20campaign.%0A%0AThank%20you%2C%0A
-  color: "#FFC8C8"
+  color: "#000000"
   text_color: "#FFFFFF"
   meta: 'Silver Sneakers & Apple Fitness + '
 - template: block-media-row
