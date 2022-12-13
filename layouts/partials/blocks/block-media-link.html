@@ -14,8 +14,9 @@
     {{end}}
     <div class="absolute top-0 left-0 h-full w-full flex flex-col justify-center p-4 sm:p-2">
         <h1 class="text-lg {{with .Section.text_size}}lg:text-{{.}}{{else}}lg:text-2xl{{end}} opacity-100 lg:opacity-0 font-bold text-center tracking-widest" style="{{with .Section.text_color}}color:{{.}};{{else}}color:#000000{{end}}">{{.Section.title}}</h1>
-        <h2 class="text-base opacity-100 lg:opacity-0 font-semibold text-center tracking-widest"  style="{{with .Section.text_color}}color:{{.}};{{else}}color:#000000{{end}}">{{.Section.meta}}</h2>
+        <!-- <h2 class="text-base opacity-100 lg:opacity-0 font-semibold text-center tracking-widest"  style="{{with .Section.text_color}}color:{{.}};{{else}}color:#000000{{end}}">{{.Section.meta}}</h2> -->
     </div>
   </a>
+  <h6 class="mb-0 ml-0 font-normal text-xs sm:text-base tracking-widest leading-tight mt-1 sm:mt-0 text-black" data-sal="slide-down" data-sal-delay="600">{{.Section.meta}}</h6>
   </div>
 </section>
