@@ -3,7 +3,7 @@
   <div class="rellax"  data-rellax-speed="2" data-rellax-xs-speed="0" >
   <button type="button" id="blog-{{$key.Params.title | lower | urlize}}" class="popup-trigger relative w-full flex flex-col h-auto sm:h-0 justify-between items-start items-center overflow-hidden {{with $key.Params.block_aspect_ratio }}{{.}}{{else}}sm:aspect-ratio-4/3{{end}}" data-blog-id="{{.id}}" style="background-color: {{$key.Params.theme_color}}" data-popup-trigger="blog-{{$key.Params.title | lower | urlize}}" name="View Blog - {{$key.Params.title}} - Jesse Rieser">
     {{ if $key.Params.vimeo_block_cover }}
-    <iframe src="https://player.vimeo.com/video/{{$key.Params.vimeo_block_cover}}?background=1" class="object-cover absolute p-2 inset-0 z-0 h-full w-full" frameborder="0" allow="autoplay"></iframe>
+    <iframe src="https://player.vimeo.com/video/{{$key.Params.vimeo_block_cover}}?background=1" class="object-cover absolute p-4 inset-0 z-0 h-full w-full" frameborder="0" allow="autoplay"></iframe>
     {{else}}
     {{ if $key.Params.blog_block_cover }}
       <img 
