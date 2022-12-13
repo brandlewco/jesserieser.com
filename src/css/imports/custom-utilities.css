@@ -42,6 +42,10 @@ p:empty {
   display: none !important;
 } */
 
+blockquote {
+  @apply border-l-2 border-gray-600 border-solid pl-4;
+}
+
 h3 p {
   @apply mb-0 !important;
 }
