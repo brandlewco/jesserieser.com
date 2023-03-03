@@ -1,0 +1,162 @@
++++
+collection_archive = false
+collection_awards = []
+collection_category = ["Advertising", "Color", "Lifestyle", "Sports + Athletes", "Portraits", "Advertising"]
+collection_content = ""
+collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/smartwater_cover-horizontal-1.jpg"
+collection_cover_mobile = "https://d1sf55qlb7p6hz.cloudfront.net/verticalcovers-42.jpg"
+collection_description = "Commissioned by Anomaly NY, I was asked to photographically compliment Smart Water’s sleek and simple aesthetic. Partially influenced by [**_The Changing Landscape of American Retail_** ](https://jesserieser.com/projects/changing-landscape-american-retail/)and [**_Phoenix: A Dystopian Legoland That Tastes Like Candy_**](https://jesserieser.com/projects/phoenix) by the way I utilize stark and minimal scenes to influence a subject’s actions and purpose, uniquely framing the subject.\n\nFeatured is the 2018 NBA Rookie of the Year, 2019 & 2020 NBA All Star and 2020 all NBA Defensive player Ben Simmons."
+collection_description_alignment = "left"
+collection_exhibition = []
+collection_filter = "Commissioned + Stock"
+collection_hidden = false
+collection_meta = "Featuring Ben Simmons For Anomaly NY"
+collection_meta_2 = ""
+collection_press = []
+collection_preview = ["https://d1sf55qlb7p6hz.cloudfront.net/smartwater-simmons_horizontal-4.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/smartwater-simmons_horizontal-1.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/smartwater-simmons_horizontal-2.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/smartwater-simmons_horizontal-3.jpg"]
+cover_image = ""
+date = 2020-12-08T04:13:30Z
+gumroad_id = ""
+hide_footer = true
+layout = "blocks"
+navigation_theme = "black"
+price = ""
+px_extra = true
+row_alignment = "between"
+sale = false
+slug = "collections/ben-simmons-smart-water"
+theme_color = "#FAEA72"
+theme_color_all_works = "#FFE767"
+title = "Smart Water: Essentialism "
+[seo]
+meta_description = ""
+meta_title = ""
+[[collection_layout_builder]]
+align_y = "start"
+block = "media-element"
+caption = ""
+color = "#D1E3EB"
+image = "https://d1sf55qlb7p6hz.cloudfront.net/smartwater-1.jpg"
+margin_left = "30%"
+margin_right = "0%"
+margin_y = "100"
+template = "block-media-element"
+width = "66"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_y = "start"
+block = "media-element"
+caption = ""
+color = "#E2DCDC"
+image = "https://d1sf55qlb7p6hz.cloudfront.net/smartwater-2.jpg"
+margin_left = "15%"
+margin_right = "0%"
+margin_y = "100"
+template = "block-media-element"
+width = "40"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_y = "start"
+block = "media-element"
+caption = ""
+color = "#D8E4F4"
+image = "https://d1sf55qlb7p6hz.cloudfront.net/smartwater-3.jpg"
+margin_left = "35%"
+margin_right = "0%"
+margin_y = "100"
+template = "block-media-element"
+width = "50"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_y = "start"
+block = "media-element"
+caption = ""
+color = "#D0CEE6"
+image = "https://d1sf55qlb7p6hz.cloudfront.net/smartwater-4.jpg"
+margin_left = "5%"
+margin_right = "0%"
+margin_y = "100"
+template = "block-media-element"
+width = "45"
+[[collection_layout_builder]]
+align_y = "start"
+block = "media-element"
+caption = ""
+color = "#FABDAB"
+image = "https://d1sf55qlb7p6hz.cloudfront.net/smartwater-5.jpg"
+margin_left = "0%"
+margin_right = "10%"
+margin_y = "600"
+template = "block-media-element"
+width = "33"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_y = "start"
+block = "media-element"
+caption = ""
+color = "#E3DCE9"
+image = "https://d1sf55qlb7p6hz.cloudfront.net/smartwater-simmons_horizontal-1.jpg"
+margin_left = "25%"
+margin_right = "0%"
+margin_y = "100"
+template = "block-media-element"
+width = "45"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_y = "start"
+block = "media-element"
+caption = ""
+color = "#EEECE1"
+image = "https://d1sf55qlb7p6hz.cloudfront.net/smartwater-7.jpg"
+margin_left = "10%"
+margin_right = "0%"
+margin_y = "200"
+template = "block-media-element"
+width = "50"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_y = "start"
+block = "media-element"
+caption = ""
+color = "#C0BFDC"
+image = "https://d1sf55qlb7p6hz.cloudfront.net/sw-8.jpg"
+margin_left = "45%"
+margin_right = "0%"
+margin_y = "100"
+template = "block-media-element"
+width = "33"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_y = "start"
+block = "media-element"
+caption = ""
+color = "#C4D8EB"
+image = "https://d1sf55qlb7p6hz.cloudfront.net/sw-10.jpg"
+margin_left = "0%"
+margin_right = "0%"
+margin_y = "100"
+template = "block-media-element"
+width = "75"
+
++++

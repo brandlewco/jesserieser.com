@@ -1,0 +1,135 @@
++++
+collection_archive = false
+collection_awards = []
+collection_category = ["Color", "Conceptual", "Environments"]
+collection_content = ""
+collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/2022-08_horizontal-covers-12.jpg"
+collection_cover_mobile = "https://d1sf55qlb7p6hz.cloudfront.net/2022-08_vertical-covers-10.jpg"
+collection_description = "A collection of images from a scouting exercise for a collaborative project with Shane Griffin."
+collection_description_alignment = "center"
+collection_exhibition = []
+collection_filter = "Personal"
+collection_hidden = false
+collection_meta = ""
+collection_meta_2 = ""
+collection_press = []
+collection_preview = ["https://d1sf55qlb7p6hz.cloudfront.net/4x3-valley-2.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/4x3-valley-1.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/4x3-valley-3.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/4x3-valley-4.jpg"]
+cover_image = ""
+date = 2022-07-21T01:25:32Z
+hide_footer = true
+layout = "blocks"
+navigation_theme = "white"
+px_extra = true
+row_alignment = "between"
+slug = "collections/valley"
+theme_color = "#F3CCCC"
+theme_color_all_works = ""
+title = "One Night In the Valley"
+[seo]
+meta_description = ""
+meta_title = ""
+[[collection_layout_builder]]
+align_x = "start"
+align_y = ""
+block = "media-element"
+caption = ""
+color = "#C2A282"
+image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-valley-1.jpg"
+margin_left = "25%"
+margin_right = ""
+margin_y = "100"
+template = "block-media-element"
+width = "60"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_x = "start"
+align_y = ""
+block = "media-element"
+caption = ""
+color = "#DFEBEF"
+image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-valley-2.jpg"
+margin_left = "15%"
+margin_right = ""
+margin_y = "500"
+template = "block-media-element"
+width = "33"
+[[collection_layout_builder]]
+align_y = "start"
+block = "media-element"
+caption = ""
+color = "#CDB882"
+image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-valley-3.jpg"
+margin_left = "0%"
+margin_right = "0%"
+margin_y = "100"
+template = "block-media-element"
+width = "33"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_x = "start"
+align_y = ""
+block = "media-element"
+caption = ""
+color = "#D8A6C7"
+image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-valley-4.jpg"
+margin_left = "5%"
+margin_right = ""
+margin_y = "100"
+template = "block-media-element"
+width = "20"
+[[collection_layout_builder]]
+align_x = "start"
+align_y = ""
+block = "media-element"
+caption = ""
+color = "#EEDDDD"
+image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-valley-5.jpg"
+margin_left = "0%"
+margin_right = "30%"
+margin_y = "300"
+template = "block-media-element"
+width = "40"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_x = "start"
+align_y = ""
+block = "media-element"
+caption = ""
+color = "#CFC78C"
+image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-valley-7.jpg"
+margin_left = "60%"
+margin_right = "0%"
+margin_y = "100"
+template = "block-media-element"
+width = "33"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+[[collection_layout_builder]]
+align_x = "start"
+align_y = ""
+block = "media-element"
+caption = ""
+color = "#F1B88C"
+image = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-valley-6.jpg"
+margin_left = "15%"
+margin_right = ""
+margin_y = "100"
+template = "block-media-element"
+width = "70"
+[[collection_layout_builder]]
+block = "media-row"
+row_alignment = "between"
+template = "block-media-row"
+
++++
