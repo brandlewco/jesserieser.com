@@ -10,8 +10,8 @@ collection_description_alignment = "center"
 collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_hidden = false
-collection_meta = "Collection Meta"
-collection_meta_2 = ""
+collection_meta = "The WM Phoenix Open:"
+collection_meta_2 = "A Wild Weeknd At the Most Outrageous Hole in Golf"
 collection_press = []
 collection_preview = ["https://d1sf55qlb7p6hz.cloudfront.net/mead-4x3-1.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/mead-4x3-3.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/mead-4x3-5.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/mead-4x3-6.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/mead-4x3-2.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/mead-4x3-4.jpg"]
 cover_image = ""
@@ -624,4 +624,5 @@ margin_right = ""
 margin_y = "100"
 template = "block-media-element"
 width = "70"
+
 +++
