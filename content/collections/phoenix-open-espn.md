@@ -169,7 +169,7 @@ color = "#CCE3FA"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/wm-phx-10.jpg"
 margin_left = "0%"
 margin_right = "5%"
-margin_y = "800"
+margin_y = "1000"
 template = "block-media-element"
 width = "33"
 [[collection_layout_builder]]
