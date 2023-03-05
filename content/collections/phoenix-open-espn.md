@@ -24,7 +24,7 @@ row_alignment = "between"
 slug = "collections/phoenix-open-espn"
 theme_color = "#FDCDCD"
 theme_color_all_works = ""
-title = "ESPN: Phoenix Open"
+title = "ESPN"
 [seo]
 meta_description = "Meta Description"
 meta_title = "Meta Title"
