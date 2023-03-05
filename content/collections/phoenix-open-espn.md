@@ -39,7 +39,7 @@ margin_left = "25%"
 margin_right = ""
 margin_y = "100"
 template = "block-media-element"
-width = "55"
+width = "60"
 [[collection_layout_builder]]
 block = "media-row"
 row_alignment = "between"
