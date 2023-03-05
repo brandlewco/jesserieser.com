@@ -453,7 +453,7 @@ color = "#DAF0D5"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/wm-phx-29.jpg"
 margin_left = "15%"
 margin_right = "0%"
-margin_y = "500"
+margin_y = "800"
 template = "block-media-element"
 width = "25"
 [[collection_layout_builder]]
