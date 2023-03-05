@@ -53,7 +53,7 @@ color = "#F0F3D4"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/wm-phx-2.jpg"
 margin_left = "5%"
 margin_right = "0%"
-margin_y = "300"
+margin_y = "500"
 template = "block-media-element"
 width = "40"
 [[collection_layout_builder]]
