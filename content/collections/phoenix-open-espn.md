@@ -1,10 +1,10 @@
 +++
 collection_archive = false
 collection_awards = []
-collection_category = ["Editorial", "Reportage", "Travel", "Reportage", "Climate Change", "Color", "Environments", "Portraits"]
+collection_category = ["Editorial", "Reportage", "Color", "Environments", "Portraits"]
 collection_content = ""
-collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/wm-phx-1.jpg"
-collection_cover_mobile = "https://d1sf55qlb7p6hz.cloudfront.net/vertical-covers-58.jpg"
+collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/wm_horizontal-1.jpg"
+collection_cover_mobile = "https://d1sf55qlb7p6hz.cloudfront.net/wm_vertical-1.jpg"
 collection_description = "The scarcity of fresh water is rapidly emerging as a global economic threat that could disrupt businesses, crimp profits, and jeopardize growth. \n\nThis photographic essay features the receding waters of Lake Mead while exploring how companies, regulators, and investors are starting to react."
 collection_description_alignment = "center"
 collection_exhibition = []
@@ -16,7 +16,7 @@ collection_press = []
 collection_preview = ["https://d1sf55qlb7p6hz.cloudfront.net/wm_4x3-2.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/wm_4x3-3.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/wm_4x3-4.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/wm_4x3-1.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/mead-4x3-1.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/mead-4x3-3.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/mead-4x3-5.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/mead-4x3-6.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/mead-4x3-2.jpg", "https://d1sf55qlb7p6hz.cloudfront.net/mead-4x3-4.jpg"]
 cover_image = ""
 date = 2022-10-17T16:25:38Z
-hide_footer = true
+hide_footer = false
 layout = "blocks"
 navigation_theme = "white"
 px_extra = true
