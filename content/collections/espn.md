@@ -17,6 +17,7 @@ collection_press = []
 collection_preview = []
 cover_image = ""
 date = 2023-03-03T21:38:06Z
+draft = true
 hide_footer = false
 layout = "blocks"
 navigation_theme = "white"
