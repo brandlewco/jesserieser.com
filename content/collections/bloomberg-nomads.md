@@ -540,6 +540,7 @@ width = "33"
 [[collection_layout_builder]]
 align_y = "start"
 block = "media-element"
+image = "https://d1sf55qlb7p6hz.cloudfront.net/nomadsb-1.jpg"
 margin_left = "0%"
 margin_right = "0%"
 margin_y = "50"
