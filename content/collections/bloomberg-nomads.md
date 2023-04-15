@@ -173,7 +173,7 @@ color = "#CCE3FA"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/nomads-10.jpg"
 margin_left = "0%"
 margin_right = "0%"
-margin_y = "1000"
+margin_y = "100"
 template = "block-media-element"
 width = "33"
 [[collection_layout_builder]]
