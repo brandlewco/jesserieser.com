@@ -16,10 +16,10 @@ collection_press = []
 collection_preview = []
 cover_image = ""
 date = 2023-04-12T16:05:37Z
-hide_footer = false
+hide_footer = true
 layout = "blocks"
 navigation_theme = "white"
-px_extra = false
+px_extra = true
 row_alignment = "between"
 slug = "collections/bloomberg-nomads"
 theme_color = "#F7D0D0"
@@ -109,18 +109,6 @@ align_x = "start"
 align_y = ""
 block = "media-element"
 caption = ""
-color = "#F3E1D4"
-image = "https://d1sf55qlb7p6hz.cloudfront.net/nomads-6.jpg"
-margin_left = "0%"
-margin_right = ""
-margin_y = "100"
-template = "block-media-element"
-width = "60"
-[[collection_layout_builder]]
-align_x = "start"
-align_y = ""
-block = "media-element"
-caption = ""
 color = "#F4DFE7"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/nomads-7.jpg"
 margin_left = "0%"
@@ -128,6 +116,18 @@ margin_right = "0%"
 margin_y = "300"
 template = "block-media-element"
 width = "33"
+[[collection_layout_builder]]
+align_x = "start"
+align_y = ""
+block = "media-element"
+caption = ""
+color = "#F3E1D4"
+image = "https://d1sf55qlb7p6hz.cloudfront.net/nomads-6.jpg"
+margin_left = "0%"
+margin_right = ""
+margin_y = "100"
+template = "block-media-element"
+width = "60"
 [[collection_layout_builder]]
 block = "media-row"
 row_alignment = "between"
@@ -528,14 +528,5 @@ template = "block-media-row"
 block = "media-row"
 row_alignment = "between"
 template = "block-media-row"
-[[collection_layout_builder]]
-align_y = "start"
-block = "media-element"
-image = "https://d1sf55qlb7p6hz.cloudfront.net/nomadsb-1.jpg"
-margin_left = "0%"
-margin_right = "0%"
-margin_y = "50"
-template = "block-media-element"
-width = "33"
 
 +++
