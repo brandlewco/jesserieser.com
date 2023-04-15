@@ -129,7 +129,7 @@ color = "#F3E1D4"
 image = "https://d1sf55qlb7p6hz.cloudfront.net/nomads-6.jpg"
 margin_left = "0%"
 margin_right = ""
-margin_y = "400"
+margin_y = "800"
 template = "block-media-element"
 width = "60"
 [[collection_layout_builder]]
