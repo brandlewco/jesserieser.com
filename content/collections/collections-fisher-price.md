@@ -1,5 +1,5 @@
 +++
-collection_archive = false
+collection_archive = true
 collection_category = ["Studio", "Kids", "Advertising", "Color", "Humor", "Still Life + Details", "Advertising", "Reportage", "Still Life + Details", "Environments", "Portraits"]
 collection_content = ""
 collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/wk_fisher-horizontalthumbs-1.jpg"
