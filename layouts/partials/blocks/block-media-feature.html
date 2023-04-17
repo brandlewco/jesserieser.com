@@ -9,7 +9,7 @@
 
 <article class="block-hover sm:meta-hover relative self-start {{with .Section.align_y}}sm:self-{{.}}{{end}} w-full {{with .Section.width}}sm:w-{{.}}/100{{end}} py-4 sm:py-0 mt-0 {{with .Section.margin_y}}sm:mt-{{.}}{{end}} ml-0 {{with .Section.margin_left}}sm:ml-{{.}}{{end}} mr-0 {{with .Section.margin_right}}sm:mr-{{.}}{{end}} highlight rellax-wrapper">
   <figure class="figure relative " style="background: {{with .Section.color}}{{.}}{{else}}{{.Page.Params.theme_color}}{{end}};" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" id="{{ $fileName }}" data-sal="image">
-    {{ with .Site.GetPage $attached }}
+    {{with .Section.attached_collection}}
       <a href="/{{.Params.slug | urlize}}" alt="View Collection - {{ .Params.title | markdownify}} - Jesse Rieser">
     {{end}}
         <img class="lazyload"
@@ -20,7 +20,7 @@
         {{ .Section.image }}?width=900 900w,
         {{ .Section.image }}?width=1200 1200w"
         alt="{{ .Section.caption | htmlUnescape }} - featured collection cover image"/>
-    {{with .Site.GetPage .Section.attached_collection}}
+        {{with .Section.attached_collection}}
       </a>
     {{end}}
     {{ if .Section.title }}
