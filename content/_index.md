@@ -8,8 +8,8 @@ page_sections:
   width: '45'
   align_y: start
   margin_y: '50'
-  margin_left: 0%
-  margin_right: 45%
+  margin_left: 45%
+  margin_right: 0%
   title_margin_y: 45%
   title_margin_left: 0%
   title_margin_right: 0%
