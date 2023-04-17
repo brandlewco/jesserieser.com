@@ -5,13 +5,13 @@ date: 2017-11-01T23:00:00.000+00:00
 page_sections:
 - template: block-media-feature
   block: media-feature
-  width: '50'
+  width: '45'
   align_y: start
   margin_y: '50'
   margin_left: 0%
   margin_right: 0%
   title_margin_y: 45%
-  title_margin_left: 0%
+  title_margin_left: 45%
   title_margin_right: 0%
   text_size: 8xl
   line_height: normal
@@ -20,7 +20,7 @@ page_sections:
   meta_align: left
   image: https://d1sf55qlb7p6hz.cloudfront.net/nomads-5.jpg
   color: "#D6BFE9"
-  title: BLOOMBERG GREEN
+  title: 'BLOOMBERG '
   meta: America's New Climate Nomads Embrace Van Life to Save Energy
   attached_collection: collections/bloomberg-nomads.md
   text_color: "#FFB1B1"
