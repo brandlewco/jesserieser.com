@@ -10,8 +10,8 @@ page_sections:
   margin_y: '50'
   margin_left: 40%
   margin_right: 0%
-  title_margin_y: 10%
-  title_margin_left: 0%
+  title_margin_y: 70%
+  title_margin_left: "-30%"
   title_margin_right: 0%
   text_size: 7xl
   line_height: normal
@@ -23,7 +23,7 @@ page_sections:
   title: 'BLOOMBERG '
   meta: America's New Climate Nomads Embrace Van Life to Save Energy
   attached_collection: collections/bloomberg-nomads.md
-  text_color: "#FFB1B1"
+  text_color: "#A8F5D2"
   font_weight: semibold
 - template: block-media-row
   block: media-row
