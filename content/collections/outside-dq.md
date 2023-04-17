@@ -1,5 +1,5 @@
 +++
-collection_archive = false
+collection_archive = true
 collection_awards = []
 collection_category = ["Sports + Athletes", "Editorial", "Portraits", "Environments", "Travel", "Reportage", "Color", "Uniquely American"]
 collection_content = "For the latest issue of _Outside Magazine_, I photographed travel, nature, conservation, and science writer David Quammen. Quammen’s 200+ editorial works have appeared in _National Geographic_, _Harper’s_, _The Atlantic_, _Rolling Stone_, _The New York Times_, and for 15 years penned a monthly column “Natural Acts” for _Outside Magazine_. We met up last fall for a round of golf while he was researching for his 16 book.\n\n“Golf is a concept, like death, seldom contemplated by the young” DQ opens with. Here Quammen touches on the beauty and merit of the game, the obvious irony of an environmentalist taking to the links, the history of golf courses in the landscape, and the lengths that contemporary courses are taking to be environmentally mindful.\n\nOn the course we talked about game 7 of the 2019 World Series, our shared love for golf, Bozeman winters, mutual friends at _National Geographic_, both growing up in the Midwest, and my anxieties of what I may see in my lifetime due to climate change. A version of those anxieties are on display today as we navigate a new world and reality. Quammen also specializes in research on animal to human disease transmission and the author of _Spillover: Animal Infections and the Next Human Pandemic_, _Ebola: The Natural and Human History of a Deadly Virus_, and is currently offering his insights on COVID-19 to _NPR_, _Orion_, _The New York Times_, _The Hill_, and _Scientific American_."
@@ -23,6 +23,9 @@ slug = "collections/outside-magazine-dq"
 theme_color = "#CFDDE5"
 theme_color_all_works = "#9BFFA2"
 title = "Outside Magazine"
+[seo]
+meta_description = "West Coast Commercial Photographer Jesse Rieser photographs David Quammen for Outside Magazine while playing a round of golf. "
+meta_title = "David Quammen for \"Outside\"by Photographer Jesse Rieser"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"

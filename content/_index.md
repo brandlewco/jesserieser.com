@@ -5,13 +5,38 @@ date: 2017-11-01T23:00:00.000+00:00
 page_sections:
 - template: block-media-feature
   block: media-feature
+  width: '45'
+  align_y: start
+  margin_y: '50'
+  margin_left: 40%
+  margin_right: 0%
+  title_margin_y: 15%
+  title_margin_left: "-25%"
+  title_margin_right: 0%
+  text_size: 7xl
+  line_height: normal
+  text_alignment: left
+  text_tracking: normal
+  meta_align: right
+  image: https://d1sf55qlb7p6hz.cloudfront.net/nomads-5.jpg
+  color: "#D6BFE9"
+  title: 'BLOOMBERG '
+  meta: America's New Climate Nomads Embrace Van Life to Save Energy
+  attached_collection: collections/bloomberg-nomads.md
+  text_color: "#F5A8A8"
+  font_weight: semibold
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
+- template: block-media-feature
+  block: media-feature
   width: '33'
   align_y: start
   margin_y: '100'
   margin_left: 25%
   margin_right: 0%
   title_margin_y: 25%
-  title_margin_left: 60%
+  title_margin_left: 65%
   title_margin_right: 0%
   text_size: 8xl
   line_height: normal
@@ -21,13 +46,10 @@ page_sections:
   color: "#CDF0D6"
   meta: 'Kari Lake: Face of the New Maga Right'
   attached_collection: collections/time-kari-lake.md
-  text_color: "#FFD49B"
+  text_color: "#A6CDEC"
   font_weight: semibold
-  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-lake_covers-10.jpg
+  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-time-lake-6.jpg
   title: TIME
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -828,6 +850,28 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: between
+- template: block-media-feature
+  block: media-feature
+  width: '33'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  title_margin_y: 35%
+  title_margin_left: 0%
+  title_margin_right: 0%
+  text_size: 2xl
+  line_height: normal
+  text_alignment: left
+  text_tracking: normal
+  font_weight: []
+  meta_align: left
+  image: ''
+  color: ''
+  title: ''
+  meta: ''
+  attached_collection: ''
+  text_color: ''
 home_theme_color: "#EDDDDE"
 collection_description: A student of subtleties.
 collection_content: ''

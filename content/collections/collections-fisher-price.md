@@ -1,5 +1,5 @@
 +++
-collection_archive = false
+collection_archive = true
 collection_category = ["Studio", "Kids", "Advertising", "Color", "Humor", "Still Life + Details", "Advertising", "Reportage", "Still Life + Details", "Environments", "Portraits"]
 collection_content = ""
 collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/wk_fisher-horizontalthumbs-1.jpg"
@@ -21,6 +21,9 @@ slug = "collections/fisher-price"
 theme_color = "#E0AADC"
 theme_color_all_works = "#FFE27A"
 title = "Fisher Price: Play is a Place "
+[seo]
+meta_description = "Phoenix and Los Angeles Commercial Photographer Jesse Rieser photographs John Goodman for Wieden+Kennedy's latest Fisher Price campaign at Universal Studios "
+meta_title = "Fisher Price by Photographer Jesse Rieser for Wieden+Kennedy"
 [[collection_awards]]
 content = "**2019**  \nAP 35: American Photography Annual 35  \nBest Personal Work Series:  \n\"Phoenix: A Dystopian Legoland That Tastes Like Candy\""
 template = "popup-text-element"

@@ -1,5 +1,5 @@
 +++
-collection_archive = false
+collection_archive = true
 collection_awards = []
 collection_category = ["Studio", "Advertising", "Workplace", "Conceptual", "Portraits", "Color"]
 collection_content = ""
@@ -24,6 +24,9 @@ slug = "collections/Banner-Mullen"
 theme_color = "#FFB5BD"
 theme_color_all_works = "#9FF4B8"
 title = "Banner Health: Significance "
+[seo]
+meta_description = "Phoenix and Los Angeles Commercial Photographer Jesse Rieser shoots the latest \"Significance\" Campaign for Banner Health with Mullen Lowe Agency"
+meta_title = "Banner  Health \"Significance\" by Photographer Jesse Rieser"
 [[collection_layout_builder]]
 align_x = "start"
 block = "media-element"

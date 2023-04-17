@@ -2,10 +2,10 @@
 collection_archive = false
 collection_awards = []
 collection_category = ["Editorial", "Reportage", "Color", "Environments", "Portraits"]
-collection_content = ""
+collection_content = "Photographed at the WM Phoenix Open's infamous 16th hole, these works are a confluence of my sport photography and my explorations of uniquely American traditions and rituals. ⁠\n\nAs a golf fan, the 16h hole feels like a surreal fever dream. This unique fan experience, paired with a game that is quiet and meditative is paradoxical and atypical.⁠\n\n“THE 16TH HOLE at the Waste Management, which really is what locals call “the tournament,” that or the WM, is like an oasis of Coors Light in the Desert Southwest. It's a total anomaly on the PGA Tour, the one place where golf's whispered tones and dignified applause get flushed right down the port-a-potty, replaced by undignified trolling and ambitious cosplay. Over the past quarter-century, the 16th has cemented its reputation as \"the greatest party on grass.\" This is golf at its Happiest Gilmore.⁠\n\n⁠No one at this entire tournament has a more futile job than the guys holding the QUIET PLEASE signs at the 16th hole. It's impossible to silence drunk people in silly costumes. They came here specifically to be incorrigible. Golf typically doesn't do silly costumes -- most fans tend to show up dressed like the players -- but the bleacher creatures at 16 are the exception.\" ⁠- Devin Gordon"
 collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/wm_horizontal-1b.jpg"
 collection_cover_mobile = "https://d1sf55qlb7p6hz.cloudfront.net/wm_vertical-1.jpg"
-collection_description = ""
+collection_description = "Photographed at the WM Phoenix Open's infamous 16th hole, these works are a confluence of my sport photography and my explorations of uniquely American traditions and rituals. ⁠\n\nAs a golf fan, the 16h hole feels like a surreal fever dream. This unique fan experience, paired with a game that is quiet and meditative is paradoxical and atypical.⁠"
 collection_description_alignment = "center"
 collection_exhibition = []
 collection_filter = "Commissioned + Stock"
