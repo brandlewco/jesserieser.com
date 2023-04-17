@@ -11,7 +11,7 @@ page_sections:
   margin_left: 25%
   margin_right: 0%
   title_margin_y: 25%
-  title_margin_left: 60%
+  title_margin_left: 65%
   title_margin_right: 0%
   text_size: 8xl
   line_height: normal
@@ -21,7 +21,7 @@ page_sections:
   color: "#CDF0D6"
   meta: 'Kari Lake: Face of the New Maga Right'
   attached_collection: collections/time-kari-lake.md
-  text_color: "#FFD49B"
+  text_color: "#A6CDEC"
   font_weight: semibold
   image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-time-lake-6.jpg
   title: TIME
