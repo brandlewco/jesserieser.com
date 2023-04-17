@@ -22,7 +22,7 @@ navigation_theme = "white"
 px_extra = true
 row_alignment = "between"
 slug = "collections/bloomberg-nomads"
-theme_color = "#F9DC93"
+theme_color = "#F9E482"
 theme_color_all_works = ""
 title = "Bloomberg Green"
 [seo]
