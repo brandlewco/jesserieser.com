@@ -23,7 +23,7 @@ page_sections:
   attached_collection: collections/time-kari-lake.md
   text_color: "#FFD49B"
   font_weight: semibold
-  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-lake_covers-10.jpg
+  image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-time-lake-6.jpg
   title: TIME
 - template: block-media-row
   block: media-row
