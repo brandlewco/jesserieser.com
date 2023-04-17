@@ -7,6 +7,31 @@ page_sections:
   block: media-feature
   width: '33'
   align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  title_margin_y: 35%
+  title_margin_left: 0%
+  title_margin_right: 0%
+  text_size: 2xl
+  line_height: normal
+  text_alignment: left
+  text_tracking: normal
+  meta_align: left
+  image: https://d1sf55qlb7p6hz.cloudfront.net/nomads-5.jpg
+  color: "#D6BFE9"
+  title: Bloomberg Green
+  meta: America's New Climate Nomads Embrace Van Life to Save Energy
+  attached_collection: collections/bloomberg-nomads.md
+  text_color: "#FFB1B1"
+  font_weight: ''
+- template: block-media-row
+  block: media-row
+  row_alignment: ''
+- template: block-media-feature
+  block: media-feature
+  width: '33'
+  align_y: start
   margin_y: '100'
   margin_left: 25%
   margin_right: 0%
@@ -25,9 +50,6 @@ page_sections:
   font_weight: semibold
   image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-time-lake-6.jpg
   title: TIME
-- template: block-media-row
-  block: media-row
-  row_alignment: ''
 - template: block-media-row
   block: media-row
   row_alignment: ''
@@ -828,6 +850,28 @@ page_sections:
 - template: block-media-row
   block: media-row
   row_alignment: between
+- template: block-media-feature
+  block: media-feature
+  width: '33'
+  align_y: start
+  margin_y: '50'
+  margin_left: 0%
+  margin_right: 0%
+  title_margin_y: 35%
+  title_margin_left: 0%
+  title_margin_right: 0%
+  text_size: 2xl
+  line_height: normal
+  text_alignment: left
+  text_tracking: normal
+  font_weight: []
+  meta_align: left
+  image: ''
+  color: ''
+  title: ''
+  meta: ''
+  attached_collection: ''
+  text_color: ''
 home_theme_color: "#EDDDDE"
 collection_description: A student of subtleties.
 collection_content: ''
