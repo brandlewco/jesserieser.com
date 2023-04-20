@@ -6,7 +6,7 @@ collection_content = ""
 collection_cover = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-lake_covers-8.jpg"
 collection_cover_mobile = "https://d1sf55qlb7p6hz.cloudfront.net/rieser-lake_covers-9.jpg"
 collection_description = "Lake has parlayed what may matter most in today’s Republican Party—the ability to captivate an audience—into a startling political ascent. Election results show her locked in a dead heat with Democrat Katie Hobbs in the race to lead a key battleground state."
-collection_description_alignment = "left"
+collection_description_alignment = "center"
 collection_exhibition = []
 collection_filter = "Commissioned + Stock"
 collection_hidden = false
@@ -22,7 +22,7 @@ navigation_theme = "white"
 px_extra = true
 row_alignment = "between"
 slug = "collections/time-lake"
-theme_color = "#CEFAE5"
+theme_color = "#BAE4D2"
 theme_color_all_works = ""
 title = "Time Magazine"
 [seo]
