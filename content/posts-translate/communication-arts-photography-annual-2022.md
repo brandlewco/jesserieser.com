@@ -1,0 +1,154 @@
+---
+attached_collection: collections/antoine-s-escalaras.md
+attached_link: 
+block_aspect_ratio: ratio-5x4
+blog_block_cover: https://d1sf55qlb7p6hz.cloudfront.net/rieser-ca_esc-1.jpg
+blog_header: 
+caption: "Antoine’s Escalaras \_"
+content: >-
+  Beyond thrilled to share that [**_Antoine’s
+  Escalara_s**](https://jesserieser.com/collections/escalaras) has been
+  recognized in this year’s [**_Communication Arts Photo
+  Annual_**](https://www.commarts.com/project/34295/antoine-s-escalaras).
+
+
+  This new photo and film hybrid project marries my environmental architectural
+  sensibilities with my sport photographic works.
+
+
+  Congrats to the fellow winners and thank you to the judges: Mike Davis**,**
+  visual storytelling consultant/photo editor/educator/author, Minneapolis, MN  
+
+  Jennifer Dorn**,** photo director, _Variety_, Los Angeles, CA  
+
+  Luis Paulo Gatti**,** creative director/head of art/teacher, Stuttgart,
+  Germany  
+
+  Natalia Jiménez**,** picture editor, the _Washington Post_, Washington, DC  
+
+  Marcia Minter**,** co-founder/executive director, Indigo Arts Alliance,
+  Portland, MA  
+
+  Nikki Ormerod**,** director/photographer/partner, Undivided Creative, Toronto,
+  Canada  
+
+  Adrienne Pao**,** photographer/creative director/director of Academy of Art
+  University School of Photography, San Francisco Bay Area, CA  
+
+  David Roennfeldt**,** founder/creative director, 3 Deep Design, Melbourne,
+  Australia  
+
+  Marcus Smith**,** photographer/director, Chicago, IL  
+
+  Steve Wallington, creative director and co-founder, the Photography Movement,
+  London, United Kingdom
+date: 
+news_category:
+  - awards
+theme_color: FABDC2
+title: Communication Arts Photography Annual 2022
+seo:
+  meta_description: 
+  meta_title: 
+post_blocks:
+  - _bookshop_name: posts/media-element-static
+    caption: 
+    image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-ca_esc-6.jpg
+    template: block-media-element-static
+    width: 50
+  - _bookshop_name: posts/media-element-static
+    caption: 
+    image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-ca_esc-7.jpg
+    template: block-media-element-static
+    width: 50
+  - block: media-row-static
+    template: block-media-row-static
+  - _bookshop_name: posts/media-element-static
+    caption: 
+    image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-ca_esc-8.jpg
+    template: block-media-element-static
+    width: 33
+  - _bookshop_name: posts/media-element-static
+    caption: 
+    image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-ca_esc-9.jpg
+    template: block-media-element-static
+    width: 33
+  - _bookshop_name: posts/media-element-static
+    caption: 
+    image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-ca_esc-10.jpg
+    template: block-media-element-static
+    width: 33
+  - block: media-row-static
+    template: block-media-row-static
+  - _bookshop_name: posts/media-element-static
+    caption: 
+    image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-ca_esc-12.jpg
+    template: block-media-element-static
+    width: 33
+  - _bookshop_name: posts/media-element-static
+    caption: 
+    image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-ca_esc-13.jpg
+    template: block-media-element-static
+    width: 33
+  - _bookshop_name: posts/media-element-static
+    caption: 
+    image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-ca_esc-11.jpg
+    template: block-media-element-static
+    width: 33
+  - block: media-row-static
+    template: block-media-row-static
+  - _bookshop_name: posts/media-element-static
+    caption: 
+    image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-ca_esc-19.jpg
+    template: block-media-element-static
+    width: 40
+  - _bookshop_name: posts/media-element-static
+    caption: 
+    image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-ca_esc-18.jpg
+    template: block-media-element-static
+    width: 60
+  - block: media-row-static
+    template: block-media-row-static
+  - block: media-row-static
+    template: block-media-row-static
+  - _bookshop_name: posts/media-element-static
+    caption: 
+    image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-ca_esc-20.jpg
+    template: block-media-element-static
+    width: 33
+  - _bookshop_name: posts/media-element-static
+    caption: 
+    image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-ca_esc-21.jpg
+    template: block-media-element-static
+    width: 33
+  - _bookshop_name: posts/media-element-static
+    caption: 
+    image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-ca_esc-17.jpg
+    template: block-media-element-static
+    width: 33
+  - block: media-row-static
+    template: block-media-row-static
+  - _bookshop_name: posts/media-element-static
+    caption: 
+    image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-ca_esc-15.jpg
+    template: block-media-element-static
+    width: 50
+  - _bookshop_name: posts/media-element-static
+    caption: 
+    image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-ca_esc-14.jpg
+    template: block-media-element-static
+    width: 50
+blog_slider:
+  - _bookshop_name: posts/media-element-url
+    image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-ca_esc-3.jpg
+    template: block-media-element-url
+  - _bookshop_name: posts/media-element-url
+    image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-ca_esc-2.jpg
+    template: block-media-element-url
+  - _bookshop_name: posts/media-element-url
+    image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-ca_esc-4.jpg
+    template: block-media-element-url
+  - _bookshop_name: posts/media-element-url
+    image: https://d1sf55qlb7p6hz.cloudfront.net/rieser-ca_esc-5.jpg
+    template: block-media-element-url
+---

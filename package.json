@@ -15,7 +15,7 @@
     "prebuild": "rimraf dist",
     "build": "npm run build:webpack && npm run build:hugo",
     "build:preview": "npm run build:webpack && npm run build:hugo:preview",
-    "build:hugo": "hugo -d dist -v --minify --baseURL=https://jesserieser.com",
+    "build:hugo": "hugo -d dist -v --minify --baseURL=https://jesserieser.brandlew.co",
     "build:hugo:preview": "npm run build:hugo -- -D -F ",
     "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.prod.js --hot --inline",
     "build:forestry": "npm run build:forestry:webpack && npm run build:forestry:preview",
